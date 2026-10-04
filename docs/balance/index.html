@@ -1,0 +1,623 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="icon" type="image/png" href="../../assets/img/favicon.png">
+</head>
+<body>
+<title>Terran Balance</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: informe de una columna (~70ch) con tablas anchas que desbordan en su propio contenedor; índice lateral en escritorio. */
+:root {
+  --bg: #eef1f4; --surface: #ffffff; --ink: #17212c; --muted: #5a6776; --line: #d3dae2;
+  --accent: #b5620f; --accent-soft: #f6e6d3;
+  --hi-bg: #d5efe2; --hi-fg: #0f5a37;
+  --mh-bg: #e6f1d6; --mh-fg: #3c5a12;
+  --md-bg: #f7ecd2; --md-fg: #6b4a07;
+  --ml-bg: #f8dfcf; --ml-fg: #7a3410;
+  --lo-bg: #f6d3d3; --lo-fg: #8a1c1c;
+  --na-bg: #eceff2; --na-fg: #9aa5b1;
+  --chg: #fff6e8;
+  --f-display: "Chakra Petch", "Arial Narrow", sans-serif;
+  --f-body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0d131a; --surface: #141c25; --ink: #e2e8ee; --muted: #94a2b1; --line: #2a3644;
+  --accent: #f0a24a; --accent-soft: #3a2a17;
+  --hi-bg: #123d2b; --hi-fg: #8fe0b6; --mh-bg: #26381a; --mh-fg: #c3e39a;
+  --md-bg: #3d3115; --md-fg: #f1d48d; --ml-bg: #45261a; --ml-fg: #f4b58f;
+  --lo-bg: #4a1d1f; --lo-fg: #f7a7a7; --na-bg: #1b242e; --na-fg: #5d6b79; --chg: #2c2416;
+  color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #0d131a; --surface: #141c25; --ink: #e2e8ee; --muted: #94a2b1; --line: #2a3644;
+  --accent: #f0a24a; --accent-soft: #3a2a17;
+  --hi-bg: #123d2b; --hi-fg: #8fe0b6; --mh-bg: #26381a; --mh-fg: #c3e39a;
+  --md-bg: #3d3115; --md-fg: #f1d48d; --ml-bg: #45261a; --ml-fg: #f4b58f;
+  --lo-bg: #4a1d1f; --lo-fg: #f7a7a7; --na-bg: #1b242e; --na-fg: #5d6b79; --chg: #2c2416;
+  color-scheme: dark; }
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font: 15px/1.6 var(--f-body); }
+.wrap { max-width: 1180px; margin: 0 auto; padding-inline: 20px; padding-block: 32px 80px; display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 40px; }
+@media (max-width: 900px) { .wrap { grid-template-columns: minmax(0,1fr); gap: 16px; padding-inline: 16px; } nav.toc { position: static !important; } }
+nav.toc { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 20px); align-self: start; font-size: 13px; }
+nav.toc b { font: 600 11px/1 var(--f-display); letter-spacing: .14em; text-transform: uppercase; color: var(--muted); display: block; margin-bottom: 10px; }
+nav.toc ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+nav.toc a { color: var(--ink); text-decoration: none; border-left: 2px solid var(--line); padding-left: 10px; display: block; }
+nav.toc a:hover, nav.toc a:focus-visible { border-color: var(--accent); color: var(--accent); outline: none; }
+main { min-width: 0; display: grid; gap: 56px; }
+header.top { display: grid; gap: 10px; }
+.eyebrow { font: 600 12px/1 var(--f-display); letter-spacing: .18em; text-transform: uppercase; color: var(--accent); }
+h1 { font: 700 clamp(30px, 5vw, 46px)/1.05 var(--f-display); margin: 0; letter-spacing: .01em; text-wrap: balance; }
+h2 { font: 600 26px/1.15 var(--f-display); margin: 0 0 14px; text-wrap: balance; }
+h3 { font: 600 19px/1.2 var(--f-display); margin: 0; }
+h4 { font: 600 15px/1.3 var(--f-body); margin: 18px 0 6px; }
+p, li { max-width: 72ch; }
+p { margin: 0 0 12px; }
+.lead { font-size: 17px; color: var(--muted); max-width: 70ch; }
+section > p:last-child { margin-bottom: 0; }
+.decisions { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin-top: 8px; }
+.decisions div { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 12px 14px; display: grid; gap: 4px; }
+.decisions span { font: 600 11px/1 var(--f-display); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+.decisions strong { font-weight: 600; }
+.scroll { overflow-x: auto; margin: 14px 0; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); }
+table { border-collapse: collapse; width: 100%; font-variant-numeric: tabular-nums; }
+th, td { padding: 8px 10px; text-align: left; vertical-align: top; border-bottom: 1px solid var(--line); }
+thead th { font: 600 12px/1.2 var(--f-display); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); background: var(--surface); }
+td.n, th.n { text-align: right; font-family: var(--f-mono); font-size: 13px; }
+td.note { color: var(--muted); font-size: 13px; }
+table.data { font-size: 14px; min-width: 900px; }
+.matrix { min-width: 860px; font-size: 13px; }
+.matrix th.corner { font: 500 11px/1.3 var(--f-body); text-transform: none; letter-spacing: 0; color: var(--muted); }
+.matrix thead th { text-align: center; }
+.matrix .tn { display: block; color: var(--ink); }
+.matrix .tm { display: block; font: 400 11px/1.3 var(--f-body); text-transform: none; letter-spacing: 0; color: var(--muted); margin-top: 3px; }
+.matrix tbody th { min-width: 210px; font-weight: 400; }
+.matrix .wn { display: block; font-weight: 600; }
+.matrix .wm { display: block; font-size: 11.5px; color: var(--muted); }
+.h { text-align: center; font-family: var(--f-mono); border-left: 1px solid var(--surface); }
+.h b { display: block; font-weight: 500; font-size: 14px; }
+.h small { display: block; font-size: 11px; opacity: .8; }
+.h.hi { background: var(--hi-bg); color: var(--hi-fg); }
+.h.mh { background: var(--mh-bg); color: var(--mh-fg); }
+.h.md { background: var(--md-bg); color: var(--md-fg); }
+.h.ml { background: var(--ml-bg); color: var(--ml-fg); }
+.h.lo { background: var(--lo-bg); color: var(--lo-fg); }
+.h.na { background: var(--na-bg); color: var(--na-fg); }
+.prof { min-width: 520px; }
+.ttk { min-width: 760px; }
+.legend { display: flex; flex-wrap: wrap; gap: 8px 16px; font-size: 13px; color: var(--muted); margin: 8px 0 0; }
+.legend i { display: inline-block; width: 14px; height: 14px; border-radius: 3px; vertical-align: -2px; margin-right: 6px; }
+.legend .hi { background: var(--hi-bg); } .legend .md { background: var(--md-bg); } .legend .lo { background: var(--lo-bg); } .legend .na { background: var(--na-bg); }
+.callout { border-left: 3px solid var(--accent); background: var(--accent-soft); padding: 12px 16px; border-radius: 0 6px 6px 0; margin: 14px 0; max-width: 78ch; }
+.callout p:last-child { margin: 0; }
+ul.find { padding-left: 20px; display: grid; gap: 6px; margin: 0; }
+.units { display: grid; gap: 28px; }
+.unit header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px; margin-bottom: 6px; }
+.unit .cls { font: 500 12px/1 var(--f-mono); color: var(--accent); }
+.unit > p { color: var(--muted); margin-bottom: 0; }
+table.cmp { font-size: 14px; min-width: 640px; }
+table.cmp th[scope=row] { font-weight: 500; width: 26%; }
+table.cmp td { width: 37%; }
+table.cmp tr.same td { color: var(--muted); }
+table.cmp tr.chg td:last-child { background: var(--chg); font-weight: 500; }
+ol.q { padding-left: 0; list-style: none; counter-reset: q; display: grid; gap: 12px; margin: 0; }
+ol.q li { counter-increment: q; background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 12px 14px 12px 52px; position: relative; max-width: none; }
+ol.q li::before { content: counter(q); position: absolute; left: 14px; top: 12px; font: 600 15px/1 var(--f-display); color: var(--accent); width: 26px; text-align: right; }
+ol.q li b { display: block; margin-bottom: 2px; }
+ol.q li em { color: var(--muted); font-style: normal; display: block; margin-top: 4px; font-size: 14px; }
+ol.q li em::before { content: "Proposal: "; font-weight: 600; color: var(--accent); }
+ol.q li em.ok::before { content: "Resolved: "; color: var(--hi-fg); }
+ol.q li em.new::before { content: "New proposal: "; color: var(--accent); }
+ol.q li em.idea::before { content: "Idea to confirm: "; color: var(--muted); }
+.grp.sub { font-size: 11px; margin-top: 14px; opacity: .85; }
+.grp { font: 600 12px/1 var(--f-display); letter-spacing: .14em; text-transform: uppercase; color: var(--muted); margin: 22px 0 10px; }
+code { font-family: var(--f-mono); font-size: 13px; background: var(--na-bg); padding: 1px 5px; border-radius: 3px; }
+@page { size: A4; margin: 14mm 12mm; }
+@media print {
+  body { font-size: 10.5pt; background: #fff; }
+  .wrap { display: block; max-width: none; padding: 0; }
+  nav.toc { display: none; }
+  main { gap: 26px; }
+  .scroll { overflow: visible; border: 1px solid var(--line); }
+  table.data, .matrix, .prof, .ttk, table.cmp { min-width: 0 !important; }
+  .matrix { font-size: 8pt; }
+  .matrix tbody th { min-width: 0; }
+  .matrix th, .matrix td { padding: 4px 3px; }
+  .h b { font-size: 8.5pt; } .h small { font-size: 7pt; }
+  table.data { font-size: 9pt; }
+  tr, .unit header, ol.q li, .decisions div, .callout { break-inside: avoid; }
+  h2, h3, h4 { break-after: avoid; }
+  section { break-inside: auto; }
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+}
+@media (prefers-reduced-motion: no-preference) { nav.toc a { transition: color .15s, border-color .15s; } }
+table.bld { min-width: 760px; }
+table.bld td.n { white-space: nowrap; }
+table.bld tr.chg td:nth-child(3) { background: var(--chg); }
+table.bld .note { color: var(--muted); font-size: 13px; }
+.tag-ok { display:inline-block; font-size:.75em; font-weight:600; padding:.1em .55em; border-radius:999px; background:var(--hi-bg); color:var(--hi-fg); vertical-align:.1em; }
+</style>
+<div class="wrap">
+<nav class="toc" aria-label="Contents">
+  <b>Contents</b>
+  <p style="margin:6px 0 10px"><a href="../balanceo/">Español</a></p>
+  <ol>
+    <li><a href="#resumen">Summary</a></li>
+    <li><a href="#hallazgos">Issues in the sheets</a></li>
+    <li><a href="#clases">Classes</a></li>
+    <li><a href="#matriz">Damage matrix</a></li>
+    <li><a href="#pa">AP economy</a></li>
+    <li><a href="#energia">Energy and purchases</a></li>
+    <li><a href="#armas">Weapons, vision and range</a></li>
+    <li><a href="#combate">Combat check</a></li>
+    <li><a href="#edificios">Building health</a></li>
+    <li><a href="#unidades">Unit by unit</a></li>
+    <li><a href="#servidor">Server changes</a></li>
+    <li><a href="#preguntas">Questions</a></li>
+  </ol>
+</nav>
+<main>
+<header class="top" id="resumen">
+  <span class="eyebrow">Axiom Wars · Terran Faction · proposal v11</span>
+  <h1>Balancing the Terran units</h1>
+  <p class="lead">An analysis of the 9 unit sheets checked against the current server, a proposed set of numbers for every weapon and ability, and the questions still open. None of this touches code: if the proposal is approved, it will be carried over to the sheets.</p>
+  <div class="decisions">
+    <div><span>AP</span><strong>Per individual, for movement and attacks</strong></div>
+    <div><span>Levels</span><strong>Weapons and abilities stack</strong></div>
+    <div><span>Classes</span><strong>Light / Medium / Heavy + air domain</strong></div>
+    <div><span>Speed</span><strong>AP cost per tile and individual</strong></div>
+  </div>
+  <div class="callout"><p><b>Core idea.</b> Every armor class has weapons that deal full damage to it and weapons that barely scratch it (30%). That way the question every turn is always the same: “what's in front of me and which weapon breaks it?”. The numbers below are tuned so that the right unit against its target is 2–3 times more efficient per AP than the wrong one.</p></div>
+</header>
+
+<section id="hallazgos">
+  <h2>Issues in the current sheets</h2>
+  <p>The most important things found when reading the 9 sheets together, with each one's numbers:</p>
+  <ul class="find">
+    <li><b>Rifle range.</b> It reaches 8 tiles (Missile launcher 6, Machine gun 5, Raptor's Burst 4). It makes sense for it to be the longest-range infantry weapon thanks to the telescopic sight, but 8 exceeds the vision of almost every unit.</li>
+    <li><b>The Mech barely attacks.</b> Its only ground weapon can be used once every 3 turns (Flamethrower at G2, Freezergun at G3). Two turns out of three, a heavy unit costing 300 E + 50 steel cannot fire. On top of that the Flamethrower deals 20, the same as a Military's Machine gun.</li>
+    <li><b>Damage on different scales.</b> “× individual”, “per unit”, “per burst”, “per mine” and “50 damage” with no unit. The Raptor's Burst (250 for 3 AP, 83 per AP) is 8 times more efficient than the Rifle (10 per AP).</li>
+    <li><b>With AP per individual, some costs are unaffordable.</b> Anti-air costs 5 AP per individual: a troop of 8 Mechs would spend 40 AP (twice what a Government 2 gives today). Reflector shield costs 250 E per individual: 2000 E for 8 Mechs.</li>
+    <li><b>The Raptor carries 20 and the APC 10 (15 with Capacity+).</b> The transport vehicle loses its reason to exist next to the fighter, which also flies and attacks.</li>
+    <li><b>The Raptor is an air unit but is “Blocked by: Water, Mountain”</b>, and it is Heavy class, just like the Mech.</li>
+    <li><b>Areas with no center tile.</b> 2x2 (Flamethrower, Gas, EMP) and 4x4 (Quantum bomb) have no center. The Bomb says “100% on the center tile, −25% per tile”, which only works with odd-sized areas.</li>
+    <li><b>Quantum bomb cost: “500 damage”.</b> It is probably the damage, not the cost.</li>
+    <li><b>Inconsistent profiles.</b> The Rifle has 2 percentages (the Medium ones are missing). Mines are AntiLight, but the description says “against every kind of unit”.</li>
+    <li><b>Turbo: 200 fuel per use.</b> You start with 100 and a Refinery produces 30 per worker per turn.</li>
+    <li><b>Missing durations:</b> Camouflage, Stim, Reflector shield, Turbo.</li>
+    <li><b>Two abilities do the same thing:</b> the Droid's Shield+ (+50% shields) and the Scientist's Shield Aura (+25%). The auras say “3x3 target area”, but a passive is not cast on any spot.</li>
+    <li><b>Strength+ and Strength++ add +50 health:</b> a G3 Military would have 100, the same health as the current Mech.</li>
+    <li><b>The APC has the same health and shield as a Military (50 / 50)</b> despite being an armored vehicle.</li>
+    <li><b>Speed and Armor are blank on every sheet.</b> Explorer, Droid and Scientist have no stats.</li>
+  </ul>
+</section>
+
+<section id="clases">
+  <h2>Classes: armor, domain and nature</h2>
+  <p>Today the server only distinguishes Light and Heavy, and every building counts as Heavy. The sheets add Medium and air units, but mix everything into a single label. The proposal is three independent axes, each with a clear job:</p>
+  <div class="scroll"><table class="data" style="min-width:640px">
+    <thead><tr><th>Axis</th><th>Values</th><th>What it decides</th></tr></thead>
+    <tbody>
+      <tr><td><b>Armor</b></td><td>Light · Medium · Heavy · Structure</td><td>The % of damage it takes depending on the weapon's profile (table below).</td></tr>
+      <tr><td><b>Domain</b></td><td>Ground · Air</td><td>Whether a weapon can reach it. Ground weapons don't hit air units; Air weapons only hit air units; Ground-to-Air hits both. Air units ignore water and mountains.</td></tr>
+      <tr><td><b>Nature</b> (new)</td><td>Organic · Mechanical</td><td>It only decides who Paralyzing gas affects (organic: people). EMP affects everything with a shield, units and buildings.</td></tr>
+    </tbody>
+  </table></div>
+  <h4>Proposed assignment</h4>
+  <div class="scroll"><table class="data" style="min-width:640px">
+    <thead><tr><th>Unit</th><th>Armor</th><th>Domain</th><th>Nature</th><th>Change</th></tr></thead>
+    <tbody>
+      <tr><td>Military, Scientist, Constructor, Worker</td><td>Light</td><td>Ground</td><td>Organic</td><td class="note">—</td></tr>
+      <tr><td>Explorer</td><td>Light</td><td>Ground</td><td>Mechanical</td><td class="note">—</td></tr>
+      <tr><td>Droid</td><td>Light</td><td>Air</td><td>Mechanical</td><td class="note">The description already said “air”</td></tr>
+      <tr><td>APC Transport</td><td>Medium</td><td>Ground</td><td>Mechanical</td><td class="note">—</td></tr>
+      <tr><td>Raptor</td><td><b>Medium</b></td><td>Air</td><td>Mechanical</td><td class="note">Previously Heavy</td></tr>
+      <tr><td>Mech</td><td>Heavy</td><td>Ground</td><td>Mechanical</td><td class="note">—</td></tr>
+      <tr><td>Buildings</td><td><b>Structure</b></td><td>Ground</td><td>—</td><td class="note">Previously Heavy</td></tr>
+    </tbody>
+  </table></div>
+  <p><b>Why the Raptor becomes Medium.</b> If it is Heavy, it shares its counter with the Mech and the Missile launcher kills both equally. As a Medium air unit it fits as a “fast vehicle”: anti-air weapons destroy it (the Mech's Anti-air, Air Defense) and the Missile launcher only does 60% to it. The Mech remains the only Heavy: slow, expensive and very tough, the natural target of the Missile launcher and the Burst.</p>
+  <p><b>Why Structure.</b> Separating buildings lets anti-personnel weapons (Rifle, Flamethrower, Turret) do very little to a building (25%). That way a siege needs siege weapons (Missile launcher, Burst, Bomb) instead of piling up Militaries.</p>
+  <h4>Proposed damage profiles</h4>
+  <p>Your current scale is 100 / 75 / 50. The proposal is a sharper one (100 / 60 / 30) so that choosing the right weapon really matters:</p>
+  <div class="scroll"><table class="matrix prof"><thead><tr><th class="corner">Profile</th><th>Light</th><th>Medium</th><th>Heavy</th><th>Structure</th></tr></thead><tbody><tr><th scope="row">AntiLight</th><td class="h hi"><b>100%</b></td><td class="h md"><b>60%</b></td><td class="h lo"><b>30%</b></td><td class="h lo"><b>25%</b></td></tr><tr><th scope="row">AntiMedium</th><td class="h md"><b>60%</b></td><td class="h hi"><b>100%</b></td><td class="h md"><b>60%</b></td><td class="h ml"><b>40%</b></td></tr><tr><th scope="row">AntiHeavy</th><td class="h lo"><b>30%</b></td><td class="h md"><b>60%</b></td><td class="h hi"><b>100%</b></td><td class="h hi"><b>100%</b></td></tr><tr><th scope="row">Explosive</th><td class="h hi"><b>100%</b></td><td class="h hi"><b>100%</b></td><td class="h mh"><b>75%</b></td><td class="h ml"><b>50%</b></td></tr></tbody></table></div>
+</section>
+
+<section id="matriz">
+  <h2>Damage matrix: weapon against unit</h2>
+  <p>Each cell shows the % of damage the weapon deals to that target and, below it, the effective damage per AP spent (per individual, not counting shields). Green means increased damage; red, reduced; gray, the weapon cannot reach it.</p>
+  <div class="scroll"><table class="matrix"><thead><tr><th class="corner">Weapon ↓ · target →</th><th scope="col"><span class="tn">Military</span><span class="tm">Light</span></th><th scope="col"><span class="tn">Scientist</span><span class="tm">Light</span></th><th scope="col"><span class="tn">Constructor</span><span class="tm">Light</span></th><th scope="col"><span class="tn">Explorer</span><span class="tm">Light</span></th><th scope="col"><span class="tn">Droid</span><span class="tm">Light · air</span></th><th scope="col"><span class="tn">APC</span><span class="tm">Medium</span></th><th scope="col"><span class="tn">Raptor</span><span class="tm">Medium · air</span></th><th scope="col"><span class="tn">Mech</span><span class="tm">Heavy</span></th><th scope="col"><span class="tn">Building</span><span class="tm">Structure</span></th></tr></thead><tbody><tr><th scope="row"><span class="wn">Rifle</span><span class="wm">Military · G1 · Ground · AntiLight</span></th><td class="h hi"><b>100%</b><small>20/AP</small></td><td class="h hi"><b>100%</b><small>20/AP</small></td><td class="h hi"><b>100%</b><small>20/AP</small></td><td class="h hi"><b>100%</b><small>20/AP</small></td><td class="h na"><b>—</b></td><td class="h md"><b>60%</b><small>12/AP</small></td><td class="h na"><b>—</b></td><td class="h lo"><b>30%</b><small>6/AP</small></td><td class="h lo"><b>25%</b><small>5/AP</small></td></tr><tr><th scope="row"><span class="wn">Triple shot</span><span class="wm">Military · G1 · Ground · AntiLight</span></th><td class="h hi"><b>100%</b><small>30/AP</small></td><td class="h hi"><b>100%</b><small>30/AP</small></td><td class="h hi"><b>100%</b><small>30/AP</small></td><td class="h hi"><b>100%</b><small>30/AP</small></td><td class="h na"><b>—</b></td><td class="h md"><b>60%</b><small>18/AP</small></td><td class="h na"><b>—</b></td><td class="h lo"><b>30%</b><small>9/AP</small></td><td class="h lo"><b>25%</b><small>8/AP</small></td></tr><tr><th scope="row"><span class="wn">Missile launcher</span><span class="wm">Military · G2 · Ground-to-Air · AntiHeavy</span></th><td class="h lo"><b>30%</b><small>6/AP</small></td><td class="h lo"><b>30%</b><small>6/AP</small></td><td class="h lo"><b>30%</b><small>6/AP</small></td><td class="h lo"><b>30%</b><small>6/AP</small></td><td class="h lo"><b>30%</b><small>6/AP</small></td><td class="h md"><b>60%</b><small>12/AP</small></td><td class="h md"><b>60%</b><small>12/AP</small></td><td class="h hi"><b>100%</b><small>20/AP</small></td><td class="h hi"><b>100%</b><small>20/AP</small></td></tr><tr><th scope="row"><span class="wn">Laser machine gun</span><span class="wm">Military · G3 · Ground · AntiMedium</span></th><td class="h md"><b>60%</b><small>11/AP</small></td><td class="h md"><b>60%</b><small>11/AP</small></td><td class="h md"><b>60%</b><small>11/AP</small></td><td class="h md"><b>60%</b><small>11/AP</small></td><td class="h na"><b>—</b></td><td class="h hi"><b>100%</b><small>18/AP</small></td><td class="h na"><b>—</b></td><td class="h md"><b>60%</b><small>11/AP</small></td><td class="h ml"><b>40%</b><small>7/AP</small></td></tr><tr><th scope="row"><span class="wn">Flamethrower</span><span class="wm">Mech · G2 · Ground · AntiLight</span></th><td class="h hi"><b>100%</b><small>30/AP</small></td><td class="h hi"><b>100%</b><small>30/AP</small></td><td class="h hi"><b>100%</b><small>30/AP</small></td><td class="h hi"><b>100%</b><small>30/AP</small></td><td class="h na"><b>—</b></td><td class="h md"><b>60%</b><small>18/AP</small></td><td class="h na"><b>—</b></td><td class="h lo"><b>30%</b><small>9/AP</small></td><td class="h lo"><b>25%</b><small>8/AP</small></td></tr><tr><th scope="row"><span class="wn">Freezergun</span><span class="wm">Mech · G3 · Ground · AntiMedium</span></th><td class="h md"><b>60%</b><small>3/AP</small></td><td class="h md"><b>60%</b><small>3/AP</small></td><td class="h md"><b>60%</b><small>3/AP</small></td><td class="h md"><b>60%</b><small>3/AP</small></td><td class="h na"><b>—</b></td><td class="h hi"><b>100%</b><small>5/AP</small></td><td class="h na"><b>—</b></td><td class="h md"><b>60%</b><small>3/AP</small></td><td class="h ml"><b>40%</b><small>2/AP</small></td></tr><tr><th scope="row"><span class="wn">Anti-air</span><span class="wm">Mech · G2 · Air · AntiMedium</span></th><td class="h na"><b>—</b></td><td class="h na"><b>—</b></td><td class="h na"><b>—</b></td><td class="h na"><b>—</b></td><td class="h md"><b>60%</b><small>18/AP</small></td><td class="h na"><b>—</b></td><td class="h hi"><b>100%</b><small>30/AP</small></td><td class="h na"><b>—</b></td><td class="h na"><b>—</b></td></tr><tr><th scope="row"><span class="wn">Turret</span><span class="wm">APC · G2 · Ground · AntiLight</span></th><td class="h hi"><b>100%</b><small>30/AP</small></td><td class="h hi"><b>100%</b><small>30/AP</small></td><td class="h hi"><b>100%</b><small>30/AP</small></td><td class="h hi"><b>100%</b><small>30/AP</small></td><td class="h na"><b>—</b></td><td class="h md"><b>60%</b><small>18/AP</small></td><td class="h na"><b>—</b></td><td class="h lo"><b>30%</b><small>9/AP</small></td><td class="h lo"><b>25%</b><small>8/AP</small></td></tr><tr><th scope="row"><span class="wn">Mines</span><span class="wm">APC · G3 · Ground · Explosive</span></th><td class="h hi"><b>100%</b><small>40/AP</small></td><td class="h hi"><b>100%</b><small>40/AP</small></td><td class="h hi"><b>100%</b><small>40/AP</small></td><td class="h hi"><b>100%</b><small>40/AP</small></td><td class="h na"><b>—</b></td><td class="h hi"><b>100%</b><small>40/AP</small></td><td class="h na"><b>—</b></td><td class="h mh"><b>75%</b><small>30/AP</small></td><td class="h na"><b>—</b></td></tr><tr><th scope="row"><span class="wn">Burst</span><span class="wm">Raptor · G3 · Ground-to-Air · AntiHeavy</span></th><td class="h lo"><b>30%</b><small>9/AP</small></td><td class="h lo"><b>30%</b><small>9/AP</small></td><td class="h lo"><b>30%</b><small>9/AP</small></td><td class="h lo"><b>30%</b><small>9/AP</small></td><td class="h lo"><b>30%</b><small>9/AP</small></td><td class="h md"><b>60%</b><small>18/AP</small></td><td class="h md"><b>60%</b><small>18/AP</small></td><td class="h hi"><b>100%</b><small>30/AP</small></td><td class="h hi"><b>100%</b><small>30/AP</small></td></tr><tr><th scope="row"><span class="wn">Quantum bomb</span><span class="wm">Raptor · G3 · Ground · Explosive</span></th><td class="h hi"><b>100%</b><small>50/AP</small></td><td class="h hi"><b>100%</b><small>50/AP</small></td><td class="h hi"><b>100%</b><small>50/AP</small></td><td class="h hi"><b>100%</b><small>50/AP</small></td><td class="h na"><b>—</b></td><td class="h hi"><b>100%</b><small>50/AP</small></td><td class="h na"><b>—</b></td><td class="h mh"><b>75%</b><small>38/AP</small></td><td class="h ml"><b>50%</b><small>25/AP</small></td></tr><tr><th scope="row"><span class="wn">Bite</span><span class="wm">Explorer · G1 · Ground · AntiLight</span></th><td class="h hi"><b>100%</b><small>25/AP</small></td><td class="h hi"><b>100%</b><small>25/AP</small></td><td class="h hi"><b>100%</b><small>25/AP</small></td><td class="h hi"><b>100%</b><small>25/AP</small></td><td class="h na"><b>—</b></td><td class="h md"><b>60%</b><small>15/AP</small></td><td class="h na"><b>—</b></td><td class="h lo"><b>30%</b><small>8/AP</small></td><td class="h lo"><b>25%</b><small>6/AP</small></td></tr><tr><th scope="row"><span class="wn">Ground Defense</span><span class="wm">Building · Bldg. · Ground · AntiLight</span></th><td class="h hi"><b>100%</b><small>40</small></td><td class="h hi"><b>100%</b><small>40</small></td><td class="h hi"><b>100%</b><small>40</small></td><td class="h hi"><b>100%</b><small>40</small></td><td class="h na"><b>—</b></td><td class="h md"><b>60%</b><small>24</small></td><td class="h na"><b>—</b></td><td class="h lo"><b>30%</b><small>12</small></td><td class="h lo"><b>25%</b><small>10</small></td></tr><tr><th scope="row"><span class="wn">Air Defense</span><span class="wm">Building · Bldg. · Air · AntiMedium</span></th><td class="h na"><b>—</b></td><td class="h na"><b>—</b></td><td class="h na"><b>—</b></td><td class="h na"><b>—</b></td><td class="h md"><b>60%</b><small>36</small></td><td class="h na"><b>—</b></td><td class="h hi"><b>100%</b><small>60</small></td><td class="h na"><b>—</b></td><td class="h na"><b>—</b></td></tr></tbody></table></div>
+  <div class="legend"><span><i class="hi"></i>100%: the right weapon</span><span><i class="md"></i>60–75%: acceptable</span><span><i class="lo"></i>25–30%: not worth it</span><span><i class="na"></i>cannot attack it (mode)</span></div>
+  <h4>Quick read: what breaks what</h4>
+  <ul class="find">
+    <li><b>Infantry (Light ground):</b> the Mech's Flamethrower, Rifle, Turret, Bite, Mines and Bomb.</li>
+    <li><b>APC (Medium ground):</b> Laser machine gun (Military G3), Freezergun, Mines, Bomb.</li>
+    <li><b>Raptor (Medium air):</b> the Mech's Anti-air and Air Defense; the Missile launcher does 60%.</li>
+    <li><b>Mech (Heavy):</b> Missile launcher and Burst. Anti-personnel weapons barely hurt it.</li>
+    <li><b>Buildings:</b> Missile launcher, Burst and, at half strength, the Bomb.</li>
+    <li><b>Droid (Light air):</b> only anti-air weapons can hit it, at 30–60%. It is hard to kill on purpose, because it doesn't attack and its value lies in the portal.</li>
+  </ul>
+</section>
+
+<section id="pa">
+  <h2>AP economy</h2>
+  <p>With AP per individual for movement and attacks, spending grows with the army. That is why income also comes from the army: <b>AP come from the Government level and from every unit you have</b>. Housing, Generators and military buildings give no AP. <span class="tag-ok">Approved</span></p>
+  <div class="scroll"><table class="data" style="min-width:560px">
+    <thead><tr><th>Source</th><th class="n">Today</th><th class="n">Proposal</th><th>What it pays for</th></tr></thead>
+    <tbody>
+      <tr><td>Government level 1</td><td class="n">10</td><td class="n">10</td><td class="note" rowspan="3">The economy: Constructor, building, producing, bartering. The jump to G2 makes up for G2 weapons costing 2 AP per individual.</td></tr>
+      <tr><td>Government level 2</td><td class="n">20</td><td class="n">20</td></tr>
+      <tr><td>Government level 3</td><td class="n">30</td><td class="n">25</td></tr>
+      <tr><td>Each Housing</td><td class="n">2</td><td class="n">0</td><td class="note">Civilian cap only.</td></tr>
+      <tr><td>Generator, Training Center, Factory, Launch Pad</td><td class="n">0</td><td class="n">0</td><td class="note">—</td></tr>
+    </tbody>
+  </table></div>
+  <h4>AP per unit (per individual per turn)</h4>
+  <p>Each unit gives roughly the AP it needs to act for one turn (move its typical distance and attack), without covering everything together with production and the economy.</p>
+  <div class="scroll"><table class="data" style="min-width:640px">
+    <thead><tr><th>Unit</th><th class="n">AP it gives</th><th>What acting for a turn costs it</th><th class="n">Covers</th></tr></thead>
+    <tbody>
+      <tr><td>Military</td><td class="n">3</td><td class="note">move 4 tiles (2) + Rifle 1 / Missile launcher 2</td><td class="n">75–100%</td></tr>
+      <tr><td>Mech</td><td class="n">5</td><td class="note">move 3 tiles (3) + weapon (2)</td><td class="n">100%</td></tr>
+      <tr><td>Raptor</td><td class="n">4</td><td class="note">move 6 tiles (3) + Burst (2)</td><td class="n">80%</td></tr>
+      <tr><td>APC</td><td class="n">2</td><td class="note">move 6 tiles (3) + Turret (1); passengers pay no movement</td><td class="n">50%</td></tr>
+      <tr><td>Explorer</td><td class="n">2</td><td class="note">move 8 tiles (2) + Bite (1)</td><td class="n">67%</td></tr>
+      <tr><td>Scientist</td><td class="n">2</td><td class="note">move 4 tiles (2) + ability every 3 turns (~1)</td><td class="n">67%</td></tr>
+      <tr><td>Droid</td><td class="n">3</td><td class="note">move 6 tiles (3) + occasional portal</td><td class="n">~75%</td></tr>
+      <tr><td>Constructor</td><td class="n">0</td><td class="note">The Government pays for it. That way it isn't worth keeping idle constructors just to collect AP.</td><td class="n">—</td></tr>
+      <tr><td>Worker</td><td class="n">0</td><td class="note">—</td><td class="n">—</td></tr>
+    </tbody>
+  </table></div>
+  <h4>Rules</h4>
+  <ul>
+    <li><b>From the next round.</b> A unit gives AP starting the turn after it is created: producing and spending in the same turn doesn't pay off.</li>
+    <li><b>Paralyzed or frozen, it gives no AP.</b> Paralyzing gas and Freezergun also cut the rival's AP that turn.</li>
+    <li><b>One troop per turn at each military building</b>, of the level's maximum size (e.g. 5 militaries at G1).</li>
+    <li><b>No artificial caps.</b> The military cap, upkeep and resource costs already limit how many units (and therefore AP) you have. If you lose troops, you lose the AP that moved them.</li>
+  </ul>
+  <h4>Speed: AP per tile and individual</h4>
+  <p>The cost of moving a troop is <code>individuals × tiles × speed</code>, rounded up at the end of the order. There is no cap on tiles per turn: the limit is AP and, for the Military and the Scientist, fatigue (below). Modifiers divide or multiply that cost: +25% speed means dividing by 1.25 and “Slows by 50%” doubles it.</p>
+  <div class="scroll"><table class="data" style="min-width:560px">
+    <thead><tr><th>Unit</th><th class="n">AP / tile / individual</th><th>Example</th></tr></thead>
+    <tbody>
+      <tr><td>Explorer</td><td class="n">0.25</td><td class="note">5 explorers, 6 tiles: 8 AP</td></tr>
+      <tr><td>Military, Scientist</td><td class="n">0.5</td><td class="note">8 militaries, 4 tiles: 16 AP</td></tr>
+      <tr><td>APC, Raptor, Droid</td><td class="n">0.5</td><td class="note">Passengers don't pay: 2 APCs with 12 militaries, 5 tiles: 5 AP + 12 to board</td></tr>
+      <tr><td>Mech, Constructor</td><td class="n">1</td><td class="note">3 Mechs, 3 tiles: 9 AP</td></tr>
+    </tbody>
+  </table></div>
+  <h4 id="cansancio">Fatigue: Military and Scientist (v10)</h4>
+  <p>Human units that walk get tired; machines don't. <span class="tag-ok">Approved</span></p>
+  <ul>
+    <li><b>+1 fatigue per tile</b>, straight or diagonal, from 0 to 10. The first 10 tiles of each turn cost the normal amount.</li>
+    <li><b>At 10, the troop stops</b> and yields its AP: attacks, construction and economic orders are resolved first, even if they come later in the queue.</li>
+    <li><b>At the end of the turn it keeps walking tired</b> with whatever AP are left. Tired tile number k costs the normal cost × (1 + k/2): ×1.5, ×2, ×2.5…</li>
+    <li><b>Each turn it resets to 0.</b> When troops merge, the higher fatigue is kept; when they split, both halves inherit it. Riding inside an APC or a Raptor causes no fatigue.</li>
+  </ul>
+  <div class="scroll"><table class="data" style="min-width:560px">
+    <thead><tr><th>10 Militaries (5 AP per tile)</th><th class="n">Tile AP</th><th class="n">Accumulated AP</th></tr></thead>
+    <tbody>
+      <tr><td>Tiles 1–10, fresh</td><td class="n">5</td><td class="n">50</td></tr>
+      <tr><td>Tile 11, tired 1</td><td class="n">7.5</td><td class="n">57.5</td></tr>
+      <tr><td>Tile 12, tired 2</td><td class="n">10</td><td class="n">67.5</td></tr>
+      <tr><td>Tile 13, tired 3</td><td class="n">12.5</td><td class="n">80</td></tr>
+      <tr><td>Tile 15, tired 5</td><td class="n">17.5</td><td class="n">112.5</td></tr>
+    </tbody>
+  </table></div>
+  <p>The route is drawn in segments: solid as far as the troop gets without tiring (for machines, as far as the turn's AP reach), wavy where it walks tired and dashed for whatever it doesn't cover this turn. In unexplored fog the route goes in a straight line, since nobody knows what lies underneath either, and it is recalculated when an obstacle is discovered. Buildings can also be ordered blind in the fog (question 69).</p>
+  <h4>Fuel: spent when moving</h4>
+  <p>Fuel is no longer upkeep: <b>it is only spent when moving and on some abilities</b> (Flamethrower, Turbo). A parked unit consumes nothing. <span class="tag-ok">Approved</span> The per-tile values come from spreading today's upkeep over the tiles the unit walks in a typical turn, so an army on the march spends the same as before and an idle one spends nothing.</p>
+  <div class="scroll"><table class="data" style="min-width:560px">
+    <thead><tr><th>Unit</th><th class="n">Fuel / tile / individual</th><th>Typical turn</th></tr></thead>
+    <tbody>
+      <tr><td>Droid</td><td class="n">1</td><td class="note">6 tiles: 6</td></tr>
+      <tr><td>APC</td><td class="n">1.5</td><td class="note">6 tiles: 9 (was 15); passengers spend nothing</td></tr>
+      <tr><td>Raptor</td><td class="n">2.5</td><td class="note">6 tiles: 15 (was 20)</td></tr>
+      <tr><td>Mech</td><td class="n">3 (2.4 with Fuel-)</td><td class="note">3 tiles: 9 (was 10)</td></tr>
+      <tr><td>Constructor</td><td class="n">—</td><td class="note">Spends energy, not fuel: 5 per tile, as today</td></tr>
+      <tr><td>Explorer</td><td class="n">—</td><td class="note">Spends energy, not fuel: 1 per tile and individual (5 explorers, 8 tiles: 40 E)</td></tr>
+    </tbody>
+  </table></div>
+  <p>It is rounded like AP: once per order, upwards. Without fuel, the vehicle cannot move or use abilities that spend it, but it can still fire weapons that don't use it. The Refinery can be built from Government 2, at the same time Mechs and APCs become available; full (4 workers) it yields 120 per turn and moves 6 Mechs 3 tiles (54) with room to spare for the Flamethrower.</p>
+  <h4>Check by phase</h4>
+  <p>The “ideal turn” is everything you'd want to do: produce a troop at every military building, move the whole army, attack with it and run the economy. The goal is to cover around 80% so that there is always a choice to make. The G1 and G2 counts come from real matches.</p>
+  <div class="scroll"><table class="data" style="min-width:640px">
+    <thead><tr><th>Phase</th><th>Units</th><th class="n">Income</th><th class="n">Ideal turn</th><th class="n">Covers</th></tr></thead>
+    <tbody>
+      <tr><td>G1, turn 1</td><td>1 Constructor</td><td class="n">10</td><td class="n">12</td><td class="n">83%</td></tr>
+      <tr><td>G1, first troop</td><td>+ 5 militaries</td><td class="n">25</td><td class="n">32</td><td class="n">78%</td></tr>
+      <tr><td>G1, turn ~12</td><td>10 militaries</td><td class="n">40</td><td class="n">49</td><td class="n">82%</td></tr>
+      <tr><td>G2 just reached</td><td>10 militaries</td><td class="n">50</td><td class="n">64</td><td class="n">78%</td></tr>
+      <tr><td>G2 with Mechs</td><td>10 militaries + 4 Mechs</td><td class="n">70</td><td class="n">89</td><td class="n">79%</td></tr>
+      <tr><td>G2, large army</td><td>24 militaries + 6 Mechs</td><td class="n">122</td><td class="n">155</td><td class="n">79%</td></tr>
+      <tr><td>G3 start</td><td>20 militaries + 8 Mechs + 2 APCs</td><td class="n">129</td><td class="n">146</td><td class="n">88%</td></tr>
+      <tr><td>G3 complete</td><td>… + 2 Raptors</td><td class="n">137</td><td class="n">164</td><td class="n">84%</td></tr>
+    </tbody>
+  </table></div>
+  <p>On turn 1 there are 10 AP: the Constructor walks about 6 tiles if it also builds two buildings. Producing, building, trading and upgrading the Government keep their current cost.</p>
+</section>
+
+<section id="energia">
+  <h2>Energy and purchases</h2>
+  <p>In the phase 5 simulations energy piled up unused from Government 2 onwards: between 30,000 and 113,000 by round 60. To spend it, <b>each unit's upgrades are purchased</b> and production goes down. <span class="tag-ok">Approved</span></p>
+  <div class="scroll"><table class="data" style="min-width:560px">
+    <thead><tr><th>Energy production per turn</th><th class="n">v8</th><th class="n">v9</th></tr></thead>
+    <tbody>
+      <tr><td>Government level 1 / 2 / 3</td><td class="n">200 / 400 / 600</td><td class="n"><b>200 / 300 / 400</b></td></tr>
+      <tr><td>Generator, per worker</td><td class="n">100</td><td class="n"><b>75</b></td></tr>
+      <tr><td>Farm, per worker (food)</td><td class="n">50</td><td class="n"><b>40</b></td></tr>
+    </tbody>
+  </table></div>
+  <h4>What is purchased</h4>
+  <p>Each unit comes with its first weapon and its Government 1 abilities. The other weapons, the Government 2 and 3 active abilities and all passives are purchased <b>once per player</b>, with energy, at the building that produces the unit: it costs 3 AP, the upgrade is ready 2 turns later and it requires the matching Government level. The “++” passives require having bought the “+” one first.</p>
+  <div class="scroll"><table class="data" style="min-width:640px">
+    <thead><tr><th>Unit · building</th><th>Weapons</th><th>Active abilities</th><th>Passives</th></tr></thead>
+    <tbody>
+      <tr><td>Military · Training Ctr.</td><td class="note">Rifle included · Triple shot 800 · Missile launcher 2,000 · Laser machine gun 4,000</td><td class="note">Healing 2,000 · Camouflage 4,000</td><td class="note">Strength+ 2,500 · Strength++ 5,000</td></tr>
+      <tr><td>Scientist · Training Ctr.</td><td class="note">—</td><td class="note">Stim included · Paralyzing gas 2,500 · EMP Shock 5,000</td><td class="note">Shield Aura 2,500 · Health Aura 5,000</td></tr>
+      <tr><td>Mech · Ground Factory</td><td class="note">Flamethrower included · Anti-air 2,000 · Freezergun 4,000</td><td class="note">Reflector shield 4,000</td><td class="note">Fuel- 5,000</td></tr>
+      <tr><td>APC · Ground Factory</td><td class="note">Turret included</td><td class="note">Load and Unload 1,500 · Turbo 3,000 · Mines 4,000</td><td class="note">Capacity+ 5,000</td></tr>
+      <tr><td>Raptor · Launch Pad</td><td class="note">Burst included · Quantum bomb 6,000</td><td class="note">—</td><td class="note">Troop transport 5,000 (with Load and Unload)</td></tr>
+      <tr><td>Droid · Launch Pad</td><td class="note">—</td><td class="note">Dimensional portal 5,000</td><td class="note">Shield+ 5,000</td></tr>
+      <tr><td>Explorer · Government</td><td class="note">Bite included</td><td class="note">—</td><td class="note">Speed+ 2,500 · Detect camouflaged 5,000</td></tr>
+      <tr><td>Worker · extractors and Generator</td><td class="note">—</td><td class="note">—</td><td class="note">Production+ 2,500 · Production++ 5,000</td></tr>
+    </tbody>
+  </table></div>
+  <p>Passive prices by level: 1,000 (G1), 2,500 (G2) and 5,000 (G3). Weapons and actives have their own price based on what they bring. Altogether it adds up to about <b>105,000 energy</b>, around 30 turns of a Government 3 with 10 full Generators.</p>
+  <p>Result in the simulations (1v1, 3 maps): by round 60 there is between 8,000 and 43,000 energy left (previously 30,000 to 113,000). By round 100 there is a surplus again (25,000–77,000), so it will probably need more tuning with real matches.</p>
+  <h4 id="techo">Energy cap (v10)</h4>
+  <p>Generators never run dry, so energy no longer grows in a straight line: <b>it fills up like a tank</b>. Each turn the gross production comes in multiplied by how much is left to fill it, and it never goes over the maximum, however many Generators you have. Spending speeds production up again. <span class="tag-ok">Approved</span></p>
+  <p><code>ΔE = P × (1 − E / Max)</code>, where P is the turn's gross production (Government + 75 per worker at each Generator) and E is the energy you already have.</p>
+  <div class="scroll"><table class="data" style="min-width:560px">
+    <thead><tr><th>Energy maximum</th><th class="n">Adds</th><th>Example</th></tr></thead>
+    <tbody>
+      <tr><td>Government level 1 / 2 / 3</td><td class="n">2,000 / 4,000 / 6,000</td><td class="note">Tank base</td></tr>
+      <tr><td>Each finished Generator</td><td class="n">+1,500</td><td class="note">G2 + 2 Generators: 7,000 · G3 + 4 Generators: 12,000</td></tr>
+    </tbody>
+  </table></div>
+  <ul>
+    <li><b>More workers fill it sooner, not higher.</b> With G2 and 2 Generators (cap 7,000), starting from 1,500 and spending nothing: with 1 worker per Generator you reach 6,000 around turn 27; with 4, around turn 12.</li>
+    <li><b>Only production is limited.</b> What comes from the Bank or from refunds goes in whole. If you lose a Generator and end up above the new maximum, you don't lose energy: it just stops growing.</li>
+    <li><b>Upkeep still subtracts.</b> With the tank almost full little comes in, so energy settles somewhat below the maximum.</li>
+    <li><b>The AI no longer takes energy loans.</b> With the cap, the loan slowed production down and paying it back (1.5×) left it negative.</li>
+  </ul>
+  <p>Result in the simulations (1v1, 6 maps, round 60): between 3,300 and 11,800 energy (previously 7,300 to 39,900), and every player still reaches Government 3 except one, who stays at level 2.</p>
+</section>
+
+<section id="armas">
+  <h2>Weapons, vision and range</h2>
+  <p>All on the same scale: damage per individual and AP per individual. A troop's damage is the weapon's damage times the number of individuals, just like on the server today.</p>
+  <div class="scroll"><table class="data"><thead><tr><th>Weapon</th><th>Unit</th><th>Level</th><th>Mode</th><th>Profile</th><th class="n">Damage / indiv.</th><th class="n">AP / indiv.</th><th class="n">Range</th><th class="n">Cooldown</th><th>Notes</th></tr></thead><tbody><tr><td>Rifle</td><td>Military</td><td>G1</td><td>Ground</td><td>AntiLight</td><td class="n">20</td><td class="n">1</td><td class="n">6</td><td class="n">every turn</td><td class="note">telescopic sight: the longest infantry range, along with the Missile launcher</td></tr><tr><td>Triple shot</td><td>Military</td><td>G1</td><td>Ground</td><td>AntiLight</td><td class="n">60</td><td class="n">2</td><td class="n">6</td><td class="n">every 2</td><td class="note">+20 energy/indiv</td></tr><tr><td>Missile launcher</td><td>Military</td><td>G2</td><td>Ground-to-Air</td><td>AntiHeavy</td><td class="n">40</td><td class="n">2</td><td class="n">6</td><td class="n">every turn</td><td class="note">outranges the Ground Defense (5)</td></tr><tr><td>Laser machine gun</td><td>Military</td><td>G3</td><td>Ground</td><td>AntiMedium</td><td class="n">36</td><td class="n">2</td><td class="n">3</td><td class="n">every turn</td><td class="note">3 bursts × 12</td></tr><tr><td>Flamethrower</td><td>Mech</td><td>G2</td><td>Ground</td><td>AntiLight</td><td class="n">60</td><td class="n">2</td><td class="n">2</td><td class="n">every turn</td><td class="note">3x3 area · burns +50% the next turn · +5 fuel/indiv</td></tr><tr><td>Freezergun</td><td>Mech</td><td>G3</td><td>Ground</td><td>AntiMedium</td><td class="n">10</td><td class="n">2</td><td class="n">4</td><td class="n">every 2</td><td class="note">3x3 area · slows 50% for 2 turns · +20 energy/indiv</td></tr><tr><td>Anti-air</td><td>Mech</td><td>G2</td><td>Air</td><td>AntiMedium</td><td class="n">60</td><td class="n">2</td><td class="n">6</td><td class="n">every 2</td><td class="note">active ability</td></tr><tr><td>Turret</td><td>APC</td><td>G2</td><td>Ground</td><td>AntiLight</td><td class="n">30</td><td class="n">1</td><td class="n">4</td><td class="n">every turn</td><td class="note"></td></tr><tr><td>Mines</td><td>APC</td><td>G3</td><td>Ground</td><td>Explosive</td><td class="n">80</td><td class="n">2</td><td class="n">1</td><td class="n">every 2</td><td class="note">1 mine per use · 3x3 (40 on the ring) · max. 3 active per APC · +30 steel</td></tr><tr><td>Burst</td><td>Raptor</td><td>G3</td><td>Ground-to-Air</td><td>AntiHeavy</td><td class="n">60</td><td class="n">2</td><td class="n">4</td><td class="n">every turn</td><td class="note">Precision: ignores 50% of the shield</td></tr><tr><td>Quantum bomb</td><td>Raptor</td><td>G3</td><td>Ground</td><td>Explosive</td><td class="n">150</td><td class="n">3</td><td class="n">1</td><td class="n">every 4</td><td class="note">5x5 area: 100/75/50% · +150 energy/indiv</td></tr><tr><td>Bite</td><td>Explorer</td><td>G1</td><td>Ground</td><td>AntiLight</td><td class="n">25</td><td class="n">1</td><td class="n">1</td><td class="n">every turn</td><td class="note">30 at G2, 35 at G3 (melee)</td></tr><tr><td>Ground Defense</td><td>Building</td><td>—</td><td>Ground</td><td>AntiLight</td><td class="n">40</td><td class="n">—</td><td class="n">5</td><td class="n">every turn</td><td class="note">2 shots/turn, automatic (v9; was 3)</td></tr><tr><td>Air Defense</td><td>Building</td><td>—</td><td>Air</td><td>AntiMedium</td><td class="n">60</td><td class="n">—</td><td class="n">6</td><td class="n">every turn</td><td class="note">2 shots/turn, automatic</td></tr></tbody></table></div>
+  <h4 id="vision">Vision and range</h4>
+  <p><b>Vision belongs to the unit; range, to each weapon.</b> A troop can fire at any target within its weapon's range that it sees itself or that any allied unit or building sees. <span class="tag-ok">Approved</span> That way an Explorer can mark targets for long-range weapons. Defenses follow the same rule. Since weapons stack, the Military always carries the Rifle and its vision already accounts for the telescopic sight. Long-range weapons deal less damage; the hard-hitting ones (Flamethrower, Machine gun, Bomb) force you to get close.</p>
+  <div class="scroll"><table class="data" style="min-width:640px">
+    <thead><tr><th>Unit</th><th class="n">Vision</th><th>Weapons (range)</th></tr></thead>
+    <tbody>
+      <tr><td>Constructor</td><td class="n">4</td><td class="note">—</td></tr>
+      <tr><td>Military</td><td class="n">7</td><td class="note">Rifle 6 · Triple shot 6 · Missile launcher 6 · Laser machine gun 3</td></tr>
+      <tr><td>Explorer</td><td class="n">10</td><td class="note">Bite 1</td></tr>
+      <tr><td>Scientist</td><td class="n">5</td><td class="note">abilities 4</td></tr>
+      <tr><td>Mech</td><td class="n">6</td><td class="note">Flamethrower 2 · Freezergun 4 · Anti-air 6</td></tr>
+      <tr><td>APC</td><td class="n">6</td><td class="note">Turret 4 · Mines 1 (adjacent)</td></tr>
+      <tr><td>Raptor</td><td class="n">9 (altitude)</td><td class="note">Burst 4 · Quantum bomb 1 (directly below)</td></tr>
+      <tr><td>Droid</td><td class="n">8 (altitude)</td><td class="note">—</td></tr>
+      <tr><td>Ground Defense</td><td class="n">6</td><td class="note">5</td></tr>
+      <tr><td>Air Defense</td><td class="n">7</td><td class="note">6 (on the server it has vision 3 today)</td></tr>
+    </tbody>
+  </table></div>
+
+</section>
+
+<section id="combate">
+  <h2>Combat check</h2>
+  <p>How many attack orders a full Government 3 troop needs to destroy another, and how many AP it costs in total. It counts health and shield per individual (proposal: today the server gives a single shield per troop) and does not count counterattacks or area effects. Green means 5 orders or fewer; red, more than 12.</p>
+  <div class="scroll"><table class="matrix ttk"><thead><tr><th class="corner">Attacker ↓ · defender →</th><th>10 Militaries</th><th>1 APC</th><th>2 Raptors</th><th>4 Mechs</th><th>Government L3</th></tr></thead><tbody><tr><th scope="row">10 Militaries · Rifle</th><td class="h md"><b>7</b><small>70 AP</small></td><td class="h hi"><b>3</b><small>30 AP</small></td><td class="h na">—</td><td class="h lo"><b>27</b><small>270 AP</small></td><td class="h lo"><b>56</b><small>560 AP</small></td></tr><tr><th scope="row">10 Militaries · Missile launcher</th><td class="h md"><b>11</b><small>220 AP</small></td><td class="h hi"><b>2</b><small>40 AP</small></td><td class="h hi"><b>3</b><small>60 AP</small></td><td class="h hi"><b>4</b><small>80 AP</small></td><td class="h md"><b>7</b><small>140 AP</small></td></tr><tr><th scope="row">10 Militaries · Machine gun</th><td class="h md"><b>7</b><small>140 AP</small></td><td class="h hi"><b>1</b><small>20 AP</small></td><td class="h na">—</td><td class="h md"><b>8</b><small>160 AP</small></td><td class="h lo"><b>20</b><small>400 AP</small></td></tr><tr><th scope="row">4 Mechs · Flamethrower</th><td class="h md"><b>6</b><small>48 AP</small></td><td class="h hi"><b>2</b><small>16 AP</small></td><td class="h na">—</td><td class="h lo"><b>23</b><small>184 AP</small></td><td class="h lo"><b>47</b><small>376 AP</small></td></tr><tr><th scope="row">4 Mechs · Anti-air</th><td class="h na">—</td><td class="h na">—</td><td class="h hi"><b>3</b><small>24 AP</small></td><td class="h na">—</td><td class="h na">—</td></tr><tr><th scope="row">1 APC · Turret</th><td class="h lo"><b>44</b><small>44 AP</small></td><td class="h lo"><b>14</b><small>14 AP</small></td><td class="h na">—</td><td class="h lo"><b>178</b><small>178 AP</small></td><td class="h lo"><b>374</b><small>374 AP</small></td></tr><tr><th scope="row">2 Raptors · Burst</th><td class="h lo"><b>32</b><small>128 AP</small></td><td class="h hi"><b>3</b><small>12 AP</small></td><td class="h md"><b>7</b><small>28 AP</small></td><td class="h md"><b>11</b><small>44 AP</small></td><td class="h lo"><b>20</b><small>80 AP</small></td></tr><tr><th scope="row">5 Explorers · Bite</th><td class="h md"><b>8</b><small>40 AP</small></td><td class="h hi"><b>3</b><small>15 AP</small></td><td class="h na">—</td><td class="h lo"><b>31</b><small>155 AP</small></td><td class="h lo"><b>64</b><small>320 AP</small></td></tr></tbody></table></div>
+  <p>Three things stand out. Every unit has at least one target it destroys in a few orders. None destroys everything: the best one against infantry, the Flamethrower, needs 23 orders against Mechs. And destroying a level 3 Government takes several turns even with siege weapons, which leaves time to defend it.</p>
+</section>
+
+<section id="edificios">
+  <h2>Building health</h2>
+  <p><span class="tag-ok">Approved</span> With the new weapons, the server's current health values fall short: 10 Militaries with Missile launchers destroy almost any building in a single order. The proposal distributes health according to what is lost if the building falls, measured in attack orders from three reference attackers (one order = one troop attacking for one turn). Shield = 25% of health, except for the Government (question 40).</p>
+  <div class="callout"><p><b>Criterion.</b> With anti-personnel weapons (Rifle) an important building takes 20 orders or more: sieging with them isn't worth it. With siege weapons, the Government holds for 3 orders at G1 and 7 at G3, factories about 4, Defenses 2–3 and the economy 1–2, so that raids remain possible.</p></div>
+  <div class="scroll"><table class="data bld"><thead><tr><th>Building</th><th class="n">Today health / shield</th><th class="n">Proposed health / shield</th><th class="n">10 Militaries · Rifle</th><th class="n">10 Militaries · Missile launcher</th><th class="n">2 Raptors · Burst</th></tr></thead><tbody><tr class="chg"><td><b>Government level 1</b><br><span class="note">If it falls, the player is eliminated.</span></td><td class="n">500 / 200</td><td class="n"><b>800 / 300</b></td><td class="n">14 → <b>22</b></td><td class="n">2 → <b>3</b></td><td class="n">6 → <b>10</b></td></tr><tr class="chg"><td><b>Government level 2</b><br><span class="note">If it falls, the player is eliminated.</span></td><td class="n">1000 / 400</td><td class="n"><b>1300 / 500</b></td><td class="n">28 → <b>36</b></td><td class="n">4 → <b>5</b></td><td class="n">12 → <b>15</b></td></tr><tr><td><b>Government level 3</b><br><span class="note">If it falls, the player is eliminated.</span></td><td class="n">2000 / 800</td><td class="n"><b>2000 / 800</b></td><td class="n">56 → <b>56</b></td><td class="n">7 → <b>7</b></td><td class="n">24 → <b>24</b></td></tr><tr class="chg"><td><b>Training Center</b><br><span class="note">Produces infantry and is needed to upgrade to Government 2.</span></td><td class="n">400 / 100</td><td class="n"><b>1000 / 250</b></td><td class="n">10 → <b>25</b></td><td class="n">2 → <b>4</b></td><td class="n">5 → <b>11</b></td></tr><tr class="chg"><td><b>Ground Factory</b><br><span class="note">Produces Mechs and APCs and is needed to upgrade to Government 3.</span></td><td class="n">400 / 100</td><td class="n"><b>1000 / 250</b></td><td class="n">10 → <b>25</b></td><td class="n">2 → <b>4</b></td><td class="n">5 → <b>11</b></td></tr><tr class="chg"><td><b>Launch Pad</b><br><span class="note">Produces Raptors and Droids; the most expensive building.</span></td><td class="n">400 / 100</td><td class="n"><b>1200 / 300</b></td><td class="n">10 → <b>30</b></td><td class="n">2 → <b>4</b></td><td class="n">5 → <b>13</b></td></tr><tr class="chg"><td><b>Bank</b><br><span class="note">Loans and bartering: support economy.</span></td><td class="n">300 / 75</td><td class="n"><b>800 / 200</b></td><td class="n">8 → <b>20</b></td><td class="n">1 → <b>3</b></td><td class="n">4 → <b>9</b></td></tr><tr class="chg"><td><b>Ground Defense</b><br><span class="note">Automatic defense against ground units.</span></td><td class="n">300 / 75</td><td class="n"><b>800 / 200</b></td><td class="n">8 → <b>20</b></td><td class="n">1 → <b>3</b></td><td class="n">4 → <b>9</b></td></tr><tr class="chg"><td><b>Air Defense</b><br><span class="note">Automatic defense against air units; immune to ground units because it doesn't shoot at them.</span></td><td class="n">300 / 75</td><td class="n"><b>600 / 150</b></td><td class="n">8 → <b>15</b></td><td class="n">1 → <b>2</b></td><td class="n">4 → <b>7</b></td></tr><tr class="chg"><td><b>Generator</b><br><span class="note">Energy, energy coverage and military cap.</span></td><td class="n">300 / 75</td><td class="n"><b>500 / 125</b></td><td class="n">8 → <b>13</b></td><td class="n">1 → <b>2</b></td><td class="n">4 → <b>6</b></td></tr><tr class="chg"><td><b>Extractors, Farm, Refinery</b><br><span class="note">Economy; raid target.</span></td><td class="n">300 / 75</td><td class="n"><b>400 / 100</b></td><td class="n">8 → <b>10</b></td><td class="n">1 → <b>2</b></td><td class="n">4 → <b>5</b></td></tr><tr><td><b>Housing</b><br><span class="note">Civilian cap; cheap (50 E + 20 wood).</span></td><td class="n">200 / 50</td><td class="n"><b>200 / 50</b></td><td class="n">5 → <b>5</b></td><td class="n">1 → <b>1</b></td><td class="n">3 → <b>3</b></td></tr></tbody></table></div>
+  <p class="note">The “Today” column already applies the 25% shield rule (on the server only the Government has a shield). Each cell shows the orders needed today → with the proposal. Triple shot deals three times the Rifle's damage, but only every 2 turns.</p>
+  <h4>Why these numbers</h4>
+  <ul class="find">
+    <li><b>Government.</b> Level 3 doesn't change (7 Missile launcher orders, several turns of siege). Levels 1 and 2 go up so that a player one level behind doesn't fall in a single turn: Government 1 against Missile launchers goes from 2 to 3 orders, and against Rifles from 14 to 22.</li>
+    <li><b>Training Center and Ground Factory.</b> Losing them cuts production and blocks the Government upgrade. They go from 2 to 4 Missile launcher orders: destroying them requires committing an army, not a lone troop.</li>
+    <li><b>Launch Pad.</b> The most expensive building (G3); a little more than the factories.</li>
+    <li><b>Ground Defense.</b> With the Missile launcher at 6 it can be sieged without taking fire (question 51); with 800 health it takes 3 orders instead of 1, so it is still worth building. With Rifles, also at range 6, it would take 20.</li>
+    <li><b>Air Defense.</b> Ground units are immune to it and destroy it easily, so it doesn't need as much health as the Ground one. The Raptor (Burst, range 4) takes its fire (range 6).</li>
+    <li><b>Economy.</b> Generator, extractors, Farm and Refinery go up a little: a raid with siege weapons must be able to take them out in 1–2 orders. The Generator, somewhat more because of energy and the military cap.</li>
+    <li><b>Housing.</b> No changes: it is cheap and rebuilt in one turn.</li>
+    <li><b>Repair.</b> Its cost is a percentage of the building's cost, not of its health, so more health doesn't make repairs more expensive.</li>
+  </ul>
+</section>
+
+<section id="unidades">
+  <h2>Unit by unit</h2>
+  <p>Each table compares the current sheet with the proposal. Highlighted rows are the ones that change.</p>
+  <div class="units">
+<section class="unit" id="u-militar">
+  <header><h3>Military</h3><span class="cls">Light · Ground · Organic</span></header>
+  <p>Basic infantry. Cheap and numerous; its role changes with the level: anti-infantry (G1), anti-armor and anti-air (G2), anti-vehicle (G3).</p>
+  <div class="scroll"><table class="cmp"><thead><tr><th>Field</th><th>Current sheet</th><th>Proposal</th></tr></thead><tbody><tr class="same"><th scope="row">Cost / time / cap</th><td>100 E · 1 turn · 1 military</td><td>100 E · 1 turn · 1 military</td></tr><tr class="chg"><th scope="row">Health / Shield</th><td>50 / 50</td><td>50 / 30 (shield per individual)</td></tr><tr class="chg"><th scope="row">Speed (AP per tile and individual)</th><td>—</td><td>0.5</td></tr><tr class="chg"><th scope="row">Vision</th><td>8</td><td>7</td></tr><tr class="same"><th scope="row">Max. troop</th><td>5 / 8 / 10</td><td>5 / 8 / 10</td></tr><tr class="chg"><th scope="row">G1 Rifle</th><td>10 · Ranged 8 · AntiLight (100/50) · 1 AP</td><td>20 · range 6 (telescopic sight) · AntiLight · 1 AP</td></tr><tr class="chg"><th scope="row">G2 Missile launcher</th><td>50 · Ranged 6 · AntiHeavy · 2 AP</td><td>40 · range 6 · AntiHeavy · Ground-to-Air · 2 AP</td></tr><tr class="chg"><th scope="row">G3 Laser machine gun</th><td>20 · Ranged 5 · AntiMedium · 3 attacks · 3 AP</td><td>3 bursts × 12 = 36 · range 3 · AntiMedium · 2 AP</td></tr><tr class="chg"><th scope="row">Triple shot</th><td>2 AP + 30 E · every turn</td><td>2 AP + 20 E · every 2 turns (3× Rifle)</td></tr><tr class="chg"><th scope="row">Healing</th><td>2 AP + 40 E · +20 health · every 3</td><td>1 AP + 20 E · +20 health · every 3</td></tr><tr class="chg"><th scope="row">Camouflage</th><td>3 AP + 100 E · invisible · every 3</td><td>2 AP to activate + 10 E per individual per turn while it lasts · breaks when attacking, when it can't be paid or when the order is cancelled · every 3 after breaking</td></tr><tr class="chg"><th scope="row">Strength+ / Strength++</th><td>+25 health / +25 health</td><td>+25 health / +25 health (they stack: 100 at G3)</td></tr></tbody></table></div>
+</section>
+<section class="unit" id="u-meca">
+  <header><h3>Mech</h3><span class="cls">Heavy · Ground · Mechanical</span></header>
+  <p>Assault tank. Slow and very tough; razes infantry in an area and protects against air.</p>
+  <div class="scroll"><table class="cmp"><thead><tr><th>Field</th><th>Current sheet</th><th>Proposal</th></tr></thead><tbody><tr class="chg"><th scope="row">Cost / time / cap</th><td>300 E + 50 St · 2 turns · 2</td><td>350 E + 80 St · 2 turns · 2</td></tr><tr class="chg"><th scope="row">Health / Shield</th><td>100 / 100</td><td>250 / 150</td></tr><tr class="chg"><th scope="row">Speed</th><td>—</td><td>1</td></tr><tr class="chg"><th scope="row">Vision</th><td>10</td><td>6</td></tr><tr class="chg"><th scope="row">Max. troop</th><td>5 / 8 / 10</td><td>— / 3 / 4</td></tr><tr class="chg"><th scope="row">Fuel</th><td>10 per turn (upkeep)</td><td>3 per tile and individual, only when moving</td></tr><tr class="chg"><th scope="row">G2 Flamethrower</th><td>20 · 2x2 area · burns 50% · every 3 turns · 3 AP + 10 fuel</td><td>60 · 3x3 area · burns 50% the next turn · range 2 · every turn · 2 AP + 5 fuel</td></tr><tr class="chg"><th scope="row">G3 Freezergun</th><td>5 · 3x3 area · slows 50% for 2 turns · every 3 · 3 AP + 50 E</td><td>10 · 3x3 area · AntiMedium · slows 50% for 2 turns · range 4 · every 2 · 2 AP + 20 E</td></tr><tr class="chg"><th scope="row">Anti-air (G2 active)</th><td>100 · 5 AP · every 2</td><td>60 · air only · AntiMedium · range 6 · 2 AP · every 2</td></tr><tr class="chg"><th scope="row">Shield (G3 active)</th><td>250 E · reflector 100 · every 3</td><td>2 AP + 100 E · +100 shield for 2 turns and returns 25% of the absorbed damage · every 3</td></tr><tr class="chg"><th scope="row">Fuel- (G3 passive)</th><td>uses 80% when moving</td><td>uses 80% when moving (2.4 per tile) and with the Flamethrower (4 per individual)</td></tr></tbody></table></div>
+</section>
+<section class="unit" id="u-transporte">
+  <header><h3>APC Transport</h3><span class="cls">Medium · Ground · Mechanical</span></header>
+  <p>Transport vehicle. Moves infantry cheaply in AP; light defense with a turret and mines.</p>
+  <div class="scroll"><table class="cmp"><thead><tr><th>Field</th><th>Current sheet</th><th>Proposal</th></tr></thead><tbody><tr class="chg"><th scope="row">Cost / time / cap</th><td>200 E + 40 St · 2 turns · 2</td><td>250 E + 60 St · 2 turns · 2</td></tr><tr class="chg"><th scope="row">Health / Shield</th><td>50 / 50</td><td>150 / 100</td></tr><tr class="chg"><th scope="row">Speed</th><td>—</td><td>0.5</td></tr><tr class="chg"><th scope="row">Vision</th><td>12</td><td>6</td></tr><tr class="chg"><th scope="row">Max. troop</th><td>5 / 8 / 10</td><td>1 (doesn't attack as a group)</td></tr><tr class="chg"><th scope="row">Fuel</th><td>15 per turn (upkeep)</td><td>1.5 per tile, only when moving</td></tr><tr class="chg"><th scope="row">G2 Turret</th><td>50 damage · Ranged 5 · AntiLight · 2 AP</td><td>30 per individual · range 4 · AntiLight · 1 AP</td></tr><tr class="chg"><th scope="row">G3 Mines</th><td>100 per mine · 3x3 (100/50) · 2 AP + 50 St · AntiLight</td><td>80 center / 40 ring · Explosive · invisible · 1 mine per use, every 2 turns · max. 3 active per APC · 2 AP + 30 St</td></tr><tr class="chg"><th scope="row">Load (G2 active)</th><td>1 AP per individual · 10 units</td><td>1 AP per individual boarded · 6 light individuals per APC · passengers pay no movement</td></tr><tr class="chg"><th scope="row">Turbo (G3 active)</th><td>3 AP + 200 fuel · +200% · every 3</td><td>1 AP + 30 fuel per individual · +100% speed for 2 turns · every 3</td></tr><tr class="chg"><th scope="row">Capacity+ (G3 passive)</th><td>15 units</td><td>9 individuals per APC</td></tr></tbody></table></div>
+</section>
+<section class="unit" id="u-raptor">
+  <header><h3>Raptor</h3><span class="cls">Medium (previously Heavy) · Air · Mechanical</span></header>
+  <p>Air gunship. Hunts armor and buildings; area bombing with a long cooldown.</p>
+  <div class="scroll"><table class="cmp"><thead><tr><th>Field</th><th>Current sheet</th><th>Proposal</th></tr></thead><tbody><tr class="chg"><th scope="row">Cost / time / cap</th><td>500 E + 100 St · 3 turns · 3</td><td>500 E + 120 St · 3 turns · 3</td></tr><tr class="chg"><th scope="row">Health / Shield</th><td>100 / 100</td><td>180 / 120</td></tr><tr class="chg"><th scope="row">Speed</th><td>—</td><td>0.5 (flies: ignores water and mountains)</td></tr><tr class="chg"><th scope="row">Vision</th><td>12</td><td>9 (altitude)</td></tr><tr class="chg"><th scope="row">Blocked by</th><td>Water, Mountain</td><td>Nothing</td></tr><tr class="chg"><th scope="row">Max. troop</th><td>5 / 8 / 10</td><td>— / — / 2</td></tr><tr class="chg"><th scope="row">Fuel</th><td>20 per turn (upkeep)</td><td>2.5 per tile and individual, only when moving</td></tr><tr class="chg"><th scope="row">G3 Burst</th><td>250 per burst · Ranged 4 · AntiHeavy · every 3 · 3 AP</td><td>60 · range 4 · AntiHeavy · Ground-to-Air · Precision (ignores 50% of shield) · every turn · 2 AP</td></tr><tr class="chg"><th scope="row">Quantum bomb</th><td>cost “500 damage” · 4x4 · every 5</td><td>150 center · 5x5 (100/75/50%) · Explosive · range 1 · 3 AP + 150 E · every 4</td></tr><tr class="chg"><th scope="row">Troop transport (passive)</th><td>20 units</td><td>4 light individuals per Raptor</td></tr></tbody></table></div>
+</section>
+<section class="unit" id="u-explorador">
+  <header><h3>Explorer</h3><span class="cls">Light · Ground · Mechanical</span></header>
+  <p>Fast scouting and detection. Melee against isolated infantry.</p>
+  <div class="scroll"><table class="cmp"><thead><tr><th>Field</th><th>Current sheet</th><th>Proposal</th></tr></thead><tbody><tr class="chg"><th scope="row">Cost / time / cap</th><td>—</td><td>120 E + 20 St · 1 turn · 1 military</td></tr><tr class="chg"><th scope="row">Health / Shield</th><td>—</td><td>60 / 30</td></tr><tr class="chg"><th scope="row">Speed</th><td>—</td><td>0.25 (0.2 with Speed+)</td></tr><tr class="chg"><th scope="row">Vision</th><td>—</td><td>10</td></tr><tr class="chg"><th scope="row">Max. troop</th><td>—</td><td>3 / 4 / 5</td></tr><tr class="chg"><th scope="row">Energy when moving</th><td>—</td><td>1 E per tile and individual (spends no fuel)</td></tr><tr class="chg"><th scope="row">Weapon</th><td>unnamed · 20/30/40 · 2 AP</td><td>Bite · Ground · 25/30/35 · range 1 · 1 AP</td></tr><tr class="chg"><th scope="row">Detect subsoil / Dig</th><td>3 AP + 250 E / 5 AP + 200 E</td><td>idea to be confirmed: detect tunnels and dig towards the subsoil (question 13)</td></tr><tr class="chg"><th scope="row">Detect camouflaged</th><td>3 AP + 100 E · every 3</td><td>G3 passive (v8): sees invisible units and mines within its vision · replaces Speed++ · G3 active and G1 passive set to “Not applicable”</td></tr><tr class="chg"><th scope="row">Speed+ / Speed++</th><td>+25% / +50% (no condition)</td><td>Speed+ +25% · Always · Speed++ is removed (question 54)</td></tr></tbody></table></div>
+</section>
+<section class="unit" id="u-droide">
+  <header><h3>Droid</h3><span class="cls">Light · Air · Mechanical</span></header>
+  <p>Air logistics. Teleportation between two Droids and shield reinforcement.</p>
+  <div class="scroll"><table class="cmp"><thead><tr><th>Field</th><th>Current sheet</th><th>Proposal</th></tr></thead><tbody><tr class="chg"><th scope="row">Cost / time / cap</th><td>—</td><td>400 E + 80 St · 2 turns · 2 military</td></tr><tr class="chg"><th scope="row">Health / Shield</th><td>—</td><td>60 / 120</td></tr><tr class="chg"><th scope="row">Speed</th><td>—</td><td>0.5 (flies)</td></tr><tr class="chg"><th scope="row">Vision</th><td>—</td><td>8 (altitude)</td></tr><tr class="chg"><th scope="row">Max. troop</th><td>—</td><td>1 (doesn't attack as a group)</td></tr><tr class="chg"><th scope="row">Fuel</th><td>—</td><td>1 per tile, only when moving</td></tr><tr class="chg"><th scope="row">Dimensional portal</th><td>1000 E · every 5</td><td>between two of your own Droids at any distance · carries all own and allied units from the origin Droid's 3x3 to the destination Droid's 3x3 (any class) · 300 E + 1 AP per individual · every 5</td></tr><tr class="chg"><th scope="row">Shield+ (passive)</th><td>+50% allied shields in 3x3</td><td>+25% max. shield to adjacent allies (doesn't add up with another Shield+)</td></tr></tbody></table></div>
+</section>
+<section class="unit" id="u-científico">
+  <header><h3>Scientist</h3><span class="cls">Light · Ground · Organic</span></header>
+  <p>Support. Heals, locks down enemy infantry (gas) and disables machines and buildings (EMP).</p>
+  <div class="scroll"><table class="cmp"><thead><tr><th>Field</th><th>Current sheet</th><th>Proposal</th></tr></thead><tbody><tr class="chg"><th scope="row">Cost / time / cap</th><td>—</td><td>150 E · 1 turn · 1 military</td></tr><tr class="chg"><th scope="row">Health / Shield</th><td>—</td><td>40 / 40</td></tr><tr class="chg"><th scope="row">Speed</th><td>—</td><td>0.5</td></tr><tr class="chg"><th scope="row">Vision</th><td>—</td><td>5</td></tr><tr class="chg"><th scope="row">Max. troop</th><td>—</td><td>1 (doesn't attack as a group)</td></tr><tr class="chg"><th scope="row">Upkeep</th><td>—</td><td>4 food + 2 water</td></tr><tr class="chg"><th scope="row">Stim</th><td>1 AP + 100 E per unit · +30% health and shield 3x3</td><td>2 AP + 50 E · temporary healing: allies in 3x3 receive +30% of their max. health as extra health for 2 turns (it is used up first; whatever is left disappears) · range 4 · every 3</td></tr><tr class="chg"><th scope="row">Paralyzing gas</th><td>3 AP + 250 E · paralyzes 1 turn 2x2</td><td>3 AP + 100 E · 3x3 · organic units cannot move or attack for 1 turn · every 3</td></tr><tr class="chg"><th scope="row">EMP Shock</th><td>3 AP + 300 E · removes shields 2x2</td><td>3 AP + 150 E · 3x3 · drains the shield of every unit and building and blocks their abilities for 1 turn · every 4</td></tr><tr class="chg"><th scope="row">Shield Aura / Health Aura</th><td>+25% shield / +25% health “3x3 target area”</td><td>adjacent allies regenerate +10 shield / +5 health per turn · the same aura doesn't stack with another Scientist's (own or allied)</td></tr></tbody></table></div>
+</section>
+<section class="unit" id="u-constructor">
+  <header><h3>Constructor</h3><span class="cls">Light · Ground · Organic</span></header>
+  <p>Construction and repair. No substantial changes.</p>
+  <div class="scroll"><table class="cmp"><thead><tr><th>Field</th><th>Current sheet</th><th>Proposal</th></tr></thead><tbody><tr class="chg"><th scope="row">Speed</th><td>1 AP/tile + 5 E</td><td>1 + 5 E per tile (1 per troop)</td></tr><tr class="chg"><th scope="row">Ability cooldown</th><td>—</td><td>no cooldown</td></tr><tr class="chg"><th scope="row">Repair / Repair+</th><td>AP, resources, energy</td><td>1 AP + 25% (Repair) / 20% (Repair+) of the building's cost per 25% of health repaired</td></tr></tbody></table></div>
+</section>
+<section class="unit" id="u-trabajador">
+  <header><h3>Worker</h3><span class="cls">Light · inside its building · Organic</span></header>
+  <p>Economy. No changes.</p>
+  <div class="scroll"><table class="cmp"><thead><tr><th>Field</th><th>Current sheet</th><th>Proposal</th></tr></thead><tbody><tr class="chg"><th scope="row">Production+ / ++</th><td>+5 / +5 with satisfaction &gt; 5</td><td>+5 / +5 (they stack: +10 at G3)</td></tr></tbody></table></div>
+</section>
+  </div>
+</section>
+
+<section id="servidor">
+  <h2>What would need to change on the server</h2>
+  <p>Only to size the work; no code is touched until the sheets are final.</p>
+  <ul class="find">
+    <li><b>Current values are very different from the sheets.</b> On the server the Military deals 50 (the sheet says 10), the Robot 200 with a “Laser machine gun” and the Ship 150 in a 3x3 area with an “Ion missile”. None of those weapons match the sheets.</li>
+    <li><b>Classes.</b> Medium and Structure need to be added, along with the air domain, each weapon's mode and the organic/mechanical nature.</li>
+    <li><b>Several weapons per unit.</b> Today each unit has a single attack. It needs weapons per level, stacking, selectable in the attack order, each with its own damage, profile, range, cost and cooldown.</li>
+    <li><b>Range.</b> Today range equals vision. It would become a property of each weapon, and units could fire at whatever any ally sees (today only at what the unit itself sees).</li>
+    <li><b>AP.</b> Today attacking costs a flat 3 AP per order and moving costs 1 AP per tile for the whole troop. It would become AP per individual with a speed per type, with income from the Government level and from each unit (Housing stops giving AP).</li>
+    <li><b>Shield per troop.</b> Today a troop of 10 Militaries has a single shield of 50, and when it splits both halves keep the whole shield, so splitting gives away free shield. The proposal is a shield per individual.</li>
+    <li><b>Fuel.</b> Today it is upkeep per turn (Robot 10, Vehicle 15, Ship 20). It would be spent per tile when moving, like the Constructor's energy (which the Explorer would also use).</li>
+    <li><b>Invisibility and detection.</b> Energy cost per turn while it lasts, and passive detection within the vision of the Government and the G3 Explorer (Detect camouflaged passive); both also see mines.</li>
+    <li><b>Abilities and states.</b> They don't exist: active abilities with cooldowns, passives and auras would need to be created, along with the burn, slowed, paralyzed, invisible and temporary shield states.</li>
+    <li><b>New mechanics:</b> flight (today the Ship is blocked by water and mountains), transport, mines, portal and subsoil.</li>
+    <li><b>Area damage.</b> Today only the Ship does area damage (3x3, same damage on every tile). The size would need to be configurable, with falloff by distance.</li>
+    <li><b>Air Defense.</b> Today it doesn't shoot; only the Ground Defense has automatic fire.</li>
+    <li><b>Units and buildings.</b> Rename Robot → Mech, Vehicle → APC and Ship → Raptor. Create the Explorer, Droid and Scientist. The Aircraft Factory becomes the Launch Pad and requires Government 3 (2 today).</li>
+    <li><b>AI and client.</b> The AI has to learn to choose weapons and abilities while keeping the simulations fast. The client needs an interface to choose a weapon or ability, show states and compute AP per individual in the previews.</li>
+  </ul>
+</section>
+
+<section id="preguntas">
+  <h2>Questions</h2>
+  <p>Each question includes a proposed answer. Just answer “ok” to the ones that work and correct the rest.</p>
+  <div class="callout"><p><b>Rounds 1 to 7 closed</b> (questions 1–69). Only the subsoil remains as an idea to confirm.</p></div>
+  <div class="grp">General rules</div>
+  <ol class="q">
+    <li><b>Shield per individual or per troop?</b> Today it is one per troop, and splitting duplicates the shield.<em class="ok">Per individual: the troop has shield × individuals and it is divided when the troop splits.</em></li>
+    <li><b>Do abilities without damage also pay per individual?</b><em class="ok">Damage and healing pay per individual. Utility abilities pay per order, because their effect doesn't grow with the troop.</em></li>
+    <li><b>Rounding of decimal speed?</b><em class="ok">The cost of the whole order is computed and rounded up just once.</em></li>
+    <li><b>Does range become a property of each weapon, separate from vision?</b><em class="ok">Yes. Vision belongs to the unit and range to each weapon. Units can fire at any target within the weapon's range that the unit itself or an ally sees. See “Vision and range”.</em></li>
+    <li><b>Is the 50% counterattack kept?</b><em class="ok">Yes, but only if the defender has a weapon with the required mode and range. With several weapons, it uses the one that deals the most damage.</em></li>
+    <li><b>Profiles: 100 / 60 / 30 or your 100 / 75 / 50?</b><em class="ok">100 / 60 / 30.</em></li>
+    <li><b>AP income.</b><em class="ok">Government 10 / 20 / 25 + AP per unit (Military 3, Mech 5, Raptor 4, APC 2, Explorer 2, Scientist 2, Droid 3, Constructor 0). See “AP economy”.</em></li>
+    <li><b>Max. troop size per class.</b><em class="ok">Units that don't attack don't group: Constructor, Scientist, APC and Droid, troop of 1. The ones that attack: Military 5 / 8 / 10, Explorer 3 / 4 / 5, Mech 3 / 4 (G2 / G3) and Raptor 2 (G3).</em></li>
+    <li><b>Even-sized areas (2x2, 4x4).</b><em class="ok">Odd-sized areas only: 3x3 and 5x5.</em></li>
+    <li><b>State durations.</b><em class="ok">Burn 1 turn; Slowed, Reflector shield, Turbo and Stim 2 turns; Paralyzed 1 turn. Camouflage has no fixed duration (question 11).</em></li>
+    <li><b>Invisibility.</b> Consumes energy per individual per turn; breaks when attacking, when energy runs out or when the order is cancelled; the Explorer and the Government detect it within their vision (the Explorer, since v8, with the G3 Detect camouflaged passive; question 54).<em class="ok">Activating costs 2 AP per order and keeping it up 10 E per individual per turn, charged at the start of each turn. An invisible troop of 10 Militaries spends 100 E per turn, the cost of a new Military: half of what a Government 1 produces and a sixth of a Government 3. That way it can be used for an ambush or to cross the map, but not to keep the army hidden all the time. When it breaks, 3-turn cooldown. Defenses fire at an invisible unit if an allied Government or Explorer sees it, by the allied-vision firing rule.</em></li>
+    <li><b>When leveling up, do passives apply to units that already exist?</b><em class="ok">Yes: a G1 Military gains +25 health as soon as the Government reaches 2.</em><em class="ok">Changed in question 58: passives are purchased. When bought, units that already exist get it too.</em></li>
+  </ol>
+  <div class="grp">Units</div>
+  <ol class="q" style="counter-reset: q 12">
+    <li><b>Subsoil (Explorer).</b><em class="idea">A complementary subsoil map, with other textures and resources, and tunnels that connect underground. Intended for another race that exploits subsoil resources. The Explorer could detect these tunnels and dig in. No numbers until it is confirmed.</em></li>
+    <li><b>Quantum bomb: what does “cost 500 damage” mean?</b><em class="ok">150 damage at the center of a 5x5 area (100 / 75 / 50%), costing 3 AP + 150 E per individual with a 4-turn cooldown.</em></li>
+    <li><b>Raptor: does it become Medium and fly?</b><em class="ok">Yes: Medium, air, not blocked by water or mountains.</em></li>
+    <li><b>Transport: what can board and how much?</b><em class="ok">Light ground units only. APC 6 individuals (9 with Capacity+) and Raptor 4. Boarding costs 1 AP per individual and passengers pay no movement.</em></li>
+    <li><b>Mines.</b> Invisible, max. 3 active per APC, they don't damage allies and air units don't trigger them; in addition, the APC can only lay mines every X turns.<em class="ok">Each use lays 1 mine and the cooldown is 2 turns: an APC takes 5 turns (0, 2 and 4) to have its 3 mines, and if one explodes it replaces it in 2. With cooldown 1 it would fill a narrow pass in 3 turns at no time cost, and with 3 or more the G3 APC spends most of its time doing nothing useful. Mines still cost 2 AP + 30 steel each.</em></li>
+    <li><b>Mech's Reflector shield.</b><em class="ok">+100 temporary shield per individual for 2 turns and returns 25% of the damage it absorbs to the attacker.</em></li>
+    <li><b>Fuel.</b> It is not upkeep: it is spent when moving and on some abilities.<em class="ok">Per tile and individual: Droid 1, APC 1.5, Raptor 2.5 and Mech 3. The Explorer spends energy instead of fuel (1 per tile and individual). The values come from spreading the current upkeep over the tiles of a typical turn (see “Fuel: spent when moving”). The Mech's Fuel- goes back to its original meaning: it uses 80% when moving (2.4 per tile) and with the Flamethrower.</em></li>
+    <li><b>Gas and EMP.</b><em class="ok">Gas only affects organic units (people). EMP affects every unit and building with a shield: it drains the shield and blocks their abilities for 1 turn.</em></li>
+    <li><b>Stim: temporary healing.</b> How does it work?<em class="ok">Allies in the 3x3 receive extra health equal to 30% of their max. health for 2 turns. Damage is taken from that extra health first, and whatever is left at the end disappears without doing harm. It is meant for right before a clash: a troop of 10 G3 Militaries (100 health) withstands 300 more damage. It doesn't stack with another Stim; applying it again only renews the duration. Cost: 2 AP + 50 E, 3-turn cooldown.</em></li>
+    <li><b>Scientist's auras and Droid's Shield+.</b><em class="ok">Droid: +25% max. shield to adjacent allies. Scientist: adjacent allies regenerate +10 shield (Shield Aura) and +5 health (Health Aura) per turn. The same aura doesn't stack (question 50).</em></li>
+    <li><b>Portal.</b> Between two Droids, it transports everything in the origin Droid's 3x3.<em class="ok">It carries any class (including Mechs and APCs with their cargo) to the destination Droid's 3x3, at any distance. It carries own and allied troops, not enemy ones. If not everything fits at the destination, whatever doesn't fit stays at the origin. Cost: 300 E + 1 AP per individual, 5-turn cooldown. Since the Droid goes alone (troop of 1), two Droid troops are needed.</em></li>
+    <li><b>Explorer: weapon name, mode and Speed++ condition.</b><em class="ok">Bite, Ground, melee (25 / 30 / 35) and condition “Always”.</em></li>
+    <li><b>Explorer, Droid and Scientist stats.</b><em class="ok">The ones in each unit's tables.</em></li>
+    <li><b>Armor.</b><em class="ok">The field is removed: the armor class (Light / Medium / Heavy) already covers it.</em></li>
+    <li><b>Worker: Production+ and ++.</b><em class="ok">+5 at G2 and +10 at G3 over the base (20 wood → 25 → 30).</em></li>
+    <li><b>Defenses.</b><em class="ok">Ground Defense: Ground, AntiLight, 3 shots of 40, range 5. Air Defense: Air, AntiMedium, 2 shots of 60, range 6.</em><em class="ok">Changed in question 56: the Ground Defense fires 2 shots.</em></li>
+  </ol>
+  <div class="grp">Round 3 · Implementation</div>
+  <div class="grp sub">Blocking the code design</div>
+  <ol class="q" style="counter-reset: q 28">
+    <li><b>Can an air unit and a ground unit share the same tile?</b>Today each tile allows a single troop. If the Raptor cannot sit on top of an enemy troop, the Quantum bomb (range 1, directly below) is almost unusable, and air units would block ground units' way.<em class="ok">Two layers per tile, ground and air. An air unit can be over any troop or building, own or enemy. Air and ground units don't block each other; two air units don't share a tile.</em></li>
+    <li><b>How many actions per turn does a troop have?</b>Rifle and Triple shot in the same turn? Weapon and ability? Move and attack? Today there is 1 attack per troop per turn.<em class="ok">Each turn a troop can move, make 1 attack action (a weapon or an ability that deals damage: Triple shot replaces the Rifle, Anti-air or Bomb count as an attack) and use 1 support ability (Healing, Camouflage, Reflector shield, Load, Turbo, Stim…). All limited by AP and cooldowns.</em></li>
+    <li><b>How is damage split among individuals?</b>Today the troop's health is a shared pool: individuals die one by one. The shield absorbs 80% of each hit and 20% goes to health; it regenerates +5 per turn.<em class="ok">Keep the current model with shared pools. Troop shield = shield × individuals and regeneration +5 per individual. The 80% / 20% stays the same. When an individual dies the max. shield drops and the current shield is trimmed to it. When splitting, health and shield are divided proportionally. Precision (Burst): half the damage goes straight to health.</em></li>
+    <li><b>Area damage: full damage to every troop in the area?</b>Today every troop in the 3x3 takes full damage: 4 Mechs with Flamethrowers would deal 240 to each of up to 9 troops, far above what the combat table measured.<em class="ok">100% to the target and 50% to the other troops in the area (Flamethrower, Freezergun, Mines). The Quantum bomb keeps its 100 / 75 / 50% by rings. No friendly fire, as today. The effect (burn, slow) applies to all of them.</em></li>
+    <li><b>Does the counterattack cost the defender anything?</b>AP, cooldown, fuel, does it count as its attack for the turn?<em class="ok">It is free: it spends no AP, resources or cooldown and doesn't count as its attack. It uses the highest-damage available weapon that doesn't spend resources. There is no counterattack against mines, the Quantum bomb, Defenses or area damage to troops that weren't the target.</em></li>
+  </ol>
+  <div class="grp sub">Rules for new mechanics</div>
+  <ol class="q" style="counter-reset: q 33">
+    <li><b>Transport: unloading and destruction.</b>Does unloading cost AP? What happens if the vehicle is destroyed? Can it unload on water or mountains? Can passengers shoot from inside?<em class="ok">Unloading costs no AP and passengers get off onto free adjacent tiles, never on water or mountains. If the APC or the Raptor is destroyed, all passengers die. No shooting or abilities from inside.</em></li>
+    <li><b>Mines: triggering.</b>On entering their tile or the 3x3? Do they stop movement? Can the Government see them?<em class="ok">They explode when an enemy ground troop enters their tile; the damage covers the 3x3 (80 / 40). The troop that steps on it stops there and loses the rest of its movement. The Government sees them within its vision, and so does the Explorer with the Detect camouflaged passive (G3, question 54), the same as invisible units.</em></li>
+    <li><b>Invisible units on a route.</b>If my route goes through an invisible enemy troop's tile, what happens?<em class="ok">The invisible unit isn't revealed, there is no attack and my troop keeps to its route: that tile is not an obstacle, it can be crossed or the move can end on it.</em><em class="ok">If my troop ends on an invisible enemy's tile, both share it until one leaves. If the invisible unit is revealed there (by attacking, running out of energy or cancelling), they keep sharing it and can attack each other as if they were adjacent; the first one to move goes to another tile. The invisible unit, on the other hand, sees enemy troops and treats them as obstacles, as today.</em></li>
+    <li><b>States and queued orders.</b>Paralyzed, Slowed, Burn.<em class="ok">Paralyzed: queued orders are delayed by one turn, not cancelled. Slowed: moves carried out while it lasts cost more; the extra is charged on execution and, without AP, the order is left half done as today. Burn: follows the troop even if it moves.</em></li>
+    <li><b>Portal and orders.</b>What happens to the orders of teleported troops?<em class="ok">On arrival, all orders of the teleported troops are paused (not cancelled): the player resumes, changes or cancels them.</em></li>
+    <li><b>“Ally” in Co-op.</b>Do teammates count as allies?<em class="ok">Yes, for everything: shared vision for firing, Portal, auras, Shield+ and Stim. There is never friendly fire.</em></li>
+  </ol>
+  <div class="grp sub">Missing data</div>
+  <ol class="q" style="counter-reset: q 39">
+    <li><b>Building shields and armor.</b>Repair+ and EMP assume buildings have a shield; today only the Government has one (200 / 400 / 800).<em class="ok">Every building has a shield equal to 25% of its health, except the Government, which keeps its own. They are all Structure, Defenses included.</em></li>
+    <li><b>Production: AP per troop or per individual.</b>And can a troop smaller than the maximum be produced?<em class="ok">Producing costs AP per individual, as on the server today: Worker and Military 1; Mech, APC, Raptor and Constructor 2; Explorer 1; Scientist and Droid 2. Resources are also per individual and any size up to the level's maximum can be produced.</em></li>
+    <li><b>Troops above the new maximum.</b>For example, Mechs of 10 when the maximum becomes 3 / 4.<em class="ok">It doesn't happen within a match (the maximum only goes up with the Government). Wiping the matches on deploy is enough (question 46).</em></li>
+    <li><b>Explorer without energy.</b><em class="ok">A unit that depends on energy (Constructor, Explorer) is disabled if it runs out: it doesn't move or use abilities.</em><em class="ok">Disabled, it also doesn't attack (Bite) or counterattack, and gives no AP that turn, just like a paralyzed one. Since energy is the player's reserve, they are all disabled at once and work again as soon as there is energy. It still takes damage normally.</em></li>
+    <li><b>Neutral creatures (cow, horse).</b><em class="ok">Light, ground and organic.</em></li>
+  </ol>
+  <div class="grp sub">Scope of the work</div>
+  <ol class="q" style="counter-reset: q 44">
+    <li><b>Subsoil.</b>Do Detect subsoil and Dig show up disabled?<em class="ok">They are not implemented yet and don't show up in the game until the subsoil is defined.</em></li>
+    <li><b>Saved games.</b>Units, AP and shields change: current matches and lobbies would not be compatible.<em class="ok">Matches and lobbies are wiped on deploy, with a backup, as on other occasions.</em></li>
+    <li><b>Phased implementation.</b>The AI has to learn each new thing and the client needs an interface, sprites (Explorer, Droid, Scientist) and icons.<em class="ok">Five phases, each deployable and with the AI adapted before moving on to the next: 1) classes, AP, fuel and shields; 2) several weapons per unit and area damage; 3) abilities and states; 4) new units, transport, mines and Portal; 5) fine-tuning with real matches.</em></li>
+  </ol>
+  <div class="grp">Round 4 · Adjustments from the sheets</div>
+  <ol class="q" style="counter-reset: q 47">
+    <li><b>Constructor's Repair+ (G3).</b><em class="ok">1 AP + 20% of the building's cost per 25% of health repaired. Repair (G2) stays at 25%: repairing is somewhat cheaper with Government 3.</em></li>
+    <li><b>Explorer's Detect camouflaged.</b><em class="ok">It stops being a G1 passive (set to “Not applicable”) and becomes a G3 active ability again: 3 AP + 100 E, once every 3 turns; it detects invisible units and mines within its vision. The Government still sees them passively within its vision.</em><em class="ok">Changed in question 54: it becomes a G3 passive.</em></li>
+    <li><b>Do the auras of several Scientists stack?</b><em class="ok">No. Each ally receives each aura only once (+10 shield and +5 health per turn at most), whether the Scientists belong to the same player or to an ally. Shield Aura and Health Aura do add up with each other, because they are different auras.</em></li>
+    <li><b>Which siege weapon is used against a Ground Defense?</b>At range 5, the Missile launcher tied with it and always took its fire.<em class="ok">The Missile launcher goes to range 6: G2 infantry can siege it without taking fire. The Raptor (Burst, 100% against Structure) remains immune because it flies; the Quantum bomb does 50% to it.</em></li>
+  </ol>
+  <div class="grp">Round 5 · Before implementing</div>
+  <ol class="q" style="counter-reset: q 51">
+    <li><b>Building health.</b>Review every health value based on unit damage and each building's tactical importance.<em class="ok">See “Building health”: Government 800 / 1300 / 2000 (shield 300 / 500 / 800), Training Center and Ground Factory 1000, Launch Pad 1200, Bank 800, Ground Defense 800, Air Defense 600, Generator 500, extractors, Farm and Refinery 400, Housing 200. 25% shield except for the Government.</em></li>
+    <li><b>Internal names.</b><em class="ok">They change completely, also in the code, the client protocol and the textures: robot → meca, vehiculo → transporte_apc, nave → raptor, fabrica_aeronaves → lanzadera, plus the new explorador, droide and cientifico. Matches are wiped on deploy (question 46).</em></li>
+    <li><b>Explorer's Detect camouflaged.</b><em class="ok">It becomes a G3 passive ability (Always: sees invisible units and mines within its vision) and replaces Speed++, which is removed: the Explorer keeps Speed+ (+25%, 0.2 AP/tile) from G2. The G3 active is set to “Not applicable”.</em></li>
+    <li><b>G2 Military against Mechs.</b>With the Missile launcher at 6, Militaries can attack unescorted Mechs without any response: the Mech reaches 4 at most against ground units and moves at double cost.<em class="ok">Change nothing for now: it is offset by mixed armies and the APC. Review it in phase 5 with real matches.</em></li>
+  </ol>
+  <div class="grp">Round 6 · Phase 5: AI versus AI simulations</div>
+  <ol class="q" style="counter-reset: q 55">
+    <li><b>Ground Defense too strong.</b>With 3 shots of 40 it stopped any G1 and G2 infantry attack.<em class="ok">2 shots of 40 per turn. The AI sieges the Defense with the Missile launcher from 6 tiles, out of its range, and without Missile launchers it doesn't attack a defended base.</em></li>
+    <li><b>The AI spent almost all its AP on moving.</b><em class="ok">Its planned movement can only take up 50% of its AP and its routes without an order move last. It only affects the AI.</em></li>
+    <li><b>Surplus energy.</b><em class="ok">The Generator drops to 75 per worker and passives become purchasable: 1,000 / 2,500 / 5,000 energy depending on the level, 3 AP, ready after 2 turns, at the building that produces the unit. “++” requires “+”.</em></li>
+    <li style="counter-set: q 59"><b>Farm.</b><em class="ok">40 food per worker. Depleted pasture doesn't recover.</em></li>
+    <li><b>Energy was still in surplus with the passives.</b>Lower the Government's production, or charge energy upkeep per military unit?<em class="ok">The Government produces 200 / 300 / 400 and, on top of that, weapons and active abilities are purchased (question 62).</em></li>
+    <li><b>Paid weapons and active abilities.</b><em class="ok">Each unit comes with its first weapon and its G1 abilities. The other weapons and the G2 and G3 actives are purchased the same way as passives. Prices in “Energy and purchases”.</em></li>
+    <li><b>No match ever ended.</b>The AI barely damaged the enemy Government.<em class="ok">The AI assaults the enemy Government when its army is worth twice the largest enemy army it has seen in the last 8 turns (minimum 10 individuals). To find it sooner it sends an Explorer to the symmetric point of the map from turn 8. It finds it around turn 22–26, before turn 50.</em></li>
+    <li><b>Constructors scouting.</b><em class="ok">They no longer scout: the Explorer does, spending fewer AP (0.25 per tile versus 1). The AI builds an Explorer from turn 1.</em></li>
+  </ol>
+  <div class="grp">Round 7 · Energy cap, fatigue and routes</div>
+  <ol class="q" style="counter-reset: q 64">
+    <li><b>Energy surplus in late turns.</b>Generators are infinite: how to limit accumulated energy?<em class="ok">It grows like a tank, <code>ΔE = P × (1 − E / Max)</code>, and never goes over the maximum: Government 2,000 / 4,000 / 6,000 + 1,500 per Generator. See “Energy cap”.</em></li>
+    <li><b>Fatigue for human units.</b><em class="ok">Military and Scientist: +1 per tile up to 10; at 10 they stop and keep walking at the end of the turn with the leftover AP. It resets to 0 each turn. See “Fatigue”.</em></li>
+    <li><b>Cost of walking tired.</b><em class="ok">Tired tile k costs × (1 + k/2): it goes up with every tile and has no ceiling.</em></li>
+    <li><b>Pathfinding in fog and route drawing.</b><em class="ok">Real route in explored areas and a straight line in unexplored fog (dimmed). Segments: solid (arrives fresh or with the turn's AP), wavy (arrives tired) and dashed (doesn't arrive this turn). The estimated number of turns disappears.</em></li>
+    <li><b>Building in unexplored fog.</b>The Constructor revealed the fog along its route so it could build further away (mostly Generators).<em class="ok">That reveal is removed. A building on unexplored fog can be ordered blind: the preview always shows green so as not to give away obstacles, and the order is a move-and-build. As soon as the Constructor sees the site it is checked: if it can't be built on (water, mountain, a building…), the order is cancelled, the Constructor stays where it got to and the player gets a warning with a magnifier; they will have to order it again. If the site is valid, it continues as a normal construction. Running out of AP along the way doesn't cancel it: it continues over the following turns.</em></li>
+  </ol>
+</section>
+</main>
+</div>
+
+</body>
+</html>

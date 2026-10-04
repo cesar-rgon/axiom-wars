@@ -126,6 +126,8 @@ assets/img/         logo, unidades, galería y museo
 assets/js/i18n.js   traducción al español de la web (por defecto, inglés)
 docs/unidades/      fichas de las unidades Terráneas (Markdown y PDF)
 docs/balanceo/      informe de balanceo (HTML y PDF)
+docs/units/         las mismas fichas en inglés
+docs/balance/       el mismo informe en inglés
 tools/make_logo.py  recorta el logo original a PNG transparente
 ```
 

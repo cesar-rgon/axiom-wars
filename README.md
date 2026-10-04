@@ -79,30 +79,30 @@ Axiom Wars started out as a terminal client. These are the versions it has gone 
 
 ## Units of the Terran Faction
 
-Nine units, from the mine to the sky. Each sheet covers production, upkeep, defense, movement and what every Government level unlocks. The sheets are in Spanish.
+Nine units, from the mine to the sky. Each sheet covers production, upkeep, defense, movement and what every Government level unlocks.
 
 | | Unit | Class | Health | Shield | Vision |
 |---|---|---|---:|---:|---:|
-| <img src="assets/img/units/trabajador.png" width="48" alt=""> | [Worker](docs/unidades/trabajador.md) | Civilian, inside its building | 50 | — | — |
-| <img src="assets/img/units/constructor.png" width="48" alt=""> | [Constructor](docs/unidades/constructor.md) | Light · civilian | 50 | 50 | 4 |
-| <img src="assets/img/units/explorador.png" width="48" alt=""> | [Explorer](docs/unidades/explorador.md) | Light · melee | 60 | 30 | 10 |
-| <img src="assets/img/units/militar.png" width="48" alt=""> | [Military](docs/unidades/militar.md) | Light · ranged | 50 | 30 | 7 |
-| <img src="assets/img/units/cientifico.png" width="48" alt=""> | [Scientist](docs/unidades/cientifico.md) | Light · support | 40 | 40 | 5 |
-| <img src="assets/img/units/transporte_apc.png" width="48" alt=""> | [APC Transport](docs/unidades/transporte_apc.md) | Medium · transport | 150 | 100 | 6 |
-| <img src="assets/img/units/meca.png" width="48" alt=""> | [Mech](docs/unidades/meca.md) | Heavy · area | 250 | 150 | 6 |
-| <img src="assets/img/units/raptor.png" width="48" alt=""> | [Raptor](docs/unidades/raptor.md) | Medium · air | 180 | 120 | 9 |
-| <img src="assets/img/units/droide.png" width="48" alt=""> | [Droid](docs/unidades/droide.md) | Light · air | 60 | 120 | 8 |
+| <img src="assets/img/units/trabajador.png" width="48" alt=""> | [Worker](docs/units/trabajador.md) | Civilian, inside its building | 50 | — | — |
+| <img src="assets/img/units/constructor.png" width="48" alt=""> | [Constructor](docs/units/constructor.md) | Light · civilian | 50 | 50 | 4 |
+| <img src="assets/img/units/explorador.png" width="48" alt=""> | [Explorer](docs/units/explorador.md) | Light · melee | 60 | 30 | 10 |
+| <img src="assets/img/units/militar.png" width="48" alt=""> | [Military](docs/units/militar.md) | Light · ranged | 50 | 30 | 7 |
+| <img src="assets/img/units/cientifico.png" width="48" alt=""> | [Scientist](docs/units/cientifico.md) | Light · support | 40 | 40 | 5 |
+| <img src="assets/img/units/transporte_apc.png" width="48" alt=""> | [APC Transport](docs/units/transporte_apc.md) | Medium · transport | 150 | 100 | 6 |
+| <img src="assets/img/units/meca.png" width="48" alt=""> | [Mech](docs/units/meca.md) | Heavy · area | 250 | 150 | 6 |
+| <img src="assets/img/units/raptor.png" width="48" alt=""> | [Raptor](docs/units/raptor.md) | Medium · air | 180 | 120 | 9 |
+| <img src="assets/img/units/droide.png" width="48" alt=""> | [Droid](docs/units/droide.md) | Light · air | 60 | 120 | 8 |
 
-Index with each unit's role: [docs/unidades](docs/unidades/README.md) · All nine sheets, print-ready: [Fichas-Terranea.pdf](docs/unidades/Fichas-Terranea.pdf)
+Index with each unit's role: [docs/units](docs/units/README.md) · All nine sheets, print-ready: [Unit-Sheets-Terran.pdf](docs/units/Unit-Sheets-Terran.pdf)
 
 ## Balance
 
-The Terran Faction balance report (proposal v11, in Spanish) looks at all nine unit sheets together and proposes numbers for every weapon and ability. Its core idea: each armor class has weapons that deal full damage to it and weapons that barely scratch it, so the right unit against its target is 2–3 times more efficient per AP than the wrong one.
+The Terran Faction balance report (proposal v11) looks at all nine unit sheets together and proposes numbers for every weapon and ability. Its core idea: each armor class has weapons that deal full damage to it and weapons that barely scratch it, so the right unit against its target is 2–3 times more efficient per AP than the wrong one.
 
 It covers the weapon-versus-unit damage matrix, the AP economy, energy and purchases, range and vision, combat checks, building health and a unit-by-unit review.
 
-- **Read it in the browser:** [cesar-rgon.github.io/axiom-wars/docs/balanceo/](https://cesar-rgon.github.io/axiom-wars/docs/balanceo/)
-- **PDF:** [Balanceo-Terraneo-v11.pdf](docs/balanceo/Balanceo-Terraneo-v11.pdf)
+- **Read it in the browser:** [cesar-rgon.github.io/axiom-wars/docs/balance/](https://cesar-rgon.github.io/axiom-wars/docs/balance/)
+- **PDF:** [Balance-Terran-v11.pdf](docs/balance/Balance-Terran-v11.pdf)
 
 ## Download and play
 
@@ -124,8 +124,10 @@ This repository hosts the game's website (GitHub Pages) and the client downloads
 index.html          website published at https://cesar-rgon.github.io/axiom-wars/
 assets/img/         logo, units, gallery and museum
 assets/js/i18n.js   Spanish translation of the website (English is the default)
-docs/unidades/      Terran unit sheets (Markdown and PDF, in Spanish)
-docs/balanceo/      balance report (HTML and PDF, in Spanish)
+docs/units/         Terran unit sheets (Markdown and PDF)
+docs/balance/       balance report (HTML and PDF)
+docs/unidades/      the same unit sheets in Spanish
+docs/balanceo/      the same balance report in Spanish
 tools/make_logo.py  cuts the original logo out to a transparent PNG
 ```
 

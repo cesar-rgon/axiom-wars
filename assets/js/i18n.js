@@ -1,8 +1,9 @@
 // Idioma de la web. El HTML está escrito en inglés (idioma por defecto); aquí
 // sólo va el español. Cada elemento traducible lleva data-i18n="clave" (su
 // contenido HTML), data-i18n-alt (texto alternativo de una imagen),
-// data-i18n-aria (aria-label) o data-i18n-phase (atributo data-phase que usa
-// el CSS para "Fase N"). El inglés se toma del propio HTML al cargar.
+// data-i18n-aria (aria-label), data-i18n-phase (atributo data-phase que usa
+// el CSS para "Fase N") o data-i18n-href (enlace a la versión de cada idioma).
+// El inglés se toma del propio HTML al cargar.
 (function () {
   var ES = {
     'nav.aria': 'Secciones',
@@ -70,7 +71,9 @@
     'u.droid': 'Droide', 'u.droid.tags': 'Ligera · aérea',
     'u.droid.d': 'Sin ataque. Abre portales dimensionales que teletransportan tropas.',
     'fac.sheets': 'Fichas completas de las unidades',
+    'fac.sheets.href': 'https://github.com/cesar-rgon/axiom-wars/blob/main/docs/unidades/README.md',
     'fac.balance': 'Informe de balanceo',
+    'fac.balance.href': 'docs/balanceo/',
 
     'shots.eyebrow': 'Capturas',
     'shots.title': 'Así se ve hoy',
@@ -123,7 +126,8 @@
     ['data-i18n', function (el) { return el.innerHTML; }, function (el, v) { el.innerHTML = v; }],
     ['data-i18n-alt', function (el) { return el.alt; }, function (el, v) { el.alt = v; }],
     ['data-i18n-aria', function (el) { return el.getAttribute('aria-label'); }, function (el, v) { el.setAttribute('aria-label', v); }],
-    ['data-i18n-phase', function (el) { return el.getAttribute('data-phase'); }, function (el, v) { el.setAttribute('data-phase', v); }]
+    ['data-i18n-phase', function (el) { return el.getAttribute('data-phase'); }, function (el, v) { el.setAttribute('data-phase', v); }],
+    ['data-i18n-href', function (el) { return el.getAttribute('href'); }, function (el, v) { el.setAttribute('href', v); }]
   ];
   var EN = {};
   var meta = document.querySelector('meta[name="description"]');
