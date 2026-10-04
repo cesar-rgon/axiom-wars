@@ -56,6 +56,6 @@ _Not available: The Mech is built at the Ground Factory, which requires Governme
 
 ---
 
-<sub>Balance v11 · Purchase: at its building, 3 AP, 2 turns · Profile: % L/M/H/Struct.</sub>
+<sub>Balance v12 · Purchase: at its building, 3 AP, 2 turns · Profile: % L/M/H/Struct.</sub>
 
 [← All units](README.md)

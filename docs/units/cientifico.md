@@ -60,6 +60,6 @@ _New unit · Terran Faction_
 
 ---
 
-<sub>New unit · Balance v11 · Purchase: at its building, 3 AP, 2 turns · Profile: % L/M/H/Struct.</sub>
+<sub>New unit · Balance v12 · Purchase: at its building, 3 AP, 2 turns · Profile: % L/M/H/Struct.</sub>
 
 [← All units](README.md)

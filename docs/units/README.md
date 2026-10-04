@@ -4,7 +4,7 @@
 
 Sheets for the nine Terran units: production, upkeep, defense, movement and what each Government level unlocks (weapon, active ability and passive ability).
 
-Values match **balance v11** and may change while the game is in development.
+Values match **balance v12** and may change while the game is in development.
 
 | | Unit | Class · cap · building | Role |
 |---|---|---|---|

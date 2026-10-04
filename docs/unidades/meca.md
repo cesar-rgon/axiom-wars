@@ -56,6 +56,6 @@ _No disponible: El Meca se fabrica en la Fábrica Terrestre, que requiere Gobier
 
 ---
 
-<sub>Balanceo v11 · Compra: en su edificio, 3 PA, 2 turnos · Perfil: % L/M/P/Estr.</sub>
+<sub>Balanceo v12 · Compra: en su edificio, 3 PA, 2 turnos · Perfil: % L/M/P/Estr.</sub>
 
 [← Todas las unidades](README.md)

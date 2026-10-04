@@ -97,12 +97,12 @@ Nueve unidades, de la mina al cielo. Cada ficha detalla producción, mantenimien
 
 ## Balanceo
 
-El informe de balanceo de la Facción Terránea (propuesta v11) analiza las nueve fichas a la vez y propone los números de todas las armas y habilidades. Su idea central: cada blindaje tiene armas que le hacen daño completo y armas que apenas le hacen nada, de modo que la unidad correcta contra su objetivo sea 2–3 veces más eficiente por PA que la incorrecta.
+El informe de balanceo de la Facción Terránea (propuesta v12) analiza las nueve fichas a la vez y propone los números de todas las armas y habilidades. Su idea central: cada blindaje tiene armas que le hacen daño completo y armas que apenas le hacen nada, de modo que la unidad correcta contra su objetivo sea 2–3 veces más eficiente por PA que la incorrecta.
 
 Incluye la matriz de daño arma contra unidad, la economía de PA, energía y compras, alcance y visión, comprobaciones de combate, vida de los edificios y un repaso unidad por unidad.
 
 - **Leerlo en el navegador:** [cesar-rgon.github.io/axiom-wars/docs/balanceo/](https://cesar-rgon.github.io/axiom-wars/docs/balanceo/)
-- **PDF:** [Balanceo-Terraneo-v11.pdf](docs/balanceo/Balanceo-Terraneo-v11.pdf)
+- **PDF:** [Balanceo-Terraneo-v12.pdf](docs/balanceo/Balanceo-Terraneo-v12.pdf)
 
 ## Descargar y jugar
 

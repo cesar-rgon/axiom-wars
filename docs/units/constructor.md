@@ -39,7 +39,7 @@ _Construction unit · Terran Faction_
 | | Name | Details |
 |---|---|---|
 | ⚔️ Weapon | _not applicable_ | The Constructor does not attack |
-| ✨ Active | **Build** | Cost Building AP and resources · Cooldown No cooldown · Effect Starts building construction (moves to the site first). In unexplored fog it is ordered blind: if the site turns out to be unbuildable once seen, the order is cancelled with a warning. |
+| ✨ Active | **Build** | Cost Building AP and resources · Cooldown No cooldown · Effect Starts building construction (moves to the site first). Only the Generator can be ordered on unexplored fog, blind: if the site turns out to be unbuildable once seen, the order is cancelled with a warning. |
 | 🛡️ Passive | _not applicable_ | The Constructor has no passive abilities |
 
 ## Government 2
@@ -60,6 +60,6 @@ _Construction unit · Terran Faction_
 
 ---
 
-<sub>Balance v11 · Purchase: at its building, 3 AP, 2 turns · Profile: % L/M/H/Struct.</sub>
+<sub>Balance v12 · Purchase: at its building, 3 AP, 2 turns · Profile: % L/M/H/Struct.</sub>
 
 [← All units](README.md)

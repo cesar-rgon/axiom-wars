@@ -52,6 +52,6 @@ _No disponible: El Raptor se fabrica en la Lanzadera, que requiere Gobierno nive
 
 ---
 
-<sub>Balanceo v11 · Compra: en su edificio, 3 PA, 2 turnos · Perfil: % L/M/P/Estr.</sub>
+<sub>Balanceo v12 · Compra: en su edificio, 3 PA, 2 turnos · Perfil: % L/M/P/Estr.</sub>
 
 [← Todas las unidades](README.md)

@@ -56,6 +56,6 @@ _No disponible: El Transporte APC se fabrica en la Fábrica Terrestre, que requi
 
 ---
 
-<sub>Balanceo v11 · Compra: en su edificio, 3 PA, 2 turnos · Perfil: % L/M/P/Estr.</sub>
+<sub>Balanceo v12 · Compra: en su edificio, 3 PA, 2 turnos · Perfil: % L/M/P/Estr.</sub>
 
 [← Todas las unidades](README.md)

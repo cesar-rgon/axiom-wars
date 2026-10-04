@@ -163,7 +163,7 @@ table.bld .note { color: var(--muted); font-size: 13px; }
 </nav>
 <main>
 <header class="top" id="resumen">
-  <span class="eyebrow">Axiom Wars · Facción Terránea · propuesta v11</span>
+  <span class="eyebrow">Axiom Wars · Facción Terránea · propuesta v12</span>
   <h1>Balanceo de las unidades Terráneas</h1>
   <p class="lead">Análisis de las 9 fichas contrastado con el servidor actual, una propuesta de números para todas las armas y habilidades, y las preguntas que quedan abiertas. Nada de esto toca código: si apruebas la propuesta, se trasladará a las fichas.</p>
   <div class="decisions">
@@ -309,7 +309,7 @@ table.bld .note { color: var(--muted); font-size: 13px; }
       <tr><td>Casilla 15, cansada 5</td><td class="n">17,5</td><td class="n">112,5</td></tr>
     </tbody>
   </table></div>
-  <p>La ruta se dibuja por tramos: continua hasta donde llega sin cansarse (en las máquinas, hasta donde llegan los PA del turno), ondulada donde anda cansada y discontinua lo que no recorre este turno. En la niebla sin explorar la ruta va en línea recta, porque tampoco se sabe qué hay debajo, y se recalcula al descubrir un obstáculo. También se puede ordenar construir a ciegas en la niebla (pregunta 69).</p>
+  <p>La ruta se dibuja por tramos: continua hasta donde llega sin cansarse (en las máquinas, hasta donde llegan los PA del turno), ondulada donde anda cansada y discontinua lo que no recorre este turno. En la niebla sin explorar la ruta va en línea recta, porque tampoco se sabe qué hay debajo, y se recalcula al descubrir un obstáculo. El Generador también se puede ordenar a ciegas en la niebla (pregunta 69).</p>
   <h4>Combustible: se gasta al moverse</h4>
   <p>El combustible deja de ser mantenimiento: <b>sólo se gasta al moverse y en algunas habilidades</b> (Lanzallamas, Turbo). Una unidad aparcada no consume nada. <span class="tag-ok">Aprobado</span> Los valores por casilla salen de repartir el mantenimiento de hoy entre las casillas que la unidad anda en un turno típico, así que un ejército en marcha gasta lo mismo que antes y uno quieto, nada.</p>
   <div class="scroll"><table class="data" style="min-width:560px">
@@ -613,7 +613,7 @@ table.bld .note { color: var(--muted); font-size: 13px; }
     <li><b>Cansancio de las unidades humanas.</b><em class="ok">Militar y Científico: +1 por casilla hasta 10; con 10 se paran y siguen andando al final del turno con los PA sobrantes. Vuelve a 0 cada turno. Ver «Cansancio».</em></li>
     <li><b>Coste de andar cansado.</b><em class="ok">La casilla cansada k cuesta × (1 + k/2): sube en cada casilla y no tiene techo.</em></li>
     <li><b>Pathfinding en niebla y dibujo de la ruta.</b><em class="ok">Ruta real en zona explorada y en línea recta en niebla sin explorar (atenuada). Tramos: continuo (llega fresco o con los PA del turno), ondulado (llega cansado) y discontinuo (no llega este turno). Desaparece el número de turnos estimados.</em></li>
-    <li><b>Construir en niebla sin explorar.</b>El Constructor revelaba la niebla de su ruta para poder construir más allá (sobre todo Generadores).<em class="ok">Se quita esa revelación. Un edificio sobre niebla sin explorar se puede ordenar a ciegas: la previsualización sale siempre verde para no desvelar obstáculos y la orden es de mover y construir. En cuanto el Constructor ve el sitio, se comprueba: si no se puede construir (agua, montaña, un edificio…), la orden se cancela, el Constructor se queda donde llegó y el jugador recibe un aviso con lupa; tendrá que ordenarlo de nuevo. Si el sitio vale, sigue como una construcción normal. La falta de PA por el camino no la cancela: sigue en los turnos siguientes.</em></li>
+    <li><b>Construir en niebla sin explorar.</b>El Constructor revelaba la niebla de su ruta para poder construir más allá (sobre todo Generadores).<em class="ok">Se quita esa revelación. Sólo el Generador de Energía se puede ordenar sobre niebla sin explorar; cualquier otro edificio necesita el sitio explorado (sale en rojo y no se admite). El Generador se ordena a ciegas: las casillas que ya se ven se comprueban como siempre (un obstáculo visible lo pone en rojo y no deja construir) y las ocultas salen en verde para no desvelar lo que hay; la orden es de mover y construir. En cuanto el Constructor ve el sitio, se comprueba: si no se puede construir (agua, montaña, un edificio…), la orden se cancela, el Constructor se queda donde llegó y el jugador recibe un aviso con lupa; tendrá que ordenarlo de nuevo. Si el sitio vale, sigue como una construcción normal. La falta de PA por el camino no la cancela: sigue en los turnos siguientes.</em></li>
   </ol>
 </section>
 </main>

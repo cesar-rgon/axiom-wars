@@ -39,7 +39,7 @@ _Unidad de construcción · Facción Terránea_
 | | Nombre | Detalles |
 |---|---|---|
 | ⚔️ Arma | _no aplica_ | El Constructor no ataca |
-| ✨ Activa | **Construir** | Coste PA y recursos de edificio · Recarga Sin recarga · Efecto Inicia construcción de edificio (primero se mueve al lugar). En niebla sin explorar se ordena a ciegas: si al verlo no se puede construir, se cancela y avisa. |
+| ✨ Activa | **Construir** | Coste PA y recursos de edificio · Recarga Sin recarga · Efecto Inicia construcción de edificio (primero se mueve al lugar). Sólo el Generador se puede ordenar en niebla sin explorar, a ciegas: si al verlo no se puede construir, se cancela y avisa. |
 | 🛡️ Pasiva | _no aplica_ | El Constructor no tiene habilidades pasivas |
 
 ## Gobierno 2
@@ -60,6 +60,6 @@ _Unidad de construcción · Facción Terránea_
 
 ---
 
-<sub>Balanceo v11 · Compra: en su edificio, 3 PA, 2 turnos · Perfil: % L/M/P/Estr.</sub>
+<sub>Balanceo v12 · Compra: en su edificio, 3 PA, 2 turnos · Perfil: % L/M/P/Estr.</sub>
 
 [← Todas las unidades](README.md)

@@ -52,6 +52,6 @@ _Not available: The Raptor is built at the Launch Pad, which requires Government
 
 ---
 
-<sub>Balance v11 · Purchase: at its building, 3 AP, 2 turns · Profile: % L/M/H/Struct.</sub>
+<sub>Balance v12 · Purchase: at its building, 3 AP, 2 turns · Profile: % L/M/H/Struct.</sub>
 
 [← All units](README.md)

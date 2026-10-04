@@ -4,7 +4,7 @@
 
 Fichas de las nueve unidades Terráneas: producción, mantenimiento, defensa, movimiento y lo que desbloquea cada nivel de Gobierno (arma, habilidad activa y pasiva).
 
-Los valores corresponden al **balanceo v11** y pueden cambiar mientras el juego siga en desarrollo.
+Los valores corresponden al **balanceo v12** y pueden cambiar mientras el juego siga en desarrollo.
 
 | | Unidad | Clase · cupo · edificio | Papel |
 |---|---|---|---|

@@ -163,7 +163,7 @@ table.bld .note { color: var(--muted); font-size: 13px; }
 </nav>
 <main>
 <header class="top" id="resumen">
-  <span class="eyebrow">Axiom Wars · Terran Faction · proposal v11</span>
+  <span class="eyebrow">Axiom Wars · Terran Faction · proposal v12</span>
   <h1>Balancing the Terran units</h1>
   <p class="lead">An analysis of the 9 unit sheets checked against the current server, a proposed set of numbers for every weapon and ability, and the questions still open. None of this touches code: if the proposal is approved, it will be carried over to the sheets.</p>
   <div class="decisions">
@@ -309,7 +309,7 @@ table.bld .note { color: var(--muted); font-size: 13px; }
       <tr><td>Tile 15, tired 5</td><td class="n">17.5</td><td class="n">112.5</td></tr>
     </tbody>
   </table></div>
-  <p>The route is drawn in segments: solid as far as the troop gets without tiring (for machines, as far as the turn's AP reach), wavy where it walks tired and dashed for whatever it doesn't cover this turn. In unexplored fog the route goes in a straight line, since nobody knows what lies underneath either, and it is recalculated when an obstacle is discovered. Buildings can also be ordered blind in the fog (question 69).</p>
+  <p>The route is drawn in segments: solid as far as the troop gets without tiring (for machines, as far as the turn's AP reach), wavy where it walks tired and dashed for whatever it doesn't cover this turn. In unexplored fog the route goes in a straight line, since nobody knows what lies underneath either, and it is recalculated when an obstacle is discovered. The Generator can also be ordered blind in the fog (question 69).</p>
   <h4>Fuel: spent when moving</h4>
   <p>Fuel is no longer upkeep: <b>it is only spent when moving and on some abilities</b> (Flamethrower, Turbo). A parked unit consumes nothing. <span class="tag-ok">Approved</span> The per-tile values come from spreading today's upkeep over the tiles the unit walks in a typical turn, so an army on the march spends the same as before and an idle one spends nothing.</p>
   <div class="scroll"><table class="data" style="min-width:560px">
@@ -613,7 +613,7 @@ table.bld .note { color: var(--muted); font-size: 13px; }
     <li><b>Fatigue for human units.</b><em class="ok">Military and Scientist: +1 per tile up to 10; at 10 they stop and keep walking at the end of the turn with the leftover AP. It resets to 0 each turn. See “Fatigue”.</em></li>
     <li><b>Cost of walking tired.</b><em class="ok">Tired tile k costs × (1 + k/2): it goes up with every tile and has no ceiling.</em></li>
     <li><b>Pathfinding in fog and route drawing.</b><em class="ok">Real route in explored areas and a straight line in unexplored fog (dimmed). Segments: solid (arrives fresh or with the turn's AP), wavy (arrives tired) and dashed (doesn't arrive this turn). The estimated number of turns disappears.</em></li>
-    <li><b>Building in unexplored fog.</b>The Constructor revealed the fog along its route so it could build further away (mostly Generators).<em class="ok">That reveal is removed. A building on unexplored fog can be ordered blind: the preview always shows green so as not to give away obstacles, and the order is a move-and-build. As soon as the Constructor sees the site it is checked: if it can't be built on (water, mountain, a building…), the order is cancelled, the Constructor stays where it got to and the player gets a warning with a magnifier; they will have to order it again. If the site is valid, it continues as a normal construction. Running out of AP along the way doesn't cancel it: it continues over the following turns.</em></li>
+    <li><b>Building in unexplored fog.</b>The Constructor revealed the fog along its route so it could build further away (mostly Generators).<em class="ok">That reveal is removed. Only the Energy Generator can be ordered on unexplored fog; any other building needs an explored site (it shows red and isn't accepted). The Generator is ordered blind: the cells already in sight are checked as usual (a visible obstacle turns it red and blocks it) and the hidden ones show green so as not to give away what is there; the order is a move-and-build. As soon as the Constructor sees the site it is checked: if it can't be built on (water, mountain, a building…), the order is cancelled, the Constructor stays where it got to and the player gets a warning with a magnifier; they will have to order it again. If the site is valid, it continues as a normal construction. Running out of AP along the way doesn't cancel it: it continues over the following turns.</em></li>
   </ol>
 </section>
 </main>

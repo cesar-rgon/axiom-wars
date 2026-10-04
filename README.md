@@ -97,12 +97,12 @@ Index with each unit's role: [docs/units](docs/units/README.md) · All nine shee
 
 ## Balance
 
-The Terran Faction balance report (proposal v11) looks at all nine unit sheets together and proposes numbers for every weapon and ability. Its core idea: each armor class has weapons that deal full damage to it and weapons that barely scratch it, so the right unit against its target is 2–3 times more efficient per AP than the wrong one.
+The Terran Faction balance report (proposal v12) looks at all nine unit sheets together and proposes numbers for every weapon and ability. Its core idea: each armor class has weapons that deal full damage to it and weapons that barely scratch it, so the right unit against its target is 2–3 times more efficient per AP than the wrong one.
 
 It covers the weapon-versus-unit damage matrix, the AP economy, energy and purchases, range and vision, combat checks, building health and a unit-by-unit review.
 
 - **Read it in the browser:** [cesar-rgon.github.io/axiom-wars/docs/balance/](https://cesar-rgon.github.io/axiom-wars/docs/balance/)
-- **PDF:** [Balance-Terran-v11.pdf](docs/balance/Balance-Terran-v11.pdf)
+- **PDF:** [Balance-Terran-v12.pdf](docs/balance/Balance-Terran-v12.pdf)
 
 ## Download and play
 

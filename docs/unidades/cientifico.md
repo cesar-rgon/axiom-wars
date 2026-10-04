@@ -60,6 +60,6 @@ _Nueva unidad · Facción Terránea_
 
 ---
 
-<sub>Unidad nueva · Balanceo v11 · Compra: en su edificio, 3 PA, 2 turnos · Perfil: % L/M/P/Estr.</sub>
+<sub>Unidad nueva · Balanceo v12 · Compra: en su edificio, 3 PA, 2 turnos · Perfil: % L/M/P/Estr.</sub>
 
 [← Todas las unidades](README.md)
