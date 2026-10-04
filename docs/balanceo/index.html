@@ -1,0 +1,622 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="icon" type="image/png" href="../../assets/img/favicon.png">
+</head>
+<body>
+<title>Balanceo Terráneo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: informe de una columna (~70ch) con tablas anchas que desbordan en su propio contenedor; índice lateral en escritorio. */
+:root {
+  --bg: #eef1f4; --surface: #ffffff; --ink: #17212c; --muted: #5a6776; --line: #d3dae2;
+  --accent: #b5620f; --accent-soft: #f6e6d3;
+  --hi-bg: #d5efe2; --hi-fg: #0f5a37;
+  --mh-bg: #e6f1d6; --mh-fg: #3c5a12;
+  --md-bg: #f7ecd2; --md-fg: #6b4a07;
+  --ml-bg: #f8dfcf; --ml-fg: #7a3410;
+  --lo-bg: #f6d3d3; --lo-fg: #8a1c1c;
+  --na-bg: #eceff2; --na-fg: #9aa5b1;
+  --chg: #fff6e8;
+  --f-display: "Chakra Petch", "Arial Narrow", sans-serif;
+  --f-body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0d131a; --surface: #141c25; --ink: #e2e8ee; --muted: #94a2b1; --line: #2a3644;
+  --accent: #f0a24a; --accent-soft: #3a2a17;
+  --hi-bg: #123d2b; --hi-fg: #8fe0b6; --mh-bg: #26381a; --mh-fg: #c3e39a;
+  --md-bg: #3d3115; --md-fg: #f1d48d; --ml-bg: #45261a; --ml-fg: #f4b58f;
+  --lo-bg: #4a1d1f; --lo-fg: #f7a7a7; --na-bg: #1b242e; --na-fg: #5d6b79; --chg: #2c2416;
+  color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #0d131a; --surface: #141c25; --ink: #e2e8ee; --muted: #94a2b1; --line: #2a3644;
+  --accent: #f0a24a; --accent-soft: #3a2a17;
+  --hi-bg: #123d2b; --hi-fg: #8fe0b6; --mh-bg: #26381a; --mh-fg: #c3e39a;
+  --md-bg: #3d3115; --md-fg: #f1d48d; --ml-bg: #45261a; --ml-fg: #f4b58f;
+  --lo-bg: #4a1d1f; --lo-fg: #f7a7a7; --na-bg: #1b242e; --na-fg: #5d6b79; --chg: #2c2416;
+  color-scheme: dark; }
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font: 15px/1.6 var(--f-body); }
+.wrap { max-width: 1180px; margin: 0 auto; padding-inline: 20px; padding-block: 32px 80px; display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 40px; }
+@media (max-width: 900px) { .wrap { grid-template-columns: minmax(0,1fr); gap: 16px; padding-inline: 16px; } nav.toc { position: static !important; } }
+nav.toc { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 20px); align-self: start; font-size: 13px; }
+nav.toc b { font: 600 11px/1 var(--f-display); letter-spacing: .14em; text-transform: uppercase; color: var(--muted); display: block; margin-bottom: 10px; }
+nav.toc ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+nav.toc a { color: var(--ink); text-decoration: none; border-left: 2px solid var(--line); padding-left: 10px; display: block; }
+nav.toc a:hover, nav.toc a:focus-visible { border-color: var(--accent); color: var(--accent); outline: none; }
+main { min-width: 0; display: grid; gap: 56px; }
+header.top { display: grid; gap: 10px; }
+.eyebrow { font: 600 12px/1 var(--f-display); letter-spacing: .18em; text-transform: uppercase; color: var(--accent); }
+h1 { font: 700 clamp(30px, 5vw, 46px)/1.05 var(--f-display); margin: 0; letter-spacing: .01em; text-wrap: balance; }
+h2 { font: 600 26px/1.15 var(--f-display); margin: 0 0 14px; text-wrap: balance; }
+h3 { font: 600 19px/1.2 var(--f-display); margin: 0; }
+h4 { font: 600 15px/1.3 var(--f-body); margin: 18px 0 6px; }
+p, li { max-width: 72ch; }
+p { margin: 0 0 12px; }
+.lead { font-size: 17px; color: var(--muted); max-width: 70ch; }
+section > p:last-child { margin-bottom: 0; }
+.decisions { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin-top: 8px; }
+.decisions div { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 12px 14px; display: grid; gap: 4px; }
+.decisions span { font: 600 11px/1 var(--f-display); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+.decisions strong { font-weight: 600; }
+.scroll { overflow-x: auto; margin: 14px 0; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); }
+table { border-collapse: collapse; width: 100%; font-variant-numeric: tabular-nums; }
+th, td { padding: 8px 10px; text-align: left; vertical-align: top; border-bottom: 1px solid var(--line); }
+thead th { font: 600 12px/1.2 var(--f-display); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); background: var(--surface); }
+td.n, th.n { text-align: right; font-family: var(--f-mono); font-size: 13px; }
+td.note { color: var(--muted); font-size: 13px; }
+table.data { font-size: 14px; min-width: 900px; }
+.matrix { min-width: 860px; font-size: 13px; }
+.matrix th.corner { font: 500 11px/1.3 var(--f-body); text-transform: none; letter-spacing: 0; color: var(--muted); }
+.matrix thead th { text-align: center; }
+.matrix .tn { display: block; color: var(--ink); }
+.matrix .tm { display: block; font: 400 11px/1.3 var(--f-body); text-transform: none; letter-spacing: 0; color: var(--muted); margin-top: 3px; }
+.matrix tbody th { min-width: 210px; font-weight: 400; }
+.matrix .wn { display: block; font-weight: 600; }
+.matrix .wm { display: block; font-size: 11.5px; color: var(--muted); }
+.h { text-align: center; font-family: var(--f-mono); border-left: 1px solid var(--surface); }
+.h b { display: block; font-weight: 500; font-size: 14px; }
+.h small { display: block; font-size: 11px; opacity: .8; }
+.h.hi { background: var(--hi-bg); color: var(--hi-fg); }
+.h.mh { background: var(--mh-bg); color: var(--mh-fg); }
+.h.md { background: var(--md-bg); color: var(--md-fg); }
+.h.ml { background: var(--ml-bg); color: var(--ml-fg); }
+.h.lo { background: var(--lo-bg); color: var(--lo-fg); }
+.h.na { background: var(--na-bg); color: var(--na-fg); }
+.prof { min-width: 520px; }
+.ttk { min-width: 760px; }
+.legend { display: flex; flex-wrap: wrap; gap: 8px 16px; font-size: 13px; color: var(--muted); margin: 8px 0 0; }
+.legend i { display: inline-block; width: 14px; height: 14px; border-radius: 3px; vertical-align: -2px; margin-right: 6px; }
+.legend .hi { background: var(--hi-bg); } .legend .md { background: var(--md-bg); } .legend .lo { background: var(--lo-bg); } .legend .na { background: var(--na-bg); }
+.callout { border-left: 3px solid var(--accent); background: var(--accent-soft); padding: 12px 16px; border-radius: 0 6px 6px 0; margin: 14px 0; max-width: 78ch; }
+.callout p:last-child { margin: 0; }
+ul.find { padding-left: 20px; display: grid; gap: 6px; margin: 0; }
+.units { display: grid; gap: 28px; }
+.unit header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 14px; margin-bottom: 6px; }
+.unit .cls { font: 500 12px/1 var(--f-mono); color: var(--accent); }
+.unit > p { color: var(--muted); margin-bottom: 0; }
+table.cmp { font-size: 14px; min-width: 640px; }
+table.cmp th[scope=row] { font-weight: 500; width: 26%; }
+table.cmp td { width: 37%; }
+table.cmp tr.same td { color: var(--muted); }
+table.cmp tr.chg td:last-child { background: var(--chg); font-weight: 500; }
+ol.q { padding-left: 0; list-style: none; counter-reset: q; display: grid; gap: 12px; margin: 0; }
+ol.q li { counter-increment: q; background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 12px 14px 12px 52px; position: relative; max-width: none; }
+ol.q li::before { content: counter(q); position: absolute; left: 14px; top: 12px; font: 600 15px/1 var(--f-display); color: var(--accent); width: 26px; text-align: right; }
+ol.q li b { display: block; margin-bottom: 2px; }
+ol.q li em { color: var(--muted); font-style: normal; display: block; margin-top: 4px; font-size: 14px; }
+ol.q li em::before { content: "Propuesta: "; font-weight: 600; color: var(--accent); }
+ol.q li em.ok::before { content: "Resuelta: "; color: var(--hi-fg); }
+ol.q li em.new::before { content: "Nueva propuesta: "; color: var(--accent); }
+ol.q li em.idea::before { content: "Idea por confirmar: "; color: var(--muted); }
+.grp.sub { font-size: 11px; margin-top: 14px; opacity: .85; }
+.grp { font: 600 12px/1 var(--f-display); letter-spacing: .14em; text-transform: uppercase; color: var(--muted); margin: 22px 0 10px; }
+code { font-family: var(--f-mono); font-size: 13px; background: var(--na-bg); padding: 1px 5px; border-radius: 3px; }
+@page { size: A4; margin: 14mm 12mm; }
+@media print {
+  body { font-size: 10.5pt; background: #fff; }
+  .wrap { display: block; max-width: none; padding: 0; }
+  nav.toc { display: none; }
+  main { gap: 26px; }
+  .scroll { overflow: visible; border: 1px solid var(--line); }
+  table.data, .matrix, .prof, .ttk, table.cmp { min-width: 0 !important; }
+  .matrix { font-size: 8pt; }
+  .matrix tbody th { min-width: 0; }
+  .matrix th, .matrix td { padding: 4px 3px; }
+  .h b { font-size: 8.5pt; } .h small { font-size: 7pt; }
+  table.data { font-size: 9pt; }
+  tr, .unit header, ol.q li, .decisions div, .callout { break-inside: avoid; }
+  h2, h3, h4 { break-after: avoid; }
+  section { break-inside: auto; }
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+}
+@media (prefers-reduced-motion: no-preference) { nav.toc a { transition: color .15s, border-color .15s; } }
+table.bld { min-width: 760px; }
+table.bld td.n { white-space: nowrap; }
+table.bld tr.chg td:nth-child(3) { background: var(--chg); }
+table.bld .note { color: var(--muted); font-size: 13px; }
+.tag-ok { display:inline-block; font-size:.75em; font-weight:600; padding:.1em .55em; border-radius:999px; background:var(--hi-bg); color:var(--hi-fg); vertical-align:.1em; }
+</style>
+<div class="wrap">
+<nav class="toc" aria-label="Índice">
+  <b>Índice</b>
+  <ol>
+    <li><a href="#resumen">Resumen</a></li>
+    <li><a href="#hallazgos">Problemas en las fichas</a></li>
+    <li><a href="#clases">Clases</a></li>
+    <li><a href="#matriz">Matriz de daño</a></li>
+    <li><a href="#pa">Economía de PA</a></li>
+    <li><a href="#energia">Energía y compras</a></li>
+    <li><a href="#armas">Armas, visión y alcance</a></li>
+    <li><a href="#combate">Comprobación de combate</a></li>
+    <li><a href="#edificios">Vida de los edificios</a></li>
+    <li><a href="#unidades">Unidad por unidad</a></li>
+    <li><a href="#servidor">Cambios en el servidor</a></li>
+    <li><a href="#preguntas">Preguntas</a></li>
+  </ol>
+</nav>
+<main>
+<header class="top" id="resumen">
+  <span class="eyebrow">Axiom Wars · Facción Terránea · propuesta v11</span>
+  <h1>Balanceo de las unidades Terráneas</h1>
+  <p class="lead">Análisis de las 9 fichas contrastado con el servidor actual, una propuesta de números para todas las armas y habilidades, y las preguntas que quedan abiertas. Nada de esto toca código: si apruebas la propuesta, se trasladará a las fichas.</p>
+  <div class="decisions">
+    <div><span>PA</span><strong>Por individuo, en movimiento y en ataque</strong></div>
+    <div><span>Niveles</span><strong>Armas y habilidades se acumulan</strong></div>
+    <div><span>Clases</span><strong>Ligera / Media / Pesada + dominio aire</strong></div>
+    <div><span>Velocidad</span><strong>Coste en PA por casilla e individuo</strong></div>
+  </div>
+  <div class="callout"><p><b>Idea central.</b> Cada blindaje tiene armas que le hacen daño completo y armas que apenas le hacen nada (30%). Así la pregunta de cada turno es siempre la misma: «¿qué tengo delante y qué arma lo rompe?». Los números de abajo están ajustados para que la unidad correcta contra su objetivo sea 2–3 veces más eficiente por PA que la incorrecta.</p></div>
+</header>
+
+<section id="hallazgos">
+  <h2>Problemas en las fichas actuales</h2>
+  <p>Lo más importante que he encontrado al leer las 9 fichas juntas, con los números de cada una:</p>
+  <ul class="find">
+    <li><b>Alcance del Fusil.</b> Llega a 8 casillas (Lanzamisiles 6, Metralleta 5, Ráfaga del Raptor 4). Tiene sentido que sea el arma de infantería de más alcance por la mira telescópica, pero 8 supera la visión de casi todas las unidades.</li>
+    <li><b>El Meca casi no ataca.</b> Su única arma contra tierra se usa 1 vez cada 3 turnos (Lanzallamas en G2, Freezergun en G3). Dos de cada tres turnos, una unidad pesada de 300 E + 50 acero no puede disparar. Además el Lanzallamas hace 20, lo mismo que la Metralleta de un Militar.</li>
+    <li><b>Daños en escalas distintas.</b> «× individuo», «por unidad», «por ráfaga», «por mina» y «50 daño» sin unidad. La Ráfaga del Raptor (250 por 3 PA, 83 por PA) es 8 veces más eficiente que el Fusil (10 por PA).</li>
+    <li><b>Con PA por individuo, algunos costes son impagables.</b> El Antiaire cuesta 5 PA por individuo: una tropa de 8 Mecas gastaría 40 PA (el doble de lo que da hoy un Gobierno 2). El Escudo reflector cuesta 250 E por individuo: 2000 E para 8 Mecas.</li>
+    <li><b>El Raptor transporta 20 y el APC 10 (15 con Capacidad+).</b> El vehículo de transporte pierde su razón de ser frente al caza, que además vuela y ataca.</li>
+    <li><b>El Raptor es aéreo pero está «Bloqueado: Agua, Montaña»</b>, y es clase Pesada, igual que el Meca.</li>
+    <li><b>Áreas sin casilla central.</b> 2x2 (Lanzallamas, Gas, EMP) y 4x4 (Bomba cuántica) no tienen centro. La Bomba dice «100% en la casilla central, −25% por casilla», cosa que sólo funciona con áreas impares.</li>
+    <li><b>Coste de la Bomba cuántica: «500 daño».</b> Probablemente es el daño, no el coste.</li>
+    <li><b>Perfiles incoherentes.</b> El Fusil tiene 2 porcentajes (faltan los de Media). Las Minas son AntiLigera, pero la descripción dice «contra todo tipo de unidades».</li>
+    <li><b>Turbo: 200 de combustible por uso.</b> Se empieza con 100 y una Refinería produce 30 por trabajador y turno.</li>
+    <li><b>Faltan duraciones:</b> Camuflaje, Dopar, Escudo reflector, Turbo.</li>
+    <li><b>Dos habilidades hacen lo mismo:</b> Escudo+ del Droide (+50% escudos) y Aura Escudo del Científico (+25%). Las auras dicen «área 3x3 objetivo», pero una pasiva no se lanza sobre ningún sitio.</li>
+    <li><b>Fuerza+ y Fuerza++ suman +50 de vida:</b> un Militar de G3 tendría 100, la misma vida que el Meca actual.</li>
+    <li><b>El APC tiene la misma vida y escudo que un Militar (50 / 50)</b> siendo un blindado.</li>
+    <li><b>Velocidad y Armadura están en blanco en todas las fichas.</b> Explorador, Droide y Científico no tienen estadísticas.</li>
+  </ul>
+</section>
+
+<section id="clases">
+  <h2>Clases: blindaje, dominio y naturaleza</h2>
+  <p>Hoy el servidor sólo distingue Ligera y Pesada, y todos los edificios cuentan como Pesada. Las fichas añaden Media y unidades aéreas, pero lo mezclan todo en una sola etiqueta. Propongo tres ejes independientes, cada uno con una función clara:</p>
+  <div class="scroll"><table class="data" style="min-width:640px">
+    <thead><tr><th>Eje</th><th>Valores</th><th>Qué decide</th></tr></thead>
+    <tbody>
+      <tr><td><b>Blindaje</b></td><td>Ligera · Media · Pesada · Estructura</td><td>El % de daño que recibe según el perfil del arma (tabla de abajo).</td></tr>
+      <tr><td><b>Dominio</b></td><td>Terrestre · Aéreo</td><td>Si un arma puede alcanzarlo. Armas Terrestres no tocan a aéreos; Aéreas sólo a aéreos; Tierra-Aire a ambos. Los aéreos ignoran agua y montaña.</td></tr>
+      <tr><td><b>Naturaleza</b> (nuevo)</td><td>Orgánica · Mecánica</td><td>Sólo decide a quién afecta el Gas paralizante (orgánicos: personas). El EMP afecta a todo lo que tenga escudo, unidades y edificios.</td></tr>
+    </tbody>
+  </table></div>
+  <h4>Asignación propuesta</h4>
+  <div class="scroll"><table class="data" style="min-width:640px">
+    <thead><tr><th>Unidad</th><th>Blindaje</th><th>Dominio</th><th>Naturaleza</th><th>Cambio</th></tr></thead>
+    <tbody>
+      <tr><td>Militar, Científico, Constructor, Trabajador</td><td>Ligera</td><td>Terrestre</td><td>Orgánica</td><td class="note">—</td></tr>
+      <tr><td>Explorador</td><td>Ligera</td><td>Terrestre</td><td>Mecánica</td><td class="note">—</td></tr>
+      <tr><td>Droide</td><td>Ligera</td><td>Aéreo</td><td>Mecánica</td><td class="note">La descripción ya decía «aérea»</td></tr>
+      <tr><td>Transporte APC</td><td>Media</td><td>Terrestre</td><td>Mecánica</td><td class="note">—</td></tr>
+      <tr><td>Raptor</td><td><b>Media</b></td><td>Aéreo</td><td>Mecánica</td><td class="note">Antes Pesada</td></tr>
+      <tr><td>Meca</td><td>Pesada</td><td>Terrestre</td><td>Mecánica</td><td class="note">—</td></tr>
+      <tr><td>Edificios</td><td><b>Estructura</b></td><td>Terrestre</td><td>—</td><td class="note">Antes Pesada</td></tr>
+    </tbody>
+  </table></div>
+  <p><b>Por qué el Raptor pasa a Media.</b> Si es Pesada, comparte contrincante con el Meca y el Lanzamisiles mata a los dos por igual. Como Media aérea, encaja como «vehículo rápido»: lo destruyen las armas antiaéreas (Antiaire del Meca, Defensa Aérea) y el Lanzamisiles sólo le hace el 60%. El Meca queda como la única Pesada: lento, caro y muy resistente, el objetivo natural del Lanzamisiles y de la Ráfaga.</p>
+  <p><b>Por qué Estructura.</b> Separar los edificios permite que las armas antipersona (Fusil, Lanzallamas, Torreta) hagan muy poco a un edificio (25%). Así un asedio necesita armas de asedio (Lanzamisiles, Ráfaga, Bomba) en lugar de amontonar Militares.</p>
+  <h4>Perfiles de daño propuestos</h4>
+  <p>Tu escala actual es 100 / 75 / 50. Propongo una más marcada (100 / 60 / 30) para que elegir bien el arma importe de verdad:</p>
+  <div class="scroll"><table class="matrix prof"><thead><tr><th class="corner">Perfil</th><th>Ligera</th><th>Media</th><th>Pesada</th><th>Estructura</th></tr></thead><tbody><tr><th scope="row">AntiLigera</th><td class="h hi"><b>100%</b></td><td class="h md"><b>60%</b></td><td class="h lo"><b>30%</b></td><td class="h lo"><b>25%</b></td></tr><tr><th scope="row">AntiMedia</th><td class="h md"><b>60%</b></td><td class="h hi"><b>100%</b></td><td class="h md"><b>60%</b></td><td class="h ml"><b>40%</b></td></tr><tr><th scope="row">AntiPesada</th><td class="h lo"><b>30%</b></td><td class="h md"><b>60%</b></td><td class="h hi"><b>100%</b></td><td class="h hi"><b>100%</b></td></tr><tr><th scope="row">Explosivo</th><td class="h hi"><b>100%</b></td><td class="h hi"><b>100%</b></td><td class="h mh"><b>75%</b></td><td class="h ml"><b>50%</b></td></tr></tbody></table></div>
+</section>
+
+<section id="matriz">
+  <h2>Matriz de daño: arma contra unidad</h2>
+  <p>Cada celda indica el % de daño que hace el arma a ese objetivo y, debajo, el daño efectivo por cada PA gastado (por individuo, sin contar el escudo). En verde, daño ampliado; en rojo, reducido; en gris, el arma no puede alcanzarlo.</p>
+  <div class="scroll"><table class="matrix"><thead><tr><th class="corner">Arma ↓ · objetivo →</th><th scope="col"><span class="tn">Militar</span><span class="tm">Ligera</span></th><th scope="col"><span class="tn">Científico</span><span class="tm">Ligera</span></th><th scope="col"><span class="tn">Constructor</span><span class="tm">Ligera</span></th><th scope="col"><span class="tn">Explorador</span><span class="tm">Ligera</span></th><th scope="col"><span class="tn">Droide</span><span class="tm">Ligera · aire</span></th><th scope="col"><span class="tn">APC</span><span class="tm">Media</span></th><th scope="col"><span class="tn">Raptor</span><span class="tm">Media · aire</span></th><th scope="col"><span class="tn">Meca</span><span class="tm">Pesada</span></th><th scope="col"><span class="tn">Edificio</span><span class="tm">Estructura</span></th></tr></thead><tbody><tr><th scope="row"><span class="wn">Fusil</span><span class="wm">Militar · G1 · Terrestre · AntiLigera</span></th><td class="h hi"><b>100%</b><small>20/PA</small></td><td class="h hi"><b>100%</b><small>20/PA</small></td><td class="h hi"><b>100%</b><small>20/PA</small></td><td class="h hi"><b>100%</b><small>20/PA</small></td><td class="h na"><b>—</b></td><td class="h md"><b>60%</b><small>12/PA</small></td><td class="h na"><b>—</b></td><td class="h lo"><b>30%</b><small>6/PA</small></td><td class="h lo"><b>25%</b><small>5/PA</small></td></tr><tr><th scope="row"><span class="wn">Triple disparo</span><span class="wm">Militar · G1 · Terrestre · AntiLigera</span></th><td class="h hi"><b>100%</b><small>30/PA</small></td><td class="h hi"><b>100%</b><small>30/PA</small></td><td class="h hi"><b>100%</b><small>30/PA</small></td><td class="h hi"><b>100%</b><small>30/PA</small></td><td class="h na"><b>—</b></td><td class="h md"><b>60%</b><small>18/PA</small></td><td class="h na"><b>—</b></td><td class="h lo"><b>30%</b><small>9/PA</small></td><td class="h lo"><b>25%</b><small>8/PA</small></td></tr><tr><th scope="row"><span class="wn">Lanzamisiles</span><span class="wm">Militar · G2 · Tierra-Aire · AntiPesada</span></th><td class="h lo"><b>30%</b><small>6/PA</small></td><td class="h lo"><b>30%</b><small>6/PA</small></td><td class="h lo"><b>30%</b><small>6/PA</small></td><td class="h lo"><b>30%</b><small>6/PA</small></td><td class="h lo"><b>30%</b><small>6/PA</small></td><td class="h md"><b>60%</b><small>12/PA</small></td><td class="h md"><b>60%</b><small>12/PA</small></td><td class="h hi"><b>100%</b><small>20/PA</small></td><td class="h hi"><b>100%</b><small>20/PA</small></td></tr><tr><th scope="row"><span class="wn">Metralleta láser</span><span class="wm">Militar · G3 · Terrestre · AntiMedia</span></th><td class="h md"><b>60%</b><small>11/PA</small></td><td class="h md"><b>60%</b><small>11/PA</small></td><td class="h md"><b>60%</b><small>11/PA</small></td><td class="h md"><b>60%</b><small>11/PA</small></td><td class="h na"><b>—</b></td><td class="h hi"><b>100%</b><small>18/PA</small></td><td class="h na"><b>—</b></td><td class="h md"><b>60%</b><small>11/PA</small></td><td class="h ml"><b>40%</b><small>7/PA</small></td></tr><tr><th scope="row"><span class="wn">Lanzallamas</span><span class="wm">Meca · G2 · Terrestre · AntiLigera</span></th><td class="h hi"><b>100%</b><small>30/PA</small></td><td class="h hi"><b>100%</b><small>30/PA</small></td><td class="h hi"><b>100%</b><small>30/PA</small></td><td class="h hi"><b>100%</b><small>30/PA</small></td><td class="h na"><b>—</b></td><td class="h md"><b>60%</b><small>18/PA</small></td><td class="h na"><b>—</b></td><td class="h lo"><b>30%</b><small>9/PA</small></td><td class="h lo"><b>25%</b><small>8/PA</small></td></tr><tr><th scope="row"><span class="wn">Freezergun</span><span class="wm">Meca · G3 · Terrestre · AntiMedia</span></th><td class="h md"><b>60%</b><small>3/PA</small></td><td class="h md"><b>60%</b><small>3/PA</small></td><td class="h md"><b>60%</b><small>3/PA</small></td><td class="h md"><b>60%</b><small>3/PA</small></td><td class="h na"><b>—</b></td><td class="h hi"><b>100%</b><small>5/PA</small></td><td class="h na"><b>—</b></td><td class="h md"><b>60%</b><small>3/PA</small></td><td class="h ml"><b>40%</b><small>2/PA</small></td></tr><tr><th scope="row"><span class="wn">Antiaire</span><span class="wm">Meca · G2 · Aérea · AntiMedia</span></th><td class="h na"><b>—</b></td><td class="h na"><b>—</b></td><td class="h na"><b>—</b></td><td class="h na"><b>—</b></td><td class="h md"><b>60%</b><small>18/PA</small></td><td class="h na"><b>—</b></td><td class="h hi"><b>100%</b><small>30/PA</small></td><td class="h na"><b>—</b></td><td class="h na"><b>—</b></td></tr><tr><th scope="row"><span class="wn">Torreta</span><span class="wm">APC · G2 · Terrestre · AntiLigera</span></th><td class="h hi"><b>100%</b><small>30/PA</small></td><td class="h hi"><b>100%</b><small>30/PA</small></td><td class="h hi"><b>100%</b><small>30/PA</small></td><td class="h hi"><b>100%</b><small>30/PA</small></td><td class="h na"><b>—</b></td><td class="h md"><b>60%</b><small>18/PA</small></td><td class="h na"><b>—</b></td><td class="h lo"><b>30%</b><small>9/PA</small></td><td class="h lo"><b>25%</b><small>8/PA</small></td></tr><tr><th scope="row"><span class="wn">Minas</span><span class="wm">APC · G3 · Terrestre · Explosivo</span></th><td class="h hi"><b>100%</b><small>40/PA</small></td><td class="h hi"><b>100%</b><small>40/PA</small></td><td class="h hi"><b>100%</b><small>40/PA</small></td><td class="h hi"><b>100%</b><small>40/PA</small></td><td class="h na"><b>—</b></td><td class="h hi"><b>100%</b><small>40/PA</small></td><td class="h na"><b>—</b></td><td class="h mh"><b>75%</b><small>30/PA</small></td><td class="h na"><b>—</b></td></tr><tr><th scope="row"><span class="wn">Ráfaga</span><span class="wm">Raptor · G3 · Tierra-Aire · AntiPesada</span></th><td class="h lo"><b>30%</b><small>9/PA</small></td><td class="h lo"><b>30%</b><small>9/PA</small></td><td class="h lo"><b>30%</b><small>9/PA</small></td><td class="h lo"><b>30%</b><small>9/PA</small></td><td class="h lo"><b>30%</b><small>9/PA</small></td><td class="h md"><b>60%</b><small>18/PA</small></td><td class="h md"><b>60%</b><small>18/PA</small></td><td class="h hi"><b>100%</b><small>30/PA</small></td><td class="h hi"><b>100%</b><small>30/PA</small></td></tr><tr><th scope="row"><span class="wn">Bomba cuántica</span><span class="wm">Raptor · G3 · Terrestre · Explosivo</span></th><td class="h hi"><b>100%</b><small>50/PA</small></td><td class="h hi"><b>100%</b><small>50/PA</small></td><td class="h hi"><b>100%</b><small>50/PA</small></td><td class="h hi"><b>100%</b><small>50/PA</small></td><td class="h na"><b>—</b></td><td class="h hi"><b>100%</b><small>50/PA</small></td><td class="h na"><b>—</b></td><td class="h mh"><b>75%</b><small>38/PA</small></td><td class="h ml"><b>50%</b><small>25/PA</small></td></tr><tr><th scope="row"><span class="wn">Mordisco</span><span class="wm">Explorador · G1 · Terrestre · AntiLigera</span></th><td class="h hi"><b>100%</b><small>25/PA</small></td><td class="h hi"><b>100%</b><small>25/PA</small></td><td class="h hi"><b>100%</b><small>25/PA</small></td><td class="h hi"><b>100%</b><small>25/PA</small></td><td class="h na"><b>—</b></td><td class="h md"><b>60%</b><small>15/PA</small></td><td class="h na"><b>—</b></td><td class="h lo"><b>30%</b><small>8/PA</small></td><td class="h lo"><b>25%</b><small>6/PA</small></td></tr><tr><th scope="row"><span class="wn">Defensa de Suelo</span><span class="wm">Edificio · Edif. · Terrestre · AntiLigera</span></th><td class="h hi"><b>100%</b><small>40</small></td><td class="h hi"><b>100%</b><small>40</small></td><td class="h hi"><b>100%</b><small>40</small></td><td class="h hi"><b>100%</b><small>40</small></td><td class="h na"><b>—</b></td><td class="h md"><b>60%</b><small>24</small></td><td class="h na"><b>—</b></td><td class="h lo"><b>30%</b><small>12</small></td><td class="h lo"><b>25%</b><small>10</small></td></tr><tr><th scope="row"><span class="wn">Defensa Aérea</span><span class="wm">Edificio · Edif. · Aérea · AntiMedia</span></th><td class="h na"><b>—</b></td><td class="h na"><b>—</b></td><td class="h na"><b>—</b></td><td class="h na"><b>—</b></td><td class="h md"><b>60%</b><small>36</small></td><td class="h na"><b>—</b></td><td class="h hi"><b>100%</b><small>60</small></td><td class="h na"><b>—</b></td><td class="h na"><b>—</b></td></tr></tbody></table></div>
+  <div class="legend"><span><i class="hi"></i>100%: arma adecuada</span><span><i class="md"></i>60–75%: aceptable</span><span><i class="lo"></i>25–30%: no compensa</span><span><i class="na"></i>no puede atacarlo (modalidad)</span></div>
+  <h4>Lectura rápida: qué rompe a qué</h4>
+  <ul class="find">
+    <li><b>Infantería (Ligera tierra):</b> Lanzallamas del Meca, Fusil, Torreta, Mordisco, Minas y Bomba.</li>
+    <li><b>APC (Media tierra):</b> Metralleta láser (Militar G3), Freezergun, Minas, Bomba.</li>
+    <li><b>Raptor (Media aire):</b> Antiaire del Meca y Defensa Aérea; el Lanzamisiles hace el 60%.</li>
+    <li><b>Meca (Pesada):</b> Lanzamisiles y Ráfaga. Las armas antipersona apenas le hacen daño.</li>
+    <li><b>Edificios:</b> Lanzamisiles, Ráfaga y, a la mitad, la Bomba.</li>
+    <li><b>Droide (Ligera aire):</b> sólo lo tocan las armas antiaéreas y al 30–60%. Es difícil de matar a propósito, porque no ataca y su valor está en el portal.</li>
+  </ul>
+</section>
+
+<section id="pa">
+  <h2>Economía de PA</h2>
+  <p>Con PA por individuo en movimiento y ataque, el gasto crece con el ejército. Por eso el ingreso también sale del ejército: <b>los PA los dan el nivel de Gobierno y cada unidad que tengas</b>. Viviendas, Generadores y edificios militares no dan PA. <span class="tag-ok">Aprobado</span></p>
+  <div class="scroll"><table class="data" style="min-width:560px">
+    <thead><tr><th>Fuente</th><th class="n">Hoy</th><th class="n">Propuesta</th><th>Qué paga</th></tr></thead>
+    <tbody>
+      <tr><td>Gobierno nivel 1</td><td class="n">10</td><td class="n">10</td><td class="note" rowspan="3">La economía: Constructor, construir, producir, trueque. El salto a G2 compensa que las armas de G2 cuestan 2 PA por individuo.</td></tr>
+      <tr><td>Gobierno nivel 2</td><td class="n">20</td><td class="n">20</td></tr>
+      <tr><td>Gobierno nivel 3</td><td class="n">30</td><td class="n">25</td></tr>
+      <tr><td>Cada Vivienda</td><td class="n">2</td><td class="n">0</td><td class="note">Sólo cupo civil.</td></tr>
+      <tr><td>Generador, Centro de Entrenamiento, Fábrica, Lanzadera</td><td class="n">0</td><td class="n">0</td><td class="note">—</td></tr>
+    </tbody>
+  </table></div>
+  <h4>PA por unidad (por individuo y turno)</h4>
+  <p>Cada unidad da unos PA cercanos a lo que le cuesta actuar en un turno (mover su distancia típica y atacar), sin llegar a pagarlo todo junto con la producción y la economía.</p>
+  <div class="scroll"><table class="data" style="min-width:640px">
+    <thead><tr><th>Unidad</th><th class="n">PA que da</th><th>Lo que le cuesta actuar un turno</th><th class="n">Cubre</th></tr></thead>
+    <tbody>
+      <tr><td>Militar</td><td class="n">3</td><td class="note">mover 4 casillas (2) + Fusil 1 / Lanzamisiles 2</td><td class="n">75–100%</td></tr>
+      <tr><td>Meca</td><td class="n">5</td><td class="note">mover 3 casillas (3) + arma (2)</td><td class="n">100%</td></tr>
+      <tr><td>Raptor</td><td class="n">4</td><td class="note">mover 6 casillas (3) + Ráfaga (2)</td><td class="n">80%</td></tr>
+      <tr><td>APC</td><td class="n">2</td><td class="note">mover 6 casillas (3) + Torreta (1); los transportados no pagan movimiento</td><td class="n">50%</td></tr>
+      <tr><td>Explorador</td><td class="n">2</td><td class="note">mover 8 casillas (2) + Mordisco (1)</td><td class="n">67%</td></tr>
+      <tr><td>Científico</td><td class="n">2</td><td class="note">mover 4 casillas (2) + habilidad cada 3 turnos (~1)</td><td class="n">67%</td></tr>
+      <tr><td>Droide</td><td class="n">3</td><td class="note">mover 6 casillas (3) + portal ocasional</td><td class="n">~75%</td></tr>
+      <tr><td>Constructor</td><td class="n">0</td><td class="note">Lo paga el Gobierno. Así no compensa tener constructores parados sólo para cobrar PA.</td><td class="n">—</td></tr>
+      <tr><td>Trabajador</td><td class="n">0</td><td class="note">—</td><td class="n">—</td></tr>
+    </tbody>
+  </table></div>
+  <h4>Reglas</h4>
+  <ul>
+    <li><b>Desde la ronda siguiente.</b> Una unidad da PA a partir del turno siguiente a crearse: no compensa producir y gastar en el mismo turno.</li>
+    <li><b>Paralizada o congelada, no da PA.</b> Gas paralizante y Freezergun también recortan los PA del rival ese turno.</li>
+    <li><b>Una tropa por turno en cada edificio militar</b>, del tamaño máximo del nivel (p. ej. 5 militares en G1).</li>
+    <li><b>Sin topes artificiales.</b> El cupo militar, el mantenimiento y el coste en recursos ya limitan cuántas unidades (y por tanto PA) tienes. Si pierdes tropas, pierdes los PA que las movían.</li>
+  </ul>
+  <h4>Velocidad: PA por casilla e individuo</h4>
+  <p>El coste de mover una tropa es <code>individuos × casillas × velocidad</code>, redondeado hacia arriba al final de la orden. No hay tope de casillas por turno: el límite son los PA, y para el Militar y el Científico, el cansancio (más abajo). Los modificadores dividen o multiplican ese coste: +25% de velocidad equivale a dividir entre 1,25 y «Ralentiza 50%» lo duplica.</p>
+  <div class="scroll"><table class="data" style="min-width:560px">
+    <thead><tr><th>Unidad</th><th class="n">PA / casilla / individuo</th><th>Ejemplo</th></tr></thead>
+    <tbody>
+      <tr><td>Explorador</td><td class="n">0,25</td><td class="note">5 exploradores, 6 casillas: 8 PA</td></tr>
+      <tr><td>Militar, Científico</td><td class="n">0,5</td><td class="note">8 militares, 4 casillas: 16 PA</td></tr>
+      <tr><td>APC, Raptor, Droide</td><td class="n">0,5</td><td class="note">Los transportados no pagan: 2 APC con 12 militares, 5 casillas: 5 PA + 12 para embarcar</td></tr>
+      <tr><td>Meca, Constructor</td><td class="n">1</td><td class="note">3 Mecas, 3 casillas: 9 PA</td></tr>
+    </tbody>
+  </table></div>
+  <h4 id="cansancio">Cansancio: Militar y Científico (v10)</h4>
+  <p>Las unidades humanas que caminan se cansan; las máquinas no. <span class="tag-ok">Aprobado</span></p>
+  <ul>
+    <li><b>+1 de cansancio por casilla</b>, recta o diagonal, de 0 a 10. Las 10 primeras casillas de cada turno cuestan lo normal.</li>
+    <li><b>Con 10, la tropa se para</b> y cede sus PA: primero se resuelven ataques, construcción y órdenes económicas, aunque estén detrás en la cola.</li>
+    <li><b>Al final del turno sigue andando cansada</b> con los PA que sobren. La casilla cansada número k cuesta el coste normal × (1 + k/2): ×1,5, ×2, ×2,5…</li>
+    <li><b>Cada turno vuelve a 0.</b> Al fusionar tropas queda el cansancio mayor; al dividir, las dos mitades lo heredan. Ir dentro de un APC o un Raptor no cansa.</li>
+  </ul>
+  <div class="scroll"><table class="data" style="min-width:560px">
+    <thead><tr><th>10 Militares (5 PA por casilla)</th><th class="n">PA de la casilla</th><th class="n">PA acumulados</th></tr></thead>
+    <tbody>
+      <tr><td>Casillas 1–10, frescos</td><td class="n">5</td><td class="n">50</td></tr>
+      <tr><td>Casilla 11, cansada 1</td><td class="n">7,5</td><td class="n">57,5</td></tr>
+      <tr><td>Casilla 12, cansada 2</td><td class="n">10</td><td class="n">67,5</td></tr>
+      <tr><td>Casilla 13, cansada 3</td><td class="n">12,5</td><td class="n">80</td></tr>
+      <tr><td>Casilla 15, cansada 5</td><td class="n">17,5</td><td class="n">112,5</td></tr>
+    </tbody>
+  </table></div>
+  <p>La ruta se dibuja por tramos: continua hasta donde llega sin cansarse (en las máquinas, hasta donde llegan los PA del turno), ondulada donde anda cansada y discontinua lo que no recorre este turno. En la niebla sin explorar la ruta va en línea recta, porque tampoco se sabe qué hay debajo, y se recalcula al descubrir un obstáculo. También se puede ordenar construir a ciegas en la niebla (pregunta 69).</p>
+  <h4>Combustible: se gasta al moverse</h4>
+  <p>El combustible deja de ser mantenimiento: <b>sólo se gasta al moverse y en algunas habilidades</b> (Lanzallamas, Turbo). Una unidad aparcada no consume nada. <span class="tag-ok">Aprobado</span> Los valores por casilla salen de repartir el mantenimiento de hoy entre las casillas que la unidad anda en un turno típico, así que un ejército en marcha gasta lo mismo que antes y uno quieto, nada.</p>
+  <div class="scroll"><table class="data" style="min-width:560px">
+    <thead><tr><th>Unidad</th><th class="n">Combustible / casilla / individuo</th><th>Turno típico</th></tr></thead>
+    <tbody>
+      <tr><td>Droide</td><td class="n">1</td><td class="note">6 casillas: 6</td></tr>
+      <tr><td>APC</td><td class="n">1,5</td><td class="note">6 casillas: 9 (antes 15); los transportados no gastan</td></tr>
+      <tr><td>Raptor</td><td class="n">2,5</td><td class="note">6 casillas: 15 (antes 20)</td></tr>
+      <tr><td>Meca</td><td class="n">3 (2,4 con Combustible-)</td><td class="note">3 casillas: 9 (antes 10)</td></tr>
+      <tr><td>Constructor</td><td class="n">—</td><td class="note">Gasta energía, no combustible: 5 por casilla, como hoy</td></tr>
+      <tr><td>Explorador</td><td class="n">—</td><td class="note">Gasta energía, no combustible: 1 por casilla e individuo (5 exploradores, 8 casillas: 40 E)</td></tr>
+    </tbody>
+  </table></div>
+  <p>Se redondea igual que los PA: una vez por orden, hacia arriba. Sin combustible, el vehículo no puede moverse ni usar habilidades que lo gasten, pero sí disparar las armas que no lo gastan. La Refinería se construye desde Gobierno 2, a la vez que salen los Mecas y los APC; llena (4 trabajadores) da 120 por turno y mueve 6 Mecas 3 casillas (54) con margen para el Lanzallamas.</p>
+  <h4>Comprobación por fase</h4>
+  <p>«Turno ideal» es todo lo que se querría hacer: producir una tropa en cada edificio militar, mover todo el ejército, atacar con él y la economía. El objetivo es cubrir en torno al 80% para que siempre haya que elegir. Los recuentos de G1 y G2 salen de partidas reales.</p>
+  <div class="scroll"><table class="data" style="min-width:640px">
+    <thead><tr><th>Fase</th><th>Unidades</th><th class="n">Ingreso</th><th class="n">Turno ideal</th><th class="n">Cubre</th></tr></thead>
+    <tbody>
+      <tr><td>G1, turno 1</td><td>1 Constructor</td><td class="n">10</td><td class="n">12</td><td class="n">83%</td></tr>
+      <tr><td>G1, primera tropa</td><td>+ 5 militares</td><td class="n">25</td><td class="n">32</td><td class="n">78%</td></tr>
+      <tr><td>G1, turno ~12</td><td>10 militares</td><td class="n">40</td><td class="n">49</td><td class="n">82%</td></tr>
+      <tr><td>G2 recién subido</td><td>10 militares</td><td class="n">50</td><td class="n">64</td><td class="n">78%</td></tr>
+      <tr><td>G2 con Mecas</td><td>10 militares + 4 Mecas</td><td class="n">70</td><td class="n">89</td><td class="n">79%</td></tr>
+      <tr><td>G2, ejército grande</td><td>24 militares + 6 Mecas</td><td class="n">122</td><td class="n">155</td><td class="n">79%</td></tr>
+      <tr><td>G3 inicio</td><td>20 militares + 8 Mecas + 2 APC</td><td class="n">129</td><td class="n">146</td><td class="n">88%</td></tr>
+      <tr><td>G3 completo</td><td>… + 2 Raptors</td><td class="n">137</td><td class="n">164</td><td class="n">84%</td></tr>
+    </tbody>
+  </table></div>
+  <p>En el turno 1 hay 10 PA: el Constructor anda unas 6 casillas si además construye dos edificios. Producir, construir, comerciar y mejorar el Gobierno mantienen su coste actual.</p>
+</section>
+
+<section id="energia">
+  <h2>Energía y compras</h2>
+  <p>Con las simulaciones de la fase 5 la energía se acumulaba sin uso a partir del Gobierno 2: entre 30.000 y 113.000 en la ronda 60. Para gastarla, <b>las mejoras de cada unidad se compran</b> y la producción baja. <span class="tag-ok">Aprobado</span></p>
+  <div class="scroll"><table class="data" style="min-width:560px">
+    <thead><tr><th>Producción de energía por turno</th><th class="n">v8</th><th class="n">v9</th></tr></thead>
+    <tbody>
+      <tr><td>Gobierno nivel 1 / 2 / 3</td><td class="n">200 / 400 / 600</td><td class="n"><b>200 / 300 / 400</b></td></tr>
+      <tr><td>Generador, por trabajador</td><td class="n">100</td><td class="n"><b>75</b></td></tr>
+      <tr><td>Granja, por trabajador (comida)</td><td class="n">50</td><td class="n"><b>40</b></td></tr>
+    </tbody>
+  </table></div>
+  <h4>Qué se compra</h4>
+  <p>Cada unidad trae de serie su primera arma y las habilidades de Gobierno 1. Las demás armas, las habilidades activas de Gobierno 2 y 3 y todas las pasivas se compran <b>una vez por jugador</b>, con energía, en el edificio que fabrica la unidad: cuesta 3 PA, la mejora está lista 2 turnos después y exige el nivel de Gobierno correspondiente. Las pasivas «++» exigen haber comprado antes la «+».</p>
+  <div class="scroll"><table class="data" style="min-width:640px">
+    <thead><tr><th>Unidad · edificio</th><th>Armas</th><th>Habilidades activas</th><th>Pasivas</th></tr></thead>
+    <tbody>
+      <tr><td>Militar · C. Entrenamiento</td><td class="note">Fusil de serie · Triple disparo 800 · Lanzamisiles 2.000 · Metralleta láser 4.000</td><td class="note">Curación 2.000 · Camuflaje 4.000</td><td class="note">Fuerza+ 2.500 · Fuerza++ 5.000</td></tr>
+      <tr><td>Científico · C. Entrenamiento</td><td class="note">—</td><td class="note">Dopar de serie · Gas paralizante 2.500 · Shock EMP 5.000</td><td class="note">Aura Escudo 2.500 · Aura Vida 5.000</td></tr>
+      <tr><td>Meca · Fábrica Terrestre</td><td class="note">Lanzallamas de serie · Antiaire 2.000 · Freezergun 4.000</td><td class="note">Escudo reflector 4.000</td><td class="note">Combustible- 5.000</td></tr>
+      <tr><td>APC · Fábrica Terrestre</td><td class="note">Torreta de serie</td><td class="note">Cargar y Descargar 1.500 · Turbo 3.000 · Minas 4.000</td><td class="note">Capacidad+ 5.000</td></tr>
+      <tr><td>Raptor · Lanzadera</td><td class="note">Ráfaga de serie · Bomba cuántica 6.000</td><td class="note">—</td><td class="note">Transporte tropas 5.000 (con Cargar y Descargar)</td></tr>
+      <tr><td>Droide · Lanzadera</td><td class="note">—</td><td class="note">Portal dimensional 5.000</td><td class="note">Escudo+ 5.000</td></tr>
+      <tr><td>Explorador · Gobierno</td><td class="note">Mordisco de serie</td><td class="note">—</td><td class="note">Velocidad+ 2.500 · Detecta camuflados 5.000</td></tr>
+      <tr><td>Trabajador · extractores y Generador</td><td class="note">—</td><td class="note">—</td><td class="note">Producción+ 2.500 · Producción++ 5.000</td></tr>
+    </tbody>
+  </table></div>
+  <p>Precio de las pasivas por nivel: 1.000 (G1), 2.500 (G2) y 5.000 (G3). Las armas y las activas tienen precio propio según lo que aportan. Todo junto suma unos <b>105.000 de energía</b>, alrededor de 30 turnos de un Gobierno 3 con 10 Generadores llenos.</p>
+  <p>Resultado en las simulaciones (1v1, 3 mapas): en la ronda 60 quedan entre 8.000 y 43.000 de energía (antes, de 30.000 a 113.000). En la ronda 100 vuelve a sobrar (25.000–77.000), así que seguramente habrá que ajustar más con las partidas reales.</p>
+  <h4 id="techo">Techo de energía (v10)</h4>
+  <p>Los Generadores no se agotan nunca, así que la energía ya no crece en línea recta: <b>se llena como un depósito</b>. Cada turno entra la producción bruta multiplicada por lo que falta para llenarlo, y nunca pasa del máximo, tengas los Generadores que tengas. Gastar vuelve a acelerar la producción. <span class="tag-ok">Aprobado</span></p>
+  <p><code>ΔE = P × (1 − E / Máx)</code>, donde P es la producción bruta del turno (Gobierno + 75 por trabajador de cada Generador) y E la energía que ya tienes.</p>
+  <div class="scroll"><table class="data" style="min-width:560px">
+    <thead><tr><th>Máximo de energía</th><th class="n">Aporta</th><th>Ejemplo</th></tr></thead>
+    <tbody>
+      <tr><td>Gobierno nivel 1 / 2 / 3</td><td class="n">2.000 / 4.000 / 6.000</td><td class="note">Base del depósito</td></tr>
+      <tr><td>Cada Generador terminado</td><td class="n">+1.500</td><td class="note">G2 + 2 Generadores: 7.000 · G3 + 4 Generadores: 12.000</td></tr>
+    </tbody>
+  </table></div>
+  <ul>
+    <li><b>Más trabajadores llenan antes, no más.</b> Con G2 y 2 Generadores (techo 7.000), desde 1.500 y sin gastar: con 1 trabajador por Generador se llega a 6.000 hacia el turno 27; con 4, hacia el turno 12.</li>
+    <li><b>Sólo se limita la producción.</b> Lo que llega del Banco o de devoluciones entra entero. Si pierdes un Generador y quedas por encima del nuevo máximo, no pierdes energía: sólo deja de crecer.</li>
+    <li><b>El mantenimiento sigue restando.</b> Con el depósito casi lleno entra poco, así que la energía se estabiliza algo por debajo del máximo.</li>
+    <li><b>La IA ya no pide préstamos de energía.</b> Con el techo, el préstamo frenaba la producción y su devolución (1,5×) la dejaba en negativo.</li>
+  </ul>
+  <p>Resultado en las simulaciones (1v1, 6 mapas, ronda 60): entre 3.300 y 11.800 de energía (antes, de 7.300 a 39.900), y todos los jugadores siguen llegando a Gobierno 3 salvo uno, que se queda en nivel 2.</p>
+</section>
+
+<section id="armas">
+  <h2>Armas, visión y alcance</h2>
+  <p>Todas en la misma escala: daño por individuo y PA por individuo. El daño de la tropa es el daño del arma por el número de individuos, igual que hoy en el servidor.</p>
+  <div class="scroll"><table class="data"><thead><tr><th>Arma</th><th>Unidad</th><th>Nivel</th><th>Modalidad</th><th>Perfil</th><th class="n">Daño / indiv.</th><th class="n">PA / indiv.</th><th class="n">Alcance</th><th class="n">Recarga</th><th>Notas</th></tr></thead><tbody><tr><td>Fusil</td><td>Militar</td><td>G1</td><td>Terrestre</td><td>AntiLigera</td><td class="n">20</td><td class="n">1</td><td class="n">6</td><td class="n">cada turno</td><td class="note">mira telescópica: el mayor alcance de la infantería, junto al Lanzamisiles</td></tr><tr><td>Triple disparo</td><td>Militar</td><td>G1</td><td>Terrestre</td><td>AntiLigera</td><td class="n">60</td><td class="n">2</td><td class="n">6</td><td class="n">cada 2</td><td class="note">+20 energía/indiv</td></tr><tr><td>Lanzamisiles</td><td>Militar</td><td>G2</td><td>Tierra-Aire</td><td>AntiPesada</td><td class="n">40</td><td class="n">2</td><td class="n">6</td><td class="n">cada turno</td><td class="note">supera el alcance de la Defensa de Suelo (5)</td></tr><tr><td>Metralleta láser</td><td>Militar</td><td>G3</td><td>Terrestre</td><td>AntiMedia</td><td class="n">36</td><td class="n">2</td><td class="n">3</td><td class="n">cada turno</td><td class="note">3 ráfagas × 12</td></tr><tr><td>Lanzallamas</td><td>Meca</td><td>G2</td><td>Terrestre</td><td>AntiLigera</td><td class="n">60</td><td class="n">2</td><td class="n">2</td><td class="n">cada turno</td><td class="note">área 3x3 · quema +50% al turno siguiente · +5 comb./indiv</td></tr><tr><td>Freezergun</td><td>Meca</td><td>G3</td><td>Terrestre</td><td>AntiMedia</td><td class="n">10</td><td class="n">2</td><td class="n">4</td><td class="n">cada 2</td><td class="note">área 3x3 · ralentiza 50% 2 turnos · +20 energía/indiv</td></tr><tr><td>Antiaire</td><td>Meca</td><td>G2</td><td>Aérea</td><td>AntiMedia</td><td class="n">60</td><td class="n">2</td><td class="n">6</td><td class="n">cada 2</td><td class="note">habilidad activa</td></tr><tr><td>Torreta</td><td>APC</td><td>G2</td><td>Terrestre</td><td>AntiLigera</td><td class="n">30</td><td class="n">1</td><td class="n">4</td><td class="n">cada turno</td><td class="note"></td></tr><tr><td>Minas</td><td>APC</td><td>G3</td><td>Terrestre</td><td>Explosivo</td><td class="n">80</td><td class="n">2</td><td class="n">1</td><td class="n">cada 2</td><td class="note">1 mina por uso · 3x3 (40 en anillo) · máx. 3 activas por APC · +30 acero</td></tr><tr><td>Ráfaga</td><td>Raptor</td><td>G3</td><td>Tierra-Aire</td><td>AntiPesada</td><td class="n">60</td><td class="n">2</td><td class="n">4</td><td class="n">cada turno</td><td class="note">Precisión: ignora 50% del escudo</td></tr><tr><td>Bomba cuántica</td><td>Raptor</td><td>G3</td><td>Terrestre</td><td>Explosivo</td><td class="n">150</td><td class="n">3</td><td class="n">1</td><td class="n">cada 4</td><td class="note">área 5x5: 100/75/50% · +150 energía/indiv</td></tr><tr><td>Mordisco</td><td>Explorador</td><td>G1</td><td>Terrestre</td><td>AntiLigera</td><td class="n">25</td><td class="n">1</td><td class="n">1</td><td class="n">cada turno</td><td class="note">30 en G2, 35 en G3 (cuerpo a cuerpo)</td></tr><tr><td>Defensa de Suelo</td><td>Edificio</td><td>—</td><td>Terrestre</td><td>AntiLigera</td><td class="n">40</td><td class="n">—</td><td class="n">5</td><td class="n">cada turno</td><td class="note">2 disparos/turno, automática (v9; antes 3)</td></tr><tr><td>Defensa Aérea</td><td>Edificio</td><td>—</td><td>Aérea</td><td>AntiMedia</td><td class="n">60</td><td class="n">—</td><td class="n">6</td><td class="n">cada turno</td><td class="note">2 disparos/turno, automática</td></tr></tbody></table></div>
+  <h4 id="vision">Visión y alcance</h4>
+  <p><b>La visión es de la unidad; el alcance, de cada arma.</b> Una tropa puede disparar a cualquier objetivo que esté dentro del alcance de su arma y que vea ella misma o cualquier unidad o edificio aliado. <span class="tag-ok">Aprobado</span> Así un Explorador puede marcar objetivos para armas de largo alcance. Las Defensas siguen la misma regla. Como las armas se acumulan, el Militar siempre lleva el Fusil y su visión ya cuenta con la mira telescópica. Las armas de largo alcance hacen menos daño; las que pegan fuerte (Lanzallamas, Metralleta, Bomba) obligan a acercarse.</p>
+  <div class="scroll"><table class="data" style="min-width:640px">
+    <thead><tr><th>Unidad</th><th class="n">Visión</th><th>Armas (alcance)</th></tr></thead>
+    <tbody>
+      <tr><td>Constructor</td><td class="n">4</td><td class="note">—</td></tr>
+      <tr><td>Militar</td><td class="n">7</td><td class="note">Fusil 6 · Triple disparo 6 · Lanzamisiles 6 · Metralleta láser 3</td></tr>
+      <tr><td>Explorador</td><td class="n">10</td><td class="note">Mordisco 1</td></tr>
+      <tr><td>Científico</td><td class="n">5</td><td class="note">habilidades 4</td></tr>
+      <tr><td>Meca</td><td class="n">6</td><td class="note">Lanzallamas 2 · Freezergun 4 · Antiaire 6</td></tr>
+      <tr><td>APC</td><td class="n">6</td><td class="note">Torreta 4 · Minas 1 (adyacente)</td></tr>
+      <tr><td>Raptor</td><td class="n">9 (altura)</td><td class="note">Ráfaga 4 · Bomba cuántica 1 (encima)</td></tr>
+      <tr><td>Droide</td><td class="n">8 (altura)</td><td class="note">—</td></tr>
+      <tr><td>Defensa de Suelo</td><td class="n">6</td><td class="note">5</td></tr>
+      <tr><td>Defensa Aérea</td><td class="n">7</td><td class="note">6 (hoy en el servidor tiene visión 3)</td></tr>
+    </tbody>
+  </table></div>
+
+</section>
+
+<section id="combate">
+  <h2>Comprobación de combate</h2>
+  <p>Cuántas órdenes de ataque necesita una tropa llena de Gobierno 3 para destruir otra, y cuántos PA cuesta en total. Cuenta vida y escudo por individuo (propuesta: hoy el servidor da un único escudo por tropa) y no cuenta contraataques ni efectos de área. En verde, 5 órdenes o menos; en rojo, más de 12.</p>
+  <div class="scroll"><table class="matrix ttk"><thead><tr><th class="corner">Atacante ↓ · defensor →</th><th>10 Militares</th><th>1 APC</th><th>2 Raptor</th><th>4 Mecas</th><th>Gobierno N3</th></tr></thead><tbody><tr><th scope="row">10 Militares · Fusil</th><td class="h md"><b>7</b><small>70 PA</small></td><td class="h hi"><b>3</b><small>30 PA</small></td><td class="h na">—</td><td class="h lo"><b>27</b><small>270 PA</small></td><td class="h lo"><b>56</b><small>560 PA</small></td></tr><tr><th scope="row">10 Militares · Lanzamisiles</th><td class="h md"><b>11</b><small>220 PA</small></td><td class="h hi"><b>2</b><small>40 PA</small></td><td class="h hi"><b>3</b><small>60 PA</small></td><td class="h hi"><b>4</b><small>80 PA</small></td><td class="h md"><b>7</b><small>140 PA</small></td></tr><tr><th scope="row">10 Militares · Metralleta</th><td class="h md"><b>7</b><small>140 PA</small></td><td class="h hi"><b>1</b><small>20 PA</small></td><td class="h na">—</td><td class="h md"><b>8</b><small>160 PA</small></td><td class="h lo"><b>20</b><small>400 PA</small></td></tr><tr><th scope="row">4 Mecas · Lanzallamas</th><td class="h md"><b>6</b><small>48 PA</small></td><td class="h hi"><b>2</b><small>16 PA</small></td><td class="h na">—</td><td class="h lo"><b>23</b><small>184 PA</small></td><td class="h lo"><b>47</b><small>376 PA</small></td></tr><tr><th scope="row">4 Mecas · Antiaire</th><td class="h na">—</td><td class="h na">—</td><td class="h hi"><b>3</b><small>24 PA</small></td><td class="h na">—</td><td class="h na">—</td></tr><tr><th scope="row">1 APC · Torreta</th><td class="h lo"><b>44</b><small>44 PA</small></td><td class="h lo"><b>14</b><small>14 PA</small></td><td class="h na">—</td><td class="h lo"><b>178</b><small>178 PA</small></td><td class="h lo"><b>374</b><small>374 PA</small></td></tr><tr><th scope="row">2 Raptor · Ráfaga</th><td class="h lo"><b>32</b><small>128 PA</small></td><td class="h hi"><b>3</b><small>12 PA</small></td><td class="h md"><b>7</b><small>28 PA</small></td><td class="h md"><b>11</b><small>44 PA</small></td><td class="h lo"><b>20</b><small>80 PA</small></td></tr><tr><th scope="row">5 Exploradores · Mordisco</th><td class="h md"><b>8</b><small>40 PA</small></td><td class="h hi"><b>3</b><small>15 PA</small></td><td class="h na">—</td><td class="h lo"><b>31</b><small>155 PA</small></td><td class="h lo"><b>64</b><small>320 PA</small></td></tr></tbody></table></div>
+  <p>Se ven tres cosas. Cada unidad tiene al menos un objetivo que destruye en pocas órdenes. Ninguna lo destruye todo: la mejor contra infantería, el Lanzallamas, necesita 23 órdenes contra Mecas. Y destruir un Gobierno de nivel 3 lleva varios turnos incluso con armas de asedio, lo que deja tiempo para defenderlo.</p>
+</section>
+
+<section id="edificios">
+  <h2>Vida de los edificios</h2>
+  <p><span class="tag-ok">Aprobado</span> Con las armas nuevas, las vidas actuales del servidor se quedan cortas: 10 Militares con Lanzamisiles destruyen casi cualquier edificio en una sola orden. La propuesta reparte la vida según lo que se pierde si el edificio cae, medida en órdenes de ataque de tres atacantes de referencia (una orden = una tropa atacando un turno). Escudo = 25% de la vida, salvo el Gobierno (pregunta 40).</p>
+  <div class="callout"><p><b>Criterio.</b> Con armas antipersona (Fusil) un edificio importante cuesta 20 órdenes o más: no compensa asediar con ellas. Con armas de asedio, el Gobierno aguanta 3 órdenes en G1 y 7 en G3, las fábricas unas 4, las Defensas 2–3 y la economía 1–2, para que las incursiones sigan siendo posibles.</p></div>
+  <div class="scroll"><table class="data bld"><thead><tr><th>Edificio</th><th class="n">Hoy vida / escudo</th><th class="n">Propuesta vida / escudo</th><th class="n">10 Militares · Fusil</th><th class="n">10 Militares · Lanzamisiles</th><th class="n">2 Raptor · Ráfaga</th></tr></thead><tbody><tr class="chg"><td><b>Gobierno nivel 1</b><br><span class="note">Si cae, el jugador queda eliminado.</span></td><td class="n">500 / 200</td><td class="n"><b>800 / 300</b></td><td class="n">14 → <b>22</b></td><td class="n">2 → <b>3</b></td><td class="n">6 → <b>10</b></td></tr><tr class="chg"><td><b>Gobierno nivel 2</b><br><span class="note">Si cae, el jugador queda eliminado.</span></td><td class="n">1000 / 400</td><td class="n"><b>1300 / 500</b></td><td class="n">28 → <b>36</b></td><td class="n">4 → <b>5</b></td><td class="n">12 → <b>15</b></td></tr><tr><td><b>Gobierno nivel 3</b><br><span class="note">Si cae, el jugador queda eliminado.</span></td><td class="n">2000 / 800</td><td class="n"><b>2000 / 800</b></td><td class="n">56 → <b>56</b></td><td class="n">7 → <b>7</b></td><td class="n">24 → <b>24</b></td></tr><tr class="chg"><td><b>Centro de Entrenamiento</b><br><span class="note">Produce infantería y hace falta para subir a Gobierno 2.</span></td><td class="n">400 / 100</td><td class="n"><b>1000 / 250</b></td><td class="n">10 → <b>25</b></td><td class="n">2 → <b>4</b></td><td class="n">5 → <b>11</b></td></tr><tr class="chg"><td><b>Fábrica Terrestre</b><br><span class="note">Produce Mecas y APC y hace falta para subir a Gobierno 3.</span></td><td class="n">400 / 100</td><td class="n"><b>1000 / 250</b></td><td class="n">10 → <b>25</b></td><td class="n">2 → <b>4</b></td><td class="n">5 → <b>11</b></td></tr><tr class="chg"><td><b>Lanzadera</b><br><span class="note">Produce Raptor y Droide; el edificio más caro.</span></td><td class="n">400 / 100</td><td class="n"><b>1200 / 300</b></td><td class="n">10 → <b>30</b></td><td class="n">2 → <b>4</b></td><td class="n">5 → <b>13</b></td></tr><tr class="chg"><td><b>Banco</b><br><span class="note">Préstamos y trueque: economía de apoyo.</span></td><td class="n">300 / 75</td><td class="n"><b>800 / 200</b></td><td class="n">8 → <b>20</b></td><td class="n">1 → <b>3</b></td><td class="n">4 → <b>9</b></td></tr><tr class="chg"><td><b>Defensa de Suelo</b><br><span class="note">Defensa automática contra tierra.</span></td><td class="n">300 / 75</td><td class="n"><b>800 / 200</b></td><td class="n">8 → <b>20</b></td><td class="n">1 → <b>3</b></td><td class="n">4 → <b>9</b></td></tr><tr class="chg"><td><b>Defensa Aérea</b><br><span class="note">Defensa automática contra aire; inmune a las unidades de tierra porque no les dispara.</span></td><td class="n">300 / 75</td><td class="n"><b>600 / 150</b></td><td class="n">8 → <b>15</b></td><td class="n">1 → <b>2</b></td><td class="n">4 → <b>7</b></td></tr><tr class="chg"><td><b>Generador</b><br><span class="note">Energía, cobertura de energía y cupo militar.</span></td><td class="n">300 / 75</td><td class="n"><b>500 / 125</b></td><td class="n">8 → <b>13</b></td><td class="n">1 → <b>2</b></td><td class="n">4 → <b>6</b></td></tr><tr class="chg"><td><b>Extractores, Granja, Refinería</b><br><span class="note">Economía; objetivo de incursiones.</span></td><td class="n">300 / 75</td><td class="n"><b>400 / 100</b></td><td class="n">8 → <b>10</b></td><td class="n">1 → <b>2</b></td><td class="n">4 → <b>5</b></td></tr><tr><td><b>Vivienda</b><br><span class="note">Cupo civil; barata (50 E + 20 madera).</span></td><td class="n">200 / 50</td><td class="n"><b>200 / 50</b></td><td class="n">5 → <b>5</b></td><td class="n">1 → <b>1</b></td><td class="n">3 → <b>3</b></td></tr></tbody></table></div>
+  <p class="note">La columna «Hoy» aplica ya la regla del escudo al 25% (en el servidor sólo el Gobierno tiene escudo). Cada celda indica las órdenes necesarias hoy → con la propuesta. El Triple disparo hace el triple que el Fusil, pero sólo cada 2 turnos.</p>
+  <h4>Por qué estos números</h4>
+  <ul class="find">
+    <li><b>Gobierno.</b> El de nivel 3 no cambia (7 órdenes de Lanzamisiles, varios turnos de asedio). Los de nivel 1 y 2 suben para que un jugador que va un nivel por detrás no caiga en un solo turno: Gobierno 1 contra Lanzamisiles pasa de 2 a 3 órdenes, y contra Fusil de 14 a 22.</li>
+    <li><b>Centro de Entrenamiento y Fábrica Terrestre.</b> Perderlos corta la producción y bloquea la subida de Gobierno. Pasan de 2 a 4 órdenes de Lanzamisiles: destruirlos exige comprometer un ejército, no una tropa suelta.</li>
+    <li><b>Lanzadera.</b> El edificio más caro (G3); un poco más que las fábricas.</li>
+    <li><b>Defensa de Suelo.</b> Con el Lanzamisiles a 6 se puede asediar sin recibir fuego (pregunta 51); con 800 de vida cuesta 3 órdenes en lugar de 1, así que sigue mereciendo la pena construirla. Con Fusil, también a alcance 6, harían falta 20.</li>
+    <li><b>Defensa Aérea.</b> Las unidades de tierra son inmunes a ella y la destruyen con facilidad, así que no necesita tanta vida como la de Suelo. El Raptor (Ráfaga, alcance 4) recibe sus disparos (alcance 6).</li>
+    <li><b>Economía.</b> Generador, extractores, Granja y Refinería suben poco: una incursión con armas de asedio debe poder quitarlos en 1–2 órdenes. El Generador, algo más por la energía y el cupo militar.</li>
+    <li><b>Vivienda.</b> Sin cambios: es barata y se reconstruye en un turno.</li>
+    <li><b>Reparar.</b> Su coste es un porcentaje del coste del edificio, no de la vida, así que más vida no encarece las reparaciones.</li>
+  </ul>
+</section>
+
+<section id="unidades">
+  <h2>Unidad por unidad</h2>
+  <p>Cada tabla compara la ficha actual con la propuesta. Las filas resaltadas son las que cambian.</p>
+  <div class="units">
+<section class="unit" id="u-militar">
+  <header><h3>Militar</h3><span class="cls">Ligera · Terrestre · Orgánica</span></header>
+  <p>Infantería básica. Barata y numerosa; cambia de papel con el nivel: anti-infantería (G1), anti-blindado y antiaéreo (G2), anti-vehículo (G3).</p>
+  <div class="scroll"><table class="cmp"><thead><tr><th>Campo</th><th>Ficha actual</th><th>Propuesta</th></tr></thead><tbody><tr class="same"><th scope="row">Coste / tiempo / cupo</th><td>100 E · 1 turno · 1 militar</td><td>100 E · 1 turno · 1 militar</td></tr><tr class="chg"><th scope="row">Vida / Escudo</th><td>50 / 50</td><td>50 / 30 (escudo por individuo)</td></tr><tr class="chg"><th scope="row">Velocidad (PA por casilla e individuo)</th><td>—</td><td>0,5</td></tr><tr class="chg"><th scope="row">Visión</th><td>8</td><td>7</td></tr><tr class="same"><th scope="row">Tropa máx.</th><td>5 / 8 / 10</td><td>5 / 8 / 10</td></tr><tr class="chg"><th scope="row">G1 Fusil</th><td>10 · Distancia 8 · AntiLigera (100/50) · 1 PA</td><td>20 · alcance 6 (mira telescópica) · AntiLigera · 1 PA</td></tr><tr class="chg"><th scope="row">G2 Lanzamisiles</th><td>50 · Distancia 6 · AntiPesada · 2 PA</td><td>40 · alcance 6 · AntiPesada · Tierra-Aire · 2 PA</td></tr><tr class="chg"><th scope="row">G3 Metralleta láser</th><td>20 · Distancia 5 · AntiMedia · 3 ataques · 3 PA</td><td>3 ráfagas × 12 = 36 · alcance 3 · AntiMedia · 2 PA</td></tr><tr class="chg"><th scope="row">Triple disparo</th><td>2 PA + 30 E · cada turno</td><td>2 PA + 20 E · cada 2 turnos (3× Fusil)</td></tr><tr class="chg"><th scope="row">Curación</th><td>2 PA + 40 E · +20 vida · cada 3</td><td>1 PA + 20 E · +20 vida · cada 3</td></tr><tr class="chg"><th scope="row">Camuflaje</th><td>3 PA + 100 E · invisible · cada 3</td><td>2 PA para activar + 10 E por individuo y turno mientras dure · se rompe al atacar, al no poder pagar o al cancelar la orden · cada 3 tras romperse</td></tr><tr class="chg"><th scope="row">Fuerza+ / Fuerza++</th><td>+25 vida / +25 vida</td><td>+25 vida / +25 vida (acumulan: 100 en G3)</td></tr></tbody></table></div>
+</section>
+<section class="unit" id="u-meca">
+  <header><h3>Meca</h3><span class="cls">Pesada · Terrestre · Mecánica</span></header>
+  <p>Tanque de asalto. Lento y muy resistente; arrasa infantería en área y protege del aire.</p>
+  <div class="scroll"><table class="cmp"><thead><tr><th>Campo</th><th>Ficha actual</th><th>Propuesta</th></tr></thead><tbody><tr class="chg"><th scope="row">Coste / tiempo / cupo</th><td>300 E + 50 Ac · 2 turnos · 2</td><td>350 E + 80 Ac · 2 turnos · 2</td></tr><tr class="chg"><th scope="row">Vida / Escudo</th><td>100 / 100</td><td>250 / 150</td></tr><tr class="chg"><th scope="row">Velocidad</th><td>—</td><td>1</td></tr><tr class="chg"><th scope="row">Visión</th><td>10</td><td>6</td></tr><tr class="chg"><th scope="row">Tropa máx.</th><td>5 / 8 / 10</td><td>— / 3 / 4</td></tr><tr class="chg"><th scope="row">Combustible</th><td>10 por turno (mantenimiento)</td><td>3 por casilla e individuo, sólo al moverse</td></tr><tr class="chg"><th scope="row">G2 Lanzallamas</th><td>20 · área 2x2 · quema 50% · cada 3 turnos · 3 PA + 10 comb.</td><td>60 · área 3x3 · quema 50% al turno siguiente · alcance 2 · cada turno · 2 PA + 5 comb.</td></tr><tr class="chg"><th scope="row">G3 Freezergun</th><td>5 · área 3x3 · ralentiza 50% 2 turnos · cada 3 · 3 PA + 50 E</td><td>10 · área 3x3 · AntiMedia · ralentiza 50% 2 turnos · alcance 4 · cada 2 · 2 PA + 20 E</td></tr><tr class="chg"><th scope="row">Antiaire (activa G2)</th><td>100 · 5 PA · cada 2</td><td>60 · sólo aéreos · AntiMedia · alcance 6 · 2 PA · cada 2</td></tr><tr class="chg"><th scope="row">Escudo (activa G3)</th><td>250 E · reflector 100 · cada 3</td><td>2 PA + 100 E · +100 escudo 2 turnos y devuelve 25% del daño absorbido · cada 3</td></tr><tr class="chg"><th scope="row">Combustible- (pasiva G3)</th><td>gasta 80% al moverse</td><td>gasta el 80% al moverse (2,4 por casilla) y en el Lanzallamas (4 por individuo)</td></tr></tbody></table></div>
+</section>
+<section class="unit" id="u-transporte">
+  <header><h3>Transporte APC</h3><span class="cls">Media · Terrestre · Mecánica</span></header>
+  <p>Vehículo de transporte. Mueve infantería barato en PA; defensa ligera con torreta y minas.</p>
+  <div class="scroll"><table class="cmp"><thead><tr><th>Campo</th><th>Ficha actual</th><th>Propuesta</th></tr></thead><tbody><tr class="chg"><th scope="row">Coste / tiempo / cupo</th><td>200 E + 40 Ac · 2 turnos · 2</td><td>250 E + 60 Ac · 2 turnos · 2</td></tr><tr class="chg"><th scope="row">Vida / Escudo</th><td>50 / 50</td><td>150 / 100</td></tr><tr class="chg"><th scope="row">Velocidad</th><td>—</td><td>0,5</td></tr><tr class="chg"><th scope="row">Visión</th><td>12</td><td>6</td></tr><tr class="chg"><th scope="row">Tropa máx.</th><td>5 / 8 / 10</td><td>1 (no ataca en grupo)</td></tr><tr class="chg"><th scope="row">Combustible</th><td>15 por turno (mantenimiento)</td><td>1,5 por casilla, sólo al moverse</td></tr><tr class="chg"><th scope="row">G2 Torreta</th><td>50 daño · Distancia 5 · AntiLigera · 2 PA</td><td>30 por individuo · alcance 4 · AntiLigera · 1 PA</td></tr><tr class="chg"><th scope="row">G3 Minas</th><td>100 por mina · 3x3 (100/50) · 2 PA + 50 Ac · AntiLigera</td><td>80 centro / 40 anillo · Explosivo · invisibles · 1 mina por uso, cada 2 turnos · máx. 3 activas por APC · 2 PA + 30 Ac</td></tr><tr class="chg"><th scope="row">Cargar (activa G2)</th><td>1 PA por individuo · 10 unidades</td><td>1 PA por individuo embarcado · 6 individuos ligeros por APC · los transportados no pagan movimiento</td></tr><tr class="chg"><th scope="row">Turbo (activa G3)</th><td>3 PA + 200 comb. · +200% · cada 3</td><td>1 PA + 30 comb. por individuo · +100% velocidad 2 turnos · cada 3</td></tr><tr class="chg"><th scope="row">Capacidad+ (pasiva G3)</th><td>15 unidades</td><td>9 individuos por APC</td></tr></tbody></table></div>
+</section>
+<section class="unit" id="u-raptor">
+  <header><h3>Raptor</h3><span class="cls">Media (antes Pesada) · Aérea · Mecánica</span></header>
+  <p>Cañonera aérea. Caza blindados y edificios; bombardeo de área con recarga larga.</p>
+  <div class="scroll"><table class="cmp"><thead><tr><th>Campo</th><th>Ficha actual</th><th>Propuesta</th></tr></thead><tbody><tr class="chg"><th scope="row">Coste / tiempo / cupo</th><td>500 E + 100 Ac · 3 turnos · 3</td><td>500 E + 120 Ac · 3 turnos · 3</td></tr><tr class="chg"><th scope="row">Vida / Escudo</th><td>100 / 100</td><td>180 / 120</td></tr><tr class="chg"><th scope="row">Velocidad</th><td>—</td><td>0,5 (vuela: ignora agua y montaña)</td></tr><tr class="chg"><th scope="row">Visión</th><td>12</td><td>9 (altura)</td></tr><tr class="chg"><th scope="row">Bloqueado</th><td>Agua, Montaña</td><td>Nada</td></tr><tr class="chg"><th scope="row">Tropa máx.</th><td>5 / 8 / 10</td><td>— / — / 2</td></tr><tr class="chg"><th scope="row">Combustible</th><td>20 por turno (mantenimiento)</td><td>2,5 por casilla e individuo, sólo al moverse</td></tr><tr class="chg"><th scope="row">G3 Ráfaga</th><td>250 por ráfaga · Distancia 4 · AntiPesada · cada 3 · 3 PA</td><td>60 · alcance 4 · AntiPesada · Tierra-Aire · Precisión (ignora 50% escudo) · cada turno · 2 PA</td></tr><tr class="chg"><th scope="row">Bomba cuántica</th><td>coste «500 daño» · 4x4 · cada 5</td><td>150 centro · 5x5 (100/75/50%) · Explosivo · alcance 1 · 3 PA + 150 E · cada 4</td></tr><tr class="chg"><th scope="row">Transporte tropas (pasiva)</th><td>20 unidades</td><td>4 individuos ligeros por Raptor</td></tr></tbody></table></div>
+</section>
+<section class="unit" id="u-explorador">
+  <header><h3>Explorador</h3><span class="cls">Ligera · Terrestre · Mecánica</span></header>
+  <p>Exploración rápida y detección. Cuerpo a cuerpo contra infantería aislada.</p>
+  <div class="scroll"><table class="cmp"><thead><tr><th>Campo</th><th>Ficha actual</th><th>Propuesta</th></tr></thead><tbody><tr class="chg"><th scope="row">Coste / tiempo / cupo</th><td>—</td><td>120 E + 20 Ac · 1 turno · 1 militar</td></tr><tr class="chg"><th scope="row">Vida / Escudo</th><td>—</td><td>60 / 30</td></tr><tr class="chg"><th scope="row">Velocidad</th><td>—</td><td>0,25 (con Velocidad+ 0,2)</td></tr><tr class="chg"><th scope="row">Visión</th><td>—</td><td>10</td></tr><tr class="chg"><th scope="row">Tropa máx.</th><td>—</td><td>3 / 4 / 5</td></tr><tr class="chg"><th scope="row">Energía al moverse</th><td>—</td><td>1 E por casilla e individuo (no gasta combustible)</td></tr><tr class="chg"><th scope="row">Arma</th><td>sin nombre · 20/30/40 · 2 PA</td><td>Mordisco · Terrestre · 25/30/35 · alcance 1 · 1 PA</td></tr><tr class="chg"><th scope="row">Detecta subsuelo / Excava</th><td>3 PA + 250 E / 5 PA + 200 E</td><td>idea por confirmar: detectar túneles y excavar hacia el subsuelo (pregunta 13)</td></tr><tr class="chg"><th scope="row">Detecta camuflados</th><td>3 PA + 100 E · cada 3</td><td>pasiva de G3 (v8): ve invisibles y minas dentro de su visión · sustituye a Velocidad++ · activa de G3 y pasiva de G1 en «No aplica»</td></tr><tr class="chg"><th scope="row">Velocidad+ / Velocidad++</th><td>+25% / +50% (sin condición)</td><td>Velocidad+ +25% · Siempre · Velocidad++ desaparece (pregunta 54)</td></tr></tbody></table></div>
+</section>
+<section class="unit" id="u-droide">
+  <header><h3>Droide</h3><span class="cls">Ligera · Aérea · Mecánica</span></header>
+  <p>Logística aérea. Teletransporte entre dos Droides y refuerzo de escudos.</p>
+  <div class="scroll"><table class="cmp"><thead><tr><th>Campo</th><th>Ficha actual</th><th>Propuesta</th></tr></thead><tbody><tr class="chg"><th scope="row">Coste / tiempo / cupo</th><td>—</td><td>400 E + 80 Ac · 2 turnos · 2 militar</td></tr><tr class="chg"><th scope="row">Vida / Escudo</th><td>—</td><td>60 / 120</td></tr><tr class="chg"><th scope="row">Velocidad</th><td>—</td><td>0,5 (vuela)</td></tr><tr class="chg"><th scope="row">Visión</th><td>—</td><td>8 (altura)</td></tr><tr class="chg"><th scope="row">Tropa máx.</th><td>—</td><td>1 (no ataca en grupo)</td></tr><tr class="chg"><th scope="row">Combustible</th><td>—</td><td>1 por casilla, sólo al moverse</td></tr><tr class="chg"><th scope="row">Portal dimensional</th><td>1000 E · cada 5</td><td>entre dos Droides propios a cualquier distancia · lleva todo lo propio y aliado del 3x3 del Droide de origen al 3x3 del de destino (cualquier clase) · 300 E + 1 PA por individuo · cada 5</td></tr><tr class="chg"><th scope="row">Escudo+ (pasiva)</th><td>+50% escudos aliados en 3x3</td><td>+25% escudo máximo a aliados adyacentes (no se suma con otro Escudo+)</td></tr></tbody></table></div>
+</section>
+<section class="unit" id="u-científico">
+  <header><h3>Científico</h3><span class="cls">Ligera · Terrestre · Orgánica</span></header>
+  <p>Apoyo. Cura, bloquea infantería enemiga (gas) y desarma máquinas y edificios (EMP).</p>
+  <div class="scroll"><table class="cmp"><thead><tr><th>Campo</th><th>Ficha actual</th><th>Propuesta</th></tr></thead><tbody><tr class="chg"><th scope="row">Coste / tiempo / cupo</th><td>—</td><td>150 E · 1 turno · 1 militar</td></tr><tr class="chg"><th scope="row">Vida / Escudo</th><td>—</td><td>40 / 40</td></tr><tr class="chg"><th scope="row">Velocidad</th><td>—</td><td>0,5</td></tr><tr class="chg"><th scope="row">Visión</th><td>—</td><td>5</td></tr><tr class="chg"><th scope="row">Tropa máx.</th><td>—</td><td>1 (no ataca en grupo)</td></tr><tr class="chg"><th scope="row">Mantenimiento</th><td>—</td><td>4 comida + 2 agua</td></tr><tr class="chg"><th scope="row">Dopar</th><td>1 PA + 100 E por unidad · +30% vida y escudo 3x3</td><td>2 PA + 50 E · curación temporal: aliados en 3x3 reciben +30% de su vida máxima como vida extra durante 2 turnos (se gasta primero; la que sobre desaparece) · alcance 4 · cada 3</td></tr><tr class="chg"><th scope="row">Gas paralizante</th><td>3 PA + 250 E · paraliza 1 turno 2x2</td><td>3 PA + 100 E · 3x3 · unidades orgánicas no mueven ni atacan 1 turno · cada 3</td></tr><tr class="chg"><th scope="row">Shock EMP</th><td>3 PA + 300 E · quita escudos 2x2</td><td>3 PA + 150 E · 3x3 · vacía el escudo de todas las unidades y edificios y les bloquea las habilidades 1 turno · cada 4</td></tr><tr class="chg"><th scope="row">Aura Escudo / Aura Vida</th><td>+25% escudo / +25% vida «área 3x3 objetivo»</td><td>aliados adyacentes regeneran +10 escudo / +5 vida por turno · la misma aura no se acumula con la de otro Científico (propio o aliado)</td></tr></tbody></table></div>
+</section>
+<section class="unit" id="u-constructor">
+  <header><h3>Constructor</h3><span class="cls">Ligera · Terrestre · Orgánica</span></header>
+  <p>Construcción y reparación. Sin cambios de fondo.</p>
+  <div class="scroll"><table class="cmp"><thead><tr><th>Campo</th><th>Ficha actual</th><th>Propuesta</th></tr></thead><tbody><tr class="chg"><th scope="row">Velocidad</th><td>1 PA/casilla + 5 E</td><td>1 + 5 E por casilla (1 por tropa)</td></tr><tr class="chg"><th scope="row">Recarga de habilidades</th><td>—</td><td>sin recarga</td></tr><tr class="chg"><th scope="row">Reparar / Reparar+</th><td>PA, recursos, energía</td><td>1 PA + 25% (Reparar) / 20% (Reparar+) del coste del edificio por cada 25% de vida reparada</td></tr></tbody></table></div>
+</section>
+<section class="unit" id="u-trabajador">
+  <header><h3>Trabajador</h3><span class="cls">Ligera · dentro de su edificio · Orgánica</span></header>
+  <p>Economía. Sin cambios.</p>
+  <div class="scroll"><table class="cmp"><thead><tr><th>Campo</th><th>Ficha actual</th><th>Propuesta</th></tr></thead><tbody><tr class="chg"><th scope="row">Producción+ / ++</th><td>+5 / +5 con satisfacción &gt; 5</td><td>+5 / +5 (acumulan: +10 en G3)</td></tr></tbody></table></div>
+</section>
+  </div>
+</section>
+
+<section id="servidor">
+  <h2>Qué habría que cambiar en el servidor</h2>
+  <p>Sólo para dimensionar el trabajo; no se toca código hasta que las fichas estén cerradas.</p>
+  <ul class="find">
+    <li><b>Valores actuales muy distintos de las fichas.</b> En el servidor el Militar hace 50 (la ficha dice 10), el Robot 200 con una «Metralleta láser» y la Nave 150 en área 3x3 con «Misil iones». Ninguna de esas armas coincide con las fichas.</li>
+    <li><b>Clases.</b> Hay que añadir Media y Estructura, el dominio aéreo, la modalidad de cada arma y la naturaleza orgánica/mecánica.</li>
+    <li><b>Varias armas por unidad.</b> Hoy cada unidad tiene un único ataque. Hacen falta armas por nivel, acumuladas, elegibles en la orden de ataque, cada una con su daño, perfil, alcance, coste y recarga.</li>
+    <li><b>Alcance.</b> Hoy el alcance es igual a la visión. Pasaría a ser un dato de cada arma, y se podría disparar a lo que vea cualquier aliado (hoy sólo a lo que ve la propia unidad).</li>
+    <li><b>PA.</b> Hoy atacar cuesta 3 PA fijos por orden y mover 1 PA por casilla a toda la tropa. Pasaría a PA por individuo con velocidad por tipo, con ingresos del nivel de Gobierno y de cada unidad (Viviendas dejan de dar PA).</li>
+    <li><b>Escudo por tropa.</b> Hoy una tropa de 10 Militares tiene un solo escudo de 50, y al dividirla las dos mitades conservan el escudo entero, así que dividir regala escudo. Propongo escudo por individuo.</li>
+    <li><b>Combustible.</b> Hoy es mantenimiento por turno (Robot 10, Vehículo 15, Nave 20). Pasaría a gastarse por casilla al moverse, como la energía del Constructor (que el Explorador también usaría).</li>
+    <li><b>Invisibilidad y detección.</b> Coste en energía por turno mientras dura, y detección pasiva dentro de la visión del Gobierno y del Explorador de G3 (pasiva Detecta camuflados); los dos ven también minas.</li>
+    <li><b>Habilidades y estados.</b> No existen: habría que crear habilidades activas con recarga, pasivas y auras, y los estados quemadura, ralentizado, paralizado, invisible y escudo temporal.</li>
+    <li><b>Mecánicas nuevas:</b> vuelo (hoy la Nave está bloqueada por agua y montaña), transporte, minas, portal y subsuelo.</li>
+    <li><b>Daño de área.</b> Hoy sólo la Nave hace área (3x3, mismo daño en todas las casillas). Habría que hacer el tamaño configurable y añadir la caída por distancia.</li>
+    <li><b>Defensa Aérea.</b> Hoy no dispara; sólo la Defensa de Suelo tiene disparo automático.</li>
+    <li><b>Unidades y edificios.</b> Renombrar Robot → Meca, Vehículo → APC y Nave → Raptor. Crear Explorador, Droide y Científico. La Fábrica de Aeronaves pasa a ser la Lanzadera y exige Gobierno 3 (hoy 2).</li>
+    <li><b>IA y cliente.</b> La IA tiene que aprender a elegir arma y habilidad, cuidando el rendimiento de las simulaciones. El cliente necesita interfaz para elegir arma o habilidad, mostrar estados y calcular los PA por individuo en las previsualizaciones.</li>
+  </ul>
+</section>
+
+<section id="preguntas">
+  <h2>Preguntas</h2>
+  <p>Cada pregunta lleva mi propuesta. Basta con responder «ok» a las que te valgan y corregir el resto.</p>
+  <div class="callout"><p><b>Rondas 1 a 7 cerradas</b> (preguntas 1–69). Sólo queda el subsuelo como idea por confirmar.</p></div>
+  <div class="grp">Reglas generales</div>
+  <ol class="q">
+    <li><b>¿Escudo por individuo o por tropa?</b> Hoy es uno por tropa, y dividir duplica el escudo.<em class="ok">Por individuo: la tropa tiene escudo × individuos y al dividirla se reparte.</em></li>
+    <li><b>¿Las habilidades sin daño también pagan por individuo?</b><em class="ok">Daño y curación pagan por individuo. Las habilidades de utilidad pagan por orden, porque su efecto no crece con la tropa.</em></li>
+    <li><b>¿Redondeo de la velocidad decimal?</b><em class="ok">Se calcula el coste de toda la orden y se redondea hacia arriba una sola vez.</em></li>
+    <li><b>¿El alcance pasa a ser propio de cada arma, separado de la visión?</b><em class="ok">Sí. La visión es de la unidad y el alcance de cada arma. Se puede disparar a cualquier objetivo dentro del alcance del arma que vea la propia unidad o un aliado. Ver «Visión y alcance».</em></li>
+    <li><b>¿Se mantiene el contraataque al 50%?</b><em class="ok">Sí, pero sólo si el defensor tiene un arma con la modalidad y el alcance necesarios. Con varias armas, usa la que más daño haga.</em></li>
+    <li><b>Perfiles: ¿100 / 60 / 30 o tu 100 / 75 / 50?</b><em class="ok">100 / 60 / 30.</em></li>
+    <li><b>Ingresos de PA.</b><em class="ok">Gobierno 10 / 20 / 25 + PA por unidad (Militar 3, Meca 5, Raptor 4, APC 2, Explorador 2, Científico 2, Droide 3, Constructor 0). Ver «Economía de PA».</em></li>
+    <li><b>Tamaño máximo de tropa por clase.</b><em class="ok">Las unidades que no atacan no se agrupan: Constructor, Científico, APC y Droide, tropa de 1. Las que atacan: Militar 5 / 8 / 10, Explorador 3 / 4 / 5, Meca 3 / 4 (G2 / G3) y Raptor 2 (G3).</em></li>
+    <li><b>Áreas pares (2x2, 4x4).</b><em class="ok">Sólo áreas impares: 3x3 y 5x5.</em></li>
+    <li><b>Duraciones de los estados.</b><em class="ok">Quemadura 1 turno; Ralentizado, Escudo reflector, Turbo y Dopar 2 turnos; Paralizado 1 turno. El Camuflaje no tiene duración fija (pregunta 11).</em></li>
+    <li><b>Invisibilidad.</b> Consume energía por individuo y turno; se rompe al atacar, al acabarse la energía o al cancelar la orden; la detectan el Explorador y el Gobierno dentro de su visión (el Explorador, desde v8, con la pasiva Detecta camuflados de G3; pregunta 54).<em class="ok">Activar cuesta 2 PA por orden y mantenerla 10 E por individuo y turno, cobrados al empezar cada turno. Una tropa de 10 Militares invisible gasta 100 E por turno, lo que cuesta un Militar nuevo: la mitad de lo que produce un Gobierno 1 y una sexta parte de un Gobierno 3. Así se puede usar para una emboscada o para cruzar el mapa, pero no tener el ejército escondido siempre. Al romperse, recarga de 3 turnos. Las Defensas disparan a un invisible si lo ve un Gobierno o un Explorador aliado, por la regla de disparo con visión aliada.</em></li>
+    <li><b>Al subir de nivel, ¿las pasivas se aplican a las unidades que ya existen?</b><em class="ok">Sí: un Militar de G1 gana +25 de vida en cuanto el Gobierno llega a 2.</em><em class="ok">Cambiada en la pregunta 58: las pasivas se compran. Al comprarla, también la reciben las unidades que ya existen.</em></li>
+  </ol>
+  <div class="grp">Unidades</div>
+  <ol class="q" style="counter-reset: q 12">
+    <li><b>Subsuelo (Explorador).</b><em class="idea">Un mapa complementario de subsuelo, con otras texturas y recursos, y túneles que se comunican bajo tierra. Pensado para otra raza que explote los recursos del subsuelo. El Explorador podría detectar estos túneles y excavar para entrar. Sin números hasta que se confirme.</em></li>
+    <li><b>Bomba cuántica: ¿qué significa «coste 500 daño»?</b><em class="ok">150 de daño en el centro de un área 5x5 (100 / 75 / 50%), con un coste de 3 PA + 150 E por individuo y recarga de 4 turnos.</em></li>
+    <li><b>Raptor: ¿pasa a Media y vuela?</b><em class="ok">Sí: Media, aéreo, sin bloqueo por agua ni montaña.</em></li>
+    <li><b>Transporte: ¿qué puede subir y cuánto?</b><em class="ok">Sólo unidades Ligeras terrestres. APC 6 individuos (9 con Capacidad+) y Raptor 4. Embarcar cuesta 1 PA por individuo y los transportados no pagan movimiento.</em></li>
+    <li><b>Minas.</b> Invisibles, máximo 3 activas por APC, no dañan a aliados y los aéreos no las activan; además el APC sólo puede poner minas cada X turnos.<em class="ok">Cada uso pone 1 mina y la recarga es de 2 turnos: un APC tarda 5 turnos (0, 2 y 4) en tener sus 3 minas, y si una explota la repone en 2. Con recarga 1 llenaría un paso estrecho en 3 turnos sin coste de tiempo, y con 3 o más el APC de G3 se queda la mayor parte del tiempo sin hacer nada útil. Las minas siguen costando 2 PA + 30 acero cada una.</em></li>
+    <li><b>Escudo reflector del Meca.</b><em class="ok">+100 de escudo temporal por individuo durante 2 turnos y devuelve al atacante el 25% del daño que absorbe.</em></li>
+    <li><b>Combustible.</b> No es mantenimiento: se gasta al moverse y en algunas habilidades.<em class="ok">Por casilla e individuo: Droide 1, APC 1,5, Raptor 2,5 y Meca 3. El Explorador no gasta combustible sino energía (1 por casilla e individuo). Los valores salen de repartir el mantenimiento actual entre las casillas de un turno típico (ver «Combustible: se gasta al moverse»). Combustible- del Meca vuelve a su sentido original: gasta el 80% al moverse (2,4 por casilla) y en el Lanzallamas.</em></li>
+    <li><b>Gas y EMP.</b><em class="ok">El Gas sólo afecta a orgánicos (personas). El EMP afecta a todas las unidades y edificios con escudo: les vacía el escudo y les bloquea las habilidades 1 turno.</em></li>
+    <li><b>Dopar: curación temporal.</b> ¿Cómo funciona?<em class="ok">Los aliados del 3x3 reciben vida extra igual al 30% de su vida máxima durante 2 turnos. El daño se descuenta primero de esa vida extra, y la que quede al terminar desaparece sin hacer daño. Sirve justo antes de un choque: una tropa de 10 Militares de G3 (100 de vida) aguanta 300 de daño más. No se acumula con otro Dopar; aplicarlo otra vez sólo renueva la duración. Coste: 2 PA + 50 E, recarga 3 turnos.</em></li>
+    <li><b>Auras del Científico y Escudo+ del Droide.</b><em class="ok">Droide: +25% de escudo máximo a aliados adyacentes. Científico: los aliados adyacentes regeneran +10 de escudo (Aura Escudo) y +5 de vida (Aura Vida) por turno. La misma aura no se acumula (pregunta 50).</em></li>
+    <li><b>Portal.</b> Entre dos Droides, transporta todo lo que haya en el 3x3 del Droide de origen.<em class="ok">Lleva cualquier clase (también Mecas y APC con su carga) al 3x3 del Droide de destino, a cualquier distancia. Lleva tropas propias y aliadas, no enemigas. Si en el destino no caben todas, las que no caben se quedan en el origen. Coste: 300 E + 1 PA por individuo, recarga 5 turnos. Como el Droide va solo (tropa de 1), hacen falta dos tropas de Droide.</em></li>
+    <li><b>Explorador: nombre del arma, modalidad y condición de Velocidad++.</b><em class="ok">Mordisco, Terrestre, cuerpo a cuerpo (25 / 30 / 35) y condición «Siempre».</em></li>
+    <li><b>Estadísticas de Explorador, Droide y Científico.</b><em class="ok">Las de las tablas de cada unidad.</em></li>
+    <li><b>Armadura.</b><em class="ok">Se elimina el campo: ya lo cubre el blindaje (Ligera / Media / Pesada).</em></li>
+    <li><b>Trabajador: Producción+ y ++.</b><em class="ok">+5 en G2 y +10 en G3 sobre la base (20 madera → 25 → 30).</em></li>
+    <li><b>Defensas.</b><em class="ok">Defensa de Suelo: Terrestre, AntiLigera, 3 disparos de 40, alcance 5. Defensa Aérea: Aérea, AntiMedia, 2 disparos de 60, alcance 6.</em><em class="ok">Cambiada en la pregunta 56: la Defensa de Suelo hace 2 disparos.</em></li>
+  </ol>
+  <div class="grp">Ronda 3 · Implementación</div>
+  <div class="grp sub">Bloquean el diseño del código</div>
+  <ol class="q" style="counter-reset: q 28">
+    <li><b>¿Pueden coincidir una unidad aérea y una terrestre en la misma casilla?</b>Hoy cada casilla admite una sola tropa. Si el Raptor no puede ponerse encima de una tropa enemiga, la Bomba cuántica (alcance 1, encima) casi no se puede usar, y los aéreos taponarían el paso a los terrestres.<em class="ok">Dos capas por casilla, terrestre y aérea. Un aéreo puede estar sobre cualquier tropa o edificio, propio o enemigo. Aéreos y terrestres no se bloquean entre sí; dos aéreos no comparten casilla.</em></li>
+    <li><b>¿Cuántas acciones por turno tiene una tropa?</b>¿Fusil y Triple disparo en el mismo turno? ¿Arma y habilidad? ¿Mover y atacar? Hoy hay 1 ataque por tropa y turno.<em class="ok">Cada turno una tropa puede moverse, hacer 1 acción de ataque (un arma o una habilidad que haga daño: Triple disparo sustituye al Fusil, Antiaire o Bomba cuentan como ataque) y usar 1 habilidad de apoyo (Curación, Camuflaje, Escudo reflector, Cargar, Turbo, Dopar…). Todo limitado por los PA y las recargas.</em></li>
+    <li><b>¿Cómo se reparte el daño entre los individuos?</b>Hoy la vida de la tropa es un fondo común: los individuos mueren de uno en uno. El escudo absorbe el 80% de cada golpe y el 20% va a la vida; regenera +5 por turno.<em class="ok">Mantener el modelo actual con fondos comunes. Escudo de la tropa = escudo × individuos y regeneración +5 por individuo. El 80% / 20% sigue igual. Al morir un individuo baja el escudo máximo y el actual se recorta a él. Al dividir, vida y escudo se reparten en proporción. Precisión (Ráfaga): la mitad del daño va directa a la vida.</em></li>
+    <li><b>Daño de área: ¿completo a todas las tropas del área?</b>Hoy cada tropa del 3x3 recibe el daño completo: 4 Mecas con Lanzallamas harían 240 a cada una de hasta 9 tropas, muy por encima de lo que medía la tabla de combate.<em class="ok">100% al objetivo y 50% al resto de tropas del área (Lanzallamas, Freezergun, Minas). La Bomba cuántica mantiene su 100 / 75 / 50% por anillos. Sin fuego amigo, como hoy. El efecto (quemadura, ralentizado) se aplica a todos.</em></li>
+    <li><b>¿El contraataque cuesta algo al defensor?</b>PA, recarga, combustible, ¿cuenta como su ataque del turno?<em class="ok">Es gratis: no gasta PA, recursos ni recarga y no cuenta como su ataque. Usa el arma disponible de más daño que no gaste recursos. No hay contraataque contra minas, Bomba cuántica, Defensas ni el daño de área a tropas que no eran el objetivo.</em></li>
+  </ol>
+  <div class="grp sub">Reglas de mecánicas nuevas</div>
+  <ol class="q" style="counter-reset: q 33">
+    <li><b>Transporte: bajar y destrucción.</b>¿Bajar cuesta PA? ¿Qué pasa si destruyen el vehículo? ¿Se descarga sobre agua o montaña? ¿Se dispara desde dentro?<em class="ok">Bajar no cuesta PA y se baja a casillas libres adyacentes, nunca sobre agua ni montaña. Si destruyen el APC o el Raptor, mueren todos los transportados. Desde dentro no se dispara ni se usan habilidades.</em></li>
+    <li><b>Minas: activación.</b>¿Al entrar en su casilla o en el 3x3? ¿Paran el movimiento? ¿Las ve el Gobierno?<em class="ok">Explotan cuando una tropa terrestre enemiga entra en su casilla; el daño cubre el 3x3 (80 / 40). La tropa que la pisa se detiene ahí y pierde el resto del movimiento. Las ven el Gobierno dentro de su visión y el Explorador con la pasiva Detecta camuflados (G3, pregunta 54), igual que a los invisibles.</em></li>
+    <li><b>Invisibles en una ruta.</b>Si mi ruta pasa por la casilla de una tropa invisible enemiga, ¿qué pasa?<em class="ok">El invisible no se revela, no hay ataque y mi tropa sigue su ruta: su casilla no es obstáculo, se puede atravesar o terminar el movimiento en ella.</em><em class="ok">Si mi tropa termina en la casilla de un invisible enemigo, las dos la comparten hasta que una se vaya. Si el invisible se revela allí (al atacar, al quedarse sin energía o al cancelar), siguen compartiéndola y pueden atacarse como si fueran adyacentes; la primera que se mueva sale a otra casilla. El invisible, en cambio, ve a las tropas enemigas y las trata como obstáculo, como hoy.</em></li>
+    <li><b>Estados y órdenes en cola.</b>Paralizado, Ralentizado, Quemadura.<em class="ok">Paralizado: las órdenes en cola se retrasan un turno, no se cancelan. Ralentizado: encarece los movimientos que se ejecuten mientras dure; el extra se cobra al ejecutar y, sin PA, la orden queda a medias como hoy. Quemadura: sigue a la tropa aunque se mueva.</em></li>
+    <li><b>Portal y órdenes.</b>¿Qué pasa con las órdenes de las tropas teletransportadas?<em class="ok">Al llegar al destino, todas las órdenes de las tropas teletransportadas quedan en pausa (no se cancelan): el jugador las reanuda, las cambia o las cancela.</em></li>
+    <li><b>«Aliado» en Cooperativo.</b>¿Los compañeros de equipo cuentan como aliados?<em class="ok">Sí, para todo: visión compartida para disparar, Portal, auras, Escudo+ y Dopar. Nunca hay fuego amigo.</em></li>
+  </ol>
+  <div class="grp sub">Datos que faltan</div>
+  <ol class="q" style="counter-reset: q 39">
+    <li><b>Escudo y blindaje de los edificios.</b>Reparar+ y el EMP suponen que los edificios tienen escudo; hoy sólo lo tiene el Gobierno (200 / 400 / 800).<em class="ok">Todos los edificios tienen escudo igual al 25% de su vida, salvo el Gobierno, que mantiene el suyo. Todos son Estructura, también las Defensas.</em></li>
+    <li><b>Producción: PA por tropa o por individuo.</b>¿Y se puede producir una tropa más pequeña que el máximo?<em class="ok">Producir cuesta PA por individuo, como hoy en el servidor: Trabajador y Militar 1; Meca, APC, Raptor y Constructor 2; Explorador 1; Científico y Droide 2. Los recursos también son por individuo y se puede producir cualquier tamaño hasta el máximo del nivel.</em></li>
+    <li><b>Tropas por encima del nuevo máximo.</b>Por ejemplo, Mecas de 10 cuando el máximo pasa a 3 / 4.<em class="ok">No ocurre dentro de una partida (el máximo sólo sube con el Gobierno). Basta con vaciar las partidas al desplegar (pregunta 46).</em></li>
+    <li><b>Explorador sin energía.</b><em class="ok">Una unidad que depende de la energía (Constructor, Explorador) queda desactivada si se acaba: no se mueve ni usa habilidades.</em><em class="ok">Desactivada tampoco ataca (Mordisco) ni contraataca, y no da PA ese turno, igual que una paralizada. Como la energía es la reserva del jugador, se desactivan todas a la vez y vuelven a funcionar en cuanto hay energía. Sigue recibiendo daño con normalidad.</em></li>
+    <li><b>Criaturas neutrales (vaca, caballo).</b><em class="ok">Ligera, terrestre y orgánica.</em></li>
+  </ol>
+  <div class="grp sub">Alcance del trabajo</div>
+  <ol class="q" style="counter-reset: q 44">
+    <li><b>Subsuelo.</b>¿Detecta subsuelo y Excava aparecen desactivadas?<em class="ok">No se implementan todavía ni aparecen en el juego hasta que se defina el subsuelo.</em></li>
+    <li><b>Partidas guardadas.</b>Cambian unidades, PA y escudo: las partidas y lobbies actuales no serían compatibles.<em class="ok">Se vacían partidas y lobbies al desplegar, con copia de seguridad, como otras veces.</em></li>
+    <li><b>Implementación por fases.</b>La IA tiene que aprender cada cosa nueva y el cliente necesita interfaz, sprites (Explorador, Droide, Científico) e iconos.<em class="ok">Cinco fases, cada una desplegable y con la IA adaptada antes de pasar a la siguiente: 1) clases, PA, combustible y escudo; 2) varias armas por unidad y área; 3) habilidades y estados; 4) unidades nuevas, transporte, minas y Portal; 5) ajuste fino con partidas reales.</em></li>
+  </ol>
+  <div class="grp">Ronda 4 · Ajustes desde las fichas</div>
+  <ol class="q" style="counter-reset: q 47">
+    <li><b>Reparar+ del Constructor (G3).</b><em class="ok">1 PA + 20% del coste del edificio por cada 25% de vida reparada. Reparar (G2) se queda en el 25%: reparar sale algo más barato con Gobierno 3.</em></li>
+    <li><b>Detecta camuflados del Explorador.</b><em class="ok">Deja de ser pasiva de G1 (pasa a «No aplica») y vuelve a ser habilidad activa de G3: 3 PA + 100 E, 1 vez cada 3 turnos; detecta invisibles y minas dentro de su visión. El Gobierno las sigue viendo de forma pasiva dentro de su visión.</em><em class="ok">Cambiada en la pregunta 54: pasa a pasiva de G3.</em></li>
+    <li><b>¿Se acumulan las auras de varios Científicos?</b><em class="ok">No. Cada aliado recibe cada aura una sola vez (+10 de escudo y +5 de vida por turno como máximo), vengan los Científicos del mismo jugador o de un aliado. Aura Escudo y Aura Vida sí se suman entre sí, porque son auras distintas.</em></li>
+    <li><b>¿Con qué arma de asedio se ataca una Defensa de Suelo?</b>Con alcance 5, el Lanzamisiles empataba con ella y siempre recibía sus disparos.<em class="ok">El Lanzamisiles pasa a alcance 6: la infantería de G2 puede asediarla sin recibir fuego. El Raptor (Ráfaga, 100% a Estructura) sigue siendo inmune porque vuela; la Bomba cuántica le hace el 50%.</em></li>
+  </ol>
+  <div class="grp">Ronda 5 · Antes de implementar</div>
+  <ol class="q" style="counter-reset: q 51">
+    <li><b>Vida de los edificios.</b>Analizar todas las vidas según el daño de las unidades y la importancia táctica de cada edificio.<em class="ok">Ver «Vida de los edificios»: Gobierno 800 / 1300 / 2000 (escudo 300 / 500 / 800), Centro de Entrenamiento y Fábrica Terrestre 1000, Lanzadera 1200, Banco 800, Defensa de Suelo 800, Defensa Aérea 600, Generador 500, extractores, Granja y Refinería 400, Vivienda 200. Escudo del 25% salvo el Gobierno.</em></li>
+    <li><b>Nombres internos.</b><em class="ok">Cambian del todo, también en el código, el protocolo con el cliente y las texturas: robot → meca, vehiculo → transporte_apc, nave → raptor, fabrica_aeronaves → lanzadera, y las nuevas explorador, droide y cientifico. Las partidas se vacían al desplegar (pregunta 46).</em></li>
+    <li><b>Detecta camuflados del Explorador.</b><em class="ok">Pasa a habilidad pasiva de G3 (Siempre: ve invisibles y minas dentro de su visión) y sustituye a Velocidad++, que desaparece: el Explorador se queda con Velocidad+ (+25%, 0,2 PA/casilla) desde G2. La activa de G3 queda en «No aplica».</em></li>
+    <li><b>Militar G2 contra Mecas.</b>Con el Lanzamisiles a 6, los Militares pueden atacar a Mecas sin escolta sin recibir respuesta: el Meca alcanza 4 como mucho contra tierra y se mueve al doble de coste.<em class="ok">No cambiar nada ahora: se compensa con ejércitos mixtos y el APC. Revisarlo en la fase 5 con partidas reales.</em></li>
+  </ol>
+  <div class="grp">Ronda 6 · Fase 5: simulaciones IA contra IA</div>
+  <ol class="q" style="counter-reset: q 55">
+    <li><b>Defensa de Suelo demasiado fuerte.</b>Con 3 disparos de 40 detenía cualquier ataque de infantería de G1 y G2.<em class="ok">2 disparos de 40 por turno. La IA asedia la Defensa con el Lanzamisiles desde 6 casillas, fuera de su alcance, y sin Lanzamisiles no ataca una base defendida.</em></li>
+    <li><b>La IA gastaba casi todos sus PA en mover.</b><em class="ok">Su movimiento planificado sólo puede ocupar el 50% de los PA y sus rutas sin orden se mueven las últimas. Sólo afecta a la IA.</em></li>
+    <li><b>Energía de sobra.</b><em class="ok">El Generador baja a 75 por trabajador y las pasivas pasan a comprarse: 1.000 / 2.500 / 5.000 de energía según el nivel, 3 PA, listas a los 2 turnos, en el edificio que fabrica la unidad. «++» exige «+».</em></li>
+    <li style="counter-set: q 59"><b>Granja.</b><em class="ok">40 de comida por trabajador. El pasto agotado no se recupera.</em></li>
+    <li><b>La energía seguía sobrando con las pasivas.</b>¿Bajar la producción del Gobierno o cobrar mantenimiento en energía por unidad militar?<em class="ok">El Gobierno produce 200 / 300 / 400 y, además, las armas y las habilidades activas se compran (pregunta 62).</em></li>
+    <li><b>Armas y habilidades activas de pago.</b><em class="ok">Cada unidad trae su primera arma y sus habilidades de G1. Las demás armas y las activas de G2 y G3 se compran igual que las pasivas. Precios en «Energía y compras».</em></li>
+    <li><b>Ninguna partida terminaba.</b>La IA casi no dañaba el Gobierno enemigo.<em class="ok">La IA asalta el Gobierno enemigo cuando su ejército vale el doble que el mayor ejército enemigo que ha visto en los últimos 8 turnos (mínimo 10 individuos). Para encontrarlo antes envía un Explorador al punto simétrico del mapa desde el turno 8. Lo encuentra hacia el turno 22–26, antes del 50.</em></li>
+    <li><b>Constructores explorando.</b><em class="ok">Ya no exploran: lo hace el Explorador, que gasta menos PA (0,25 por casilla frente a 1). La IA fabrica un Explorador desde el turno 1.</em></li>
+  </ol>
+  <div class="grp">Ronda 7 · Energía con techo, cansancio y rutas</div>
+  <ol class="q" style="counter-reset: q 64">
+    <li><b>Excedente de energía en turnos avanzados.</b>Los Generadores son infinitos: ¿cómo limitar la energía acumulada?<em class="ok">Crece como un depósito, <code>ΔE = P × (1 − E / Máx)</code>, y nunca pasa del máximo: Gobierno 2.000 / 4.000 / 6.000 + 1.500 por Generador. Ver «Techo de energía».</em></li>
+    <li><b>Cansancio de las unidades humanas.</b><em class="ok">Militar y Científico: +1 por casilla hasta 10; con 10 se paran y siguen andando al final del turno con los PA sobrantes. Vuelve a 0 cada turno. Ver «Cansancio».</em></li>
+    <li><b>Coste de andar cansado.</b><em class="ok">La casilla cansada k cuesta × (1 + k/2): sube en cada casilla y no tiene techo.</em></li>
+    <li><b>Pathfinding en niebla y dibujo de la ruta.</b><em class="ok">Ruta real en zona explorada y en línea recta en niebla sin explorar (atenuada). Tramos: continuo (llega fresco o con los PA del turno), ondulado (llega cansado) y discontinuo (no llega este turno). Desaparece el número de turnos estimados.</em></li>
+    <li><b>Construir en niebla sin explorar.</b>El Constructor revelaba la niebla de su ruta para poder construir más allá (sobre todo Generadores).<em class="ok">Se quita esa revelación. Un edificio sobre niebla sin explorar se puede ordenar a ciegas: la previsualización sale siempre verde para no desvelar obstáculos y la orden es de mover y construir. En cuanto el Constructor ve el sitio, se comprueba: si no se puede construir (agua, montaña, un edificio…), la orden se cancela, el Constructor se queda donde llegó y el jugador recibe un aviso con lupa; tendrá que ordenarlo de nuevo. Si el sitio vale, sigue como una construcción normal. La falta de PA por el camino no la cancela: sigue en los turnos siguientes.</em></li>
+  </ol>
+</section>
+</main>
+</div>
+
+</body>
+</html>
