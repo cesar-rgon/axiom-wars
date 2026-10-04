@@ -1,0 +1,575 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Axiom Wars</title>
+<meta name="description" content="Axiom Wars: estrategia por rondas simultáneas de ciencia ficción. Planifica, confirma y mira cómo chocan las órdenes de todos a la vez. Hasta 8 jugadores.">
+<meta property="og:title" content="Axiom Wars">
+<meta property="og:description" content="Estrategia por rondas simultáneas de ciencia ficción. Hasta 8 jugadores, por equipos o contra bots.">
+<meta property="og:image" content="https://cesar-rgon.github.io/axiom-wars/assets/img/og.jpg">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: una columna central de 1120px; hero con el logo flotando sobre una rejilla de casillas
+   (el tablero del juego), secciones separadas por la línea de cian de la barra superior del cliente. */
+:root {
+  color-scheme: dark;
+  --void: #0a0d15;        /* fondo: niebla de guerra */
+  --hull: #121826;        /* paneles */
+  --hull-2: #1a2234;
+  --line: #26324a;
+  --steel: #c7d1e0;       /* texto */
+  --steel-dim: #8593ab;
+  --plasma: #4fb6ff;      /* acento principal: "WARS" del logo, barra superior */
+  --violet: #a77bf0;      /* "X" del logo, aliados */
+  --ember: #ffa043;       /* luces del marco, energía */
+  --font-display: "Chakra Petch", "Rajdhani", "Segoe UI", sans-serif;
+  --font-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --wrap: 1120px;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { animation: none !important; transition: none !important; } }
+body {
+  margin: 0;
+  background: var(--void);
+  color: var(--steel);
+  font: 400 1rem/1.6 var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+img { max-width: 100%; height: auto; display: block; }
+a { color: var(--plasma); }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--ember); outline-offset: 3px; border-radius: 4px; }
+
+.wrap { max-width: var(--wrap); margin-inline: auto; padding-inline: 20px; }
+
+/* Barra superior, como la del cliente */
+.topbar {
+  position: sticky; top: 0; z-index: 10;
+  background: color-mix(in srgb, var(--void) 88%, transparent);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--plasma);
+  box-shadow: 0 1px 12px -4px var(--plasma);
+}
+.topbar .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-block: 10px; }
+.brand { font: 700 1.05rem var(--font-display); letter-spacing: .14em; text-transform: uppercase; color: var(--steel); text-decoration: none; }
+.brand span { color: var(--plasma); }
+.topnav { display: flex; gap: 22px; align-items: center; }
+.topnav a { color: var(--steel-dim); text-decoration: none; font: 500 .9rem var(--font-display); letter-spacing: .08em; text-transform: uppercase; }
+.topnav a:hover { color: var(--steel); }
+.topnav .btn { padding: 7px 14px; font-size: .82rem; color: #fff; }
+@media (max-width: 720px) { .topnav a:not(.btn) { display: none; } }
+
+/* Botones */
+.btn {
+  display: inline-flex; align-items: center; gap: 10px;
+  padding: 13px 22px;
+  font: 600 .95rem var(--font-display); letter-spacing: .1em; text-transform: uppercase;
+  text-decoration: none; border-radius: 3px;
+  clip-path: polygon(10px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 10px);
+  transition: filter .15s, transform .15s;
+}
+.btn:hover { filter: brightness(1.12); transform: translateY(-1px); }
+.btn-discord { background: #5865f2; color: #fff; }
+.btn-ghost { background: var(--hull-2); color: var(--steel); box-shadow: inset 0 0 0 1px var(--line); }
+.btn svg { width: 20px; height: 20px; flex: none; }
+
+/* Hero */
+.hero { position: relative; overflow: hidden; padding-block: 56px 72px; isolation: isolate; }
+.hero::before { /* rejilla de casillas */
+  content: ""; position: absolute; inset: 0; z-index: -2;
+  background-image:
+    linear-gradient(var(--line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--line) 1px, transparent 1px);
+  background-size: 48px 48px;
+  opacity: .35;
+  mask-image: radial-gradient(ellipse 60% 70% at 50% 45%, #000 20%, transparent 75%);
+}
+.hero::after { /* halo de las luces del marco */
+  content: ""; position: absolute; inset: 0; z-index: -1;
+  background:
+    radial-gradient(ellipse 40% 35% at 50% 42%, color-mix(in srgb, var(--plasma) 18%, transparent), transparent 70%),
+    radial-gradient(ellipse 22% 25% at 30% 50%, color-mix(in srgb, var(--ember) 12%, transparent), transparent 70%);
+}
+.hero .wrap { display: grid; justify-items: center; text-align: center; gap: 22px; }
+/* Logo animado: misma receta que el cliente (rasecgame-cli/cmd/gclient/logofx.go):
+   respiración de escala, halo pulsante, barrido de luz recortado a la silueta y chispas. */
+.logo-fx { position: relative; width: min(640px, 100%); aspect-ratio: 1000 / 560; will-change: transform; }
+.logo-fx > * { position: absolute; inset: 0; width: 100%; height: 100%; }
+.logo-fx .glow { opacity: .5; filter: blur(calc(var(--lw, 640px) * .022)); mix-blend-mode: plus-lighter; transform: scale(1.04); }
+.logo-fx .sparks { inset: -10% -6%; width: 112%; height: 120%; pointer-events: none; }
+.logo-fx .crisp { filter: drop-shadow(0 20px 40px rgba(0,0,0,.6)); }
+.logo-fx .crisp img { width: 100%; height: 100%; }
+.logo-fx .sheen {
+  overflow: hidden; pointer-events: none;
+  -webkit-mask: url(assets/img/logo-core.webp) center / 100% 100% no-repeat;
+          mask: url(assets/img/logo-core.webp) center / 100% 100% no-repeat;
+}
+.logo-fx .band {
+  position: absolute; top: -15%; height: 130%; width: 42%; left: 0;
+  background: linear-gradient(90deg, rgba(255,255,255,0), rgba(255,255,255,.85), rgba(255,255,255,0));
+  opacity: 0; will-change: transform;
+}
+.tagline { font: 600 clamp(1.3rem, 3.2vw, 1.9rem)/1.25 var(--font-display); color: var(--steel); margin: 0; text-wrap: balance; max-width: 30ch; }
+.lede { margin: 0; color: var(--steel-dim); max-width: 60ch; font-size: 1.05rem; }
+.cta-row { display: flex; flex-wrap: wrap; gap: 14px; justify-content: center; margin-top: 6px; }
+.status {
+  display: inline-flex; text-align: left; align-items: center; gap: 8px;
+  font: 500 .8rem var(--font-mono); color: var(--ember); letter-spacing: .06em; text-transform: uppercase;
+}
+.status::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--ember); box-shadow: 0 0 10px var(--ember); }
+
+/* Secciones */
+section { padding-block: 72px; border-top: 1px solid var(--line); }
+.eyebrow { font: 500 .78rem var(--font-mono); letter-spacing: .14em; text-transform: uppercase; color: var(--plasma); margin: 0 0 10px; }
+h2 { font: 700 clamp(1.7rem, 4vw, 2.4rem)/1.15 var(--font-display); margin: 0 0 14px; color: #e8eef7; text-wrap: balance; letter-spacing: .01em; }
+h3 { font: 600 1.15rem/1.3 var(--font-display); margin: 0; color: #e8eef7; letter-spacing: .02em; }
+.section-intro { color: var(--steel-dim); max-width: 62ch; margin: 0 0 36px; }
+
+/* Ronda: secuencia real de cada turno */
+.round { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0; counter-reset: fase; }
+.phase { padding: 22px 24px 24px; background: var(--hull); border: 1px solid var(--line); position: relative; min-width: 0; }
+.phase + .phase { border-left: none; }
+.phase::before {
+  counter-increment: fase; content: "Fase " counter(fase);
+  display: block; font: 500 .75rem var(--font-mono); letter-spacing: .12em; text-transform: uppercase; color: var(--violet); margin-bottom: 8px;
+}
+.phase p { margin: 8px 0 0; color: var(--steel-dim); font-size: .95rem; }
+.phase:not(:last-child)::after {
+  content: ""; position: absolute; right: -9px; top: 50%; width: 16px; height: 16px; z-index: 1;
+  background: var(--void); border: 1px solid var(--line); transform: translateY(-50%) rotate(45deg);
+  border-left: none; border-bottom: none;
+}
+@media (max-width: 760px) {
+  .round { grid-template-columns: minmax(0, 1fr); }
+  .phase + .phase { border-left: 1px solid var(--line); border-top: none; }
+  .phase:not(:last-child)::after { right: 50%; top: auto; bottom: -9px; transform: translateX(50%) rotate(135deg); }
+}
+
+/* Mecánicas */
+.mech { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: 28px 40px; margin: 0; padding: 0; list-style: none; }
+.mech li { display: grid; grid-template-columns: 4px minmax(0, 1fr); gap: 16px; }
+.mech li::before { content: ""; background: linear-gradient(var(--plasma), transparent); border-radius: 2px; }
+.mech p { margin: 6px 0 0; color: var(--steel-dim); font-size: .95rem; }
+.res { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.res span { font: 500 .75rem var(--font-mono); padding: 2px 8px; border: 1px solid var(--line); border-radius: 2px; color: var(--steel); background: var(--hull); }
+
+/* Unidades */
+.units { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+@media (max-width: 860px) { .units { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 520px) { .units { grid-template-columns: minmax(0, 1fr); } }
+.unit img { max-height: 220px; }
+.unit {
+  background: linear-gradient(180deg, var(--hull-2), var(--hull));
+  border: 1px solid var(--line);
+  padding: 16px 18px 18px;
+  display: grid; grid-template-rows: auto auto auto 1fr auto; gap: 6px;
+  min-width: 0;
+  transition: border-color .2s;
+}
+.unit:hover { border-color: color-mix(in srgb, var(--plasma) 60%, var(--line)); }
+.unit img { width: 100%; aspect-ratio: 1; object-fit: contain; max-width: 100%; margin-bottom: 4px;
+  background: radial-gradient(circle at 50% 60%, color-mix(in srgb, var(--plasma) 14%, transparent), transparent 65%); }
+.unit .tags { font: 500 .72rem var(--font-mono); color: var(--violet); letter-spacing: .06em; text-transform: uppercase; }
+.unit p { margin: 0; color: var(--steel-dim); font-size: .9rem; line-height: 1.5; }
+.stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px; margin-top: 10px; padding-top: 10px; border-top: 1px dashed var(--line); font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+.stats div { display: grid; gap: 0; }
+.stats dt { font-size: .66rem; color: var(--steel-dim); letter-spacing: .08em; text-transform: uppercase; }
+.stats dd { margin: 0; font-size: .95rem; color: var(--steel); }
+.unit .src { font: 400 .72rem var(--font-mono); color: var(--steel-dim); }
+
+/* Capturas: la más reciente grande a la izquierda, las otras dos apiladas */
+.shots { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); gap: 14px; }
+.shots .stack { display: grid; gap: 14px; min-width: 0; }
+.shot { margin: 0; min-width: 0; border: 1px solid var(--line); background: var(--hull); display: grid; grid-template-rows: 1fr auto; }
+.shot a { display: block; overflow: hidden; min-height: 0; }
+.shot img { width: 100%; height: 100%; object-fit: cover; object-position: top left; transition: transform .4s ease; }
+.shot a:hover img { transform: scale(1.02); }
+.shot figcaption { font: 400 .8rem/1.45 var(--font-mono); color: var(--steel-dim); padding: 8px 12px; border-top: 1px solid var(--line); }
+@media (max-width: 760px) { .shots { grid-template-columns: minmax(0, 1fr); } }
+
+/* Museo: línea temporal horizontal, de la versión más antigua a la más reciente */
+.museum { position: relative; }
+.timeline {
+  display: grid; grid-auto-flow: column; grid-auto-columns: minmax(260px, 340px); gap: 18px;
+  overflow-x: auto; scroll-snap-type: x proximity; padding: 26px 2px 18px; margin: 0; list-style: none;
+  scrollbar-color: var(--line) transparent;
+}
+.era { scroll-snap-align: start; position: relative; display: grid; grid-template-rows: auto auto 1fr; gap: 8px; min-width: 0; }
+.era::after { /* tramo del raíl hasta la etapa siguiente */
+  content: ""; position: absolute; top: -17px; left: 0; right: -18px; height: 1px;
+  background: linear-gradient(90deg, var(--violet), color-mix(in srgb, var(--violet) 40%, var(--line)));
+}
+.era:last-child::after { right: 0; background: linear-gradient(90deg, var(--violet), var(--plasma)); }
+.era::before { /* hito */
+  content: ""; position: absolute; top: -22px; left: 0; width: 7px; height: 7px; border-radius: 50%; z-index: 1;
+  background: var(--void); border: 2px solid var(--violet);
+}
+.era:last-child::before { border-color: var(--plasma); }
+.era code { font: 500 .85em var(--font-mono); color: var(--steel); }
+.era .n { font: 500 .72rem var(--font-mono); letter-spacing: .12em; text-transform: uppercase; color: var(--violet); }
+.era a { display: block; aspect-ratio: 4 / 3; overflow: hidden; border: 1px solid var(--line); background: var(--hull); }
+.era img { width: 100%; height: 100%; object-fit: cover; object-position: top left; filter: saturate(.85); transition: filter .3s, transform .4s; }
+.era a:hover img { filter: none; transform: scale(1.03); }
+.era p { margin: 0; color: var(--steel-dim); font-size: .9rem; line-height: 1.5; }
+.era p strong { color: var(--steel); font-weight: 600; }
+.museum-hint { font: 400 .78rem var(--font-mono); color: var(--steel-dim); margin: 6px 0 0; }
+
+/* Únete */
+.join { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 32px; align-items: start; }
+@media (max-width: 860px) { .join { grid-template-columns: minmax(0, 1fr); } }
+.discord-card {
+  background: linear-gradient(135deg, #2a2f6e, #1b1f45 60%, var(--hull));
+  border: 1px solid #4a52b8; padding: 28px; display: grid; gap: 14px; justify-items: start;
+}
+.discord-card p { margin: 0; color: #c9cdf5; }
+.downloads { display: grid; gap: 10px; }
+.dl {
+  display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 12px;
+  padding: 14px 16px; background: var(--hull); border: 1px solid var(--line); text-decoration: none; color: var(--steel);
+  transition: border-color .2s;
+}
+.dl:hover { border-color: var(--plasma); }
+.dl strong { font: 600 1rem var(--font-display); letter-spacing: .04em; display: block; }
+.dl small { color: var(--steel-dim); font: 400 .78rem var(--font-mono); }
+.dl .arrow { font: 600 .8rem var(--font-mono); color: var(--plasma); }
+.dl.soon { opacity: .55; pointer-events: none; }
+.dl.soon .arrow { color: var(--steel-dim); }
+
+footer { border-top: 1px solid var(--line); padding-block: 28px 40px; color: var(--steel-dim); font-size: .85rem; }
+footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; }
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap">
+    <a class="brand" href="#top">Axiom <span>Wars</span></a>
+    <nav class="topnav" aria-label="Secciones">
+      <a href="#ronda">Cómo se juega</a>
+      <a href="#faccion">Facción</a>
+      <a href="#capturas">Capturas</a>
+      <a href="#museo">Museo</a>
+      <a class="btn btn-discord" href="https://discord.gg/4K7My6kXSM" target="_blank" rel="noopener">Discord</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <div class="hero">
+    <div class="wrap">
+      <div class="logo-fx" id="logo-fx">
+        <img class="glow" src="assets/img/logo-core.webp" alt="" aria-hidden="true">
+        <canvas class="sparks" aria-hidden="true"></canvas>
+        <div class="crisp"><img src="assets/img/logo.webp" width="1000" height="560" alt="Axiom Wars"></div>
+        <div class="sheen" aria-hidden="true"><div class="band"></div></div>
+      </div>
+      <p class="status">En desarrollo · partidas de prueba abiertas</p>
+      <h1 class="tagline">Estrategia por rondas simultáneas. Todos ordenan a la vez; nadie espera su turno.</h1>
+      <p class="lede">Construye tu base alrededor del Gobierno, mantén alimentada a tu gente y lanza tus tropas a través de la niebla. Cuando todos confirman, el servidor resuelve la ronda y ves cómo chocan los planes de todos.</p>
+      <div class="cta-row">
+        <a class="btn btn-discord" href="https://discord.gg/4K7My6kXSM" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M20.3 4.4A19.6 19.6 0 0 0 15.4 3l-.6 1.3a18.2 18.2 0 0 0-5.6 0L8.6 3a19.5 19.5 0 0 0-4.9 1.5C.6 9.1-.3 13.6.1 18.1a19.8 19.8 0 0 0 6 3l1.3-2.1a12.8 12.8 0 0 1-2-1l.5-.4a14.1 14.1 0 0 0 12.2 0l.5.4c-.6.4-1.3.7-2 1l1.3 2.1a19.7 19.7 0 0 0 6-3c.5-5.2-.8-9.7-3.6-13.7ZM8 15.3c-1.2 0-2.2-1.1-2.2-2.4S6.8 10.5 8 10.5s2.2 1.1 2.2 2.4-1 2.4-2.2 2.4Zm8 0c-1.2 0-2.2-1.1-2.2-2.4s1-2.4 2.2-2.4 2.2 1.1 2.2 2.4-1 2.4-2.2 2.4Z"/></svg>
+          Únete al Discord
+        </a>
+        <a class="btn btn-ghost" href="#descargas">Descargar</a>
+      </div>
+    </div>
+  </div>
+
+  <section id="ronda">
+    <div class="wrap">
+      <p class="eyebrow">Así es una ronda</p>
+      <h2>Planificas en paralelo, el combate se resuelve a la vez</h2>
+      <p class="section-intro">No hay turnos por jugador. Cada ronda tiene tres fases y todos los jugadores, humanos o bots, pasan por ellas al mismo tiempo.</p>
+      <div class="round">
+        <div class="phase">
+          <h3>Planificar</h3>
+          <p>Encola órdenes con tus Puntos de Acción: construir, mover tropas, contratar, comerciar en el Banco. Ves el coste de cada orden antes de darla.</p>
+        </div>
+        <div class="phase">
+          <h3>Confirmar</h3>
+          <p>Cuando terminas, marcas la ronda como lista. Puedes reordenar, pausar o cancelar órdenes mientras los demás deciden.</p>
+        </div>
+        <div class="phase">
+          <h3>Resolver</h3>
+          <p>El servidor ejecuta las órdenes de todos a la vez y lo ves como una repetición: marchas, choques, edificios que se levantan y lo que la niebla deja ver.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="mecanicas">
+    <div class="wrap">
+      <p class="eyebrow">Lo que hay en juego</p>
+      <h2>Una economía que se defiende sola o se hunde</h2>
+      <p class="section-intro">Ganar es simple de explicar: destruye el Gobierno enemigo. Llegar hasta él depende de todo lo demás.</p>
+      <ul class="mech">
+        <li><div>
+          <h3>Seis recursos, un mapa limitado</h3>
+          <p>Bosques, pastos, lagunas, pozos de petróleo y minas de acero se agotan. Cada extractor necesita trabajadores y cobertura de energía.</p>
+          <div class="res"><span>Energía</span><span>Madera</span><span>Acero</span><span>Comida</span><span>Agua</span><span>Combustible</span></div>
+        </div></li>
+        <li><div>
+          <h3>Gente que come y protesta</h3>
+          <p>Cada individuo consume comida y agua. Si racionas, baja su satisfacción; si cae del todo, desertan.</p>
+        </div></li>
+        <li><div>
+          <h3>Niebla de guerra</h3>
+          <p>Solo ves lo que tus unidades y edificios alcanzan a ver. Puedes ordenar construir a ciegas en terreno sin explorar, con el riesgo que eso supone.</p>
+        </div></li>
+        <li><div>
+          <h3>Gobierno en tres niveles</h3>
+          <p>Subir de nivel da más Puntos de Acción, más cupo de tropas y desbloquea fábricas, lanzaderas y defensas. Si cae, quedas eliminado.</p>
+        </div></li>
+        <li><div>
+          <h3>Banco</h3>
+          <p>Trueque de recursos y préstamos a devolver en unas semanas de juego. Útil para salir de un apuro; peligroso si encadenas deudas.</p>
+        </div></li>
+        <li><div>
+          <h3>Hasta 8 jugadores</h3>
+          <p>Todos contra todos o por equipos, hasta 4 contra 4. Los huecos se rellenan con bots que planifican con búsqueda evolutiva.</p>
+        </div></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="faccion">
+    <div class="wrap">
+      <p class="eyebrow">Facción Terránea</p>
+      <h2>Nueve unidades, de la mina al cielo</h2>
+      <p class="section-intro">Las unidades civiles sostienen la economía; las militares se reclutan en edificios que exigen un Gobierno de nivel más alto. Valores provisionales: el balanceo sigue abierto.</p>
+      <div class="units">
+        <article class="unit">
+          <img src="assets/img/units/constructor.png" alt="" loading="lazy" width="256" height="256">
+          <span class="tags">Ligera · civil</span>
+          <h3>Constructor</h3>
+          <p>Levanta los edificios de la base. Sin él no hay producción de unidades ni crecimiento.</p>
+          <dl class="stats"><div><dt>Vida</dt><dd>50</dd></div><div><dt>Escudo</dt><dd>50</dd></div><div><dt>Visión</dt><dd>4</dd></div></dl>
+        </article>
+        <article class="unit">
+          <img src="assets/img/units/trabajador.png" alt="" loading="lazy" width="256" height="256">
+          <span class="tags">Civil · en edificio</span>
+          <h3>Trabajador</h3>
+          <p>Opera extractores y generadores, hasta cuatro por edificio. Muere si cae su edificio.</p>
+          <dl class="stats"><div><dt>Vida</dt><dd>50</dd></div><div><dt>Escudo</dt><dd>—</dd></div><div><dt>Visión</dt><dd>—</dd></div></dl>
+        </article>
+        <article class="unit">
+          <img src="assets/img/units/explorador.png" alt="" loading="lazy" width="256" height="256">
+          <span class="tags">Ligera · cuerpo a cuerpo</span>
+          <h3>Explorador</h3>
+          <p>Recorre el mapa a gran velocidad, excava el subsuelo y detecta unidades invisibles.</p>
+          <dl class="stats"><div><dt>Vida</dt><dd>60</dd></div><div><dt>Escudo</dt><dd>30</dd></div><div><dt>Visión</dt><dd>10</dd></div></dl>
+        </article>
+        <article class="unit">
+          <img src="assets/img/units/militar.png" alt="" loading="lazy" width="256" height="256">
+          <span class="tags">Ligera · a distancia</span>
+          <h3>Militar</h3>
+          <p>Infantería básica y versátil. Según el arma, ataca a ligeras o pesadas, solo tierra o tierra-aire.</p>
+          <dl class="stats"><div><dt>Vida</dt><dd>50</dd></div><div><dt>Escudo</dt><dd>30</dd></div><div><dt>Visión</dt><dd>7</dd></div></dl>
+        </article>
+        <article class="unit">
+          <img src="assets/img/units/cientifico.png" alt="" loading="lazy" width="256" height="256">
+          <span class="tags">Ligera · apoyo</span>
+          <h3>Científico</h3>
+          <p>No ataca. Sus habilidades refuerzan a los aliados y debilitan al enemigo.</p>
+          <dl class="stats"><div><dt>Vida</dt><dd>40</dd></div><div><dt>Escudo</dt><dd>40</dd></div><div><dt>Visión</dt><dd>5</dd></div></dl>
+        </article>
+        <article class="unit">
+          <img src="assets/img/units/transporte_apc.png" alt="" loading="lazy" width="256" height="256">
+          <span class="tags">Media · transporte</span>
+          <h3>Transporte APC</h3>
+          <p>Lleva tropas ligeras. Se defiende con una torreta y siembra minas de contacto.</p>
+          <dl class="stats"><div><dt>Vida</dt><dd>150</dd></div><div><dt>Escudo</dt><dd>100</dd></div><div><dt>Visión</dt><dd>6</dd></div></dl>
+        </article>
+        <article class="unit">
+          <img src="assets/img/units/meca.png" alt="" loading="lazy" width="256" height="256">
+          <span class="tags">Pesada · área</span>
+          <h3>Meca</h3>
+          <p>Asalto a media distancia con daño en área contra ligeras y fuego antiaéreo.</p>
+          <dl class="stats"><div><dt>Vida</dt><dd>250</dd></div><div><dt>Escudo</dt><dd>150</dd></div><div><dt>Visión</dt><dd>6</dd></div></dl>
+        </article>
+        <article class="unit">
+          <img src="assets/img/units/raptor.png" alt="" loading="lazy" width="256" height="256">
+          <span class="tags">Media · aérea</span>
+          <h3>Raptor</h3>
+          <p>Bombardeo terrestre y ataque tierra-aire. Puede transportar unidades ligeras.</p>
+          <dl class="stats"><div><dt>Vida</dt><dd>180</dd></div><div><dt>Escudo</dt><dd>120</dd></div><div><dt>Visión</dt><dd>9</dd></div></dl>
+        </article>
+        <article class="unit">
+          <img src="assets/img/units/droide.png" alt="" loading="lazy" width="256" height="256">
+          <span class="tags">Ligera · aérea</span>
+          <h3>Droide</h3>
+          <p>Sin ataque. Abre portales dimensionales que teletransportan tropas.</p>
+          <dl class="stats"><div><dt>Vida</dt><dd>60</dd></div><div><dt>Escudo</dt><dd>120</dd></div><div><dt>Visión</dt><dd>8</dd></div></dl>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="capturas">
+    <div class="wrap">
+      <p class="eyebrow">Capturas</p>
+      <h2>Así se ve hoy</h2>
+      <p class="section-intro">Capturas de la versión actual en desarrollo. Pulsa en una para verla a tamaño completo.</p>
+      <div class="shots">
+        <figure class="shot">
+          <a href="assets/img/galeria-10.webp" target="_blank" rel="noopener"><img src="assets/img/galeria-10.webp" alt="Base con la cola de órdenes numerada, áreas de efecto superpuestas y un Explorador en marcha" loading="lazy" width="1600" height="1201"></a>
+          <figcaption>Cola de órdenes numerada, áreas de efecto superpuestas y un Explorador camino de su destino.</figcaption>
+        </figure>
+        <div class="stack">
+          <figure class="shot">
+            <a href="assets/img/galeria-08.webp" target="_blank" rel="noopener"><img src="assets/img/galeria-08.webp" alt="Ronda 1 planificando con un Constructor, flechas de movimiento y el área del Gobierno" loading="lazy" width="1600" height="902"></a>
+            <figcaption>Ronda 1: el Constructor planifica edificios y las flechas marcan sus movimientos.</figcaption>
+          </figure>
+          <figure class="shot">
+            <a href="assets/img/galeria-09.webp" target="_blank" rel="noopener"><img src="assets/img/galeria-09.webp" alt="Resolución de ronda con dos lupas siguiendo acciones simultáneas" loading="lazy" width="1600" height="902"></a>
+            <figcaption>Resolución de la ronda 2: las lupas siguen dos acciones que ocurren a la vez.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="museo">
+    <div class="wrap museum">
+      <p class="eyebrow">Museo</p>
+      <h2>Desde los comienzos</h2>
+      <p class="section-intro">Axiom Wars empezó como un cliente de terminal. Estas son las versiones por las que ha pasado, de la más antigua a la más reciente.</p>
+      <ol class="timeline">
+        <li class="era">
+          <span class="n">Etapa 1</span>
+          <a href="assets/img/museo/01.webp" target="_blank" rel="noopener"><img src="assets/img/museo/01.webp" alt="Cliente de terminal con el mapa dibujado en caracteres" loading="lazy" width="858" height="684"></a>
+          <p><strong>Cliente de terminal.</strong> El mapa en caracteres ASCII y las órdenes escritas a mano: <code>build</code>, <code>move</code>, <code>end</code>.</p>
+        </li>
+        <li class="era">
+          <span class="n">Etapa 2</span>
+          <a href="assets/img/museo/02.webp" target="_blank" rel="noopener"><img src="assets/img/museo/02.webp" alt="Primera interfaz gráfica con casillas planas y edificios como letras" loading="lazy" width="846" height="543"></a>
+          <p><strong>Primera ventana.</strong> Casillas de colores planos, edificios representados por letras y botones para construir.</p>
+        </li>
+        <li class="era">
+          <span class="n">Etapa 3</span>
+          <a href="assets/img/museo/03.webp" target="_blank" rel="noopener"><img src="assets/img/museo/03.webp" alt="Primeras texturas de terreno: agua, bosque y tierra" loading="lazy" width="1280" height="767"></a>
+          <p><strong>Primeras texturas.</strong> Agua, bosque y tierra dibujados, minimapa y el primer edificio ilustrado.</p>
+        </li>
+        <li class="era">
+          <span class="n">Etapa 4</span>
+          <a href="assets/img/museo/04.webp" target="_blank" rel="noopener"><img src="assets/img/museo/04.webp" alt="Base con edificios ilustrados y panel de construcción con iconos" loading="lazy" width="1400" height="549"></a>
+          <p><strong>Edificios ilustrados.</strong> Llegan el Gobierno, el Banco y el panel de construcción con iconos.</p>
+        </li>
+        <li class="era">
+          <span class="n">Etapa 5</span>
+          <a href="assets/img/museo/05.webp" target="_blank" rel="noopener"><img src="assets/img/museo/05.webp" alt="Base densa con trabajadores indicados bajo cada edificio" loading="lazy" width="1089" height="1187"></a>
+          <p><strong>Trabajadores a la vista.</strong> Cada extractor muestra bajo él cuántos de sus cuatro puestos están ocupados.</p>
+        </li>
+        <li class="era">
+          <span class="n">Etapa 6</span>
+          <a href="assets/img/museo/06.webp" target="_blank" rel="noopener"><img src="assets/img/museo/06.webp" alt="Terreno de hierba nuevo con Gobierno, Banco y Vivienda" loading="lazy" width="952" height="708"></a>
+          <p><strong>Terreno nuevo.</strong> Hierba, lagos y bosques rediseñados, con los edificios marcados en el color del jugador.</p>
+        </li>
+        <li class="era">
+          <span class="n">Etapa 7</span>
+          <a href="assets/img/museo/07.webp" target="_blank" rel="noopener"><img src="assets/img/museo/07.webp" alt="Interfaz con cola de órdenes, panel lateral y área de energía del Gobierno" loading="lazy" width="1400" height="788"></a>
+          <p><strong>Rondas simultáneas.</strong> Cola de órdenes, panel lateral de construcción y el área de energía al colocar un edificio.</p>
+        </li>
+      </ol>
+      <p class="museum-hint">Desliza para recorrer la línea temporal →</p>
+    </div>
+  </section>
+
+  <section id="descargas">
+    <div class="wrap join">
+      <div class="discord-card">
+        <p class="eyebrow" style="color:#aab2ff">Comunidad</p>
+        <h2>Juega con nosotros</h2>
+        <p>En el Discord organizamos las partidas de prueba, publicamos cada versión nueva y recogemos fallos e ideas de balanceo.</p>
+        <a class="btn btn-discord" href="https://discord.gg/4K7My6kXSM" target="_blank" rel="noopener">Abrir Discord</a>
+      </div>
+      <div>
+        <p class="eyebrow">Descargas</p>
+        <div class="downloads">
+          <a class="dl" href="https://github.com/cesar-rgon/axiom-wars/releases/latest/download/AxiomWars-Windows-x64.zip" target="_blank" rel="noopener">
+            <span><strong>Windows</strong><small>64 bits · .zip</small></span><span class="arrow">Descargar</span>
+          </a>
+          <a class="dl" href="https://github.com/cesar-rgon/axiom-wars/releases/latest/download/AxiomWars-Linux-x64.zip" target="_blank" rel="noopener">
+            <span><strong>Linux</strong><small>x86-64 · .zip</small></span><span class="arrow">Descargar</span>
+          </a>
+          <div class="dl soon" aria-disabled="true">
+            <span><strong>macOS</strong><small>Apple Silicon</small></span><span class="arrow">Próximamente</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>Axiom Wars · juego en desarrollo</span>
+    <a href="https://discord.gg/4K7My6kXSM" target="_blank" rel="noopener">Discord</a>
+  </div>
+</footer>
+<script>
+// Animación del logo portada de logofx.go: cada efecto es función pura del tiempo.
+(function () {
+  var fx = document.getElementById('logo-fx');
+  if (!fx || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  var glow = fx.querySelector('.glow'), band = fx.querySelector('.band'), cv = fx.querySelector('.sparks');
+  var ctx = cv.getContext('2d');
+  var BREATHE = 4.2, GLOW = 3.1, SWEEP = 4.6, SPARK_PERIOD = 1.8, SPARK_LIFE = 1.5, SLOTS = 3;
+  var CLIENT_W = 260; // ancho al que el cliente dibuja el logo; escala radios y jitter
+  var emitters = [[0.08, 0.84], [0.565, 0.86], [0.615, 0.90], [0.665, 0.86], [0.92, 0.78]];
+  var t0 = performance.now(), W = 0, H = 0, dpr = 1;
+  function resize() {
+    W = fx.offsetWidth; H = fx.offsetHeight; dpr = window.devicePixelRatio || 1;
+    cv.width = Math.round(W * 1.12 * dpr); cv.height = Math.round(H * 1.2 * dpr);
+    fx.style.setProperty('--lw', W + 'px');
+  }
+  function sparks(t) {
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    ctx.clearRect(0, 0, cv.width, cv.height);
+    ctx.translate(W * 0.06, H * 0.10); // origen = esquina del logo dentro del lienzo ampliado
+    var u = W / CLIENT_W;
+    for (var e = 0; e < emitters.length; e++) {
+      var ex = emitters[e][0] * W, ey = emitters[e][1] * H;
+      for (var s = 0; s < SLOTS; s++) {
+        var phase = t + s * (SPARK_PERIOD / SLOTS) + emitters[e][0] * 7.3;
+        var c = phase % SPARK_PERIOD;
+        if (c > SPARK_LIFE) continue;
+        var k = c / SPARK_LIFE;
+        var a = k < 0.15 ? k / 0.15 : 1 - (k - 0.15) / 0.85;
+        if (a <= 0) continue;
+        var px = ex + Math.sin(phase * 9) * 2.5 * u, py = ey - k * H * 0.55;
+        var r = (1.3 + 0.6 * Math.sin(phase * 5)) * u;
+        ctx.fillStyle = 'rgba(255,171,61,' + (a * 70 / 255) + ')';
+        ctx.beginPath(); ctx.arc(px, py, r * 2.2, 0, 6.2832); ctx.fill();
+        ctx.fillStyle = 'rgba(255,171,61,' + (a * 210 / 255) + ')';
+        ctx.beginPath(); ctx.arc(px, py, r, 0, 6.2832); ctx.fill();
+      }
+    }
+  }
+  function frame(now) {
+    var t = (now - t0) / 1000;
+    fx.style.transform = 'scale(' + (1 + 0.028 * Math.sin(t * 2 * Math.PI / BREATHE)) + ')';
+    glow.style.opacity = 0.30 + 0.42 * (0.5 + 0.5 * Math.sin(t * 2 * Math.PI / GLOW));
+    var k = (t % SWEEP) / SWEEP;
+    if (k < 0.6) {
+      var bw = W * 0.42, center = -bw + (k / 0.6) * (W + bw * 2);
+      band.style.opacity = 1;
+      band.style.transform = 'translateX(' + (center - bw / 2) + 'px) skewX(-24.8deg)';
+    } else band.style.opacity = 0;
+    sparks(t);
+    requestAnimationFrame(frame);
+  }
+  resize(); window.addEventListener('resize', resize);
+  requestAnimationFrame(frame);
+})();
+</script>
+</body>
+</html>
