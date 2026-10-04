@@ -18,4 +18,4 @@ Los valores corresponden al **balanceo v11** y pueden cambiar mientras el juego 
 
 Las nueve fichas maquetadas para imprimir, una página A4 por unidad: [Fichas-Terranea.pdf](Fichas-Terranea.pdf).
 
-[← Volver al inicio](../../README.md)
+[← Volver al inicio](../../README.es.md)

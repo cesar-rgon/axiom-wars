@@ -1,12 +1,12 @@
 <!doctype html>
-<html lang="es">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Axiom Wars</title>
-<meta name="description" content="Axiom Wars: estrategia por rondas simultáneas de ciencia ficción. Planifica, confirma y mira cómo chocan las órdenes de todos a la vez. Hasta 8 jugadores.">
+<meta name="description" content="Axiom Wars: sci-fi strategy with simultaneous rounds. Plan, confirm and watch everyone's orders collide at once. Up to 8 players.">
 <meta property="og:title" content="Axiom Wars">
-<meta property="og:description" content="Estrategia por rondas simultáneas de ciencia ficción. Hasta 8 jugadores, por equipos o contra bots.">
+<meta property="og:description" content="Sci-fi strategy with simultaneous rounds. Up to 8 players, in teams or against bots.">
 <meta property="og:image" content="https://cesar-rgon.github.io/axiom-wars/assets/img/og.jpg">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary_large_image">
@@ -65,6 +65,14 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--ember); outline
 .topnav a:hover { color: var(--steel); }
 .topnav .btn { padding: 7px 14px; font-size: .82rem; color: #fff; }
 @media (max-width: 720px) { .topnav a:not(.btn) { display: none; } }
+.lang { display: inline-flex; align-items: center; gap: 8px; font: 500 .72rem var(--font-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--steel-dim); }
+.lang select {
+  font: 500 .85rem var(--font-body); color: var(--steel); background: var(--hull-2);
+  border: 1px solid var(--line); border-radius: 3px; padding: 5px 8px; cursor: pointer;
+}
+.lang select:hover { border-color: var(--plasma); }
+.lang select:focus-visible { outline: 2px solid var(--ember); outline-offset: 2px; }
+@media (max-width: 480px) { .lang > span { display: none; } }
 
 /* Botones */
 .btn {
@@ -137,7 +145,7 @@ h3 { font: 600 1.15rem/1.3 var(--font-display); margin: 0; color: #e8eef7; lette
 .phase { padding: 22px 24px 24px; background: var(--hull); border: 1px solid var(--line); position: relative; min-width: 0; }
 .phase + .phase { border-left: none; }
 .phase::before {
-  counter-increment: fase; content: "Fase " counter(fase);
+  counter-increment: fase; content: attr(data-phase) " " counter(fase);
   display: block; font: 500 .75rem var(--font-mono); letter-spacing: .12em; text-transform: uppercase; color: var(--violet); margin-bottom: 8px;
 }
 .phase p { margin: 8px 0 0; color: var(--steel-dim); font-size: .95rem; }
@@ -257,11 +265,17 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
 <header class="topbar">
   <div class="wrap">
     <a class="brand" href="#top">Axiom <span>Wars</span></a>
-    <nav class="topnav" aria-label="Secciones">
-      <a href="#ronda">Cómo se juega</a>
-      <a href="#faccion">Facción</a>
-      <a href="#capturas">Capturas</a>
-      <a href="#museo">Museo</a>
+    <nav class="topnav" aria-label="Sections" data-i18n-aria="nav.aria">
+      <a href="#ronda" data-i18n="nav.play">How to play</a>
+      <a href="#faccion" data-i18n="nav.faction">Faction</a>
+      <a href="#capturas" data-i18n="nav.shots">Screenshots</a>
+      <a href="#museo" data-i18n="nav.museum">Museum</a>
+      <label class="lang"><span data-i18n="nav.lang">Language</span>
+        <select id="lang">
+          <option value="en">English</option>
+          <option value="es">Español</option>
+        </select>
+      </label>
       <a class="btn btn-discord" href="https://discord.gg/4K7My6kXSM" target="_blank" rel="noopener">Discord</a>
     </nav>
   </div>
@@ -276,36 +290,36 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
         <div class="crisp"><img src="assets/img/logo.webp" width="1000" height="560" alt="Axiom Wars"></div>
         <div class="sheen" aria-hidden="true"><div class="band"></div></div>
       </div>
-      <p class="status">En desarrollo · partidas de prueba abiertas</p>
-      <h1 class="tagline">Estrategia por rondas simultáneas. Todos ordenan a la vez; nadie espera su turno.</h1>
-      <p class="lede">Construye tu base alrededor del Gobierno, mantén alimentada a tu gente y lanza tus tropas a través de la niebla. Cuando todos confirman, el servidor resuelve la ronda y ves cómo chocan los planes de todos.</p>
+      <p class="status" data-i18n="hero.status">In development · test matches open</p>
+      <h1 class="tagline" data-i18n="hero.tagline">Simultaneous-round strategy. Everyone gives orders at once; nobody waits for their turn.</h1>
+      <p class="lede" data-i18n="hero.lede">Build your base around the Government, keep your people fed and send your troops through the fog. Once everyone confirms, the server resolves the round and you watch everyone's plans collide.</p>
       <div class="cta-row">
         <a class="btn btn-discord" href="https://discord.gg/4K7My6kXSM" target="_blank" rel="noopener">
           <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M20.3 4.4A19.6 19.6 0 0 0 15.4 3l-.6 1.3a18.2 18.2 0 0 0-5.6 0L8.6 3a19.5 19.5 0 0 0-4.9 1.5C.6 9.1-.3 13.6.1 18.1a19.8 19.8 0 0 0 6 3l1.3-2.1a12.8 12.8 0 0 1-2-1l.5-.4a14.1 14.1 0 0 0 12.2 0l.5.4c-.6.4-1.3.7-2 1l1.3 2.1a19.7 19.7 0 0 0 6-3c.5-5.2-.8-9.7-3.6-13.7ZM8 15.3c-1.2 0-2.2-1.1-2.2-2.4S6.8 10.5 8 10.5s2.2 1.1 2.2 2.4-1 2.4-2.2 2.4Zm8 0c-1.2 0-2.2-1.1-2.2-2.4s1-2.4 2.2-2.4 2.2 1.1 2.2 2.4-1 2.4-2.2 2.4Z"/></svg>
-          Únete al Discord
+          <span data-i18n="hero.discord">Join the Discord</span>
         </a>
-        <a class="btn btn-ghost" href="#descargas">Descargar</a>
+        <a class="btn btn-ghost" href="#descargas" data-i18n="hero.download">Download</a>
       </div>
     </div>
   </div>
 
   <section id="ronda">
     <div class="wrap">
-      <p class="eyebrow">Así es una ronda</p>
-      <h2>Planificas en paralelo, el combate se resuelve a la vez</h2>
-      <p class="section-intro">No hay turnos por jugador. Cada ronda tiene tres fases y todos los jugadores, humanos o bots, pasan por ellas al mismo tiempo.</p>
+      <p class="eyebrow" data-i18n="round.eyebrow">How a round works</p>
+      <h2 data-i18n="round.title">Plan in parallel, fight at the same time</h2>
+      <p class="section-intro" data-i18n="round.intro">There are no player turns. Each round has three phases and every player, human or bot, goes through them at the same time.</p>
       <div class="round">
-        <div class="phase">
-          <h3>Planificar</h3>
-          <p>Encola órdenes con tus Puntos de Acción: construir, mover tropas, contratar, comerciar en el Banco. Ves el coste de cada orden antes de darla.</p>
+        <div class="phase" data-phase="Phase" data-i18n-phase="round.phase">
+          <h3 data-i18n="round.p1">Plan</h3>
+          <p data-i18n="round.p1t">Queue orders with your Action Points: build, move troops, hire, trade at the Bank. You see what each order costs before you give it.</p>
         </div>
-        <div class="phase">
-          <h3>Confirmar</h3>
-          <p>Cuando terminas, marcas la ronda como lista. Puedes reordenar, pausar o cancelar órdenes mientras los demás deciden.</p>
+        <div class="phase" data-phase="Phase" data-i18n-phase="round.phase">
+          <h3 data-i18n="round.p2">Confirm</h3>
+          <p data-i18n="round.p2t">When you're done, mark the round as ready. You can reorder, pause or cancel orders while the others decide.</p>
         </div>
-        <div class="phase">
-          <h3>Resolver</h3>
-          <p>El servidor ejecuta las órdenes de todos a la vez y lo ves como una repetición: marchas, choques, edificios que se levantan y lo que la niebla deja ver.</p>
+        <div class="phase" data-phase="Phase" data-i18n-phase="round.phase">
+          <h3 data-i18n="round.p3">Resolve</h3>
+          <p data-i18n="round.p3t">The server runs everyone's orders at once and you watch it as a replay: marches, clashes, buildings going up and whatever the fog lets you see.</p>
         </div>
       </div>
     </div>
@@ -313,34 +327,34 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
 
   <section id="mecanicas">
     <div class="wrap">
-      <p class="eyebrow">Lo que hay en juego</p>
-      <h2>Una economía que se defiende sola o se hunde</h2>
-      <p class="section-intro">Ganar es simple de explicar: destruye el Gobierno enemigo. Llegar hasta él depende de todo lo demás.</p>
+      <p class="eyebrow" data-i18n="mech.eyebrow">What's at stake</p>
+      <h2 data-i18n="mech.title">An economy that holds the line or collapses</h2>
+      <p class="section-intro" data-i18n="mech.intro">Winning is simple to explain: destroy the enemy Government. Getting there depends on everything else.</p>
       <ul class="mech">
         <li><div>
-          <h3>Seis recursos, un mapa limitado</h3>
-          <p>Bosques, pastos, lagunas, pozos de petróleo y minas de acero se agotan. Cada extractor necesita trabajadores y cobertura de energía.</p>
-          <div class="res"><span>Energía</span><span>Madera</span><span>Acero</span><span>Comida</span><span>Agua</span><span>Combustible</span></div>
+          <h3 data-i18n="mech.res">Six resources, a limited map</h3>
+          <p data-i18n="mech.rest">Forests, pastures, lagoons, oil wells and steel mines run dry. Every extractor needs workers and energy coverage.</p>
+          <div class="res"><span data-i18n="res.energy">Energy</span><span data-i18n="res.wood">Wood</span><span data-i18n="res.steel">Steel</span><span data-i18n="res.food">Food</span><span data-i18n="res.water">Water</span><span data-i18n="res.fuel">Fuel</span></div>
         </div></li>
         <li><div>
-          <h3>Gente que come y protesta</h3>
-          <p>Cada individuo consume comida y agua. Si racionas, baja su satisfacción; si cae del todo, desertan.</p>
+          <h3 data-i18n="mech.people">People who eat and complain</h3>
+          <p data-i18n="mech.peoplet">Every individual consumes food and water. Ration them and their satisfaction drops; let it bottom out and they desert.</p>
         </div></li>
         <li><div>
-          <h3>Niebla de guerra</h3>
-          <p>Solo ves lo que tus unidades y edificios alcanzan a ver. Puedes ordenar construir a ciegas en terreno sin explorar, con el riesgo que eso supone.</p>
+          <h3 data-i18n="mech.fog">Fog of war</h3>
+          <p data-i18n="mech.fogt">You only see what your units and buildings can see. You can order buildings blind on unexplored ground, with all the risk that implies.</p>
         </div></li>
         <li><div>
-          <h3>Gobierno en tres niveles</h3>
-          <p>Subir de nivel da más Puntos de Acción, más cupo de tropas y desbloquea fábricas, lanzaderas y defensas. Si cae, quedas eliminado.</p>
+          <h3 data-i18n="mech.gov">Three-level Government</h3>
+          <p data-i18n="mech.govt">Upgrading gives more Action Points and troop cap, and unlocks factories, launch pads and defenses. If it falls, you're out.</p>
         </div></li>
         <li><div>
-          <h3>Banco</h3>
-          <p>Trueque de recursos y préstamos a devolver en unas semanas de juego. Útil para salir de un apuro; peligroso si encadenas deudas.</p>
+          <h3 data-i18n="mech.bank">Bank</h3>
+          <p data-i18n="mech.bankt">Resource bartering and loans paid back over a few in-game weeks. Handy to get out of a tight spot; dangerous if you pile up debt.</p>
         </div></li>
         <li><div>
-          <h3>Hasta 8 jugadores</h3>
-          <p>Todos contra todos o por equipos, hasta 4 contra 4. Los huecos se rellenan con bots que planifican con búsqueda evolutiva.</p>
+          <h3 data-i18n="mech.players">Up to 8 players</h3>
+          <p data-i18n="mech.playerst">Free-for-all or teams, up to 4 versus 4. Empty seats are filled by bots that plan with evolutionary search.</p>
         </div></li>
       </ul>
     </div>
@@ -348,96 +362,96 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
 
   <section id="faccion">
     <div class="wrap">
-      <p class="eyebrow">Facción Terránea</p>
-      <h2>Nueve unidades, de la mina al cielo</h2>
-      <p class="section-intro">Las unidades civiles sostienen la economía; las militares se reclutan en edificios que exigen un Gobierno de nivel más alto. Valores provisionales: el balanceo sigue abierto.</p>
+      <p class="eyebrow" data-i18n="fac.eyebrow">Terran Faction</p>
+      <h2 data-i18n="fac.title">Nine units, from the mine to the sky</h2>
+      <p class="section-intro" data-i18n="fac.intro">Civilian units keep the economy running; military units are recruited in buildings that require a higher-level Government. Values are provisional: balancing is still open.</p>
       <div class="units">
         <article class="unit">
           <img src="assets/img/units/constructor.png" alt="" loading="lazy" width="256" height="256">
-          <span class="tags">Ligera · civil</span>
-          <h3>Constructor</h3>
-          <p>Levanta los edificios de la base. Sin él no hay producción de unidades ni crecimiento.</p>
-          <dl class="stats"><div><dt>Vida</dt><dd>50</dd></div><div><dt>Escudo</dt><dd>50</dd></div><div><dt>Visión</dt><dd>4</dd></div></dl>
+          <span class="tags" data-i18n="u.constructor.tags">Light · civilian</span>
+          <h3 data-i18n="u.constructor">Constructor</h3>
+          <p data-i18n="u.constructor.d">Raises the base's buildings. Without it there's no unit production and no growth.</p>
+          <dl class="stats"><div><dt data-i18n="st.hp">Health</dt><dd>50</dd></div><div><dt data-i18n="st.shield">Shield</dt><dd>50</dd></div><div><dt data-i18n="st.vision">Vision</dt><dd>4</dd></div></dl>
         </article>
         <article class="unit">
           <img src="assets/img/units/trabajador.png" alt="" loading="lazy" width="256" height="256">
-          <span class="tags">Civil · en edificio</span>
-          <h3>Trabajador</h3>
-          <p>Opera extractores y generadores, hasta cuatro por edificio. Muere si cae su edificio.</p>
-          <dl class="stats"><div><dt>Vida</dt><dd>50</dd></div><div><dt>Escudo</dt><dd>—</dd></div><div><dt>Visión</dt><dd>—</dd></div></dl>
+          <span class="tags" data-i18n="u.worker.tags">Civilian · in a building</span>
+          <h3 data-i18n="u.worker">Worker</h3>
+          <p data-i18n="u.worker.d">Runs extractors and generators, up to four per building. Dies if its building falls.</p>
+          <dl class="stats"><div><dt data-i18n="st.hp">Health</dt><dd>50</dd></div><div><dt data-i18n="st.shield">Shield</dt><dd>—</dd></div><div><dt data-i18n="st.vision">Vision</dt><dd>—</dd></div></dl>
         </article>
         <article class="unit">
           <img src="assets/img/units/explorador.png" alt="" loading="lazy" width="256" height="256">
-          <span class="tags">Ligera · cuerpo a cuerpo</span>
-          <h3>Explorador</h3>
-          <p>Recorre el mapa a gran velocidad, excava el subsuelo y detecta unidades invisibles.</p>
-          <dl class="stats"><div><dt>Vida</dt><dd>60</dd></div><div><dt>Escudo</dt><dd>30</dd></div><div><dt>Visión</dt><dd>10</dd></div></dl>
+          <span class="tags" data-i18n="u.explorer.tags">Light · melee</span>
+          <h3 data-i18n="u.explorer">Explorer</h3>
+          <p data-i18n="u.explorer.d">Crosses the map at high speed, digs into the subsoil and detects invisible units.</p>
+          <dl class="stats"><div><dt data-i18n="st.hp">Health</dt><dd>60</dd></div><div><dt data-i18n="st.shield">Shield</dt><dd>30</dd></div><div><dt data-i18n="st.vision">Vision</dt><dd>10</dd></div></dl>
         </article>
         <article class="unit">
           <img src="assets/img/units/militar.png" alt="" loading="lazy" width="256" height="256">
-          <span class="tags">Ligera · a distancia</span>
-          <h3>Militar</h3>
-          <p>Infantería básica y versátil. Según el arma, ataca a ligeras o pesadas, solo tierra o tierra-aire.</p>
-          <dl class="stats"><div><dt>Vida</dt><dd>50</dd></div><div><dt>Escudo</dt><dd>30</dd></div><div><dt>Visión</dt><dd>7</dd></div></dl>
+          <span class="tags" data-i18n="u.military.tags">Light · ranged</span>
+          <h3 data-i18n="u.military">Military</h3>
+          <p data-i18n="u.military.d">Basic, versatile infantry. Depending on the weapon, it hits light or heavy targets, ground only or ground-to-air.</p>
+          <dl class="stats"><div><dt data-i18n="st.hp">Health</dt><dd>50</dd></div><div><dt data-i18n="st.shield">Shield</dt><dd>30</dd></div><div><dt data-i18n="st.vision">Vision</dt><dd>7</dd></div></dl>
         </article>
         <article class="unit">
           <img src="assets/img/units/cientifico.png" alt="" loading="lazy" width="256" height="256">
-          <span class="tags">Ligera · apoyo</span>
-          <h3>Científico</h3>
-          <p>No ataca. Sus habilidades refuerzan a los aliados y debilitan al enemigo.</p>
-          <dl class="stats"><div><dt>Vida</dt><dd>40</dd></div><div><dt>Escudo</dt><dd>40</dd></div><div><dt>Visión</dt><dd>5</dd></div></dl>
+          <span class="tags" data-i18n="u.scientist.tags">Light · support</span>
+          <h3 data-i18n="u.scientist">Scientist</h3>
+          <p data-i18n="u.scientist.d">Doesn't attack. Its abilities strengthen allies and weaken the enemy.</p>
+          <dl class="stats"><div><dt data-i18n="st.hp">Health</dt><dd>40</dd></div><div><dt data-i18n="st.shield">Shield</dt><dd>40</dd></div><div><dt data-i18n="st.vision">Vision</dt><dd>5</dd></div></dl>
         </article>
         <article class="unit">
           <img src="assets/img/units/transporte_apc.png" alt="" loading="lazy" width="256" height="256">
-          <span class="tags">Media · transporte</span>
-          <h3>Transporte APC</h3>
-          <p>Lleva tropas ligeras. Se defiende con una torreta y siembra minas de contacto.</p>
-          <dl class="stats"><div><dt>Vida</dt><dd>150</dd></div><div><dt>Escudo</dt><dd>100</dd></div><div><dt>Visión</dt><dd>6</dd></div></dl>
+          <span class="tags" data-i18n="u.apc.tags">Medium · transport</span>
+          <h3 data-i18n="u.apc">APC Transport</h3>
+          <p data-i18n="u.apc.d">Carries light troops. Defends itself with a turret and lays contact mines.</p>
+          <dl class="stats"><div><dt data-i18n="st.hp">Health</dt><dd>150</dd></div><div><dt data-i18n="st.shield">Shield</dt><dd>100</dd></div><div><dt data-i18n="st.vision">Vision</dt><dd>6</dd></div></dl>
         </article>
         <article class="unit">
           <img src="assets/img/units/meca.png" alt="" loading="lazy" width="256" height="256">
-          <span class="tags">Pesada · área</span>
-          <h3>Meca</h3>
-          <p>Asalto a media distancia con daño en área contra ligeras y fuego antiaéreo.</p>
-          <dl class="stats"><div><dt>Vida</dt><dd>250</dd></div><div><dt>Escudo</dt><dd>150</dd></div><div><dt>Visión</dt><dd>6</dd></div></dl>
+          <span class="tags" data-i18n="u.mech.tags">Heavy · area</span>
+          <h3 data-i18n="u.mech">Mech</h3>
+          <p data-i18n="u.mech.d">Medium-range assault with area damage against light units, plus anti-air fire.</p>
+          <dl class="stats"><div><dt data-i18n="st.hp">Health</dt><dd>250</dd></div><div><dt data-i18n="st.shield">Shield</dt><dd>150</dd></div><div><dt data-i18n="st.vision">Vision</dt><dd>6</dd></div></dl>
         </article>
         <article class="unit">
           <img src="assets/img/units/raptor.png" alt="" loading="lazy" width="256" height="256">
-          <span class="tags">Media · aérea</span>
+          <span class="tags" data-i18n="u.raptor.tags">Medium · air</span>
           <h3>Raptor</h3>
-          <p>Bombardeo terrestre y ataque tierra-aire. Puede transportar unidades ligeras.</p>
-          <dl class="stats"><div><dt>Vida</dt><dd>180</dd></div><div><dt>Escudo</dt><dd>120</dd></div><div><dt>Visión</dt><dd>9</dd></div></dl>
+          <p data-i18n="u.raptor.d">Ground bombing and ground-to-air attack. Can carry light units.</p>
+          <dl class="stats"><div><dt data-i18n="st.hp">Health</dt><dd>180</dd></div><div><dt data-i18n="st.shield">Shield</dt><dd>120</dd></div><div><dt data-i18n="st.vision">Vision</dt><dd>9</dd></div></dl>
         </article>
         <article class="unit">
           <img src="assets/img/units/droide.png" alt="" loading="lazy" width="256" height="256">
-          <span class="tags">Ligera · aérea</span>
-          <h3>Droide</h3>
-          <p>Sin ataque. Abre portales dimensionales que teletransportan tropas.</p>
-          <dl class="stats"><div><dt>Vida</dt><dd>60</dd></div><div><dt>Escudo</dt><dd>120</dd></div><div><dt>Visión</dt><dd>8</dd></div></dl>
+          <span class="tags" data-i18n="u.droid.tags">Light · air</span>
+          <h3 data-i18n="u.droid">Droid</h3>
+          <p data-i18n="u.droid.d">No attack. Opens dimensional portals that teleport troops.</p>
+          <dl class="stats"><div><dt data-i18n="st.hp">Health</dt><dd>60</dd></div><div><dt data-i18n="st.shield">Shield</dt><dd>120</dd></div><div><dt data-i18n="st.vision">Vision</dt><dd>8</dd></div></dl>
         </article>
       </div>
-      <p class="more-links"><a href="https://github.com/cesar-rgon/axiom-wars/blob/main/docs/unidades/README.md" target="_blank" rel="noopener">Fichas completas de las unidades</a> · <a href="docs/balanceo/">Informe de balanceo</a></p>
+      <p class="more-links"><a href="https://github.com/cesar-rgon/axiom-wars/blob/main/docs/unidades/README.md" target="_blank" rel="noopener" data-i18n="fac.sheets">Full unit sheets (Spanish)</a> · <a href="docs/balanceo/" data-i18n="fac.balance">Balance report (Spanish)</a></p>
     </div>
   </section>
 
   <section id="capturas">
     <div class="wrap">
-      <p class="eyebrow">Capturas</p>
-      <h2>Así se ve hoy</h2>
-      <p class="section-intro">Capturas de la versión actual en desarrollo. Pulsa en una para verla a tamaño completo.</p>
+      <p class="eyebrow" data-i18n="shots.eyebrow">Screenshots</p>
+      <h2 data-i18n="shots.title">What it looks like today</h2>
+      <p class="section-intro" data-i18n="shots.intro">Screenshots from the current development build. Click one to see it full size.</p>
       <div class="shots">
         <figure class="shot">
-          <a href="assets/img/galeria-10.webp" target="_blank" rel="noopener"><img src="assets/img/galeria-10.webp" alt="Base con la cola de órdenes numerada, áreas de efecto superpuestas y un Explorador en marcha" loading="lazy" width="1600" height="1201"></a>
-          <figcaption>Cola de órdenes numerada, áreas de efecto superpuestas y un Explorador camino de su destino.</figcaption>
+          <a href="assets/img/galeria-10.webp" target="_blank" rel="noopener"><img src="assets/img/galeria-10.webp" alt="Base with the numbered order queue, overlapping areas of effect and an Explorer on the move" data-i18n-alt="shots.a10" loading="lazy" width="1600" height="1201"></a>
+          <figcaption data-i18n="shots.c10">Numbered order queue, overlapping areas of effect and an Explorer heading to its destination.</figcaption>
         </figure>
         <div class="stack">
           <figure class="shot">
-            <a href="assets/img/galeria-08.webp" target="_blank" rel="noopener"><img src="assets/img/galeria-08.webp" alt="Ronda 1 planificando con un Constructor, flechas de movimiento y el área del Gobierno" loading="lazy" width="1600" height="902"></a>
-            <figcaption>Ronda 1: el Constructor planifica edificios y las flechas marcan sus movimientos.</figcaption>
+            <a href="assets/img/galeria-08.webp" target="_blank" rel="noopener"><img src="assets/img/galeria-08.webp" alt="Round 1 planning with a Constructor, movement arrows and the Government's area" data-i18n-alt="shots.a08" loading="lazy" width="1600" height="902"></a>
+            <figcaption data-i18n="shots.c08">Round 1: the Constructor plans buildings and the arrows mark its moves.</figcaption>
           </figure>
           <figure class="shot">
-            <a href="assets/img/galeria-09.webp" target="_blank" rel="noopener"><img src="assets/img/galeria-09.webp" alt="Resolución de ronda con dos lupas siguiendo acciones simultáneas" loading="lazy" width="1600" height="902"></a>
-            <figcaption>Resolución de la ronda 2: las lupas siguen dos acciones que ocurren a la vez.</figcaption>
+            <a href="assets/img/galeria-09.webp" target="_blank" rel="noopener"><img src="assets/img/galeria-09.webp" alt="Round resolution with two magnifiers following simultaneous actions" data-i18n-alt="shots.a09" loading="lazy" width="1600" height="902"></a>
+            <figcaption data-i18n="shots.c09">Round 2 resolution: the magnifiers follow two actions happening at the same time.</figcaption>
           </figure>
         </div>
       </div>
@@ -446,77 +460,77 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
 
   <section id="museo">
     <div class="wrap museum">
-      <p class="eyebrow">Museo</p>
-      <h2>Desde los comienzos</h2>
-      <p class="section-intro">Axiom Wars empezó como un cliente de terminal. Estas son las versiones por las que ha pasado, de la más antigua a la más reciente.</p>
+      <p class="eyebrow" data-i18n="mus.eyebrow">Museum</p>
+      <h2 data-i18n="mus.title">From the very beginning</h2>
+      <p class="section-intro" data-i18n="mus.intro">Axiom Wars started out as a terminal client. These are the versions it has gone through, from oldest to newest.</p>
       <ol class="timeline">
         <li class="era">
-          <span class="n">Etapa 1</span>
-          <a href="assets/img/museo/01.webp" target="_blank" rel="noopener"><img src="assets/img/museo/01.webp" alt="Cliente de terminal con el mapa dibujado en caracteres" loading="lazy" width="858" height="684"></a>
-          <p><strong>Cliente de terminal.</strong> El mapa en caracteres ASCII y las órdenes escritas a mano: <code>build</code>, <code>move</code>, <code>end</code>.</p>
+          <span class="n" data-i18n="mus.s1">Stage 1</span>
+          <a href="assets/img/museo/01.webp" target="_blank" rel="noopener"><img src="assets/img/museo/01.webp" alt="Terminal client with the map drawn in characters" data-i18n-alt="mus.a1" loading="lazy" width="858" height="684"></a>
+          <p data-i18n="mus.t1"><strong>Terminal client.</strong> The map in ASCII characters and orders typed by hand: <code>build</code>, <code>move</code>, <code>end</code>.</p>
         </li>
         <li class="era">
-          <span class="n">Etapa 2</span>
-          <a href="assets/img/museo/02.webp" target="_blank" rel="noopener"><img src="assets/img/museo/02.webp" alt="Primera interfaz gráfica con casillas planas y edificios como letras" loading="lazy" width="846" height="543"></a>
-          <p><strong>Primera ventana.</strong> Casillas de colores planos, edificios representados por letras y botones para construir.</p>
+          <span class="n" data-i18n="mus.s2">Stage 2</span>
+          <a href="assets/img/museo/02.webp" target="_blank" rel="noopener"><img src="assets/img/museo/02.webp" alt="First graphical interface with flat tiles and buildings shown as letters" data-i18n-alt="mus.a2" loading="lazy" width="846" height="543"></a>
+          <p data-i18n="mus.t2"><strong>First window.</strong> Flat-colored tiles, buildings shown as letters and buttons to build.</p>
         </li>
         <li class="era">
-          <span class="n">Etapa 3</span>
-          <a href="assets/img/museo/03.webp" target="_blank" rel="noopener"><img src="assets/img/museo/03.webp" alt="Primeras texturas de terreno: agua, bosque y tierra" loading="lazy" width="1280" height="767"></a>
-          <p><strong>Primeras texturas.</strong> Agua, bosque y tierra dibujados, minimapa y el primer edificio ilustrado.</p>
+          <span class="n" data-i18n="mus.s3">Stage 3</span>
+          <a href="assets/img/museo/03.webp" target="_blank" rel="noopener"><img src="assets/img/museo/03.webp" alt="First terrain textures: water, forest and earth" data-i18n-alt="mus.a3" loading="lazy" width="1280" height="767"></a>
+          <p data-i18n="mus.t3"><strong>First textures.</strong> Drawn water, forest and earth, a minimap and the first illustrated building.</p>
         </li>
         <li class="era">
-          <span class="n">Etapa 4</span>
-          <a href="assets/img/museo/04.webp" target="_blank" rel="noopener"><img src="assets/img/museo/04.webp" alt="Base con edificios ilustrados y panel de construcción con iconos" loading="lazy" width="1400" height="549"></a>
-          <p><strong>Edificios ilustrados.</strong> Llegan el Gobierno, el Banco y el panel de construcción con iconos.</p>
+          <span class="n" data-i18n="mus.s4">Stage 4</span>
+          <a href="assets/img/museo/04.webp" target="_blank" rel="noopener"><img src="assets/img/museo/04.webp" alt="Base with illustrated buildings and a build panel with icons" data-i18n-alt="mus.a4" loading="lazy" width="1400" height="549"></a>
+          <p data-i18n="mus.t4"><strong>Illustrated buildings.</strong> The Government, the Bank and the icon-based build panel arrive.</p>
         </li>
         <li class="era">
-          <span class="n">Etapa 5</span>
-          <a href="assets/img/museo/05.webp" target="_blank" rel="noopener"><img src="assets/img/museo/05.webp" alt="Base densa con trabajadores indicados bajo cada edificio" loading="lazy" width="1089" height="1187"></a>
-          <p><strong>Trabajadores a la vista.</strong> Cada extractor muestra bajo él cuántos de sus cuatro puestos están ocupados.</p>
+          <span class="n" data-i18n="mus.s5">Stage 5</span>
+          <a href="assets/img/museo/05.webp" target="_blank" rel="noopener"><img src="assets/img/museo/05.webp" alt="Dense base with workers shown under each building" data-i18n-alt="mus.a5" loading="lazy" width="1089" height="1187"></a>
+          <p data-i18n="mus.t5"><strong>Workers on display.</strong> Each extractor shows below it how many of its four slots are filled.</p>
         </li>
         <li class="era">
-          <span class="n">Etapa 6</span>
-          <a href="assets/img/museo/06.webp" target="_blank" rel="noopener"><img src="assets/img/museo/06.webp" alt="Terreno de hierba nuevo con Gobierno, Banco y Vivienda" loading="lazy" width="952" height="708"></a>
-          <p><strong>Terreno nuevo.</strong> Hierba, lagos y bosques rediseñados, con los edificios marcados en el color del jugador.</p>
+          <span class="n" data-i18n="mus.s6">Stage 6</span>
+          <a href="assets/img/museo/06.webp" target="_blank" rel="noopener"><img src="assets/img/museo/06.webp" alt="New grass terrain with Government, Bank and Housing" data-i18n-alt="mus.a6" loading="lazy" width="952" height="708"></a>
+          <p data-i18n="mus.t6"><strong>New terrain.</strong> Redesigned grass, lakes and forests, with buildings outlined in the player's color.</p>
         </li>
         <li class="era">
-          <span class="n">Etapa 7</span>
-          <a href="assets/img/museo/07.webp" target="_blank" rel="noopener"><img src="assets/img/museo/07.webp" alt="Interfaz con cola de órdenes, panel lateral y área de energía del Gobierno" loading="lazy" width="1400" height="788"></a>
-          <p><strong>Rondas simultáneas.</strong> Cola de órdenes, panel lateral de construcción y el área de energía al colocar un edificio.</p>
+          <span class="n" data-i18n="mus.s7">Stage 7</span>
+          <a href="assets/img/museo/07.webp" target="_blank" rel="noopener"><img src="assets/img/museo/07.webp" alt="Interface with order queue, side panel and the Government's energy area" data-i18n-alt="mus.a7" loading="lazy" width="1400" height="788"></a>
+          <p data-i18n="mus.t7"><strong>Simultaneous rounds.</strong> Order queue, side build panel and the energy area shown when placing a building.</p>
         </li>
       </ol>
-      <p class="museum-hint">Desliza para recorrer la línea temporal →</p>
+      <p class="museum-hint" data-i18n="mus.hint">Swipe to move along the timeline →</p>
     </div>
   </section>
 
   <section id="descargas">
     <div class="wrap join">
       <div class="discord-card">
-        <p class="eyebrow" style="color:#aab2ff">Comunidad</p>
-        <h2>Juega con nosotros</h2>
-        <p>En el Discord organizamos las partidas de prueba, publicamos cada versión nueva y recogemos fallos e ideas de balanceo.</p>
-        <a class="btn btn-discord" href="https://discord.gg/4K7My6kXSM" target="_blank" rel="noopener">Abrir Discord</a>
+        <p class="eyebrow" style="color:#aab2ff" data-i18n="join.eyebrow">Community</p>
+        <h2 data-i18n="join.title">Play with us</h2>
+        <p data-i18n="join.text">On the Discord we organize test matches, announce every new build and collect bug reports and balance ideas.</p>
+        <a class="btn btn-discord" href="https://discord.gg/4K7My6kXSM" target="_blank" rel="noopener" data-i18n="join.btn">Open Discord</a>
       </div>
       <div>
-        <p class="eyebrow">Descargas</p>
+        <p class="eyebrow" data-i18n="dl.eyebrow">Downloads</p>
         <div class="downloads">
           <a class="dl" href="https://github.com/cesar-rgon/axiom-wars/releases/latest/download/AxiomWars-Windows-x64.zip" target="_blank" rel="noopener">
-            <span><strong>Windows</strong><small>64 bits · .zip · 81 MB</small></span><span class="arrow">Descargar</span>
+            <span><strong>Windows</strong><small>64-bit · .zip · 81 MB</small></span><span class="arrow" data-i18n="dl.get">Download</span>
           </a>
           <a class="dl" href="https://github.com/cesar-rgon/axiom-wars/releases/latest/download/AxiomWars-Linux-x64.zip" target="_blank" rel="noopener">
-            <span><strong>Linux</strong><small>x86-64 · .zip · 81 MB</small></span><span class="arrow">Descargar</span>
+            <span><strong>Linux</strong><small>x86-64 · .zip · 81 MB</small></span><span class="arrow" data-i18n="dl.get">Download</span>
           </a>
           <div class="dl soon" aria-disabled="true">
-            <span><strong>macOS</strong><small>Apple Silicon</small></span><span class="arrow">Próximamente</span>
+            <span><strong>macOS</strong><small>Apple Silicon</small></span><span class="arrow" data-i18n="dl.soon">Coming soon</span>
           </div>
         </div>
         <div class="connect">
-          <h3>Para conectarte</h3>
+          <h3 data-i18n="dl.connect">How to connect</h3>
           <ol>
-            <li>Descomprime el zip y abre <strong>AxiomWars.exe</strong> (Windows) o <strong>AxiomWars</strong> (Linux) dentro de la carpeta AxiomWars. Deja la carpeta <code>assets</code> a su lado.</li>
-            <li>En el campo <strong>Host (IP o DNS:puerto)</strong> escribe la dirección del servidor.</li>
-            <li>La IP del Host se publica en el <a href="https://discord.gg/4K7My6kXSM" target="_blank" rel="noopener">canal de Discord</a>.</li>
+            <li data-i18n="dl.c1">Unzip the file and open <strong>AxiomWars.exe</strong> (Windows) or <strong>AxiomWars</strong> (Linux) inside the AxiomWars folder. Keep the <code>assets</code> folder next to it.</li>
+            <li data-i18n="dl.c2">In the <strong>Host (IP or DNS:port)</strong> field, type the server address.</li>
+            <li data-i18n="dl.c3">The Host IP is posted on the <a href="https://discord.gg/4K7My6kXSM" target="_blank" rel="noopener">Discord channel</a>.</li>
           </ol>
         </div>
       </div>
@@ -526,10 +540,11 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
 
 <footer>
   <div class="wrap">
-    <span>Axiom Wars · juego en desarrollo</span>
+    <span data-i18n="foot.text">Axiom Wars · game in development</span>
     <a href="https://discord.gg/4K7My6kXSM" target="_blank" rel="noopener">Discord</a>
   </div>
 </footer>
+<script src="assets/js/i18n.js"></script>
 <script>
 // Animación del logo portada de logofx.go: cada efecto es función pura del tiempo.
 (function () {

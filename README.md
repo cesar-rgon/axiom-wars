@@ -2,128 +2,131 @@
   <img src="assets/img/logo.webp" alt="Axiom Wars" width="520">
 </p>
 
+<p align="center"><b>English</b> · <a href="README.es.md">Español</a></p>
+
 <p align="center">
-  <b>Estrategia por rondas simultáneas de ciencia ficción.</b><br>
-  Todos ordenan a la vez; nadie espera su turno.
+  <b>Sci-fi strategy with simultaneous rounds.</b><br>
+  Everyone gives orders at once; nobody waits for their turn.
 </p>
 
 <p align="center">
-  <a href="https://cesar-rgon.github.io/axiom-wars/">Web</a> ·
+  <a href="https://cesar-rgon.github.io/axiom-wars/">Website</a> ·
   <a href="https://discord.gg/4K7My6kXSM">Discord</a> ·
-  <a href="https://github.com/cesar-rgon/axiom-wars/releases/latest">Descargar</a> ·
-  <a href="docs/unidades/README.md">Unidades</a> ·
-  <a href="#balanceo">Balanceo</a>
+  <a href="https://github.com/cesar-rgon/axiom-wars/releases/latest">Download</a> ·
+  <a href="#units-of-the-terran-faction">Units</a> ·
+  <a href="#balance">Balance</a>
 </p>
 
 > [!NOTE]
-> Axiom Wars está en desarrollo. Las partidas de prueba se organizan en el [Discord](https://discord.gg/4K7My6kXSM).
+> Axiom Wars is in development. Test matches are organized on the [Discord](https://discord.gg/4K7My6kXSM).
 
-## Qué es Axiom Wars
+## What is Axiom Wars
 
-Construye tu base alrededor del Gobierno, mantén alimentada a tu gente y lanza tus tropas a través de la niebla de guerra. Cuando todos los jugadores confirman sus órdenes, el servidor resuelve la ronda a la vez y ves cómo chocan los planes de todos.
+Build your base around the Government, keep your people fed and send your troops through the fog of war. Once every player confirms their orders, the server resolves the round all at once and you watch everyone's plans collide.
 
-Hasta 8 jugadores, todos contra todos o por equipos (hasta 4 contra 4). Los huecos se rellenan con bots.
+Up to 8 players, free-for-all or in teams (up to 4 versus 4). Empty seats are filled by bots.
 
-### Así es una ronda
+### How a round works
 
-| Fase | Qué haces |
+| Phase | What you do |
 |---|---|
-| **1. Planificar** | Encolas órdenes con tus Puntos de Acción (PA): construir, mover tropas, contratar, comerciar en el Banco. Ves el coste de cada orden antes de darla. |
-| **2. Confirmar** | Marcas la ronda como lista. Puedes reordenar, pausar o cancelar órdenes mientras los demás deciden. |
-| **3. Resolver** | El servidor ejecuta las órdenes de todos a la vez y lo ves como una repetición: marchas, choques, edificios que se levantan y lo que la niebla deja ver. |
+| **1. Plan** | Queue orders with your Action Points (AP): build, move troops, hire, trade at the Bank. You see what each order costs before you give it. |
+| **2. Confirm** | Mark the round as ready. You can reorder, pause or cancel orders while the others decide. |
+| **3. Resolve** | The server runs everyone's orders at once and you watch it as a replay: marches, clashes, buildings going up and whatever the fog lets you see. |
 
-### Lo que hay en juego
+### What's at stake
 
-- **Seis recursos:** Energía, Madera, Acero, Comida, Agua y Combustible. Bosques, pastos, lagunas, pozos de petróleo y minas se agotan, y cada extractor necesita trabajadores y cobertura de energía.
-- **Gente que come y protesta:** cada individuo consume comida y agua. Si racionas, baja su satisfacción; si cae del todo, desertan.
-- **Niebla de guerra:** sólo ves lo que alcanzan tus unidades y edificios. Puedes ordenar construir a ciegas en terreno sin explorar.
-- **Gobierno en tres niveles:** subirlo da más PA y cupo de tropas y desbloquea fábricas, lanzaderas y defensas. Si cae, quedas eliminado.
-- **Banco:** trueque de recursos y préstamos a devolver en unas semanas de juego.
-- **Victoria:** destruye el Gobierno enemigo. Gana el último que queda en pie.
+- **Six resources:** Energy, Wood, Steel, Food, Water and Fuel. Forests, pastures, lagoons, oil wells and mines run dry, and every extractor needs workers and energy coverage.
+- **People who eat and complain:** every individual consumes food and water. Ration them and their satisfaction drops; let it bottom out and they desert.
+- **Fog of war:** you only see what your units and buildings can reach. You can order buildings blind on unexplored ground.
+- **Three-level Government:** upgrading gives more AP and troop cap, and unlocks factories, launch pads and defenses. If it falls, you're out.
+- **Bank:** resource bartering and loans paid back over a few in-game weeks.
+- **Victory:** destroy the enemy Government. The last one standing wins.
 
-## Galería
+## Gallery
 
-Capturas de la versión actual. Pulsa en una para verla a tamaño completo.
+Screenshots from the current build. Click one to see it full size.
 
 <p align="center">
-  <a href="assets/img/galeria-10.webp"><img src="assets/img/galeria-10.webp" alt="Cola de órdenes numerada y áreas de efecto superpuestas" width="100%"></a>
-  <br><sub>Cola de órdenes numerada, áreas de efecto superpuestas y un Explorador camino de su destino.</sub>
+  <a href="assets/img/galeria-10.webp"><img src="assets/img/galeria-10.webp" alt="Numbered order queue and overlapping areas of effect" width="100%"></a>
+  <br><sub>Numbered order queue, overlapping areas of effect and an Explorer heading to its destination.</sub>
 </p>
 
 <table>
   <tr>
-    <td width="50%"><a href="assets/img/galeria-08.webp"><img src="assets/img/galeria-08.webp" alt="Ronda 1 planificando con un Constructor"></a></td>
-    <td width="50%"><a href="assets/img/galeria-09.webp"><img src="assets/img/galeria-09.webp" alt="Resolución de ronda con dos lupas"></a></td>
+    <td width="50%"><a href="assets/img/galeria-08.webp"><img src="assets/img/galeria-08.webp" alt="Round 1 planning with a Constructor"></a></td>
+    <td width="50%"><a href="assets/img/galeria-09.webp"><img src="assets/img/galeria-09.webp" alt="Round resolution with two magnifiers"></a></td>
   </tr>
   <tr>
-    <td><sub>Ronda 1: el Constructor planifica edificios y las flechas marcan sus movimientos.</sub></td>
-    <td><sub>Resolución de la ronda 2: las lupas siguen dos acciones que ocurren a la vez.</sub></td>
+    <td><sub>Round 1: the Constructor plans buildings and the arrows mark its moves.</sub></td>
+    <td><sub>Round 2 resolution: the magnifiers follow two actions happening at the same time.</sub></td>
   </tr>
 </table>
 
-## Museo
+## Museum
 
-Axiom Wars empezó como un cliente de terminal. Estas son las versiones por las que ha pasado, de la más antigua a la más reciente.
+Axiom Wars started out as a terminal client. These are the versions it has gone through, from oldest to newest.
 
-| Etapa | Captura | Qué cambió |
+| Stage | Screenshot | What changed |
 |---|---|---|
-| **1** | <a href="assets/img/museo/01.webp"><img src="assets/img/museo/01.webp" width="260" alt="Cliente de terminal"></a> | **Cliente de terminal.** El mapa en caracteres ASCII y las órdenes escritas a mano: `build`, `move`, `end`. |
-| **2** | <a href="assets/img/museo/02.webp"><img src="assets/img/museo/02.webp" width="260" alt="Primera ventana"></a> | **Primera ventana.** Casillas de colores planos, edificios representados por letras y botones para construir. |
-| **3** | <a href="assets/img/museo/03.webp"><img src="assets/img/museo/03.webp" width="260" alt="Primeras texturas"></a> | **Primeras texturas.** Agua, bosque y tierra dibujados, minimapa y el primer edificio ilustrado. |
-| **4** | <a href="assets/img/museo/04.webp"><img src="assets/img/museo/04.webp" width="260" alt="Edificios ilustrados"></a> | **Edificios ilustrados.** Llegan el Gobierno, el Banco y el panel de construcción con iconos. |
-| **5** | <a href="assets/img/museo/05.webp"><img src="assets/img/museo/05.webp" width="260" alt="Trabajadores a la vista"></a> | **Trabajadores a la vista.** Cada extractor muestra bajo él cuántos de sus cuatro puestos están ocupados. |
-| **6** | <a href="assets/img/museo/06.webp"><img src="assets/img/museo/06.webp" width="260" alt="Terreno nuevo"></a> | **Terreno nuevo.** Hierba, lagos y bosques rediseñados, con los edificios marcados en el color del jugador. |
-| **7** | <a href="assets/img/museo/07.webp"><img src="assets/img/museo/07.webp" width="260" alt="Rondas simultáneas"></a> | **Rondas simultáneas.** Cola de órdenes, panel lateral de construcción y el área de energía al colocar un edificio. |
+| **1** | <a href="assets/img/museo/01.webp"><img src="assets/img/museo/01.webp" width="260" alt="Terminal client"></a> | **Terminal client.** The map in ASCII characters and orders typed by hand: `build`, `move`, `end`. |
+| **2** | <a href="assets/img/museo/02.webp"><img src="assets/img/museo/02.webp" width="260" alt="First window"></a> | **First window.** Flat-colored tiles, buildings shown as letters and buttons to build. |
+| **3** | <a href="assets/img/museo/03.webp"><img src="assets/img/museo/03.webp" width="260" alt="First textures"></a> | **First textures.** Drawn water, forest and earth, a minimap and the first illustrated building. |
+| **4** | <a href="assets/img/museo/04.webp"><img src="assets/img/museo/04.webp" width="260" alt="Illustrated buildings"></a> | **Illustrated buildings.** The Government, the Bank and the icon-based build panel arrive. |
+| **5** | <a href="assets/img/museo/05.webp"><img src="assets/img/museo/05.webp" width="260" alt="Workers on display"></a> | **Workers on display.** Each extractor shows below it how many of its four slots are filled. |
+| **6** | <a href="assets/img/museo/06.webp"><img src="assets/img/museo/06.webp" width="260" alt="New terrain"></a> | **New terrain.** Redesigned grass, lakes and forests, with buildings outlined in the player's color. |
+| **7** | <a href="assets/img/museo/07.webp"><img src="assets/img/museo/07.webp" width="260" alt="Simultaneous rounds"></a> | **Simultaneous rounds.** Order queue, side build panel and the energy area shown when placing a building. |
 
-## Unidades de la Facción Terránea
+## Units of the Terran Faction
 
-Nueve unidades, de la mina al cielo. Cada ficha detalla producción, mantenimiento, defensa, movimiento y lo que desbloquea cada nivel de Gobierno.
+Nine units, from the mine to the sky. Each sheet covers production, upkeep, defense, movement and what every Government level unlocks. The sheets are in Spanish.
 
-| | Unidad | Clase | Vida | Escudo | Visión |
+| | Unit | Class | Health | Shield | Vision |
 |---|---|---|---:|---:|---:|
-| <img src="assets/img/units/trabajador.png" width="48" alt=""> | [Trabajador](docs/unidades/trabajador.md) | Civil, en su edificio | 50 | — | — |
-| <img src="assets/img/units/constructor.png" width="48" alt=""> | [Constructor](docs/unidades/constructor.md) | Ligera · civil | 50 | 50 | 4 |
-| <img src="assets/img/units/explorador.png" width="48" alt=""> | [Explorador](docs/unidades/explorador.md) | Ligera · cuerpo a cuerpo | 60 | 30 | 10 |
-| <img src="assets/img/units/militar.png" width="48" alt=""> | [Militar](docs/unidades/militar.md) | Ligera · a distancia | 50 | 30 | 7 |
-| <img src="assets/img/units/cientifico.png" width="48" alt=""> | [Científico](docs/unidades/cientifico.md) | Ligera · apoyo | 40 | 40 | 5 |
-| <img src="assets/img/units/transporte_apc.png" width="48" alt=""> | [Transporte APC](docs/unidades/transporte_apc.md) | Media · transporte | 150 | 100 | 6 |
-| <img src="assets/img/units/meca.png" width="48" alt=""> | [Meca](docs/unidades/meca.md) | Pesada · área | 250 | 150 | 6 |
-| <img src="assets/img/units/raptor.png" width="48" alt=""> | [Raptor](docs/unidades/raptor.md) | Media · aérea | 180 | 120 | 9 |
-| <img src="assets/img/units/droide.png" width="48" alt=""> | [Droide](docs/unidades/droide.md) | Ligera · aérea | 60 | 120 | 8 |
+| <img src="assets/img/units/trabajador.png" width="48" alt=""> | [Worker](docs/unidades/trabajador.md) | Civilian, inside its building | 50 | — | — |
+| <img src="assets/img/units/constructor.png" width="48" alt=""> | [Constructor](docs/unidades/constructor.md) | Light · civilian | 50 | 50 | 4 |
+| <img src="assets/img/units/explorador.png" width="48" alt=""> | [Explorer](docs/unidades/explorador.md) | Light · melee | 60 | 30 | 10 |
+| <img src="assets/img/units/militar.png" width="48" alt=""> | [Military](docs/unidades/militar.md) | Light · ranged | 50 | 30 | 7 |
+| <img src="assets/img/units/cientifico.png" width="48" alt=""> | [Scientist](docs/unidades/cientifico.md) | Light · support | 40 | 40 | 5 |
+| <img src="assets/img/units/transporte_apc.png" width="48" alt=""> | [APC Transport](docs/unidades/transporte_apc.md) | Medium · transport | 150 | 100 | 6 |
+| <img src="assets/img/units/meca.png" width="48" alt=""> | [Mech](docs/unidades/meca.md) | Heavy · area | 250 | 150 | 6 |
+| <img src="assets/img/units/raptor.png" width="48" alt=""> | [Raptor](docs/unidades/raptor.md) | Medium · air | 180 | 120 | 9 |
+| <img src="assets/img/units/droide.png" width="48" alt=""> | [Droid](docs/unidades/droide.md) | Light · air | 60 | 120 | 8 |
 
-Índice con el papel de cada unidad: [docs/unidades](docs/unidades/README.md) · Las nueve fichas para imprimir: [Fichas-Terranea.pdf](docs/unidades/Fichas-Terranea.pdf)
+Index with each unit's role: [docs/unidades](docs/unidades/README.md) · All nine sheets, print-ready: [Fichas-Terranea.pdf](docs/unidades/Fichas-Terranea.pdf)
 
-## Balanceo
+## Balance
 
-El informe de balanceo de la Facción Terránea (propuesta v11) analiza las nueve fichas a la vez y propone los números de todas las armas y habilidades. Su idea central: cada blindaje tiene armas que le hacen daño completo y armas que apenas le hacen nada, de modo que la unidad correcta contra su objetivo sea 2–3 veces más eficiente por PA que la incorrecta.
+The Terran Faction balance report (proposal v11, in Spanish) looks at all nine unit sheets together and proposes numbers for every weapon and ability. Its core idea: each armor class has weapons that deal full damage to it and weapons that barely scratch it, so the right unit against its target is 2–3 times more efficient per AP than the wrong one.
 
-Incluye la matriz de daño arma contra unidad, la economía de PA, energía y compras, alcance y visión, comprobaciones de combate, vida de los edificios y un repaso unidad por unidad.
+It covers the weapon-versus-unit damage matrix, the AP economy, energy and purchases, range and vision, combat checks, building health and a unit-by-unit review.
 
-- **Leerlo en el navegador:** [cesar-rgon.github.io/axiom-wars/docs/balanceo/](https://cesar-rgon.github.io/axiom-wars/docs/balanceo/)
+- **Read it in the browser:** [cesar-rgon.github.io/axiom-wars/docs/balanceo/](https://cesar-rgon.github.io/axiom-wars/docs/balanceo/)
 - **PDF:** [Balanceo-Terraneo-v11.pdf](docs/balanceo/Balanceo-Terraneo-v11.pdf)
 
-## Descargar y jugar
+## Download and play
 
-| Sistema | Descarga |
+| System | Download |
 |---|---|
-| Windows 64 bits | [AxiomWars-Windows-x64.zip](https://github.com/cesar-rgon/axiom-wars/releases/latest/download/AxiomWars-Windows-x64.zip) |
+| Windows 64-bit | [AxiomWars-Windows-x64.zip](https://github.com/cesar-rgon/axiom-wars/releases/latest/download/AxiomWars-Windows-x64.zip) |
 | Linux x86-64 | [AxiomWars-Linux-x64.zip](https://github.com/cesar-rgon/axiom-wars/releases/latest/download/AxiomWars-Linux-x64.zip) |
-| macOS (Apple Silicon) | Próximamente |
+| macOS (Apple Silicon) | Coming soon |
 
-1. Descomprime el zip y abre **AxiomWars.exe** (Windows) o **AxiomWars** (Linux) dentro de la carpeta `AxiomWars`. Deja la carpeta `assets` a su lado.
-2. En el campo **Host (IP o DNS:puerto)** escribe la dirección del servidor.
-3. La IP del Host se publica en el [canal de Discord](https://discord.gg/4K7My6kXSM).
+1. Unzip the file and open **AxiomWars.exe** (Windows) or **AxiomWars** (Linux) inside the `AxiomWars` folder. Keep the `assets` folder next to it.
+2. In the **Host (IP or DNS:port)** field, type the server address.
+3. The Host IP is posted on the [Discord channel](https://discord.gg/4K7My6kXSM).
 
-## Sobre este repositorio
+## About this repository
 
-Este repositorio aloja la web del juego (GitHub Pages) y las descargas del cliente (Releases). El código del juego se desarrolla aparte.
+This repository hosts the game's website (GitHub Pages) and the client downloads (Releases). The game's code is developed separately.
 
 ```
-index.html          web publicada en https://cesar-rgon.github.io/axiom-wars/
-assets/img/         logo, unidades, galería y museo
-docs/unidades/      fichas de las unidades Terráneas (Markdown y PDF)
-docs/balanceo/      informe de balanceo (HTML y PDF)
-tools/make_logo.py  recorta el logo original a PNG transparente
+index.html          website published at https://cesar-rgon.github.io/axiom-wars/
+assets/img/         logo, units, gallery and museum
+assets/js/i18n.js   Spanish translation of the website (English is the default)
+docs/unidades/      Terran unit sheets (Markdown and PDF, in Spanish)
+docs/balanceo/      balance report (HTML and PDF, in Spanish)
+tools/make_logo.py  cuts the original logo out to a transparent PNG
 ```
 
-Cada release contiene sólo los binarios del cliente para Windows y Linux; el servidor no se distribuye.
+Each release contains only the client binaries for Windows and Linux; the server is not distributed.
