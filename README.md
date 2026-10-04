@@ -11,14 +11,14 @@
 
 <p align="center">
   <a href="https://cesar-rgon.github.io/axiom-wars/">Website</a> ·
-  <a href="https://discord.gg/4K7My6kXSM">Discord</a> ·
+  <a href="https://discord.gg/2EZAtyqtzW">Discord</a> ·
   <a href="https://github.com/cesar-rgon/axiom-wars/releases/latest">Download</a> ·
   <a href="#units-of-the-terran-faction">Units</a> ·
   <a href="#balance">Balance</a>
 </p>
 
 > [!NOTE]
-> Axiom Wars is in development. Test matches are organized on the [Discord](https://discord.gg/4K7My6kXSM).
+> Axiom Wars is in development. Test matches are organized on the [Discord](https://discord.gg/2EZAtyqtzW).
 
 ## What is Axiom Wars
 
@@ -114,7 +114,7 @@ It covers the weapon-versus-unit damage matrix, the AP economy, energy and purch
 
 1. Unzip the file and open **AxiomWars.exe** (Windows) or **AxiomWars** (Linux) inside the `AxiomWars` folder. Keep the `assets` folder next to it.
 2. In the **Host (IP or DNS:port)** field, type the server address.
-3. The Host IP is posted on the [Discord channel](https://discord.gg/4K7My6kXSM).
+3. The Host IP is posted on the [Discord channel](https://discord.gg/2EZAtyqtzW).
 
 ## About this repository
 

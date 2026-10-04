@@ -11,14 +11,14 @@
 
 <p align="center">
   <a href="https://cesar-rgon.github.io/axiom-wars/">Web</a> ·
-  <a href="https://discord.gg/4K7My6kXSM">Discord</a> ·
+  <a href="https://discord.gg/3rsTp3DdGh">Discord</a> ·
   <a href="https://github.com/cesar-rgon/axiom-wars/releases/latest">Descargar</a> ·
   <a href="docs/unidades/README.md">Unidades</a> ·
   <a href="#balanceo">Balanceo</a>
 </p>
 
 > [!NOTE]
-> Axiom Wars está en desarrollo. Las partidas de prueba se organizan en el [Discord](https://discord.gg/4K7My6kXSM).
+> Axiom Wars está en desarrollo. Las partidas de prueba se organizan en el [Discord](https://discord.gg/3rsTp3DdGh).
 
 ## Qué es Axiom Wars
 
@@ -114,7 +114,7 @@ Incluye la matriz de daño arma contra unidad, la economía de PA, energía y co
 
 1. Descomprime el zip y abre **AxiomWars.exe** (Windows) o **AxiomWars** (Linux) dentro de la carpeta `AxiomWars`. Deja la carpeta `assets` a su lado.
 2. En el campo **Host (IP o DNS:puerto)** escribe la dirección del servidor.
-3. La IP del Host se publica en el [canal de Discord](https://discord.gg/4K7My6kXSM).
+3. La IP del Host se publica en el [canal de Discord](https://discord.gg/3rsTp3DdGh).
 
 ## Sobre este repositorio
 
