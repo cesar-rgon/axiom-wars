@@ -12,6 +12,7 @@
     'nav.shots': 'Capturas',
     'nav.museum': 'Museo',
     'nav.lang': 'Idioma',
+    'nav.music': 'Música',
 
     'hero.status': 'En desarrollo · partidas de prueba abiertas',
     'hero.tagline': 'Estrategia por rondas simultáneas. Todos ordenan a la vez; nadie espera su turno.',
@@ -131,6 +132,7 @@
     ['data-i18n-alt', function (el) { return el.alt; }, function (el, v) { el.alt = v; }],
     ['data-i18n-aria', function (el) { return el.getAttribute('aria-label'); }, function (el, v) { el.setAttribute('aria-label', v); }],
     ['data-i18n-phase', function (el) { return el.getAttribute('data-phase'); }, function (el, v) { el.setAttribute('data-phase', v); }],
+    ['data-i18n-title', function (el) { return el.title; }, function (el, v) { el.title = v; }],
     ['data-i18n-href', function (el) { return el.getAttribute('href'); }, function (el, v) { el.setAttribute('href', v); }]
   ];
   var EN = {};

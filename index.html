@@ -73,6 +73,25 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--ember); outline
 .lang select:hover { border-color: var(--plasma); }
 .lang select:focus-visible { outline: 2px solid var(--ember); outline-offset: 2px; }
 @media (max-width: 480px) { .lang > span { display: none; } }
+.music {
+  display: inline-flex; align-items: center; gap: 6px; height: 32px; padding: 0 9px;
+  color: var(--steel-dim); background: var(--hull-2); border: 1px solid var(--line); border-radius: 3px; cursor: pointer;
+}
+.music:hover { color: var(--steel); border-color: var(--plasma); }
+.music:focus-visible { outline: 2px solid var(--ember); outline-offset: 2px; }
+.music svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.music .spk { fill: currentColor; stroke: none; }
+.music .on, .music[aria-pressed="true"] .off { display: none; }
+.music[aria-pressed="true"] .on { display: inline; }
+.music[aria-pressed="true"] { color: var(--plasma); border-color: var(--plasma); }
+.music .bars { display: none; align-items: flex-end; gap: 2px; height: 12px; }
+.music[aria-pressed="true"] .bars { display: inline-flex; }
+.music .bars i { width: 2px; height: 100%; background: currentColor; transform-origin: bottom; animation: eq 1s ease-in-out infinite; }
+.music .bars i:nth-child(2) { animation-delay: -.35s; }
+.music .bars i:nth-child(3) { animation-delay: -.7s; }
+@keyframes eq { 0%, 100% { transform: scaleY(.3); } 50% { transform: scaleY(1); } }
+@media (prefers-reduced-motion: reduce) { .music .bars i { animation: none; transform: scaleY(.6); } }
+@media (max-width: 480px) { .topnav { gap: 12px; } .music .bars { display: none !important; } }
 
 /* Botones */
 .btn {
@@ -276,6 +295,11 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
           <option value="es">Español</option>
         </select>
       </label>
+      <button type="button" class="music" id="music" aria-pressed="false" aria-label="Music" data-i18n-aria="nav.music" title="Music" data-i18n-title="nav.music">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path class="spk" d="M4 9h4l5-4v14l-5-4H4z"/><path class="on" d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12"/><path class="off" d="M16.5 9.5l5 5M21.5 9.5l-5 5"/></svg>
+        <span class="bars" aria-hidden="true"><i></i><i></i><i></i></span>
+      </button>
+      <audio id="theme" src="assets/audio/main-theme.mp3" preload="none" loop></audio>
       <a class="btn btn-discord" href="https://discord.gg/2EZAtyqtzW" data-i18n-href="discord.href" target="_blank" rel="noopener">Discord</a>
     </nav>
   </div>
@@ -548,6 +572,49 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
   </div>
 </footer>
 <script src="assets/js/i18n.js"></script>
+<script>
+// Tema musical: apagado por defecto (los navegadores bloquean el audio automático).
+// Si el visitante lo dejó encendido, se reanuda en su primera interacción con la página.
+(function () {
+  var btn = document.getElementById('music'), audio = document.getElementById('theme');
+  if (!btn || !audio) return;
+  var KEY = 'axiomwars-music', VOL = 0.45, fade = 0;
+  function save(on) { try { localStorage.setItem(KEY, on ? 'on' : 'off'); } catch (e) {} }
+  function show(on) { btn.setAttribute('aria-pressed', on ? 'true' : 'false'); }
+  function ramp(to, done) {
+    clearInterval(fade);
+    fade = setInterval(function () {
+      var v = audio.volume + (to > audio.volume ? 0.03 : -0.05);
+      if ((to > audio.volume && v >= to) || (to <= audio.volume && v <= to)) {
+        audio.volume = to; clearInterval(fade); if (done) done();
+      } else audio.volume = v;
+    }, 50);
+  }
+  function play() {
+    audio.volume = 0;
+    var p = audio.play();
+    show(true);
+    if (p && p.catch) p.catch(function () { show(false); });
+    ramp(VOL);
+  }
+  function stop() { show(false); ramp(0, function () { audio.pause(); }); }
+  btn.addEventListener('click', function () {
+    var on = btn.getAttribute('aria-pressed') !== 'true';
+    save(on);
+    if (on) play(); else stop();
+  });
+  var saved = null;
+  try { saved = localStorage.getItem(KEY); } catch (e) {}
+  if (saved === 'on') {
+    var resume = function (ev) {
+      ['pointerdown', 'keydown'].forEach(function (t) { document.removeEventListener(t, resume, true); });
+      if (ev.target.closest && ev.target.closest('#music')) return; // el propio botón decide
+      if (btn.getAttribute('aria-pressed') !== 'true') play();
+    };
+    ['pointerdown', 'keydown'].forEach(function (t) { document.addEventListener(t, resume, true); });
+  }
+})();
+</script>
 <script>
 // Animación del logo portada de logofx.go: cada efecto es función pura del tiempo.
 (function () {
