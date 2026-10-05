@@ -121,10 +121,10 @@ It covers the weapon-versus-unit damage matrix, the AP economy, energy and purch
 
 <table>
   <tr>
-    <td align="center" width="25%" valign="bottom"><img src="assets/img/credits/rasec.webp" width="96" height="96" alt="RaseC logo"><br><sub>Creator and analyst</sub><br><b>RaseC</b></td>
-    <td align="center" width="25%" valign="bottom"><img src="assets/img/credits/claude.svg" width="56" height="56" alt="Claude logo"><br><sub>Programmer</sub><br><b>Claude AI</b></td>
-    <td align="center" width="25%" valign="bottom"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/credits/chatgpt.svg"><img src="assets/img/credits/chatgpt-black.svg" width="56" height="56" alt="ChatGPT logo"></picture><br><sub>Designer</sub><br><b>ChatGPT</b></td>
-    <td align="center" width="25%" valign="bottom"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/credits/suno.svg"><img src="assets/img/credits/suno-black.svg" width="56" height="56" alt="Suno logo"></picture><br><sub>Composer</sub><br><b>Suno AI</b></td>
+    <td align="center" width="25%" valign="top"><img src="assets/img/credits/rasec.webp" width="80" height="80" alt="RaseC logo"><br><sub>Creator and analyst</sub><br><b>RaseC</b></td>
+    <td align="center" width="25%" valign="top"><img src="assets/img/credits/claude-pad.svg" width="80" height="80" alt="Claude logo"><br><sub>Programmer</sub><br><b>Claude AI</b></td>
+    <td align="center" width="25%" valign="top"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/credits/chatgpt-pad.svg"><img src="assets/img/credits/chatgpt-black-pad.svg" width="80" height="80" alt="ChatGPT logo"></picture><br><sub>Designer</sub><br><b>ChatGPT</b></td>
+    <td align="center" width="25%" valign="top"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/credits/suno-pad.svg"><img src="assets/img/credits/suno-black-pad.svg" width="80" height="80" alt="Suno logo"></picture><br><sub>Composer</sub><br><b>Suno AI</b></td>
   </tr>
 </table>
 

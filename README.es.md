@@ -121,10 +121,10 @@ Incluye la matriz de daño arma contra unidad, la economía de PA, energía y co
 
 <table>
   <tr>
-    <td align="center" width="25%" valign="bottom"><img src="assets/img/credits/rasec.webp" width="96" height="96" alt="Logo de RaseC"><br><sub>Creador y analista</sub><br><b>RaseC</b></td>
-    <td align="center" width="25%" valign="bottom"><img src="assets/img/credits/claude.svg" width="56" height="56" alt="Logo de Claude"><br><sub>Programador</sub><br><b>Claude AI</b></td>
-    <td align="center" width="25%" valign="bottom"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/credits/chatgpt.svg"><img src="assets/img/credits/chatgpt-black.svg" width="56" height="56" alt="Logo de ChatGPT"></picture><br><sub>Diseñador</sub><br><b>ChatGPT</b></td>
-    <td align="center" width="25%" valign="bottom"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/credits/suno.svg"><img src="assets/img/credits/suno-black.svg" width="56" height="56" alt="Logo de Suno"></picture><br><sub>Compositor</sub><br><b>Suno AI</b></td>
+    <td align="center" width="25%" valign="top"><img src="assets/img/credits/rasec.webp" width="80" height="80" alt="Logo de RaseC"><br><sub>Creador y analista</sub><br><b>RaseC</b></td>
+    <td align="center" width="25%" valign="top"><img src="assets/img/credits/claude-pad.svg" width="80" height="80" alt="Logo de Claude"><br><sub>Programador</sub><br><b>Claude AI</b></td>
+    <td align="center" width="25%" valign="top"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/credits/chatgpt-pad.svg"><img src="assets/img/credits/chatgpt-black-pad.svg" width="80" height="80" alt="Logo de ChatGPT"></picture><br><sub>Diseñador</sub><br><b>ChatGPT</b></td>
+    <td align="center" width="25%" valign="top"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/credits/suno-pad.svg"><img src="assets/img/credits/suno-black-pad.svg" width="80" height="80" alt="Logo de Suno"></picture><br><sub>Compositor</sub><br><b>Suno AI</b></td>
   </tr>
 </table>
 
