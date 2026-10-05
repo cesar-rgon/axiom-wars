@@ -82,8 +82,6 @@
     'shots.c11': 'Ronda 11: el nuevo panel lateral muestra las armas, habilidades y pasivas de cada unidad junto a la cola de órdenes pendientes.',
     'shots.a10': 'Base con la cola de órdenes numerada, áreas de efecto superpuestas y un Explorador en marcha',
     'shots.c10': 'Cola de órdenes numerada, áreas de efecto superpuestas y un Explorador camino de su destino.',
-    'shots.a08': 'Ronda 1 planificando con un Constructor, flechas de movimiento y el área del Gobierno',
-    'shots.c08': 'Ronda 1: el Constructor planifica edificios y las flechas marcan sus movimientos.',
     'shots.a09': 'Resolución de ronda con dos lupas siguiendo acciones simultáneas',
     'shots.c09': 'Resolución de la ronda 2: las lupas siguen dos acciones que ocurren a la vez.',
 
@@ -91,7 +89,7 @@
     'mus.title': 'Desde los comienzos',
     'mus.intro': 'Axiom Wars empezó como un cliente de terminal. Estas son las versiones por las que ha pasado, de la más antigua a la más reciente.',
     'mus.s1': 'Etapa 1', 'mus.s2': 'Etapa 2', 'mus.s3': 'Etapa 3', 'mus.s4': 'Etapa 4',
-    'mus.s5': 'Etapa 5', 'mus.s6': 'Etapa 6', 'mus.s7': 'Etapa 7',
+    'mus.s5': 'Etapa 5', 'mus.s6': 'Etapa 6', 'mus.s7': 'Etapa 7', 'mus.s8': 'Etapa 8',
     'mus.a1': 'Cliente de terminal con el mapa dibujado en caracteres',
     'mus.t1': '<strong>Cliente de terminal.</strong> El mapa en caracteres ASCII y las órdenes escritas a mano: <code>build</code>, <code>move</code>, <code>end</code>.',
     'mus.a2': 'Primera interfaz gráfica con casillas planas y edificios como letras',
@@ -106,6 +104,8 @@
     'mus.t6': '<strong>Terreno nuevo.</strong> Hierba, lagos y bosques rediseñados, con los edificios marcados en el color del jugador.',
     'mus.a7': 'Interfaz con cola de órdenes, panel lateral y área de energía del Gobierno',
     'mus.t7': '<strong>Rondas simultáneas.</strong> Cola de órdenes, panel lateral de construcción y el área de energía al colocar un edificio.',
+    'mus.a8': 'Ronda 1 planificando con un Constructor, flechas de movimiento y el área del Gobierno',
+    'mus.t8': '<strong>Planificación sobre el mapa.</strong> El Constructor encadena órdenes de mover y construir, las flechas marcan su ruta y la cuadrícula muestra el área de energía del Gobierno.',
     'mus.hint': 'Desliza para recorrer la línea temporal →',
 
     'join.eyebrow': 'Comunidad',

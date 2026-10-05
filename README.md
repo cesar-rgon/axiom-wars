@@ -48,17 +48,17 @@ Up to 8 players, free-for-all or in teams (up to 4 versus 4). Empty seats are fi
 Screenshots from the current build. Click one to see it full size.
 
 <p align="center">
-  <a href="assets/img/galeria-10.webp"><img src="assets/img/galeria-10.webp" alt="Numbered order queue and overlapping areas of effect" width="100%"></a>
-  <br><sub>Numbered order queue, overlapping areas of effect and an Explorer heading to its destination.</sub>
+  <a href="assets/img/galeria-11.webp"><img src="assets/img/galeria-11.webp" alt="Round 11 with the side panel by unit and the pending orders queue" width="100%"></a>
+  <br><sub>Round 11: the new side panel shows each unit's weapons, abilities and passives next to the pending orders queue.</sub>
 </p>
 
 <table>
   <tr>
-    <td width="50%"><a href="assets/img/galeria-08.webp"><img src="assets/img/galeria-08.webp" alt="Round 1 planning with a Constructor"></a></td>
+    <td width="50%"><a href="assets/img/galeria-10.webp"><img src="assets/img/galeria-10.webp" alt="Numbered order queue and overlapping areas of effect"></a></td>
     <td width="50%"><a href="assets/img/galeria-09.webp"><img src="assets/img/galeria-09.webp" alt="Round resolution with two magnifiers"></a></td>
   </tr>
   <tr>
-    <td><sub>Round 1: the Constructor plans buildings and the arrows mark its moves.</sub></td>
+    <td><sub>Numbered order queue, overlapping areas of effect and an Explorer heading to its destination.</sub></td>
     <td><sub>Round 2 resolution: the magnifiers follow two actions happening at the same time.</sub></td>
   </tr>
 </table>
@@ -76,6 +76,7 @@ Axiom Wars started out as a terminal client. These are the versions it has gone 
 | **5** | <a href="assets/img/museo/05.webp"><img src="assets/img/museo/05.webp" width="260" alt="Workers on display"></a> | **Workers on display.** Each extractor shows below it how many of its four slots are filled. |
 | **6** | <a href="assets/img/museo/06.webp"><img src="assets/img/museo/06.webp" width="260" alt="New terrain"></a> | **New terrain.** Redesigned grass, lakes and forests, with buildings outlined in the player's color. |
 | **7** | <a href="assets/img/museo/07.webp"><img src="assets/img/museo/07.webp" width="260" alt="Simultaneous rounds"></a> | **Simultaneous rounds.** Order queue, side build panel and the energy area shown when placing a building. |
+| **8** | <a href="assets/img/museo/08.webp"><img src="assets/img/museo/08.webp" width="260" alt="Planning on the map"></a> | **Planning on the map.** The Constructor chains move-and-build orders, arrows mark its route and the grid shows the Government's energy area. |
 
 ## Units of the Terran Faction
 

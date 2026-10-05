@@ -48,17 +48,17 @@ Hasta 8 jugadores, todos contra todos o por equipos (hasta 4 contra 4). Los huec
 Capturas de la versión actual. Pulsa en una para verla a tamaño completo.
 
 <p align="center">
-  <a href="assets/img/galeria-10.webp"><img src="assets/img/galeria-10.webp" alt="Cola de órdenes numerada y áreas de efecto superpuestas" width="100%"></a>
-  <br><sub>Cola de órdenes numerada, áreas de efecto superpuestas y un Explorador camino de su destino.</sub>
+  <a href="assets/img/galeria-11.webp"><img src="assets/img/galeria-11.webp" alt="Ronda 11 con el panel lateral por unidad y la cola de órdenes pendientes" width="100%"></a>
+  <br><sub>Ronda 11: el nuevo panel lateral muestra las armas, habilidades y pasivas de cada unidad junto a la cola de órdenes pendientes.</sub>
 </p>
 
 <table>
   <tr>
-    <td width="50%"><a href="assets/img/galeria-08.webp"><img src="assets/img/galeria-08.webp" alt="Ronda 1 planificando con un Constructor"></a></td>
+    <td width="50%"><a href="assets/img/galeria-10.webp"><img src="assets/img/galeria-10.webp" alt="Cola de órdenes numerada y áreas de efecto superpuestas"></a></td>
     <td width="50%"><a href="assets/img/galeria-09.webp"><img src="assets/img/galeria-09.webp" alt="Resolución de ronda con dos lupas"></a></td>
   </tr>
   <tr>
-    <td><sub>Ronda 1: el Constructor planifica edificios y las flechas marcan sus movimientos.</sub></td>
+    <td><sub>Cola de órdenes numerada, áreas de efecto superpuestas y un Explorador camino de su destino.</sub></td>
     <td><sub>Resolución de la ronda 2: las lupas siguen dos acciones que ocurren a la vez.</sub></td>
   </tr>
 </table>
@@ -76,6 +76,7 @@ Axiom Wars empezó como un cliente de terminal. Estas son las versiones por las 
 | **5** | <a href="assets/img/museo/05.webp"><img src="assets/img/museo/05.webp" width="260" alt="Trabajadores a la vista"></a> | **Trabajadores a la vista.** Cada extractor muestra bajo él cuántos de sus cuatro puestos están ocupados. |
 | **6** | <a href="assets/img/museo/06.webp"><img src="assets/img/museo/06.webp" width="260" alt="Terreno nuevo"></a> | **Terreno nuevo.** Hierba, lagos y bosques rediseñados, con los edificios marcados en el color del jugador. |
 | **7** | <a href="assets/img/museo/07.webp"><img src="assets/img/museo/07.webp" width="260" alt="Rondas simultáneas"></a> | **Rondas simultáneas.** Cola de órdenes, panel lateral de construcción y el área de energía al colocar un edificio. |
+| **8** | <a href="assets/img/museo/08.webp"><img src="assets/img/museo/08.webp" width="260" alt="Planificación sobre el mapa"></a> | **Planificación sobre el mapa.** El Constructor encadena órdenes de mover y construir, las flechas marcan su ruta y la cuadrícula muestra el área de energía del Gobierno. |
 
 ## Unidades de la Facción Terránea
 
