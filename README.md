@@ -128,7 +128,7 @@ It covers the weapon-versus-unit damage matrix, the AP economy, energy and purch
   </tr>
 </table>
 
-**Helpers:** Kiwi · Gameover · Nightlane · Calheb · Miky · Fr4nk50
+**Design advisors:** Kiwi · Gameover · Nightlane · Calheb · Miky · Fr4nk50
 
 ## About this repository
 

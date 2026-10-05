@@ -126,7 +126,7 @@
     'cred.programmer': 'Programador',
     'cred.designer': 'Diseñador',
     'cred.composer': 'Compositor',
-    'cred.helpers': 'Ayudantes',
+    'cred.helpers': 'Asesores de diseño',
     'cred.a.rasec': 'Logo de RaseC', 'cred.a.claude': 'Logo de Claude',
     'cred.a.chatgpt': 'Logo de ChatGPT', 'cred.a.suno': 'Logo de Suno',
     'foot.text': 'Axiom Wars · juego en desarrollo',

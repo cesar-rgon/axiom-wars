@@ -128,7 +128,7 @@ Incluye la matriz de daño arma contra unidad, la economía de PA, energía y co
   </tr>
 </table>
 
-**Ayudantes:** Kiwi · Gameover · Nightlane · Calheb · Miky · Fr4nk50
+**Asesores de diseño:** Kiwi · Gameover · Nightlane · Calheb · Miky · Fr4nk50
 
 ## Sobre este repositorio
 
