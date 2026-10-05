@@ -277,6 +277,19 @@ h3 { font: 600 1.15rem/1.3 var(--font-display); margin: 0; color: #e8eef7; lette
 .connect code { font: 500 .88em var(--font-mono); color: var(--steel); }
 .dl.soon .arrow { color: var(--steel-dim); }
 
+/* Créditos */
+.credits { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; margin: 26px 0 0; padding: 0; list-style: none; }
+@media (max-width: 860px) { .credits { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.credit { display: grid; justify-items: center; text-align: center; gap: 6px; padding: 22px 14px 20px; background: var(--hull); border: 1px solid var(--line); min-width: 0; }
+.credit .logo { width: 84px; height: 84px; display: grid; place-items: center; margin-bottom: 6px; }
+.credit .logo img { width: 52px; height: 52px; }
+.credit .logo.rasec img { width: 84px; height: 84px; filter: drop-shadow(0 4px 14px color-mix(in srgb, var(--ember) 30%, transparent)); }
+.credit .role { font: 500 .72rem var(--font-mono); letter-spacing: .12em; text-transform: uppercase; color: var(--violet); }
+.credit .name { font: 600 1.1rem var(--font-display); letter-spacing: .04em; color: #e8eef7; }
+.helpers { margin-top: 14px; padding: 18px 20px; background: var(--hull); border: 1px solid var(--line); display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; }
+.helpers .role { font: 500 .72rem var(--font-mono); letter-spacing: .12em; text-transform: uppercase; color: var(--violet); margin-right: 6px; }
+.helpers ul { display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 0; list-style: none; }
+.helpers li { font: 500 .9rem var(--font-display); letter-spacing: .04em; color: var(--steel); padding: 4px 12px; border: 1px solid var(--line); background: var(--hull-2); border-radius: 2px; }
 footer { border-top: 1px solid var(--line); padding-block: 28px 40px; color: var(--steel-dim); font-size: .85rem; }
 footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; }
 </style>
@@ -566,12 +579,47 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
       </div>
     </div>
   </section>
+
+  <section id="creditos">
+    <div class="wrap">
+      <p class="eyebrow" data-i18n="cred.eyebrow">Credits</p>
+      <h2 data-i18n="cred.title">Who makes Axiom Wars</h2>
+      <ul class="credits">
+        <li class="credit">
+          <span class="logo rasec"><img src="assets/img/credits/rasec.webp" alt="RaseC logo" data-i18n-alt="cred.a.rasec" loading="lazy" width="256" height="256"></span>
+          <span class="role" data-i18n="cred.creator">Creator and analyst</span>
+          <span class="name">RaseC</span>
+        </li>
+        <li class="credit">
+          <span class="logo"><img src="assets/img/credits/claude.svg" alt="Claude logo" data-i18n-alt="cred.a.claude" loading="lazy" width="52" height="52"></span>
+          <span class="role" data-i18n="cred.programmer">Programmer</span>
+          <span class="name">Claude AI</span>
+        </li>
+        <li class="credit">
+          <span class="logo"><img src="assets/img/credits/chatgpt.svg" alt="ChatGPT logo" data-i18n-alt="cred.a.chatgpt" loading="lazy" width="52" height="52"></span>
+          <span class="role" data-i18n="cred.designer">Designer</span>
+          <span class="name">ChatGPT</span>
+        </li>
+        <li class="credit">
+          <span class="logo"><img src="assets/img/credits/suno.svg" alt="Suno logo" data-i18n-alt="cred.a.suno" loading="lazy" width="52" height="52"></span>
+          <span class="role" data-i18n="cred.composer">Composer</span>
+          <span class="name">Suno AI</span>
+        </li>
+      </ul>
+      <div class="helpers">
+        <span class="role" data-i18n="cred.helpers">Helpers</span>
+        <ul>
+          <li>Kiwi</li><li>Gameover</li><li>Nightlane</li><li>Calheb</li><li>Miky</li><li>Fr4nk50</li>
+        </ul>
+      </div>
+    </div>
+  </section>
 </main>
 
 <footer>
   <div class="wrap">
     <span data-i18n="foot.text">Axiom Wars · game in development</span>
-    <a href="https://discord.gg/2EZAtyqtzW" data-i18n-href="discord.href" target="_blank" rel="noopener">Discord</a>
+    <span class="foot-links"><a href="#creditos" data-i18n="cred.eyebrow">Credits</a> · <a href="https://discord.gg/2EZAtyqtzW" data-i18n-href="discord.href" target="_blank" rel="noopener">Discord</a></span>
   </div>
 </footer>
 <script src="assets/js/i18n.js"></script>

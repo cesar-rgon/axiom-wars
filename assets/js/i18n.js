@@ -120,6 +120,15 @@
     'dl.c1': 'Descomprime el zip y abre <strong>AxiomWars.exe</strong> (Windows) o <strong>AxiomWars</strong> (Linux) dentro de la carpeta AxiomWars. Deja la carpeta <code>assets</code> a su lado.',
     'dl.c2': 'En el campo <strong>Host (IP o DNS:puerto)</strong> escribe la dirección del servidor.',
     'dl.c3': 'La IP del Host se publica en el <a href="https://discord.gg/3rsTp3DdGh" target="_blank" rel="noopener">canal de Discord</a>.',
+    'cred.eyebrow': 'Créditos',
+    'cred.title': 'Quién hace Axiom Wars',
+    'cred.creator': 'Creador y analista',
+    'cred.programmer': 'Programador',
+    'cred.designer': 'Diseñador',
+    'cred.composer': 'Compositor',
+    'cred.helpers': 'Ayudantes',
+    'cred.a.rasec': 'Logo de RaseC', 'cred.a.claude': 'Logo de Claude',
+    'cred.a.chatgpt': 'Logo de ChatGPT', 'cred.a.suno': 'Logo de Suno',
     'foot.text': 'Axiom Wars · juego en desarrollo',
     // Cada idioma tiene su propia invitación al Discord.
     'discord.href': 'https://discord.gg/3rsTp3DdGh'
