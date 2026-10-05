@@ -78,6 +78,8 @@
     'shots.eyebrow': 'Capturas',
     'shots.title': 'Así se ve hoy',
     'shots.intro': 'Capturas de la versión actual en desarrollo. Pulsa en una para verla a tamaño completo.',
+    'shots.a11': 'Base en la ronda 11 con el Centro de Entrenamiento seleccionado, el panel lateral por unidad con armas, habilidades y pasivas, y la cola de órdenes pendientes',
+    'shots.c11': 'Ronda 11: el nuevo panel lateral muestra las armas, habilidades y pasivas de cada unidad junto a la cola de órdenes pendientes.',
     'shots.a10': 'Base con la cola de órdenes numerada, áreas de efecto superpuestas y un Explorador en marcha',
     'shots.c10': 'Cola de órdenes numerada, áreas de efecto superpuestas y un Explorador camino de su destino.',
     'shots.a08': 'Ronda 1 planificando con un Constructor, flechas de movimiento y el área del Gobierno',
