@@ -117,13 +117,26 @@ It covers the weapon-versus-unit damage matrix, the AP economy, energy and purch
 2. In the **Host (IP or DNS:port)** field, type the server address.
 3. The Host IP is posted on the [Discord channel](https://discord.gg/2EZAtyqtzW).
 
+## Credits
+
+<table>
+  <tr>
+    <td align="center" width="25%" valign="bottom"><img src="assets/img/credits/rasec.webp" width="96" height="96" alt="RaseC logo"><br><sub>Creator and analyst</sub><br><b>RaseC</b></td>
+    <td align="center" width="25%" valign="bottom"><img src="assets/img/credits/claude.svg" width="56" height="56" alt="Claude logo"><br><sub>Programmer</sub><br><b>Claude AI</b></td>
+    <td align="center" width="25%" valign="bottom"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/credits/chatgpt.svg"><img src="assets/img/credits/chatgpt-black.svg" width="56" height="56" alt="ChatGPT logo"></picture><br><sub>Designer</sub><br><b>ChatGPT</b></td>
+    <td align="center" width="25%" valign="bottom"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/credits/suno.svg"><img src="assets/img/credits/suno-black.svg" width="56" height="56" alt="Suno logo"></picture><br><sub>Composer</sub><br><b>Suno AI</b></td>
+  </tr>
+</table>
+
+**Helpers:** Kiwi · Gameover · Nightlane · Calheb · Miky · Fr4nk50
+
 ## About this repository
 
 This repository hosts the game's website (GitHub Pages) and the client downloads (Releases). The game's code is developed separately.
 
 ```
 index.html          website published at https://cesar-rgon.github.io/axiom-wars/
-assets/img/         logo, units, gallery and museum
+assets/img/         logo, units, gallery, museum and credits
 assets/js/i18n.js   Spanish translation of the website (English is the default)
 docs/units/         Terran unit sheets (Markdown and PDF)
 docs/balance/       balance report (HTML and PDF)

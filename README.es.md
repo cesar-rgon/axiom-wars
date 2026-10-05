@@ -117,13 +117,26 @@ Incluye la matriz de daño arma contra unidad, la economía de PA, energía y co
 2. En el campo **Host (IP o DNS:puerto)** escribe la dirección del servidor.
 3. La IP del Host se publica en el [canal de Discord](https://discord.gg/3rsTp3DdGh).
 
+## Créditos
+
+<table>
+  <tr>
+    <td align="center" width="25%" valign="bottom"><img src="assets/img/credits/rasec.webp" width="96" height="96" alt="Logo de RaseC"><br><sub>Creador y analista</sub><br><b>RaseC</b></td>
+    <td align="center" width="25%" valign="bottom"><img src="assets/img/credits/claude.svg" width="56" height="56" alt="Logo de Claude"><br><sub>Programador</sub><br><b>Claude AI</b></td>
+    <td align="center" width="25%" valign="bottom"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/credits/chatgpt.svg"><img src="assets/img/credits/chatgpt-black.svg" width="56" height="56" alt="Logo de ChatGPT"></picture><br><sub>Diseñador</sub><br><b>ChatGPT</b></td>
+    <td align="center" width="25%" valign="bottom"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/credits/suno.svg"><img src="assets/img/credits/suno-black.svg" width="56" height="56" alt="Logo de Suno"></picture><br><sub>Compositor</sub><br><b>Suno AI</b></td>
+  </tr>
+</table>
+
+**Ayudantes:** Kiwi · Gameover · Nightlane · Calheb · Miky · Fr4nk50
+
 ## Sobre este repositorio
 
 Este repositorio aloja la web del juego (GitHub Pages) y las descargas del cliente (Releases). El código del juego se desarrolla aparte.
 
 ```
 index.html          web publicada en https://cesar-rgon.github.io/axiom-wars/
-assets/img/         logo, unidades, galería y museo
+assets/img/         logo, unidades, galería, museo y créditos
 assets/js/i18n.js   traducción al español de la web (por defecto, inglés)
 docs/unidades/      fichas de las unidades Terráneas (Markdown y PDF)
 docs/balanceo/      informe de balanceo (HTML y PDF)
