@@ -124,11 +124,12 @@
     'cred.title': 'Quién hace Axiom Wars',
     'cred.creator': 'Creador y analista',
     'cred.programmer': 'Programador',
-    'cred.designer': 'Diseñador',
+    'cred.designers': 'Diseñadores',
     'cred.composer': 'Compositor',
     'cred.helpers': 'Analistas colaboradores',
     'cred.a.rasec': 'Logo de RaseC', 'cred.a.claude': 'Logo de Claude',
     'cred.a.chatgpt': 'Logo de ChatGPT', 'cred.a.suno': 'Logo de Suno',
+    'cred.a.chara': 'Logo de Chara', 'cred.a.niji': 'Logo de Niji·Journey',
     'foot.text': 'Axiom Wars · juego en desarrollo',
     // Cada idioma tiene su propia invitación al Discord.
     'discord.href': 'https://discord.gg/3rsTp3DdGh'

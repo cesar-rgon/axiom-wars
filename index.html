@@ -278,14 +278,21 @@ h3 { font: 600 1.15rem/1.3 var(--font-display); margin: 0; color: #e8eef7; lette
 .dl.soon .arrow { color: var(--steel-dim); }
 
 /* Créditos */
-.credits { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; margin: 26px 0 0; padding: 0; list-style: none; }
-@media (max-width: 860px) { .credits { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
-.credit { display: grid; justify-items: center; text-align: center; gap: 6px; padding: 22px 14px 20px; background: var(--hull); border: 1px solid var(--line); min-width: 0; }
+.credits { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 14px; margin: 26px 0 0; padding: 0; list-style: none; }
+@media (max-width: 860px) { .credits { grid-template-columns: repeat(2, minmax(0, 1fr)); } .credit.team { order: 9; } }
+.credit { display: grid; justify-items: center; align-content: start; text-align: center; gap: 6px; padding: 22px 14px 20px; background: var(--hull); border: 1px solid var(--line); min-width: 0; }
 .credit .logo { width: 84px; height: 84px; display: grid; place-items: center; margin-bottom: 6px; }
 .credit .logo img { width: 52px; height: 52px; }
 .credit .logo.rasec img { width: 84px; height: 84px; filter: drop-shadow(0 4px 14px color-mix(in srgb, var(--ember) 30%, transparent)); }
 .credit .role { font: 500 .72rem var(--font-mono); letter-spacing: .12em; text-transform: uppercase; color: var(--violet); }
 .credit .name { font: 600 1.1rem var(--font-display); letter-spacing: .04em; color: #e8eef7; }
+/* Ficha de equipo (Diseñadores): fila de medallones, rol, fila de nombres */
+.credit.team { grid-column: span 2; }
+.credit.team .members { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); justify-items: center; gap: 6px 10px; width: 100%; }
+.credit.team .role { grid-column: 1 / -1; }
+.credit .badge { width: 84px; height: 84px; margin-bottom: 6px; border-radius: 50%; display: grid; place-items: center; background: var(--hull-2); border: 1px solid var(--line); overflow: hidden; }
+.credit .badge img { width: 50px; height: 50px; }
+.credit .badge.photo img { width: 100%; height: 100%; object-fit: cover; }
 .helpers { margin-top: 14px; padding: 18px 20px; background: var(--hull); border: 1px solid var(--line); display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; }
 .helpers .role { font: 500 .72rem var(--font-mono); letter-spacing: .12em; text-transform: uppercase; color: var(--violet); margin-right: 6px; }
 .helpers ul { display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 0; list-style: none; }
@@ -595,10 +602,16 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
           <span class="role" data-i18n="cred.programmer">Programmer</span>
           <span class="name">Claude AI</span>
         </li>
-        <li class="credit">
-          <span class="logo"><img src="assets/img/credits/chatgpt.svg" alt="ChatGPT logo" data-i18n-alt="cred.a.chatgpt" loading="lazy" width="52" height="52"></span>
-          <span class="role" data-i18n="cred.designer">Designer</span>
-          <span class="name">ChatGPT</span>
+        <li class="credit team">
+          <div class="members">
+            <span class="badge photo"><img src="assets/img/credits/chara.webp" alt="Chara logo" data-i18n-alt="cred.a.chara" loading="lazy" width="256" height="256"></span>
+            <span class="badge"><img src="assets/img/credits/chatgpt.svg" alt="ChatGPT logo" data-i18n-alt="cred.a.chatgpt" loading="lazy" width="50" height="50"></span>
+            <span class="badge"><img src="assets/img/credits/niji.webp" alt="Niji·Journey logo" data-i18n-alt="cred.a.niji" loading="lazy" width="180" height="180"></span>
+            <span class="role" data-i18n="cred.designers">Designers</span>
+            <span class="name">Chara</span>
+            <span class="name">ChatGPT AI</span>
+            <span class="name">Niji·Journey AI</span>
+          </div>
         </li>
         <li class="credit">
           <span class="logo"><img src="assets/img/credits/suno.svg" alt="Suno logo" data-i18n-alt="cred.a.suno" loading="lazy" width="52" height="52"></span>
@@ -609,7 +622,7 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
       <div class="helpers">
         <span class="role" data-i18n="cred.helpers">Contributing analysts</span>
         <ul>
-          <li>Kiwi</li><li>Gameover</li><li>Nightlane</li><li>Calheb</li><li>Miky</li><li>Fr4nk50</li>
+          <li>Chara</li><li>Kiwi</li><li>Gameover</li><li>Nightlane</li><li>Calheb</li><li>Miky</li><li>Fr4nk50</li>
         </ul>
       </div>
     </div>
