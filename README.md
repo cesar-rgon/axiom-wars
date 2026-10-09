@@ -124,9 +124,9 @@ It covers the weapon-versus-unit damage matrix, the AP economy, energy and purch
     <td align="center" width="20%" valign="top"><img src="assets/img/credits/rasec.webp" width="80" height="80" alt="RaseC logo"><br><sub>Creator and analyst</sub><br><b>RaseC</b></td>
     <td align="center" width="20%" valign="top"><img src="assets/img/credits/claude-pad.svg" width="80" height="80" alt="Claude logo"><br><sub>Programmer</sub><br><b>Claude AI</b></td>
     <td align="center" width="40%" valign="top"><table>
-      <tr><td align="center"><img src="assets/img/credits/chara-badge.webp" width="80" height="80" alt="Chara logo"></td><td align="center"><img src="assets/img/credits/chatgpt-badge.webp" width="80" height="80" alt="ChatGPT logo"></td><td align="center"><img src="assets/img/credits/niji-badge.webp" width="80" height="80" alt="Niji·Journey logo"></td></tr>
-      <tr><td align="center" colspan="3"><sub>Designers</sub></td></tr>
-      <tr><td align="center"><b>Chara</b></td><td align="center"><b>ChatGPT AI</b></td><td align="center"><b>Niji·Journey AI</b></td></tr>
+      <tr><td align="center"><img src="assets/img/credits/chara-badge.webp" width="80" height="80" alt="Chara logo"></td><td align="center"><img src="assets/img/credits/rasec.webp" width="80" height="80" alt="RaseC logo"></td><td align="center"><img src="assets/img/credits/chatgpt-badge.webp" width="80" height="80" alt="ChatGPT logo"></td><td align="center"><img src="assets/img/credits/niji-badge.webp" width="80" height="80" alt="Niji·Journey logo"></td></tr>
+      <tr><td align="center" colspan="4"><sub>Designers</sub></td></tr>
+      <tr><td align="center"><b>Chara</b></td><td align="center"><b>RaseC</b></td><td align="center"><b>ChatGPT AI</b></td><td align="center"><b>Niji·Journey AI</b></td></tr>
     </table></td>
     <td align="center" width="20%" valign="top"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/credits/suno-pad.svg"><img src="assets/img/credits/suno-black-pad.svg" width="80" height="80" alt="Suno logo"></picture><br><sub>Composer</sub><br><b>Suno AI</b></td>
   </tr>

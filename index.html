@@ -288,8 +288,10 @@ h3 { font: 600 1.15rem/1.3 var(--font-display); margin: 0; color: #e8eef7; lette
 .credit .name { font: 600 1.1rem var(--font-display); letter-spacing: .04em; color: #e8eef7; }
 /* Ficha de equipo (Diseñadores): fila de medallones, rol, fila de nombres */
 .credit.team { grid-column: span 2; }
-.credit.team .members { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); justify-items: center; gap: 6px 10px; width: 100%; }
+.credit.team .members { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); justify-items: center; gap: 6px 10px; width: 100%; }
 .credit.team .role { grid-column: 1 / -1; }
+.credit.team .name { font-size: 1rem; min-width: 0; overflow-wrap: anywhere; }
+@media (max-width: 520px) { .credit.team .members { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 .credit .badge { width: 84px; height: 84px; margin-bottom: 6px; border-radius: 50%; display: grid; place-items: center; background: var(--hull-2); border: 1px solid var(--line); overflow: hidden; }
 .credit .badge img { width: 50px; height: 50px; }
 .credit .badge.photo img { width: 100%; height: 100%; object-fit: cover; }
@@ -605,10 +607,12 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
         <li class="credit team">
           <div class="members">
             <span class="badge photo"><img src="assets/img/credits/chara.webp" alt="Chara logo" data-i18n-alt="cred.a.chara" loading="lazy" width="256" height="256"></span>
+            <span class="badge photo"><img src="assets/img/credits/rasec.webp" alt="RaseC logo" data-i18n-alt="cred.a.rasec" loading="lazy" width="256" height="256"></span>
             <span class="badge"><img src="assets/img/credits/chatgpt.svg" alt="ChatGPT logo" data-i18n-alt="cred.a.chatgpt" loading="lazy" width="50" height="50"></span>
             <span class="badge"><img src="assets/img/credits/niji.webp" alt="Niji·Journey logo" data-i18n-alt="cred.a.niji" loading="lazy" width="180" height="180"></span>
             <span class="role" data-i18n="cred.designers">Designers</span>
             <span class="name">Chara</span>
+            <span class="name">RaseC</span>
             <span class="name">ChatGPT AI</span>
             <span class="name">Niji·Journey AI</span>
           </div>

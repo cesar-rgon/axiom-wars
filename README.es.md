@@ -124,9 +124,9 @@ Incluye la matriz de daño arma contra unidad, la economía de PA, energía y co
     <td align="center" width="20%" valign="top"><img src="assets/img/credits/rasec.webp" width="80" height="80" alt="Logo de RaseC"><br><sub>Creador y analista</sub><br><b>RaseC</b></td>
     <td align="center" width="20%" valign="top"><img src="assets/img/credits/claude-pad.svg" width="80" height="80" alt="Logo de Claude"><br><sub>Programador</sub><br><b>Claude AI</b></td>
     <td align="center" width="40%" valign="top"><table>
-      <tr><td align="center"><img src="assets/img/credits/chara-badge.webp" width="80" height="80" alt="Logo de Chara"></td><td align="center"><img src="assets/img/credits/chatgpt-badge.webp" width="80" height="80" alt="Logo de ChatGPT"></td><td align="center"><img src="assets/img/credits/niji-badge.webp" width="80" height="80" alt="Logo de Niji·Journey"></td></tr>
-      <tr><td align="center" colspan="3"><sub>Diseñadores</sub></td></tr>
-      <tr><td align="center"><b>Chara</b></td><td align="center"><b>ChatGPT AI</b></td><td align="center"><b>Niji·Journey AI</b></td></tr>
+      <tr><td align="center"><img src="assets/img/credits/chara-badge.webp" width="80" height="80" alt="Logo de Chara"></td><td align="center"><img src="assets/img/credits/rasec.webp" width="80" height="80" alt="Logo de RaseC"></td><td align="center"><img src="assets/img/credits/chatgpt-badge.webp" width="80" height="80" alt="Logo de ChatGPT"></td><td align="center"><img src="assets/img/credits/niji-badge.webp" width="80" height="80" alt="Logo de Niji·Journey"></td></tr>
+      <tr><td align="center" colspan="4"><sub>Diseñadores</sub></td></tr>
+      <tr><td align="center"><b>Chara</b></td><td align="center"><b>RaseC</b></td><td align="center"><b>ChatGPT AI</b></td><td align="center"><b>Niji·Journey AI</b></td></tr>
     </table></td>
     <td align="center" width="20%" valign="top"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/credits/suno-pad.svg"><img src="assets/img/credits/suno-black-pad.svg" width="80" height="80" alt="Logo de Suno"></picture><br><sub>Compositor</sub><br><b>Suno AI</b></td>
   </tr>
