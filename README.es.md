@@ -14,6 +14,7 @@
   <a href="https://discord.gg/3rsTp3DdGh">Discord</a> ·
   <a href="https://github.com/cesar-rgon/axiom-wars/releases/latest">Descargar</a> ·
   <a href="docs/unidades/README.md">Unidades</a> ·
+  <a href="#criaturas-de-mapa">Criaturas</a> ·
   <a href="#balanceo">Balanceo</a>
 </p>
 
@@ -95,6 +96,37 @@ Nueve unidades, de la mina al cielo. Cada ficha detalla producción, mantenimien
 | <img src="assets/img/units/droide.png" width="48" alt=""> | [Droide](docs/unidades/droide.md) | Ligera · aérea | 60 | 120 | 8 |
 
 Índice con el papel de cada unidad: [docs/unidades](docs/unidades/README.md) · Las nueve fichas para imprimir: [Fichas-Terranea.pdf](docs/unidades/Fichas-Terranea.pdf)
+
+## Criaturas de mapa
+
+Criaturas neutrales que no pertenecen a ningún jugador. Las dóciles deambulan por su hábitat y dan comida a quien las caza; las agresivas custodian los contenedores con premio y los pools de recursos, atacan a cualquier tropa o edificio que vean y vuelven a su puesto a curarse. Su nivel (1–5) fija el rango del que salen su vida, su escudo y su daño.
+
+### Dóciles
+
+| | Criatura | Hábitat | Vida | Comida |
+|---|---|---|---:|---:|
+| <img src="assets/img/creatures/bamber.webp" width="48" alt=""> | Bamber | Pradera | 30 | 30 |
+| <img src="assets/img/creatures/tuki.webp" width="48" alt=""> | Tuki | Pradera | 60 | 60 |
+| <img src="assets/img/creatures/sapino.webp" width="48" alt=""> | Sapino | Orillas de agua | 40 | 30 |
+| <img src="assets/img/creatures/terima.webp" width="48" alt=""> | Terima | Orillas de petróleo | 30 | 20 |
+| <img src="assets/img/creatures/kronta.webp" width="48" alt=""> | Kronta | Llanura | 50 | 40 |
+
+### Agresivas
+
+| | Criatura | Nivel | Casillas | Ataque | |
+|---|---|---:|:---:|---|---|
+| <img src="assets/img/creatures/aquadeso.webp" width="48" alt=""> | Aquadeso | 1 | 1×1 | Cuerpo a cuerpo | Embosca con sus garras cerca del agua. |
+| <img src="assets/img/creatures/obidicto.webp" width="48" alt=""> | Obidicto | 1 | 1×1 | Láser (4) | Soldado alienígena que dispara pulsos láser a 4 casillas. |
+| <img src="assets/img/creatures/aratico.webp" width="48" alt=""> | Aratico | 2 | 1×1 | Telaraña (3) | Araña mecánica: su tela ralentiza a la presa 2 rondas. |
+| <img src="assets/img/creatures/pescualido.webp" width="48" alt=""> | Pescualido | 2 | 1×1 | Bola de ácido (4) | Escupe ácido: la mitad del daño atraviesa el escudo. |
+| <img src="assets/img/creatures/serpenta.webp" width="48" alt=""> | Serpenta | 2 | 1×1 | Cuerpo a cuerpo | Serpiente veloz de mordisco feroz. |
+| <img src="assets/img/creatures/maricobra.webp" width="48" alt=""> | Maricobra | 3 | 1×1 | Área venenosa (4) | Sus alas esparcen una nube venenosa sobre un área de 3×3. |
+| <img src="assets/img/creatures/zarpatauro.webp" width="48" alt=""> | Zarpatauro | 3 | 1×1 | Cuerpo a cuerpo | Bruto con garras hechas para romper blindaje pesado. |
+| <img src="assets/img/creatures/aracnoso.webp" width="48" alt=""> | Aracnoso | 4 | 2×1 | Golpe aturdidor | Su golpe aturde al objetivo una ronda entera. |
+| <img src="assets/img/creatures/cocodactilo.webp" width="48" alt=""> | Cocodáctilo | 4 | 2×1 | Área de llamas (3) | Escupe fuego sobre un área de 3×3 que sigue quemando. |
+| <img src="assets/img/creatures/devastador.webp" width="48" alt=""> | Devastador | 4 | 1×2 | Rayo perseguidor (6) | Su rayo salta en arco por hasta 3 objetivos cercanos, más débil en cada salto. |
+| <img src="assets/img/creatures/rinotortuga.webp" width="48" alt=""> | Rinotortuga | 5 | 2×1 | Cornada + misiles (5) | Mecánica. Su cuerno empuja a las tropas y sus baterías lanzan ráfagas de misiles sobre un área de 3×3. |
+| <img src="assets/img/creatures/ultimo_aliento.webp" width="48" alt=""> | Último Aliento | 5 | 2×2 | Zarpazo en área + llama azul (4) | El gran depredador: zarpazo en área que ralentiza y una llama azul que rompe todos los escudos que toca. |
 
 ## Balanceo
 

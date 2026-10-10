@@ -190,6 +190,7 @@ h3 { font: 600 1.15rem/1.3 var(--font-display); margin: 0; color: #e8eef7; lette
 .res span { font: 500 .75rem var(--font-mono); padding: 2px 8px; border: 1px solid var(--line); border-radius: 2px; color: var(--steel); background: var(--hull); }
 
 /* Unidades */
+h3.sub { font-family: var(--font-display, inherit); margin: 28px 0 12px; color: var(--steel); letter-spacing: .04em; }
 .units { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
 @media (max-width: 860px) { .units { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 520px) { .units { grid-template-columns: minmax(0, 1fr); } }
@@ -312,6 +313,7 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
     <nav class="topnav" aria-label="Sections" data-i18n-aria="nav.aria">
       <a href="#ronda" data-i18n="nav.play">How to play</a>
       <a href="#faccion" data-i18n="nav.faction">Faction</a>
+      <a href="#criaturas" data-i18n="nav.creatures">Creatures</a>
       <a href="#capturas" data-i18n="nav.shots">Screenshots</a>
       <a href="#museo" data-i18n="nav.museum">Museum</a>
       <label class="lang"><span data-i18n="nav.lang">Language</span>
@@ -480,6 +482,139 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
         </article>
       </div>
       <p class="more-links"><a href="https://github.com/cesar-rgon/axiom-wars/blob/main/docs/units/README.md" target="_blank" rel="noopener" data-i18n="fac.sheets" data-i18n-href="fac.sheets.href">Full unit sheets</a> · <a href="docs/balance/" data-i18n="fac.balance" data-i18n-href="fac.balance.href">Balance report</a></p>
+    </div>
+  </section>
+
+  <section id="criaturas">
+    <div class="wrap">
+      <p class="eyebrow" data-i18n="cre.eyebrow">Map creatures</p>
+      <h2 data-i18n="cre.title">The wildlife of the map</h2>
+      <p class="section-intro" data-i18n="cre.intro">Neutral creatures that belong to no player. The docile ones wander their own habitat and give Food to whoever hunts them. The aggressive ones guard the reward containers and the resource pools: they attack any troop or building in sight, chase it, and go back to their post to heal. Their level (1–5) sets the range their health, shield and damage are rolled from.</p>
+      <h3 class="sub" data-i18n="cre.docile">Docile</h3>
+      <div class="units">
+        <article class="unit">
+          <img src="assets/img/creatures/bamber.webp" alt="" loading="lazy">
+          <span class="tags" data-i18n="cr.bamber.tags">Docile · grassland</span>
+          <h3 data-i18n="cr.bamber">Bamber</h3>
+          <p data-i18n="cr.bamber.d">A swift grazer with glowing veins. Roams the grasslands.</p>
+          <dl class="stats"><div><dt data-i18n="st.hp">Health</dt><dd>30</dd></div><div><dt data-i18n="st.food">Food</dt><dd>30</dd></div><div><dt data-i18n="st.vision">Vision</dt><dd>4</dd></div></dl>
+        </article>
+        <article class="unit">
+          <img src="assets/img/creatures/tuki.webp" alt="" loading="lazy">
+          <span class="tags" data-i18n="cr.tuki.tags">Docile · grassland</span>
+          <h3 data-i18n="cr.tuki">Tuki</h3>
+          <p data-i18n="cr.tuki.d">Big, fluffy and slow: the richest hunt on the grasslands.</p>
+          <dl class="stats"><div><dt data-i18n="st.hp">Health</dt><dd>60</dd></div><div><dt data-i18n="st.food">Food</dt><dd>60</dd></div><div><dt data-i18n="st.vision">Vision</dt><dd>3</dd></div></dl>
+        </article>
+        <article class="unit">
+          <img src="assets/img/creatures/sapino.webp" alt="" loading="lazy">
+          <span class="tags" data-i18n="cr.sapino.tags">Docile · lakeshore</span>
+          <h3 data-i18n="cr.sapino">Sapino</h3>
+          <p data-i18n="cr.sapino.d">An amphibian that hops along the shores of the lakes.</p>
+          <dl class="stats"><div><dt data-i18n="st.hp">Health</dt><dd>40</dd></div><div><dt data-i18n="st.food">Food</dt><dd>30</dd></div><div><dt data-i18n="st.vision">Vision</dt><dd>3</dd></div></dl>
+        </article>
+        <article class="unit">
+          <img src="assets/img/creatures/terima.webp" alt="" loading="lazy">
+          <span class="tags" data-i18n="cr.terima.tags">Docile · oil shore</span>
+          <h3 data-i18n="cr.terima">Terima</h3>
+          <p data-i18n="cr.terima.d">Floats along the shores of the oil lakes.</p>
+          <dl class="stats"><div><dt data-i18n="st.hp">Health</dt><dd>30</dd></div><div><dt data-i18n="st.food">Food</dt><dd>20</dd></div><div><dt data-i18n="st.vision">Vision</dt><dd>3</dd></div></dl>
+        </article>
+        <article class="unit">
+          <img src="assets/img/creatures/kronta.webp" alt="" loading="lazy">
+          <span class="tags" data-i18n="cr.kronta.tags">Docile · plains</span>
+          <h3 data-i18n="cr.kronta">Kronta</h3>
+          <p data-i18n="cr.kronta.d">An armored burrower of the open plains.</p>
+          <dl class="stats"><div><dt data-i18n="st.hp">Health</dt><dd>50</dd></div><div><dt data-i18n="st.food">Food</dt><dd>40</dd></div><div><dt data-i18n="st.vision">Vision</dt><dd>3</dd></div></dl>
+        </article>
+      </div>
+      <h3 class="sub" data-i18n="cre.aggressive">Aggressive</h3>
+      <div class="units">
+        <article class="unit">
+          <img src="assets/img/creatures/aquadeso.webp" alt="" loading="lazy">
+          <span class="tags" data-i18n="cr.aquadeso.tags">Level 1 · Melee</span>
+          <h3 data-i18n="cr.aquadeso">Aquadeso</h3>
+          <p data-i18n="cr.aquadeso.d">Ambushes with its claws, close to the water.</p>
+          <dl class="stats"><div><dt data-i18n="st.level">Level</dt><dd>1</dd></div><div><dt data-i18n="st.tiles">Tiles</dt><dd>1×1</dd></div><div><dt data-i18n="st.vision">Vision</dt><dd>4</dd></div></dl>
+        </article>
+        <article class="unit">
+          <img src="assets/img/creatures/obidicto.webp" alt="" loading="lazy">
+          <span class="tags" data-i18n="cr.obidicto.tags">Level 1 · Laser (4)</span>
+          <h3 data-i18n="cr.obidicto">Obidicto</h3>
+          <p data-i18n="cr.obidicto.d">An alien soldier that fires laser pulses from 4 tiles away.</p>
+          <dl class="stats"><div><dt data-i18n="st.level">Level</dt><dd>1</dd></div><div><dt data-i18n="st.tiles">Tiles</dt><dd>1×1</dd></div><div><dt data-i18n="st.vision">Vision</dt><dd>5</dd></div></dl>
+        </article>
+        <article class="unit">
+          <img src="assets/img/creatures/aratico.webp" alt="" loading="lazy">
+          <span class="tags" data-i18n="cr.aratico.tags">Level 2 · Web (3)</span>
+          <h3 data-i18n="cr.aratico">Aratico</h3>
+          <p data-i18n="cr.aratico.d">A mechanical spider: its web slows its prey for 2 rounds.</p>
+          <dl class="stats"><div><dt data-i18n="st.level">Level</dt><dd>2</dd></div><div><dt data-i18n="st.tiles">Tiles</dt><dd>1×1</dd></div><div><dt data-i18n="st.vision">Vision</dt><dd>5</dd></div></dl>
+        </article>
+        <article class="unit">
+          <img src="assets/img/creatures/pescualido.webp" alt="" loading="lazy">
+          <span class="tags" data-i18n="cr.pescualido.tags">Level 2 · Acid ball (4)</span>
+          <h3 data-i18n="cr.pescualido">Pescualido</h3>
+          <p data-i18n="cr.pescualido.d">Spits acid: half the damage goes straight through the shield.</p>
+          <dl class="stats"><div><dt data-i18n="st.level">Level</dt><dd>2</dd></div><div><dt data-i18n="st.tiles">Tiles</dt><dd>1×1</dd></div><div><dt data-i18n="st.vision">Vision</dt><dd>5</dd></div></dl>
+        </article>
+        <article class="unit">
+          <img src="assets/img/creatures/serpenta.webp" alt="" loading="lazy">
+          <span class="tags" data-i18n="cr.serpenta.tags">Level 2 · Melee</span>
+          <h3 data-i18n="cr.serpenta">Serpenta</h3>
+          <p data-i18n="cr.serpenta.d">A fast serpent with a vicious bite.</p>
+          <dl class="stats"><div><dt data-i18n="st.level">Level</dt><dd>2</dd></div><div><dt data-i18n="st.tiles">Tiles</dt><dd>1×1</dd></div><div><dt data-i18n="st.vision">Vision</dt><dd>4</dd></div></dl>
+        </article>
+        <article class="unit">
+          <img src="assets/img/creatures/maricobra.webp" alt="" loading="lazy">
+          <span class="tags" data-i18n="cr.maricobra.tags">Level 3 · Poison area (4)</span>
+          <h3 data-i18n="cr.maricobra">Maricobra</h3>
+          <p data-i18n="cr.maricobra.d">Its wings spread a poison cloud over a 3×3 area.</p>
+          <dl class="stats"><div><dt data-i18n="st.level">Level</dt><dd>3</dd></div><div><dt data-i18n="st.tiles">Tiles</dt><dd>1×1</dd></div><div><dt data-i18n="st.vision">Vision</dt><dd>6</dd></div></dl>
+        </article>
+        <article class="unit">
+          <img src="assets/img/creatures/zarpatauro.webp" alt="" loading="lazy">
+          <span class="tags" data-i18n="cr.zarpatauro.tags">Level 3 · Melee</span>
+          <h3 data-i18n="cr.zarpatauro">Zarpatauro</h3>
+          <p data-i18n="cr.zarpatauro.d">A brute whose claws are made to break heavy armor.</p>
+          <dl class="stats"><div><dt data-i18n="st.level">Level</dt><dd>3</dd></div><div><dt data-i18n="st.tiles">Tiles</dt><dd>1×1</dd></div><div><dt data-i18n="st.vision">Vision</dt><dd>4</dd></div></dl>
+        </article>
+        <article class="unit">
+          <img src="assets/img/creatures/aracnoso.webp" alt="" loading="lazy">
+          <span class="tags" data-i18n="cr.aracnoso.tags">Level 4 · Stunning blow</span>
+          <h3 data-i18n="cr.aracnoso">Aracnoso</h3>
+          <p data-i18n="cr.aracnoso.d">Its blow stuns the target for a whole round.</p>
+          <dl class="stats"><div><dt data-i18n="st.level">Level</dt><dd>4</dd></div><div><dt data-i18n="st.tiles">Tiles</dt><dd>2×1</dd></div><div><dt data-i18n="st.vision">Vision</dt><dd>5</dd></div></dl>
+        </article>
+        <article class="unit">
+          <img src="assets/img/creatures/cocodactilo.webp" alt="" loading="lazy">
+          <span class="tags" data-i18n="cr.cocodactilo.tags">Level 4 · Flame area (3)</span>
+          <h3 data-i18n="cr.cocodactilo">Cocodáctilo</h3>
+          <p data-i18n="cr.cocodactilo.d">Breathes fire over a 3×3 area that keeps burning.</p>
+          <dl class="stats"><div><dt data-i18n="st.level">Level</dt><dd>4</dd></div><div><dt data-i18n="st.tiles">Tiles</dt><dd>2×1</dd></div><div><dt data-i18n="st.vision">Vision</dt><dd>6</dd></div></dl>
+        </article>
+        <article class="unit">
+          <img src="assets/img/creatures/devastador.webp" alt="" loading="lazy">
+          <span class="tags" data-i18n="cr.devastador.tags">Level 4 · Seeking ray (6)</span>
+          <h3 data-i18n="cr.devastador">Devastador</h3>
+          <p data-i18n="cr.devastador.d">Its ray arcs through up to 3 nearby targets, weaker at each jump.</p>
+          <dl class="stats"><div><dt data-i18n="st.level">Level</dt><dd>4</dd></div><div><dt data-i18n="st.tiles">Tiles</dt><dd>1×2</dd></div><div><dt data-i18n="st.vision">Vision</dt><dd>7</dd></div></dl>
+        </article>
+        <article class="unit">
+          <img src="assets/img/creatures/rinotortuga.webp" alt="" loading="lazy">
+          <span class="tags" data-i18n="cr.rinotortuga.tags">Level 5 · Horn + missiles (5)</span>
+          <h3 data-i18n="cr.rinotortuga">Rinotortuga</h3>
+          <p data-i18n="cr.rinotortuga.d">Mechanical. Its horn shoves troops back and its racks fire missile salvos over a 3×3 area.</p>
+          <dl class="stats"><div><dt data-i18n="st.level">Level</dt><dd>5</dd></div><div><dt data-i18n="st.tiles">Tiles</dt><dd>2×1</dd></div><div><dt data-i18n="st.vision">Vision</dt><dd>5</dd></div></dl>
+        </article>
+        <article class="unit">
+          <img src="assets/img/creatures/ultimo_aliento.webp" alt="" loading="lazy">
+          <span class="tags" data-i18n="cr.ultimo_aliento.tags">Level 5 · Area claws + blue flame (4)</span>
+          <h3 data-i18n="cr.ultimo_aliento">Último Aliento</h3>
+          <p data-i18n="cr.ultimo_aliento.d">The apex predator: area claws that slow, and a blue flame that breaks every shield it touches.</p>
+          <dl class="stats"><div><dt data-i18n="st.level">Level</dt><dd>5</dd></div><div><dt data-i18n="st.tiles">Tiles</dt><dd>2×2</dd></div><div><dt data-i18n="st.vision">Vision</dt><dd>7</dd></div></dl>
+        </article>
+      </div>
     </div>
   </section>
 

@@ -14,6 +14,7 @@
   <a href="https://discord.gg/2EZAtyqtzW">Discord</a> ·
   <a href="https://github.com/cesar-rgon/axiom-wars/releases/latest">Download</a> ·
   <a href="#units-of-the-terran-faction">Units</a> ·
+  <a href="#map-creatures">Creatures</a> ·
   <a href="#balance">Balance</a>
 </p>
 
@@ -95,6 +96,37 @@ Nine units, from the mine to the sky. Each sheet covers production, upkeep, defe
 | <img src="assets/img/units/droide.png" width="48" alt=""> | [Droid](docs/units/droide.md) | Light · air | 60 | 120 | 8 |
 
 Index with each unit's role: [docs/units](docs/units/README.md) · All nine sheets, print-ready: [Unit-Sheets-Terran.pdf](docs/units/Unit-Sheets-Terran.pdf)
+
+## Map creatures
+
+Neutral creatures that belong to no player. The docile ones wander their own habitat and give Food to whoever hunts them; the aggressive ones guard the reward containers and the resource pools, attack any troop or building in sight and go back to their post to heal. Their level (1–5) sets the range their health, shield and damage are rolled from.
+
+### Docile
+
+| | Creature | Habitat | Health | Food |
+|---|---|---|---:|---:|
+| <img src="assets/img/creatures/bamber.webp" width="48" alt=""> | Bamber | Grassland | 30 | 30 |
+| <img src="assets/img/creatures/tuki.webp" width="48" alt=""> | Tuki | Grassland | 60 | 60 |
+| <img src="assets/img/creatures/sapino.webp" width="48" alt=""> | Sapino | Water shores | 40 | 30 |
+| <img src="assets/img/creatures/terima.webp" width="48" alt=""> | Terima | Oil shores | 30 | 20 |
+| <img src="assets/img/creatures/kronta.webp" width="48" alt=""> | Kronta | Plains | 50 | 40 |
+
+### Aggressive
+
+| | Creature | Level | Tiles | Attack | |
+|---|---|---:|:---:|---|---|
+| <img src="assets/img/creatures/aquadeso.webp" width="48" alt=""> | Aquadeso | 1 | 1×1 | Melee | Ambushes with its claws, close to the water. |
+| <img src="assets/img/creatures/obidicto.webp" width="48" alt=""> | Obidicto | 1 | 1×1 | Laser (4) | An alien soldier that fires laser pulses from 4 tiles away. |
+| <img src="assets/img/creatures/aratico.webp" width="48" alt=""> | Aratico | 2 | 1×1 | Web (3) | A mechanical spider: its web slows its prey for 2 rounds. |
+| <img src="assets/img/creatures/pescualido.webp" width="48" alt=""> | Pescualido | 2 | 1×1 | Acid ball (4) | Spits acid: half the damage goes straight through the shield. |
+| <img src="assets/img/creatures/serpenta.webp" width="48" alt=""> | Serpenta | 2 | 1×1 | Melee | A fast serpent with a vicious bite. |
+| <img src="assets/img/creatures/maricobra.webp" width="48" alt=""> | Maricobra | 3 | 1×1 | Poison area (4) | Its wings spread a poison cloud over a 3×3 area. |
+| <img src="assets/img/creatures/zarpatauro.webp" width="48" alt=""> | Zarpatauro | 3 | 1×1 | Melee | A brute whose claws are made to break heavy armor. |
+| <img src="assets/img/creatures/aracnoso.webp" width="48" alt=""> | Aracnoso | 4 | 2×1 | Stunning blow | Its blow stuns the target for a whole round. |
+| <img src="assets/img/creatures/cocodactilo.webp" width="48" alt=""> | Cocodáctilo | 4 | 2×1 | Flame area (3) | Breathes fire over a 3×3 area that keeps burning. |
+| <img src="assets/img/creatures/devastador.webp" width="48" alt=""> | Devastador | 4 | 1×2 | Seeking ray (6) | Its ray arcs through up to 3 nearby targets, weaker at each jump. |
+| <img src="assets/img/creatures/rinotortuga.webp" width="48" alt=""> | Rinotortuga | 5 | 2×1 | Horn + missiles (5) | Mechanical. Its horn shoves troops back and its racks fire missile salvos over a 3×3 area. |
+| <img src="assets/img/creatures/ultimo_aliento.webp" width="48" alt=""> | Último Aliento | 5 | 2×2 | Area claws + blue flame (4) | The apex predator: area claws that slow, and a blue flame that breaks every shield it touches. |
 
 ## Balance
 
