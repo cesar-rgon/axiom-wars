@@ -49,18 +49,18 @@ Up to 8 players, free-for-all or in teams (up to 4 versus 4). Empty seats are fi
 Screenshots from the current build. Click one to see it full size.
 
 <p align="center">
-  <a href="assets/img/galeria-11.webp"><img src="assets/img/galeria-11.webp" alt="Round 11 with the side panel by unit and the pending orders queue" width="100%"></a>
-  <br><sub>Round 11: the new side panel shows each unit's weapons, abilities and passives next to the pending orders queue.</sub>
+  <a href="assets/img/galeria-14.webp"><img src="assets/img/galeria-14.webp" alt="Round 26 with the floating interface: Menu, resources, minimap, build panel by Government level and the order row with an icon per kind of order" width="100%"></a>
+  <br><sub>Round 26: the new floating interface, with the build panel by Government level and an icon for each kind of order.</sub>
 </p>
 
 <table>
   <tr>
-    <td width="50%"><a href="assets/img/galeria-10.webp"><img src="assets/img/galeria-10.webp" alt="Numbered order queue and overlapping areas of effect"></a></td>
-    <td width="50%"><a href="assets/img/galeria-09.webp"><img src="assets/img/galeria-09.webp" alt="Round resolution with two magnifiers"></a></td>
+    <td width="50%"><a href="assets/img/galeria-13.webp"><img src="assets/img/galeria-13.webp" alt="Technology window with the weapons tree by Government level and unit"></a></td>
+    <td width="50%"><a href="assets/img/galeria-12.webp"><img src="assets/img/galeria-12.webp" alt="Wikipedia window with the Explorer's full sheet"></a></td>
   </tr>
   <tr>
-    <td><sub>Numbered order queue, overlapping areas of effect and an Explorer heading to its destination.</sub></td>
-    <td><sub>Round 2 resolution: the magnifiers follow two actions happening at the same time.</sub></td>
+    <td><sub>The Technology window: each unit's weapons, active abilities and passives by Government level, bought from here.</sub></td>
+    <td><sub>The Wikipedia: an archive of buildings, units and creatures with every figure.</sub></td>
   </tr>
 </table>
 
@@ -78,6 +78,9 @@ Axiom Wars started out as a terminal client. These are the versions it has gone 
 | **6** | <a href="assets/img/museo/06.webp"><img src="assets/img/museo/06.webp" width="260" alt="New terrain"></a> | **New terrain.** Redesigned grass, lakes and forests, with buildings outlined in the player's color. |
 | **7** | <a href="assets/img/museo/07.webp"><img src="assets/img/museo/07.webp" width="260" alt="Simultaneous rounds"></a> | **Simultaneous rounds.** Order queue, side build panel and the energy area shown when placing a building. |
 | **8** | <a href="assets/img/museo/08.webp"><img src="assets/img/museo/08.webp" width="260" alt="Planning on the map"></a> | **Planning on the map.** The Constructor chains move-and-build orders, arrows mark its route and the grid shows the Government's energy area. |
+| **9** | <a href="assets/img/museo/09.webp"><img src="assets/img/museo/09.webp" width="260" alt="Simultaneous resolution"></a> | **Simultaneous resolution.** Magnifiers follow the actions that happen at the same time while the round resolves. |
+| **10** | <a href="assets/img/museo/10.webp"><img src="assets/img/museo/10.webp" width="260" alt="Numbered orders"></a> | **Numbered orders.** Numbered order queue, overlapping areas of effect and an Explorer heading to its destination. |
+| **11** | <a href="assets/img/museo/11.webp"><img src="assets/img/museo/11.webp" width="260" alt="Panel by unit"></a> | **Panel by unit.** The side panel shows each unit's weapons, abilities and passives next to the pending orders queue. |
 
 ## Units of the Terran Faction
 
