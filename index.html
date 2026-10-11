@@ -292,6 +292,7 @@ h3.sub { font-family: var(--font-display, inherit); margin: 28px 0 12px; color: 
 .credit.team .members { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); justify-items: center; gap: 6px 10px; width: 100%; }
 .credit.team .role { grid-column: 1 / -1; }
 .credit.team .name { font-size: 1rem; min-width: 0; overflow-wrap: anywhere; }
+.credit.team .member { display: grid; justify-items: center; align-content: start; gap: 6px; min-width: 0; }
 @media (max-width: 520px) { .credit.team .members { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 .credit .badge { width: 84px; height: 84px; margin-bottom: 6px; border-radius: 50%; display: grid; place-items: center; background: var(--hull-2); border: 1px solid var(--line); overflow: hidden; }
 .credit .badge img { width: 50px; height: 50px; }
@@ -730,31 +731,27 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
       <h2 data-i18n="cred.title">Who makes Axiom Wars</h2>
       <ul class="credits">
         <li class="credit">
-          <span class="logo rasec"><img src="assets/img/credits/rasec.webp" alt="RaseC logo" data-i18n-alt="cred.a.rasec" loading="lazy" width="256" height="256"></span>
           <span class="role" data-i18n="cred.creator">Creator and analyst</span>
+          <span class="logo rasec"><img src="assets/img/credits/rasec.webp" alt="RaseC logo" data-i18n-alt="cred.a.rasec" loading="lazy" width="256" height="256"></span>
           <span class="name">RaseC</span>
         </li>
         <li class="credit">
-          <span class="logo"><img src="assets/img/credits/claude.svg" alt="Claude logo" data-i18n-alt="cred.a.claude" loading="lazy" width="52" height="52"></span>
           <span class="role" data-i18n="cred.programmer">Programmer</span>
+          <span class="logo"><img src="assets/img/credits/claude.svg" alt="Claude logo" data-i18n-alt="cred.a.claude" loading="lazy" width="52" height="52"></span>
           <span class="name">Claude AI</span>
         </li>
         <li class="credit team">
           <div class="members">
-            <span class="badge photo"><img src="assets/img/credits/chara.webp" alt="Chara logo" data-i18n-alt="cred.a.chara" loading="lazy" width="256" height="256"></span>
-            <span class="badge photo"><img src="assets/img/credits/rasec.webp" alt="RaseC logo" data-i18n-alt="cred.a.rasec" loading="lazy" width="256" height="256"></span>
-            <span class="badge"><img src="assets/img/credits/chatgpt.svg" alt="ChatGPT logo" data-i18n-alt="cred.a.chatgpt" loading="lazy" width="50" height="50"></span>
-            <span class="badge"><img src="assets/img/credits/niji.webp" alt="Niji·Journey logo" data-i18n-alt="cred.a.niji" loading="lazy" width="180" height="180"></span>
             <span class="role" data-i18n="cred.designers">Designers</span>
-            <span class="name">Chara</span>
-            <span class="name">RaseC</span>
-            <span class="name">ChatGPT</span>
-            <span class="name">Niji·Journey AI</span>
+            <span class="member"><span class="badge photo"><img src="assets/img/credits/chara.webp" alt="Chara logo" data-i18n-alt="cred.a.chara" loading="lazy" width="256" height="256"></span><span class="name">Chara</span></span>
+            <span class="member"><span class="badge photo"><img src="assets/img/credits/rasec.webp" alt="RaseC logo" data-i18n-alt="cred.a.rasec" loading="lazy" width="256" height="256"></span><span class="name">RaseC</span></span>
+            <span class="member"><span class="badge"><img src="assets/img/credits/chatgpt.svg" alt="ChatGPT logo" data-i18n-alt="cred.a.chatgpt" loading="lazy" width="50" height="50"></span><span class="name">ChatGPT</span></span>
+            <span class="member"><span class="badge"><img src="assets/img/credits/niji.webp" alt="Niji·Journey logo" data-i18n-alt="cred.a.niji" loading="lazy" width="180" height="180"></span><span class="name">Niji·Journey AI</span></span>
           </div>
         </li>
         <li class="credit">
-          <span class="logo"><img src="assets/img/credits/suno.svg" alt="Suno logo" data-i18n-alt="cred.a.suno" loading="lazy" width="52" height="52"></span>
           <span class="role" data-i18n="cred.composer">Composer</span>
+          <span class="logo"><img src="assets/img/credits/suno.svg" alt="Suno logo" data-i18n-alt="cred.a.suno" loading="lazy" width="52" height="52"></span>
           <span class="name">Suno AI</span>
         </li>
       </ul>
@@ -767,7 +764,7 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
       <div class="helpers">
         <span class="role" data-i18n="cred.testers">Testers</span>
         <ul>
-          <li>Calheb</li><li>Chara</li><li>Fr4ank50</li><li>Gameover</li><li>Kattaros</li><li>Kiwi</li><li>Miky</li><li>Navajita</li><li>Nightlane</li><li>RaseC</li>
+          <li>Calheb</li><li>Chara</li><li>Fr4nk50</li><li>Gameover</li><li>Kattaros</li><li>Kiwi</li><li>Miky</li><li>Navajita</li><li>Nightlane</li><li>RaseC</li>
         </ul>
       </div>
     </div>
