@@ -187,6 +187,7 @@
     'cred.designers': 'Diseñadores',
     'cred.composer': 'Compositor',
     'cred.helpers': 'Analistas colaboradores',
+    'cred.testers': 'Testeadores',
     'cred.a.rasec': 'Logo de RaseC', 'cred.a.claude': 'Logo de Claude',
     'cred.a.chatgpt': 'Logo de ChatGPT', 'cred.a.suno': 'Logo de Suno',
     'cred.a.chara': 'Logo de Chara', 'cred.a.niji': 'Logo de Niji·Journey',

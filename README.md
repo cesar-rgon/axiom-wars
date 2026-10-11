@@ -158,13 +158,15 @@ It covers the weapon-versus-unit damage matrix, the AP economy, energy and purch
     <td align="center" width="40%" valign="top"><table>
       <tr><td align="center"><img src="assets/img/credits/chara-badge.webp" width="80" height="80" alt="Chara logo"></td><td align="center"><img src="assets/img/credits/rasec.webp" width="80" height="80" alt="RaseC logo"></td><td align="center"><img src="assets/img/credits/chatgpt-badge.webp" width="80" height="80" alt="ChatGPT logo"></td><td align="center"><img src="assets/img/credits/niji-badge.webp" width="80" height="80" alt="Niji·Journey logo"></td></tr>
       <tr><td align="center" colspan="4"><sub>Designers</sub></td></tr>
-      <tr><td align="center"><b>Chara</b></td><td align="center"><b>RaseC</b></td><td align="center"><b>ChatGPT AI</b></td><td align="center"><b>Niji·Journey AI</b></td></tr>
+      <tr><td align="center"><b>Chara</b></td><td align="center"><b>RaseC</b></td><td align="center"><b>ChatGPT</b></td><td align="center"><b>Niji·Journey AI</b></td></tr>
     </table></td>
     <td align="center" width="20%" valign="top"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/credits/suno-pad.svg"><img src="assets/img/credits/suno-black-pad.svg" width="80" height="80" alt="Suno logo"></picture><br><sub>Composer</sub><br><b>Suno AI</b></td>
   </tr>
 </table>
 
-**Contributing analysts:** Chara · Kiwi · Gameover · Nightlane · Calheb · Miky · Fr4nk50
+**Contributing analysts:** Chara · Gameover · Kattaros · Kiwi · Navajita
+
+**Testers:** Calheb · Chara · Fr4ank50 · Gameover · Kattaros · Kiwi · Miky · Navajita · Nightlane · RaseC
 
 ## About this repository
 
