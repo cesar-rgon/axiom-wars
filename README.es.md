@@ -49,18 +49,18 @@ Hasta 8 jugadores, todos contra todos o por equipos (hasta 4 contra 4). Los huec
 Capturas de la versión actual. Pulsa en una para verla a tamaño completo.
 
 <p align="center">
-  <a href="assets/img/galeria-14.webp"><img src="assets/img/galeria-14.webp" alt="Ronda 26 con la interfaz flotante: Menú, recursos, minimapa, panel de construcción por nivel de Gobierno y la fila de órdenes con un icono por tipo de orden" width="100%"></a>
-  <br><sub>Ronda 26: la nueva interfaz flotante, con el panel de construcción por nivel de Gobierno y un icono para cada tipo de orden.</sub>
+  <a href="assets/img/galeria-15.webp"><img src="assets/img/galeria-15.webp" alt="Ronda 4 bajo la lluvia con la interfaz nueva enmarcada: columna de órdenes a la izquierda, el mapa dentro de su marco y minimapa, panel de construcción y turno a la derecha" width="100%"></a>
+  <br><sub>Ronda 4 bajo la lluvia: la interfaz nueva enmarca el mapa entre la columna de órdenes y la columna del minimapa, el panel de construcción y el turno.</sub>
 </p>
 
 <table>
   <tr>
+    <td width="50%"><a href="assets/img/galeria-14.webp"><img src="assets/img/galeria-14.webp" alt="Ronda 26 con la interfaz flotante: Menú, recursos, minimapa, panel de construcción por nivel de Gobierno y la fila de órdenes con un icono por tipo de orden"></a></td>
     <td width="50%"><a href="assets/img/galeria-13.webp"><img src="assets/img/galeria-13.webp" alt="Ventana de Tecnología con el árbol de armas por nivel de Gobierno y unidad"></a></td>
-    <td width="50%"><a href="assets/img/galeria-12.webp"><img src="assets/img/galeria-12.webp" alt="Ventana de Wikipedia con la ficha completa del Explorador"></a></td>
   </tr>
   <tr>
+    <td><sub>Ronda 26: la nueva interfaz flotante, con el panel de construcción por nivel de Gobierno y un icono para cada tipo de orden.</sub></td>
     <td><sub>La ventana de Tecnología: armas, habilidades activas y pasivas de cada unidad por nivel de Gobierno, que se compran desde aquí.</sub></td>
-    <td><sub>La Wikipedia: un archivo de edificios, unidades y criaturas con todas sus cifras.</sub></td>
   </tr>
 </table>
 
@@ -81,6 +81,7 @@ Axiom Wars empezó como un cliente de terminal. Estas son las versiones por las 
 | **9** | <a href="assets/img/museo/09.webp"><img src="assets/img/museo/09.webp" width="260" alt="Resolución simultánea"></a> | **Resolución simultánea.** Las lupas siguen las acciones que ocurren a la vez mientras se resuelve la ronda. |
 | **10** | <a href="assets/img/museo/10.webp"><img src="assets/img/museo/10.webp" width="260" alt="Órdenes numeradas"></a> | **Órdenes numeradas.** Cola de órdenes numerada, áreas de efecto superpuestas y un Explorador camino de su destino. |
 | **11** | <a href="assets/img/museo/11.webp"><img src="assets/img/museo/11.webp" width="260" alt="Panel por unidad"></a> | **Panel por unidad.** El panel lateral muestra las armas, habilidades y pasivas de cada unidad junto a la cola de órdenes pendientes. |
+| **12** | <a href="assets/img/museo/12.webp"><img src="assets/img/museo/12.webp" width="260" alt="Wikipedia"></a> | **Wikipedia.** Un archivo dentro del juego con los edificios, unidades y criaturas y todas sus cifras. |
 
 ## Unidades de la Facción Terránea
 
