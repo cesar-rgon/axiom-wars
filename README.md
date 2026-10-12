@@ -49,18 +49,18 @@ Up to 8 players, free-for-all or in teams (up to 4 versus 4). Empty seats are fi
 Screenshots from the current build. Click one to see it full size.
 
 <p align="center">
-  <a href="assets/img/galeria-15.webp"><img src="assets/img/galeria-15.webp" alt="Round 4 in the rain with the new framed interface: orders column on the left, the map inside its frame, and minimap, build panel and turn on the right" width="100%"></a>
-  <br><sub>Round 4 in the rain: the new interface frames the map between the orders column and the column with the minimap, the build panel and the turn.</sub>
+  <a href="assets/img/galeria-16.webp"><img src="assets/img/galeria-16.webp" alt="Plateaus with ramps: a group of troops advances together while two enemy targets are fired upon with Auto attacks along their line of fire" width="100%"></a>
+  <br><sub>Plateaus and ramps: troops move as a group and Auto attacks follow their targets, with the line of fire checked against the plateaus.</sub>
 </p>
 
 <table>
   <tr>
+    <td width="50%"><a href="assets/img/galeria-15.webp"><img src="assets/img/galeria-15.webp" alt="Round 4 in the rain with the new framed interface: orders column on the left, the map inside its frame, and minimap, build panel and turn on the right"></a></td>
     <td width="50%"><a href="assets/img/galeria-14.webp"><img src="assets/img/galeria-14.webp" alt="Round 26 with the floating interface: Menu, resources, minimap, build panel by Government level and the order row with an icon per kind of order"></a></td>
-    <td width="50%"><a href="assets/img/galeria-13.webp"><img src="assets/img/galeria-13.webp" alt="Technology window with the weapons tree by Government level and unit"></a></td>
   </tr>
   <tr>
+    <td><sub>Round 4 in the rain: the new interface frames the map between the orders column and the column with the minimap, the build panel and the turn.</sub></td>
     <td><sub>Round 26: the new floating interface, with the build panel by Government level and an icon for each kind of order.</sub></td>
-    <td><sub>The Technology window: each unit's weapons, active abilities and passives by Government level, bought from here.</sub></td>
   </tr>
 </table>
 
@@ -82,6 +82,7 @@ Axiom Wars started out as a terminal client. These are the versions it has gone 
 | **10** | <a href="assets/img/museo/10.webp"><img src="assets/img/museo/10.webp" width="260" alt="Numbered orders"></a> | **Numbered orders.** Numbered order queue, overlapping areas of effect and an Explorer heading to its destination. |
 | **11** | <a href="assets/img/museo/11.webp"><img src="assets/img/museo/11.webp" width="260" alt="Panel by unit"></a> | **Panel by unit.** The side panel shows each unit's weapons, abilities and passives next to the pending orders queue. |
 | **12** | <a href="assets/img/museo/12.webp"><img src="assets/img/museo/12.webp" width="260" alt="Wikipedia"></a> | **Wikipedia.** An in-game archive of buildings, units and creatures with every figure. |
+| **13** | <a href="assets/img/museo/13.webp"><img src="assets/img/museo/13.webp" width="260" alt="Technology"></a> | **Technology.** Each unit's weapons, active abilities and passives by Government level, bought from one window. |
 
 ## Units of the Terran Faction
 
