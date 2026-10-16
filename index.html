@@ -212,6 +212,19 @@ h3.sub { font-family: var(--font-display, inherit); margin: 28px 0 12px; color: 
 .stats div { display: grid; gap: 0; }
 .stats dt { font-size: .66rem; color: var(--steel-dim); letter-spacing: .08em; text-transform: uppercase; }
 .stats dd { margin: 0; font-size: .95rem; color: var(--steel); }
+/* Fichas de criaturas: 5 por fila en pantalla ancha */
+.units.compact { grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 10px; }
+.units.compact .unit { padding: 10px 10px 12px; gap: 4px; }
+.units.compact .unit img { max-height: 120px; }
+.units.compact .unit h3 { font-size: .95rem; }
+.units.compact .unit .tags { font-size: .62rem; }
+.units.compact .unit p { font-size: .78rem; line-height: 1.4; }
+.units.compact .stats { margin-top: 6px; padding-top: 6px; }
+.units.compact .stats dt { font-size: .58rem; letter-spacing: .04em; }
+.units.compact .stats dd { font-size: .82rem; }
+@media (max-width: 1100px) { .units.compact { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 860px) { .units.compact { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 520px) { .units.compact { grid-template-columns: minmax(0, 1fr); } }
 .more-links { margin: 22px 0 0; font: 500 .85rem var(--font-mono); color: var(--steel-dim); }
 .unit .src { font: 400 .72rem var(--font-mono); color: var(--steel-dim); }
 
@@ -270,13 +283,11 @@ h3.sub { font-family: var(--font-display, inherit); margin: 28px 0 12px; color: 
 .dl strong { font: 600 1rem var(--font-display); letter-spacing: .04em; display: block; }
 .dl small { color: var(--steel-dim); font: 400 .78rem var(--font-mono); }
 .dl .arrow { font: 600 .8rem var(--font-mono); color: var(--plasma); }
-.dl.soon { opacity: .55; pointer-events: none; }
 .connect { margin-top: 18px; padding: 16px 18px; border: 1px dashed var(--line); }
 .connect h3 { font-size: 1rem; }
 .connect ol { margin: 10px 0 0; padding-left: 1.3em; display: grid; gap: 6px; color: var(--steel-dim); font-size: .92rem; }
 .connect strong { color: var(--steel); font-weight: 600; }
 .connect code { font: 500 .88em var(--font-mono); color: var(--steel); }
-.dl.soon .arrow { color: var(--steel-dim); }
 
 /* Créditos */
 .credits { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 14px; margin: 26px 0 0; padding: 0; list-style: none; }
@@ -289,7 +300,7 @@ h3.sub { font-family: var(--font-display, inherit); margin: 28px 0 12px; color: 
 .credit .name { font: 600 1.1rem var(--font-display); letter-spacing: .04em; color: #e8eef7; }
 /* Ficha de equipo (Diseñadores): fila de medallones, rol, fila de nombres */
 .credit.team { grid-column: span 2; }
-.credit.team .members { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); justify-items: center; gap: 6px 10px; width: 100%; }
+.credit.team .members { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); justify-items: center; gap: 6px 10px; width: 100%; }
 .credit.team .role { grid-column: 1 / -1; }
 .credit.team .name { font-size: 1rem; min-width: 0; overflow-wrap: anywhere; }
 .credit.team .member { display: grid; justify-items: center; align-content: start; gap: 6px; min-width: 0; }
@@ -492,7 +503,7 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
       <h2 data-i18n="cre.title">The wildlife of the map</h2>
       <p class="section-intro" data-i18n="cre.intro">Neutral creatures that belong to no player. The docile ones wander their own habitat and give Food to whoever hunts them. The aggressive ones guard the reward containers and the resource pools: they attack any troop or building in sight, chase it, and go back to their post to heal. Their level (1–5) sets the range their health, shield and damage are rolled from.</p>
       <h3 class="sub" data-i18n="cre.docile">Docile</h3>
-      <div class="units">
+      <div class="units compact">
         <article class="unit">
           <img src="assets/img/creatures/bamber.webp" alt="" loading="lazy">
           <span class="tags" data-i18n="cr.bamber.tags">Docile · grassland</span>
@@ -530,7 +541,7 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
         </article>
       </div>
       <h3 class="sub" data-i18n="cre.aggressive">Aggressive</h3>
-      <div class="units">
+      <div class="units compact">
         <article class="unit">
           <img src="assets/img/creatures/aquadeso.webp" alt="" loading="lazy">
           <span class="tags" data-i18n="cr.aquadeso.tags">Level 1 · Melee</span>
@@ -548,7 +559,7 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
         <article class="unit">
           <img src="assets/img/creatures/aratico.webp" alt="" loading="lazy">
           <span class="tags" data-i18n="cr.aratico.tags">Level 2 · Web (3)</span>
-          <h3 data-i18n="cr.aratico">Aratico</h3>
+          <h3 data-i18n="cr.aratico">Arático</h3>
           <p data-i18n="cr.aratico.d">A mechanical spider: its web slows its prey for 2 rounds.</p>
           <dl class="stats"><div><dt data-i18n="st.level">Level</dt><dd>2</dd></div><div><dt data-i18n="st.tiles">Tiles</dt><dd>1×1</dd></div><div><dt data-i18n="st.vision">Vision</dt><dd>5</dd></div></dl>
         </article>
@@ -729,14 +740,11 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
         <p class="eyebrow" data-i18n="dl.eyebrow">Downloads</p>
         <div class="downloads">
           <a class="dl" href="https://github.com/cesar-rgon/axiom-wars/releases/latest/download/AxiomWars-Windows-x64.zip" target="_blank" rel="noopener">
-            <span><strong>Windows</strong><small>64-bit · .zip · 81 MB</small></span><span class="arrow" data-i18n="dl.get">Download</span>
+            <span><strong>Windows</strong><small data-asset="AxiomWars-Windows-x64.zip">64-bit · .zip · 94 MB</small></span><span class="arrow" data-i18n="dl.get">Download</span>
           </a>
           <a class="dl" href="https://github.com/cesar-rgon/axiom-wars/releases/latest/download/AxiomWars-Linux-x64.zip" target="_blank" rel="noopener">
-            <span><strong>Linux</strong><small>x86-64 · .zip · 81 MB</small></span><span class="arrow" data-i18n="dl.get">Download</span>
+            <span><strong>Linux</strong><small data-asset="AxiomWars-Linux-x64.zip">x86-64 · .zip · 93 MB</small></span><span class="arrow" data-i18n="dl.get">Download</span>
           </a>
-          <div class="dl soon" aria-disabled="true">
-            <span><strong>macOS</strong><small>Apple Silicon</small></span><span class="arrow" data-i18n="dl.soon">Coming soon</span>
-          </div>
         </div>
         <div class="connect">
           <h3 data-i18n="dl.connect">How to connect</h3>
@@ -750,6 +758,18 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
     </div>
   </section>
 
+  <section id="idiomas">
+    <div class="wrap">
+      <p class="eyebrow" data-i18n="lang.eyebrow">Languages</p>
+      <h2 data-i18n="lang.title">Play in your language</h2>
+      <div class="helpers">
+        <span class="role" data-i18n="lang.available">Available in</span>
+        <ul>
+          <li lang="en">English</li><li lang="es">Español</li>
+        </ul>
+      </div>
+    </div>
+  </section>
   <section id="creditos">
     <div class="wrap">
       <p class="eyebrow" data-i18n="cred.eyebrow">Credits</p>
@@ -768,10 +788,8 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
         <li class="credit team">
           <div class="members">
             <span class="role" data-i18n="cred.designers">Designers</span>
-            <span class="member"><span class="badge photo"><img src="assets/img/credits/chara.webp" alt="Chara logo" data-i18n-alt="cred.a.chara" loading="lazy" width="256" height="256"></span><span class="name">Chara</span></span>
-            <span class="member"><span class="badge photo"><img src="assets/img/credits/rasec.webp" alt="RaseC logo" data-i18n-alt="cred.a.rasec" loading="lazy" width="256" height="256"></span><span class="name">RaseC</span></span>
             <span class="member"><span class="badge"><img src="assets/img/credits/chatgpt.svg" alt="ChatGPT logo" data-i18n-alt="cred.a.chatgpt" loading="lazy" width="50" height="50"></span><span class="name">ChatGPT</span></span>
-            <span class="member"><span class="badge"><img src="assets/img/credits/niji.webp" alt="Niji·Journey logo" data-i18n-alt="cred.a.niji" loading="lazy" width="180" height="180"></span><span class="name">Niji·Journey AI</span></span>
+            <span class="member"><span class="badge"><img src="assets/img/credits/gemini.svg" alt="Gemini logo" data-i18n-alt="cred.a.gemini" loading="lazy" width="50" height="50"></span><span class="name">Gemini</span></span>
           </div>
         </li>
         <li class="credit">
@@ -783,7 +801,7 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
       <div class="helpers">
         <span class="role" data-i18n="cred.helpers">Contributing analysts</span>
         <ul>
-          <li>Chara</li><li>Gameover</li><li>Kattaros</li><li>Kiwi</li><li>Navajita</li>
+          <li>Gameover</li><li>Kattaros</li><li>Kiwi</li>
         </ul>
       </div>
       <div class="helpers">
@@ -799,7 +817,7 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
 <footer>
   <div class="wrap">
     <span data-i18n="foot.text">Axiom Wars · game in development</span>
-    <span class="foot-links"><a href="#creditos" data-i18n="cred.eyebrow">Credits</a> · <a href="https://discord.gg/2EZAtyqtzW" data-i18n-href="discord.href" target="_blank" rel="noopener">Discord</a></span>
+    <span class="foot-links"><a href="#idiomas" data-i18n="lang.eyebrow">Languages</a> · <a href="#creditos" data-i18n="cred.eyebrow">Credits</a> · <a href="https://discord.gg/2EZAtyqtzW" data-i18n-href="discord.href" target="_blank" rel="noopener">Discord</a></span>
   </div>
 </footer>
 <script src="assets/js/i18n.js?v=20261012b"></script>
@@ -986,6 +1004,24 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
   }
   resize(); window.addEventListener('resize', resize);
   requestAnimationFrame(frame);
+})();
+</script>
+<script>
+/* Tamaños de descarga: se leen de la última release de GitHub, así no hay
+   que tocar la web al publicar una versión nueva. Si la API falla, queda el
+   valor escrito en el HTML. */
+(function () {
+  var smalls = document.querySelectorAll('small[data-asset]');
+  if (!smalls.length || !window.fetch) return;
+  fetch('https://api.github.com/repos/cesar-rgon/axiom-wars/releases/latest', { headers: { Accept: 'application/vnd.github+json' } })
+    .then(function (r) { return r.ok ? r.json() : Promise.reject(); })
+    .then(function (rel) {
+      smalls.forEach(function (el) {
+        var a = (rel.assets || []).filter(function (x) { return x.name === el.dataset.asset; })[0];
+        if (a) el.textContent = el.textContent.replace(/\d+ MB/, Math.round(a.size / 1048576) + ' MB');
+      });
+    })
+    .catch(function () {});
 })();
 </script>
 </body>

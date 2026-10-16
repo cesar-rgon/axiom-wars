@@ -122,7 +122,7 @@ Neutral creatures that belong to no player. The docile ones wander their own hab
 |---|---|---:|:---:|---|---|
 | <img src="assets/img/creatures/aquadeso.webp" width="48" alt=""> | Aquadeso | 1 | 1×1 | Melee | Ambushes with its claws, close to the water. |
 | <img src="assets/img/creatures/obidicto.webp" width="48" alt=""> | Obidicto | 1 | 1×1 | Laser (4) | An alien soldier that fires laser pulses from 4 tiles away. |
-| <img src="assets/img/creatures/aratico.webp" width="48" alt=""> | Aratico | 2 | 1×1 | Web (3) | A mechanical spider: its web slows its prey for 2 rounds. |
+| <img src="assets/img/creatures/aratico.webp" width="48" alt=""> | Arático | 2 | 1×1 | Web (3) | A mechanical spider: its web slows its prey for 2 rounds. |
 | <img src="assets/img/creatures/pescualido.webp" width="48" alt=""> | Pescualido | 2 | 1×1 | Acid ball (4) | Spits acid: half the damage goes straight through the shield. |
 | <img src="assets/img/creatures/serpenta.webp" width="48" alt=""> | Serpenta | 2 | 1×1 | Melee | A fast serpent with a vicious bite. |
 | <img src="assets/img/creatures/maricobra.webp" width="48" alt=""> | Maricobra | 3 | 1×1 | Poison area (4) | Its wings spread a poison cloud over a 3×3 area. |
@@ -148,7 +148,6 @@ It covers the weapon-versus-unit damage matrix, the AP economy, energy and purch
 |---|---|
 | Windows 64-bit | [AxiomWars-Windows-x64.zip](https://github.com/cesar-rgon/axiom-wars/releases/latest/download/AxiomWars-Windows-x64.zip) |
 | Linux x86-64 | [AxiomWars-Linux-x64.zip](https://github.com/cesar-rgon/axiom-wars/releases/latest/download/AxiomWars-Linux-x64.zip) |
-| macOS (Apple Silicon) | Coming soon |
 
 1. Unzip the file and open **AxiomWars.exe** (Windows) or **AxiomWars** (Linux) inside the `AxiomWars` folder. Keep the `assets` folder next to it.
 2. In the **Host (IP or DNS:port)** field, type the server address.
@@ -161,15 +160,15 @@ It covers the weapon-versus-unit damage matrix, the AP economy, energy and purch
     <td align="center" width="20%" valign="top"><sub>Creator and analyst</sub><br><img src="assets/img/credits/rasec.webp" width="80" height="80" alt="RaseC logo"><br><b>RaseC</b></td>
     <td align="center" width="20%" valign="top"><sub>Programmer</sub><br><img src="assets/img/credits/claude-pad.svg" width="80" height="80" alt="Claude logo"><br><b>Claude AI</b></td>
     <td align="center" width="40%" valign="top"><table>
-      <tr><td align="center" colspan="4"><sub>Designers</sub></td></tr>
-      <tr><td align="center"><img src="assets/img/credits/chara-badge.webp" width="80" height="80" alt="Chara logo"></td><td align="center"><img src="assets/img/credits/rasec.webp" width="80" height="80" alt="RaseC logo"></td><td align="center"><img src="assets/img/credits/chatgpt-badge.webp" width="80" height="80" alt="ChatGPT logo"></td><td align="center"><img src="assets/img/credits/niji-badge.webp" width="80" height="80" alt="Niji·Journey logo"></td></tr>
-      <tr><td align="center"><b>Chara</b></td><td align="center"><b>RaseC</b></td><td align="center"><b>ChatGPT</b></td><td align="center"><b>Niji·Journey AI</b></td></tr>
+      <tr><td align="center" colspan="2"><sub>Designers</sub></td></tr>
+      <tr><td align="center"><img src="assets/img/credits/chatgpt-badge.webp" width="80" height="80" alt="ChatGPT logo"></td><td align="center"><img src="assets/img/credits/gemini.svg" width="80" height="80" alt="Gemini logo"></td></tr>
+      <tr><td align="center"><b>ChatGPT</b></td><td align="center"><b>Gemini</b></td></tr>
     </table></td>
     <td align="center" width="20%" valign="top"><sub>Composer</sub><br><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/credits/suno-pad.svg"><img src="assets/img/credits/suno-black-pad.svg" width="80" height="80" alt="Suno logo"></picture><br><b>Suno AI</b></td>
   </tr>
 </table>
 
-**Contributing analysts:** Chara · Gameover · Kattaros · Kiwi · Navajita
+**Contributing analysts:** Gameover · Kattaros · Kiwi
 
 **Testers:** Calheb · Chara · Fr4nk50 · Gameover · Kattaros · Kiwi · Miky · Navajita · Nightlane · RaseC
 

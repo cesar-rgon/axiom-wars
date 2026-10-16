@@ -122,7 +122,7 @@ Criaturas neutrales que no pertenecen a ningún jugador. Las dóciles deambulan 
 |---|---|---:|:---:|---|---|
 | <img src="assets/img/creatures/aquadeso.webp" width="48" alt=""> | Aquadeso | 1 | 1×1 | Cuerpo a cuerpo | Embosca con sus garras cerca del agua. |
 | <img src="assets/img/creatures/obidicto.webp" width="48" alt=""> | Obidicto | 1 | 1×1 | Láser (4) | Soldado alienígena que dispara pulsos láser a 4 casillas. |
-| <img src="assets/img/creatures/aratico.webp" width="48" alt=""> | Aratico | 2 | 1×1 | Telaraña (3) | Araña mecánica: su tela ralentiza a la presa 2 rondas. |
+| <img src="assets/img/creatures/aratico.webp" width="48" alt=""> | Arático | 2 | 1×1 | Telaraña (3) | Araña mecánica: su tela ralentiza a la presa 2 rondas. |
 | <img src="assets/img/creatures/pescualido.webp" width="48" alt=""> | Pescualido | 2 | 1×1 | Bola de ácido (4) | Escupe ácido: la mitad del daño atraviesa el escudo. |
 | <img src="assets/img/creatures/serpenta.webp" width="48" alt=""> | Serpenta | 2 | 1×1 | Cuerpo a cuerpo | Serpiente veloz de mordisco feroz. |
 | <img src="assets/img/creatures/maricobra.webp" width="48" alt=""> | Maricobra | 3 | 1×1 | Área venenosa (4) | Sus alas esparcen una nube venenosa sobre un área de 3×3. |
@@ -148,7 +148,6 @@ Incluye la matriz de daño arma contra unidad, la economía de PA, energía y co
 |---|---|
 | Windows 64 bits | [AxiomWars-Windows-x64.zip](https://github.com/cesar-rgon/axiom-wars/releases/latest/download/AxiomWars-Windows-x64.zip) |
 | Linux x86-64 | [AxiomWars-Linux-x64.zip](https://github.com/cesar-rgon/axiom-wars/releases/latest/download/AxiomWars-Linux-x64.zip) |
-| macOS (Apple Silicon) | Próximamente |
 
 1. Descomprime el zip y abre **AxiomWars.exe** (Windows) o **AxiomWars** (Linux) dentro de la carpeta `AxiomWars`. Deja la carpeta `assets` a su lado.
 2. En el campo **Host (IP o DNS:puerto)** escribe la dirección del servidor.
@@ -161,15 +160,15 @@ Incluye la matriz de daño arma contra unidad, la economía de PA, energía y co
     <td align="center" width="20%" valign="top"><sub>Creador y analista</sub><br><img src="assets/img/credits/rasec.webp" width="80" height="80" alt="Logo de RaseC"><br><b>RaseC</b></td>
     <td align="center" width="20%" valign="top"><sub>Programador</sub><br><img src="assets/img/credits/claude-pad.svg" width="80" height="80" alt="Logo de Claude"><br><b>Claude AI</b></td>
     <td align="center" width="40%" valign="top"><table>
-      <tr><td align="center" colspan="4"><sub>Diseñadores</sub></td></tr>
-      <tr><td align="center"><img src="assets/img/credits/chara-badge.webp" width="80" height="80" alt="Logo de Chara"></td><td align="center"><img src="assets/img/credits/rasec.webp" width="80" height="80" alt="Logo de RaseC"></td><td align="center"><img src="assets/img/credits/chatgpt-badge.webp" width="80" height="80" alt="Logo de ChatGPT"></td><td align="center"><img src="assets/img/credits/niji-badge.webp" width="80" height="80" alt="Logo de Niji·Journey"></td></tr>
-      <tr><td align="center"><b>Chara</b></td><td align="center"><b>RaseC</b></td><td align="center"><b>ChatGPT</b></td><td align="center"><b>Niji·Journey AI</b></td></tr>
+      <tr><td align="center" colspan="2"><sub>Diseñadores</sub></td></tr>
+      <tr><td align="center"><img src="assets/img/credits/chatgpt-badge.webp" width="80" height="80" alt="Logo de ChatGPT"></td><td align="center"><img src="assets/img/credits/gemini.svg" width="80" height="80" alt="Logo de Gemini"></td></tr>
+      <tr><td align="center"><b>ChatGPT</b></td><td align="center"><b>Gemini</b></td></tr>
     </table></td>
     <td align="center" width="20%" valign="top"><sub>Compositor</sub><br><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/credits/suno-pad.svg"><img src="assets/img/credits/suno-black-pad.svg" width="80" height="80" alt="Logo de Suno"></picture><br><b>Suno AI</b></td>
   </tr>
 </table>
 
-**Analistas colaboradores:** Chara · Gameover · Kattaros · Kiwi · Navajita
+**Analistas colaboradores:** Gameover · Kattaros · Kiwi
 
 **Testeadores:** Calheb · Chara · Fr4nk50 · Gameover · Kattaros · Kiwi · Miky · Navajita · Nightlane · RaseC
 
