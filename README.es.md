@@ -157,14 +157,15 @@ Incluye la matriz de daño arma contra unidad, la economía de PA, energía y co
 
 <table>
   <tr>
-    <td align="center" width="20%" valign="top"><sub>Creador y analista</sub><br><img src="assets/img/credits/rasec.webp" width="80" height="80" alt="Logo de RaseC"><br><b>RaseC</b></td>
-    <td align="center" width="20%" valign="top"><sub>Programador</sub><br><img src="assets/img/credits/claude-pad.svg" width="80" height="80" alt="Logo de Claude"><br><b>Claude AI</b></td>
-    <td align="center" width="40%" valign="top"><table>
+    <td align="center" width="17%" valign="top"><sub>Creador y analista</sub><br><img src="assets/img/credits/rasec.webp" width="80" height="80" alt="Logo de RaseC"><br><b>RaseC</b></td>
+    <td align="center" width="17%" valign="top"><sub>Programador</sub><br><img src="assets/img/credits/claude-pad.svg" width="80" height="80" alt="Logo de Claude"><br><b>Claude AI</b></td>
+    <td align="center" width="32%" valign="top"><table>
       <tr><td align="center" colspan="2"><sub>Diseñadores</sub></td></tr>
       <tr><td align="center"><img src="assets/img/credits/chatgpt-badge.webp" width="80" height="80" alt="Logo de ChatGPT"></td><td align="center"><img src="assets/img/credits/gemini.svg" width="80" height="80" alt="Logo de Gemini"></td></tr>
-      <tr><td align="center"><b>ChatGPT</b></td><td align="center"><b>Gemini</b></td></tr>
+      <tr><td align="center"><b>ChatGPT AI</b></td><td align="center"><b>Gemini AI</b></td></tr>
     </table></td>
-    <td align="center" width="20%" valign="top"><sub>Compositor</sub><br><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/credits/suno-pad.svg"><img src="assets/img/credits/suno-black-pad.svg" width="80" height="80" alt="Logo de Suno"></picture><br><b>Suno AI</b></td>
+    <td align="center" width="17%" valign="top"><sub>Compositor</sub><br><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/credits/suno-pad.svg"><img src="assets/img/credits/suno-black-pad.svg" width="80" height="80" alt="Logo de Suno"></picture><br><b>Suno AI</b></td>
+    <td align="center" width="17%" valign="top"><sub>Efectos de sonido</sub><br><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/credits/elevenlabs-pad.svg"><img src="assets/img/credits/elevenlabs-black-pad.svg" width="80" height="80" alt="Logo de ElevenLabs"></picture><br><b>ElevenLabs AI</b></td>
   </tr>
 </table>
 

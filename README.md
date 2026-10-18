@@ -157,14 +157,15 @@ It covers the weapon-versus-unit damage matrix, the AP economy, energy and purch
 
 <table>
   <tr>
-    <td align="center" width="20%" valign="top"><sub>Creator and analyst</sub><br><img src="assets/img/credits/rasec.webp" width="80" height="80" alt="RaseC logo"><br><b>RaseC</b></td>
-    <td align="center" width="20%" valign="top"><sub>Programmer</sub><br><img src="assets/img/credits/claude-pad.svg" width="80" height="80" alt="Claude logo"><br><b>Claude AI</b></td>
-    <td align="center" width="40%" valign="top"><table>
+    <td align="center" width="17%" valign="top"><sub>Creator and analyst</sub><br><img src="assets/img/credits/rasec.webp" width="80" height="80" alt="RaseC logo"><br><b>RaseC</b></td>
+    <td align="center" width="17%" valign="top"><sub>Programmer</sub><br><img src="assets/img/credits/claude-pad.svg" width="80" height="80" alt="Claude logo"><br><b>Claude AI</b></td>
+    <td align="center" width="32%" valign="top"><table>
       <tr><td align="center" colspan="2"><sub>Designers</sub></td></tr>
       <tr><td align="center"><img src="assets/img/credits/chatgpt-badge.webp" width="80" height="80" alt="ChatGPT logo"></td><td align="center"><img src="assets/img/credits/gemini.svg" width="80" height="80" alt="Gemini logo"></td></tr>
-      <tr><td align="center"><b>ChatGPT</b></td><td align="center"><b>Gemini</b></td></tr>
+      <tr><td align="center"><b>ChatGPT AI</b></td><td align="center"><b>Gemini AI</b></td></tr>
     </table></td>
-    <td align="center" width="20%" valign="top"><sub>Composer</sub><br><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/credits/suno-pad.svg"><img src="assets/img/credits/suno-black-pad.svg" width="80" height="80" alt="Suno logo"></picture><br><b>Suno AI</b></td>
+    <td align="center" width="17%" valign="top"><sub>Composer</sub><br><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/credits/suno-pad.svg"><img src="assets/img/credits/suno-black-pad.svg" width="80" height="80" alt="Suno logo"></picture><br><b>Suno AI</b></td>
+    <td align="center" width="17%" valign="top"><sub>Sound effects</sub><br><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/credits/elevenlabs-pad.svg"><img src="assets/img/credits/elevenlabs-black-pad.svg" width="80" height="80" alt="ElevenLabs logo"></picture><br><b>ElevenLabs AI</b></td>
   </tr>
 </table>
 

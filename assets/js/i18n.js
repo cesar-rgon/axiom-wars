@@ -199,11 +199,12 @@
     'cred.programmer': 'Programador',
     'cred.designers': 'Diseñadores',
     'cred.composer': 'Compositor',
+    'cred.sfx': 'Efectos de sonido',
     'cred.helpers': 'Analistas colaboradores',
     'cred.testers': 'Testeadores',
     'cred.a.rasec': 'Logo de RaseC', 'cred.a.claude': 'Logo de Claude',
     'cred.a.chatgpt': 'Logo de ChatGPT', 'cred.a.suno': 'Logo de Suno',
-    'cred.a.gemini': 'Logo de Gemini',
+    'cred.a.gemini': 'Logo de Gemini', 'cred.a.elevenlabs': 'Logo de ElevenLabs',
     'foot.text': 'Axiom Wars · juego en desarrollo',
     // Cada idioma tiene su propia invitación al Discord.
     'discord.href': 'https://discord.gg/3rsTp3DdGh'

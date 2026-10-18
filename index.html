@@ -290,7 +290,7 @@ h3.sub { font-family: var(--font-display, inherit); margin: 28px 0 12px; color: 
 .connect code { font: 500 .88em var(--font-mono); color: var(--steel); }
 
 /* Créditos */
-.credits { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 14px; margin: 26px 0 0; padding: 0; list-style: none; }
+.credits { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 14px; margin: 26px 0 0; padding: 0; list-style: none; }
 @media (max-width: 860px) { .credits { grid-template-columns: repeat(2, minmax(0, 1fr)); } .credit.team { order: 9; } }
 .credit { display: grid; justify-items: center; align-content: start; text-align: center; gap: 6px; padding: 22px 14px 20px; background: var(--hull); border: 1px solid var(--line); min-width: 0; }
 .credit .logo { width: 84px; height: 84px; display: grid; place-items: center; margin-bottom: 6px; }
@@ -788,14 +788,19 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
         <li class="credit team">
           <div class="members">
             <span class="role" data-i18n="cred.designers">Designers</span>
-            <span class="member"><span class="badge"><img src="assets/img/credits/chatgpt.svg" alt="ChatGPT logo" data-i18n-alt="cred.a.chatgpt" loading="lazy" width="50" height="50"></span><span class="name">ChatGPT</span></span>
-            <span class="member"><span class="badge"><img src="assets/img/credits/gemini.svg" alt="Gemini logo" data-i18n-alt="cred.a.gemini" loading="lazy" width="50" height="50"></span><span class="name">Gemini</span></span>
+            <span class="member"><span class="badge"><img src="assets/img/credits/chatgpt.svg" alt="ChatGPT logo" data-i18n-alt="cred.a.chatgpt" loading="lazy" width="50" height="50"></span><span class="name">ChatGPT AI</span></span>
+            <span class="member"><span class="badge"><img src="assets/img/credits/gemini.svg" alt="Gemini logo" data-i18n-alt="cred.a.gemini" loading="lazy" width="50" height="50"></span><span class="name">Gemini AI</span></span>
           </div>
         </li>
         <li class="credit">
           <span class="role" data-i18n="cred.composer">Composer</span>
           <span class="logo"><img src="assets/img/credits/suno.svg" alt="Suno logo" data-i18n-alt="cred.a.suno" loading="lazy" width="52" height="52"></span>
           <span class="name">Suno AI</span>
+        </li>
+        <li class="credit">
+          <span class="role" data-i18n="cred.sfx">Sound effects</span>
+          <span class="logo"><img src="assets/img/credits/elevenlabs.svg" alt="ElevenLabs logo" data-i18n-alt="cred.a.elevenlabs" loading="lazy" width="52" height="52"></span>
+          <span class="name">ElevenLabs AI</span>
         </li>
       </ul>
       <div class="helpers">
