@@ -50,18 +50,18 @@ Up to 8 players, free-for-all or in teams (up to 4 versus 4). Empty seats are fi
 Screenshots from the current build. Click one to see it full size.
 
 <p align="center">
-  <a href="assets/img/galeria-16.webp"><img src="assets/img/galeria-16.webp" alt="Plateaus with ramps: a group of troops advances together while two enemy targets are fired upon with Auto attacks along their line of fire" width="100%"></a>
-  <br><sub>Plateaus and ramps: troops move as a group and Auto attacks follow their targets, with the line of fire checked against the plateaus.</sub>
+  <a href="assets/img/galeria-17.webp"><img src="assets/img/galeria-17.webp" alt="Round 48 in the rain: a large base with dozens of buildings, a group of Mechs at the front and the route lines of the planned orders across the map" width="100%"></a>
+  <br><sub>Round 48 in the rain: a developed base, a group of Mechs at the front and the routes of the planned orders drawn across the map.</sub>
 </p>
 
 <table>
   <tr>
+    <td width="50%"><a href="assets/img/galeria-16.webp"><img src="assets/img/galeria-16.webp" alt="Plateaus with ramps: a group of troops advances together while two enemy targets are fired upon with Auto attacks along their line of fire"></a></td>
     <td width="50%"><a href="assets/img/galeria-15.webp"><img src="assets/img/galeria-15.webp" alt="Round 4 in the rain with the new framed interface: orders column on the left, the map inside its frame, and minimap, build panel and turn on the right"></a></td>
-    <td width="50%"><a href="assets/img/galeria-14.webp"><img src="assets/img/galeria-14.webp" alt="Round 26 with the floating interface: Menu, resources, minimap, build panel by Government level and the order row with an icon per kind of order"></a></td>
   </tr>
   <tr>
+    <td><sub>Plateaus and ramps: troops move as a group and Auto attacks follow their targets, with the line of fire checked against the plateaus.</sub></td>
     <td><sub>Round 4 in the rain: the new interface frames the map between the orders column and the column with the minimap, the build panel and the turn.</sub></td>
-    <td><sub>Round 26: the new floating interface, with the build panel by Government level and an icon for each kind of order.</sub></td>
   </tr>
 </table>
 
@@ -84,6 +84,7 @@ Axiom Wars started out as a terminal client. These are the versions it has gone 
 | **11** | <a href="assets/img/museo/11.webp"><img src="assets/img/museo/11.webp" width="260" alt="Panel by unit"></a> | **Panel by unit.** The side panel shows each unit's weapons, abilities and passives next to the pending orders queue. |
 | **12** | <a href="assets/img/museo/12.webp"><img src="assets/img/museo/12.webp" width="260" alt="Wikipedia"></a> | **Wikipedia.** An in-game archive of buildings, units and creatures with every figure. |
 | **13** | <a href="assets/img/museo/13.webp"><img src="assets/img/museo/13.webp" width="260" alt="Technology"></a> | **Technology.** Each unit's weapons, active abilities and passives by Government level, bought from one window. |
+| **14** | <a href="assets/img/museo/14.webp"><img src="assets/img/museo/14.webp" width="260" alt="Floating interface"></a> | **Floating interface.** Menu, resources, minimap, a build panel by Government level and an icon for each kind of order. |
 
 ## Units of the Terran Faction
 

@@ -50,18 +50,18 @@ Hasta 8 jugadores, todos contra todos o por equipos (hasta 4 contra 4). Los huec
 Capturas de la versión actual. Pulsa en una para verla a tamaño completo.
 
 <p align="center">
-  <a href="assets/img/galeria-16.webp"><img src="assets/img/galeria-16.webp" alt="Mesetas con rampas: un grupo de tropas avanza a la vez mientras dos objetivos enemigos reciben ataques Auto siguiendo su línea de tiro" width="100%"></a>
-  <br><sub>Mesetas y rampas: las tropas se mueven en grupo y los ataques Auto siguen a su objetivo, con la línea de tiro comprobada contra las mesetas.</sub>
+  <a href="assets/img/galeria-17.webp"><img src="assets/img/galeria-17.webp" alt="Ronda 48 bajo la lluvia: una base grande con decenas de edificios, un grupo de Mecas en el frente y las líneas de ruta de las órdenes planificadas por el mapa" width="100%"></a>
+  <br><sub>Ronda 48 bajo la lluvia: una base desarrollada, un grupo de Mecas en el frente y las rutas de las órdenes planificadas dibujadas por el mapa.</sub>
 </p>
 
 <table>
   <tr>
+    <td width="50%"><a href="assets/img/galeria-16.webp"><img src="assets/img/galeria-16.webp" alt="Mesetas con rampas: un grupo de tropas avanza a la vez mientras dos objetivos enemigos reciben ataques Auto siguiendo su línea de tiro"></a></td>
     <td width="50%"><a href="assets/img/galeria-15.webp"><img src="assets/img/galeria-15.webp" alt="Ronda 4 bajo la lluvia con la interfaz nueva enmarcada: columna de órdenes a la izquierda, el mapa dentro de su marco y minimapa, panel de construcción y turno a la derecha"></a></td>
-    <td width="50%"><a href="assets/img/galeria-14.webp"><img src="assets/img/galeria-14.webp" alt="Ronda 26 con la interfaz flotante: Menú, recursos, minimapa, panel de construcción por nivel de Gobierno y la fila de órdenes con un icono por tipo de orden"></a></td>
   </tr>
   <tr>
+    <td><sub>Mesetas y rampas: las tropas se mueven en grupo y los ataques Auto siguen a su objetivo, con la línea de tiro comprobada contra las mesetas.</sub></td>
     <td><sub>Ronda 4 bajo la lluvia: la interfaz nueva enmarca el mapa entre la columna de órdenes y la columna del minimapa, el panel de construcción y el turno.</sub></td>
-    <td><sub>Ronda 26: la nueva interfaz flotante, con el panel de construcción por nivel de Gobierno y un icono para cada tipo de orden.</sub></td>
   </tr>
 </table>
 
@@ -84,6 +84,7 @@ Axiom Wars empezó como un cliente de terminal. Estas son las versiones por las 
 | **11** | <a href="assets/img/museo/11.webp"><img src="assets/img/museo/11.webp" width="260" alt="Panel por unidad"></a> | **Panel por unidad.** El panel lateral muestra las armas, habilidades y pasivas de cada unidad junto a la cola de órdenes pendientes. |
 | **12** | <a href="assets/img/museo/12.webp"><img src="assets/img/museo/12.webp" width="260" alt="Wikipedia"></a> | **Wikipedia.** Un archivo dentro del juego con los edificios, unidades y criaturas y todas sus cifras. |
 | **13** | <a href="assets/img/museo/13.webp"><img src="assets/img/museo/13.webp" width="260" alt="Tecnología"></a> | **Tecnología.** Las armas, habilidades activas y pasivas de cada unidad por nivel de Gobierno, que se compran desde una ventana. |
+| **14** | <a href="assets/img/museo/14.webp"><img src="assets/img/museo/14.webp" width="260" alt="Interfaz flotante"></a> | **Interfaz flotante.** Menú, recursos, minimapa, un panel de construcción por nivel de Gobierno y un icono para cada tipo de orden. |
 
 ## Unidades de la Facción Terránea
 
