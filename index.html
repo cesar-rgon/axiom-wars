@@ -212,6 +212,8 @@ h3.sub { font-family: var(--font-display, inherit); margin: 28px 0 12px; color: 
 .stats div { display: grid; gap: 0; }
 .stats dt { font-size: .66rem; color: var(--steel-dim); letter-spacing: .08em; text-transform: uppercase; }
 .stats dd { margin: 0; font-size: .95rem; color: var(--steel); }
+/* Balance de daños: el grafo interactivo va en un iframe (docs/balance/damage-graph.html) */
+.dmg-frame { display: block; width: 100%; height: 760px; border: 0; background: transparent; }
 /* Fichas de criaturas: 5 por fila en pantalla ancha */
 .units.compact { grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 10px; }
 .units.compact .unit { padding: 10px 10px 12px; gap: 4px; }
@@ -494,6 +496,16 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
         </article>
       </div>
       <p class="more-links"><a href="https://github.com/cesar-rgon/axiom-wars/blob/main/docs/units/README.md" target="_blank" rel="noopener" data-i18n="fac.sheets" data-i18n-href="fac.sheets.href">Full unit sheets</a> · <a href="docs/balance/" data-i18n="fac.balance" data-i18n-href="fac.balance.href">Balance report</a></p>
+    </div>
+  </section>
+
+  <section id="balance-danos">
+    <div class="wrap">
+      <p class="eyebrow" data-i18n="dmg.eyebrow">Terran Faction</p>
+      <h2 data-i18n="dmg.title">Damage balance</h2>
+      <p class="section-intro" data-i18n="dmg.intro">Every weapon deals full damage only to the armor it was made for, and every troop takes maximum damage from exactly three attackers, so none of them rules. Click a unit to see who it beats and who beats it.</p>
+      <iframe id="dmg-frame" class="dmg-frame" src="docs/balance/damage-graph.html?embed&amp;theme=dark" data-i18n-src="dmg.src" title="Damage balance graph" data-i18n-title="dmg.frame" loading="lazy"></iframe>
+      <p class="more-links"><a href="docs/balance/damage-graph.html" data-i18n="dmg.open" data-i18n-href="dmg.open.href">Open the graph on its own page</a></p>
     </div>
   </section>
 
@@ -1028,6 +1040,15 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
     })
     .catch(function () {});
 })();
+</script>
+<script>
+// El grafo de daños avisa de la altura que necesita para que el iframe no tenga scroll interno.
+window.addEventListener('message', function (ev) {
+  var f = document.getElementById('dmg-frame');
+  if (!f || ev.source !== f.contentWindow) return;
+  var h = ev.data && ev.data.awGraphHeight;
+  if (typeof h === 'number' && h > 200 && h < 3000) f.style.height = Math.ceil(h) + 'px';
+});
 </script>
 </body>
 </html>

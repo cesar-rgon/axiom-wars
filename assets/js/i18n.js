@@ -109,6 +109,12 @@
     'mech.players': 'Hasta 8 jugadores',
     'mech.playerst': 'Todos contra todos o por equipos, hasta 4 contra 4. Los huecos se rellenan con bots que planifican con búsqueda evolutiva.',
 
+    'dmg.eyebrow': 'Facción Terránea',
+    'dmg.title': 'Balance de daños',
+    'dmg.intro': 'Cada arma hace todo su daño solo a la armadura para la que fue pensada, y cada tropa recibe daño máximo de exactamente tres atacantes, así que ninguna manda. Pulsa una unidad para ver a quién vence y quién la vence.',
+    'dmg.src': 'docs/balanceo/grafo-ataques.html?embed&theme=dark',
+    'dmg.frame': 'Grafo del balance de daños',
+    'dmg.open': 'Abrir el grafo en su propia página', 'dmg.open.href': 'docs/balanceo/grafo-ataques.html',
     'fac.eyebrow': 'Facción Terránea',
     'fac.title': 'Nueve unidades, de la mina al cielo',
     'fac.intro': 'Las unidades civiles sostienen la economía; las militares se reclutan en edificios que exigen un Gobierno de nivel más alto. Valores provisionales: el balanceo sigue abierto.',
@@ -218,6 +224,7 @@
     ['data-i18n-aria', function (el) { return el.getAttribute('aria-label'); }, function (el, v) { el.setAttribute('aria-label', v); }],
     ['data-i18n-phase', function (el) { return el.getAttribute('data-phase'); }, function (el, v) { el.setAttribute('data-phase', v); }],
     ['data-i18n-title', function (el) { return el.title; }, function (el, v) { el.title = v; }],
+    ['data-i18n-src', function (el) { return el.getAttribute('src'); }, function (el, v) { el.setAttribute('src', v); }],
     ['data-i18n-href', function (el) { return el.getAttribute('href'); }, function (el, v) { el.setAttribute('href', v); }]
   ];
   var EN = {};

@@ -14,6 +14,7 @@
   <a href="https://discord.gg/3rsTp3DdGh">Discord</a> ·
   <a href="https://github.com/cesar-rgon/axiom-wars/releases/latest">Descargar</a> ·
   <a href="docs/unidades/README.md">Unidades</a> ·
+  <a href="#balance-de-daños">Balance de daños</a> ·
   <a href="#criaturas-de-mapa">Criaturas</a> ·
   <a href="#balanceo">Balanceo</a>
 </p>
@@ -101,6 +102,23 @@ Nueve unidades, de la mina al cielo. Cada ficha detalla producción, mantenimien
 | <img src="assets/img/units/droide.png" width="48" alt=""> | [Droide](docs/unidades/droide.md) | Ligera · aérea | 60 | 120 | 8 |
 
 Índice con el papel de cada unidad: [docs/unidades](docs/unidades/README.md) · Las nueve fichas para imprimir: [Fichas-Terranea.pdf](docs/unidades/Fichas-Terranea.pdf)
+
+## Balance de daños
+
+Cada arma hace todo su daño solo a la armadura para la que fue pensada, y cada tropa recibe daño máximo de exactamente tres atacantes (unidades y las dos torres), así que ninguna manda. Cada flecha sale del atacante y apunta a quien recibe el 100 % de daño de esa arma. El borde de cada nodo es su armadura.
+
+<p align="center">
+  <a href="https://cesar-rgon.github.io/axiom-wars/docs/balanceo/grafo-ataques.html"><img src="assets/img/damage-graph-es.webp" alt="Grafo de daño máximo entre las unidades y torres terráneas: cada flecha va del atacante a las unidades que reciben el 100 % de daño de su arma, y el borde del nodo indica la armadura" width="100%"></a>
+  <br><sub>Pulsa el grafo para abrir la <a href="https://cesar-rgon.github.io/axiom-wars/docs/balanceo/grafo-ataques.html">versión interactiva</a>: elige una unidad para resaltar a quién vence (o, con «Recibe daño de», quién la vence) y oscurecer el resto.</sub>
+</p>
+
+| Tipo de arma | Daño completo (100 %) a |
+|---|---|
+| Anti-Ligera | Armadura Ligera |
+| Anti-Media | Armadura Media |
+| Anti-Pesada | Armadura Pesada y Estructuras |
+
+Los Misiles y la Defensa Aérea solo alcanzan unidades aéreas; el Cañonazo y la Ráfaga golpean tanto a tierra como a aire.
 
 ## Criaturas de mapa
 

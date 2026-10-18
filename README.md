@@ -14,6 +14,7 @@
   <a href="https://discord.gg/2EZAtyqtzW">Discord</a> ·
   <a href="https://github.com/cesar-rgon/axiom-wars/releases/latest">Download</a> ·
   <a href="#units-of-the-terran-faction">Units</a> ·
+  <a href="#damage-balance">Damage balance</a> ·
   <a href="#map-creatures">Creatures</a> ·
   <a href="#balance">Balance</a>
 </p>
@@ -101,6 +102,23 @@ Nine units, from the mine to the sky. Each sheet covers production, upkeep, defe
 | <img src="assets/img/units/droide.png" width="48" alt=""> | [Droid](docs/units/droide.md) | Light · air | 60 | 120 | 8 |
 
 Index with each unit's role: [docs/units](docs/units/README.md) · All nine sheets, print-ready: [Unit-Sheets-Terran.pdf](docs/units/Unit-Sheets-Terran.pdf)
+
+## Damage balance
+
+Every weapon deals full damage only to the armor it was made for, and every troop takes maximum damage from exactly three attackers (units and the two towers), so none of them rules. Each arrow leaves the attacker and points at whoever takes 100% damage from that weapon. The border of each node is its armor.
+
+<p align="center">
+  <a href="https://cesar-rgon.github.io/axiom-wars/docs/balance/damage-graph.html"><img src="assets/img/damage-graph-en.webp" alt="Graph of maximum damage between the Terran units and towers: each arrow goes from the attacker to the units that take 100% damage from its weapon, and the node border shows the armor" width="100%"></a>
+  <br><sub>Click the graph to open the <a href="https://cesar-rgon.github.io/axiom-wars/docs/balance/damage-graph.html">interactive version</a>: pick a unit to light up who it beats (or, with “Takes damage from”, who beats it) and fade the rest.</sub>
+</p>
+
+| Weapon type | Full damage (100%) to |
+|---|---|
+| Anti-Light | Light armor |
+| Anti-Medium | Medium armor |
+| Anti-Heavy | Heavy armor and Structures |
+
+Missiles and the Air Defense only reach air units; the Cannon shot and the Burst hit both ground and air.
 
 ## Map creatures
 
