@@ -119,11 +119,11 @@ Every weapon deals full damage only to the armor it was made for, and every troo
 | Anti-Medium | Medium armor |
 | Anti-Heavy | Heavy armor and Structures |
 
-Missiles and the Air Defense only reach air units; the Cannon shot and the Burst hit both ground and air.
+Only the Air Defense is limited to air units; the Missiles, Turret, Cannon shot and Burst hit both ground and air.
 
 ## Map creatures
 
-Neutral creatures that belong to no player. The docile ones wander their own habitat and give Food to whoever hunts them; the aggressive ones guard the reward containers and the resource pools, attack any troop or building in sight and go back to their post to heal. Their level (1–5) sets the range their health, shield and damage are rolled from.
+Neutral creatures that belong to no player. The docile ones wander their own habitat and give Food to whoever hunts them; the aggressive ones guard the reward containers: they sleep buried until a troop next to the chest chooses to fight, then they surface around it and fight to the death. Their level (1–5) sets the range their health, shield and damage are rolled from.
 
 ### Docile
 

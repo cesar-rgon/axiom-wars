@@ -119,11 +119,11 @@ Cada arma hace todo su daño solo a la armadura para la que fue pensada, y cada 
 | Anti-Media | Armadura Media |
 | Anti-Pesada | Armadura Pesada y Estructuras |
 
-Los Misiles y la Defensa Aérea solo alcanzan unidades aéreas; el Cañonazo y la Ráfaga golpean tanto a tierra como a aire.
+Solo la Defensa Aérea está limitada a unidades aéreas; los Misiles, la Torreta, el Cañonazo y la Ráfaga golpean tanto a tierra como a aire.
 
 ## Criaturas de mapa
 
-Criaturas neutrales que no pertenecen a ningún jugador. Las dóciles deambulan por su hábitat y dan comida a quien las caza; las agresivas custodian los contenedores con premio y los pools de recursos, atacan a cualquier tropa o edificio que vean y vuelven a su puesto a curarse. Su nivel (1–5) fija el rango del que salen su vida, su escudo y su daño.
+Criaturas neutrales que no pertenecen a ningún jugador. Las dóciles deambulan por su hábitat y dan comida a quien las caza; las agresivas custodian los contenedores con premio: duermen enterradas hasta que una tropa junto al cofre elige luchar; entonces salen del suelo a su alrededor y luchan a muerte. Su nivel (1–5) fija el rango del que salen su vida, su escudo y su daño.
 
 ### Dóciles
 

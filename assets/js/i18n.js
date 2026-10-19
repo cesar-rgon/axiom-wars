@@ -67,7 +67,7 @@
     'nav.creatures': 'Criaturas',
     'cre.eyebrow': 'Criaturas de mapa',
     'cre.title': 'La fauna del mapa',
-    'cre.intro': 'Criaturas neutrales que no pertenecen a ningún jugador. Las dóciles deambulan por su hábitat y dan comida a quien las caza. Las agresivas custodian los contenedores con premio y los pools de recursos: atacan a cualquier tropa o edificio que vean, lo persiguen y vuelven a su puesto a curarse. Su nivel (1–5) fija el rango del que salen su vida, su escudo y su daño.',
+    'cre.intro': 'Criaturas neutrales que no pertenecen a ningún jugador. Las dóciles deambulan por su hábitat y dan comida a quien las caza. Las agresivas custodian los contenedores con premio: duermen enterradas hasta que una tropa junto al cofre elige luchar; entonces salen del suelo a su alrededor y luchan a muerte. Su nivel (1–5) fija el rango del que salen su vida, su escudo y su daño.',
     'cre.docile': 'Dóciles',
     'cre.aggressive': 'Agresivas',
     'st.food': 'Comida',
