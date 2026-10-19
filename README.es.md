@@ -15,8 +15,7 @@
   <a href="https://github.com/cesar-rgon/axiom-wars/releases/latest">Descargar</a> ·
   <a href="docs/unidades/README.md">Unidades</a> ·
   <a href="#balance-de-daños">Balance de daños</a> ·
-  <a href="#criaturas-de-mapa">Criaturas</a> ·
-  <a href="#balanceo">Balanceo</a>
+  <a href="#criaturas-de-mapa">Criaturas</a>
 </p>
 
 > [!NOTE]
@@ -152,15 +151,6 @@ Criaturas neutrales que no pertenecen a ningún jugador. Las dóciles deambulan 
 | <img src="assets/img/creatures/rinotortuga.webp" width="48" alt=""> | Rinotortuga | 5 | 2×1 | Cornada + misiles (5) | Mecánica. Su cuerno empuja a las tropas y sus baterías lanzan ráfagas de misiles sobre un área de 3×3. |
 | <img src="assets/img/creatures/ultimo_aliento.webp" width="48" alt=""> | Último Aliento | 5 | 2×2 | Zarpazo en área + llama azul (4) | El gran depredador: zarpazo en área que ralentiza y una llama azul que rompe todos los escudos que toca. |
 
-## Balanceo
-
-El informe de balanceo de la Facción Terránea (propuesta v12) analiza las nueve fichas a la vez y propone los números de todas las armas y habilidades. Su idea central: cada blindaje tiene armas que le hacen daño completo y armas que apenas le hacen nada, de modo que la unidad correcta contra su objetivo sea 2–3 veces más eficiente por PA que la incorrecta.
-
-Incluye la matriz de daño arma contra unidad, la economía de PA, energía y compras, alcance y visión, comprobaciones de combate, vida de los edificios y un repaso unidad por unidad.
-
-- **Leerlo en el navegador:** [cesar-rgon.github.io/axiom-wars/docs/balanceo/](https://cesar-rgon.github.io/axiom-wars/docs/balanceo/)
-- **PDF:** [Balanceo-Terraneo-v12.pdf](docs/balanceo/Balanceo-Terraneo-v12.pdf)
-
 ## Descargar y jugar
 
 | Sistema | Descarga |
@@ -201,9 +191,9 @@ index.html          web publicada en https://cesar-rgon.github.io/axiom-wars/
 assets/img/         logo, unidades, galería, museo y créditos
 assets/js/i18n.js   traducción al español de la web (por defecto, inglés)
 docs/unidades/      fichas de las unidades Terráneas (Markdown y PDF)
-docs/balanceo/      informe de balanceo (HTML y PDF)
+docs/balanceo/      grafo interactivo de daños (español)
 docs/units/         las mismas fichas en inglés
-docs/balance/       el mismo informe en inglés
+docs/balance/       el mismo grafo en inglés
 tools/make_logo.py  recorta el logo original a PNG transparente
 ```
 

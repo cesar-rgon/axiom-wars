@@ -15,8 +15,7 @@
   <a href="https://github.com/cesar-rgon/axiom-wars/releases/latest">Download</a> ·
   <a href="#units-of-the-terran-faction">Units</a> ·
   <a href="#damage-balance">Damage balance</a> ·
-  <a href="#map-creatures">Creatures</a> ·
-  <a href="#balance">Balance</a>
+  <a href="#map-creatures">Creatures</a>
 </p>
 
 > [!NOTE]
@@ -152,15 +151,6 @@ Neutral creatures that belong to no player. The docile ones wander their own hab
 | <img src="assets/img/creatures/rinotortuga.webp" width="48" alt=""> | Rinotortuga | 5 | 2×1 | Horn + missiles (5) | Mechanical. Its horn shoves troops back and its racks fire missile salvos over a 3×3 area. |
 | <img src="assets/img/creatures/ultimo_aliento.webp" width="48" alt=""> | Último Aliento | 5 | 2×2 | Area claws + blue flame (4) | The apex predator: area claws that slow, and a blue flame that breaks every shield it touches. |
 
-## Balance
-
-The Terran Faction balance report (proposal v12) looks at all nine unit sheets together and proposes numbers for every weapon and ability. Its core idea: each armor class has weapons that deal full damage to it and weapons that barely scratch it, so the right unit against its target is 2–3 times more efficient per AP than the wrong one.
-
-It covers the weapon-versus-unit damage matrix, the AP economy, energy and purchases, range and vision, combat checks, building health and a unit-by-unit review.
-
-- **Read it in the browser:** [cesar-rgon.github.io/axiom-wars/docs/balance/](https://cesar-rgon.github.io/axiom-wars/docs/balance/)
-- **PDF:** [Balance-Terran-v12.pdf](docs/balance/Balance-Terran-v12.pdf)
-
 ## Download and play
 
 | System | Download |
@@ -201,9 +191,9 @@ index.html          website published at https://cesar-rgon.github.io/axiom-wars
 assets/img/         logo, units, gallery, museum and credits
 assets/js/i18n.js   Spanish translation of the website (English is the default)
 docs/units/         Terran unit sheets (Markdown and PDF)
-docs/balance/       balance report (HTML and PDF)
+docs/balance/       interactive damage graph (English)
 docs/unidades/      the same unit sheets in Spanish
-docs/balanceo/      the same balance report in Spanish
+docs/balanceo/      the same graph in Spanish
 tools/make_logo.py  cuts the original logo out to a transparent PNG
 ```
 

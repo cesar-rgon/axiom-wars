@@ -139,8 +139,6 @@
     'u.droid.d': 'Sin ataque. Abre portales dimensionales que teletransportan tropas.',
     'fac.sheets': 'Fichas completas de las unidades',
     'fac.sheets.href': 'https://github.com/cesar-rgon/axiom-wars/blob/main/docs/unidades/README.md',
-    'fac.balance': 'Informe de balanceo',
-    'fac.balance.href': 'docs/balanceo/',
 
     'shots.eyebrow': 'Capturas',
     'shots.title': 'Así se ve hoy',
