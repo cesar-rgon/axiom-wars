@@ -110,7 +110,7 @@ Cada arma hace todo su daño solo a la armadura para la que fue pensada, y cada 
 
 <p align="center">
   <a href="https://cesar-rgon.github.io/axiom-wars/docs/balanceo/grafo-ataques.html"><img src="assets/img/damage-graph-es.webp" alt="Grafo de daño máximo entre las unidades y torres terráneas: cada flecha va del atacante a las unidades que reciben el 100 % de daño de su arma, y el borde del nodo indica la armadura" width="100%"></a>
-  <br><sub>Pulsa el grafo para abrir la <a href="https://cesar-rgon.github.io/axiom-wars/docs/balanceo/grafo-ataques.html">versión interactiva</a>: elige una unidad para resaltar a quién vence (o, con «Recibe daño de», quién la vence) y oscurecer el resto.</sub>
+  <br><sub>Pulsa el grafo para abrir la <a href="https://cesar-rgon.github.io/axiom-wars/docs/balanceo/grafo-ataques.html">versión interactiva</a>: elige una unidad para resaltar a quién vence (o, con «Recibe daño máximo de», quién la vence) y oscurecer el resto. Elige un nivel de Gobierno (1, 2 o 3) para ver solo los ataques disponibles en él: el nivel 1 muestra los del Gobierno 1, el nivel 2 añade los del Gobierno 2 y el nivel 3 los muestra todos.</sub>
 </p>
 
 | Tipo de arma | Daño completo (100 %) a |

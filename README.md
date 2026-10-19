@@ -110,7 +110,7 @@ Every weapon deals full damage only to the armor it was made for, and every troo
 
 <p align="center">
   <a href="https://cesar-rgon.github.io/axiom-wars/docs/balance/damage-graph.html"><img src="assets/img/damage-graph-en.webp" alt="Graph of maximum damage between the Terran units and towers: each arrow goes from the attacker to the units that take 100% damage from its weapon, and the node border shows the armor" width="100%"></a>
-  <br><sub>Click the graph to open the <a href="https://cesar-rgon.github.io/axiom-wars/docs/balance/damage-graph.html">interactive version</a>: pick a unit to light up who it beats (or, with “Takes damage from”, who beats it) and fade the rest.</sub>
+  <br><sub>Click the graph to open the <a href="https://cesar-rgon.github.io/axiom-wars/docs/balance/damage-graph.html">interactive version</a>: pick a unit to light up who it beats (or, with “Takes maximum damage from”, who beats it) and fade the rest. Pick a Government level (1, 2 or 3) to see only the attacks available at it: level 1 shows the attacks of Government 1, level 2 adds those of Government 2, and level 3 shows them all.</sub>
 </p>
 
 | Weapon type | Full damage (100%) to |

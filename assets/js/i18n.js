@@ -111,7 +111,7 @@
 
     'dmg.eyebrow': 'Facción Terránea',
     'dmg.title': 'Balance de daños',
-    'dmg.intro': 'Cada arma hace todo su daño solo a la armadura para la que fue pensada, y cada tropa recibe daño máximo de exactamente tres atacantes, así que ninguna manda. Pulsa una unidad para ver a quién vence y quién la vence.',
+    'dmg.intro': 'Cada arma hace todo su daño solo a la armadura para la que fue pensada, y cada tropa recibe daño máximo de exactamente tres atacantes, así que ninguna manda. Pulsa una unidad para ver a quién vence y quién la vence, y elige un nivel de Gobierno para ver solo los ataques disponibles en él.',
     'dmg.src': 'docs/balanceo/grafo-ataques.html?embed&theme=dark',
     'dmg.frame': 'Grafo del balance de daños',
     'dmg.open': 'Abrir el grafo en su propia página', 'dmg.open.href': 'docs/balanceo/grafo-ataques.html',
