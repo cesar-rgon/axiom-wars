@@ -4,9 +4,9 @@
 
 _Troop transport vehicle · Terran Faction_
 
-`Medium Class` · `Military cap` · `Ground Factory`
+`Heavy Class` · `Military cap` · `Ground Factory`
 
-> Medium-class military unit mainly in charge of transporting light troops. For defense it also has a ground turret attack and contact explosive mines. The turret is effective against light and medium units; the mines, against every kind of unit.
+> Heavy-class military unit mainly in charge of transporting light troops. For defense it also has a ground turret attack and contact explosive mines. The turret is effective against light and medium units; the mines, against every kind of unit.
 
 ## Stats
 
@@ -26,13 +26,13 @@ _Troop transport vehicle · Terran Faction_
 
 | Health (HP) | Max. shield | Shield regen. | Absorption | Target class | Nature |
 |---|---|---|---|---|---|
-| 150 | 100 | +5 / turn | 80% shield | Medium | Mechanical |
+| 150 | 100 | +5 / turn | 80% shield | Heavy | Mechanical |
 
 ### Movement and troop
 
 | AP / tile | Blocked by | Vision | Max. troop | Split / merge | AP contributed |
 |---|---|---|---|---|---|
-| 0.5 | Water, Mountain | 6 tiles | 1 (does not group) | No | 2 |
+| 0.25 | Water, Mountain | 6 tiles | 1 (does not group) | No | 2 |
 
 ## Government 1
 
@@ -56,6 +56,6 @@ _Not available: The APC Transport is built at the Ground Factory, which requires
 
 ---
 
-<sub>Balance v12 · Purchase: at its building, 3 AP, 2 turns · Profile: % L/M/H/Struct.</sub>
+<sub>Purchase: at its building, 3 AP, 2 turns · Profile: % L/M/H/Struct.</sub>
 
 [← All units](README.md)

@@ -4,9 +4,9 @@
 
 _Vehículo de transporte de tropas · Facción Terránea_
 
-`Clase Media` · `Cupo militar` · `Fábrica Terrestre`
+`Clase Pesada` · `Cupo militar` · `Fábrica Terrestre`
 
-> Unidad militar de clase media encargada principalmente del transporte de tropas ligeras. Tiene además, a modo defensivo, ataque de torreta terrestre y minas explosivas por contacto. La torreta es efectiva contra unidades ligeras y medias. Las minas, contra todo tipo de unidades.
+> Unidad militar de clase pesada encargada principalmente del transporte de tropas ligeras. Tiene además, a modo defensivo, ataque de torreta terrestre y minas explosivas por contacto. La torreta es efectiva contra unidades ligeras y medias. Las minas, contra todo tipo de unidades.
 
 ## Características
 
@@ -26,13 +26,13 @@ _Vehículo de transporte de tropas · Facción Terránea_
 
 | Vida (HP) | Escudo máx. | Regen. escudo | Absorción | Clase objetivo | Naturaleza |
 |---|---|---|---|---|---|
-| 150 | 100 | +5 / turno | 80% escudo | Media | Mecánica |
+| 150 | 100 | +5 / turno | 80% escudo | Pesada | Mecánica |
 
 ### Movimiento y tropa
 
 | PA / casilla | Bloqueado | Visión | Tropa máx. | Dividir / fusionar | PA que aporta |
 |---|---|---|---|---|---|
-| 0,5 | Agua, Montaña | 6 casillas | 1 (no se agrupa) | No | 2 |
+| 0,25 | Agua, Montaña | 6 casillas | 1 (no se agrupa) | No | 2 |
 
 ## Gobierno 1
 
@@ -56,6 +56,6 @@ _No disponible: El Transporte APC se fabrica en la Fábrica Terrestre, que requi
 
 ---
 
-<sub>Balanceo v12 · Compra: en su edificio, 3 PA, 2 turnos · Perfil: % L/M/P/Estr.</sub>
+<sub>Compra: en su edificio, 3 PA, 2 turnos · Perfil: % L/M/P/Estr.</sub>
 
 [← Todas las unidades](README.md)
