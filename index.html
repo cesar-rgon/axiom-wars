@@ -194,7 +194,7 @@ h3.sub { font-family: var(--font-display, inherit); margin: 28px 0 12px; color: 
 .units { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
 @media (max-width: 860px) { .units { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 520px) { .units { grid-template-columns: minmax(0, 1fr); } }
-.unit img { max-height: 220px; }
+.unit img, .unit canvas { max-height: 220px; }
 .unit {
   background: linear-gradient(180deg, var(--hull-2), var(--hull));
   border: 1px solid var(--line);
@@ -204,7 +204,7 @@ h3.sub { font-family: var(--font-display, inherit); margin: 28px 0 12px; color: 
   transition: border-color .2s;
 }
 .unit:hover { border-color: color-mix(in srgb, var(--plasma) 60%, var(--line)); }
-.unit img { width: 100%; aspect-ratio: 1; object-fit: contain; max-width: 100%; margin-bottom: 4px;
+.unit img, .unit canvas { display: block; width: 100%; aspect-ratio: 1; object-fit: contain; max-width: 100%; margin-bottom: 4px;
   background: radial-gradient(circle at 50% 60%, color-mix(in srgb, var(--plasma) 14%, transparent), transparent 65%); }
 .unit .tags { font: 500 .72rem var(--font-mono); color: var(--violet); letter-spacing: .06em; text-transform: uppercase; }
 .unit p { margin: 0; color: var(--steel-dim); font-size: .9rem; line-height: 1.5; }
@@ -1055,5 +1055,6 @@ window.addEventListener('message', function (ev) {
   if (typeof h === 'number' && h > 200 && h < 3000) f.style.height = Math.ceil(h) + 'px';
 });
 </script>
+<script src="assets/js/reposo.js?v=20261020"></script>
 </body>
 </html>
