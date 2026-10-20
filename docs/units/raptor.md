@@ -18,9 +18,9 @@ _Air unit · Terran Faction_
 
 ### Fuel
 
-| Fuel/tile per indiv. | Food / turn | Water / turn | Satisfaction | Without fuel | Desertion |
+| Fuel/tile per indiv. | Energía / turno | Water / turn | Satisfaction | Without fuel | Desertion |
 |---|---|---|---|---|---|
-| 2.5 | — | — | — | cannot move | — |
+| 2.5 | 15 | — | — | cannot move | — |
 
 ### Defense
 
@@ -32,7 +32,7 @@ _Air unit · Terran Faction_
 
 | AP/tile per indiv. | Blocked by | Vision | Max. troop | Split / merge | AP contributed |
 |---|---|---|---|---|---|
-| 0.5 | Nothing (flies) | 9 tiles | — / — / 2 | Yes | 4 / indiv. |
+| 0.4 | Nothing (flies) | 9 tiles | — / — / 2 | Yes | 5 / indiv. |
 
 ## Government 1
 
@@ -46,9 +46,11 @@ _Not available: The Raptor is built at the Launch Pad, which requires Government
 
 | | Name | Details |
 |---|---|---|
-| ⚔️ Weapon | **Burst** | Mode Ground-to-Air · Damage 60 × individual · Type/range Ranged · 4 · Profile AntiHeavy 30/60/100/100% · Effect Precision: ignores 50% of the shield. · Attacks/turn Every turn · AP cost 2 AP per individual · Purchase Included with the unit |
-| ✨ Active | **Quantum bomb** | Cost 3 AP and 150 energy per individual · Cooldown Once every 4 turns · Effect 150 × individual under the Raptor, 5x5 area (100 / 75 / 50%). Explosive. · Purchase 6000 energy |
-| 🛡️ Passive | **Troop transport** | Condition Always · Effect Carries 4 Light ground individuals; cannot unload on water or mountains. If it is shot down, all of them die. · Purchase 5000 energy (includes Load/Unload) |
+| ⚔️ Weapon | **Burst** | Mode Ground-to-Air · Damage 60 × individual · Type/range Ranged · 4 · Profile AntiMedium 70/100/70/70% · Effect Precision: half the damage ignores the shield. · Attacks/turn Every turn · AP cost 2 AP per individual · Purchase Included with the unit |
+| ⚔️ Weapon | **Quantum bomb** | Mode Ground · Damage 150 × individual · Type/range Ranged · 3 · Profile Explosive 100/100/70/70% · Effect 5x5 area (100 / 75 / 50%). The target does not counter. · Attacks/turn Once every 4 turns · Cost 3 AP and 150 energy per individual · Purchase 6000 energy |
+| ✨ Active | _not applicable_ |  |
+| 🛡️ Passive | **Troop transport** | Condition Always · Effect Carries 4 Light ground individuals; cannot unload on water or mountains. If it is shot down, all of them die. · Purchase 5000 energy |
+| 🛡️ Passive | **Propulsion++** | Condition Always · Effect Another +1 own AP per individual for Raptors and Droids. · Purchase 5000 energy (requires Propulsion+) |
 
 ---
 

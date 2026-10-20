@@ -32,31 +32,33 @@ _Unidad de infantería · Facción Terránea_
 
 | PA/casilla e indiv. | Bloqueado | Cansancio | Visión | Tropa máx. | PA que aporta |
 |---|---|---|---|---|---|
-| 0,5 | Agua, Montaña | 10 casillas; luego ×(1+k/2) | 7 casillas | 5 / 8 / 10 · divisible | 3 / indiv. |
+| 0,5 | Agua, Montaña | 10 casillas; luego ×(1+k/2) | 7 casillas | 5 / 8 / 10 · divisible | 3 / 4 / 5 / indiv. |
 
 ## Gobierno 1
 
 | | Nombre | Detalles |
 |---|---|---|
-| ⚔️ Arma | **Fusil convencional** | Modalidad Terrestre · Daño 20 × individuo · Tipo/alcance Distancia · 6 · Perfil AntiLigera 100/60/30/25% · Ataques/turno Cada turno · Coste PA 1 por individuo · Compra Incluida con la unidad |
-| ✨ Activa | **Triple disparo** | Coste 2 PA y 20 energía por individuo · Recarga 1 vez cada 2 turnos · Efecto Fusil ×3: 60 × individuo. · Compra 800 energía |
+| ⚔️ Arma | **Fusil** | Modalidad Terrestre · Daño 20 × individuo · Tipo/alcance Distancia · 6 · Perfil AntiLigera 100/70/40/40% · Efecto Precisión: la mitad del daño ignora el escudo. · Ataques/turno Cada turno · Coste PA 1 PA por individuo · Compra Incluida con la unidad |
+| ✨ Activa | **Sprint** | Coste 20 energía por individuo · Recarga 1 vez cada 3 turnos · Efecto Una casilla más de movimiento este turno con los PA actuales. · Compra 1000 energía |
 | 🛡️ Pasiva | _no aplica_ |  |
 
 ## Gobierno 2
 
 | | Nombre | Detalles |
 |---|---|---|
-| ⚔️ Arma | **Lanzamisiles** | Modalidad Tierra-Aire · Daño 40 × individuo · Tipo/alcance Distancia · 6 · Perfil AntiPesada 30/60/100/100% · Ataques/turno Cada turno · Coste PA 2 por individuo · Compra 2000 energía |
-| ✨ Activa | **Curación** | Coste 1 PA y 20 energía por individuo · Recarga 1 vez cada 3 turnos · Efecto Cura 20 de vida a cada individuo. · Compra 2000 energía |
+| ⚔️ Arma | **Metralleta láser** | Modalidad Terrestre · Daño 30 × individuo · Tipo/alcance Distancia · 4 · Perfil AntiLigera 100/70/40/40% · Ataques/turno Cada turno · Coste PA 2 PA por individuo · Compra 2000 energía |
+| ✨ Activa | **Contraataque adicional** | Coste 30 energía por individuo · Recarga 1 vez cada 3 turnos · Efecto Este turno la tropa contraataca una segunda vez, al 25% del daño. · Compra 2500 energía |
 | 🛡️ Pasiva | **Fuerza+** | Condición Siempre · Efecto +25 de vida (75), también a los ya creados. · Compra 2500 energía |
+| 🛡️ Pasiva | **Instrucción+** | Condición Siempre · Efecto +1 PA propio por individuo a Militares y Científicos. · Compra 2500 energía |
 
 ## Gobierno 3
 
 | | Nombre | Detalles |
 |---|---|---|
-| ⚔️ Arma | **Metralleta láser** | Modalidad Terrestre · Daño 36 × individuo (3 × 12) · Tipo/alcance Distancia · 3 · Perfil AntiMedia 60/100/60/40% · Ataques/turno Cada turno · Coste PA 2 por individuo · Compra 4000 energía |
-| ✨ Activa | **Camuflaje** | Coste 2 PA + 10 energía/indiv. y turno · Recarga Cada 3 turnos tras romperse · Efecto Invisible hasta atacar, quedarse sin energía o cancelar. · Compra 4000 energía |
-| 🛡️ Pasiva | **Fuerza++** | Condición Siempre · Efecto +25 de vida más (100 en total). · Compra 5000 energía (antes Fuerza+) |
+| ⚔️ Arma | **Lanzagranadas** | Modalidad Terrestre · Daño 40 × individuo · Tipo/alcance Distancia · 4 · Perfil AntiMedia 70/100/70/70% · Ataques/turno Cada turno · Coste PA 2 PA por individuo · Compra 4000 energía |
+| ✨ Activa | **Camuflaje** | Coste 2 PA + 10 energía por individuo y turno · Recarga Cada 3 turnos tras romperse · Efecto Invisible hasta atacar, quedarse sin energía o cancelar. · Compra 4000 energía |
+| 🛡️ Pasiva | **Fuerza++** | Condición Siempre · Efecto +25 de vida más (100 en total). · Compra 5000 energía (requiere Fuerza+) |
+| 🛡️ Pasiva | **Instrucción++** | Condición Siempre · Efecto Otro +1 PA propio por individuo a Militares y Científicos. · Compra 5000 energía (requiere Instrucción+) |
 
 ---
 

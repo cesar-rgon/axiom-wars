@@ -20,7 +20,7 @@ _Unidad civil · Facción Terránea_
 
 | Comida / turno | Agua / turno | Combustible | Satisfacción | Deserción | Racionamiento |
 |---|---|---|---|---|---|
-| 3 | 2 | — | 0–10 | Satisf. 0 | Individual |
+| 4 | 2 | — | 0–10 | Satisf. 0 | Individual |
 
 ### Defensa
 
@@ -46,25 +46,25 @@ _Unidad civil · Facción Terránea_
 
 | | Nombre | Detalles |
 |---|---|---|
-| ⚔️ Arma | _no aplica_ | El Trabajador no ataca |
-| ✨ Activa | _no aplica_ | El Trabajador no tiene habilidades activas |
+| ⚔️ Arma | _no aplica_ |  |
+| ✨ Activa | _no aplica_ |  |
 | 🛡️ Pasiva | _no aplica_ |  |
 
 ## Gobierno 2
 
 | | Nombre | Detalles |
 |---|---|---|
-| ⚔️ Arma | _no aplica_ | El Trabajador no ataca |
-| ✨ Activa | _no aplica_ | El Trabajador no tiene habilidades activas |
+| ⚔️ Arma | _no aplica_ |  |
+| ✨ Activa | _no aplica_ |  |
 | 🛡️ Pasiva | **Producción+** | Condición Satisfacción > 5 · Efecto +5 de recurso extraído por trabajador y turno · Compra 2500 energía |
 
 ## Gobierno 3
 
 | | Nombre | Detalles |
 |---|---|---|
-| ⚔️ Arma | _no aplica_ | El Trabajador no ataca |
-| ✨ Activa | _no aplica_ | El Trabajador no tiene habilidades activas |
-| 🛡️ Pasiva | **Producción++** | Condición Satisfacción > 5 · Efecto +5 más, se acumula: +10 por trabajador y turno · Compra 5000 energía (antes Producción+) |
+| ⚔️ Arma | _no aplica_ |  |
+| ✨ Activa | _no aplica_ |  |
+| 🛡️ Pasiva | **Producción++** | Condición Satisfacción > 5 · Efecto +5 más, se acumula: +10 por trabajador y turno · Compra 5000 energía (requiere Producción+) |
 
 ---
 

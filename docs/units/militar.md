@@ -32,31 +32,33 @@ _Infantry unit · Terran Faction_
 
 | AP/tile per indiv. | Blocked by | Fatigue | Vision | Max. troop | AP contributed |
 |---|---|---|---|---|---|
-| 0.5 | Water, Mountain | 10 tiles; then ×(1+k/2) | 7 tiles | 5 / 8 / 10 · splittable | 3 / indiv. |
+| 0.5 | Water, Mountain | 10 tiles; then ×(1+k/2) | 7 tiles | 5 / 8 / 10 · splittable | 3 / 4 / 5 / indiv. |
 
 ## Government 1
 
 | | Name | Details |
 |---|---|---|
-| ⚔️ Weapon | **Standard rifle** | Mode Ground · Damage 20 × individual · Type/range Ranged · 6 · Profile AntiLight 100/60/30/25% · Attacks/turn Every turn · AP cost 1 per individual · Purchase Included with the unit |
-| ✨ Active | **Triple shot** | Cost 2 AP and 20 energy per individual · Cooldown Once every 2 turns · Effect Rifle ×3: 60 × individual. · Purchase 800 energy |
+| ⚔️ Weapon | **Rifle** | Mode Ground · Damage 20 × individual · Type/range Ranged · 6 · Profile AntiLight 100/70/40/40% · Effect Precision: half the damage ignores the shield. · Attacks/turn Every turn · AP cost 1 AP per individual · Purchase Included with the unit |
+| ✨ Active | **Sprint** | Cost 20 energy per individual · Cooldown Once every 3 turns · Effect One more tile of movement this turn with its current AP. · Purchase 1000 energy |
 | 🛡️ Passive | _not applicable_ |  |
 
 ## Government 2
 
 | | Name | Details |
 |---|---|---|
-| ⚔️ Weapon | **Missile launcher** | Mode Ground-to-Air · Damage 40 × individual · Type/range Ranged · 6 · Profile AntiHeavy 30/60/100/100% · Attacks/turn Every turn · AP cost 2 per individual · Purchase 2000 energy |
-| ✨ Active | **Healing** | Cost 1 AP and 20 energy per individual · Cooldown Once every 3 turns · Effect Heals 20 health to each individual. · Purchase 2000 energy |
+| ⚔️ Weapon | **Laser machine gun** | Mode Ground · Damage 30 × individual · Type/range Ranged · 4 · Profile AntiLight 100/70/40/40% · Attacks/turn Every turn · AP cost 2 AP per individual · Purchase 2000 energy |
+| ✨ Active | **Extra counterattack** | Cost 30 energy per individual · Cooldown Once every 3 turns · Effect This turn the troop counter-attacks a second time, at 25% damage. · Purchase 2500 energy |
 | 🛡️ Passive | **Strength+** | Condition Always · Effect +25 health (75), also for units already created. · Purchase 2500 energy |
+| 🛡️ Passive | **Training+** | Condition Always · Effect +1 own AP per individual for Military and Scientists. · Purchase 2500 energy |
 
 ## Government 3
 
 | | Name | Details |
 |---|---|---|
-| ⚔️ Weapon | **Laser machine gun** | Mode Ground · Damage 36 × individual (3 × 12) · Type/range Ranged · 3 · Profile AntiMedium 60/100/60/40% · Attacks/turn Every turn · AP cost 2 per individual · Purchase 4000 energy |
-| ✨ Active | **Camouflage** | Cost 2 AP + 10 energy/indiv. per turn · Cooldown Every 3 turns after breaking · Effect Invisible until it attacks, runs out of energy or cancels. · Purchase 4000 energy |
+| ⚔️ Weapon | **Grenade launcher** | Mode Ground · Damage 40 × individual · Type/range Ranged · 4 · Profile AntiMedium 70/100/70/70% · Attacks/turn Every turn · AP cost 2 AP per individual · Purchase 4000 energy |
+| ✨ Active | **Camouflage** | Cost 2 AP + 10 energy per individual and turn · Cooldown Every 3 turns after breaking · Effect Invisible until it attacks, runs out of energy or cancels. · Purchase 4000 energy |
 | 🛡️ Passive | **Strength++** | Condition Always · Effect +25 more health (100 in total). · Purchase 5000 energy (requires Strength+) |
+| 🛡️ Passive | **Training++** | Condition Always · Effect Another +1 own AP per individual for Military and Scientists. · Purchase 5000 energy (requires Training+) |
 
 ---
 

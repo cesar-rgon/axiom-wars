@@ -14,7 +14,7 @@ _Construction unit · Terran Faction_
 
 | Building | Min. Government | Cost | Time | AP cost | Cap |
 |---|---|---|---|---|---|
-| Government | Level 1 | 200 Energy | 1 turn | 2 AP | 1 (civilian) |
+| Government | Level 1 | 200 Energy | 1 turn | 2 AP / indiv. | 1 (civilian) |
 
 ### Upkeep
 
@@ -32,31 +32,31 @@ _Construction unit · Terran Faction_
 
 | Movement | Move energy | Blocked by | Vision | Max. troop | AP contributed |
 |---|---|---|---|---|---|
-| 1 AP/tile | 5 / tile | Water, Mountain | 4 tiles | 1 | 0 |
+| 0.8 AP/tile | 5 / tile | Water, Mountain | 4 tiles | 1 / 1 / 1 | 0 |
 
 ## Government 1
 
 | | Name | Details |
 |---|---|---|
-| ⚔️ Weapon | _not applicable_ | The Constructor does not attack |
-| ✨ Active | **Build** | Cost Building AP and resources · Cooldown No cooldown · Effect Starts building construction (moves to the site first). Only the Generator can be ordered on unexplored fog, blind: if the site turns out to be unbuildable once seen, the order is cancelled with a warning. |
-| 🛡️ Passive | _not applicable_ | The Constructor has no passive abilities |
+| ⚔️ Weapon | _not applicable_ |  |
+| ✨ Active | **Build** | Cost Building AP and resources · Cooldown No cooldown · Effect Starts building construction (it moves to the site first). Only the Generator can be ordered blind into unexplored fog: if it cannot be built once seen, it is cancelled and you are told. |
+| 🛡️ Passive | **Bureaucracy** | Condition Always · Effect +2 common AP every round. · Purchase 1000 energy |
 
 ## Government 2
 
 | | Name | Details |
 |---|---|---|
-| ⚔️ Weapon | _not applicable_ | The Constructor does not attack |
-| ✨ Active | **Repair** | Cost 1 AP + 25% of the building's cost per 25% of health repaired · Cooldown No cooldown · Effect Repairs a building's structure (moves to the site first). |
-| 🛡️ Passive | _not applicable_ | The Constructor has no passive abilities |
+| ⚔️ Weapon | _not applicable_ |  |
+| ✨ Active | **Repair** | Cost 1 AP + 25% of the building cost per 25% of health repaired · Cooldown No cooldown · Effect Repairs a building structure (it moves to the site first). From Government level 2. |
+| 🛡️ Passive | **Administration** | Condition Always · Effect +4 common AP every round. · Purchase 2500 energy |
 
 ## Government 3
 
 | | Name | Details |
 |---|---|---|
-| ⚔️ Weapon | _not applicable_ | The Constructor does not attack |
-| ✨ Active | **Repair+** | Cost 1 AP + 20% of the building's cost per 25% of health repaired · Cooldown No cooldown · Effect Repairs a building's structure and shield (moves to the site first). |
-| 🛡️ Passive | _not applicable_ | The Constructor has no passive abilities |
+| ⚔️ Weapon | _not applicable_ |  |
+| ✨ Active | **Repair+** | Cost 1 AP + 20% of the building cost per 25% of health repaired · Cooldown No cooldown · Effect Repairs a building structure and shield (it moves to the site first). |
+| 🛡️ Passive | **Central planning** | Condition Always · Effect +6 common AP every round. · Purchase 5000 energy |
 
 ---
 

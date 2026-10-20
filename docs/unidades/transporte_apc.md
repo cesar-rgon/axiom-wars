@@ -14,13 +14,13 @@ _Vehículo de transporte de tropas · Facción Terránea_
 
 | Edificio | Gobierno mín. | Coste | Tiempo | Coste PA | Cupo |
 |---|---|---|---|---|---|
-| F. Terrestre | Nivel 2 | 250 En. · 60 Acero | 2 turnos | 2 PA | 2 (militar) |
+| F. Terrestre | Nivel 2 | 250 En. · 60 Acero | 2 turnos | 2 PA / indiv. | 2 (militar) |
 
 ### Combustible
 
-| Comb. / casilla | Comida / turno | Agua / turno | Satisfacción | Sin combustible | Deserción |
+| Comb. / casilla | Energía / turno | Agua / turno | Satisfacción | Sin combustible | Deserción |
 |---|---|---|---|---|---|
-| 1,5 | — | — | — | no se mueve | — |
+| 1,5 | 5 | — | — | no se mueve | — |
 
 ### Defensa
 
@@ -32,7 +32,7 @@ _Vehículo de transporte de tropas · Facción Terránea_
 
 | PA / casilla | Bloqueado | Visión | Tropa máx. | Dividir / fusionar | PA que aporta |
 |---|---|---|---|---|---|
-| 0,25 | Agua, Montaña | 6 casillas | 1 (no se agrupa) | No | 2 |
+| 0,25 | Agua, Montaña | 6 casillas | 1 (no se agrupa) | No | 3 / 3 / 4 / indiv. |
 
 ## Gobierno 1
 
@@ -42,17 +42,20 @@ _No disponible: El Transporte APC se fabrica en la Fábrica Terrestre, que requi
 
 | | Nombre | Detalles |
 |---|---|---|
-| ⚔️ Arma | **Torreta** | Modalidad Terrestre · Daño 30 daño · Tipo/alcance Distancia · 4 · Perfil AntiLigera 100/60/30/25% · Ataques/turno Cada turno · Coste PA 1 PA · Compra Incluida con la unidad |
+| ⚔️ Arma | **Torreta** | Modalidad Tierra-Aire · Daño 30 × individuo · Tipo/alcance Distancia · 4 · Perfil AntiMedia 70/100/70/70% · Ataques/turno Cada turno · Coste PA 1 PA por individuo · Compra Incluida con la unidad |
 | ✨ Activa | **Cargar** | Coste 1 PA por individuo embarcado · Recarga Cada turno · Efecto 6 individuos Ligeros terrestres: no pagan movimiento ni disparan. Si lo destruyen, mueren todos. · Compra 1500 energía (incluye Descargar) |
-| 🛡️ Pasiva | _no aplica_ |  |
+| 🛡️ Pasiva | **Capacidad+** | Condición Siempre · Efecto Aumenta la capacidad a 9 individuos. · Compra 2500 energía |
+| 🛡️ Pasiva | **Motores optimizados+** | Condición Siempre · Efecto +1 PA propio por individuo a Mecas y Transportes APC. · Compra 2500 energía |
 
 ## Gobierno 3
 
 | | Nombre | Detalles |
 |---|---|---|
-| ⚔️ Arma | **Minas** | Modalidad Terrestre · Daño 80 centro / 40 anillo · Tipo/alcance Contacto · casilla adyacente · Perfil Explosivo 100/100/75/50% · Efecto Área 3x3, máx. 3. Sólo las ven Explorador y Gobierno. Paran a quien la pisa. Sin daño a aliados ni aéreos. · Ataques/turno 1 mina por uso, cada 2 turnos · Coste 2 PA y 30 acero por mina · Compra 4000 energía |
+| ⚔️ Arma | **Cañonazo** | Modalidad Tierra-Aire · Daño 40 × individuo · Tipo/alcance Distancia · 5 · Perfil AntiMedia 70/100/70/70% · Ataques/turno Cada turno · Coste PA 2 PA por individuo · Compra 4000 energía |
 | ✨ Activa | **Turbo** | Coste 1 PA y 30 combustible · Recarga 1 vez cada 3 turnos · Efecto +100% de velocidad durante 2 turnos. · Compra 3000 energía |
-| 🛡️ Pasiva | **Capacidad+** | Condición Siempre · Efecto Aumenta la capacidad a 9 individuos. · Compra 5000 energía |
+| ✨ Activa | **Minas** | Coste 2 PA y 30 acero · Recarga 1 vez cada 2 turnos · Efecto Área 3x3, máx. 3. Sólo las ven Explorador y Gobierno. Paran a quien la pisa. Sin daño a aliados ni aéreos. · Compra 4000 energía |
+| 🛡️ Pasiva | **Capacidad++** | Condición Siempre · Efecto Aumenta la capacidad a 12 individuos. · Compra 5000 energía (requiere Capacidad+) |
+| 🛡️ Pasiva | **Motores optimizados++** | Condición Siempre · Efecto Otro +1 PA propio por individuo a Mecas y Transportes APC. · Compra 5000 energía (requiere Motores optimizados+) |
 
 ---
 

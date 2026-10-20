@@ -20,7 +20,7 @@ _Civilian unit · Terran Faction_
 
 | Food / turn | Water / turn | Fuel | Satisfaction | Desertion | Rationing |
 |---|---|---|---|---|---|
-| 3 | 2 | — | 0–10 | Satisf. 0 | Individual |
+| 4 | 2 | — | 0–10 | Satisf. 0 | Individual |
 
 ### Defense
 
@@ -46,24 +46,24 @@ _Civilian unit · Terran Faction_
 
 | | Name | Details |
 |---|---|---|
-| ⚔️ Weapon | _not applicable_ | The Worker does not attack |
-| ✨ Active | _not applicable_ | The Worker has no active abilities |
+| ⚔️ Weapon | _not applicable_ |  |
+| ✨ Active | _not applicable_ |  |
 | 🛡️ Passive | _not applicable_ |  |
 
 ## Government 2
 
 | | Name | Details |
 |---|---|---|
-| ⚔️ Weapon | _not applicable_ | The Worker does not attack |
-| ✨ Active | _not applicable_ | The Worker has no active abilities |
+| ⚔️ Weapon | _not applicable_ |  |
+| ✨ Active | _not applicable_ |  |
 | 🛡️ Passive | **Production+** | Condition Satisfaction > 5 · Effect +5 resource extracted per worker per turn · Purchase 2500 energy |
 
 ## Government 3
 
 | | Name | Details |
 |---|---|---|
-| ⚔️ Weapon | _not applicable_ | The Worker does not attack |
-| ✨ Active | _not applicable_ | The Worker has no active abilities |
+| ⚔️ Weapon | _not applicable_ |  |
+| ✨ Active | _not applicable_ |  |
 | 🛡️ Passive | **Production++** | Condition Satisfaction > 5 · Effect +5 more, stacking: +10 per worker per turn · Purchase 5000 energy (requires Production+) |
 
 ---

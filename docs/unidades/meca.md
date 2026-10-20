@@ -18,9 +18,9 @@ _Unidad mecanizada de asalto · Facción Terránea_
 
 ### Combustible
 
-| Comb./casilla e indiv. | Comida / turno | Agua / turno | Satisfacción | Sin combustible | Deserción |
+| Comb./casilla e indiv. | Energía / turno | Agua / turno | Satisfacción | Sin combustible | Deserción |
 |---|---|---|---|---|---|
-| 3 | — | — | — | no se mueve | — |
+| 2 | 10 | — | — | no se mueve | — |
 
 ### Defensa
 
@@ -32,7 +32,7 @@ _Unidad mecanizada de asalto · Facción Terránea_
 
 | PA/casilla e indiv. | Bloqueado | Visión | Tropa máx. | Dividir / fusionar | PA que aporta |
 |---|---|---|---|---|---|
-| 1 | Agua, Montaña | 6 casillas | — / 3 / 4 | Sí | 5 / indiv. |
+| 0,6 | Agua, Montaña | 7 casillas | — / 3 / 4 | Sí | 5 / 5 / 6 / indiv. |
 
 ## Gobierno 1
 
@@ -42,17 +42,20 @@ _No disponible: El Meca se fabrica en la Fábrica Terrestre, que requiere Gobier
 
 | | Nombre | Detalles |
 |---|---|---|
-| ⚔️ Arma | **Lanzallamas** | Modalidad Terrestre · Daño 60 × individuo · Tipo/alcance Distancia · 2 · Perfil AntiLigera 100/60/30/25% · Efecto Área 3x3. Quema 50% del daño el turno siguiente. · Ataques/turno Cada turno · Coste 2 PA y 5 combustible por individuo · Compra Incluida con la unidad |
-| ✨ Activa | **Antiaire** | Coste 2 PA por individuo · Recarga 1 vez cada 2 turnos · Efecto 60 × individuo sólo a aéreos. AntiMedia, alcance 6. · Compra 2000 energía |
-| 🛡️ Pasiva | _no aplica_ |  |
+| ⚔️ Arma | **Lanzallamas** | Modalidad Terrestre · Daño 60 × individuo · Tipo/alcance Distancia · 3 · Perfil AntiLigera 100/70/40/40% · Efecto Área 3x3 (100% en el centro, 50% alrededor). Quema el 50% del daño el turno siguiente. · Ataques/turno Cada turno · Coste 2 PA y 5 combustible por individuo · Compra Incluida con la unidad |
+| ⚔️ Arma | **Misiles** | Modalidad Tierra-Aire · Daño 60 × individuo · Tipo/alcance Distancia · 6 · Perfil AntiPesada 40/70/100/100% · Efecto Precisión: la mitad del daño ignora el escudo. · Ataques/turno 1 vez cada 2 turnos · Coste PA 2 PA por individuo · Compra 2000 energía |
+| ✨ Activa | **Pisotón** | Coste 2 PA y 100 energía · Recarga 1 vez cada 3 turnos · Efecto 40 por individuo y aturde 1 turno a las unidades terrestres enemigas en 3x3. · Compra 2500 energía |
+| 🛡️ Pasiva | **Energía-** | Condición Siempre · Efecto Gasta un 30% menos de Energía por turno. · Compra 2500 energía |
+| 🛡️ Pasiva | **Motores optimizados+** | Condición Siempre · Efecto +1 PA propio por individuo a Mecas y Transportes APC. · Compra 2500 energía |
 
 ## Gobierno 3
 
 | | Nombre | Detalles |
 |---|---|---|
-| ⚔️ Arma | **Freezergun** | Modalidad Terrestre · Daño 10 × individuo · Tipo/alcance Distancia · 4 · Perfil AntiMedia 60/100/60/40% · Efecto Área 3x3. Ralentiza 50% 2 turnos. · Ataques/turno 1 vez cada 2 turnos · Coste 2 PA y 20 energía por individuo · Compra 4000 energía |
+| ⚔️ Arma | **Freezergun** | Modalidad Terrestre · Daño 10 × individuo · Tipo/alcance Distancia · 5 · Perfil AntiLigera 100/70/40/40% · Efecto Área 3x3 (100% en el centro, 50% alrededor). Ralentiza 50% 2 turnos. · Ataques/turno 1 vez cada 2 turnos · Coste 2 PA y 20 energía por individuo · Compra 4000 energía |
 | ✨ Activa | **Escudo reflector** | Coste 2 PA y 100 energía por individuo · Recarga 1 vez cada 3 turnos · Efecto +100 de escudo por individuo 2 turnos. Devuelve el 25% del daño absorbido. · Compra 4000 energía |
-| 🛡️ Pasiva | **Combustible-** | Condición Siempre · Efecto Gasta el 80% al moverse (2,4 por casilla) y en el Lanzallamas. · Compra 5000 energía |
+| 🛡️ Pasiva | **Combustible-** | Condición Siempre · Efecto Gasta el 80% del combustible al moverse (1,6 por casilla) y en el Lanzallamas (4 por individuo). · Compra 5000 energía |
+| 🛡️ Pasiva | **Motores optimizados++** | Condición Siempre · Efecto Otro +1 PA propio por individuo a Mecas y Transportes APC. · Compra 5000 energía (requiere Motores optimizados+) |
 
 ---
 
