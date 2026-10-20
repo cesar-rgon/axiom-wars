@@ -191,6 +191,7 @@
   "news.title": "新内容",
   "news.body": "重新设计了开始界面：玩家、大厅和已保存的对局集中在同一视图；17 种生物新增待机动画，并新增 6 种语言。",
   "news.all": "查看完整更新历史",
+  "news.all.href": "docs/historico.zh.txt",
   "lang.eyebrow": "语言",
   "lang.title": "用你的语言游玩",
   "lang.available": "支持的语言",

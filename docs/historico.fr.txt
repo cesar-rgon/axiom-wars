@@ -1,0 +1,269 @@
+HISTORIQUE DES CHANGEMENTS D'AXIOM WARS
+(La version est la date de la dernière modification du serveur ou du client.)
+
+v2026.10.20 alpha
+    Écran d'accueil repensé : joueurs de ce PC, salons et parties sauvegardées sur une seule vue, avec le salon à droite
+    Salon en plein écran et « Charger la partie » avec liste, miniatures et détail de votre base
+    Six nouvelles langues : français, italien, allemand, russe, chinois et japonais
+    Animations de repos des troupes terranes et des 17 créatures
+    Rééquilibrage des dégâts et des PA (matrice 100/70/40) et Gouvernement avec 14/20/26 PA et plus de vie
+    L'extracteur d'eau fonctionne aussi à côté de la mer
+    Statistiques de fin de partie, loupe et caméra sur la chute du Gouvernement, et réticule d'attaque
+    L'IA choisit mieux ses cibles ; un groupe envoyé en terrain inexploré garde sa destination
+
+v2026.10.19 alpha
+    Cartes v2 : quadrants plus grands, mer avec rivières, baies, lacs avec île et ponts
+    Options de carte dans le salon : continents, péninsules, lacs, rivières, plateaux, coffres, créatures dociles et niveau de ressources
+    Gardiens de coffre enterrés qui surgissent du sol au combat
+    Graphe des attaques maximales et nouveaux dégâts aux boucliers des bâtiments
+    Les ordres de chaque unité s'exécutent dans l'ordre de la file
+    On peut annuler la fin du tour pendant que les IA planifient
+    Vagues d'eau et de pétrole avec interférences ; le pétrole et la mer bloquent le passage
+    APC plus rapide ; un Éclaireur enterré ne peut pas bouger
+    Service systemd du serveur
+
+v2026.10.18 alpha
+    Rééquilibrage des armes, armures et capacités (mitraillette, lance-grenades, coup de canon, morsure, Enterrer, Immoler, Piétinement, Cloner, Aura de PA)
+    Une contre-attaque par troupe et par ronde ; défenses terrestres et aériennes selon le niveau du Gouvernement
+    Transport APC à armure lourde ; Charger sans cible
+    Performances graphiques du client très améliorées (formes avec shader et frontière de brouillard en image)
+    Crédits avec effets sonores, ChatGPT et Gemini
+
+v2026.10.17 alpha
+    Catalogue de 58 effets sonores (les 58 en mp3)
+    Approcher et tirer forment un seul ordre
+    Bâtiments sans énergie inactifs : les défenses ne tirent pas et les Banques ne fonctionnent pas
+    Recherche de chemin et vérification de sortie du Gouvernement 15 à 20 fois plus rapides pour l'IA
+    Boutons d'action plus grands et 3 travailleurs par défaut
+
+v2026.10.16 alpha
+    Grandes unités à empreinte multi-cases : Méca et APC 2×2, Raptor 3×2
+    Ordres de groupe, files civile et militaire avec onglets, et messagerie avec historique des avis
+    Sons synthétisés avec leur propre volume dans la Configuration
+    Gardiens de coffre en troupes selon le niveau du coffre ; décor de carte qui ne déconnecte jamais le terrain
+    Les morts de la ronde ne contre-attaquent plus ; bouton Quitter dans le menu principal
+
+v2026.10.14 alpha
+    Nouvelles textures de conteneurs, créatures et terrains
+
+v2026.10.12 alpha
+    Explosion des bâtiments avec décombres, chute du Gouvernement en chaîne et réserves de ressources qui s'épuisent à la vue
+    Interface variante B (la carte n'est plus masquée) et curseur main ; le menu est une fenêtre modale centrée
+    IA : choisit sa cible selon la valeur, se souvient des créatures hostiles et produit de l'énergie de façon proactive
+    Ligne de tir avec plateaux ; capacités de zone qui suivent la troupe ; arrivée en groupe et formation par rôles
+    Équilibrage des ressources : plus de pâturage et une Énergie qui ne pénalise pas l'épargne
+    Fiches d'unités et rapport d'équilibrage en anglais, publiés sur le site
+
+v2026.10.11 alpha
+    Double réserve de PA : PA commun du camp et PA propre à chaque troupe
+    Plateaux au style escarpé : roche stratifiée, fissures et rampes
+    Technologie, Wikipédia et ordres avec une icône par type
+    L'IA respecte les plateaux pour placer ses bâtiments
+
+v2026.10.10 alpha
+    Créatures de la carte : 17 espèces réelles avec textures, animations de déplacement et d'attaque
+    Créatures dociles qui vivent dans leur lac ; coffres avec récompense
+    ATH flottant avec rangée d'ordres et panneaux configurables ; chat et déplacement avec WSAD
+    Plus de tour 0 ; prêt prioritaire et plafond d'énergie
+
+v2026.10.09 alpha
+    Climat : conditions météorologiques aléatoires à chaque tour
+    Créatures neutres et conteneurs avec récompense
+    Relais entre joueurs locaux, crédits et musique de fin
+    Animation des unités en déplacement et des bâtiments en construction
+
+v2026.10.08 alpha
+    Conseillère de terrain avec un vrai portrait dans le tutoriel et le rapport de ronde
+
+v2026.10.06 alpha
+    Plateaux et rampes : un niveau de hauteur sur la carte, avec falaises
+    Se rapprocher à portée de tir avant d'attaquer ; clic droit pour attaquer et arc de tir
+    Ressources exploitables à côté de chaque Gouvernement et plus de pétrole
+    Tutoriel avec un ordre du jour des avis en attente
+
+v2026.10.05 alpha
+    Tutoriel avec la conseillère holographique et rapport de ronde
+    Laboratoire d'effets visuels : un effet pour chaque arme, capacité, passif et état
+    Panneau droit avec rail par unité, icônes d'améliorations et échelle de l'interface
+
+v2026.10.04 alpha
+    Fatigue des troupes, énergie plafonnée et routes par étapes (frais, fatigué, hors ronde)
+    Construction à l'aveugle dans le brouillard inexploré (Générateur d'Énergie seulement) et déplacement de groupe de front
+    Achat de passifs, d'armes et de capacités ; assaut de l'IA
+    Scripts de publication des versions du client sur GitHub et du site
+
+v2026.10.03 alpha
+    Équilibrage terran v8 : classes, PA par individu, carburant par case, bouclier par individu
+    Armes par niveau avec rechargements, zone et contre-attaque ; capacités, passifs et états
+    Nouvelles unités et avions sur leur propre couche ; transport et mines
+    Sélecteur d'arme et de capacités dans le client
+
+v2026.10.02 alpha
+    Aperçu de la carte dans le salon avec graine fixe, agrandi au clic
+    Annuler, mettre en pause et reprendre n'importe quel ordre de la file avec replanification
+    Panneau d'ordres avec des cartes sur un rail numéroté
+    Fiches d'unités : Soldat, Méca, APC, Raptor, Droïde, Éclaireur et Scientifique
+
+v2026.10.01 alpha
+    Salon avec liste d'équipes et bouton Prêt
+    Loupe voyageuse et panneau d'ordres avec défilement ; un Constructeur par troupe
+    Fiches d'unités terranes (PDF et Markdown)
+
+v2026.09.27 alpha
+    Panneau d'avis, loupes mobiles et replay simultané
+    Zone d'effet « Champ d'énergie » avec shader
+    Déplacement fluide pendant la résolution et traînée de route
+    IA avec Gouvernement niveau 2, éclaireur dédié et renfort d'urgence
+
+v2026.09.26 alpha
+    Recalcul de la route face à un obstacle imprévu
+    Terrain révélé en ordonnant un déplacement vers le brouillard noir
+    Éclairs électriques et aperçu de la zone en construisant
+
+v2026.08.31 alpha
+    Lot de 21 améliorations : diviser les troupes, vrai rationnement, loupes de résolution, point de sortie, victoire coopérative
+    Loupe automatique à la découverte d'un ennemi ou d'une base
+    IA avec spéculation parallèle et vraie barre de progression
+
+v2026.08.30 alpha
+    Quota divisé en Civil (Logement) et Militaire (Générateur d'Énergie)
+    Rééquilibrage des extracteurs d'eau et des fermes
+    L'IA évite la spirale de dette de Nourriture
+
+v2026.08.29 alpha
+    Correction d'un blocage de l'IA pendant la planification parallèle
+
+v2026.08.28 alpha
+    L'IA priorise construction, production et améliorations selon ce qu'elle peut payer
+
+v2026.08.27 alpha
+    L'IA embauche toutes les places libres, utilise la banque de façon proactive et se souvient des bases ennemies
+    Équilibrage de l'énergie, de l'acier et de la nourriture ; la prairie comme ressource dominante
+    Réticule moins pixélisé et fond de l'écran d'accueil en pleine largeur
+
+v2026.08.25 alpha
+    Jusqu'à 8 joueurs locaux et jusqu'à 8 par salon
+    Caméra fixe et réticule grossissant pendant la résolution, avec pause à la barre d'espace
+    3 PA fixes par attaque et ordres verrouillés après Prêt
+    Coller dans le champ Hôte ; légende des raccourcis
+
+v2026.08.23 alpha
+    Mines de fer équidistantes entre les joueurs
+    Barre de progression en direct pendant la résolution de l'IA
+    Finaliser le salon, et écrans séparés pour Chercher un salon et Charger la partie
+
+v2026.08.22 alpha
+    Carte à 8 joueurs avec 49 quadrants
+    La caméra se centre sur les combats ; Banque redessinée
+    Le tour 0 peut être annulé
+    Assistant fusionné, langues avec leur nom complet et rafales avec recul
+
+v2026.08.21 alpha
+    L'IA construit l'économie dans l'ordre (bois, eau, ferme, acier, énergie) et embauche du personnel d'abord
+    Le Gouvernement produit de l'énergie et les ressources de départ augmentent
+    Extracteurs constructibles avec une seule case adjacente
+
+v2026.08.20 alpha
+    Nouvelle IA : RHEA (algorithme évolutionnaire à horizon glissant) remplace l'IA à règles
+    Les constructions en file sont aussi visibles pour les ennemis qui les voient
+    Ressources du Gouvernement avec un espacement minimal entre elles
+
+v2026.08.19 alpha
+    Ordre stable des salons et production par lots non atomique
+
+v2026.08.18 alpha
+    Logo animé dans l'assistant et aux changements de tour
+    Écrans de pré-partie en format 16:9 ; date dans la liste des salons
+
+v2026.08.17 alpha
+    Génération de carte symétrique entre les quadrants
+    PA répartis entre les rondes pour tout ordre ; coûts d'énergie par niveau de Gouvernement
+    Tour 0 avec confirmation ou déplacement du Gouvernement
+
+v2026.08.10 alpha
+    Salons persistants qu'on peut reprendre ; longues marches qui continuent seules
+    Recherche de chemin complète sur le terrain réel, masquée sous le brouillard
+    Pause, reprise et réorganisation des ordres ; réservation des ressources pour les ordres en file
+    File d'ordres des alliés ; prêts et Banque améliorés
+
+v2026.08.09 alpha
+    Rondes simultanées : tous les joueurs mettent des ordres en file et la ronde se résout d'un coup
+    Aperçu des routes et des coûts des ordres en file
+    Salle d'attente et replay que l'on peut passer
+
+v2026.08.08 alpha
+    Système de satisfaction et de rationnement par individu, au lieu de la famine
+    Effets d'ambiance de production et ondes sur l'eau et le pétrole
+    Minicarte placée selon le côté de la carte où se trouve le Gouvernement
+
+v2026.08.06 alpha
+    Bords de terrain fondus avec le voisin et coins arrondis
+    Le Constructeur traverse les créatures neutres de prairie
+    Aide avec barres de défilement et statistiques plus riches
+
+v2026.08.05 alpha
+    Prévision des ressources avec des tâches qui se terminent dans la même ronde
+    Couverture d'énergie en vrai cercle depuis le centre du bâtiment
+
+v2026.08.04 alpha
+    Sauvegardes nommées (points de contrôle) et panneau d'aide
+    Minicarte flottante et journal de chat en bas
+    Historique de la Banque et blocage des prêts négatifs
+    Infobulles de ressources avec détail des PA et du Quota
+
+v2026.08.03 alpha
+    Créatures neutres de prairie (vache et cheval)
+    Constructeur limité à un ordre de construction et exploration double de l'IA
+    Infobulles et bords de terrain redessinés
+
+v2026.08.02 alpha
+    Tour 0 obligatoire pour placer les bâtiments de départ
+    Zone d'énergie du Gouvernement ; lacs centraux dans la génération de carte
+    Panneau redessiné avec fiche d'information, boutons à icône et curseurs personnalisés
+
+v2026.08.01 alpha
+    Unité Constructeur et flux de construction
+    Bouton Prêt dans le salon et curseur de texte modifiable
+    Contrôles de souris redessinés et vue coopérative en direct
+    Carte équitable entre les joueurs et couverture d'énergie
+
+v2026.07.31 alpha
+    Diviser et fusionner les troupes
+    Icônes de faim et de soif ; défilement au clavier
+    La caméra se recentre au début du tour ; replay du tour de l'IA
+    Cartes carrées et mines d'acier 2×2
+
+v2026.07.30 alpha
+    Les écrans de pré-partie fusionnent en un seul assistant
+    Effets de combat, écran de victoire et budget d'attaques par tour
+    Validation du démarrage du salon PvP/Coopératif
+
+v2026.07.29 alpha
+    Multijoueur local sur le même PC (hotseat) avec relais entre joueurs
+    Langues espagnol et anglais, fenêtre de Configuration et volume
+
+v2026.07.28 alpha
+    Production d'unités par lots et transferts de ressources entre alliés
+    Réserves de pétrole comme nouveau terrain avec raffinerie adjacente
+    Fenêtre de quantité d'unités et améliorations de l'interface
+
+v2026.07.27 alpha
+    Multijoueur avec plusieurs salons PvP/Coopératifs, sauvegarde et chargement de parties
+    Navigateur de salons, écran de chargement de partie et marque Axiom Wars
+
+v2026.07.26 alpha
+    Déplacement par routes sur plusieurs tours avec route en pointillés et temps estimé
+    Vente de bâtiments, attaque à distance et vrai combat
+    Carte plus grande et plus expansive
+
+v2026.07.25 alpha
+    Brouillard de guerre, choix de la couleur de faction et première IA ennemie
+    Combat de mêlée de base et Banque avec prêts
+    Faim et soif par individu et prévision des ressources du tour suivant
+    ATH de partie redessiné avec barre de ressources en haut et musique
+
+v2026.07.24 alpha
+    Début du projet : serveur en Go et client graphique avec Ebiten
+    Bâtiments multi-cases, forêts comme obstacles et minicarte
+    Aperçu rouge/vert en construisant et panneau de construction avec onglets par niveau
+    Thème futuriste cyan sur noir avec la police Elianto

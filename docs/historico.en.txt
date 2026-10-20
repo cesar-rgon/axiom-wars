@@ -1,0 +1,269 @@
+AXIOM WARS CHANGE HISTORY
+(The version is the date of the latest change to the server or the client.)
+
+v2026.10.20 alpha
+    Start screen redesigned: this PC's players, lobbies and saved matches in a single view, with the room on the right
+    Full-screen room (lobby) and "Load match" with a list, thumbnails and the detail of your base
+    Six new languages: French, Italian, German, Russian, Chinese and Japanese
+    Idle animations for the Terran troops and the 17 creatures
+    Damage and AP rebalance (100/70/40 matrix) and Government with 14/20/26 AP and more health
+    The water extractor also works next to the sea
+    End-of-match statistics, magnifier and camera on the fall of the Government, and attack crosshair
+    The AI picks its targets better; a group sent to unexplored terrain keeps its destination
+
+v2026.10.19 alpha
+    Maps v2: bigger quadrants, sea with rivers, bays, lakes with islands and bridges
+    Map options in the lobby: continents, peninsulas, lakes, rivers, plateaus, chests, docile creatures and resource level
+    Buried chest guardians that rise from the ground when you fight
+    Maximum-attack graph and new damage to building shields
+    Each unit's orders run in queue order
+    You can cancel the end of the turn while the AIs are planning
+    Water and oil waves with interference; oil and sea block movement
+    Faster APC; a buried Explorer cannot move
+    systemd service for the server
+
+v2026.10.18 alpha
+    Rebalance of weapons, armors and abilities (machine gun, grenade launcher, cannon shot, bite, Bury, Immolate, Stomp, Clone, AP Aura)
+    One counterattack per troop and round; ground and air defenses depending on the Government level
+    Heavy-armor APC transport; Load without a target
+    Much better client graphics performance (shader shapes and fog frontier as an image)
+    Credits with sound effects, ChatGPT and Gemini
+
+v2026.10.17 alpha
+    Catalog of 58 sound effects (all 58 as mp3)
+    Approach and shoot are a single order
+    Buildings without power are inactive: defenses do not fire and Banks do not operate
+    Pathfinding and Government exit check 15-20 times faster for the AI
+    Larger action buttons and 3 workers by default
+
+v2026.10.16 alpha
+    Large units with multi-tile footprints: Mech and APC 2×2, Raptor 3×2
+    Group orders, civil and military queues with tabs, and messaging with a history of notices
+    Synthesized sounds with their own volume in Settings
+    Chest guardians in troops depending on the chest level; map decoration that never disconnects the terrain
+    The dead of the round no longer counterattack; Exit button in the main menu
+
+v2026.10.14 alpha
+    New textures for containers, creatures and terrain
+
+v2026.10.12 alpha
+    Building explosions with rubble, the Government falling in a chain and resource pools that visibly run out
+    Interface variant B (the map is no longer covered) and hand cursor; the menu is a centered modal
+    AI: chooses whom to shoot by value, remembers hostile creatures and builds power proactively
+    Line of fire with plateaus; area abilities that follow the troop; group arrival and formation by roles
+    Resource balance: more grass and Energy that does not punish saving
+    Unit sheets and balance report in English, published on the website
+
+v2026.10.11 alpha
+    Double AP pool: shared camp AP and each troop's own AP
+    Plateaus in rugged style: rock with strata, cracks and ramps
+    Technology, Wikipedia and orders with an icon per type
+    The AI respects plateaus when placing buildings
+
+v2026.10.10 alpha
+    Map creatures: 17 real species with textures, movement and attack animations
+    Docile creatures that live in their lake; chests with prizes
+    Floating HUD with an orders row and configurable panels; chat and movement with WSAD
+    No turn 0; priority loan and energy cap
+
+v2026.10.09 alpha
+    Weather: random weather conditions each turn
+    Neutral creatures and containers with prizes
+    Hand-over between local players, credits and end music
+    Animation of units when moving and of buildings under construction
+
+v2026.10.08 alpha
+    Field advisor with a real portrait in the tutorial and the round report
+
+v2026.10.06 alpha
+    Plateaus and ramps: one height level on the map, with cliffs
+    Approach to firing range before attacking; right click to attack and firing arc
+    Exploitable resources next to each Government and more oil
+    Tutorial with an agenda of pending notices
+
+v2026.10.05 alpha
+    Tutorial with the holographic advisor and round report
+    Visual effects lab: one effect for each weapon, ability, passive and status
+    Right panel with a rail per unit, upgrade icons and interface scale
+
+v2026.10.04 alpha
+    Troop fatigue, energy with a cap and routes by stages (fresh, tired, out of round)
+    Blind construction in unexplored fog (Energy Generator only) and group movement side by side
+    Purchase of passives, weapons and abilities; AI assault
+    Scripts to publish client releases on GitHub and the website
+
+v2026.10.03 alpha
+    Terran balance v8: classes, AP per individual, fuel per tile, shield per individual
+    Weapons by level with reloads, area and counterattack; abilities, passives and statuses
+    New units and aircraft on their own layer; transport and mines
+    Weapon and ability selector in the client
+
+v2026.10.02 alpha
+    Map preview in the lobby with a fixed seed, enlarged when clicked
+    Cancel, pause and resume any order of the queue with replanning
+    Orders panel with cards on a numbered rail
+    Unit sheets: Military, Mech, APC, Raptor, Droid, Explorer and Scientist
+
+v2026.10.01 alpha
+    Lobby with a Team combo and a Ready button
+    Travelling magnifier and scrollable orders panel; one Constructor per troop
+    Terran unit sheets (PDF and Markdown)
+
+v2026.09.27 alpha
+    Notices panel, moving magnifiers and simultaneous replay
+    "Energy field" area of effect with a shader
+    Smooth movement during resolution and route trail
+    AI with Government level 2, a dedicated scout and emergency reinforcement
+
+v2026.09.26 alpha
+    Recalculate the route when an unexpected obstacle appears
+    Terrain revealed when ordering a move into the black fog
+    Electric bolts and preview of the area when building
+
+v2026.08.31 alpha
+    Batch of 21 improvements: split troops, real rationing, resolution magnifiers, exit point, cooperative victory
+    Automatic magnifier when an enemy or a base is discovered
+    AI with parallel speculation and a real progress bar
+
+v2026.08.30 alpha
+    Pop split into Civil (Housing) and Military (Energy Generator)
+    Rebalance of water extractors and farms
+    The AI avoids the Food debt spiral
+
+v2026.08.29 alpha
+    Fix for an AI freeze during parallel planning
+
+v2026.08.28 alpha
+    The AI prioritizes construction, production and upgrades according to what it can afford
+
+v2026.08.27 alpha
+    The AI hires every free slot, banks proactively and remembers enemy bases
+    Balance of energy, steel and food; grassland as the dominant resource
+    Less pixelated crosshair and full-width start-screen background
+
+v2026.08.25 alpha
+    Up to 8 local players and up to 8 per lobby
+    Fixed camera and magnifying crosshair during resolution, with pause on Space
+    Fixed 3 AP per attack and orders locked after Ready
+    Paste into the Host field; shortcut legend
+
+v2026.08.23 alpha
+    Iron mines equidistant between players
+    Live progress bar while the AI resolves
+    Finalize lobby, and separate screens for Find lobby and Load match
+
+v2026.08.22 alpha
+    8-player map with 49 quadrants
+    The camera focuses on combat; Bank redesigned
+    Turn 0 can be undone
+    Merged wizard, languages with full names and recoil bursts
+
+v2026.08.21 alpha
+    The AI builds the economy in order (wood, water, farm, steel, energy) and hires staff first
+    The Government produces energy and starting resources go up
+    Extractors can be built with a single adjacent tile
+
+v2026.08.20 alpha
+    New AI: RHEA (rolling horizon evolutionary algorithm) replaces the rule-based AI
+    Queued constructions are also visible to enemies with vision
+    Government resources with a minimum spacing between them
+
+v2026.08.19 alpha
+    Stable lobby order and non-atomic batch production
+
+v2026.08.18 alpha
+    Animated logo in the wizard and in turn changes
+    Pre-game screens in 16:9 format; date in the lobby list
+
+v2026.08.17 alpha
+    Symmetric map generation across the quadrants
+    AP split across rounds for any order; energy costs by Government level
+    Turn 0 with confirmation or relocation of the Government
+
+v2026.08.10 alpha
+    Persistent lobbies that can be resumed; long marches that continue on their own
+    Full pathfinding over real terrain, hidden under the fog
+    Pause, resume and reorder orders; resource reservation for queued orders
+    Allies' order queue; improved loans and Bank
+
+v2026.08.09 alpha
+    Simultaneous rounds: all players queue orders and the round resolves at once
+    Preview of routes and costs of queued orders
+    Waiting room and skippable replay
+
+v2026.08.08 alpha
+    Per-individual satisfaction and rationing system, instead of starvation
+    Ambient production effects and ripples on water and oil
+    Minimap placed according to the side of the map where the Government is
+
+v2026.08.06 alpha
+    Terrain edges blended with the neighbor and rounded corners
+    The Constructor walks through neutral grass creatures
+    Help with scrollbars and richer statistics
+
+v2026.08.05 alpha
+    Resource forecast with jobs that finish in the same round
+    Energy coverage as a true circle from the building's center
+
+v2026.08.04 alpha
+    Named saves (checkpoints) and help panel
+    Floating minimap and chat log at the bottom
+    Bank history and a block on negative loans
+    Resource tooltips with an AP and Pop breakdown
+
+v2026.08.03 alpha
+    Neutral grass creatures (cow and horse)
+    Constructor limited to one construction order and dual AI exploration
+    Redesigned tooltips and terrain edges
+
+v2026.08.02 alpha
+    Mandatory turn 0 to place the starting buildings
+    Government energy area; central lakes in map generation
+    Redesigned panel with an info card, buttons with icons and custom cursors
+
+v2026.08.01 alpha
+    Constructor unit and construction flow
+    Ready button in the lobby and editable text cursor
+    Redesigned mouse controls and live cooperative view
+    Fair map between players and energy coverage
+
+v2026.07.31 alpha
+    Split and merge troops
+    Hunger and thirst icons; keyboard scrolling
+    The camera recenters at the start of the turn; replay of the AI's turn
+    Square maps and 2×2 steel mines
+
+v2026.07.30 alpha
+    The pre-game screens are merged into a single wizard
+    Combat effects, victory screen and attack budget per turn
+    PvP/Cooperative lobby start validation
+
+v2026.07.29 alpha
+    Local multiplayer on the same PC (hotseat) with hand-over between players
+    Spanish and English languages, Settings window and volume
+
+v2026.07.28 alpha
+    Batch unit production and resource transfers between allies
+    Oil pools as a new terrain with an adjacent refinery
+    Unit quantity modal and interface improvements
+
+v2026.07.27 alpha
+    Multiplayer with several PvP/Cooperative lobbies, saving and loading matches
+    Lobby browser, load-match screen and the Axiom Wars brand
+
+v2026.07.26 alpha
+    Multi-turn route movement with a dotted route and estimated time
+    Building sale, ranged attack and real combat
+    Larger, more expansive map
+
+v2026.07.25 alpha
+    Fog of war, faction color selection and the first enemy AI
+    Basic melee combat and Bank with loans
+    Hunger and thirst per individual and forecast of next turn's resources
+    Redesigned match HUD with a top resource bar and music
+
+v2026.07.24 alpha
+    Start of the project: Go server and graphical client with Ebiten
+    Multi-tile buildings, forests as obstacles and minimap
+    Red/green preview when building and build panel with tabs per level
+    Futuristic cyan-on-black theme with the Elianto font

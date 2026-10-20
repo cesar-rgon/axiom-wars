@@ -191,6 +191,7 @@
   "news.title": "お知らせ",
   "news.body": "v2026.10.20 ・ スタート画面を刷新：プレイヤー、ロビー、保存した対戦をひとつの画面に。17種のクリーチャーに待機アニメーション、6言語を追加。",
   "news.all": "更新履歴をすべて見る",
+  "news.all.href": "docs/historico.ja.txt",
   "lang.eyebrow": "言語",
   "lang.title": "あなたの言語で遊ぼう",
   "lang.available": "対応言語",

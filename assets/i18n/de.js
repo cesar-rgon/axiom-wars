@@ -191,6 +191,7 @@
   "news.title": "Neuigkeiten",
   "news.body": "Startbildschirm neu gestaltet: Spieler, Lobbys und gespeicherte Partien in einer Ansicht; 17 Kreaturen mit Ruhe-Animation und 6 neue Sprachen.",
   "news.all": "Gesamten Verlauf ansehen",
+  "news.all.href": "docs/historico.de.txt",
   "lang.eyebrow": "Sprachen",
   "lang.title": "Spiel in deiner Sprache",
   "lang.available": "Verfügbar in",

@@ -215,6 +215,7 @@
   "news.title": "Novedades",
   "news.body": "pantalla inicial rediseñada: jugadores, lobbies y partidas guardadas en una sola vista; 17 criaturas con animación de reposo y 6 idiomas nuevos.",
   "news.all": "Ver el histórico completo",
+  "news.all.href": "docs/historico.es.txt",
   "lang.eyebrow": "Idiomas",
   "lang.title": "Juega en tu idioma",
   "lang.available": "Disponible en",

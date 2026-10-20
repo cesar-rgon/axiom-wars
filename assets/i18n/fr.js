@@ -191,6 +191,7 @@
   "news.title": "Nouveautés",
   "news.body": "écran d'accueil repensé : joueurs, salons et parties sauvegardées sur une seule vue ; 17 créatures avec animation de repos et 6 nouvelles langues.",
   "news.all": "Voir tout l'historique",
+  "news.all.href": "docs/historico.fr.txt",
   "lang.eyebrow": "Langues",
   "lang.title": "Jouez dans votre langue",
   "lang.available": "Disponible en",

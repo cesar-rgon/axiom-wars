@@ -191,6 +191,7 @@
   "news.title": "Novità",
   "news.body": "schermata iniziale ridisegnata: giocatori, lobby e partite salvate in un'unica vista; 17 creature con animazione di riposo e 6 nuove lingue.",
   "news.all": "Vedi tutta la cronologia",
+  "news.all.href": "docs/historico.it.txt",
   "lang.eyebrow": "Lingue",
   "lang.title": "Gioca nella tua lingua",
   "lang.available": "Disponibile in",

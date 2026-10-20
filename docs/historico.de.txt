@@ -1,0 +1,269 @@
+ÄNDERUNGSVERLAUF VON AXIOM WARS
+(Die Version ist das Datum der letzten Änderung am Server oder am Client.)
+
+v2026.10.20 alpha
+    Startbildschirm neu gestaltet: Spieler dieses PCs, Lobbys und gespeicherte Partien in einer Ansicht, mit dem Raum rechts
+    Raum im Vollbild und „Partie laden“ mit Liste, Vorschaubildern und Details deiner Basis
+    Sechs neue Sprachen: Französisch, Italienisch, Deutsch, Russisch, Chinesisch und Japanisch
+    Ruhe-Animationen der terranischen Truppen und der 17 Kreaturen
+    Neuausgleich von Schaden und AP (Matrix 100/70/40) und Regierung mit 14/20/26 AP und mehr Leben
+    Der Wasserextraktor funktioniert auch neben dem Meer
+    Endstatistiken, Lupe und Kamera beim Fall der Regierung sowie Angriffsfadenkreuz
+    Die KI wählt ihre Ziele besser; eine in unerforschtes Gelände geschickte Gruppe behält ihr Ziel
+
+v2026.10.19 alpha
+    Karten v2: größere Quadranten, Meer mit Flüssen, Buchten, Seen mit Insel und Brücken
+    Kartenoptionen in der Lobby: Kontinente, Halbinseln, Seen, Flüsse, Plateaus, Truhen, zahme Kreaturen und Ressourcenmenge
+    Vergrabene Truhenwächter, die im Kampf aus dem Boden steigen
+    Graph der maximalen Angriffe und neuer Schaden an Gebäudeschilden
+    Die Befehle jeder Einheit werden in der Reihenfolge der Warteschlange ausgeführt
+    Das Rundenende lässt sich abbrechen, während die KIs planen
+    Wasser- und Ölwellen mit Interferenz; Öl und Meer blockieren die Bewegung
+    Schnellerer APC; ein vergrabener Späher kann sich nicht bewegen
+    systemd-Dienst für den Server
+
+v2026.10.18 alpha
+    Neuausgleich von Waffen, Rüstungen und Fähigkeiten (Maschinengewehr, Granatwerfer, Kanonenschuss, Biss, Vergraben, Opfern, Trampeln, Klonen, AP-Aura)
+    Ein Gegenangriff pro Truppe und Runde; Boden- und Luftabwehr je nach Regierungsstufe
+    APC-Transporter mit schwerer Panzerung; Laden ohne Ziel
+    Deutlich bessere Grafikleistung des Clients (Formen per Shader und Nebelgrenze als Bild)
+    Credits mit Soundeffekten, ChatGPT und Gemini
+
+v2026.10.17 alpha
+    Katalog mit 58 Soundeffekten (alle 58 als mp3)
+    Annähern und Schießen sind ein einziger Befehl
+    Gebäude ohne Energie sind inaktiv: Verteidigungen schießen nicht und Banken arbeiten nicht
+    Wegfindung und Ausgangsprüfung der Regierung für die KI 15- bis 20-mal schneller
+    Größere Aktionsknöpfe und standardmäßig 3 Arbeiter
+
+v2026.10.16 alpha
+    Große Einheiten mit Mehrfeld-Grundfläche: Mech und APC 2×2, Raptor 3×2
+    Gruppenbefehle, zivile und militärische Warteschlangen mit Reitern und Nachrichten mit Verlauf der Meldungen
+    Synthetische Sounds mit eigener Lautstärke in den Einstellungen
+    Truhenwächter als Truppen je nach Truhenstufe; Kartendekoration, die das Gelände nie trennt
+    Die Toten der Runde kontern nicht mehr; Beenden-Knopf im Hauptmenü
+
+v2026.10.14 alpha
+    Neue Texturen für Behälter, Kreaturen und Gelände
+
+v2026.10.12 alpha
+    Gebäudeexplosion mit Trümmern, Regierung, die in Kette fällt, und Ressourcenvorkommen, die sichtbar zur Neige gehen
+    Oberfläche Variante B (die Karte wird nicht mehr verdeckt) und Handcursor; das Menü ist ein zentrales Modalfenster
+    KI: wählt ihre Ziele nach Wert, merkt sich feindliche Kreaturen und erzeugt proaktiv Energie
+    Schusslinie mit Plateaus; Flächenfähigkeiten, die der Truppe folgen; Ankunft als Gruppe und Formation nach Rollen
+    Ressourcenbalance: mehr Weide und Energie, die Sparen nicht bestraft
+    Einheitenblätter und Balancebericht auf Englisch, auf der Website veröffentlicht
+
+v2026.10.11 alpha
+    Doppelter AP-Vorrat: gemeinsame AP des Lagers und eigene AP jeder Truppe
+    Plateaus im zerklüfteten Stil: Fels mit Schichten, Risse und Rampen
+    Technologie, Wikipedia und Befehle mit einem Symbol pro Typ
+    Die KI beachtet Plateaus beim Platzieren von Gebäuden
+
+v2026.10.10 alpha
+    Kartenkreaturen: 17 echte Arten mit Texturen sowie Bewegungs- und Angriffsanimationen
+    Zahme Kreaturen, die in ihrem See leben; Truhen mit Preis
+    Schwebendes HUD mit Befehlsleiste und konfigurierbaren Panels; Chat und Bewegung mit WSAD
+    Kein Zug 0; vorrangiger Kredit und Energiegrenze
+
+v2026.10.09 alpha
+    Wetter: zufällige Wetterbedingungen in jedem Zug
+    Neutrale Kreaturen und Behälter mit Preis
+    Wechsel zwischen lokalen Spielern, Credits und Schlussmusik
+    Animation der Einheiten bei der Bewegung und der Gebäude im Bau
+
+v2026.10.08 alpha
+    Feldberaterin mit echtem Porträt im Tutorial und im Rundenbericht
+
+v2026.10.06 alpha
+    Plateaus und Rampen: eine Höhenstufe auf der Karte, mit Klippen
+    Vor dem Angriff in Schussweite gehen; Rechtsklick zum Angreifen und Schussbogen
+    Nutzbare Ressourcen neben jeder Regierung und mehr Öl
+    Tutorial mit einer Themenliste der ausstehenden Meldungen
+
+v2026.10.05 alpha
+    Tutorial mit der holografischen Beraterin und Rundenbericht
+    Labor für visuelle Effekte: ein Effekt für jede Waffe, Fähigkeit, Passive und jeden Status
+    Rechtes Panel mit Leiste pro Einheit, Verbesserungssymbolen und Oberflächenskalierung
+
+v2026.10.04 alpha
+    Ermüdung der Truppen, Energie mit Obergrenze und Routen in Abschnitten (frisch, müde, außerhalb der Runde)
+    Blindes Bauen im unerforschten Nebel (nur Energiegenerator) und Gruppenbewegung auf gleicher Höhe
+    Kauf von Passiven, Waffen und Fähigkeiten; KI-Angriff
+    Skripte zum Veröffentlichen der Client-Releases auf GitHub und der Website
+
+v2026.10.03 alpha
+    Terranischer Ausgleich v8: Klassen, AP pro Individuum, Treibstoff pro Feld, Schild pro Individuum
+    Waffen nach Stufe mit Nachladezeiten, Fläche und Gegenangriff; Fähigkeiten, Passive und Status
+    Neue Einheiten und Flugzeuge auf eigener Ebene; Transport und Minen
+    Waffen- und Fähigkeitenauswahl im Client
+
+v2026.10.02 alpha
+    Kartenvorschau in der Lobby mit festem Seed, per Klick vergrößert
+    Jeden Befehl der Warteschlange abbrechen, pausieren und fortsetzen mit Neuplanung
+    Befehlspanel mit Karten auf nummerierter Schiene
+    Einheitenblätter: Soldat, Mech, APC, Raptor, Droide, Späher und Wissenschaftler
+
+v2026.10.01 alpha
+    Lobby mit Team-Auswahl und Bereit-Knopf
+    Wandernde Lupe und scrollbares Befehlspanel; ein Konstrukteur pro Truppe
+    Einheitenblätter der Terraner (PDF und Markdown)
+
+v2026.09.27 alpha
+    Meldungspanel, bewegliche Lupen und gleichzeitige Wiederholung
+    Wirkungsbereich „Energiefeld“ mit Shader
+    Flüssige Bewegung bei der Auflösung und Routenspur
+    KI mit Regierung Stufe 2, eigenem Späher und Notverstärkung
+
+v2026.09.26 alpha
+    Route neu berechnen bei unerwartetem Hindernis
+    Gelände wird aufgedeckt, wenn man eine Bewegung in den schwarzen Nebel befiehlt
+    Elektrische Blitze und Vorschau des Bereichs beim Bauen
+
+v2026.08.31 alpha
+    Paket mit 21 Verbesserungen: Truppen teilen, echte Rationierung, Auflösungslupen, Austrittspunkt, kooperativer Sieg
+    Automatische Lupe beim Entdecken eines Feindes oder einer Basis
+    KI mit paralleler Spekulation und echtem Fortschrittsbalken
+
+v2026.08.30 alpha
+    Kontingent aufgeteilt in Zivil (Wohnhaus) und Militär (Energiegenerator)
+    Neuausgleich von Wasserextraktoren und Farmen
+    Die KI vermeidet die Schuldenspirale bei Nahrung
+
+v2026.08.29 alpha
+    Behebung eines KI-Hängers bei der parallelen Planung
+
+v2026.08.28 alpha
+    Die KI priorisiert Bau, Produktion und Verbesserungen danach, was sie bezahlen kann
+
+v2026.08.27 alpha
+    Die KI stellt alle freien Plätze ein, nutzt die Bank proaktiv und merkt sich feindliche Basen
+    Balance von Energie, Stahl und Nahrung; Wiese als dominante Ressource
+    Weniger verpixeltes Fadenkreuz und Hintergrund des Startbildschirms in voller Breite
+
+v2026.08.25 alpha
+    Bis zu 8 lokale Spieler und bis zu 8 pro Lobby
+    Feste Kamera und Vergrößerungs-Fadenkreuz während der Auflösung, mit Pause per Leertaste
+    Feste 3 AP pro Angriff und Befehle nach Bereit gesperrt
+    Einfügen im Host-Feld; Legende der Kurzbefehle
+
+v2026.08.23 alpha
+    Eisenminen in gleichem Abstand zwischen den Spielern
+    Live-Fortschrittsbalken, während die KI auflöst
+    Lobby abschließen sowie getrennte Bildschirme für Lobby suchen und Partie laden
+
+v2026.08.22 alpha
+    Karte für 8 Spieler mit 49 Quadranten
+    Die Kamera fokussiert Kämpfe; Bank neu gestaltet
+    Zug 0 lässt sich rückgängig machen
+    Zusammengeführter Assistent, Sprachen mit vollem Namen und Salven mit Rückstoß
+
+v2026.08.21 alpha
+    Die KI baut die Wirtschaft der Reihe nach auf (Holz, Wasser, Farm, Stahl, Energie) und stellt zuerst Personal ein
+    Die Regierung erzeugt Energie und die Startressourcen steigen
+    Extraktoren lassen sich mit nur einem angrenzenden Feld bauen
+
+v2026.08.20 alpha
+    Neue KI: RHEA (evolutionärer Algorithmus mit rollendem Horizont) ersetzt die regelbasierte KI
+    Gebaute Warteschlangen-Bauten sind auch für Feinde mit Sicht sichtbar
+    Ressourcen der Regierung mit Mindestabstand zueinander
+
+v2026.08.19 alpha
+    Stabile Reihenfolge der Lobbys und nicht atomare Stapelproduktion
+
+v2026.08.18 alpha
+    Animiertes Logo im Assistenten und bei Zugwechseln
+    Vorspiel-Bildschirme im 16:9-Format; Datum in der Lobbyliste
+
+v2026.08.17 alpha
+    Symmetrische Kartengenerierung über die Quadranten
+    AP auf mehrere Runden verteilt für jeden Befehl; Energiekosten nach Regierungsstufe
+    Zug 0 mit Bestätigung oder Verlegung der Regierung
+
+v2026.08.10 alpha
+    Dauerhafte Lobbys, die fortgesetzt werden können; lange Märsche, die von selbst weiterlaufen
+    Vollständige Wegfindung über echtem Gelände, unter dem Nebel verborgen
+    Befehle pausieren, fortsetzen und umsortieren; Ressourcenreservierung für Befehle in der Warteschlange
+    Befehlswarteschlange der Verbündeten; verbesserte Kredite und Bank
+
+v2026.08.09 alpha
+    Gleichzeitige Runden: alle Spieler reihen Befehle ein und die Runde wird auf einmal aufgelöst
+    Vorschau von Routen und Kosten der eingereihten Befehle
+    Wartezimmer und überspringbare Wiederholung
+
+v2026.08.08 alpha
+    System aus Zufriedenheit und Rationierung pro Individuum statt Verhungern
+    Umgebungseffekte der Produktion und Wellen auf Wasser und Öl
+    Minikarte wird nach der Kartenseite platziert, auf der die Regierung liegt
+
+v2026.08.06 alpha
+    Geländekanten mit dem Nachbarn verblendet und abgerundete Ecken
+    Der Konstrukteur geht durch neutrale Wiesenkreaturen
+    Hilfe mit Scrollleisten und umfangreichere Statistiken
+
+v2026.08.05 alpha
+    Ressourcenvorschau mit Aufträgen, die in derselben Runde enden
+    Energieabdeckung als echter Kreis vom Gebäudemittelpunkt aus
+
+v2026.08.04 alpha
+    Benannte Spielstände (Checkpoints) und Hilfepanel
+    Schwebende Minikarte und Chatprotokoll unten
+    Bankverlauf und Sperre negativer Kredite
+    Ressourcen-Tooltips mit AP- und Kontingent-Aufschlüsselung
+
+v2026.08.03 alpha
+    Neutrale Wiesenkreaturen (Kuh und Pferd)
+    Konstrukteur auf einen Bauauftrag begrenzt und doppelte KI-Erkundung
+    Neu gestaltete Tooltips und Geländekanten
+
+v2026.08.02 alpha
+    Verpflichtender Zug 0 zum Platzieren der Startgebäude
+    Energiebereich der Regierung; zentrale Seen in der Kartengenerierung
+    Neu gestaltetes Panel mit Infokarte, Knöpfen mit Symbol und eigenen Cursorn
+
+v2026.08.01 alpha
+    Einheit Konstrukteur und Bauablauf
+    Bereit-Knopf in der Lobby und editierbarer Textcursor
+    Neu gestaltete Maussteuerung und kooperative Live-Ansicht
+    Faire Karte zwischen den Spielern und Energieabdeckung
+
+v2026.07.31 alpha
+    Truppen teilen und zusammenführen
+    Symbole für Hunger und Durst; Scrollen per Tastatur
+    Die Kamera zentriert sich zu Beginn des Zuges neu; Wiederholung des KI-Zuges
+    Quadratische Karten und 2×2-Stahlminen
+
+v2026.07.30 alpha
+    Die Vorspiel-Bildschirme werden zu einem einzigen Assistenten zusammengeführt
+    Kampfeffekte, Siegbildschirm und Angriffsbudget pro Zug
+    Prüfung beim Start der PvP-/Koop-Lobby
+
+v2026.07.29 alpha
+    Lokaler Mehrspielermodus am selben PC (Hotseat) mit Wechsel zwischen den Spielern
+    Sprachen Spanisch und Englisch, Einstellungsfenster und Lautstärke
+
+v2026.07.28 alpha
+    Stapelproduktion von Einheiten und Ressourcentransfers zwischen Verbündeten
+    Ölvorkommen als neues Gelände mit angrenzender Raffinerie
+    Fenster für die Einheitenanzahl und Verbesserungen der Oberfläche
+
+v2026.07.27 alpha
+    Mehrspielermodus mit mehreren PvP-/Koop-Lobbys, Speichern und Laden von Partien
+    Lobby-Browser, Bildschirm zum Laden von Partien und die Marke Axiom Wars
+
+v2026.07.26 alpha
+    Bewegung auf Routen über mehrere Züge mit gestrichelter Route und geschätzter Zeit
+    Gebäudeverkauf, Fernangriff und echter Kampf
+    Größere, weitläufigere Karte
+
+v2026.07.25 alpha
+    Kriegsnebel, Wahl der Fraktionsfarbe und erste gegnerische KI
+    Einfacher Nahkampf und Bank mit Krediten
+    Hunger und Durst pro Individuum und Vorschau der Ressourcen des nächsten Zuges
+    Neu gestaltetes Spiel-HUD mit oberer Ressourcenleiste und Musik
+
+v2026.07.24 alpha
+    Projektbeginn: Server in Go und grafischer Client mit Ebiten
+    Gebäude mit mehreren Feldern, Wälder als Hindernis und Minikarte
+    Rot/grün-Vorschau beim Bauen und Baupanel mit Reitern pro Stufe
+    Futuristisches Cyan-auf-Schwarz-Design mit der Schrift Elianto
