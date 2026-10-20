@@ -189,7 +189,8 @@ Este repositorio aloja la web del juego (GitHub Pages) y las descargas del clien
 ```
 index.html          web publicada en https://cesar-rgon.github.io/axiom-wars/
 assets/img/         logo, unidades, galería, museo y créditos
-assets/js/i18n.js   traducción al español de la web (por defecto, inglés)
+assets/js/i18n.js   selector de idioma de la web (por defecto, inglés)
+assets/i18n/        un fichero por idioma: es, fr, it, de, ru, zh, ja
 docs/unidades/      fichas de las unidades Terráneas (Markdown y PDF)
 docs/balanceo/      grafo interactivo de daños (español)
 docs/units/         las mismas fichas en inglés
