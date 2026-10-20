@@ -217,7 +217,7 @@ h3.sub { font-family: var(--font-display, inherit); margin: 28px 0 12px; color: 
 /* Fichas de criaturas: 5 por fila en pantalla ancha */
 .units.compact { grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 10px; }
 .units.compact .unit { padding: 10px 10px 12px; gap: 4px; }
-.units.compact .unit img { max-height: 120px; }
+.units.compact .unit img, .units.compact .unit canvas { max-height: 120px; }
 .units.compact .unit h3 { font-size: .95rem; }
 .units.compact .unit .tags { font-size: .62rem; }
 .units.compact .unit p { font-size: .78rem; line-height: 1.4; }
@@ -1055,6 +1055,6 @@ window.addEventListener('message', function (ev) {
   if (typeof h === 'number' && h > 200 && h < 3000) f.style.height = Math.ceil(h) + 'px';
 });
 </script>
-<script src="assets/js/reposo.js?v=20261020"></script>
+<script src="assets/js/reposo.js?v=20261020b"></script>
 </body>
 </html>
