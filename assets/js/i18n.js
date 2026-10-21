@@ -10,7 +10,7 @@
 (function () {
   var LANGS = ['en', 'es', 'fr', 'it', 'de', 'ru', 'zh', 'zh-TW', 'ja', 'ko', 'pl'];
   var HTML_LANG = { en: 'en', es: 'es', fr: 'fr', it: 'it', de: 'de', ru: 'ru', zh: 'zh-Hans', 'zh-TW': 'zh-Hant', ja: 'ja', ko: 'ko', pl: 'pl' };
-  var VERSION = '20261021';
+  var VERSION = '20261021b';
 
   // [atributo del elemento, cómo leer/escribir el texto]
   var KINDS = [

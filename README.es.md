@@ -159,8 +159,7 @@ Criaturas neutrales que no pertenecen a ningún jugador. Las dóciles deambulan 
 | Linux x86-64 | [AxiomWars-Linux-x64.zip](https://github.com/cesar-rgon/axiom-wars/releases/latest/download/AxiomWars-Linux-x64.zip) |
 
 1. Descomprime el zip y abre **AxiomWars.exe** (Windows) o **AxiomWars** (Linux) dentro de la carpeta `AxiomWars`. Deja la carpeta `assets` a su lado.
-2. En el campo **Host (IP o DNS:puerto)** escribe la dirección del servidor.
-3. La IP del Host se publica en el [canal de Discord](https://discord.gg/3rsTp3DdGh).
+2. Abre el juego: la dirección del servidor ya viene rellena. Escribe tu nombre y crea una sala o únete a una.
 
 ## Histórico de cambios
 

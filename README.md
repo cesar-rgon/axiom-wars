@@ -159,8 +159,7 @@ Neutral creatures that belong to no player. The docile ones wander their own hab
 | Linux x86-64 | [AxiomWars-Linux-x64.zip](https://github.com/cesar-rgon/axiom-wars/releases/latest/download/AxiomWars-Linux-x64.zip) |
 
 1. Unzip the file and open **AxiomWars.exe** (Windows) or **AxiomWars** (Linux) inside the `AxiomWars` folder. Keep the `assets` folder next to it.
-2. In the **Host (IP or DNS:port)** field, type the server address.
-3. The Host IP is posted on the [Discord channel](https://discord.gg/2EZAtyqtzW).
+2. Open the game: the server address is already filled in. Type your name, then create a lobby or join one.
 
 ## Change history
 
