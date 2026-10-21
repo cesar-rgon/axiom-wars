@@ -1,0 +1,277 @@
+HISTORIA ZMIAN AXIOM WARS
+(Wersja to data ostatniej zmiany serwera lub klienta.)
+
+v2026.10.21 alpha
+    Trzy nowe języki: chiński tradycyjny, koreański i polski
+    Każdy gracz w pokoju ma własny przycisk „Wyjdź” (także gracze z Twojego komputera): wychodzi tylko ten gracz, komputer zostaje w pokoju, a jeśli był hostem, rola przechodzi na najstarszego gracza z tego komputera; ogólny przycisk „Wyjdź” zniknął i tylko host zachowuje „Zamknij pokój”
+    Ekran początkowy: animowane logo jest dwa razy większe i wyśrodkowane nad panelami; pastylka serwera jest wyrównana z lewym panelem
+
+v2026.10.20 alpha
+    Przeprojektowany ekran początkowy: gracze tego komputera (każdy ze swoim językiem), nowości, poczekalnie z własnym przyciskiem „Dołącz” i ostatnie zapisane mecze; „Utwórz poczekalnię” i „Dołącz” otwierają pokój od razu
+    Pokoje i zapisane mecze mogą mieć hasło: kłódka robi się zielona, gdy ten komputer je zna
+    „Wyjdź” opuszcza pokój: rola hosta przechodzi na najstarszego człowieka, a pokój zamyka się, gdy nie zostanie żaden człowiek
+    Host może przekazać rolę innemu graczowi lub zamknąć pokój; pokój zawsze zachowuje nazwę swojego twórcy
+    Pokój (poczekalnia) na pełnym ekranie i „Wczytaj mecz” z listą, miniaturami i szczegółami Twojej bazy
+    Sześć nowych języków: francuski, włoski, niemiecki, rosyjski, chiński i japoński
+    Animacje bezczynności oddziałów Terran i 17 stworzeń
+    Przebalansowanie obrażeń i PA (macierz 100/70/40) oraz Rząd z 14/20/26 PA i większym zdrowiem
+    Ekstraktor wody działa też obok morza
+    Statystyki końca meczu, lupa i kamera przy upadku Rządu oraz celownik ataku
+    SI lepiej wybiera cele; grupa wysłana na nieodkryty teren zachowuje swój cel
+
+v2026.10.19 alpha
+    Mapy v2: większe kwadranty, morze z rzekami, zatoki, jeziora z wyspami i mosty
+    Opcje mapy w poczekalni: kontynenty, półwyspy, jeziora, rzeki, płaskowyże, skrzynie, łagodne stworzenia i poziom zasobów
+    Zakopani strażnicy skrzyń, którzy wyłaniają się z ziemi, gdy walczysz
+    Graf maksymalnego ataku i nowe obrażenia dla tarcz budynków
+    Rozkazy każdej jednostki wykonują się w kolejności kolejki
+    Możesz anulować koniec tury, gdy SI planują
+    Fale wody i ropy z interferencją; ropa i morze blokują ruch
+    Szybszy APC; zakopany Zwiadowca nie może się ruszać
+    Usługa systemd dla serwera
+
+v2026.10.18 alpha
+    Przebalansowanie broni, pancerzy i zdolności (karabin maszynowy, granatnik, strzał z działa, ugryzienie, Zakopanie, Samozniszczenie, Tupnięcie, Klonowanie, Aura PA)
+    Jeden kontratak na oddział i rundę; obrona naziemna i powietrzna zależnie od poziomu Rządu
+    Transporter APC z ciężkim pancerzem; Załaduj bez celu
+    Znacznie lepsza wydajność grafiki klienta (kształty na shaderach i granica mgły jako obraz)
+    Autorzy z efektami dźwiękowymi, ChatGPT i Gemini
+
+v2026.10.17 alpha
+    Katalog 58 efektów dźwiękowych (wszystkie 58 jako mp3)
+    Podejście i strzał to jeden rozkaz
+    Budynki bez zasilania są nieaktywne: obrona nie strzela, a Banki nie działają
+    Wyszukiwanie ścieżek i sprawdzanie wyjścia z Rządu 15-20 razy szybsze dla SI
+    Większe przyciski akcji i 3 robotników domyślnie
+
+v2026.10.16 alpha
+    Duże jednostki zajmujące wiele pól: Mech i APC 2×2, Raptor 3×2
+    Rozkazy grupowe, kolejki cywilne i wojskowe z zakładkami oraz wiadomości z historią powiadomień
+    Syntezowane dźwięki z własną głośnością w Ustawieniach
+    Strażnicy skrzyń w oddziałach zależnie od poziomu skrzyni; dekoracje mapy, które nigdy nie przecinają terenu
+    Polegli w rundzie nie kontratakują już; przycisk Wyjście w menu głównym
+
+v2026.10.14 alpha
+    Nowe tekstury kontenerów, stworzeń i terenu
+
+v2026.10.12 alpha
+    Wybuchy budynków z gruzami, Rząd upadający łańcuchowo i pule zasobów, które widocznie się wyczerpują
+    Wariant interfejsu B (mapa nie jest już zasłonięta) i kursor w kształcie dłoni; menu to wyśrodkowane okno modalne
+    SI: wybiera, do kogo strzelać, według wartości, pamięta wrogie stworzenia i buduje zasilanie z wyprzedzeniem
+    Linia ognia z płaskowyżami; zdolności obszarowe podążające za oddziałem; grupowe dotarcie i formacja według ról
+    Balans zasobów: więcej trawy i Energia, która nie karze za oszczędzanie
+    Karty jednostek i raport balansu po angielsku, opublikowane na stronie
+
+v2026.10.11 alpha
+    Podwójna pula PA: wspólne PA obozu i własne PA każdego oddziału
+    Płaskowyże w surowym stylu: skała z warstwami, szczeliny i rampy
+    Technologia, Wikipedia i rozkazy z ikoną dla każdego typu
+    SI szanuje płaskowyże przy stawianiu budynków
+
+v2026.10.10 alpha
+    Stworzenia na mapie: 17 prawdziwych gatunków z teksturami oraz animacjami ruchu i ataku
+    Łagodne stworzenia żyjące w swoim jeziorze; skrzynie z nagrodami
+    Pływające HUD z wierszem rozkazów i konfigurowalnymi panelami; czat i ruch klawiszami WSAD
+    Bez tury 0; pożyczka priorytetowa i limit energii
+
+v2026.10.09 alpha
+    Pogoda: losowe warunki pogodowe w każdej turze
+    Neutralne stworzenia i kontenery z nagrodami
+    Przekazywanie urządzenia między graczami lokalnymi, autorzy i muzyka końcowa
+    Animacja jednostek w ruchu i budynków w budowie
+
+v2026.10.08 alpha
+    Doradca polowy z prawdziwym portretem w samouczku i raporcie z rundy
+
+v2026.10.06 alpha
+    Płaskowyże i rampy: jeden poziom wysokości na mapie, z klifami
+    Podejście na zasięg ognia przed atakiem; atak prawym przyciskiem i łuk ognia
+    Zasoby do wykorzystania obok każdego Rządu i więcej ropy
+    Samouczek z agendą oczekujących powiadomień
+
+v2026.10.05 alpha
+    Samouczek z holograficznym doradcą i raportem z rundy
+    Laboratorium efektów wizualnych: jeden efekt dla każdej broni, zdolności, pasywki i stanu
+    Prawy panel z szyną dla każdej jednostki, ikonami ulepszeń i skalą interfejsu
+
+v2026.10.04 alpha
+    Zmęczenie oddziałów, energia z limitem i trasy etapami (świeży, zmęczony, poza rundą)
+    Budowa po omacku w nieodkrytej mgle (tylko Generator Energii) i ruch grupowy obok siebie
+    Zakup pasywek, broni i zdolności; szturm SI
+    Skrypty do publikowania wydań klienta na GitHubie i na stronie
+
+v2026.10.03 alpha
+    Balans Terran v8: klasy, PA na osobnika, paliwo na pole, tarcza na osobnika
+    Bronie według poziomu z przeładowaniem, obszarem i kontratakiem; zdolności, pasywki i stany
+    Nowe jednostki i statki powietrzne na własnej warstwie; transport i miny
+    Wybór broni i zdolności w kliencie
+
+v2026.10.02 alpha
+    Podgląd mapy w poczekalni ze stałym ziarnem, powiększany po kliknięciu
+    Anulowanie, wstrzymywanie i wznawianie dowolnego rozkazu z kolejki z przeplanowaniem
+    Panel rozkazów z kartami na ponumerowanej szynie
+    Karty jednostek: Żołnierz, Mech, APC, Raptor, Droid, Zwiadowca i Naukowiec
+
+v2026.10.01 alpha
+    Poczekalnia z listą wyboru Drużyny i przyciskiem Gotowy
+    Wędrująca lupa i przewijany panel rozkazów; jeden Konstruktor na oddział
+    Karty jednostek Terran (PDF i Markdown)
+
+v2026.09.27 alpha
+    Panel powiadomień, ruchome lupy i jednoczesna powtórka
+    Obszar działania „Pole energii” z shaderem
+    Płynny ruch podczas rozstrzygania i ślad trasy
+    SI z Rządem poziomu 2, wyspecjalizowanym zwiadowcą i awaryjnym wzmocnieniem
+
+v2026.09.26 alpha
+    Przeliczanie trasy, gdy pojawi się nieoczekiwana przeszkoda
+    Teren odsłaniany po wydaniu rozkazu ruchu w czarną mgłę
+    Wyładowania elektryczne i podgląd obszaru przy budowie
+
+v2026.08.31 alpha
+    Pakiet 21 usprawnień: podział oddziałów, prawdziwe racjonowanie, lupy rozstrzygania, punkt wyjścia, zwycięstwo kooperacyjne
+    Automatyczna lupa po odkryciu wroga lub bazy
+    SI z równoległą spekulacją i prawdziwym paskiem postępu
+
+v2026.08.30 alpha
+    Limit populacji podzielony na Cywilny (Mieszkania) i Wojskowy (Generator Energii)
+    Przebalansowanie ekstraktorów wody i farm
+    SI unika spirali długu żywnościowego
+
+v2026.08.29 alpha
+    Poprawka zawieszania się SI podczas planowania równoległego
+
+v2026.08.28 alpha
+    SI nadaje priorytet budowie, produkcji i ulepszeniom zależnie od tego, na co ją stać
+
+v2026.08.27 alpha
+    SI zatrudnia na każde wolne miejsce, korzysta z banku z wyprzedzeniem i pamięta bazy wroga
+    Balans energii, stali i żywności; pastwisko jako dominujący zasób
+    Mniej pikselowy celownik i tło ekranu początkowego na całą szerokość
+
+v2026.08.25 alpha
+    Do 8 graczy lokalnych i do 8 w poczekalni
+    Stała kamera i powiększający celownik podczas rozstrzygania, z pauzą na Spacji
+    Stałe 3 PA na atak i rozkazy zablokowane po Gotowy
+    Wklejanie w polu Host; legenda skrótów
+
+v2026.08.23 alpha
+    Kopalnie żelaza w równej odległości między graczami
+    Pasek postępu na żywo, gdy SI rozstrzyga
+    Zamknięcie poczekalni oraz osobne ekrany Znajdź poczekalnię i Wczytaj mecz
+
+v2026.08.22 alpha
+    Mapa dla 8 graczy z 49 kwadrantami
+    Kamera skupia się na walce; przeprojektowany Bank
+    Turę 0 można cofnąć
+    Połączony kreator, języki z pełnymi nazwami i serie z odrzutem
+
+v2026.08.21 alpha
+    SI buduje ekonomię po kolei (drewno, woda, farma, stal, energia) i najpierw zatrudnia załogę
+    Rząd produkuje energię, a zasoby startowe rosną
+    Ekstraktory można budować przy jednym przylegającym polu
+
+v2026.08.20 alpha
+    Nowa SI: RHEA (ewolucyjny algorytm z przesuwanym horyzontem) zastępuje SI opartą na regułach
+    Zlecone budowy są widoczne także dla wrogów z widocznością
+    Zasoby Rządu z minimalnym odstępem między nimi
+
+v2026.08.19 alpha
+    Stabilna kolejność w poczekalni i nieatomowa produkcja wsadowa
+
+v2026.08.18 alpha
+    Animowane logo w kreatorze i przy zmianach tury
+    Ekrany przed grą w formacie 16:9; data na liście poczekalni
+
+v2026.08.17 alpha
+    Symetryczne generowanie mapy między kwadrantami
+    Podział PA na rundy dla dowolnego rozkazu; koszty energii według poziomu Rządu
+    Tura 0 z potwierdzeniem lub przeniesieniem Rządu
+
+v2026.08.10 alpha
+    Trwałe poczekalnie, które można wznowić; długie marsze, które toczą się same
+    Pełne wyszukiwanie ścieżek po prawdziwym terenie, ukryte pod mgłą
+    Pauza, wznawianie i zmiana kolejności rozkazów; rezerwacja zasobów dla rozkazów w kolejce
+    Kolejka rozkazów sojuszników; ulepszone pożyczki i Bank
+
+v2026.08.09 alpha
+    Rundy jednoczesne: wszyscy gracze kolejkują rozkazy, a runda rozstrzyga się naraz
+    Podgląd tras i kosztów rozkazów w kolejce
+    Poczekalnia i powtórka do pominięcia
+
+v2026.08.08 alpha
+    System zadowolenia i racjonowania na osobnika zamiast głodu
+    Efekty otoczenia produkcji i fale na wodzie i ropie
+    Minimapa umieszczana po stronie mapy, gdzie stoi Rząd
+
+v2026.08.06 alpha
+    Krawędzie terenu mieszane z sąsiadem i zaokrąglone rogi
+    Konstruktor przechodzi przez neutralne stworzenia z trawy
+    Pomoc z paskami przewijania i bogatsze statystyki
+
+v2026.08.05 alpha
+    Prognoza zasobów z pracami kończącymi się w tej samej rundzie
+    Zasięg energii jako prawdziwy okrąg od środka budynku
+
+v2026.08.04 alpha
+    Nazwane zapisy (punkty kontrolne) i panel pomocy
+    Pływająca minimapa i dziennik czatu na dole
+    Historia Banku i blokada ujemnych pożyczek
+    Dymki zasobów z rozbiciem PA i limitu
+
+v2026.08.03 alpha
+    Neutralne stworzenia z trawy (krowa i koń)
+    Konstruktor ograniczony do jednego rozkazu budowy i podwójny zwiad SI
+    Przeprojektowane dymki i krawędzie terenu
+
+v2026.08.02 alpha
+    Obowiązkowa tura 0 do postawienia budynków startowych
+    Strefa energii Rządu; centralne jeziora w generowaniu mapy
+    Przeprojektowany panel z kartą informacyjną, przyciskami z ikonami i własnymi kursorami
+
+v2026.08.01 alpha
+    Jednostka Konstruktor i przebieg budowy
+    Przycisk Gotowy w poczekalni i edytowalny kursor tekstu
+    Przeprojektowane sterowanie myszą i widok kooperacji na żywo
+    Uczciwa mapa między graczami i zasięg energii
+
+v2026.07.31 alpha
+    Dzielenie i łączenie oddziałów
+    Ikony głodu i pragnienia; przewijanie klawiaturą
+    Kamera wraca na środek na początku tury; powtórka tury SI
+    Mapy kwadratowe i kopalnie stali 2×2
+
+v2026.07.30 alpha
+    Ekrany przed grą połączone w jeden kreator
+    Efekty walki, ekran zwycięstwa i budżet ataków na turę
+    Walidacja startu poczekalni PvP/Kooperacja
+
+v2026.07.29 alpha
+    Gra wieloosobowa lokalna na tym samym komputerze (hotseat) z przekazywaniem między graczami
+    Języki hiszpański i angielski, okno Ustawień i głośność
+
+v2026.07.28 alpha
+    Produkcja jednostek wsadowo i przekazywanie zasobów między sojusznikami
+    Złoża ropy jako nowy teren z przylegającą rafinerią
+    Okno ilości jednostek i usprawnienia interfejsu
+
+v2026.07.27 alpha
+    Gra wieloosobowa z kilkoma poczekalniami PvP/Kooperacja, zapis i wczytywanie meczów
+    Przeglądarka poczekalni, ekran wczytywania meczu i marka Axiom Wars
+
+v2026.07.26 alpha
+    Ruch po trasie przez wiele tur z trasą kropkowaną i szacowanym czasem
+    Sprzedaż budynków, atak dystansowy i prawdziwa walka
+    Większa, bardziej rozległa mapa
+
+v2026.07.25 alpha
+    Mgła wojny, wybór koloru frakcji i pierwsza wroga SI
+    Podstawowa walka wręcz i Bank z pożyczkami
+    Głód i pragnienie na osobnika oraz prognoza zasobów na następną turę
+    Przeprojektowany HUD meczu z górnym paskiem zasobów i muzyką
+
+v2026.07.24 alpha
+    Początek projektu: serwer w Go i klient graficzny w Ebiten
+    Budynki wielopolowe, lasy jako przeszkody i minimapa
+    Czerwono-zielony podgląd przy budowie i panel budowy z zakładkami według poziomu
+    Futurystyczny turkusowy motyw na czerni z czcionką Elianto

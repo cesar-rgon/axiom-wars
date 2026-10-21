@@ -171,6 +171,7 @@ The latest version is **v2026.10.21 alpha**.
 
 ### v2026.10.21 alpha
 
+- Three new languages: Traditional Chinese, Korean and Polish
 - Start screen: the animated logo is twice as big and centred above the panels; the server pill lines up with the left panel
 - Each player in the room has their own "Leave" button (including those on your PC): only that player leaves, the PC stays in the room and, if it was the host, the role passes to the oldest player on that PC; only the host keeps "Close room"
 
@@ -520,7 +521,7 @@ This repository hosts the game's website (GitHub Pages) and the client downloads
 index.html          website published at https://cesar-rgon.github.io/axiom-wars/
 assets/img/         logo, units, gallery, museum and credits
 assets/js/i18n.js   language switcher of the website (English is the default)
-assets/i18n/        one file per language: es, fr, it, de, ru, zh, ja
+assets/i18n/        one file per language: es, fr, it, de, ru, zh, zh-TW, ja, ko, pl
 docs/units/         Terran unit sheets (Markdown and PDF)
 docs/balance/       interactive damage graph (English)
 docs/unidades/      the same unit sheets in Spanish

@@ -2,6 +2,7 @@
 (Die Version ist das Datum der letzten Änderung am Server oder am Client.)
 
 v2026.10.21 alpha
+    Drei neue Sprachen: Traditionelles Chinesisch, Koreanisch und Polnisch
     Jeder Spieler im Raum hat seine eigene Schaltfläche „Verlassen“ (auch die auf deinem PC): Es geht nur dieser Spieler, der PC bleibt im Raum und war er der Host, geht die Rolle an den ältesten Spieler dieses PCs; die allgemeine Schaltfläche „Verlassen“ entfällt und nur der Host behält „Raum schließen“
     Startbildschirm: Das animierte Logo ist doppelt so groß und über den Panels zentriert; die Server-Pille ist am linken Panel ausgerichtet
 

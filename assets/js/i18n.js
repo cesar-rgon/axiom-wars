@@ -1,6 +1,6 @@
 // Idioma de la web (por defecto, el del sistema si está soportado; si no, inglés). El HTML está escrito en inglés (idioma por defecto); cada
 // otro idioma vive en su propio fichero, assets/i18n/<idioma>.js, que se carga
-// al elegirlo (es, fr, it, de, ru, zh, ja). Cada elemento traducible lleva
+// al elegirlo (es, fr, it, de, ru, zh, zh-TW, ja, ko, pl). Cada elemento traducible lleva
 // data-i18n="clave" (su contenido HTML), data-i18n-alt (texto alternativo de
 // una imagen), data-i18n-aria (aria-label), data-i18n-phase (atributo
 // data-phase que usa el CSS para "Fase N"), data-i18n-title, data-i18n-src o
@@ -8,9 +8,9 @@
 // propio HTML al cargar; una clave que falte en el fichero de un idioma se
 // queda en inglés (p. ej. el grafo de daños, que sólo existe en en/es).
 (function () {
-  var LANGS = ['en', 'es', 'fr', 'it', 'de', 'ru', 'zh', 'ja'];
-  var HTML_LANG = { en: 'en', es: 'es', fr: 'fr', it: 'it', de: 'de', ru: 'ru', zh: 'zh-Hans', ja: 'ja' };
-  var VERSION = '20261020c';
+  var LANGS = ['en', 'es', 'fr', 'it', 'de', 'ru', 'zh', 'zh-TW', 'ja', 'ko', 'pl'];
+  var HTML_LANG = { en: 'en', es: 'es', fr: 'fr', it: 'it', de: 'de', ru: 'ru', zh: 'zh-Hans', 'zh-TW': 'zh-Hant', ja: 'ja', ko: 'ko', pl: 'pl' };
+  var VERSION = '20261021';
 
   // [atributo del elemento, cómo leer/escribir el texto]
   var KINDS = [
@@ -65,17 +65,16 @@
   }
 
   // Idioma del sistema: el primero de las preferencias del navegador (que
-  // salen del sistema operativo) que la web soporte. El chino sólo se da por
-  // soportado en simplificado (zh, zh-CN, zh-SG, zh-Hans): el tradicional
-  // (zh-TW, zh-HK, zh-MO, zh-Hant) cuenta como no soportado. Si no hay
-  // ninguno, o el navegador no lo dice, inglés.
+  // salen del sistema operativo) que la web soporte. El chino se reparte entre
+  // simplificado (zh, zh-CN, zh-SG, zh-Hans) y tradicional (zh-TW, zh-HK,
+  // zh-MO, zh-Hant). Si no hay ninguno, o el navegador no lo dice, inglés.
   function systemLang() {
     var prefs = [];
     try { prefs = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language]; } catch (e) {}
     for (var i = 0; i < prefs.length; i++) {
       var tag = String(prefs[i] || '').toLowerCase().replace('_', '-'), base = tag.split('-')[0];
       if (LANGS.indexOf(base) < 0) continue;
-      if (base === 'zh' && /(^|-)(tw|hk|mo|hant)(-|$)/.test(tag)) continue;
+      if (base === 'zh' && /(^|-)(tw|hk|mo|hant)(-|$)/.test(tag)) return 'zh-TW';
       return base;
     }
     return 'en';

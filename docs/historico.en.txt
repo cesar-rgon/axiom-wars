@@ -2,6 +2,7 @@ AXIOM WARS CHANGE HISTORY
 (The version is the date of the latest change to the server or the client.)
 
 v2026.10.21 alpha
+    Three new languages: Traditional Chinese, Korean and Polish
     Each player in the room has their own "Leave" button (including those on your PC): only that player leaves, the PC stays in the room and, if they were the host, the role passes to the oldest player on that PC; the general "Leave" button is gone and only the host keeps "Close room"
     Start screen: the animated logo is twice as big and centred above the panels; the server pill lines up with the left panel
 

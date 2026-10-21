@@ -171,6 +171,7 @@ La última versión es **v2026.10.21 alpha**.
 
 ### v2026.10.21 alpha
 
+- Tres idiomas nuevos: chino tradicional, coreano y polaco
 - Pantalla inicial: el logo animado es el doble de grande y queda centrado sobre los paneles; la píldora del servidor se alinea con el panel izquierdo
 - Cada jugador de la sala tiene su propio botón «Salir» (también los de tu PC): sale solo él, el PC se queda en la sala y, si era el anfitrión, el cargo pasa al jugador más antiguo de ese PC; solo el anfitrión conserva «Cerrar sala»
 
@@ -520,7 +521,7 @@ Este repositorio aloja la web del juego (GitHub Pages) y las descargas del clien
 index.html          web publicada en https://cesar-rgon.github.io/axiom-wars/
 assets/img/         logo, unidades, galería, museo y créditos
 assets/js/i18n.js   selector de idioma de la web (por defecto, inglés)
-assets/i18n/        un fichero por idioma: es, fr, it, de, ru, zh, ja
+assets/i18n/        un fichero por idioma: es, fr, it, de, ru, zh, zh-TW, ja, ko, pl
 docs/unidades/      fichas de las unidades Terráneas (Markdown y PDF)
 docs/balanceo/      grafo interactivo de daños (español)
 docs/units/         las mismas fichas en inglés

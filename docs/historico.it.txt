@@ -2,6 +2,7 @@ CRONOLOGIA DELLE MODIFICHE DI AXIOM WARS
 (La versione è la data dell'ultima modifica del server o del client.)
 
 v2026.10.21 alpha
+    Tre nuove lingue: cinese tradizionale, coreano e polacco
     Ogni giocatore della sala ha il proprio pulsante «Esci» (anche quelli del tuo PC): esce solo lui, il PC resta nella sala e, se era l'host, il ruolo passa al giocatore più anziano di quel PC; il pulsante «Esci» generale sparisce e solo l'host conserva «Chiudi sala»
     Schermata iniziale: il logo animato è due volte più grande e centrato sopra i pannelli; la pillola del server è allineata al pannello di sinistra
 
