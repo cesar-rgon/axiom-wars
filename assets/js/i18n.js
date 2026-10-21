@@ -1,6 +1,6 @@
 // Idioma de la web (por defecto, el del sistema si está soportado; si no, inglés). El HTML está escrito en inglés (idioma por defecto); cada
 // otro idioma vive en su propio fichero, assets/i18n/<idioma>.js, que se carga
-// al elegirlo (es, fr, it, de, ru, zh, zh-TW, ja, ko, pl). Cada elemento traducible lleva
+// al elegirlo (es, fr, it, de, ru, zh, zh-TW, ja, ko, pl, pt-BR, tr). Cada elemento traducible lleva
 // data-i18n="clave" (su contenido HTML), data-i18n-alt (texto alternativo de
 // una imagen), data-i18n-aria (aria-label), data-i18n-phase (atributo
 // data-phase que usa el CSS para "Fase N"), data-i18n-title, data-i18n-src o
@@ -8,8 +8,8 @@
 // propio HTML al cargar; una clave que falte en el fichero de un idioma se
 // queda en inglés (p. ej. el grafo de daños, que sólo existe en en/es).
 (function () {
-  var LANGS = ['en', 'es', 'fr', 'it', 'de', 'ru', 'zh', 'zh-TW', 'ja', 'ko', 'pl'];
-  var HTML_LANG = { en: 'en', es: 'es', fr: 'fr', it: 'it', de: 'de', ru: 'ru', zh: 'zh-Hans', 'zh-TW': 'zh-Hant', ja: 'ja', ko: 'ko', pl: 'pl' };
+  var LANGS = ['en', 'es', 'fr', 'it', 'de', 'ru', 'zh', 'zh-TW', 'ja', 'ko', 'pl', 'pt-BR', 'tr'];
+  var HTML_LANG = { en: 'en', es: 'es', fr: 'fr', it: 'it', de: 'de', ru: 'ru', zh: 'zh-Hans', 'zh-TW': 'zh-Hant', ja: 'ja', ko: 'ko', pl: 'pl', 'pt-BR': 'pt-BR', tr: 'tr' };
   var VERSION = '20261021b';
 
   // [atributo del elemento, cómo leer/escribir el texto]
@@ -73,6 +73,7 @@
     try { prefs = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language]; } catch (e) {}
     for (var i = 0; i < prefs.length; i++) {
       var tag = String(prefs[i] || '').toLowerCase().replace('_', '-'), base = tag.split('-')[0];
+      if (base === 'pt') return 'pt-BR';
       if (LANGS.indexOf(base) < 0) continue;
       if (base === 'zh' && /(^|-)(tw|hk|mo|hant)(-|$)/.test(tag)) return 'zh-TW';
       return base;

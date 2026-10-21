@@ -520,7 +520,7 @@ This repository hosts the game's website (GitHub Pages) and the client downloads
 index.html          website published at https://cesar-rgon.github.io/axiom-wars/
 assets/img/         logo, units, gallery, museum and credits
 assets/js/i18n.js   language switcher of the website (English is the default)
-assets/i18n/        one file per language: es, fr, it, de, ru, zh, zh-TW, ja, ko, pl
+assets/i18n/        one file per language: es, fr, it, de, ru, zh, zh-TW, ja, ko, pl, pt-BR, tr
 docs/units/         Terran unit sheets (Markdown and PDF)
 docs/balance/       interactive damage graph (English)
 docs/unidades/      the same unit sheets in Spanish

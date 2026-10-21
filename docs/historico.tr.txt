@@ -1,0 +1,278 @@
+AXIOM WARS DEĞİŞİKLİK GEÇMİŞİ
+(Sürüm, sunucuda veya istemcide yapılan son değişikliğin tarihidir.)
+
+v2026.10.21 alpha
+    İki yeni dil: Brezilya Portekizcesi ve Türkçe
+    Üç yeni dil: Geleneksel Çince, Korece ve Lehçe
+    Odadaki her oyuncunun kendi "Ayrıl" düğmesi var (senin bilgisayarındakiler dahil): yalnızca o oyuncu ayrılır, bilgisayar odada kalır ve ev sahibiyse rol o bilgisayardaki en eski oyuncuya geçer; genel "Ayrıl" düğmesi kalktı ve "Odayı kapat" yalnızca ev sahibinde kalıyor
+    Başlangıç ekranı: canlı logo iki kat büyük ve panellerin üstünde ortalanmış; sunucu hapı sol panelle hizalanıyor
+
+v2026.10.20 alpha
+    Başlangıç ekranı yeniden tasarlandı: bu bilgisayarın oyuncuları (her biri kendi diliyle), haberler, kendi "Katıl" düğmesi olan lobiler ve son kayıtlı maçlar; "Lobi oluştur" ve "Katıl" odayı doğrudan açar
+    Odalar ve kayıtlı maçlar parola koruyabilir: bu bilgisayar parolayı bildiğinde asma kilit yeşile döner
+    "Ayrıl" odadan çıkarır: ev sahibi rolü en eski insana geçer ve insan kalmayınca oda kapanır
+    Ev sahibi rolü başka bir oyuncuya devredebilir veya odayı kapatabilir; oda her zaman kurucusunun adını taşır
+    Tam ekran oda (lobi) ve liste, küçük resimler ve üssünün ayrıntısıyla "Maç yükle"
+    Altı yeni dil: Fransızca, İtalyanca, Almanca, Rusça, Çince ve Japonca
+    Terran birlikleri ve 17 yaratık için bekleme animasyonları
+    Hasar ve AP dengesi yenilendi (100/70/40 matrisi); 14/20/26 AP ve daha fazla canlı Hükümet
+    Su çıkarıcı artık denizin yanında da çalışıyor
+    Maç sonu istatistikleri, Hükümet düşünce büyüteç ve kamera, ve saldırı nişangâhı
+    YZ hedeflerini daha iyi seçiyor; keşfedilmemiş araziye gönderilen grup hedefini koruyor
+
+v2026.10.19 alpha
+    Haritalar v2: daha büyük bölgeler, nehirli deniz, koylar, adalı göller ve köprüler
+    Lobide harita seçenekleri: kıtalar, yarımadalar, göller, nehirler, platolar, sandıklar, uysal yaratıklar ve kaynak düzeyi
+    Savaştığında yerden çıkan gömülü sandık koruyucuları
+    Azami saldırı grafiği ve bina kalkanlarına yeni hasar
+    Her birimin emirleri kuyruk sırasıyla yürütülüyor
+    YZ'ler planlama yaparken turun bitirilmesini iptal edebilirsin
+    Girişimli su ve petrol dalgaları; petrol ve deniz hareketi engelliyor
+    Daha hızlı APC; gömülü Kaşif hareket edemiyor
+    Sunucu için systemd servisi
+
+v2026.10.18 alpha
+    Silah, zırh ve yeteneklerin dengesi yenilendi (makineli tüfek, bomba atar, top atışı, ısırık, Gömme, Kendini patlatma, Çiğneme, Klon, AP Aurası)
+    Birlik ve raunt başına tek karşı saldırı; Hükümet seviyesine göre kara ve hava savunmaları
+    Ağır zırhlı APC taşıyıcı; hedefsiz Yükle
+    İstemci grafik performansı çok daha iyi (shader şekiller ve görüntü olarak sis sınırı)
+    Ses efektleri, ChatGPT ve Gemini ile emeği geçenler
+
+v2026.10.17 alpha
+    58 ses efektinden oluşan katalog (58'i de mp3)
+    Yaklaşma ve ateş etme tek bir emir
+    Elektriksiz binalar devre dışı: savunmalar ateş etmiyor ve Bankalar çalışmıyor
+    YZ için yol bulma ve Hükümet çıkış denetimi 15-20 kat daha hızlı
+    Daha büyük eylem düğmeleri ve varsayılan olarak 3 işçi
+
+v2026.10.16 alpha
+    Çok kareli taban alanlı büyük birimler: Meca ve APC 2×2, Raptor 3×2
+    Grup emirleri, sekmeli sivil ve askeri kuyruklar ve bildirim geçmişiyle mesajlaşma
+    Ayarlar'da kendi ses düzeyi olan sentezlenmiş sesler
+    Sandık seviyesine göre birlik hâlinde sandık koruyucuları; araziyi asla bölmeyen harita dekorasyonu
+    Raundun ölüleri artık karşı saldırı yapmıyor; ana menüde Çıkış düğmesi
+
+v2026.10.14 alpha
+    Konteynerler, yaratıklar ve arazi için yeni dokular
+
+v2026.10.12 alpha
+    Enkazlı bina patlamaları, zincirleme yıkılan Hükümet ve gözle görülür biçimde tükenen kaynak havuzları
+    Arayüz B varyantı (harita artık örtülmüyor) ve el imleci; menü ortalanmış bir pencere
+    YZ: kimi vuracağını değere göre seçiyor, düşman yaratıkları hatırlıyor ve enerjiyi önceden kuruyor
+    Platolarla atış hattı; birliği izleyen alan yetenekleri; grup varışı ve rollere göre dizilim
+    Kaynak dengesi: daha fazla otlak ve biriktirmeyi cezalandırmayan Enerji
+    İngilizce birim künyeleri ve denge raporu, web sitesinde yayımlandı
+
+v2026.10.11 alpha
+    Çift AP havuzu: ortak kamp AP'si ve her birliğin kendi AP'si
+    Engebeli tarzda platolar: katmanlı kaya, çatlaklar ve rampalar
+    Teknoloji, Wikipedia ve her tür için simgeli emirler
+    YZ bina yerleştirirken platolara saygı gösteriyor
+
+v2026.10.10 alpha
+    Harita yaratıkları: dokulu, hareket ve saldırı animasyonlu 17 gerçek tür
+    Gölünde yaşayan uysal yaratıklar; ödüllü sandıklar
+    Emir satırlı yüzen HUD ve yapılandırılabilir paneller; sohbet ve WSAD ile hareket
+    0. tur yok; öncelikli kredi ve enerji sınırı
+
+v2026.10.09 alpha
+    Hava durumu: her tur rastgele hava koşulları
+    Tarafsız yaratıklar ve ödüllü konteynerler
+    Yerel oyuncular arasında devir, emeği geçenler ve bitiş müziği
+    Birimlerin hareket ederken ve binaların inşa edilirken animasyonu
+
+v2026.10.08 alpha
+    Eğitimde ve raunt raporunda gerçek portreli saha danışmanı
+
+v2026.10.06 alpha
+    Platolar ve rampalar: haritada bir yükseklik seviyesi, uçurumlarla
+    Saldırmadan önce atış menziline yaklaşma; saldırmak için sağ tık ve atış yayı
+    Her Hükümet'in yanında işletilebilir kaynaklar ve daha fazla petrol
+    Bekleyen bildirim gündemli eğitim
+
+v2026.10.05 alpha
+    Holografik danışman ve raunt raporuyla eğitim
+    Görsel efekt laboratuvarı: her silah, yetenek, pasif ve durum için bir efekt
+    Birim başına ray, geliştirme simgeleri ve arayüz ölçeğiyle sağ panel
+
+v2026.10.04 alpha
+    Birlik yorgunluğu, sınırlı enerji ve aşamalı rotalar (taze, yorgun, raunt dışı)
+    Keşfedilmemiş sişte kör inşaat (yalnızca Enerji Jeneratörü) ve yan yana grup hareketi
+    Pasif, silah ve yetenek satın alma; YZ saldırısı
+    İstemci sürümlerini GitHub'da ve web sitesinde yayımlayan betikler
+
+v2026.10.03 alpha
+    Terran dengesi v8: sınıflar, kişi başı AP, kare başı yakıt, kişi başı kalkan
+    Yeniden dolumlu, alanlı ve karşı saldırılı seviyeye göre silahlar; yetenekler, pasifler ve durumlar
+    Kendi katmanında yeni birimler ve uçaklar; taşıma ve mayınlar
+    İstemcide silah ve yetenek seçici
+
+v2026.10.02 alpha
+    Lobide sabit tohumlu harita önizlemesi, tıklayınca büyür
+    Kuyruktaki her emri iptal etme, duraklatma ve yeniden planlamayla sürdürme
+    Numaralı raylı kartlarla emir paneli
+    Birim künyeleri: Asker, Meca, APC, Raptor, Droid, Kaşif ve Bilim İnsanı
+
+v2026.10.01 alpha
+    Takım kutusu ve Hazır düğmesiyle lobi
+    Gezen büyüteç ve kaydırılabilir emir paneli; birlik başına bir İnşaatçı
+    Terran birim künyeleri (PDF ve Markdown)
+
+v2026.09.27 alpha
+    Bildirim paneli, hareketli büyüteçler ve eşzamanlı tekrar
+    Shader'lı "Enerji alanı" etki alanı
+    Çözümleme sırasında akıcı hareket ve rota izi
+    Hükümet seviye 2'li YZ, özel bir izci ve acil takviye
+
+v2026.09.26 alpha
+    Beklenmedik bir engel çıkınca rotayı yeniden hesaplama
+    Siyah sise hareket emri verince açığa çıkan arazi
+    Elektrik yıldırımları ve inşa ederken alanın önizlemesi
+
+v2026.08.31 alpha
+    21 iyileştirmelik paket: birlik bölme, gerçek karne, çözümleme büyüteçleri, çıkış noktası, kooperatif zaferi
+    Bir düşman veya üs keşfedilince otomatik büyüteç
+    Paralel spekülasyonlu ve gerçek ilerleme çubuklu YZ
+
+v2026.08.30 alpha
+    Nüfus Sivil (Konut) ve Askeri (Enerji Jeneratörü) olarak ikiye ayrıldı
+    Su çıkarıcıların ve çiftliklerin dengesi yenilendi
+    YZ Yiyecek borcu sarmalından kaçınıyor
+
+v2026.08.29 alpha
+    Paralel planlama sırasında YZ'nin donmasının düzeltmesi
+
+v2026.08.28 alpha
+    YZ inşaata, üretime ve geliştirmelere karşılayabildiğine göre öncelik veriyor
+
+v2026.08.27 alpha
+    YZ her boş yuvayı tutuyor, bankayı önceden kullanıyor ve düşman üslerini hatırlıyor
+    Enerji, çelik ve yiyecek dengesi; baskın kaynak olarak otlak
+    Daha az pikselli nişangâh ve tam genişlikte başlangıç ekranı arka planı
+
+v2026.08.25 alpha
+    8'e kadar yerel oyuncu ve lobi başına 8'e kadar
+    Çözümleme sırasında sabit kamera ve büyüteç nişangâhı, Boşluk ile duraklatma
+    Saldırı başına sabit 3 AP ve Hazır'dan sonra kilitlenen emirler
+    Sunucu alanına yapıştırma; kısayol açıklaması
+
+v2026.08.23 alpha
+    Oyuncular arasında eşit uzaklıkta demir madenleri
+    YZ çözümlerken canlı ilerleme çubuğu
+    Lobiyi sonlandırma ve Lobi bul ile Maç yükle için ayrı ekranlar
+
+v2026.08.22 alpha
+    49 bölgeli 8 oyunculu harita
+    Kamera çatışmaya odaklanıyor; Banka yeniden tasarlandı
+    0. tur geri alınabiliyor
+    Birleşik sihirbaz, tam adlı diller ve geri tepmeli seri atışlar
+
+v2026.08.21 alpha
+    YZ ekonomiyi sırayla kuruyor (odun, su, çiftlik, çelik, enerji) ve önce personeli tutuyor
+    Hükümet enerji üretiyor ve başlangıç kaynakları artıyor
+    Çıkarıcılar tek bir bitişik kareyle inşa edilebiliyor
+
+v2026.08.20 alpha
+    Yeni YZ: RHEA (yuvarlanan ufuklu evrimsel algoritma), kural tabanlı YZ'nin yerini alıyor
+    Sıradaki inşaatlar, görüşü olan düşmanlar tarafından da görülüyor
+    Aralarında asgari mesafe olan Hükümet kaynakları
+
+v2026.08.19 alpha
+    Kararlı lobi sırası ve atomik olmayan toplu üretim
+
+v2026.08.18 alpha
+    Sihirbazda ve tur değişimlerinde canlı logo
+    16:9 biçiminde oyun öncesi ekranlar; lobi listesinde tarih
+
+v2026.08.17 alpha
+    Bölgeler arasında simetrik harita üretimi
+    Her emir için raundlara bölünen AP; Hükümet seviyesine göre enerji maliyetleri
+    Hükümet'in onaylanması veya yer değiştirmesiyle 0. tur
+
+v2026.08.10 alpha
+    Sürdürülebilen kalıcı lobiler; kendi kendine devam eden uzun yürüyüşler
+    Gerçek arazi üzerinde, sisin altında gizli tam yol bulma
+    Emirleri duraklatma, sürdürme ve yeniden sıralama; sıradaki emirler için kaynak ayırma
+    Müttefiklerin emir kuyruğu; geliştirilmiş krediler ve Banka
+
+v2026.08.09 alpha
+    Eşzamanlı raundlar: tüm oyuncular emir sıraya koyar ve raunt bir anda çözülür
+    Sıradaki emirlerin rota ve maliyet önizlemesi
+    Bekleme odası ve atlanabilir tekrar
+
+v2026.08.08 alpha
+    Açlık yerine kişi başı memnuniyet ve karne sistemi
+    Ortam üretim efektleri ve su ile petrolde dalgalanmalar
+    Hükümet'in bulunduğu harita tarafına göre yerleştirilen mini harita
+
+v2026.08.06 alpha
+    Komşuyla harmanlanan arazi kenarları ve yuvarlatılmış köşeler
+    İnşaatçı tarafsız ot yaratıklarının içinden geçiyor
+    Kaydırma çubuklu yardım ve daha zengin istatistikler
+
+v2026.08.05 alpha
+    Aynı raundda biten işlerle kaynak tahmini
+    Binanın merkezinden gerçek bir daire olarak enerji kapsaması
+
+v2026.08.04 alpha
+    Adlandırılmış kayıtlar (kontrol noktaları) ve yardım paneli
+    Yüzen mini harita ve altta sohbet günlüğü
+    Banka geçmişi ve eksi kredilerin engellenmesi
+    AP ve Nüfus dökümlü kaynak ipuçları
+
+v2026.08.03 alpha
+    Tarafsız ot yaratıkları (inek ve at)
+    Tek bir inşaat emriyle sınırlı İnşaatçı ve ikili YZ keşfi
+    Yeniden tasarlanan ipuçları ve arazi kenarları
+
+v2026.08.02 alpha
+    Başlangıç binalarını yerleştirmek için zorunlu 0. tur
+    Hükümet enerji alanı; harita üretiminde merkezi göller
+    Bilgi kartlı yeniden tasarlanmış panel, simgeli düğmeler ve özel imleçler
+
+v2026.08.01 alpha
+    İnşaatçı birimi ve inşaat akışı
+    Lobide Hazır düğmesi ve düzenlenebilir metin imleci
+    Yeniden tasarlanan fare kontrolleri ve canlı kooperatif görünümü
+    Oyuncular arasında adil harita ve enerji kapsaması
+
+v2026.07.31 alpha
+    Birlikleri bölme ve birleştirme
+    Açlık ve susuzluk simgeleri; klavyeyle kaydırma
+    Kamera tur başında yeniden ortalanıyor; YZ'nin turunun tekrarı
+    Kare haritalar ve 2×2 çelik madenleri
+
+v2026.07.30 alpha
+    Oyun öncesi ekranlar tek bir sihirbazda birleşti
+    Savaş efektleri, zafer ekranı ve tur başına saldırı bütçesi
+    PvP/Kooperatif lobi başlatma doğrulaması
+
+v2026.07.29 alpha
+    Aynı bilgisayarda yerel çok oyunculu (hotseat), oyuncular arasında devirle
+    İspanyolca ve İngilizce diller, Ayarlar penceresi ve ses düzeyi
+
+v2026.07.28 alpha
+    Toplu birim üretimi ve müttefikler arasında kaynak aktarımı
+    Bitişik rafinerili yeni bir arazi olarak petrol havuzları
+    Birim miktarı penceresi ve arayüz iyileştirmeleri
+
+v2026.07.27 alpha
+    Birkaç PvP/Kooperatif lobili çok oyunculu, maç kaydetme ve yükleme
+    Lobi tarayıcısı, maç yükleme ekranı ve Axiom Wars markası
+
+v2026.07.26 alpha
+    Noktalı rota ve tahmini süreyle çok turlu rota hareketi
+    Bina satışı, menzilli saldırı ve gerçek savaş
+    Daha büyük, daha geniş harita
+
+v2026.07.25 alpha
+    Savaş sisi, cephe rengi seçimi ve ilk düşman YZ
+    Temel yakın dövüş ve kredili Banka
+    Kişi başı açlık ve susuzluk ile gelecek tur kaynak tahmini
+    Üst kaynak çubuğu ve müzikle yeniden tasarlanmış maç HUD'u
+
+v2026.07.24 alpha
+    Projenin başlangıcı: Go sunucusu ve Ebiten ile grafik istemci
+    Çok kareli binalar, engel olarak ormanlar ve mini harita
+    İnşa ederken kırmızı/yeşil önizleme ve seviye başına sekmeli inşa paneli
+    Elianto yazı tipiyle fütüristik siyah üzerine camgöbeği tema

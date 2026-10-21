@@ -1,0 +1,278 @@
+HISTÓRICO DE MUDANÇAS DE AXIOM WARS
+(A versão é a data da última mudança no servidor ou no cliente.)
+
+v2026.10.21 alpha
+    Dois novos idiomas: português do Brasil e turco
+    Três novos idiomas: chinês tradicional, coreano e polonês
+    Cada jogador da sala tem seu próprio botão "Sair" (inclusive os do seu PC): só esse jogador sai, o PC continua na sala e, se ele era o anfitrião, o papel passa ao jogador mais antigo desse PC; o botão geral "Sair" desapareceu e só o anfitrião mantém "Fechar sala"
+    Tela inicial: o logo animado tem o dobro do tamanho e fica centralizado acima dos painéis; a pílula do servidor se alinha ao painel da esquerda
+
+v2026.10.20 alpha
+    Tela inicial redesenhada: os jogadores deste PC (cada um com seu idioma), novidades, salas com seu próprio botão "Entrar" e as últimas partidas salvas; "Criar sala" e "Entrar" abrem a sala diretamente
+    Salas e partidas salvas podem ter senha: o cadeado fica verde quando este PC já a conhece
+    "Sair" deixa a sala: o papel de anfitrião passa ao humano mais antigo e a sala fecha quando não resta nenhum humano
+    O anfitrião pode passar o papel a outro jogador ou fechar a sala; uma sala sempre mantém o nome de quem a criou
+    Sala em tela cheia (lobby) e "Carregar partida" com lista, miniaturas e o detalhe da sua base
+    Seis novos idiomas: francês, italiano, alemão, russo, chinês e japonês
+    Animações de repouso para as tropas terranas e as 17 criaturas
+    Rebalanceamento de dano e PA (matriz 100/70/40) e Governo com 14/20/26 PA e mais vida
+    O extrator de água também funciona ao lado do mar
+    Estatísticas de fim de partida, lupa e câmera na queda do Governo, e mira de ataque
+    A IA escolhe melhor seus alvos; um grupo enviado a terreno inexplorado mantém seu destino
+
+v2026.10.19 alpha
+    Mapas v2: quadrantes maiores, mar com rios, baías, lagos com ilhas e pontes
+    Opções de mapa na sala: continentes, penínsulas, lagos, rios, planaltos, baús, criaturas dóceis e nível de recursos
+    Guardiões de baú enterrados que emergem do chão quando você luta
+    Grafo de ataques máximos e novo dano aos escudos dos edifícios
+    As ordens de cada unidade são executadas na ordem da fila
+    Você pode cancelar o fim do turno enquanto as IAs planejam
+    Ondas de água e petróleo com interferência; petróleo e mar bloqueiam o movimento
+    APC mais rápido; um Explorador enterrado não pode se mover
+    Serviço systemd para o servidor
+
+v2026.10.18 alpha
+    Rebalanceamento de armas, blindagens e habilidades (metralhadora, lança-granadas, tiro de canhão, mordida, Enterrar, Autodestruição, Pisão, Clonar, Aura de PA)
+    Um contra-ataque por tropa e rodada; defesas terrestres e antiaéreas conforme o nível do Governo
+    Transporte APC de blindagem pesada; Carregar sem alvo
+    Desempenho gráfico do cliente muito melhor (formas com shader e fronteira da névoa como imagem)
+    Créditos com efeitos sonoros, ChatGPT e Gemini
+
+v2026.10.17 alpha
+    Catálogo de 58 efeitos sonoros (todos os 58 em mp3)
+    Aproximar e atirar são uma única ordem
+    Edifícios sem energia ficam inativos: as defesas não disparam e os Bancos não operam
+    Busca de caminhos e verificação de saída do Governo 15-20 vezes mais rápidas para a IA
+    Botões de ação maiores e 3 trabalhadores por padrão
+
+v2026.10.16 alpha
+    Unidades grandes com área de várias casas: Mecha e APC 2×2, Raptor 3×2
+    Ordens de grupo, filas civil e militar com abas, e mensagens com histórico de avisos
+    Sons sintetizados com volume próprio em Configurações
+    Guardiões de baú em tropas conforme o nível do baú; decoração do mapa que nunca desconecta o terreno
+    Os mortos da rodada já não contra-atacam; botão Sair no menu principal
+
+v2026.10.14 alpha
+    Novas texturas para contêineres, criaturas e terreno
+
+v2026.10.12 alpha
+    Explosões de edifícios com escombros, o Governo caindo em cadeia e reservas de recursos que se esgotam visivelmente
+    Variante B da interface (o mapa já não fica coberto) e cursor de mão; o menu é uma janela modal centralizada
+    IA: escolhe em quem atirar por valor, lembra das criaturas hostis e constrói energia de forma proativa
+    Linha de tiro com planaltos; habilidades em área que seguem a tropa; chegada em grupo e formação por funções
+    Balanceamento de recursos: mais pasto e Energia que não pune a economia
+    Fichas das unidades e relatório de balanceamento em inglês, publicados no site
+
+v2026.10.11 alpha
+    Reserva dupla de PA: PA comuns do acampamento e PA próprios de cada tropa
+    Planaltos em estilo escarpado: rocha com estratos, rachaduras e rampas
+    Tecnologia, Wikipédia e ordens com um ícone por tipo
+    A IA respeita os planaltos ao posicionar edifícios
+
+v2026.10.10 alpha
+    Criaturas no mapa: 17 espécies reais com texturas, movimento e animações de ataque
+    Criaturas dóceis que vivem em seu lago; baús com prêmios
+    HUD flutuante com uma fileira de ordens e painéis configuráveis; chat e movimento com WSAD
+    Sem turno 0; empréstimo prioritário e limite de energia
+
+v2026.10.09 alpha
+    Clima: condições climáticas aleatórias a cada turno
+    Criaturas neutras e contêineres com prêmios
+    Passagem entre jogadores locais, créditos e música final
+    Animação das unidades ao se mover e dos edifícios em construção
+
+v2026.10.08 alpha
+    Conselheiro de campo com um retrato real no tutorial e no relatório da rodada
+
+v2026.10.06 alpha
+    Planaltos e rampas: um nível de altura no mapa, com penhascos
+    Aproximação ao alcance de tiro antes de atacar; clique direito para atacar e arco de tiro
+    Recursos aproveitáveis ao lado de cada Governo e mais petróleo
+    Tutorial com uma agenda de avisos pendentes
+
+v2026.10.05 alpha
+    Tutorial com o conselheiro holográfico e relatório da rodada
+    Laboratório de efeitos visuais: um efeito para cada arma, habilidade, passiva e estado
+    Painel direito com um trilho por unidade, ícones de melhoria e escala da interface
+
+v2026.10.04 alpha
+    Fadiga das tropas, energia com limite e rotas por etapas (descansada, cansada, fora da rodada)
+    Construção às cegas na névoa inexplorada (só Gerador de Energia) e movimento de grupo lado a lado
+    Compra de passivas, armas e habilidades; assalto da IA
+    Scripts para publicar versões do cliente no GitHub e no site
+
+v2026.10.03 alpha
+    Balanceamento terrano v8: classes, PA por indivíduo, combustível por casa, escudo por indivíduo
+    Armas por nível com recargas, área e contra-ataque; habilidades, passivas e estados
+    Novas unidades e aeronaves em sua própria camada; transporte e minas
+    Seletor de armas e habilidades no cliente
+
+v2026.10.02 alpha
+    Prévia do mapa na sala com semente fixa, ampliada ao clicar
+    Cancelar, pausar e retomar qualquer ordem da fila com replanejamento
+    Painel de ordens com cartões num trilho numerado
+    Fichas das unidades: Militar, Mecha, APC, Raptor, Droide, Explorador e Cientista
+
+v2026.10.01 alpha
+    Sala com combo de Equipe e botão de Pronto
+    Lupa viajante e painel de ordens com rolagem; um Construtor por tropa
+    Fichas das unidades terranas (PDF e Markdown)
+
+v2026.09.27 alpha
+    Painel de avisos, lupas em movimento e repetição simultânea
+    Área de efeito "campo de energia" com shader
+    Movimento suave durante a resolução e rastro da rota
+    IA com Governo nível 2, um batedor dedicado e reforço de emergência
+
+v2026.09.26 alpha
+    Recalcular a rota quando surge um obstáculo inesperado
+    Terreno revelado ao ordenar um movimento para a névoa negra
+    Raios elétricos e prévia da área ao construir
+
+v2026.08.31 alpha
+    Lote de 21 melhorias: dividir tropas, racionamento real, lupas de resolução, ponto de saída, vitória cooperativa
+    Lupa automática quando um inimigo ou uma base é descoberto
+    IA com especulação paralela e uma barra de progresso real
+
+v2026.08.30 alpha
+    População dividida em Civil (Moradia) e Militar (Gerador de Energia)
+    Rebalanceamento dos extratores de água e das fazendas
+    A IA evita a espiral de dívida de Comida
+
+v2026.08.29 alpha
+    Correção de um travamento da IA durante o planejamento paralelo
+
+v2026.08.28 alpha
+    A IA prioriza construção, produção e melhorias conforme o que pode pagar
+
+v2026.08.27 alpha
+    A IA contrata todas as vagas livres, usa o banco de forma proativa e lembra das bases inimigas
+    Balanceamento de energia, aço e comida; o pasto como recurso dominante
+    Mira menos pixelada e fundo da tela inicial em largura total
+
+v2026.08.25 alpha
+    Até 8 jogadores locais e até 8 por sala
+    Câmera fixa e mira de lupa durante a resolução, com pausa no Espaço
+    3 PA fixos por ataque e ordens bloqueadas após Pronto
+    Colar no campo Servidor; legenda de atalhos
+
+v2026.08.23 alpha
+    Minas de ferro equidistantes entre os jogadores
+    Barra de progresso ao vivo enquanto a IA resolve
+    Encerrar sala, e telas separadas para Buscar sala e Carregar partida
+
+v2026.08.22 alpha
+    Mapa de 8 jogadores com 49 quadrantes
+    A câmera foca no combate; Banco redesenhado
+    O turno 0 pode ser desfeito
+    Assistente unificado, idiomas com nomes completos e rajadas com recuo
+
+v2026.08.21 alpha
+    A IA constrói a economia em ordem (madeira, água, fazenda, aço, energia) e contrata pessoal primeiro
+    O Governo produz energia e os recursos iniciais aumentam
+    Extratores podem ser construídos com uma única casa adjacente
+
+v2026.08.20 alpha
+    Nova IA: RHEA (algoritmo evolutivo de horizonte rolante) substitui a IA baseada em regras
+    As construções na fila também são visíveis para inimigos com visão
+    Recursos do Governo com um espaçamento mínimo entre eles
+
+v2026.08.19 alpha
+    Ordem estável das salas e produção em lote não atômica
+
+v2026.08.18 alpha
+    Logo animado no assistente e nas trocas de turno
+    Telas pré-jogo em formato 16:9; data na lista de salas
+
+v2026.08.17 alpha
+    Geração de mapa simétrica entre os quadrantes
+    PA divididos entre rodadas para qualquer ordem; custos de energia por nível de Governo
+    Turno 0 com confirmação ou realocação do Governo
+
+v2026.08.10 alpha
+    Salas persistentes que podem ser retomadas; marchas longas que continuam sozinhas
+    Busca de caminhos completa sobre o terreno real, oculta sob a névoa
+    Pausar, retomar e reordenar ordens; reserva de recursos para ordens na fila
+    Fila de ordens dos aliados; empréstimos e Banco aprimorados
+
+v2026.08.09 alpha
+    Rodadas simultâneas: todos os jogadores enfileiram ordens e a rodada é resolvida de uma vez
+    Prévia das rotas e dos custos das ordens na fila
+    Sala de espera e repetição que pode ser pulada
+
+v2026.08.08 alpha
+    Sistema de satisfação e racionamento por indivíduo, em vez de fome
+    Efeitos ambientais de produção e ondulações na água e no petróleo
+    Minimapa posicionado conforme o lado do mapa onde está o Governo
+
+v2026.08.06 alpha
+    Bordas do terreno mescladas com o vizinho e cantos arredondados
+    O Construtor atravessa as criaturas neutras do pasto
+    Ajuda com barras de rolagem e estatísticas mais ricas
+
+v2026.08.05 alpha
+    Previsão de recursos com trabalhos que terminam na mesma rodada
+    Cobertura de energia como um círculo verdadeiro a partir do centro do edifício
+
+v2026.08.04 alpha
+    Salvamentos com nome (checkpoints) e painel de ajuda
+    Minimapa flutuante e registro de chat na parte inferior
+    Histórico do Banco e bloqueio de empréstimos negativos
+    Dicas de recursos com detalhamento de PA e População
+
+v2026.08.03 alpha
+    Criaturas neutras do pasto (vaca e cavalo)
+    Construtor limitado a uma ordem de construção e exploração dupla da IA
+    Dicas e bordas do terreno redesenhadas
+
+v2026.08.02 alpha
+    Turno 0 obrigatório para posicionar os edifícios iniciais
+    Área de energia do Governo; lagos centrais na geração do mapa
+    Painel redesenhado com cartão de informações, botões com ícones e cursores personalizados
+
+v2026.08.01 alpha
+    Unidade Construtor e fluxo de construção
+    Botão Pronto na sala e cursor de texto editável
+    Controles do mouse redesenhados e visão cooperativa ao vivo
+    Mapa justo entre os jogadores e cobertura de energia
+
+v2026.07.31 alpha
+    Dividir e juntar tropas
+    Ícones de fome e sede; rolagem pelo teclado
+    A câmera se recentraliza no início do turno; repetição do turno da IA
+    Mapas quadrados e minas de aço 2×2
+
+v2026.07.30 alpha
+    As telas pré-jogo se fundem num único assistente
+    Efeitos de combate, tela de vitória e orçamento de ataques por turno
+    Validação de início de sala PvP/Cooperativo
+
+v2026.07.29 alpha
+    Multijogador local no mesmo PC (hotseat) com passagem entre jogadores
+    Idiomas espanhol e inglês, janela de Configurações e volume
+
+v2026.07.28 alpha
+    Produção de unidades em lote e transferências de recursos entre aliados
+    Poços de petróleo como novo terreno com refinaria adjacente
+    Janela modal de quantidade de unidades e melhorias na interface
+
+v2026.07.27 alpha
+    Multijogador com várias salas PvP/Cooperativo, salvar e carregar partidas
+    Navegador de salas, tela de carregar partida e a marca Axiom Wars
+
+v2026.07.26 alpha
+    Movimento por rota de vários turnos com rota pontilhada e tempo estimado
+    Venda de edifícios, ataque à distância e combate real
+    Mapa maior e mais amplo
+
+v2026.07.25 alpha
+    Névoa de guerra, escolha da cor da facção e a primeira IA inimiga
+    Combate corpo a corpo básico e Banco com empréstimos
+    Fome e sede por indivíduo e previsão dos recursos do próximo turno
+    HUD da partida redesenhado com barra superior de recursos e música
+
+v2026.07.24 alpha
+    Início do projeto: servidor em Go e cliente gráfico com Ebiten
+    Edifícios de várias casas, florestas como obstáculos e minimapa
+    Prévia vermelha/verde ao construir e painel de construção com abas por nível
+    Tema futurista ciano sobre preto com a fonte Elianto

@@ -2,6 +2,7 @@ HISTORIA ZMIAN AXIOM WARS
 (Wersja to data ostatniej zmiany serwera lub klienta.)
 
 v2026.10.21 alpha
+    Dwa nowe języki: portugalski brazylijski i turecki
     Trzy nowe języki: chiński tradycyjny, koreański i polski
     Każdy gracz w pokoju ma własny przycisk „Wyjdź” (także gracze z Twojego komputera): wychodzi tylko ten gracz, komputer zostaje w pokoju, a jeśli był hostem, rola przechodzi na najstarszego gracza z tego komputera; ogólny przycisk „Wyjdź” zniknął i tylko host zachowuje „Zamknij pokój”
     Ekran początkowy: animowane logo jest dwa razy większe i wyśrodkowane nad panelami; pastylka serwera jest wyrównana z lewym panelem
