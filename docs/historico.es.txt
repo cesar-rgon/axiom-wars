@@ -1,8 +1,15 @@
 HISTÓRICO DE CAMBIOS DE AXIOM WARS
 (La versión es la fecha de la última modificación del servidor o del cliente.)
 
+v2026.10.21 alpha
+    Cada jugador de la sala tiene su propio botón «Salir» (también los de tu PC): sale solo él, el PC se queda en la sala y, si era el anfitrión, el cargo pasa al jugador más antiguo de ese PC; el botón «Salir» general desaparece y solo el anfitrión conserva «Cerrar sala»
+    Pantalla inicial: el logo animado es el doble de grande y queda centrado sobre los paneles; la píldora del servidor se alinea con el panel izquierdo
+
 v2026.10.20 alpha
-    Pantalla inicial rediseñada: jugadores de este PC, lobbies y partidas guardadas en una sola vista, con la sala a la derecha
+    Pantalla inicial rediseñada: jugadores de este PC (cada uno con su idioma), novedades, lobbies con su botón «Unirse» y últimas partidas guardadas; «Crear lobby» y «Unirse» abren la Sala directamente
+    Salas y partidas guardadas con contraseña: el candado se pone verde cuando este PC ya la conoce
+    «Salir» abandona la sala: el anfitrión pasa al jugador humano más antiguo y la sala se cierra al quedarse sin humanos
+    El anfitrión puede dar el cargo a otro jugador o cerrar la sala; la sala conserva siempre el nombre de su creador
     Sala (lobby) a pantalla completa y «Cargar partida» con lista, miniaturas y detalle de tu base
     Seis idiomas nuevos: francés, italiano, alemán, ruso, chino y japonés
     Animaciones de reposo de las tropas terráneas y de las 17 criaturas

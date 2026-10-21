@@ -1,8 +1,15 @@
 ÄNDERUNGSVERLAUF VON AXIOM WARS
 (Die Version ist das Datum der letzten Änderung am Server oder am Client.)
 
+v2026.10.21 alpha
+    Jeder Spieler im Raum hat seine eigene Schaltfläche „Verlassen“ (auch die auf deinem PC): Es geht nur dieser Spieler, der PC bleibt im Raum und war er der Host, geht die Rolle an den ältesten Spieler dieses PCs; die allgemeine Schaltfläche „Verlassen“ entfällt und nur der Host behält „Raum schließen“
+    Startbildschirm: Das animierte Logo ist doppelt so groß und über den Panels zentriert; die Server-Pille ist am linken Panel ausgerichtet
+
 v2026.10.20 alpha
-    Startbildschirm neu gestaltet: Spieler dieses PCs, Lobbys und gespeicherte Partien in einer Ansicht, mit dem Raum rechts
+    Startbildschirm neu gestaltet: Spieler dieses PCs (jeder mit eigener Sprache), Neuigkeiten, Lobbys mit eigenem „Beitreten“-Knopf und die letzten gespeicherten Partien; „Lobby erstellen“ und „Beitreten“ öffnen direkt den Raum
+    Räume und gespeicherte Partien mit Passwort: Das Schloss wird grün, sobald dieser PC es kennt
+    „Verlassen“ verlässt den Raum: Die Gastgeberrolle geht an den ältesten menschlichen Spieler, und der Raum schließt sich, wenn keiner mehr da ist
+    Der Gastgeber kann die Rolle an einen anderen Spieler übergeben oder den Raum schließen; der Raum behält immer den Namen seines Erstellers
     Raum im Vollbild und „Partie laden“ mit Liste, Vorschaubildern und Details deiner Basis
     Sechs neue Sprachen: Französisch, Italienisch, Deutsch, Russisch, Chinesisch und Japanisch
     Ruhe-Animationen der terranischen Truppen und der 17 Kreaturen

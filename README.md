@@ -164,10 +164,15 @@ Neutral creatures that belong to no player. The docile ones wander their own hab
 
 ## Change history
 
-The latest version is **v2026.10.20 alpha**.
+The latest version is **v2026.10.21 alpha**.
 
 <details>
 <summary>Show all versions</summary>
+
+### v2026.10.21 alpha
+
+- Start screen: the animated logo is twice as big and centred above the panels; the server pill lines up with the left panel
+- Each player in the room has their own "Leave" button (including those on your PC): only that player leaves, the PC stays in the room and, if it was the host, the role passes to the oldest player on that PC; only the host keeps "Close room"
 
 ### v2026.10.20 alpha
 

@@ -189,7 +189,7 @@
   "dl.c3": "L'IP dell'host è pubblicato sul <a href=\"https://discord.gg/2EZAtyqtzW\" target=\"_blank\" rel=\"noopener\">canale Discord</a>.",
   "nav.news": "Novità",
   "news.title": "Novità",
-  "news.body": "schermata iniziale ridisegnata: giocatori, lobby e partite salvate in un'unica vista; 17 creature con animazione di riposo e 6 nuove lingue.",
+  "news.body": "schermata iniziale con logo animato due volte più grande e centrato; un pulsante «Esci» per ogni giocatore nella sala.",
   "news.all": "Vedi tutta la cronologia",
   "news.all.href": "docs/historico.it.txt",
   "lang.eyebrow": "Lingue",

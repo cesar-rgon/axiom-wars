@@ -1,8 +1,15 @@
 AXIOM WARS CHANGE HISTORY
 (The version is the date of the latest change to the server or the client.)
 
+v2026.10.21 alpha
+    Each player in the room has their own "Leave" button (including those on your PC): only that player leaves, the PC stays in the room and, if they were the host, the role passes to the oldest player on that PC; the general "Leave" button is gone and only the host keeps "Close room"
+    Start screen: the animated logo is twice as big and centred above the panels; the server pill lines up with the left panel
+
 v2026.10.20 alpha
-    Start screen redesigned: this PC's players, lobbies and saved matches in a single view, with the room on the right
+    Start screen redesigned: this PC's players (each with their own language), news, lobbies with their own "Join" button and the latest saved matches; "Create lobby" and "Join" open the room directly
+    Rooms and saved matches can have a password: the padlock turns green once this PC knows it
+    "Leave" leaves the room: the host role passes to the oldest human and the room closes when no human is left
+    The host can hand the role to another player or close the room; a room always keeps its creator's name
     Full-screen room (lobby) and "Load match" with a list, thumbnails and the detail of your base
     Six new languages: French, Italian, German, Russian, Chinese and Japanese
     Idle animations for the Terran troops and the 17 creatures

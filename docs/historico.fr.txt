@@ -1,8 +1,15 @@
 HISTORIQUE DES CHANGEMENTS D'AXIOM WARS
 (La version est la date de la dernière modification du serveur ou du client.)
 
+v2026.10.21 alpha
+    Chaque joueur de la salle a son propre bouton « Quitter » (y compris ceux de ton PC) : seul ce joueur part, le PC reste dans la salle et, s'il était l'hôte, le rôle passe au joueur le plus ancien de ce PC ; le bouton « Quitter » général disparaît et seul l'hôte garde « Fermer la salle »
+    Écran d'accueil : le logo animé est deux fois plus grand et centré au-dessus des panneaux ; la pastille du serveur s'aligne sur le panneau de gauche
+
 v2026.10.20 alpha
-    Écran d'accueil repensé : joueurs de ce PC, salons et parties sauvegardées sur une seule vue, avec le salon à droite
+    Écran d'accueil repensé : joueurs de ce PC (chacun avec sa langue), nouveautés, salons avec leur bouton « Rejoindre » et dernières parties sauvegardées ; « Créer un salon » et « Rejoindre » ouvrent directement la salle
+    Salons et parties sauvegardées avec mot de passe : le cadenas devient vert quand ce PC le connaît
+    « Quitter » quitte la salle : le rôle d'hôte passe au joueur humain le plus ancien et la salle se ferme quand il n'en reste aucun
+    L'hôte peut passer son rôle à un autre joueur ou fermer la salle ; la salle garde toujours le nom de son créateur
     Salon en plein écran et « Charger la partie » avec liste, miniatures et détail de votre base
     Six nouvelles langues : français, italien, allemand, russe, chinois et japonais
     Animations de repos des troupes terranes et des 17 créatures

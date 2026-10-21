@@ -189,7 +189,7 @@
   "dl.c3": "Die Host-IP wird im <a href=\"https://discord.gg/2EZAtyqtzW\" target=\"_blank\" rel=\"noopener\">Discord-Kanal</a> veröffentlicht.",
   "nav.news": "Neuigkeiten",
   "news.title": "Neuigkeiten",
-  "news.body": "Startbildschirm neu gestaltet: Spieler, Lobbys und gespeicherte Partien in einer Ansicht; 17 Kreaturen mit Ruhe-Animation und 6 neue Sprachen.",
+  "news.body": "Startbildschirm mit doppelt so großem, zentriertem animiertem Logo; eine Schaltfläche „Verlassen“ pro Spieler im Raum.",
   "news.all": "Gesamten Verlauf ansehen",
   "news.all.href": "docs/historico.de.txt",
   "lang.eyebrow": "Sprachen",

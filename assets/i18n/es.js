@@ -213,7 +213,7 @@
   "dl.c3": "La IP del Host se publica en el <a href=\"https://discord.gg/3rsTp3DdGh\" target=\"_blank\" rel=\"noopener\">canal de Discord</a>.",
   "nav.news": "Novedades",
   "news.title": "Novedades",
-  "news.body": "pantalla inicial rediseñada: jugadores, lobbies y partidas guardadas en una sola vista; 17 criaturas con animación de reposo y 6 idiomas nuevos.",
+  "news.body": "pantalla inicial con logo animado el doble de grande y centrado; «Salir» por jugador en la sala.",
   "news.all": "Ver el histórico completo",
   "news.all.href": "docs/historico.es.txt",
   "lang.eyebrow": "Idiomas",

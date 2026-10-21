@@ -189,7 +189,7 @@
   "dl.c3": "L'IP de l'hôte est publiée sur le <a href=\"https://discord.gg/2EZAtyqtzW\" target=\"_blank\" rel=\"noopener\">canal Discord</a>.",
   "nav.news": "Nouveautés",
   "news.title": "Nouveautés",
-  "news.body": "écran d'accueil repensé : joueurs, salons et parties sauvegardées sur une seule vue ; 17 créatures avec animation de repos et 6 nouvelles langues.",
+  "news.body": "écran d'accueil avec un logo animé deux fois plus grand et centré ; un bouton « Quitter » par joueur dans la salle.",
   "news.all": "Voir tout l'historique",
   "news.all.href": "docs/historico.fr.txt",
   "lang.eyebrow": "Langues",

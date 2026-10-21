@@ -164,10 +164,15 @@ Criaturas neutrales que no pertenecen a ningún jugador. Las dóciles deambulan 
 
 ## Histórico de cambios
 
-La última versión es **v2026.10.20 alpha**.
+La última versión es **v2026.10.21 alpha**.
 
 <details>
 <summary>Ver todas las versiones</summary>
+
+### v2026.10.21 alpha
+
+- Pantalla inicial: el logo animado es el doble de grande y queda centrado sobre los paneles; la píldora del servidor se alinea con el panel izquierdo
+- Cada jugador de la sala tiene su propio botón «Salir» (también los de tu PC): sale solo él, el PC se queda en la sala y, si era el anfitrión, el cargo pasa al jugador más antiguo de ese PC; solo el anfitrión conserva «Cerrar sala»
 
 ### v2026.10.20 alpha
 

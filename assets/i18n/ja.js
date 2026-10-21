@@ -189,7 +189,7 @@
   "dl.c3": "ホストのIPは <a href=\"https://discord.gg/2EZAtyqtzW\" target=\"_blank\" rel=\"noopener\">Discord のチャンネル</a>で公開されています。",
   "nav.news": "お知らせ",
   "news.title": "お知らせ",
-  "news.body": "v2026.10.20 ・ スタート画面を刷新：プレイヤー、ロビー、保存した対戦をひとつの画面に。17種のクリーチャーに待機アニメーション、6言語を追加。",
+  "news.body": "v2026.10.21 ・ スタート画面のアニメーションロゴが2倍になり中央揃えに。ルームの各プレイヤーに専用の「退出」ボタン。",
   "news.all": "更新履歴をすべて見る",
   "news.all.href": "docs/historico.ja.txt",
   "lang.eyebrow": "言語",
