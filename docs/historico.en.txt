@@ -2,6 +2,9 @@ AXIOM WARS CHANGE HISTORY
 (The version is the date of the latest change to the server or the client.)
 
 v2026.10.21 alpha
+    Match replays: the server records every turn and they can be watched from the menu, from one player's view or without fog; "Repeat last resolution" with a playback panel
+    Manual save and "Leave to menu"; the saved list shows the turn and whether it is manual or an autosave
+    Fix: the Builder no longer gets stuck inside its footprint when building; the start screen no longer shows "Recent saves"
     Two new languages: Brazilian Portuguese and Turkish
     Three new languages: Traditional Chinese, Korean and Polish
     Each player in the room has their own "Leave" button (including those on your PC): only that player leaves, the PC stays in the room and, if they were the host, the role passes to the oldest player on that PC; the general "Leave" button is gone and only the host keeps "Close room"

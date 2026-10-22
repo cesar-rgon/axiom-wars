@@ -2,6 +2,9 @@ HISTÓRICO DE MUDANÇAS DE AXIOM WARS
 (A versão é a data da última mudança no servidor ou no cliente.)
 
 v2026.10.21 alpha
+    Replays de partidas: o servidor grava cada turno e dá para assistir pelo menu, com a visão de um jogador ou sem névoa; «Repetir última resolução» com painel de reprodução
+    Salvar partida manualmente e «Sair para o menu»; a lista de salvas mostra o turno e se é manual ou autosave
+    Correção: o Construtor não fica mais preso dentro da própria área ao construir; a tela inicial não mostra mais «Salvas recentes»
     Dois novos idiomas: português do Brasil e turco
     Três novos idiomas: chinês tradicional, coreano e polonês
     Cada jogador da sala tem seu próprio botão "Sair" (inclusive os do seu PC): só esse jogador sai, o PC continua na sala e, se ele era o anfitrião, o papel passa ao jogador mais antigo desse PC; o botão geral "Sair" desapareceu e só o anfitrião mantém "Fechar sala"

@@ -2,6 +2,9 @@ AXIOM WARS DEĞİŞİKLİK GEÇMİŞİ
 (Sürüm, sunucuda veya istemcide yapılan son değişikliğin tarihidir.)
 
 v2026.10.21 alpha
+    Maç tekrarları: sunucu her turu kaydeder, menüden bir oyuncunun görüşüyle veya sisler olmadan izlenir; oynatma panelli «Son çözümü tekrarla»
+    Elle kaydetme ve «Menüye çık»; kayıt listesi turu ve elle mi otomatik mi kaydedildiğini gösterir
+    Düzeltme: İnşaatçı inşa ederken artık kendi ayak izinin içinde takılmıyor; başlangıç ekranında artık «Son kayıtlar» yok
     İki yeni dil: Brezilya Portekizcesi ve Türkçe
     Üç yeni dil: Geleneksel Çince, Korece ve Lehçe
     Odadaki her oyuncunun kendi "Ayrıl" düğmesi var (senin bilgisayarındakiler dahil): yalnızca o oyuncu ayrılır, bilgisayar odada kalır ve ev sahibiyse rol o bilgisayardaki en eski oyuncuya geçer; genel "Ayrıl" düğmesi kalktı ve "Odayı kapat" yalnızca ev sahibinde kalıyor

@@ -2,6 +2,9 @@ HISTORIA ZMIAN AXIOM WARS
 (Wersja to data ostatniej zmiany serwera lub klienta.)
 
 v2026.10.21 alpha
+    Powtórki meczów: serwer zapisuje każdą turę, a obejrzeć je można z menu, z widoku jednego gracza lub bez mgły; „Powtórz ostatnie rozstrzygnięcie” z panelem odtwarzania
+    Ręczny zapis gry i „Wyjdź do menu”; lista zapisów pokazuje turę oraz czy zapis jest ręczny, czy automatyczny
+    Poprawka: Budowniczy nie blokuje się już wewnątrz własnego obrysu podczas budowy; ekran startowy nie pokazuje już „Ostatnich zapisów”
     Dwa nowe języki: portugalski brazylijski i turecki
     Trzy nowe języki: chiński tradycyjny, koreański i polski
     Każdy gracz w pokoju ma własny przycisk „Wyjdź” (także gracze z Twojego komputera): wychodzi tylko ten gracz, komputer zostaje w pokoju, a jeśli był hostem, rola przechodzi na najstarszego gracza z tego komputera; ogólny przycisk „Wyjdź” zniknął i tylko host zachowuje „Zamknij pokój”

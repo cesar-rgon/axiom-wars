@@ -2,6 +2,9 @@ HISTORIQUE DES CHANGEMENTS D'AXIOM WARS
 (La version est la date de la dernière modification du serveur ou du client.)
 
 v2026.10.21 alpha
+    Replays de partie : le serveur enregistre chaque tour et on les regarde depuis le menu, avec la vue d'un joueur ou sans brouillard ; « Rejouer la dernière résolution » avec panneau de lecture
+    Sauvegarde manuelle et « Quitter vers le menu » ; la liste des sauvegardes indique le tour et si elle est manuelle ou automatique
+    Correction : le Constructeur ne se bloque plus dans son emprise en construisant ; l'écran d'accueil n'affiche plus « Sauvegardes récentes »
     Deux nouvelles langues : portugais du Brésil et turc
     Trois nouvelles langues : chinois traditionnel, coréen et polonais
     Chaque joueur de la salle a son propre bouton « Quitter » (y compris ceux de ton PC) : seul ce joueur part, le PC reste dans la salle et, s'il était l'hôte, le rôle passe au joueur le plus ancien de ce PC ; le bouton « Quitter » général disparaît et seul l'hôte garde « Fermer la salle »

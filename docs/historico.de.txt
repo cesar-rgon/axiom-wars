@@ -2,6 +2,9 @@
 (Die Version ist das Datum der letzten Änderung am Server oder am Client.)
 
 v2026.10.21 alpha
+    Spielwiederholungen: Der Server zeichnet jede Runde auf; im Menü ansehbar, aus der Sicht eines Spielers oder ohne Nebel; „Letzte Auflösung wiederholen“ mit Wiedergabeleiste
+    Manuelles Speichern und „Zum Menü verlassen“; die Liste der Spielstände zeigt die Runde und ob manuell oder automatisch gespeichert
+    Korrektur: Der Bauarbeiter bleibt beim Bauen nicht mehr in seinem Grundriss stecken; der Startbildschirm zeigt keine „Zuletzt gespeichert“ mehr
     Zwei neue Sprachen: Brasilianisches Portugiesisch und Türkisch
     Drei neue Sprachen: Traditionelles Chinesisch, Koreanisch und Polnisch
     Jeder Spieler im Raum hat seine eigene Schaltfläche „Verlassen“ (auch die auf deinem PC): Es geht nur dieser Spieler, der PC bleibt im Raum und war er der Host, geht die Rolle an den ältesten Spieler dieses PCs; die allgemeine Schaltfläche „Verlassen“ entfällt und nur der Host behält „Raum schließen“

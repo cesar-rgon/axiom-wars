@@ -170,6 +170,9 @@ The latest version is **v2026.10.21 alpha**.
 
 ### v2026.10.21 alpha
 
+- Match replays: the server records every turn and they can be watched from the menu, from one player's view or without fog; "Repeat last resolution" with a playback panel
+- Manual save and "Leave to menu"; the saved list shows the turn and whether it is manual or an autosave
+- Fix: the Builder no longer gets stuck inside its footprint when building; the start screen no longer shows "Recent saves"
 - Three new languages: Traditional Chinese, Korean and Polish
 - Start screen: the animated logo is twice as big and centred above the panels; the server pill lines up with the left panel
 - Each player in the room has their own "Leave" button (including those on your PC): only that player leaves, the PC stays in the room and, if it was the host, the role passes to the oldest player on that PC; only the host keeps "Close room"

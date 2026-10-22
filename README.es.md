@@ -170,6 +170,9 @@ La última versión es **v2026.10.21 alpha**.
 
 ### v2026.10.21 alpha
 
+- Repeticiones de partida: el servidor graba cada turno y se ven desde el menú, con la vista de un jugador o sin niebla; «Repetir última resolución» con panel de reproducción
+- Guardar partida manual y «Salir al menú»; la lista de guardadas indica el turno y si es manual o autoguardado
+- Arreglo: el Constructor ya no se bloquea dentro de su huella al construir; la pantalla inicial deja de mostrar «Guardadas recientes»
 - Tres idiomas nuevos: chino tradicional, coreano y polaco
 - Pantalla inicial: el logo animado es el doble de grande y queda centrado sobre los paneles; la píldora del servidor se alinea con el panel izquierdo
 - Cada jugador de la sala tiene su propio botón «Salir» (también los de tu PC): sale solo él, el PC se queda en la sala y, si era el anfitrión, el cargo pasa al jugador más antiguo de ese PC; solo el anfitrión conserva «Cerrar sala»

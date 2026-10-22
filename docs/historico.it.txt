@@ -2,6 +2,9 @@ CRONOLOGIA DELLE MODIFICHE DI AXIOM WARS
 (La versione è la data dell'ultima modifica del server o del client.)
 
 v2026.10.21 alpha
+    Replay delle partite: il server registra ogni turno e si guardano dal menu, con la vista di un giocatore o senza nebbia; «Ripeti ultima risoluzione» con pannello di riproduzione
+    Salvataggio manuale e «Esci al menu»; l'elenco dei salvataggi indica il turno e se è manuale o automatico
+    Correzione: il Costruttore non si blocca più dentro la propria impronta mentre costruisce; la schermata iniziale non mostra più «Salvataggi recenti»
     Due nuove lingue: portoghese brasiliano e turco
     Tre nuove lingue: cinese tradizionale, coreano e polacco
     Ogni giocatore della sala ha il proprio pulsante «Esci» (anche quelli del tuo PC): esce solo lui, il PC resta nella sala e, se era l'host, il ruolo passa al giocatore più anziano di quel PC; il pulsante «Esci» generale sparisce e solo l'host conserva «Chiudi sala»
