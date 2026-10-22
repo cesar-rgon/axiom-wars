@@ -188,7 +188,7 @@
   "dl.c2": "Starte das Spiel: Die Serveradresse ist schon eingetragen. Gib deinen Namen ein und erstelle einen Raum oder tritt einem bei.",
   "nav.news": "Neuigkeiten",
   "news.title": "Neuigkeiten",
-  "news.body": "Startbildschirm mit doppelt so großem, zentriertem animiertem Logo; eine Schaltfläche „Verlassen“ pro Spieler im Raum.",
+  "news.body": "Spielwiederholungen und „Letzte Auflösung wiederholen“; manuelles Speichern und „Zum Menü verlassen“; eine Schaltfläche „Verlassen“ pro Spieler im Raum.",
   "news.all": "Gesamten Verlauf ansehen",
   "news.all.href": "docs/historico.de.txt",
   "lang.eyebrow": "Sprachen",

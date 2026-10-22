@@ -212,7 +212,7 @@
   "dl.c2": "Abre el juego: la dirección del servidor ya viene rellena. Escribe tu nombre y crea una sala o únete a una.",
   "nav.news": "Novedades",
   "news.title": "Novedades",
-  "news.body": "pantalla inicial con logo animado el doble de grande y centrado; «Salir» por jugador en la sala.",
+  "news.body": "repeticiones de partida y «Repetir última resolución»; guardar partida manual y «Salir al menú»; «Salir» por jugador en la sala.",
   "news.all": "Ver el histórico completo",
   "news.all.href": "docs/historico.es.txt",
   "lang.eyebrow": "Idiomas",

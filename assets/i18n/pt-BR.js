@@ -179,7 +179,7 @@
   "mus.t14": "<strong>Interface flutuante.</strong> Menu, recursos, minimapa, um painel de construção por nível de Governo e um ícone para cada tipo de ordem.",
   "mus.hint": "Deslize para percorrer a linha do tempo →",
   "news.title": "Novidades",
-  "news.body": "tela inicial com um logo animado do dobro do tamanho e centralizado; um botão \"Sair\" por jogador na sala.",
+  "news.body": "replays de partidas e «Repetir última resolução»; salvar partida manualmente e «Sair para o menu»; um botão «Sair» por jogador na sala.",
   "news.all": "Ver o histórico completo de mudanças",
   "join.eyebrow": "Comunidade",
   "join.title": "Jogue com a gente",

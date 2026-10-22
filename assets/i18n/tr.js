@@ -179,7 +179,7 @@
   "mus.t14": "<strong>Yüzen arayüz.</strong> Menü, kaynaklar, mini harita, Hükümet seviyesine göre inşa paneli ve her emir türü için bir simge.",
   "mus.hint": "Zaman çizgisinde ilerlemek için kaydır →",
   "news.title": "Yenilikler",
-  "news.body": "iki kat büyük ve ortalanmış canlı logolu başlangıç ekranı; odada oyuncu başına bir \"Ayrıl\" düğmesi.",
+  "news.body": "maç tekrarları ve «Son çözümü tekrarla»; elle kaydetme ve «Menüye çık»; odada oyuncu başına bir \"Ayrıl\" düğmesi.",
   "news.all": "Tüm değişiklik geçmişini gör",
   "news.all.href": "docs/historico.tr.txt",
   "join.eyebrow": "Topluluk",

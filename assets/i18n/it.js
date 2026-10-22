@@ -188,7 +188,7 @@
   "dl.c2": "Avvia il gioco: l'indirizzo del server è già compilato. Scrivi il tuo nome, poi crea una stanza o unisciti a una.",
   "nav.news": "Novità",
   "news.title": "Novità",
-  "news.body": "schermata iniziale con logo animato due volte più grande e centrato; un pulsante «Esci» per ogni giocatore nella sala.",
+  "news.body": "replay delle partite e «Ripeti ultima risoluzione»; salvataggio manuale e «Esci al menu»; un pulsante «Esci» per ogni giocatore nella sala.",
   "news.all": "Vedi tutta la cronologia",
   "news.all.href": "docs/historico.it.txt",
   "lang.eyebrow": "Lingue",

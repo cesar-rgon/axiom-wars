@@ -188,7 +188,7 @@
   "dl.c2": "Lancez le jeu : l'adresse du serveur est déjà remplie. Saisissez votre nom, puis créez un salon ou rejoignez-en un.",
   "nav.news": "Nouveautés",
   "news.title": "Nouveautés",
-  "news.body": "écran d'accueil avec un logo animé deux fois plus grand et centré ; un bouton « Quitter » par joueur dans la salle.",
+  "news.body": "replays de partie et « Rejouer la dernière résolution » ; sauvegarde manuelle et « Quitter vers le menu » ; un bouton « Quitter » par joueur dans la salle.",
   "news.all": "Voir tout l'historique",
   "news.all.href": "docs/historico.fr.txt",
   "lang.eyebrow": "Langues",
