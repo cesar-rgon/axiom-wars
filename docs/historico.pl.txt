@@ -1,6 +1,16 @@
 HISTORIA ZMIAN AXIOM WARS
 (Wersja to data ostatniej zmiany serwera lub klienta.)
 
+v2026.10.23 alpha
+    Sojusznicze oddziały przenikają się podczas ruchu, a wolniejsze ruszają pierwsze; nie łączą się już przy ruchu grupowym, a życie aktualizuje się po zakończeniu animacji
+    Kamera rozstrzygnięcia „Podążaj”/„Stała” z lupami dla stref; otwiera się wyśrodkowana na twoim Rządzie i widzisz, jak budują inni
+    „Powtórz ostatnie rozstrzygnięcie” także po wczytaniu gry
+    Szybsza SI
+    Generator zbudowany po omacku: różnica wysokości jest oceniana tylko na zbadanych polach; powtórki pokazują stworzenia we właściwej kolejności
+    Rząd w ulepszaniu nadal produkuje jednostki, a zasięg energii jest współdzielony między sojusznikami
+    Rozkaz otwarcia kontenera pokazuje nagrodę, a jej energia liczy się do „Prognozy na następną turę”
+    Panel akcji bez zaznaczenia lub z grupą: oddziały w 4 kolumnach z większymi ikonami
+
 v2026.10.21 alpha
     Powtórki meczów: serwer zapisuje każdą turę, a obejrzeć je można z menu, z widoku jednego gracza lub bez mgły; „Powtórz ostatnie rozstrzygnięcie” z panelem odtwarzania
     Ręczny zapis gry i „Wyjdź do menu”; lista zapisów pokazuje turę oraz czy zapis jest ręczny, czy automatyczny

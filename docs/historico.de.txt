@@ -1,6 +1,16 @@
 ÄNDERUNGSVERLAUF VON AXIOM WARS
 (Die Version ist das Datum der letzten Änderung am Server oder am Client.)
 
+v2026.10.23 alpha
+    Verbündete Truppen laufen durcheinander hindurch und die langsameren ziehen zuerst; sie verschmelzen bei Gruppenbewegungen nicht mehr und die Lebenspunkte aktualisieren sich nach der Animation
+    Auflösungskamera „Folgen“/„Fest“ mit Lupen pro Zone; sie öffnet zentriert auf deiner Regierung und du siehst andere bauen
+    „Letzte Auflösung wiederholen“ auch nach dem Laden eines Spiels
+    Schnellere KI
+    Blind gebauter Generator: Höhenunterschiede werden nur auf erkundeten Feldern beurteilt; Wiederholungen zeigen die Kreaturen in der richtigen Reihenfolge
+    Eine Regierung im Ausbau produziert weiter Einheiten und die Energieabdeckung wird unter Verbündeten geteilt
+    Der Befehl, einen Container zu öffnen, zeigt die Belohnung und seine Energie zählt in der „Prognose nächste Runde“
+    Aktionspanel ohne Auswahl oder mit einer Gruppe: Truppen in 4 Spalten mit größeren Symbolen
+
 v2026.10.21 alpha
     Spielwiederholungen: Der Server zeichnet jede Runde auf; im Menü ansehbar, aus der Sicht eines Spielers oder ohne Nebel; „Letzte Auflösung wiederholen“ mit Wiedergabeleiste
     Manuelles Speichern und „Zum Menü verlassen“; die Liste der Spielstände zeigt die Runde und ob manuell oder automatisch gespeichert

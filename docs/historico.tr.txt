@@ -1,6 +1,16 @@
 AXIOM WARS DEĞİŞİKLİK GEÇMİŞİ
 (Sürüm, sunucuda veya istemcide yapılan son değişikliğin tarihidir.)
 
+v2026.10.23 alpha
+    Müttefik birlikler hareket ederken birbirinin içinden geçer ve yavaş olanlar önce hareket eder; grup hareketinde artık birleşmez ve can animasyon bitince güncellenir
+    Çözüm kamerası «Takip»/«Sabit» ve bölge başına büyüteçler; Hükümetinize ortalanmış açılır ve başkalarının inşa ettiğini görürsünüz
+    «Son çözümü tekrarla» artık oyun yüklendikten sonra da kullanılabilir
+    Daha hızlı yapay zekâ
+    Kör inşa edilen jeneratör: yükseklik farkı yalnızca keşfedilmiş karelerde değerlendirilir; tekrarlarda yaratıklar doğru sırayla görünür
+    Yükseltilen Hükümet birim üretmeye devam eder ve enerji kapsamı müttefikler arasında paylaşılır
+    Konteyner açma emri ödülü gösterir ve enerjisi «Sonraki tur tahmini»ne dahil edilir
+    Seçim yokken veya grup seçiliyken eylem paneli: birlikler 4 sütunda, daha büyük simgelerle
+
 v2026.10.21 alpha
     Maç tekrarları: sunucu her turu kaydeder, menüden bir oyuncunun görüşüyle veya sisler olmadan izlenir; oynatma panelli «Son çözümü tekrarla»
     Elle kaydetme ve «Menüye çık»; kayıt listesi turu ve elle mi otomatik mi kaydedildiğini gösterir

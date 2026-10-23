@@ -1,6 +1,16 @@
 HISTÓRICO DE CAMBIOS DE AXIOM WARS
 (La versión es la fecha de la última modificación del servidor o del cliente.)
 
+v2026.10.23 alpha
+    Las tropas aliadas se traspasan al moverse y las más lentas se mueven primero; ya no se fusionan al mover en grupo y la vida se actualiza al acabar la animación
+    Cámara de resolución «Sigue»/«Fija» con lupas por zona; abre centrada en tu Gobierno y se ve construir a los demás
+    «Repetir última resolución» también al cargar una partida
+    IA más rápida
+    Generador construido a ciegas: el desnivel sólo se juzga en las casillas exploradas; las repeticiones muestran a las criaturas en el orden correcto
+    El Gobierno en mejora sigue produciendo unidades y la cobertura de energía se comparte entre aliados
+    La orden de abrir contenedor indica el premio y su energía cuenta en el «Previsto turno siguiente»
+    Panel de acciones sin selección o con un grupo: tropas en 4 columnas con iconos más grandes
+
 v2026.10.21 alpha
     Repeticiones de partida: el servidor graba cada turno y se ven desde el menú, con la vista de un jugador o sin niebla; «Repetir última resolución» con panel de reproducción
     Guardar partida manual y «Salir al menú»; la lista de guardadas indica el turno y si es manual o autoguardado

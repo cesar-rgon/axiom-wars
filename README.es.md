@@ -163,10 +163,21 @@ Criaturas neutrales que no pertenecen a ningún jugador. Las dóciles deambulan 
 
 ## Histórico de cambios
 
-La última versión es **v2026.10.21 alpha**.
+La última versión es **v2026.10.23 alpha**.
 
 <details>
 <summary>Ver todas las versiones</summary>
+
+### v2026.10.23 alpha
+
+- Las tropas aliadas se traspasan al moverse y las más lentas se mueven primero; ya no se fusionan al mover en grupo y la vida se actualiza al acabar la animación
+- Cámara de resolución «Sigue»/«Fija» con lupas por zona; abre centrada en tu Gobierno y se ve construir a los demás
+- «Repetir última resolución» también al cargar una partida
+- IA más rápida
+- Generador construido a ciegas: el desnivel sólo se juzga en las casillas exploradas; las repeticiones muestran a las criaturas en el orden correcto
+- El Gobierno en mejora sigue produciendo unidades y la cobertura de energía se comparte entre aliados
+- La orden de abrir contenedor indica el premio y su energía cuenta en el «Previsto turno siguiente»
+- Panel de acciones sin selección o con un grupo: tropas en 4 columnas con iconos más grandes
 
 ### v2026.10.21 alpha
 
