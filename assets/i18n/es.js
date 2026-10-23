@@ -212,7 +212,7 @@
   "dl.c2": "Abre el juego: la dirección del servidor ya viene rellena. Escribe tu nombre y crea una sala o únete a una.",
   "nav.news": "Novedades",
   "news.title": "Novedades",
-  "news.body": "las tropas aliadas se traspasan al moverse; cámara de la resolución «Sigue»/«Fija» con lupas por zona, y se ve construir a los demás; IA más rápida; el generador a ciegas ya no avisa de desniveles ocultos y las repeticiones muestran a las criaturas en su orden.",
+  "news.body": "las tropas aliadas se traspasan al moverse; cámara de la resolución «Sigue»/«Fija» con lupas por zona, y se ve construir a los demás; IA más rápida; el generador a ciegas ya no avisa de desniveles ocultos y las repeticiones muestran a las criaturas en su orden; con el Gobierno en mejora se siguen encargando unidades, y en cooperativo se construye dentro del área de energía de un aliado.",
   "news.all": "Ver el histórico completo",
   "news.all.href": "docs/historico.es.txt",
   "lang.eyebrow": "Idiomas",

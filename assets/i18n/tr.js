@@ -179,7 +179,7 @@
   "mus.t14": "<strong>Yüzen arayüz.</strong> Menü, kaynaklar, mini harita, Hükümet seviyesine göre inşa paneli ve her emir türü için bir simge.",
   "mus.hint": "Zaman çizgisinde ilerlemek için kaydır →",
   "news.title": "Yenilikler",
-  "news.body": "müttefik birlikler hareket ederken birbirinin içinden geçer; çözüm kamerası «Takip»/«Sabit» ve bölge başına büyüteçler, başkalarının inşaatı da görülür; daha hızlı YZ; kör inşa edilen jeneratör artık gizli yükseklik farklarını önceden bildirmez, tekrarlarda yaratıklar doğru sırada gösterilir.",
+  "news.body": "müttefik birlikler hareket ederken birbirinin içinden geçer; çözüm kamerası «Takip»/«Sabit» ve bölge başına büyüteçler, başkalarının inşaatı da görülür; daha hızlı YZ; kör inşa edilen jeneratör artık gizli yükseklik farklarını önceden bildirmez, tekrarlarda yaratıklar doğru sırada gösterilir; geliştirilen Hükümet birim üretmeye devam eder, işbirliğinde müttefikin enerji alanına inşa edilebilir.",
   "news.all": "Tüm değişiklik geçmişini gör",
   "news.all.href": "docs/historico.tr.txt",
   "join.eyebrow": "Topluluk",

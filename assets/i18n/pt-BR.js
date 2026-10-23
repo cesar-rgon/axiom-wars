@@ -179,7 +179,7 @@
   "mus.t14": "<strong>Interface flutuante.</strong> Menu, recursos, minimapa, um painel de construção por nível de Governo e um ícone para cada tipo de ordem.",
   "mus.hint": "Deslize para percorrer a linha do tempo →",
   "news.title": "Novidades",
-  "news.body": "as tropas aliadas se atravessam ao se mover; câmera da resolução «Segue»/«Fixa» com lupas por zona, e dá para ver os outros construindo; IA mais rápida; o gerador construído às cegas não avisa mais de desníveis ocultos e os replays mostram as criaturas na ordem certa.",
+  "news.body": "as tropas aliadas se atravessam ao se mover; câmera da resolução «Segue»/«Fixa» com lupas por zona, e dá para ver os outros construindo; IA mais rápida; o gerador construído às cegas não avisa mais de desníveis ocultos e os replays mostram as criaturas na ordem certa; o Governo em melhoria continua produzindo unidades e no cooperativo dá para construir na área de energia de um aliado.",
   "news.all": "Ver o histórico completo de mudanças",
   "join.eyebrow": "Comunidade",
   "join.title": "Jogue com a gente",
