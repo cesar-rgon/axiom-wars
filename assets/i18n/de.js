@@ -188,7 +188,7 @@
   "dl.c2": "Starte das Spiel: Die Serveradresse ist schon eingetragen. Gib deinen Namen ein und erstelle einen Raum oder tritt einem bei.",
   "nav.news": "Neuigkeiten",
   "news.title": "Neuigkeiten",
-  "news.body": "Spielwiederholungen und „Letzte Auflösung wiederholen“; manuelles Speichern und „Zum Menü verlassen“; eine Schaltfläche „Verlassen“ pro Spieler im Raum.",
+  "news.body": "verbündete Truppen können einander beim Bewegen durchqueren; Auflösungskamera „Folgen“/„Fest“ mit Lupen pro Zone, und man sieht andere beim Bauen; schnellere KI; blind gebaute Generatoren warnen nicht mehr vor verdeckten Höhenunterschieden, und Wiederholungen zeigen die Kreaturen in der richtigen Reihenfolge.",
   "news.all": "Gesamten Verlauf ansehen",
   "news.all.href": "docs/historico.de.txt",
   "lang.eyebrow": "Sprachen",

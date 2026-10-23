@@ -188,7 +188,7 @@
   "dl.c2": "Avvia il gioco: l'indirizzo del server è già compilato. Scrivi il tuo nome, poi crea una stanza o unisciti a una.",
   "nav.news": "Novità",
   "news.title": "Novità",
-  "news.body": "replay delle partite e «Ripeti ultima risoluzione»; salvataggio manuale e «Esci al menu»; un pulsante «Esci» per ogni giocatore nella sala.",
+  "news.body": "le truppe alleate si attraversano quando si muovono; telecamera della risoluzione «Segui»/«Fissa» con lenti per zona, e si vede costruire gli altri; IA più veloce; il generatore costruito alla cieca non avvisa più di dislivelli nascosti e i replay mostrano le creature nell'ordine giusto.",
   "news.all": "Vedi tutta la cronologia",
   "news.all.href": "docs/historico.it.txt",
   "lang.eyebrow": "Lingue",

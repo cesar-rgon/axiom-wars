@@ -179,7 +179,7 @@
   "mus.t14": "<strong>Pływający interfejs.</strong> Menu, zasoby, minimapa, panel budowy według poziomu Rządu i ikona dla każdego rodzaju rozkazu.",
   "mus.hint": "Przesuń palcem, aby poruszać się po osi czasu →",
   "news.title": "Nowości",
-  "news.body": "powtórki meczów i „Powtórz ostatnie rozstrzygnięcie”; ręczny zapis gry i „Wyjdź do menu”; przycisk „Wyjdź” przy każdym graczu w pokoju.",
+  "news.body": "wojska sojusznicze przenikają się podczas ruchu; kamera rozstrzygnięcia „Śledź”/„Stała” z lupami dla stref, widać też budowę innych graczy; szybsza SI; generator stawiany po omacku nie ostrzega już o ukrytych różnicach poziomów, a powtórki pokazują stworzenia w poprawnej kolejności.",
   "news.all": "Zobacz pełną historię zmian",
   "news.all.href": "docs/historico.pl.txt",
   "join.eyebrow": "Społeczność",
