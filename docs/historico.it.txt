@@ -20,6 +20,7 @@ v2026.10.24 alpha
     L'IA costruisce su un giacimento vicino che scopre invece di andare lontano a cercarlo
     Colore di squadra: i dettagli di ogni edificio e truppa (stendardi, luci, insegne) sono dipinti del colore del giocatore, anche sui pulsanti del pannello e durante il posizionamento di un edificio; selezionati, un anello pieno isometrico alla base; sostituiscono il bordo sottile, quasi invisibile con la tempesta
     Produzione di unità: sopra l'edificio si vede «5x» a sinistra dell'icona dell'unità e i turni rimanenti con la loro icona a destra, senza quadrati gialli sotto; il punto di uscita è un mirino isometrico del colore del giocatore
+    Lavoratori: sotto ogni estrattore e generatore, un pannello con la nuova icona del lavoratore (casco con visiera), n/max, una faccina d'umore e la barra della soddisfazione media, che si attenua se sotto c'è una truppa; selezionando l'edificio si vede ogni lavoratore con la sua percentuale
 
 v2026.10.23 alpha
     Le truppe alleate si attraversano quando si muovono e le più lente si muovono per prime; non si fondono più negli spostamenti di gruppo e la vita si aggiorna al termine dell'animazione

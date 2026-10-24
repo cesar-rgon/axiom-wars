@@ -188,6 +188,7 @@ The latest version is **v2026.10.24 alpha**.
 - The AI builds on a nearby deposit it discovers instead of going far away to find one
 - Team colour: the details of every building and troop (banners, lights, signs) are painted in the player's colour, also on the panel buttons and when placing a building; when selected, a solid isometric ring at the base; they replace the thin outline, which was barely visible in a storm
 - Unit production: above the building you see "5x" to the left of the unit icon and the turns left with their icon to the right, with no yellow squares below; the rally point is an isometric reticle in the player's colour
+- Workers: under every extractor and generator, a panel with the new worker icon (helmet with visor), n/max, a mood face and the mean satisfaction bar, which fades if a troop is below; select the building to see each worker with its percentage
 
 ### v2026.10.23 alpha
 
