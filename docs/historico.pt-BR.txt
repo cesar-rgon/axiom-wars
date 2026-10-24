@@ -22,6 +22,7 @@ v2026.10.24 alpha
     Produção de unidades: acima do edifício aparece «5x» à esquerda do ícone da unidade e os turnos restantes com seu ícone à direita, sem quadrados amarelos embaixo; o ponto de saída é uma mira isométrica na cor do jogador
     Trabalhadores: sob cada extrator e gerador, um painel com o novo ícone de trabalhador (capacete com viseira), n/máx, uma carinha de humor e a barra de satisfação média, que se atenua se há uma tropa embaixo; ao selecionar o edifício vê-se cada trabalhador com seu percentual
     Microturnos mais fluidos: se uma tropa tem dois movimentos seguidos, o segundo começa assim que ela chega ao fim do primeiro, sem ficar parada enquanto as outras se movem
+    IA em platôs: o gerador de energia é colocado pelo caminho real do Construtor e pela altura do terreno (antes descia ao pé do platô com desvios de 50 passos); postos com desvios enormes são descartados, um só Construtor por obra, e a obra vai para o Construtor mais próximo
 
 v2026.10.23 alpha
     As tropas aliadas se atravessam ao se mover e as mais lentas se movem primeiro; não se fundem mais ao mover em grupo e a vida é atualizada ao fim da animação

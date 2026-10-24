@@ -22,6 +22,7 @@ v2026.10.24 alpha
     Einheitenproduktion: über dem Gebäude steht links vom Einheitensymbol „5x“ und rechts die verbleibenden Runden mit Symbol, ohne gelbe Kästchen darunter; der Sammelpunkt ist ein isometrisches Fadenkreuz in der Farbe des Spielers
     Arbeiter: unter jedem Extraktor und Generator ein Panel mit dem neuen Arbeitersymbol (Helm mit Visier), n/max, einem Stimmungsgesicht und dem Balken der mittleren Zufriedenheit, das verblasst, wenn darunter eine Truppe steht; beim Auswählen des Gebäudes sieht man jeden Arbeiter mit seinem Prozentwert
     Flüssigere Mikrorunden: hat eine Truppe zwei Bewegungen hintereinander, beginnt die zweite, sobald sie das Ende der ersten erreicht, ohne stehen zu bleiben, während sich die anderen bewegen
+    KI auf Plateaus: Der Energiegenerator wird nach dem echten Weg des Konstrukteurs und der Geländehöhe platziert (früher ging es mit 50-Schritte-Umwegen zum Fuß des Plateaus); Außenposten hinter riesigen Umwegen entfallen, ein Konstrukteur pro Auftrag, und der nächste Konstrukteur übernimmt
 
 v2026.10.23 alpha
     Verbündete Truppen laufen durcheinander hindurch und die langsameren ziehen zuerst; sie verschmelzen bei Gruppenbewegungen nicht mehr und die Lebenspunkte aktualisieren sich nach der Animation

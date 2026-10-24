@@ -22,6 +22,7 @@ v2026.10.24 alpha
     Unit production: above the building you see "5x" to the left of the unit icon and the turns left with their icon to the right, with no yellow squares below; the rally point is an isometric reticle in the player's colour
     Workers: under every extractor and generator, a panel with the new worker icon (helmet with visor), n/max, a mood face and the mean satisfaction bar, which fades if a troop is below; select the building to see each worker with its percentage
     Smoother microturns: if a troop has two moves in a row, the second starts as soon as it reaches the end of the first, without standing still while the others move
+    AI on plateaus: the power generator is placed by the Constructor's real route and the ground's height (it used to go down to the plateau's foot with 50-step detours); outposts behind huge detours are skipped, one Constructor per job, and the job goes to the nearest Constructor
 
 v2026.10.23 alpha
     Allied troops pass through each other when moving and the slower ones move first; they no longer merge when moving as a group and life updates when the animation ends

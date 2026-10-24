@@ -22,6 +22,7 @@ v2026.10.24 alpha
     Birim üretimi: binanın üstünde birim simgesinin soluna «5x», sağına kalan tur ve simgesi yazılır; alttaki sarı kareler kalktı; çıkış noktası oyuncunun renginde izometrik bir nişangâhtır
     İşçiler: her çıkarıcı ve jeneratörün altında yeni işçi simgesi (siperlikli kask), n/maks, bir ruh hâli yüzü ve ortalama memnuniyet çubuğu olan bir panel; altında bir birlik varsa solar; binayı seçince her işçi yüzdesiyle görünür
     Daha akıcı mikro turlar: bir birliğin art arda iki hareketi varsa, ikincisi birincinin sonuna varır varmaz başlar; diğerleri hareket ederken yerinde durmaz
+    Platolarda yapay zekâ: enerji jeneratörü, İnşaatçının gerçek yoluna ve arazi yüksekliğine göre yerleştirilir (eskiden 50 adımlık dolambaçla platonun dibine iniyordu); büyük dolambaç gerektiren karakollar atlanır, iş başına tek İnşaatçı gider ve iş en yakın İnşaatçıya verilir
 
 v2026.10.23 alpha
     Müttefik birlikler hareket ederken birbirinin içinden geçer ve yavaş olanlar önce hareket eder; grup hareketinde artık birleşmez ve can animasyon bitince güncellenir

@@ -22,6 +22,7 @@ v2026.10.24 alpha
     Production d'unités : au-dessus du bâtiment on voit « 5x » à gauche de l'icône de l'unité et les tours restants avec leur icône à droite, sans carrés jaunes en dessous ; le point de sortie est un réticule isométrique de la couleur du joueur
     Travailleurs : sous chaque extracteur et générateur, un panneau avec la nouvelle icône de travailleur (casque à visière), n/max, un visage d'humeur et la barre de satisfaction moyenne, qui s'atténue si une troupe est en dessous ; en sélectionnant le bâtiment, chaque travailleur apparaît avec son pourcentage
     Micro-tours plus fluides : si une troupe a deux déplacements à la suite, le second commence dès qu'elle arrive au bout du premier, sans rester immobile pendant que les autres bougent
+    IA sur les plateaux : le générateur d'énergie est placé selon le trajet réel du Constructeur et la hauteur du terrain (avant il descendait au pied du plateau avec des détours de 50 pas) ; les avant-postes derrière d'énormes détours sont écartés, un seul Constructeur par chantier, et le chantier va au Constructeur le plus proche
 
 v2026.10.23 alpha
     Les troupes alliées se traversent en se déplaçant et les plus lentes bougent d'abord ; elles ne fusionnent plus lors d'un déplacement de groupe et la vie se met à jour à la fin de l'animation

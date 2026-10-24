@@ -22,6 +22,7 @@ v2026.10.24 alpha
     Produkcja jednostek: nad budynkiem widać „5x” po lewej od ikony jednostki, a po prawej pozostałe tury z ikoną, bez żółtych kwadratów pod spodem; punkt zbiórki to izometryczny celownik w kolorze gracza
     Pracownicy: pod każdym ekstraktorem i generatorem panel z nową ikoną pracownika (hełm z przyłbicą), n/maks, buźką nastroju i paskiem średniego zadowolenia, który blaknie, gdy poniżej stoi oddział; po zaznaczeniu budynku widać każdego pracownika z jego procentem
     Płynniejsze mikroture: gdy oddział ma dwa ruchy z rzędu, drugi zaczyna się od razu po dotarciu do końca pierwszego, bez stania w miejscu, gdy ruszają się inni
+    SI na płaskowyżach: generator energii jest stawiany według rzeczywistej drogi Konstruktora i wysokości terenu (wcześniej schodził u podnóża płaskowyżu 50-krokowym objazdem); posterunki za ogromnymi objazdami są pomijane, jeden Konstruktor na robotę, a robotę dostaje najbliższy Konstruktor
 
 v2026.10.23 alpha
     Sojusznicze oddziały przenikają się podczas ruchu, a wolniejsze ruszają pierwsze; nie łączą się już przy ruchu grupowym, a życie aktualizuje się po zakończeniu animacji
