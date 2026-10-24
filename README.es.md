@@ -186,7 +186,7 @@ La última versión es **v2026.10.24 alpha**.
 - Arreglo: construcciones que nunca se hacían porque el Constructor esperaba dentro de la huella; la mejora del Gobierno ahora retiene sus recursos para poder juntarlos
 - Arreglo: una partida guardada ya no desaparece de «Mis partidas» de los jugadores que se desconectaron
 - La IA construye en un yacimiento cercano que descubre en lugar de irse lejos a buscarlo
-- Color de equipo: los detalles de cada edificio y tropa (banderas, luces, rótulos) se pintan con el color del jugador; sin seleccionar, cuatro arcos giran despacio en su base y, seleccionados, un anillo sólido isométrico; sustituyen al reborde fino, que con tormenta casi no se veía
+- Color de equipo: los detalles de cada edificio y tropa (banderas, luces, rótulos) se pintan con el color del jugador, también en los botones del panel y al colocar un edificio; al seleccionar, un anillo sólido isométrico en la base; sustituyen al reborde fino, que con tormenta casi no se veía
 
 ### v2026.10.23 alpha
 

@@ -18,7 +18,7 @@ v2026.10.24 alpha
     Correzione: edifici che non venivano mai costruiti perché il Costruttore aspettava dentro l'impronta; il potenziamento del Governo ora trattiene le sue risorse per poterle accumulare
     Correzione: una partita salvata non sparisce più da «Le mie partite» per i giocatori disconnessi
     L'IA costruisce su un giacimento vicino che scopre invece di andare lontano a cercarlo
-    Colore di squadra: i dettagli di ogni edificio e truppa (stendardi, luci, insegne) sono dipinti del colore del giocatore; senza selezione, quattro archi girano lentamente alla base e, selezionati, un anello pieno isometrico; sostituiscono il bordo sottile, quasi invisibile con la tempesta
+    Colore di squadra: i dettagli di ogni edificio e truppa (stendardi, luci, insegne) sono dipinti del colore del giocatore, anche sui pulsanti del pannello e durante il posizionamento di un edificio; selezionati, un anello pieno isometrico alla base; sostituiscono il bordo sottile, quasi invisibile con la tempesta
 
 v2026.10.23 alpha
     Le truppe alleate si attraversano quando si muovono e le più lente si muovono per prime; non si fondono più negli spostamenti di gruppo e la vita si aggiorna al termine dell'animazione

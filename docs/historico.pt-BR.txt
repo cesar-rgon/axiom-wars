@@ -18,7 +18,7 @@ v2026.10.24 alpha
     Correção: construções que nunca eram feitas porque o Construtor esperava dentro da área; a melhoria do Governo agora retém seus recursos para poder juntá-los
     Correção: uma partida salva não some mais de «Minhas partidas» dos jogadores que se desconectaram
     A IA constrói em uma jazida próxima que descobre em vez de ir longe procurar
-    Cor de equipe: os detalhes de cada edifício e tropa (bandeiras, luzes, letreiros) são pintados com a cor do jogador; sem seleção, quatro arcos giram devagar na base e, selecionados, um anel sólido isométrico; substituem o contorno fino, quase invisível em tempestades
+    Cor de equipe: os detalhes de cada edifício e tropa (bandeiras, luzes, letreiros) são pintados com a cor do jogador, também nos botões do painel e ao colocar um edifício; ao selecionar, um anel sólido isométrico na base; substituem o contorno fino, quase invisível em tempestades
 
 v2026.10.23 alpha
     As tropas aliadas se atravessam ao se mover e as mais lentas se movem primeiro; não se fundem mais ao mover em grupo e a vida é atualizada ao fim da animação

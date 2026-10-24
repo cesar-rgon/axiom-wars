@@ -186,7 +186,7 @@ The latest version is **v2026.10.24 alpha**.
 - Fix: buildings that were never built because the Constructor waited inside the footprint; a Government upgrade now holds back its resources so they can be saved up
 - Fix: a saved match no longer disappears from "My matches" for players who disconnected
 - The AI builds on a nearby deposit it discovers instead of going far away to find one
-- Team colour: the details of every building and troop (banners, lights, signs) are painted in the player's colour; unselected, four arcs slowly turn at the base and, when selected, a solid isometric ring; they replace the thin outline, which was barely visible in a storm
+- Team colour: the details of every building and troop (banners, lights, signs) are painted in the player's colour, also on the panel buttons and when placing a building; when selected, a solid isometric ring at the base; they replace the thin outline, which was barely visible in a storm
 
 ### v2026.10.23 alpha
 
