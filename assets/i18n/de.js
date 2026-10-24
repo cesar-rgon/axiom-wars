@@ -188,7 +188,7 @@
   "dl.c2": "Starte das Spiel: Die Serveradresse ist schon eingetragen. Gib deinen Namen ein und erstelle einen Raum oder tritt einem bei.",
   "nav.news": "Neuigkeiten",
   "news.title": "Neuigkeiten",
-  "news.body": "Angriffe, Fähigkeiten und Truhen werden Feld für Feld zusammen mit der Bewegung gelöst; Truppen verfolgen ein fliehendes Ziel und feuern in Reichweite; bei mehreren Zielen feuern alle auf das erste und wechseln dann zum nächsten; die Regierung reiht nur eine Einheit gleichzeitig ein.",
+  "news.body": "Angriffe, Fähigkeiten und Truhen werden Feld für Feld zusammen mit der Bewegung gelöst; Truppen verfolgen ein fliehendes Ziel und feuern in Reichweite; bei mehreren Zielen feuern alle auf das erste und wechseln dann zum nächsten; die Regierung reiht nur eine Einheit gleichzeitig ein; ein neuer Befehl ersetzt die früheren der Truppe (Umschalt hängt ihn an); Angriffe auf zerstörte Ziele werden verworfen; Geisterfelder behoben, die ganze Gruppen blockierten.",
   "news.all": "Gesamten Verlauf ansehen",
   "news.all.href": "docs/historico.de.txt",
   "lang.eyebrow": "Sprachen",

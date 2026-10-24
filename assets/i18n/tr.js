@@ -179,7 +179,7 @@
   "mus.t14": "<strong>Yüzen arayüz.</strong> Menü, kaynaklar, mini harita, Hükümet seviyesine göre inşa paneli ve her emir türü için bir simge.",
   "mus.hint": "Zaman çizgisinde ilerlemek için kaydır →",
   "news.title": "Yenilikler",
-  "news.body": "saldırılar, yetenekler ve sandıklar hareketle birlikte kare kare çözülür; birlikler kaçan hedefi kovalar ve menzile girince ateş eder; birden çok hedefte hepsi ilkine ateş eder, sonra sıradakine geçer; Hükümet aynı anda yalnızca bir birimi kuyruğa alır.",
+  "news.body": "saldırılar, yetenekler ve sandıklar hareketle birlikte kare kare çözülür; birlikler kaçan hedefi kovalar ve menzile girince ateş eder; birden çok hedefte hepsi ilkine ateş eder, sonra sıradakine geçer; Hükümet aynı anda yalnızca bir birimi kuyruğa alır; yeni emir birliğin öncekilerini değiştirir (Shift kuyruğa ekler); yok edilmiş hedeflere saldırılar silinir; tüm grupları engelleyen hayalet kareler düzeltildi.",
   "news.all": "Tüm değişiklik geçmişini gör",
   "news.all.href": "docs/historico.tr.txt",
   "join.eyebrow": "Topluluk",

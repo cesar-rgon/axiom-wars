@@ -179,7 +179,7 @@
   "mus.t14": "<strong>Pływający interfejs.</strong> Menu, zasoby, minimapa, panel budowy według poziomu Rządu i ikona dla każdego rodzaju rozkazu.",
   "mus.hint": "Przesuń palcem, aby poruszać się po osi czasu →",
   "news.title": "Nowości",
-  "news.body": "ataki, zdolności i skrzynie rozstrzygają się pole po polu razem z ruchem; oddziały ścigają uciekający cel i strzelają, gdy znajdzie się w zasięgu; przy kilku celach wszystkie strzelają do pierwszego, potem do następnego; Rząd kolejkuje tylko jedną jednostkę naraz.",
+  "news.body": "ataki, zdolności i skrzynie rozstrzygają się pole po polu razem z ruchem; oddziały ścigają uciekający cel i strzelają, gdy znajdzie się w zasięgu; przy kilku celach wszystkie strzelają do pierwszego, potem do następnego; Rząd kolejkuje tylko jedną jednostkę naraz; nowy rozkaz zastępuje wcześniejsze rozkazy oddziału (Shift dodaje do kolejki); ataki na zniszczone cele są odrzucane; naprawiono pola-duchy blokujące całe grupy.",
   "news.all": "Zobacz pełną historię zmian",
   "news.all.href": "docs/historico.pl.txt",
   "join.eyebrow": "Społeczność",
