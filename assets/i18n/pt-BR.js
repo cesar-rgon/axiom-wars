@@ -179,7 +179,7 @@
   "mus.t14": "<strong>Interface flutuante.</strong> Menu, recursos, minimapa, um painel de construção por nível de Governo e um ícone para cada tipo de ordem.",
   "mus.hint": "Deslize para percorrer a linha do tempo →",
   "news.title": "Novidades",
-  "news.body": "ataques, habilidades e baús são resolvidos casa a casa junto com o movimento; as tropas perseguem o alvo que foge e atiram ao entrar no alcance; com vários alvos, todas atiram no primeiro e passam ao próximo; o Governo só enfileira uma unidade por vez; uma ordem nova substitui as anteriores da tropa (Shift adiciona à fila); ataques a alvos destruídos são descartados; corrigidas as casas-fantasma que travavam grupos inteiros.",
+  "news.body": "Ctrl para substituir ordens, compra de tropas por casas, minimapa na resolução do turno e correções de construção.",
   "news.all": "Ver o histórico completo de mudanças",
   "join.eyebrow": "Comunidade",
   "join.title": "Jogue com a gente",

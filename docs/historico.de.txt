@@ -6,9 +6,18 @@ v2026.10.24 alpha
     Flieht das Ziel, verfolgen deine Truppen es mit den verfügbaren AP, bis es in Reichweite ist, und feuern dann; ohne genug AP feuern sie nicht, es gibt also keine Schüsse mehr auf leere Felder
     Bei mehreren Truppen und mehreren Zielen feuern alle auf das erste und wechseln zum nächsten, wenn es stirbt
     Die Regierung kann nur eine Einheit gleichzeitig in der Warteschlange haben
-    Ein neuer Befehl ersetzt die früheren der Truppe; mit Umschalt wird er an die Warteschlange angehängt (beim Ersetzen erscheint ein Hinweis)
+    Befehle sammeln sich standardmäßig an; mit Strg ersetzt der neue Befehl die früheren der Truppe oder des Konstrukteurs (in den Einstellungen umkehrbar); beim Ersetzen erscheint ein Hinweis
     Angriffe auf bereits zerstörte Ziele werden automatisch verworfen, statt sich Zug um Zug anzusammeln
     Fehlerbehebung: Beim Tausch verbündeter Mechs oder APCs bleiben keine Geisterfelder mehr zurück, die ganze Gruppen am Vorankommen hinderten
+    Esc bricht Aktives ab und öffnet sonst das Menü; das gelbe Quadrat folgt dem Mauszeiger auf der Karte nicht mehr
+    Der Knopf eines Gebäudes, das du dir nicht leisten kannst, zeigt in einem roten Hinweis, was fehlt
+    Spielerpanel mit der Option „Immer anzeigen“ in den Einstellungen; die Abstimmung, einen abwesenden Menschen der KI zu übergeben, zählt nur die stimmberechtigten Menschen
+    Rundenauflösung: Minikarte sichtbar und anklickbar, Karte mit der mittleren Taste verschiebbar, Kamera „Folgt meinen Truppen“; Lupen außerhalb des Bildes bleiben mit Pfeil am Rand und sind auf der Minikarte markiert
+    Truppenkauf: Panelknöpfe als Zeilen mit Kosten; jeder Klick fügt einer einzigen Bestellung eine Einheit hinzu, und nähert man die Maus dem Gebäude, erscheinen Felder, um mehrere auf einmal zu bestellen
+    Im Raum kann ein Spieler die Farbe einer KI wählen; die KI bekommt eine andere freie
+    Fix: Gebäude, die nie gebaut wurden, weil der Konstrukteur innerhalb der Grundfläche wartete; ein Regierungs-Upgrade hält jetzt seine Ressourcen zurück, damit sie sich ansammeln
+    Fix: Ein gespeichertes Spiel verschwindet nicht mehr aus „Meine Spiele“ der Spieler, die die Verbindung getrennt hatten
+    Die KI baut auf einem entdeckten nahen Vorkommen, statt weit weg danach zu suchen
 
 v2026.10.23 alpha
     Verbündete Truppen laufen durcheinander hindurch und die langsameren ziehen zuerst; sie verschmelzen bei Gruppenbewegungen nicht mehr und die Lebenspunkte aktualisieren sich nach der Animation

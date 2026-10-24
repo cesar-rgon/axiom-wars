@@ -188,7 +188,7 @@
   "dl.c2": "Lancez le jeu : l'adresse du serveur est déjà remplie. Saisissez votre nom, puis créez un salon ou rejoignez-en un.",
   "nav.news": "Nouveautés",
   "news.title": "Nouveautés",
-  "news.body": "les attaques, les capacités et les coffres se résolvent case par case avec le déplacement ; les troupes poursuivent la cible qui fuit et tirent une fois à portée ; avec plusieurs cibles, toutes tirent sur la première puis passent à la suivante ; le Gouvernement ne met qu'une unité en file à la fois ; un nouvel ordre remplace les précédents de la troupe (Maj l'ajoute à la file) ; les attaques sur des cibles détruites sont abandonnées ; correction des cases fantômes qui bloquaient des groupes entiers.",
+  "news.body": "Ctrl pour remplacer les ordres, achat de troupes par cases, minicarte pendant la résolution du tour et correctifs de construction.",
   "news.all": "Voir tout l'historique",
   "news.all.href": "docs/historico.fr.txt",
   "lang.eyebrow": "Langues",

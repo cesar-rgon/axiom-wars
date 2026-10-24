@@ -212,7 +212,7 @@
   "dl.c2": "Abre el juego: la dirección del servidor ya viene rellena. Escribe tu nombre y crea una sala o únete a una.",
   "nav.news": "Novedades",
   "news.title": "Novedades",
-  "news.body": "los ataques, las habilidades y los cofres se resuelven casilla a casilla junto con el movimiento; las tropas persiguen al objetivo que huye y disparan al entrar en alcance; con varios objetivos, todas disparan al primero y pasan al siguiente; el Gobierno sólo encola una unidad a la vez; una orden nueva reemplaza las anteriores de la tropa (Shift las añade a la cola); los ataques a objetivos destruidos se descartan; arreglo de las casillas fantasma que frenaban a grupos enteros.",
+  "news.body": "Ctrl para reemplazar órdenes, compra de tropas por casillas, minimapa en la resolución de turno y arreglos de construcción.",
   "news.all": "Ver el histórico completo",
   "news.all.href": "docs/historico.es.txt",
   "lang.eyebrow": "Idiomas",

@@ -6,9 +6,18 @@ v2026.10.24 alpha
     Se il bersaglio fugge, le tue truppe lo inseguono con i PA disponibili finché non è a portata, poi sparano; senza PA sufficienti non sparano, quindi niente più colpi su una casella vuota
     Con più truppe e più bersagli, tutte sparano al primo e passano al successivo quando muore
     Il Governo può avere una sola unità in coda alla volta
-    Un nuovo ordine sostituisce quelli precedenti della truppa; con Maiusc viene aggiunto alla coda (appare un avviso quando sostituisce)
+    Gli ordini si accumulano per impostazione predefinita; con Ctrl il nuovo ordine sostituisce i precedenti della truppa o del Costruttore (le Impostazioni permettono di invertire); avviso alla sostituzione
     Gli attacchi a bersagli già distrutti vengono scartati automaticamente invece di accumularsi turno dopo turno
     Correzione: lo scambio di Mech o APC alleati non lascia più caselle fantasma che impedivano a interi gruppi di avanzare
+    Esc annulla ciò che è attivo e, altrimenti, apre il menu; il quadrato giallo non segue più il cursore sulla mappa
+    Il pulsante di un edificio che non puoi permetterti mostra in rosso cosa manca
+    Pannello giocatori con l'opzione «Mostra sempre» nelle Impostazioni; il voto per passare un umano assente all'IA conta solo gli umani che possono votare
+    Risoluzione del turno: minimappa visibile e cliccabile, mappa trascinabile col tasto centrale, camera «Segue le mie truppe»; le lenti fuori schermo restano sul bordo con una freccia e sono segnate sulla minimappa
+    Acquisto di truppe: pulsanti del pannello a righe con il costo; ogni clic aggiunge un'unità a un unico ordine e, avvicinando il mouse all'edificio, compaiono caselle per ordinarne diverse in una volta
+    Nella sala un giocatore può scegliere il colore usato da un'IA; l'IA ne riceve un altro libero
+    Correzione: edifici che non venivano mai costruiti perché il Costruttore aspettava dentro l'impronta; il potenziamento del Governo ora trattiene le sue risorse per poterle accumulare
+    Correzione: una partita salvata non sparisce più da «Le mie partite» per i giocatori disconnessi
+    L'IA costruisce su un giacimento vicino che scopre invece di andare lontano a cercarlo
 
 v2026.10.23 alpha
     Le truppe alleate si attraversano quando si muovono e le più lente si muovono per prime; non si fondono più negli spostamenti di gruppo e la vita si aggiorna al termine dell'animazione

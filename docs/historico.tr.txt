@@ -6,9 +6,18 @@ v2026.10.24 alpha
     Hedef kaçarsa birliklerin eldeki AP ile menzile girene kadar onu kovalar ve sonra ateş eder; yeterli AP yoksa ateş etmez, yani boş kareye atış yok
     Birden çok birlik ve birden çok hedef varsa hepsi ilkine ateş eder, o ölünce sonrakine geçer
     Hükümet aynı anda yalnızca bir birimi kuyruğa alabilir
-    Yeni bir emir birliğin önceki emirlerini değiştirir; Shift ile kuyruğa eklenir (değiştirirken bir uyarı görünür)
+    Emirler varsayılan olarak birikir; Ctrl ile yeni emir birliğin veya İnşaatçının önceki emirlerini değiştirir (Ayarlar bunu tersine çevirir); değiştirirken bildirim çıkar
     Zaten yok edilmiş hedeflere yönelik saldırılar, tur tur birikmek yerine otomatik olarak silinir
     Düzeltme: müttefik Mech veya APC yer değiştirince artık hayalet kareler kalmıyor; bunlar tüm grupların ilerlemesini engelliyordu
+    Esc hazırlanan eylemi iptal eder, yoksa menüyü açar; sarı kare artık haritada imleci izlemez
+    Karşılayamadığın bir binanın düğmesi neyin eksik olduğunu kırmızı bir uyarıyla gösterir
+    Ayarlarda «Her zaman göster» seçeneğiyle oyuncu paneli; yokluktaki bir insanı yapay zekâya devretme oyu yalnızca oy verebilen insanları sayar
+    Tur çözümü: mini harita görünür ve tıklanabilir, harita orta tuşla sürüklenebilir, kamera «Birliklerimi izler»; ekran dışındaki büyüteçler okla kenarda kalır ve mini haritada işaretlenir
+    Birlik satın alma: panel düğmeleri maliyetli satırlar halinde; her tık tek bir emre bir birim ekler ve imleci binaya yaklaştırınca birkaçını birden istemek için kutular çıkar
+    Odada bir oyuncu yapay zekânın kullandığı rengi seçebilir; yapay zekâ başka bir boş renk alır
+    Düzeltme: İnşaatçı taban alanının içinde beklediği için hiç yapılmayan binalar; Hükümet yükseltmesi artık kaynaklarını ayırır, böylece biriktirilebilir
+    Düzeltme: kaydedilmiş bir oyun bağlantısı kopan oyuncuların «Oyunlarım» listesinden artık kaybolmuyor
+    Yapay zekâ uzağa aramaya gitmek yerine keşfettiği yakın bir yatağa inşa eder
 
 v2026.10.23 alpha
     Müttefik birlikler hareket ederken birbirinin içinden geçer ve yavaş olanlar önce hareket eder; grup hareketinde artık birleşmez ve can animasyon bitince güncellenir

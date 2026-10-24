@@ -188,7 +188,7 @@
   "dl.c2": "Avvia il gioco: l'indirizzo del server è già compilato. Scrivi il tuo nome, poi crea una stanza o unisciti a una.",
   "nav.news": "Novità",
   "news.title": "Novità",
-  "news.body": "attacchi, abilità e forzieri si risolvono casella per casella insieme al movimento; le truppe inseguono il bersaglio che fugge e sparano una volta a portata; con più bersagli, tutte sparano al primo e passano al successivo; il Governo mette in coda una sola unità alla volta; un nuovo ordine sostituisce i precedenti della truppa (Maiusc lo aggiunge alla coda); gli attacchi a bersagli distrutti vengono scartati; corrette le caselle fantasma che bloccavano interi gruppi.",
+  "news.body": "Ctrl per sostituire gli ordini, acquisto di truppe a caselle, minimappa nella risoluzione del turno e correzioni alle costruzioni.",
   "news.all": "Vedi tutta la cronologia",
   "news.all.href": "docs/historico.it.txt",
   "lang.eyebrow": "Lingue",

@@ -174,9 +174,18 @@ The latest version is **v2026.10.24 alpha**.
 - If the target flees, your troops chase it with their available AP until it is in range and then fire; without enough AP they do not fire, so no more shots at an empty tile
 - With several troops and several targets, all fire at the first one and move on to the next when it dies
 - The Government can only have one unit queued at a time
-- A new order replaces the troop's earlier ones; with Shift it is added to the queue (a notice shows when it replaces)
+- Orders accumulate by default; with Ctrl the new order replaces the troop's or Constructor's earlier ones (Settings can flip this); a notice shows when it replaces
 - Attacks on targets that are already destroyed are dropped automatically instead of piling up turn after turn
 - Fix: swapping allied Mechs or APCs no longer leaves ghost tiles behind that stopped whole groups from advancing
+- Esc cancels what is armed and, with nothing armed, opens the menu; the yellow square no longer follows the cursor over the map
+- A building button you cannot afford shows what is missing in a red notice
+- Players panel with an "Always show" option in Settings; the vote to hand an absent human to the AI counts only the humans who can vote
+- Turn resolution: the minimap is visible and clickable, the map can be dragged with the middle button, the "Follows my troops" camera, and off-screen magnifiers stay on the edge with an arrow and are marked on the minimap
+- Buying troops: panel buttons in rows with their cost; each click adds one unit to a single order and, when you bring the cursor near the building, boxes appear to order several at once
+- In the room a player can pick the colour an AI uses; the AI gets another free one
+- Fix: buildings that were never built because the Constructor waited inside the footprint; a Government upgrade now holds back its resources so they can be saved up
+- Fix: a saved match no longer disappears from "My matches" for players who disconnected
+- The AI builds on a nearby deposit it discovers instead of going far away to find one
 
 ### v2026.10.23 alpha
 

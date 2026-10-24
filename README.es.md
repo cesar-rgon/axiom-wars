@@ -174,9 +174,18 @@ La última versión es **v2026.10.24 alpha**.
 - Si el objetivo huye, tus tropas lo persiguen con los PA disponibles hasta entrar en alcance y entonces disparan; sin PA suficientes no disparan, así que se acabaron los tiros a la casilla vacía
 - Con varias tropas y varios objetivos, todas disparan al primero y pasan al siguiente cuando muere
 - El Gobierno sólo puede tener una unidad en cola a la vez
-- Una orden nueva reemplaza las anteriores de la tropa; con Shift se añade a la cola (aviso al reemplazar)
+- Las órdenes se acumulan por defecto; con Ctrl la orden nueva reemplaza las anteriores de la tropa o del Constructor (Configuración permite invertirlo); aviso al reemplazar
 - Los ataques sobre objetivos ya destruidos se descartan solos en lugar de acumularse turno tras turno
 - Arreglo: ya no quedan casillas fantasma tras intercambiarse Mecas o APC aliados, que dejaban grupos enteros sin poder avanzar
+- Esc cancela lo armado y, si no hay nada, abre el menú; ya no sale el cuadrado amarillo al pasar el ratón por el mapa
+- El botón de un edificio sin recursos suficientes muestra en un aviso rojo lo que te falta
+- Panel de jugadores con la opción «Mostrar siempre» en Configuración; el voto para pasar un humano ausente a IA cuenta sólo a los humanos que pueden votar
+- Resolución de turno: minimapa visible y clicable, mapa arrastrable con el botón central, cámara «Sigue mis tropas» y lupas fuera de pantalla ancladas al borde con una flecha y marcadas en el minimapa
+- Compra de tropas: botones del panel en filas con su coste; cada clic suma una unidad a una sola orden y, al acercar el ratón al edificio, salen casillas para pedir varias de golpe
+- En la sala, un jugador puede escoger el color que usa una IA; la IA recibe otro libre
+- Arreglo: construcciones que nunca se hacían porque el Constructor esperaba dentro de la huella; la mejora del Gobierno ahora retiene sus recursos para poder juntarlos
+- Arreglo: una partida guardada ya no desaparece de «Mis partidas» de los jugadores que se desconectaron
+- La IA construye en un yacimiento cercano que descubre en lugar de irse lejos a buscarlo
 
 ### v2026.10.23 alpha
 
