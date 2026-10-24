@@ -18,7 +18,7 @@ v2026.10.24 alpha
     Correctif : des constructions ne se faisaient jamais car le Constructeur attendait dans l'emprise ; l'amélioration du Gouvernement retient désormais ses ressources pour pouvoir les accumuler
     Correctif : une partie sauvegardée ne disparaît plus de « Mes parties » pour les joueurs déconnectés
     L'IA construit sur un gisement proche qu'elle découvre au lieu d'aller en chercher un loin
-    Marques d'équipe au sol : un losange sous chaque bâtiment et troupe, et un anneau plein isométrique quand ils sont sélectionnés ; ils remplacent le fin contour, presque invisible par temps d'orage
+    Couleur d'équipe : les détails de chaque bâtiment et troupe (bannières, lumières, enseignes) sont peints à la couleur du joueur ; sans sélection, quatre arcs tournent lentement à la base et, sélectionnés, un anneau plein isométrique ; ils remplacent le fin contour, presque invisible par temps d'orage
 
 v2026.10.23 alpha
     Les troupes alliées se traversent en se déplaçant et les plus lentes bougent d'abord ; elles ne fusionnent plus lors d'un déplacement de groupe et la vie se met à jour à la fin de l'animation
