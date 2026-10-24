@@ -19,6 +19,7 @@ v2026.10.24 alpha
     Correzione: una partita salvata non sparisce più da «Le mie partite» per i giocatori disconnessi
     L'IA costruisce su un giacimento vicino che scopre invece di andare lontano a cercarlo
     Colore di squadra: i dettagli di ogni edificio e truppa (stendardi, luci, insegne) sono dipinti del colore del giocatore, anche sui pulsanti del pannello e durante il posizionamento di un edificio; selezionati, un anello pieno isometrico alla base; sostituiscono il bordo sottile, quasi invisibile con la tempesta
+    Produzione di unità: sopra l'edificio si vede «5x» a sinistra dell'icona dell'unità e i turni rimanenti con la loro icona a destra, senza quadrati gialli sotto; il punto di uscita è un mirino isometrico del colore del giocatore
 
 v2026.10.23 alpha
     Le truppe alleate si attraversano quando si muovono e le più lente si muovono per prime; non si fondono più negli spostamenti di gruppo e la vita si aggiorna al termine dell'animazione

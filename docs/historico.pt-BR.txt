@@ -19,6 +19,7 @@ v2026.10.24 alpha
     Correção: uma partida salva não some mais de «Minhas partidas» dos jogadores que se desconectaram
     A IA constrói em uma jazida próxima que descobre em vez de ir longe procurar
     Cor de equipe: os detalhes de cada edifício e tropa (bandeiras, luzes, letreiros) são pintados com a cor do jogador, também nos botões do painel e ao colocar um edifício; ao selecionar, um anel sólido isométrico na base; substituem o contorno fino, quase invisível em tempestades
+    Produção de unidades: acima do edifício aparece «5x» à esquerda do ícone da unidade e os turnos restantes com seu ícone à direita, sem quadrados amarelos embaixo; o ponto de saída é uma mira isométrica na cor do jogador
 
 v2026.10.23 alpha
     As tropas aliadas se atravessam ao se mover e as mais lentas se movem primeiro; não se fundem mais ao mover em grupo e a vida é atualizada ao fim da animação

@@ -19,6 +19,7 @@ v2026.10.24 alpha
     Arreglo: una partida guardada ya no desaparece de «Mis partidas» de los jugadores que se desconectaron
     La IA construye en un yacimiento cercano que descubre en lugar de irse lejos a buscarlo
     Color de equipo: los detalles de cada edificio y tropa (banderas, luces, rótulos) se pintan con el color del jugador, también en los botones del panel y al colocar un edificio; al seleccionar, un anillo sólido isométrico en la base; sustituyen al reborde fino, que con tormenta casi no se veía
+    Producción de unidades: sobre el edificio se ve «5x» a la izquierda del icono de la unidad y los turnos que faltan con su icono a la derecha, sin cuadros amarillos debajo; el punto de salida es una mira isométrica del color del jugador
 
 v2026.10.23 alpha
     Las tropas aliadas se traspasan al moverse y las más lentas se mueven primero; ya no se fusionan al mover en grupo y la vida se actualiza al acabar la animación

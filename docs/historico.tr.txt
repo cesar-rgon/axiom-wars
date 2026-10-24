@@ -19,6 +19,7 @@ v2026.10.24 alpha
     Düzeltme: kaydedilmiş bir oyun bağlantısı kopan oyuncuların «Oyunlarım» listesinden artık kaybolmuyor
     Yapay zekâ uzağa aramaya gitmek yerine keşfettiği yakın bir yatağa inşa eder
     Takım rengi: her bina ve birliğin ayrıntıları (bayraklar, ışıklar, tabelalar) oyuncunun rengiyle boyanır; panel düğmelerinde ve bina yerleştirirken de geçerlidir; seçildiğinde tabanda düz izometrik halka çıkar; fırtınada neredeyse görünmeyen ince kenarlığın yerini alır
+    Birim üretimi: binanın üstünde birim simgesinin soluna «5x», sağına kalan tur ve simgesi yazılır; alttaki sarı kareler kalktı; çıkış noktası oyuncunun renginde izometrik bir nişangâhtır
 
 v2026.10.23 alpha
     Müttefik birlikler hareket ederken birbirinin içinden geçer ve yavaş olanlar önce hareket eder; grup hareketinde artık birleşmez ve can animasyon bitince güncellenir

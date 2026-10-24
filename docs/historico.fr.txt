@@ -19,6 +19,7 @@ v2026.10.24 alpha
     Correctif : une partie sauvegardée ne disparaît plus de « Mes parties » pour les joueurs déconnectés
     L'IA construit sur un gisement proche qu'elle découvre au lieu d'aller en chercher un loin
     Couleur d'équipe : les détails de chaque bâtiment et troupe (bannières, lumières, enseignes) sont peints à la couleur du joueur, aussi sur les boutons du panneau et lors du placement d'un bâtiment ; sélectionnés, un anneau plein isométrique à la base ; ils remplacent le fin contour, presque invisible par temps d'orage
+    Production d'unités : au-dessus du bâtiment on voit « 5x » à gauche de l'icône de l'unité et les tours restants avec leur icône à droite, sans carrés jaunes en dessous ; le point de sortie est un réticule isométrique de la couleur du joueur
 
 v2026.10.23 alpha
     Les troupes alliées se traversent en se déplaçant et les plus lentes bougent d'abord ; elles ne fusionnent plus lors d'un déplacement de groupe et la vie se met à jour à la fin de l'animation
