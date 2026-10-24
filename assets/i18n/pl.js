@@ -179,7 +179,7 @@
   "mus.t14": "<strong>Pływający interfejs.</strong> Menu, zasoby, minimapa, panel budowy według poziomu Rządu i ikona dla każdego rodzaju rozkazu.",
   "mus.hint": "Przesuń palcem, aby poruszać się po osi czasu →",
   "news.title": "Nowości",
-  "news.body": "wojska sojusznicze przenikają się podczas ruchu; kamera rozstrzygnięcia „Śledź”/„Stała” z lupami dla stref, widać też budowę innych graczy; szybsza SI; generator stawiany po omacku nie ostrzega już o ukrytych różnicach poziomów, a powtórki pokazują stworzenia w poprawnej kolejności; Rząd w trakcie ulepszania nadal produkuje jednostki, a w trybie kooperacji można budować w zasięgu energii sojusznika.",
+  "news.body": "ataki, zdolności i skrzynie rozstrzygają się pole po polu razem z ruchem; oddziały ścigają uciekający cel i strzelają, gdy znajdzie się w zasięgu; przy kilku celach wszystkie strzelają do pierwszego, potem do następnego; Rząd kolejkuje tylko jedną jednostkę naraz.",
   "news.all": "Zobacz pełną historię zmian",
   "news.all.href": "docs/historico.pl.txt",
   "join.eyebrow": "Społeczność",

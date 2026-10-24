@@ -188,7 +188,7 @@
   "dl.c2": "Avvia il gioco: l'indirizzo del server è già compilato. Scrivi il tuo nome, poi crea una stanza o unisciti a una.",
   "nav.news": "Novità",
   "news.title": "Novità",
-  "news.body": "le truppe alleate si attraversano quando si muovono; telecamera della risoluzione «Segui»/«Fissa» con lenti per zona, e si vede costruire gli altri; IA più veloce; il generatore costruito alla cieca non avvisa più di dislivelli nascosti e i replay mostrano le creature nell'ordine giusto; il Governo in miglioramento continua a produrre unità e in cooperativa si costruisce nell'area di energia di un alleato.",
+  "news.body": "attacchi, abilità e forzieri si risolvono casella per casella insieme al movimento; le truppe inseguono il bersaglio che fugge e sparano una volta a portata; con più bersagli, tutte sparano al primo e passano al successivo; il Governo mette in coda una sola unità alla volta.",
   "news.all": "Vedi tutta la cronologia",
   "news.all.href": "docs/historico.it.txt",
   "lang.eyebrow": "Lingue",

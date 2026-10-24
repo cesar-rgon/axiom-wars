@@ -188,7 +188,7 @@
   "dl.c2": "Starte das Spiel: Die Serveradresse ist schon eingetragen. Gib deinen Namen ein und erstelle einen Raum oder tritt einem bei.",
   "nav.news": "Neuigkeiten",
   "news.title": "Neuigkeiten",
-  "news.body": "verbündete Truppen können einander beim Bewegen durchqueren; Auflösungskamera „Folgen“/„Fest“ mit Lupen pro Zone, und man sieht andere beim Bauen; schnellere KI; blind gebaute Generatoren warnen nicht mehr vor verdeckten Höhenunterschieden, und Wiederholungen zeigen die Kreaturen in der richtigen Reihenfolge; das Gobierno produziert während des Ausbaus weiter Einheiten, und im Koop baut man im Energiebereich eines Verbündeten.",
+  "news.body": "Angriffe, Fähigkeiten und Truhen werden Feld für Feld zusammen mit der Bewegung gelöst; Truppen verfolgen ein fliehendes Ziel und feuern in Reichweite; bei mehreren Zielen feuern alle auf das erste und wechseln dann zum nächsten; die Regierung reiht nur eine Einheit gleichzeitig ein.",
   "news.all": "Gesamten Verlauf ansehen",
   "news.all.href": "docs/historico.de.txt",
   "lang.eyebrow": "Sprachen",

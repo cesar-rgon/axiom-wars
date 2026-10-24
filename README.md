@@ -163,10 +163,17 @@ Neutral creatures that belong to no player. The docile ones wander their own hab
 
 ## Change history
 
-The latest version is **v2026.10.23 alpha**.
+The latest version is **v2026.10.24 alpha**.
 
 <details>
 <summary>Show all versions</summary>
+
+### v2026.10.24 alpha
+
+- Attacks, abilities and chest opening are resolved tile by tile together with movement, in the order they were sent; each troop's orders run in sequence
+- If the target flees, your troops chase it with their available AP until it is in range and then fire; without enough AP they do not fire, so no more shots at an empty tile
+- With several troops and several targets, all fire at the first one and move on to the next when it dies
+- The Government can only have one unit queued at a time
 
 ### v2026.10.23 alpha
 

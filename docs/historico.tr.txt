@@ -1,6 +1,12 @@
 AXIOM WARS DEĞİŞİKLİK GEÇMİŞİ
 (Sürüm, sunucuda veya istemcide yapılan son değişikliğin tarihidir.)
 
+v2026.10.24 alpha
+    Saldırılar, yetenekler ve sandık açma, gönderilme sırasına göre hareketle birlikte kare kare çözülür; her birliğin emirleri sırayla yürütülür
+    Hedef kaçarsa birliklerin eldeki AP ile menzile girene kadar onu kovalar ve sonra ateş eder; yeterli AP yoksa ateş etmez, yani boş kareye atış yok
+    Birden çok birlik ve birden çok hedef varsa hepsi ilkine ateş eder, o ölünce sonrakine geçer
+    Hükümet aynı anda yalnızca bir birimi kuyruğa alabilir
+
 v2026.10.23 alpha
     Müttefik birlikler hareket ederken birbirinin içinden geçer ve yavaş olanlar önce hareket eder; grup hareketinde artık birleşmez ve can animasyon bitince güncellenir
     Çözüm kamerası «Takip»/«Sabit» ve bölge başına büyüteçler; Hükümetinize ortalanmış açılır ve başkalarının inşa ettiğini görürsünüz

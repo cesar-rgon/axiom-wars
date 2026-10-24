@@ -1,6 +1,12 @@
 AXIOM WARS CHANGE HISTORY
 (The version is the date of the latest change to the server or the client.)
 
+v2026.10.24 alpha
+    Attacks, abilities and chest opening are resolved tile by tile together with movement, in the order they were sent; each troop's orders run in sequence
+    If the target flees, your troops chase it with their available AP until it is in range and then fire; without enough AP they do not fire, so no more shots at an empty tile
+    With several troops and several targets, all fire at the first one and move on to the next when it dies
+    The Government can only have one unit queued at a time
+
 v2026.10.23 alpha
     Allied troops pass through each other when moving and the slower ones move first; they no longer merge when moving as a group and life updates when the animation ends
     Resolution camera "Follow"/"Fixed" with per-zone magnifiers; it opens centred on your Government and you see others building

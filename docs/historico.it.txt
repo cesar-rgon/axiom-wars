@@ -1,6 +1,12 @@
 CRONOLOGIA DELLE MODIFICHE DI AXIOM WARS
 (La versione è la data dell'ultima modifica del server o del client.)
 
+v2026.10.24 alpha
+    Attacchi, abilità e apertura dei forzieri si risolvono casella per casella insieme al movimento, nell'ordine di invio; gli ordini di ogni truppa si eseguono in sequenza
+    Se il bersaglio fugge, le tue truppe lo inseguono con i PA disponibili finché non è a portata, poi sparano; senza PA sufficienti non sparano, quindi niente più colpi su una casella vuota
+    Con più truppe e più bersagli, tutte sparano al primo e passano al successivo quando muore
+    Il Governo può avere una sola unità in coda alla volta
+
 v2026.10.23 alpha
     Le truppe alleate si attraversano quando si muovono e le più lente si muovono per prime; non si fondono più negli spostamenti di gruppo e la vita si aggiorna al termine dell'animazione
     Telecamera di risoluzione «Segue»/«Fissa» con lenti per zona; si apre centrata sul tuo Governo e vedi costruire gli altri

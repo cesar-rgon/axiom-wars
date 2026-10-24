@@ -1,6 +1,12 @@
 ÄNDERUNGSVERLAUF VON AXIOM WARS
 (Die Version ist das Datum der letzten Änderung am Server oder am Client.)
 
+v2026.10.24 alpha
+    Angriffe, Fähigkeiten und das Öffnen von Truhen werden Feld für Feld zusammen mit der Bewegung gelöst, in der Reihenfolge des Absendens; die Befehle jeder Truppe laufen nacheinander ab
+    Flieht das Ziel, verfolgen deine Truppen es mit den verfügbaren AP, bis es in Reichweite ist, und feuern dann; ohne genug AP feuern sie nicht, es gibt also keine Schüsse mehr auf leere Felder
+    Bei mehreren Truppen und mehreren Zielen feuern alle auf das erste und wechseln zum nächsten, wenn es stirbt
+    Die Regierung kann nur eine Einheit gleichzeitig in der Warteschlange haben
+
 v2026.10.23 alpha
     Verbündete Truppen laufen durcheinander hindurch und die langsameren ziehen zuerst; sie verschmelzen bei Gruppenbewegungen nicht mehr und die Lebenspunkte aktualisieren sich nach der Animation
     Auflösungskamera „Folgen“/„Fest“ mit Lupen pro Zone; sie öffnet zentriert auf deiner Regierung und du siehst andere bauen

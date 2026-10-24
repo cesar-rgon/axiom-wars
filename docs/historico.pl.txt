@@ -1,6 +1,12 @@
 HISTORIA ZMIAN AXIOM WARS
 (Wersja to data ostatniej zmiany serwera lub klienta.)
 
+v2026.10.24 alpha
+    Ataki, zdolności i otwieranie skrzyń rozstrzygają się pole po polu razem z ruchem, w kolejności wysłania; rozkazy każdego oddziału wykonują się po kolei
+    Jeśli cel ucieka, twoje oddziały ścigają go dostępnymi PA, aż znajdzie się w zasięgu, i wtedy strzelają; bez dość PA nie strzelają, więc koniec ze strzałami w puste pole
+    Przy kilku oddziałach i kilku celach wszystkie strzelają do pierwszego, a gdy zginie, przechodzą do następnego
+    Rząd może mieć w kolejce tylko jedną jednostkę naraz
+
 v2026.10.23 alpha
     Sojusznicze oddziały przenikają się podczas ruchu, a wolniejsze ruszają pierwsze; nie łączą się już przy ruchu grupowym, a życie aktualizuje się po zakończeniu animacji
     Kamera rozstrzygnięcia „Podążaj”/„Stała” z lupami dla stref; otwiera się wyśrodkowana na twoim Rządzie i widzisz, jak budują inni

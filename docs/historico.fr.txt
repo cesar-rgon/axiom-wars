@@ -1,6 +1,12 @@
 HISTORIQUE DES CHANGEMENTS D'AXIOM WARS
 (La version est la date de la dernière modification du serveur ou du client.)
 
+v2026.10.24 alpha
+    Les attaques, les capacités et l'ouverture des coffres se résolvent case par case avec le déplacement, dans l'ordre d'envoi ; les ordres de chaque troupe s'exécutent en séquence
+    Si la cible fuit, tes troupes la poursuivent avec les PA disponibles jusqu'à être à portée, puis tirent ; sans assez de PA elles ne tirent pas, fini les tirs sur une case vide
+    Avec plusieurs troupes et plusieurs cibles, toutes tirent sur la première puis passent à la suivante quand elle meurt
+    Le Gouvernement ne peut avoir qu'une seule unité en file à la fois
+
 v2026.10.23 alpha
     Les troupes alliées se traversent en se déplaçant et les plus lentes bougent d'abord ; elles ne fusionnent plus lors d'un déplacement de groupe et la vie se met à jour à la fin de l'animation
     Caméra de résolution « Suit »/« Fixe » avec loupes par zone ; elle s'ouvre centrée sur ton Gouvernement et tu vois les autres construire

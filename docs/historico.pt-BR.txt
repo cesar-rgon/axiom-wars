@@ -1,6 +1,12 @@
 HISTÓRICO DE MUDANÇAS DE AXIOM WARS
 (A versão é a data da última mudança no servidor ou no cliente.)
 
+v2026.10.24 alpha
+    Ataques, habilidades e abertura de baús são resolvidos casa a casa junto com o movimento, na ordem de envio; as ordens de cada tropa são cumpridas em sequência
+    Se o alvo foge, suas tropas o perseguem com os PA disponíveis até ficar ao alcance e então atiram; sem PA suficientes não atiram, então acabaram os tiros em casas vazias
+    Com várias tropas e vários alvos, todas atiram no primeiro e passam ao próximo quando ele morre
+    O Governo só pode ter uma unidade na fila por vez
+
 v2026.10.23 alpha
     As tropas aliadas se atravessam ao se mover e as mais lentas se movem primeiro; não se fundem mais ao mover em grupo e a vida é atualizada ao fim da animação
     Câmera de resolução «Segue»/«Fixa» com lupas por zona; abre centrada no seu Governo e você vê os outros construindo

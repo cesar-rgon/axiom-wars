@@ -188,7 +188,7 @@
   "dl.c2": "Lancez le jeu : l'adresse du serveur est déjà remplie. Saisissez votre nom, puis créez un salon ou rejoignez-en un.",
   "nav.news": "Nouveautés",
   "news.title": "Nouveautés",
-  "news.body": "les troupes alliées se traversent en se déplaçant ; caméra de résolution « Suit »/« Fixe » avec loupes par zone, et on voit les autres construire ; IA plus rapide ; le générateur construit à l'aveugle n'avertit plus des dénivelés cachés et les replays montrent les créatures dans le bon ordre ; le Gouvernement en amélioration continue de produire des unités, et en coopératif on construit dans la zone d'énergie d'un allié.",
+  "news.body": "les attaques, les capacités et les coffres se résolvent case par case avec le déplacement ; les troupes poursuivent la cible qui fuit et tirent une fois à portée ; avec plusieurs cibles, toutes tirent sur la première puis passent à la suivante ; le Gouvernement ne met qu'une unité en file à la fois.",
   "news.all": "Voir tout l'historique",
   "news.all.href": "docs/historico.fr.txt",
   "lang.eyebrow": "Langues",
