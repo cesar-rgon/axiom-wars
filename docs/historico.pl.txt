@@ -21,6 +21,7 @@ v2026.10.24 alpha
     Kolor drużyny: szczegóły każdego budynku i oddziału (sztandary, światła, szyldy) są malowane kolorem gracza, także na przyciskach panelu i przy stawianiu budynku; po zaznaczeniu u podstawy pojawia się pełny izometryczny pierścień; zastępują cienki obrys, prawie niewidoczny podczas burzy
     Produkcja jednostek: nad budynkiem widać „5x” po lewej od ikony jednostki, a po prawej pozostałe tury z ikoną, bez żółtych kwadratów pod spodem; punkt zbiórki to izometryczny celownik w kolorze gracza
     Pracownicy: pod każdym ekstraktorem i generatorem panel z nową ikoną pracownika (hełm z przyłbicą), n/maks, buźką nastroju i paskiem średniego zadowolenia, który blaknie, gdy poniżej stoi oddział; po zaznaczeniu budynku widać każdego pracownika z jego procentem
+    Płynniejsze mikroture: gdy oddział ma dwa ruchy z rzędu, drugi zaczyna się od razu po dotarciu do końca pierwszego, bez stania w miejscu, gdy ruszają się inni
 
 v2026.10.23 alpha
     Sojusznicze oddziały przenikają się podczas ruchu, a wolniejsze ruszają pierwsze; nie łączą się już przy ruchu grupowym, a życie aktualizuje się po zakończeniu animacji

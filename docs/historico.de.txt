@@ -21,6 +21,7 @@ v2026.10.24 alpha
     Teamfarbe: die Details jedes Gebäudes und jeder Truppe (Banner, Lichter, Schilder) werden in der Farbe des Spielers gemalt, auch auf den Panelknöpfen und beim Platzieren eines Gebäudes; bei Auswahl ein durchgehender isometrischer Ring an der Basis; sie ersetzen den dünnen Rand, der bei Sturm kaum zu sehen war
     Einheitenproduktion: über dem Gebäude steht links vom Einheitensymbol „5x“ und rechts die verbleibenden Runden mit Symbol, ohne gelbe Kästchen darunter; der Sammelpunkt ist ein isometrisches Fadenkreuz in der Farbe des Spielers
     Arbeiter: unter jedem Extraktor und Generator ein Panel mit dem neuen Arbeitersymbol (Helm mit Visier), n/max, einem Stimmungsgesicht und dem Balken der mittleren Zufriedenheit, das verblasst, wenn darunter eine Truppe steht; beim Auswählen des Gebäudes sieht man jeden Arbeiter mit seinem Prozentwert
+    Flüssigere Mikrorunden: hat eine Truppe zwei Bewegungen hintereinander, beginnt die zweite, sobald sie das Ende der ersten erreicht, ohne stehen zu bleiben, während sich die anderen bewegen
 
 v2026.10.23 alpha
     Verbündete Truppen laufen durcheinander hindurch und die langsameren ziehen zuerst; sie verschmelzen bei Gruppenbewegungen nicht mehr und die Lebenspunkte aktualisieren sich nach der Animation

@@ -21,6 +21,7 @@ v2026.10.24 alpha
     Team colour: the details of every building and troop (banners, lights, signs) are painted in the player's colour, also on the panel buttons and when placing a building; when selected, a solid isometric ring at the base; they replace the thin outline, which was barely visible in a storm
     Unit production: above the building you see "5x" to the left of the unit icon and the turns left with their icon to the right, with no yellow squares below; the rally point is an isometric reticle in the player's colour
     Workers: under every extractor and generator, a panel with the new worker icon (helmet with visor), n/max, a mood face and the mean satisfaction bar, which fades if a troop is below; select the building to see each worker with its percentage
+    Smoother microturns: if a troop has two moves in a row, the second starts as soon as it reaches the end of the first, without standing still while the others move
 
 v2026.10.23 alpha
     Allied troops pass through each other when moving and the slower ones move first; they no longer merge when moving as a group and life updates when the animation ends
