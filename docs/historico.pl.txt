@@ -13,7 +13,7 @@ v2026.10.24 alpha
     Przycisk budynku, na który cię nie stać, pokazuje na czerwono, czego brakuje
     Panel graczy z opcją „Zawsze pokazuj” w Ustawieniach; głosowanie o oddaniu nieobecnego człowieka SI liczy tylko ludzi, którzy mogą głosować
     Rozstrzyganie tury: minimapa jest widoczna i klikalna, mapę można przeciągać środkowym przyciskiem, kamera „Podąża za moimi wojskami”; lupy poza ekranem zostają przy krawędzi ze strzałką i są zaznaczone na minimapie
-    Zakup wojsk: przyciski panelu w wierszach z kosztem; każde kliknięcie dodaje jednostkę do jednego rozkazu, a po zbliżeniu kursora do budynku pojawiają się pola do zamówienia kilku naraz
+    Zakup wojsk: przyciski panelu w wierszach z kosztem; każde kliknięcie dodaje jednostkę do jednego rozkazu, a po wybraniu budynku dolny panel pokazuje pola do zamówienia kilku naraz
     W pokoju gracz może wybrać kolor używany przez SI; SI dostaje inny wolny
     Poprawka: budynki, które nigdy nie powstawały, bo Konstruktor czekał wewnątrz obrysu; ulepszenie Rządu teraz zatrzymuje swoje zasoby, by dało się je zebrać
     Poprawka: zapisana gra nie znika już z „Moich gier” graczy, którzy się rozłączyli

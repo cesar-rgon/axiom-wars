@@ -13,7 +13,7 @@ v2026.10.24 alpha
     Le bouton d'un bâtiment que tu ne peux pas payer indique en rouge ce qui manque
     Panneau des joueurs avec l'option « Toujours afficher » dans la Configuration ; le vote pour confier un humain absent à l'IA ne compte que les humains qui peuvent voter
     Résolution du tour : minicarte visible et cliquable, carte déplaçable avec le bouton central, caméra « Suit mes troupes » ; les loupes hors écran restent au bord avec une flèche et sont marquées sur la minicarte
-    Achat de troupes : boutons du panneau en lignes avec leur coût ; chaque clic ajoute une unité à un seul ordre et, en approchant la souris du bâtiment, des cases apparaissent pour en commander plusieurs d'un coup
+    Achat de troupes : boutons du panneau en lignes avec leur coût ; chaque clic ajoute une unité à un seul ordre et, en sélectionnant un bâtiment, le panneau du bas affiche des cases pour en commander plusieurs d'un coup
     Dans le salon, un joueur peut choisir la couleur d'une IA ; l'IA reçoit une autre couleur libre
     Correctif : des constructions ne se faisaient jamais car le Constructeur attendait dans l'emprise ; l'amélioration du Gouvernement retient désormais ses ressources pour pouvoir les accumuler
     Correctif : une partie sauvegardée ne disparaît plus de « Mes parties » pour les joueurs déconnectés

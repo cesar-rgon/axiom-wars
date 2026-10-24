@@ -13,7 +13,7 @@ v2026.10.24 alpha
     O botão de um edifício que você não pode pagar mostra em vermelho o que falta
     Painel de jogadores com a opção «Mostrar sempre» na Configuração; a votação para passar um humano ausente para a IA conta só os humanos que podem votar
     Resolução do turno: minimapa visível e clicável, mapa arrastável com o botão do meio, câmera «Segue minhas tropas»; as lupas fora da tela ficam na borda com uma seta e aparecem no minimapa
-    Compra de tropas: botões do painel em linhas com o custo; cada clique soma uma unidade a uma única ordem e, ao aproximar o mouse do edifício, aparecem casas para pedir várias de uma vez
+    Compra de tropas: botões do painel em linhas com o custo; cada clique soma uma unidade a uma única ordem e, ao selecionar um edifício, o painel inferior mostra casas para pedir várias de uma vez
     Na sala, um jogador pode escolher a cor usada por uma IA; a IA recebe outra livre
     Correção: construções que nunca eram feitas porque o Construtor esperava dentro da área; a melhoria do Governo agora retém seus recursos para poder juntá-los
     Correção: uma partida salva não some mais de «Minhas partidas» dos jogadores que se desconectaram

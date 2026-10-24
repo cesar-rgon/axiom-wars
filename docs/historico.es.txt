@@ -13,7 +13,7 @@ v2026.10.24 alpha
     El botón de un edificio sin recursos suficientes muestra en un aviso rojo lo que te falta
     Panel de jugadores con la opción «Mostrar siempre» en Configuración; el voto para pasar un humano ausente a IA cuenta sólo a los humanos que pueden votar
     Resolución de turno: minimapa visible y clicable, mapa arrastrable con el botón central, cámara «Sigue mis tropas» y lupas fuera de pantalla ancladas al borde con una flecha y marcadas en el minimapa
-    Compra de tropas: botones del panel en filas con su coste; cada clic suma una unidad a una sola orden y, al acercar el ratón al edificio, salen casillas para pedir varias de golpe
+    Compra de tropas: botones del panel en filas con su coste; cada clic suma una unidad a una sola orden y, al seleccionar un edificio, el panel inferior muestra casillas para pedir varias de golpe
     En la sala, un jugador puede escoger el color que usa una IA; la IA recibe otro libre
     Arreglo: construcciones que nunca se hacían porque el Constructor esperaba dentro de la huella; la mejora del Gobierno ahora retiene sus recursos para poder juntarlos
     Arreglo: una partida guardada ya no desaparece de «Mis partidas» de los jugadores que se desconectaron

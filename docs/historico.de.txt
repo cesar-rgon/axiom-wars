@@ -13,7 +13,7 @@ v2026.10.24 alpha
     Der Knopf eines Gebäudes, das du dir nicht leisten kannst, zeigt in einem roten Hinweis, was fehlt
     Spielerpanel mit der Option „Immer anzeigen“ in den Einstellungen; die Abstimmung, einen abwesenden Menschen der KI zu übergeben, zählt nur die stimmberechtigten Menschen
     Rundenauflösung: Minikarte sichtbar und anklickbar, Karte mit der mittleren Taste verschiebbar, Kamera „Folgt meinen Truppen“; Lupen außerhalb des Bildes bleiben mit Pfeil am Rand und sind auf der Minikarte markiert
-    Truppenkauf: Panelknöpfe als Zeilen mit Kosten; jeder Klick fügt einer einzigen Bestellung eine Einheit hinzu, und nähert man die Maus dem Gebäude, erscheinen Felder, um mehrere auf einmal zu bestellen
+    Truppenkauf: Panelknöpfe als Zeilen mit Kosten; jeder Klick fügt einer einzigen Bestellung eine Einheit hinzu, und bei einem gewählten Gebäude zeigt das untere Panel Felder, um mehrere auf einmal zu bestellen
     Im Raum kann ein Spieler die Farbe einer KI wählen; die KI bekommt eine andere freie
     Fix: Gebäude, die nie gebaut wurden, weil der Konstrukteur innerhalb der Grundfläche wartete; ein Regierungs-Upgrade hält jetzt seine Ressourcen zurück, damit sie sich ansammeln
     Fix: Ein gespeichertes Spiel verschwindet nicht mehr aus „Meine Spiele“ der Spieler, die die Verbindung getrennt hatten

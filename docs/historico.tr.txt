@@ -13,7 +13,7 @@ v2026.10.24 alpha
     Karşılayamadığın bir binanın düğmesi neyin eksik olduğunu kırmızı bir uyarıyla gösterir
     Ayarlarda «Her zaman göster» seçeneğiyle oyuncu paneli; yokluktaki bir insanı yapay zekâya devretme oyu yalnızca oy verebilen insanları sayar
     Tur çözümü: mini harita görünür ve tıklanabilir, harita orta tuşla sürüklenebilir, kamera «Birliklerimi izler»; ekran dışındaki büyüteçler okla kenarda kalır ve mini haritada işaretlenir
-    Birlik satın alma: panel düğmeleri maliyetli satırlar halinde; her tık tek bir emre bir birim ekler ve imleci binaya yaklaştırınca birkaçını birden istemek için kutular çıkar
+    Birlik satın alma: panel düğmeleri maliyetli satırlar halinde; her tık tek bir emre bir birim ekler ve bir bina seçildiğinde alttaki panel birkaçını birden istemek için kutular gösterir
     Odada bir oyuncu yapay zekânın kullandığı rengi seçebilir; yapay zekâ başka bir boş renk alır
     Düzeltme: İnşaatçı taban alanının içinde beklediği için hiç yapılmayan binalar; Hükümet yükseltmesi artık kaynaklarını ayırır, böylece biriktirilebilir
     Düzeltme: kaydedilmiş bir oyun bağlantısı kopan oyuncuların «Oyunlarım» listesinden artık kaybolmuyor

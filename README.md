@@ -181,7 +181,7 @@ The latest version is **v2026.10.24 alpha**.
 - A building button you cannot afford shows what is missing in a red notice
 - Players panel with an "Always show" option in Settings; the vote to hand an absent human to the AI counts only the humans who can vote
 - Turn resolution: the minimap is visible and clickable, the map can be dragged with the middle button, the "Follows my troops" camera, and off-screen magnifiers stay on the edge with an arrow and are marked on the minimap
-- Buying troops: panel buttons in rows with their cost; each click adds one unit to a single order and, when you bring the cursor near the building, boxes appear to order several at once
+- Buying troops: panel buttons in rows with their cost; each click adds one unit to a single order and, when you select a building, the bottom panel shows boxes to order several at once
 - In the room a player can pick the colour an AI uses; the AI gets another free one
 - Fix: buildings that were never built because the Constructor waited inside the footprint; a Government upgrade now holds back its resources so they can be saved up
 - Fix: a saved match no longer disappears from "My matches" for players who disconnected
