@@ -18,6 +18,7 @@ v2026.10.24 alpha
     Fix: Gebäude, die nie gebaut wurden, weil der Konstrukteur innerhalb der Grundfläche wartete; ein Regierungs-Upgrade hält jetzt seine Ressourcen zurück, damit sie sich ansammeln
     Fix: Ein gespeichertes Spiel verschwindet nicht mehr aus „Meine Spiele“ der Spieler, die die Verbindung getrennt hatten
     Die KI baut auf einem entdeckten nahen Vorkommen, statt weit weg danach zu suchen
+    Teammarkierungen am Boden: eine Raute unter jedem Gebäude und jeder Truppe und ein durchgehender isometrischer Ring bei Auswahl; sie ersetzen den dünnen Rand, der bei Sturm kaum zu sehen war
 
 v2026.10.23 alpha
     Verbündete Truppen laufen durcheinander hindurch und die langsameren ziehen zuerst; sie verschmelzen bei Gruppenbewegungen nicht mehr und die Lebenspunkte aktualisieren sich nach der Animation

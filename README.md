@@ -186,6 +186,7 @@ The latest version is **v2026.10.24 alpha**.
 - Fix: buildings that were never built because the Constructor waited inside the footprint; a Government upgrade now holds back its resources so they can be saved up
 - Fix: a saved match no longer disappears from "My matches" for players who disconnected
 - The AI builds on a nearby deposit it discovers instead of going far away to find one
+- Team marks on the ground: a diamond under every building and troop, and a solid isometric ring when selected; they replace the thin outline, which was barely visible in a storm
 
 ### v2026.10.23 alpha
 

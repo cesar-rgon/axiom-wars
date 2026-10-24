@@ -18,6 +18,7 @@ v2026.10.24 alpha
     Poprawka: budynki, które nigdy nie powstawały, bo Konstruktor czekał wewnątrz obrysu; ulepszenie Rządu teraz zatrzymuje swoje zasoby, by dało się je zebrać
     Poprawka: zapisana gra nie znika już z „Moich gier” graczy, którzy się rozłączyli
     SI buduje na odkrytym pobliskim złożu zamiast szukać go daleko
+    Znaczniki drużyny na ziemi: romb pod każdym budynkiem i oddziałem oraz pełny izometryczny pierścień po zaznaczeniu; zastępują cienki obrys, prawie niewidoczny podczas burzy
 
 v2026.10.23 alpha
     Sojusznicze oddziały przenikają się podczas ruchu, a wolniejsze ruszają pierwsze; nie łączą się już przy ruchu grupowym, a życie aktualizuje się po zakończeniu animacji

@@ -186,6 +186,7 @@ La última versión es **v2026.10.24 alpha**.
 - Arreglo: construcciones que nunca se hacían porque el Constructor esperaba dentro de la huella; la mejora del Gobierno ahora retiene sus recursos para poder juntarlos
 - Arreglo: una partida guardada ya no desaparece de «Mis partidas» de los jugadores que se desconectaron
 - La IA construye en un yacimiento cercano que descubre en lugar de irse lejos a buscarlo
+- Marcas de equipo en el suelo: un rombo bajo cada edificio y tropa, y un anillo sólido isométrico cuando están seleccionados; sustituyen al reborde fino, que con tormenta casi no se veía
 
 ### v2026.10.23 alpha
 
