@@ -6,6 +6,9 @@ v2026.10.24 alpha
     Se il bersaglio fugge, le tue truppe lo inseguono con i PA disponibili finché non è a portata, poi sparano; senza PA sufficienti non sparano, quindi niente più colpi su una casella vuota
     Con più truppe e più bersagli, tutte sparano al primo e passano al successivo quando muore
     Il Governo può avere una sola unità in coda alla volta
+    Un nuovo ordine sostituisce quelli precedenti della truppa; con Maiusc viene aggiunto alla coda (appare un avviso quando sostituisce)
+    Gli attacchi a bersagli già distrutti vengono scartati automaticamente invece di accumularsi turno dopo turno
+    Correzione: lo scambio di Mech o APC alleati non lascia più caselle fantasma che impedivano a interi gruppi di avanzare
 
 v2026.10.23 alpha
     Le truppe alleate si attraversano quando si muovono e le più lente si muovono per prime; non si fondono più negli spostamenti di gruppo e la vita si aggiorna al termine dell'animazione

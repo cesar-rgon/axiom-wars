@@ -174,6 +174,9 @@ The latest version is **v2026.10.24 alpha**.
 - If the target flees, your troops chase it with their available AP until it is in range and then fire; without enough AP they do not fire, so no more shots at an empty tile
 - With several troops and several targets, all fire at the first one and move on to the next when it dies
 - The Government can only have one unit queued at a time
+- A new order replaces the troop's earlier ones; with Shift it is added to the queue (a notice shows when it replaces)
+- Attacks on targets that are already destroyed are dropped automatically instead of piling up turn after turn
+- Fix: swapping allied Mechs or APCs no longer leaves ghost tiles behind that stopped whole groups from advancing
 
 ### v2026.10.23 alpha
 

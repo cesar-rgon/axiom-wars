@@ -6,6 +6,9 @@ v2026.10.24 alpha
     Se o alvo foge, suas tropas o perseguem com os PA disponíveis até ficar ao alcance e então atiram; sem PA suficientes não atiram, então acabaram os tiros em casas vazias
     Com várias tropas e vários alvos, todas atiram no primeiro e passam ao próximo quando ele morre
     O Governo só pode ter uma unidade na fila por vez
+    Uma ordem nova substitui as anteriores da tropa; com Shift ela é adicionada à fila (um aviso aparece ao substituir)
+    Ataques a alvos já destruídos são descartados automaticamente em vez de se acumularem turno após turno
+    Correção: a troca de Mechas ou APCs aliados não deixa mais casas-fantasma que impediam grupos inteiros de avançar
 
 v2026.10.23 alpha
     As tropas aliadas se atravessam ao se mover e as mais lentas se movem primeiro; não se fundem mais ao mover em grupo e a vida é atualizada ao fim da animação

@@ -6,6 +6,9 @@ v2026.10.24 alpha
     Si la cible fuit, tes troupes la poursuivent avec les PA disponibles jusqu'à être à portée, puis tirent ; sans assez de PA elles ne tirent pas, fini les tirs sur une case vide
     Avec plusieurs troupes et plusieurs cibles, toutes tirent sur la première puis passent à la suivante quand elle meurt
     Le Gouvernement ne peut avoir qu'une seule unité en file à la fois
+    Un nouvel ordre remplace les précédents de la troupe ; avec Maj il s'ajoute à la file (un avis s'affiche en cas de remplacement)
+    Les attaques sur des cibles déjà détruites sont abandonnées automatiquement au lieu de s'accumuler d'un tour à l'autre
+    Correction : l'échange de Mechs ou de APC alliés ne laisse plus de cases fantômes qui empêchaient des groupes entiers d'avancer
 
 v2026.10.23 alpha
     Les troupes alliées se traversent en se déplaçant et les plus lentes bougent d'abord ; elles ne fusionnent plus lors d'un déplacement de groupe et la vie se met à jour à la fin de l'animation

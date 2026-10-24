@@ -6,6 +6,9 @@ v2026.10.24 alpha
     Jeśli cel ucieka, twoje oddziały ścigają go dostępnymi PA, aż znajdzie się w zasięgu, i wtedy strzelają; bez dość PA nie strzelają, więc koniec ze strzałami w puste pole
     Przy kilku oddziałach i kilku celach wszystkie strzelają do pierwszego, a gdy zginie, przechodzą do następnego
     Rząd może mieć w kolejce tylko jedną jednostkę naraz
+    Nowy rozkaz zastępuje wcześniejsze rozkazy oddziału; z Shift jest dodawany do kolejki (przy zastąpieniu pojawia się komunikat)
+    Ataki na już zniszczone cele są automatycznie odrzucane zamiast gromadzić się z tury na turę
+    Poprawka: zamiana miejscami sojuszniczych Mechów lub APC nie zostawia już pól-duchów, które blokowały całe grupy
 
 v2026.10.23 alpha
     Sojusznicze oddziały przenikają się podczas ruchu, a wolniejsze ruszają pierwsze; nie łączą się już przy ruchu grupowym, a życie aktualizuje się po zakończeniu animacji

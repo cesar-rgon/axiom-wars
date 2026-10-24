@@ -174,6 +174,9 @@ La última versión es **v2026.10.24 alpha**.
 - Si el objetivo huye, tus tropas lo persiguen con los PA disponibles hasta entrar en alcance y entonces disparan; sin PA suficientes no disparan, así que se acabaron los tiros a la casilla vacía
 - Con varias tropas y varios objetivos, todas disparan al primero y pasan al siguiente cuando muere
 - El Gobierno sólo puede tener una unidad en cola a la vez
+- Una orden nueva reemplaza las anteriores de la tropa; con Shift se añade a la cola (aviso al reemplazar)
+- Los ataques sobre objetivos ya destruidos se descartan solos en lugar de acumularse turno tras turno
+- Arreglo: ya no quedan casillas fantasma tras intercambiarse Mecas o APC aliados, que dejaban grupos enteros sin poder avanzar
 
 ### v2026.10.23 alpha
 

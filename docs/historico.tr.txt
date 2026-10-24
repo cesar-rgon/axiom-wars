@@ -6,6 +6,9 @@ v2026.10.24 alpha
     Hedef kaçarsa birliklerin eldeki AP ile menzile girene kadar onu kovalar ve sonra ateş eder; yeterli AP yoksa ateş etmez, yani boş kareye atış yok
     Birden çok birlik ve birden çok hedef varsa hepsi ilkine ateş eder, o ölünce sonrakine geçer
     Hükümet aynı anda yalnızca bir birimi kuyruğa alabilir
+    Yeni bir emir birliğin önceki emirlerini değiştirir; Shift ile kuyruğa eklenir (değiştirirken bir uyarı görünür)
+    Zaten yok edilmiş hedeflere yönelik saldırılar, tur tur birikmek yerine otomatik olarak silinir
+    Düzeltme: müttefik Mech veya APC yer değiştirince artık hayalet kareler kalmıyor; bunlar tüm grupların ilerlemesini engelliyordu
 
 v2026.10.23 alpha
     Müttefik birlikler hareket ederken birbirinin içinden geçer ve yavaş olanlar önce hareket eder; grup hareketinde artık birleşmez ve can animasyon bitince güncellenir
