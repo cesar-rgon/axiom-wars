@@ -10,7 +10,7 @@
 (function () {
   var LANGS = ['en', 'es', 'fr', 'it', 'de', 'ru', 'zh', 'zh-TW', 'ja', 'ko', 'pl', 'pt-BR', 'tr'];
   var HTML_LANG = { en: 'en', es: 'es', fr: 'fr', it: 'it', de: 'de', ru: 'ru', zh: 'zh-Hans', 'zh-TW': 'zh-Hant', ja: 'ja', ko: 'ko', pl: 'pl', 'pt-BR': 'pt-BR', tr: 'tr' };
-  var VERSION = '20261021b';
+  var VERSION = '20261025b';
 
   // [atributo del elemento, cómo leer/escribir el texto]
   var KINDS = [
@@ -48,6 +48,9 @@
     if (meta) meta.content = data && data.meta ? data.meta : META_EN;
     var sel = document.getElementById('lang');
     if (sel) sel.value = lang;
+    // The browser game opens in the language the visitor picked here.
+    var play = document.getElementById('play-web');
+    if (play) play.href = 'https://www.raseconline.es/axiom-wars/?lang=' + encodeURIComponent(lang);
     current = lang;
   }
 
