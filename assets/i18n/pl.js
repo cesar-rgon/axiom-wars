@@ -15,6 +15,7 @@
   "hero.discord": "Dołącz do Discorda",
   "hero.download": "Pobierz",
   "hero.play": "Graj w przeglądarce",
+  "hero.stream": "Oglądaj transmisję na żywo",
   "hero.playnote": "Wersja przeglądarkowa: wydajność może być niższa niż w kliencie natywnym i możesz doświadczyć spowolnień. Jest ograniczona do trybu PvP przeciwko 1 SI. Gra jest w fazie rozwoju, a prace nad zawartością i wydajnością będą kontynuowane. Jeśli gra Ci się podoba, zalecamy pobranie klienta, aby cieszyć się pełnym doświadczeniem.",
   "dl.winnote": "Windows: jeśli pojawi się ostrzeżenie o nierozpoznanym oprogramowaniu (SmartScreen), kliknij „Więcej informacji”, a następnie „Uruchom mimo to”. To fałszywy alarm.",
   "round.eyebrow": "Jak działa runda",

@@ -14,6 +14,7 @@
   "hero.discord": "Rejoindre le Discord",
   "hero.download": "Télécharger",
   "hero.play": "Jouer dans le navigateur",
+  "hero.stream": "Voir le direct",
   "hero.playnote": "Version navigateur : les performances peuvent être inférieures à celles du client natif et vous pouvez ressentir des ralentissements. Elle est limitée au mode JcJ contre 1 IA. Le jeu est en développement ; le contenu et les performances continueront d'évoluer. Si le jeu vous plaît, nous vous recommandons de télécharger le client pour profiter de l'expérience complète.",
   "dl.winnote": "Windows : si un avertissement de logiciel non reconnu (SmartScreen) s'affiche, cliquez sur « Informations complémentaires » puis « Exécuter quand même ». C'est un faux positif.",
   "round.eyebrow": "Comment se déroule une manche",

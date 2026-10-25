@@ -15,6 +15,7 @@
   "hero.discord": "Discord'a katıl",
   "hero.download": "İndir",
   "hero.play": "Tarayıcıda oyna",
+  "hero.stream": "Canlı yayını izle",
   "hero.playnote": "Tarayıcı sürümü: performans yerel istemciden düşük olabilir ve yavaşlamalar yaşayabilirsiniz. 1 yapay zekaya karşı PvP modu ile sınırlıdır. Oyun geliştirme aşamasındadır; içerik ve performans üzerinde çalışmaya devam edilecektir. Oyunu beğenirseniz, tam deneyim için istemciyi indirmenizi öneririz.",
   "dl.winnote": "Windows: Tanınmayan yazılım uyarısı (SmartScreen) görünürse “Daha fazla bilgi”ye ve ardından “Yine de çalıştır”a tıklayın. Bu bir yanlış pozitiftir.",
   "round.eyebrow": "Raunt nasıl işler",

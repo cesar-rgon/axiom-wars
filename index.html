@@ -121,6 +121,14 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--ember); outline
 .btn-discord { background: #5865f2; color: #fff; }
 .btn-play { background: var(--ember); color: #1a1006; }
 .btn-ghost { background: var(--hull-2); color: var(--steel); box-shadow: inset 0 0 0 1px var(--line); }
+.btn-live { background: var(--hull-2); color: var(--steel); box-shadow: inset 0 0 0 1px var(--line); }
+.live-dot { width: 9px; height: 9px; border-radius: 50%; background: #6b7683; flex: none; }
+.live-badge { font: 600 .72rem var(--font-mono); letter-spacing: .08em; padding: 3px 8px; border-radius: 2px; background: #2a323c; color: #9aa7b4; }
+.btn-live[data-state="online"] { box-shadow: inset 0 0 0 1px #1fbf6a; }
+.btn-live[data-state="online"] .live-dot { background: #1fbf6a; box-shadow: 0 0 8px #1fbf6a; animation: live-pulse 1.4s ease-in-out infinite; }
+.btn-live[data-state="online"] .live-badge { background: #1fbf6a; color: #04210f; }
+@keyframes live-pulse { 50% { opacity: .35; } }
+@media (prefers-reduced-motion: reduce) { .btn-live[data-state="online"] .live-dot { animation: none; } }
 .btn svg { width: 20px; height: 20px; flex: none; }
 
 /* Hero */
@@ -389,6 +397,7 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
           <span data-i18n="hero.discord">Join the Discord</span>
         </a>
         <a class="btn btn-play" id="play-web" href="https://www.raseconline.es/axiom-wars/" target="_blank" rel="noopener" data-i18n="hero.play">Play in browser</a>
+        <a class="btn btn-live" id="stream-btn" data-state="unknown" href="https://www.raseconline.es:8889/rasecfight/" target="_blank" rel="noopener"><span class="live-dot" aria-hidden="true"></span><span data-i18n="hero.stream">Watch live stream</span><span class="live-badge" id="stream-badge">…</span></a>
         <a class="btn btn-ghost" href="#descargas" data-i18n="hero.download">Download</a>
       </div>
       <p class="note" data-i18n="hero.playnote">Browser version: performance may be lower than the native client and you may experience slowdowns. It is limited to a PvP match against 1 AI. The game is in development and work on content and performance will continue. If you like it, we recommend downloading the client for the full experience.</p>
@@ -889,7 +898,7 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
     <span class="foot-links"><a href="#idiomas" data-i18n="lang.eyebrow">Languages</a> · <a href="#creditos" data-i18n="cred.eyebrow">Credits</a> · <a href="https://discord.gg/2EZAtyqtzW" data-i18n-href="discord.href" target="_blank" rel="noopener">Discord</a></span>
   </div>
 </footer>
-<script src="assets/js/i18n.js?v=20261025c"></script>
+<script src="assets/js/i18n.js?v=20261025d"></script>
 <script>
 // Cielo de fondo: una banda diagonal de Vía Láctea (nubes violeta/cian con un toque ámbar y una
 // franja de polvo oscuro) y estrellas más densas cerca de la banda. Todo muy tenue para no
@@ -1101,6 +1110,28 @@ window.addEventListener('message', function (ev) {
   var h = ev.data && ev.data.awGraphHeight;
   if (typeof h === 'number' && h > 200 && h < 3000) f.style.height = Math.ceil(h) + 'px';
 });
+</script>
+<script>
+// ONLINE/OFFLINE of the live stream: the VPS writes stream-status.json every few seconds
+// (see axiomwars-cli web/stream-status.sh); a file older than 30 s counts as offline.
+(function () {
+  var URL = 'https://www.raseconline.es/axiom-wars/stream-status.json';
+  var btn = document.getElementById('stream-btn'), badge = document.getElementById('stream-badge');
+  if (!btn || !badge) return;
+  function show(on) {
+    btn.setAttribute('data-state', on ? 'online' : 'offline');
+    badge.textContent = on ? 'ONLINE' : 'OFFLINE';
+  }
+  function poll() {
+    fetch(URL, { cache: 'no-store' })
+      .then(function (r) { return r.json(); })
+      .then(function (d) { show(d.online === true && Date.now() / 1000 - d.t < 30); })
+      .catch(function () { show(false); });
+  }
+  poll();
+  setInterval(poll, 15000);
+  document.addEventListener('visibilitychange', function () { if (!document.hidden) poll(); });
+})();
 </script>
 <script src="assets/js/reposo.js?v=20261020c"></script>
 </body>

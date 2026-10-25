@@ -75,6 +75,7 @@
   "hero.discord": "Únete al Discord",
   "hero.download": "Descargar",
   "hero.play": "Jugar en el navegador",
+  "hero.stream": "Ver streaming en directo",
   "hero.playnote": "Versión web: el rendimiento puede ser inferior al del cliente nativo y es posible que notes ralentizaciones. Está limitada al modo PvP contra 1 IA. El juego está en desarrollo y se seguirá trabajando en contenido y rendimiento. Si te gusta, te recomendamos descargar el cliente para disfrutar de la experiencia completa.",
   "dl.winnote": "Windows: si aparece el aviso de software no reconocido (SmartScreen), pulsa «Más información» y «Ejecutar de todas formas». Es un falso positivo.",
   "round.eyebrow": "Así es una ronda",

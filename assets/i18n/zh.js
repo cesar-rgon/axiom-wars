@@ -14,6 +14,7 @@
   "hero.discord": "加入 Discord",
   "hero.download": "下载",
   "hero.play": "在浏览器中游玩",
+  "hero.stream": "观看直播",
   "hero.playnote": "网页版：性能可能低于原生客户端，您可能会遇到卡顿。网页版仅限与 1 个 AI 对战的 PvP 模式。游戏仍在开发中，我们将继续完善内容和性能。如果您喜欢这款游戏，建议下载客户端以获得完整体验。",
   "dl.winnote": "Windows：如果出现“无法识别的应用”警告（SmartScreen），请点击“更多信息”，然后选择“仍要运行”。这是误报。",
   "round.eyebrow": "回合如何运作",

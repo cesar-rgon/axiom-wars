@@ -14,6 +14,7 @@
   "hero.discord": "Dem Discord beitreten",
   "hero.download": "Herunterladen",
   "hero.play": "Im Browser spielen",
+  "hero.stream": "Livestream ansehen",
   "hero.playnote": "Browser-Version: Die Leistung kann geringer sein als beim nativen Client, und es kann zu Verlangsamungen kommen. Sie ist auf den PvP-Modus gegen 1 KI beschränkt. Das Spiel befindet sich in Entwicklung; an Inhalten und Leistung wird weitergearbeitet. Wenn dir das Spiel gefällt, empfehlen wir, den Client für das volle Erlebnis herunterzuladen.",
   "dl.winnote": "Windows: Wenn die Warnung vor nicht erkannter Software (SmartScreen) erscheint, klicke auf „Weitere Informationen“ und dann auf „Trotzdem ausführen“. Es handelt sich um einen Fehlalarm.",
   "round.eyebrow": "Wie eine Runde abläuft",
