@@ -1,6 +1,18 @@
 HISTÓRICO DE MUDANÇAS DE AXIOM WARS
 (A versão é a data da última mudança no servidor ou no cliente.)
 
+v2026.10.25 alpha
+    Versão web do jogo: joga-se no navegador em raseconline.es/axiom-wars, sem instalar nada; ela abre direto uma partida 1 contra 1 contra a IA em um mapa pequeno, no idioma escolhido no site
+    Novo painel de recursos: cada recurso mostra o que sobra livre agora, já descontadas as ordens na fila, e abaixo o que você terá no próximo turno; barras coloridas, avisos de quanto dura o que está acabando e o cupo civil e militar com suas barras
+    Os tooltips de recursos, PA e cupo viraram uma conta curta (você tem, ordens na fila, produção líquida, próximo turno); segurando Shift aparecem a descrição e o detalhe de edifícios, unidades e operações do Banco
+    Construção: os edifícios aparecem em duas colunas com ícone, nome e uma bolinha verde se dá para construir neste turno ou vermelha se faltam recursos; a ordem entra na fila mesmo assim e espera
+    Unidades, ações de edifício e do Banco, habilidades e armas mostram só ícone e nome; todas têm tooltip com o básico e, com Shift, a informação completa, com o custo e o que falta
+    O zoom mais afastado passa a ser 2,0
+    A tecla N deixa de mostrar o mapa todo: digite /showallmap no chat
+    Painel de ações sem seleção: as tropas passam a 3 colunas com botões maiores
+    Site: botão Jogar no navegador que abre uma nova aba no idioma escolhido, avisos sobre o desempenho da versão web e sobre o aviso de software não reconhecido do Windows; o logo animado vai para o fim da página
+    Na versão web o tutorial recomeça a cada visita e Salvar partida e Sair para o menu ficam desativados
+
 v2026.10.24 alpha
     Ataques, habilidades e abertura de baús são resolvidos casa a casa junto com o movimento, na ordem de envio; as ordens de cada tropa são cumpridas em sequência
     Se o alvo foge, suas tropas o perseguem com os PA disponíveis até ficar ao alcance e então atiram; sem PA suficientes não atiram, então acabaram os tiros em casas vazias

@@ -1,6 +1,18 @@
 AXIOM WARS CHANGE HISTORY
 (The version is the date of the latest change to the server or the client.)
 
+v2026.10.25 alpha
+    Web version of the game: play in the browser at raseconline.es/axiom-wars with nothing to install; it opens straight into a 1 vs 1 match against the AI on a small map, in the language chosen on the website
+    New resources panel: each resource shows what you have free now, with the queued orders already taken off, and under it what you will have next turn; colour bars, warnings of how long something that is running out will last, and the civil and military pop caps with their own bar
+    Resource, AP and pop-cap tooltips are a short sum (you have, queued orders, net production, next turn); hold Shift to see the description and the breakdown of buildings, units and Bank operations
+    Construction: buildings are shown in two columns with their icon, their name and a green dot if they can be built this turn or a red one if resources fall short; the order is queued anyway and waits
+    Units, building and Bank actions, abilities and weapons show only an icon and a name; all of them have a tooltip with the basics and, with Shift, the full information, with what they cost and what is missing
+    The furthest zoom-out is now 2.0
+    The N key no longer shows the whole map: type /showallmap in the chat instead
+    Actions panel with nothing selected: troops are laid out in 3 columns with bigger buttons
+    Website: a Play in the browser button that opens a new tab in the chosen language, notes on the web version's performance and on Windows' unrecognised-software warning; the animated logo moves to the end of the page
+    In the web version the tutorial starts afresh on every visit and Save game and Exit to menu are disabled
+
 v2026.10.24 alpha
     Attacks, abilities and chest opening are resolved tile by tile together with movement, in the order they were sent; each troop's orders run in sequence
     If the target flees, your troops chase it with their available AP until it is in range and then fire; without enough AP they do not fire, so no more shots at an empty tile

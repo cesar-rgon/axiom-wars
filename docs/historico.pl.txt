@@ -1,6 +1,18 @@
 HISTORIA ZMIAN AXIOM WARS
 (Wersja to data ostatniej zmiany serwera lub klienta.)
 
+v2026.10.25 alpha
+    Wersja przeglądarkowa gry: gra się w przeglądarce na raseconline.es/axiom-wars, bez instalowania; od razu otwiera partię 1 na 1 z SI na małej mapie, w języku wybranym na stronie
+    Nowy panel zasobów: każdy zasób pokazuje, ile masz teraz wolne, po odjęciu rozkazów z kolejki, a pod spodem, ile będziesz mieć w następnej turze; kolorowe paski, ostrzeżenia, na jak długo wystarczy to, co się kończy, oraz populacja cywilna i wojskowa z własnymi paskami
+    Podpowiedzi zasobów, PA i populacji to krótki rachunek (masz, rozkazy w kolejce, produkcja netto, następna tura); po przytrzymaniu Shift pojawiają się opis i podział na budynki, jednostki i operacje Banku
+    Budowa: budynki są w dwóch kolumnach z ikoną, nazwą i zieloną kropką, jeśli można je zbudować w tej turze, lub czerwoną, gdy brakuje zasobów; rozkaz i tak trafia do kolejki i czeka
+    Jednostki, akcje budynków i Banku, zdolności i broń mają tylko ikonę i nazwę; wszystkie mają podpowiedź z najważniejszym, a z Shift z pełną informacją, kosztem i tym, czego brakuje
+    Najdalsze oddalenie to teraz 2,0
+    Klawisz N nie pokazuje już całej mapy: wpisz /showallmap na czacie
+    Panel akcji bez zaznaczenia: oddziały są w 3 kolumnach z większymi przyciskami
+    Strona: przycisk Graj w przeglądarce otwiera nową kartę w wybranym języku, uwagi o wydajności wersji przeglądarkowej i o ostrzeżeniu Windows przed nierozpoznanym oprogramowaniem; animowane logo przeniesiono na koniec strony
+    W wersji przeglądarkowej samouczek zaczyna się od nowa przy każdej wizycie, a Zapisz grę i Wyjdź do menu są wyłączone
+
 v2026.10.24 alpha
     Ataki, zdolności i otwieranie skrzyń rozstrzygają się pole po polu razem z ruchem, w kolejności wysłania; rozkazy każdego oddziału wykonują się po kolei
     Jeśli cel ucieka, twoje oddziały ścigają go dostępnymi PA, aż znajdzie się w zasięgu, i wtedy strzelają; bez dość PA nie strzelają, więc koniec ze strzałami w puste pole

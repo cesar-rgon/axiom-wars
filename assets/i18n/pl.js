@@ -182,7 +182,7 @@
   "mus.t14": "<strong>Pływający interfejs.</strong> Menu, zasoby, minimapa, panel budowy według poziomu Rządu i ikona dla każdego rodzaju rozkazu.",
   "mus.hint": "Przesuń palcem, aby poruszać się po osi czasu →",
   "news.title": "Nowości",
-  "news.body": "Ctrl zastępuje rozkazy, zakup wojsk polami, minimapa podczas rozstrzygania tury i poprawki budowy.",
+  "news.body": "Gra w przeglądarce, panel zasobów z wolnym teraz i następną turą, przyciski budowy z zieloną lub czerwoną kropką i podpowiedzi z Shift.",
   "news.all": "Zobacz pełną historię zmian",
   "news.all.href": "docs/historico.pl.txt",
   "join.eyebrow": "Społeczność",

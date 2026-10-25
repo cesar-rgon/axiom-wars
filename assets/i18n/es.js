@@ -215,7 +215,7 @@
   "dl.c2": "Abre el juego: la dirección del servidor ya viene rellena. Escribe tu nombre y crea una sala o únete a una.",
   "nav.news": "Novedades",
   "news.title": "Novedades",
-  "news.body": "Ctrl para reemplazar órdenes, compra de tropas por casillas, minimapa en la resolución de turno y arreglos de construcción.",
+  "news.body": "Juego en el navegador, panel de recursos con lo libre ahora y el turno siguiente, botones de construcción con círculo verde o rojo y tooltips con Shift.",
   "news.all": "Ver el histórico completo",
   "news.all.href": "docs/historico.es.txt",
   "lang.eyebrow": "Idiomas",

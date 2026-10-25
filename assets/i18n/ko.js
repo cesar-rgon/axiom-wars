@@ -182,7 +182,7 @@
   "mus.t14": "<strong>떠 있는 인터페이스.</strong> 메뉴, 자원, 미니맵, 정부 레벨별 건설 패널, 명령 종류마다 아이콘.",
   "mus.hint": "옆으로 밀어 타임라인을 따라 이동하세요 →",
   "news.title": "새 소식",
-  "news.body": "Ctrl로 명령 대체, 칸으로 부대 구입, 턴 처리 중 미니맵, 건설 수정.",
+  "news.body": "브라우저에서 플레이, 지금 사용 가능한 양과 다음 턴을 보여 주는 자원 패널, 초록·빨강 점이 있는 건설 버튼, Shift로 자세히 보는 툴팁.",
   "news.all": "전체 변경 기록 보기",
   "news.all.href": "docs/historico.ko.txt",
   "join.eyebrow": "커뮤니티",

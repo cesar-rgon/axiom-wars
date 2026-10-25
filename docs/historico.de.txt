@@ -1,6 +1,18 @@
 ÄNDERUNGSVERLAUF VON AXIOM WARS
 (Die Version ist das Datum der letzten Änderung am Server oder am Client.)
 
+v2026.10.25 alpha
+    Web-Version des Spiels: Sie läuft im Browser unter raseconline.es/axiom-wars, ohne Installation; sie öffnet direkt eine 1-gegen-1-Partie gegen die KI auf einer kleinen Karte, in der auf der Website gewählten Sprache
+    Neues Ressourcenpanel: Jede Ressource zeigt, was du jetzt frei hast, wartende Befehle schon abgezogen, und darunter, was du im nächsten Zug haben wirst; Farbbalken, Warnungen, wie lange etwas Knappes noch reicht, und das zivile und militärische Kontingent mit eigenem Balken
+    Die Tooltips für Ressourcen, AP und Kontingent sind eine kurze Rechnung (du hast, wartende Befehle, Nettoproduktion, nächster Zug); mit gedrückter Shift-Taste erscheinen die Beschreibung und die Aufschlüsselung nach Gebäuden, Einheiten und Bankgeschäften
+    Bauen: Gebäude erscheinen in zwei Spalten mit Symbol, Name und einem grünen Punkt, wenn sie in diesem Zug gebaut werden können, oder einem roten, wenn die Ressourcen nicht reichen; der Befehl kommt trotzdem in die Warteschlange und wartet
+    Einheiten, Gebäude- und Bankaktionen, Fähigkeiten und Waffen zeigen nur Symbol und Name; alle haben einen Tooltip mit dem Wichtigsten und mit Shift den vollständigen Informationen samt Kosten und dem, was fehlt
+    Der weiteste Zoom-out beträgt jetzt 2,0
+    Die Taste N zeigt nicht mehr die ganze Karte: Stattdessen gibst du /showallmap im Chat ein
+    Aktionspanel ohne Auswahl: Die Truppen stehen in 3 Spalten mit größeren Schaltflächen
+    Website: Schaltfläche Im Browser spielen, die einen neuen Tab in der gewählten Sprache öffnet, Hinweise zur Leistung der Web-Version und zur Windows-Warnung vor nicht erkannter Software; das animierte Logo wandert ans Seitenende
+    In der Web-Version beginnt das Tutorial bei jedem Besuch von vorn, und Spiel speichern sowie Zum Menü sind deaktiviert
+
 v2026.10.24 alpha
     Angriffe, Fähigkeiten und das Öffnen von Truhen werden Feld für Feld zusammen mit der Bewegung gelöst, in der Reihenfolge des Absendens; die Befehle jeder Truppe laufen nacheinander ab
     Flieht das Ziel, verfolgen deine Truppen es mit den verfügbaren AP, bis es in Reichweite ist, und feuern dann; ohne genug AP feuern sie nicht, es gibt also keine Schüsse mehr auf leere Felder

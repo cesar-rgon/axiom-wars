@@ -191,7 +191,7 @@
   "dl.c2": "Starte das Spiel: Die Serveradresse ist schon eingetragen. Gib deinen Namen ein und erstelle einen Raum oder tritt einem bei.",
   "nav.news": "Neuigkeiten",
   "news.title": "Neuigkeiten",
-  "news.body": "Strg zum Ersetzen von Befehlen, Truppenkauf mit Feldern, Minikarte bei der Rundenauflösung und Baufixes.",
+  "news.body": "Im Browser spielen, Ressourcenpanel mit jetzt frei und nächster Zug, Baubuttons mit grünem oder rotem Punkt und Tooltips mit Shift.",
   "news.all": "Gesamten Verlauf ansehen",
   "news.all.href": "docs/historico.de.txt",
   "lang.eyebrow": "Sprachen",

@@ -191,7 +191,7 @@
   "dl.c2": "開啟遊戲：伺服器位址已經填好。輸入你的名字，然後建立房間或加入一個房間。",
   "nav.news": "新內容",
   "news.title": "新內容",
-  "news.body": "Ctrl 取代命令、用方格購買部隊、回合結算時的小地圖以及建造修復。",
+  "news.body": "瀏覽器中遊玩、顯示目前可用與下回合數量的資源面板、帶紅綠圓點的建造按鈕以及按住 Shift 顯示詳情的提示。",
   "news.all": "檢視完整更新歷史",
   "news.all.href": "docs/historico.zh-TW.txt",
   "lang.eyebrow": "語言",

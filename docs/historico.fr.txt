@@ -1,6 +1,18 @@
 HISTORIQUE DES CHANGEMENTS D'AXIOM WARS
 (La version est la date de la dernière modification du serveur ou du client.)
 
+v2026.10.25 alpha
+    Version web du jeu : on y joue dans le navigateur sur raseconline.es/axiom-wars, sans rien installer ; elle ouvre directement une partie 1 contre 1 contre l'IA sur une petite carte, dans la langue choisie sur le site
+    Nouveau panneau de ressources : chaque ressource affiche ce qu'il vous reste de libre maintenant, ordres en file déjà déduits, et dessous ce que vous aurez au tour suivant ; barres de couleur, alertes sur la durée de ce qui s'épuise, et quotas civil et militaire avec leur barre
+    Les infobulles des ressources, des PA et du quota sont un court calcul (vous avez, ordres en file, production nette, tour suivant) ; en maintenant Shift apparaissent la description et le détail des bâtiments, unités et opérations de la Banque
+    Construction : les bâtiments s'affichent sur deux colonnes avec leur icône, leur nom et un point vert s'ils peuvent être construits ce tour ou rouge si les ressources manquent ; l'ordre est mis en file quand même et attend
+    Les unités, les actions de bâtiment et de la Banque, les capacités et les armes n'affichent qu'une icône et un nom ; toutes ont une infobulle avec l'essentiel et, avec Shift, l'information complète, avec leur coût et ce qui manque
+    Le zoom arrière maximal passe à 2,0
+    La touche N n'affiche plus toute la carte : il faut taper /showallmap dans le chat
+    Panneau d'actions sans sélection : les troupes passent sur 3 colonnes avec de plus gros boutons
+    Site web : bouton Jouer dans le navigateur qui ouvre un nouvel onglet dans la langue choisie, avertissements sur les performances de la version web et sur l'alerte de logiciel non reconnu de Windows ; le logo animé passe en bas de page
+    Dans la version web, le tutoriel recommence à chaque visite et Sauvegarder la partie et Quitter vers le menu sont désactivés
+
 v2026.10.24 alpha
     Les attaques, les capacités et l'ouverture des coffres se résolvent case par case avec le déplacement, dans l'ordre d'envoi ; les ordres de chaque troupe s'exécutent en séquence
     Si la cible fuit, tes troupes la poursuivent avec les PA disponibles jusqu'à être à portée, puis tirent ; sans assez de PA elles ne tirent pas, fini les tirs sur une case vide

@@ -191,7 +191,7 @@
   "dl.c2": "Avvia il gioco: l'indirizzo del server è già compilato. Scrivi il tuo nome, poi crea una stanza o unisciti a una.",
   "nav.news": "Novità",
   "news.title": "Novità",
-  "news.body": "Ctrl per sostituire gli ordini, acquisto di truppe a caselle, minimappa nella risoluzione del turno e correzioni alle costruzioni.",
+  "news.body": "Gioca nel browser, pannello delle risorse con libero ora e turno successivo, pulsanti di costruzione con pallino verde o rosso e tooltip con Shift.",
   "news.all": "Vedi tutta la cronologia",
   "news.all.href": "docs/historico.it.txt",
   "lang.eyebrow": "Lingue",

@@ -1,6 +1,18 @@
 AXIOM WARS DEĞİŞİKLİK GEÇMİŞİ
 (Sürüm, sunucuda veya istemcide yapılan son değişikliğin tarihidir.)
 
+v2026.10.25 alpha
+    Oyunun web sürümü: hiçbir şey kurmadan raseconline.es/axiom-wars adresinde tarayıcıdan oynanır; küçük bir haritada yapay zekâya karşı 1'e 1 maça doğrudan açılır ve dil sitede seçtiğin dildir
+    Yeni kaynak paneli: her kaynak, sıradaki emirler düşüldükten sonra şimdi serbest olan miktarı ve altında sonraki tur elinde olacak miktarı gösterir; renkli çubuklar, azalan şeyin ne kadar yeteceğine dair uyarılar ve kendi çubuklarıyla sivil ve askeri nüfus
+    Kaynak, PA ve nüfus ipuçları kısa bir hesap oldu (elinde, sıradaki emirler, net üretim, sonraki tur); Shift'e basılı tutunca açıklama ile bina, birim ve banka işlemi dökümü görünür
+    İnşa: binalar simge ve adla iki sütunda gösterilir; bu tur inşa edilebiliyorsa yeşil, kaynak yetmiyorsa kırmızı nokta görünür; emir yine de sıraya girer ve bekler
+    Birimler, bina ve banka eylemleri, yetenekler ve silahlar yalnızca simge ve ad gösterir; hepsinin temel bilgiyi veren bir ipucu vardır, Shift ile maliyet ve eksik olanlar dahil tam bilgi görünür
+    En uzak yakınlaştırma artık 2,0
+    N tuşu artık tüm haritayı göstermez: sohbete /showallmap yazılır
+    Hiçbir şey seçili değilken eylem paneli: birlikler 3 sütunda ve düğmeler daha büyük
+    Web sitesi: seçilen dilde yeni sekme açan Tarayıcıda oyna düğmesi, web sürümünün performansı ve Windows'un tanınmayan yazılım uyarısı hakkında notlar; hareketli logo sayfanın sonuna taşındı
+    Web sürümünde eğitim her ziyarette baştan başlar, Oyunu kaydet ve Menüye çık devre dışıdır
+
 v2026.10.24 alpha
     Saldırılar, yetenekler ve sandık açma, gönderilme sırasına göre hareketle birlikte kare kare çözülür; her birliğin emirleri sırayla yürütülür
     Hedef kaçarsa birliklerin eldeki AP ile menzile girene kadar onu kovalar ve sonra ateş eder; yeterli AP yoksa ateş etmez, yani boş kareye atış yok

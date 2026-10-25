@@ -191,7 +191,7 @@
   "dl.c2": "Lancez le jeu : l'adresse du serveur est déjà remplie. Saisissez votre nom, puis créez un salon ou rejoignez-en un.",
   "nav.news": "Nouveautés",
   "news.title": "Nouveautés",
-  "news.body": "Ctrl pour remplacer les ordres, achat de troupes par cases, minicarte pendant la résolution du tour et correctifs de construction.",
+  "news.body": "Jouer dans le navigateur, panneau de ressources avec libre maintenant et tour suivant, boutons de construction avec point vert ou rouge et infobulles avec Shift.",
   "news.all": "Voir tout l'historique",
   "news.all.href": "docs/historico.fr.txt",
   "lang.eyebrow": "Langues",

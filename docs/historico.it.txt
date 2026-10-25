@@ -1,6 +1,18 @@
 CRONOLOGIA DELLE MODIFICHE DI AXIOM WARS
 (La versione è la data dell'ultima modifica del server o del client.)
 
+v2026.10.25 alpha
+    Versione web del gioco: si gioca nel browser su raseconline.es/axiom-wars, senza installare nulla; si apre direttamente in una partita 1 contro 1 contro l'IA su una mappa piccola, nella lingua scelta sul sito
+    Nuovo pannello delle risorse: ogni risorsa mostra quanto ti resta libero ora, con gli ordini in coda già sottratti, e sotto quanto avrai il turno successivo; barre colorate, avvisi su quanto dura ciò che sta finendo e quota civile e militare con la loro barra
+    I tooltip di risorse, PA e quota sono un breve conto (hai, ordini in coda, produzione netta, turno successivo); tenendo premuto Shift compaiono la descrizione e il dettaglio di edifici, unità e operazioni della Banca
+    Costruzione: gli edifici sono in due colonne con icona, nome e un pallino verde se si costruiscono in questo turno o rosso se le risorse non bastano; l'ordine va comunque in coda e aspetta
+    Unità, azioni degli edifici e della Banca, abilità e armi mostrano solo icona e nome; tutti hanno un tooltip con l'essenziale e, con Shift, le informazioni complete, con il costo e ciò che manca
+    Lo zoom più lontano passa a 2,0
+    Il tasto N non mostra più tutta la mappa: si scrive /showallmap nella chat
+    Pannello delle azioni senza selezione: le truppe passano a 3 colonne con pulsanti più grandi
+    Sito web: pulsante Gioca nel browser che apre una nuova scheda nella lingua scelta, avvisi sulle prestazioni della versione web e sull'avviso di software non riconosciuto di Windows; il logo animato passa in fondo alla pagina
+    Nella versione web il tutorial riparte da zero a ogni visita e Salva partita ed Esci al menu sono disattivati
+
 v2026.10.24 alpha
     Attacchi, abilità e apertura dei forzieri si risolvono casella per casella insieme al movimento, nell'ordine di invio; gli ordini di ogni truppa si eseguono in sequenza
     Se il bersaglio fugge, le tue truppe lo inseguono con i PA disponibili finché non è a portata, poi sparano; senza PA sufficienti non sparano, quindi niente più colpi su una casella vuota

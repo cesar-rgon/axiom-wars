@@ -163,10 +163,23 @@ Criaturas neutrales que no pertenecen a ningún jugador. Las dóciles deambulan 
 
 ## Histórico de cambios
 
-La última versión es **v2026.10.24 alpha**.
+La última versión es **v2026.10.25 alpha**.
 
 <details>
 <summary>Ver todas las versiones</summary>
+
+### v2026.10.25 alpha
+
+- Versión web del juego: se juega desde el navegador en raseconline.es/axiom-wars, sin instalar nada; entra directo a una partida 1 contra 1 frente a la IA en un mapa pequeño, con el idioma elegido en la web
+- Panel de recursos nuevo: cada recurso muestra lo que te queda libre ahora, con las órdenes en cola ya descontadas, y debajo lo que tendrás el turno siguiente; barras de color, avisos de cuánto dura lo que se agota y el cupo civil y militar con su barra
+- Los tooltips de recursos, PA y cupo son una cuenta corta (tienes, órdenes en cola, producción neta, turno siguiente); al mantener Shift salen la descripción y el detalle de edificios, unidades y operaciones del Banco
+- Construcción: los edificios se muestran en dos columnas con su icono, el nombre y un círculo verde si se construyen este turno o rojo si no alcanzan los recursos; la orden se encola igualmente y espera
+- Unidades, acciones de edificio y del Banco, habilidades y armas llevan solo icono y nombre; todas tienen tooltip con lo básico y, con Shift, la información completa, con lo que cuestan y lo que falta
+- El zoom más alejado pasa a 2,0
+- La tecla N deja de mostrar todo el mapa: se hace escribiendo /showallmap en el chat
+- Panel de acciones sin selección: las tropas pasan a 3 columnas con botones más grandes
+- Web: botón «Jugar en el navegador» que abre una pestaña nueva con el idioma elegido, avisos sobre el rendimiento de la versión web y sobre el aviso de software no reconocido de Windows; el logo animado pasa al final de la página
+- En la versión web el tutorial empieza de cero en cada visita y «Guardar partida» y «Salir al menú» están desactivados
 
 ### v2026.10.24 alpha
 
