@@ -12,6 +12,10 @@ v2026.10.25 alpha
     Painel de ações sem seleção: as tropas passam a 3 colunas com botões maiores
     Site: botão Jogar no navegador que abre uma nova aba no idioma escolhido, avisos sobre o desempenho da versão web e sobre o aviso de software não reconhecido do Windows; o logo animado vai para o fim da página
     Na versão web o tutorial recomeça a cada visita e Salvar partida e Sair para o menu ficam desativados
+    A câmera pode sair do mapa até centralizar o Governo na tela, inclusive nos cantos; o que fica fora é desenhado como um muro externo de platô com seu penhasco, onde não se pode construir nem andar
+    Configurações → Vídeo: resolução da janela (de 1280×720 a 4K, ou automática) e monitor em que a tela cheia abre; o menu de configurações passa a ter duas colunas e margens maiores
+    As telas iniciais crescem para aproveitar a janela, até 1,5 vez, sem serem cortadas
+    O contador de conectados da tela inicial conta apenas jogadores (conexões com nome), não sondagens nem menus sem nome
 
 v2026.10.24 alpha
     Ataques, habilidades e abertura de baús são resolvidos casa a casa junto com o movimento, na ordem de envio; as ordens de cada tropa são cumpridas em sequência

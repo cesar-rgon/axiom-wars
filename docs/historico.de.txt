@@ -12,6 +12,10 @@ v2026.10.25 alpha
     Aktionspanel ohne Auswahl: Die Truppen stehen in 3 Spalten mit größeren Schaltflächen
     Website: Schaltfläche Im Browser spielen, die einen neuen Tab in der gewählten Sprache öffnet, Hinweise zur Leistung der Web-Version und zur Windows-Warnung vor nicht erkannter Software; das animierte Logo wandert ans Seitenende
     In der Web-Version beginnt das Tutorial bei jedem Besuch von vorn, und Spiel speichern sowie Zum Menü sind deaktiviert
+    Die Kamera kann über den Kartenrand hinausfahren, bis die Regierung in der Bildschirmmitte liegt, auch in den Ecken; das Außen wird als äußere Plateauwand mit Klippe gezeichnet, auf der man weder bauen noch gehen kann
+    Einstellungen → Video: Fensterauflösung (von 1280×720 bis 4K oder automatisch) und der Monitor, auf dem sich der Vollbildmodus öffnet; das Einstellungsmenü hat jetzt zwei Spalten und größere Ränder
+    Die Startbildschirme wachsen mit dem Fenster mit, bis zum 1,5-Fachen, ohne abgeschnitten zu werden
+    Der Online-Zähler auf dem Startbildschirm zählt nur Spieler (Verbindungen mit Namen), keine Abfragen und keine Menüs ohne Namen
 
 v2026.10.24 alpha
     Angriffe, Fähigkeiten und das Öffnen von Truhen werden Feld für Feld zusammen mit der Bewegung gelöst, in der Reihenfolge des Absendens; die Befehle jeder Truppe laufen nacheinander ab

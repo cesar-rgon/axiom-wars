@@ -12,6 +12,10 @@ v2026.10.25 alpha
     Hiçbir şey seçili değilken eylem paneli: birlikler 3 sütunda ve düğmeler daha büyük
     Web sitesi: seçilen dilde yeni sekme açan Tarayıcıda oyna düğmesi, web sürümünün performansı ve Windows'un tanınmayan yazılım uyarısı hakkında notlar; hareketli logo sayfanın sonuna taşındı
     Web sürümünde eğitim her ziyarette baştan başlar, Oyunu kaydet ve Menüye çık devre dışıdır
+    Kamera, Hükümet ekranın ortasına gelene kadar harita kenarının ötesine geçebilir, köşelerde de; dışarısı uçurumlu bir plato dış duvarı olarak çizilir ve üzerinde ne inşa edilebilir ne de yürünebilir
+    Ayarlar → Video: pencere çözünürlüğü (1280×720'den 4K'ya veya otomatik) ve tam ekranın açılacağı monitör; ayarlar menüsü artık iki sütunlu ve kenar boşlukları daha geniş
+    Başlangıç ekranları pencereyi kullanmak için 1,5 katına kadar büyür, kesilmez
+    Başlangıç ekranındaki bağlı sayacı yalnızca oyuncuları (adı olan bağlantılar) sayar; yoklamaları ve adsız menüleri saymaz
 
 v2026.10.24 alpha
     Saldırılar, yetenekler ve sandık açma, gönderilme sırasına göre hareketle birlikte kare kare çözülür; her birliğin emirleri sırayla yürütülür

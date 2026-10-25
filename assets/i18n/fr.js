@@ -191,7 +191,7 @@
   "dl.c2": "Lancez le jeu : l'adresse du serveur est déjà remplie. Saisissez votre nom, puis créez un salon ou rejoignez-en un.",
   "nav.news": "Nouveautés",
   "news.title": "Nouveautés",
-  "news.body": "Jouer dans le navigateur, panneau de ressources avec libre maintenant et tour suivant, boutons de construction avec point vert ou rouge et infobulles avec Shift.",
+  "news.body": "Jouer dans le navigateur, panneau de ressources avec libre maintenant et tour suivant, boutons de construction avec point vert ou rouge et infobulles avec Shift. Caméra au-delà du bord de la carte, résolution et écran dans la configuration, et écrans d'accueil plus grands.",
   "news.all": "Voir tout l'historique",
   "news.all.href": "docs/historico.fr.txt",
   "lang.eyebrow": "Langues",

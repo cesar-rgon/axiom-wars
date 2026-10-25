@@ -12,6 +12,10 @@ v2026.10.25 alpha
     Panel akcji bez zaznaczenia: oddziały są w 3 kolumnach z większymi przyciskami
     Strona: przycisk Graj w przeglądarce otwiera nową kartę w wybranym języku, uwagi o wydajności wersji przeglądarkowej i o ostrzeżeniu Windows przed nierozpoznanym oprogramowaniem; animowane logo przeniesiono na koniec strony
     W wersji przeglądarkowej samouczek zaczyna się od nowa przy każdej wizycie, a Zapisz grę i Wyjdź do menu są wyłączone
+    Kamera może wyjść poza krawędź mapy, aż Rząd znajdzie się na środku ekranu, także w rogach; to, co na zewnątrz, jest rysowane jako zewnętrzny mur płaskowyżu z klifem, na którym nie można ani budować, ani chodzić
+    Ustawienia → Wideo: rozdzielczość okna (od 1280×720 do 4K lub automatyczna) i monitor, na którym otwiera się pełny ekran; menu ustawień ma teraz dwie kolumny i szersze marginesy
+    Ekrany początkowe powiększają się, by wykorzystać okno, do 1,5 raza, bez obcinania
+    Licznik połączonych na ekranie początkowym liczy tylko graczy (połączenia z nazwą), a nie sondy ani menu bez nazwy
 
 v2026.10.24 alpha
     Ataki, zdolności i otwieranie skrzyń rozstrzygają się pole po polu razem z ruchem, w kolejności wysłania; rozkazy każdego oddziału wykonują się po kolei

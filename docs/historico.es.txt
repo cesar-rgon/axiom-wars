@@ -12,6 +12,10 @@ v2026.10.25 alpha
     Panel de acciones sin selección: las tropas pasan a 3 columnas con botones más grandes
     Web: botón «Jugar en el navegador» que abre una pestaña nueva con el idioma elegido, avisos sobre el rendimiento de la versión web y sobre el aviso de software no reconocido de Windows; el logo animado pasa al final de la página
     En la versión web el tutorial empieza de cero en cada visita y «Guardar partida» y «Salir al menú» están desactivados
+    La cámara puede salirse del mapa hasta centrar el Gobierno en pantalla, también en las esquinas; lo de fuera se dibuja como un muro exterior de meseta con su acantilado, y no se puede construir ni pisar
+    Configuración → Vídeo: resolución de ventana (de 1280×720 a 4K, o automática) y monitor donde se abre la pantalla completa; el menú de Configuración pasa a dos columnas con más margen
+    Las pantallas iniciales se agrandan para aprovechar la ventana, hasta 1,5 veces, sin recortarse
+    El contador de conectados de la pantalla inicial cuenta sólo jugadores (conexiones con nombre), no sondeos ni menús sin nombre
 
 v2026.10.24 alpha
     Los ataques, las habilidades y la apertura de cofres se resuelven casilla a casilla junto con el movimiento, por orden de envío; las órdenes de cada tropa se cumplen en secuencia

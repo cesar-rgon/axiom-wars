@@ -12,6 +12,10 @@ v2026.10.25 alpha
     Pannello delle azioni senza selezione: le truppe passano a 3 colonne con pulsanti più grandi
     Sito web: pulsante Gioca nel browser che apre una nuova scheda nella lingua scelta, avvisi sulle prestazioni della versione web e sull'avviso di software non riconosciuto di Windows; il logo animato passa in fondo alla pagina
     Nella versione web il tutorial riparte da zero a ogni visita e Salva partita ed Esci al menu sono disattivati
+    La telecamera può uscire dalla mappa fino a centrare il Governo sullo schermo, anche negli angoli; l'esterno è disegnato come un muro di altopiano con la sua scogliera, dove non si può costruire né camminare
+    Impostazioni → Video: risoluzione della finestra (da 1280×720 a 4K, o automatica) e monitor su cui si apre lo schermo intero; il menu delle impostazioni passa a due colonne con margini più ampi
+    Le schermate iniziali si ingrandiscono per sfruttare la finestra, fino a 1,5 volte, senza essere tagliate
+    Il contatore dei connessi della schermata iniziale conta solo i giocatori (connessioni con un nome), non i sondaggi né i menu senza nome
 
 v2026.10.24 alpha
     Attacchi, abilità e apertura dei forzieri si risolvono casella per casella insieme al movimento, nell'ordine di invio; gli ordini di ogni truppa si eseguono in sequenza

@@ -180,6 +180,10 @@ The latest version is **v2026.10.25 alpha**.
 - Actions panel with nothing selected: troops are laid out in 3 columns with bigger buttons
 - Website: a Play in the browser button that opens a new tab in the chosen language, notes on the web version's performance and on Windows' unrecognised-software warning; the animated logo moves to the end of the page
 - In the web version the tutorial starts afresh on every visit and Save game and Exit to menu are disabled
+- The camera can go past the map edge until the Government is centered on screen, in the corners too; what lies outside is drawn as an outer plateau wall with its cliff, and cannot be built on or walked on
+- Settings → Video: window resolution (from 1280×720 up to 4K, or automatic) and the monitor fullscreen opens on; the Settings menu now has two columns and wider margins
+- The start screens scale up to use the window, up to 1.5 times, without being cut off
+- The online counter on the start screen counts only players (named connections), not probes or menus without a name
 
 ### v2026.10.24 alpha
 
