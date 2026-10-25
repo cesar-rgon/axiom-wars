@@ -16,6 +16,9 @@ v2026.10.25 alpha
     Configuración → Vídeo: resolución de ventana (de 1280×720 a 4K, o automática) y monitor donde se abre la pantalla completa; el menú de Configuración pasa a dos columnas con más margen
     Las pantallas iniciales se agrandan para aprovechar la ventana, hasta 1,5 veces, sin recortarse
     El contador de conectados de la pantalla inicial cuenta sólo jugadores (conexiones con nombre), no sondeos ni menús sin nombre
+    Los movimientos por microturnos fluyen: los saltos sobre aliados se ven paso a paso sin congelar a las demás tropas, y un Meca ya no se queda bloqueado por otros Mecas parados
+    Las tropas mecánicas (Meca, APC, Raptor…) explotan al morir en vez de desplomarse, y el fuego de las explosiones ya no se tiñe de azul con la noche o el clima
+    Cuando cae el Gobierno enemigo la repetición acaba tras la lupa final: ya no sigue reproduciéndose el resto de la ronda
 
 v2026.10.24 alpha
     Los ataques, las habilidades y la apertura de cofres se resuelven casilla a casilla junto con el movimiento, por orden de envío; las órdenes de cada tropa se cumplen en secuencia

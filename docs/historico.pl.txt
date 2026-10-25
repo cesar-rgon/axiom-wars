@@ -16,6 +16,9 @@ v2026.10.25 alpha
     Ustawienia → Wideo: rozdzielczość okna (od 1280×720 do 4K lub automatyczna) i monitor, na którym otwiera się pełny ekran; menu ustawień ma teraz dwie kolumny i szersze marginesy
     Ekrany początkowe powiększają się, by wykorzystać okno, do 1,5 raza, bez obcinania
     Licznik połączonych na ekranie początkowym liczy tylko graczy (połączenia z nazwą), a nie sondy ani menu bez nazwy
+    Ruch w mikroturach jest płynny: skoki ponad sojusznikami widać krok po kroku bez zamrażania pozostałych oddziałów, a Mech nie utyka już za stojącymi Mechami
+    Oddziały mechaniczne (Mech, APC, Raptor…) wybuchają po śmierci zamiast się przewracać, a ogień wybuchów nie jest już niebieski przez noc czy pogodę
+    Gdy upadnie rząd wroga, powtórka kończy się po ostatniej lupie: reszta rundy nie jest już odtwarzana
 
 v2026.10.24 alpha
     Ataki, zdolności i otwieranie skrzyń rozstrzygają się pole po polu razem z ruchem, w kolejności wysłania; rozkazy każdego oddziału wykonują się po kolei

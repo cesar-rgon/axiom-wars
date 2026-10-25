@@ -16,6 +16,9 @@ v2026.10.25 alpha
     Ayarlar → Video: pencere çözünürlüğü (1280×720'den 4K'ya veya otomatik) ve tam ekranın açılacağı monitör; ayarlar menüsü artık iki sütunlu ve kenar boşlukları daha geniş
     Başlangıç ekranları pencereyi kullanmak için 1,5 katına kadar büyür, kesilmez
     Başlangıç ekranındaki bağlı sayacı yalnızca oyuncuları (adı olan bağlantılar) sayar; yoklamaları ve adsız menüleri saymaz
+    Mikro tur hareketleri akıcı: müttefiklerin üzerinden atlayışlar diğer birlikleri dondurmadan adım adım gösterilir ve bir Meka artık duran Mekaların arkasında takılmaz
+    Mekanik birlikler (Meka, APC, Raptor…) ölünce devrilmek yerine patlar ve patlama ateşi artık gece veya hava durumuyla maviye boyanmaz
+    Düşman Hükümeti düştüğünde tekrar son merceğin ardından biter: turun geri kalanı artık oynatılmaz
 
 v2026.10.24 alpha
     Saldırılar, yetenekler ve sandık açma, gönderilme sırasına göre hareketle birlikte kare kare çözülür; her birliğin emirleri sırayla yürütülür

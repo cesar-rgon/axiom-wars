@@ -16,6 +16,9 @@ v2026.10.25 alpha
     Einstellungen → Video: Fensterauflösung (von 1280×720 bis 4K oder automatisch) und der Monitor, auf dem sich der Vollbildmodus öffnet; das Einstellungsmenü hat jetzt zwei Spalten und größere Ränder
     Die Startbildschirme wachsen mit dem Fenster mit, bis zum 1,5-Fachen, ohne abgeschnitten zu werden
     Der Online-Zähler auf dem Startbildschirm zählt nur Spieler (Verbindungen mit Namen), keine Abfragen und keine Menüs ohne Namen
+    Die Bewegung in Mikrozügen läuft flüssig: Sprünge über Verbündete werden Schritt für Schritt gezeigt, ohne die anderen Truppen einzufrieren, und ein Meca bleibt nicht mehr hinter stehenden Mecas hängen
+    Mechanische Truppen (Meca, APC, Raptor…) explodieren beim Tod, statt umzukippen, und das Feuer der Explosionen wird nachts oder bei Wetter nicht mehr blau gefärbt
+    Fällt die gegnerische Regierung, endet die Wiederholung nach der letzten Lupe: der Rest der Runde wird nicht mehr abgespielt
 
 v2026.10.24 alpha
     Angriffe, Fähigkeiten und das Öffnen von Truhen werden Feld für Feld zusammen mit der Bewegung gelöst, in der Reihenfolge des Absendens; die Befehle jeder Truppe laufen nacheinander ab

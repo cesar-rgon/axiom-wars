@@ -16,6 +16,9 @@ v2026.10.25 alpha
     Configuration → Vidéo : résolution de la fenêtre (de 1280×720 à 4K, ou automatique) et écran sur lequel s'ouvre le plein écran ; le menu de configuration passe sur deux colonnes avec de plus grandes marges
     Les écrans d'accueil s'agrandissent pour exploiter la fenêtre, jusqu'à 1,5 fois, sans être coupés
     Le compteur de connectés de l'écran d'accueil ne compte que les joueurs (connexions avec un nom), pas les sondes ni les menus sans nom
+    Les déplacements par micro-tours sont fluides : les sauts par-dessus des alliés s'affichent pas à pas sans figer les autres troupes, et un Méca ne reste plus bloqué derrière des Mécas immobiles
+    Les troupes mécaniques (Méca, APC, Raptor…) explosent en mourant au lieu de s'effondrer, et le feu des explosions n'est plus teinté de bleu par la nuit ou la météo
+    Quand le Gouvernement ennemi tombe, la rediffusion s'arrête après la dernière loupe : le reste du tour n'est plus rejoué
 
 v2026.10.24 alpha
     Les attaques, les capacités et l'ouverture des coffres se résolvent case par case avec le déplacement, dans l'ordre d'envoi ; les ordres de chaque troupe s'exécutent en séquence

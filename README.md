@@ -184,6 +184,9 @@ The latest version is **v2026.10.25 alpha**.
 - Settings → Video: window resolution (from 1280×720 up to 4K, or automatic) and the monitor fullscreen opens on; the Settings menu now has two columns and wider margins
 - The start screens scale up to use the window, up to 1.5 times, without being cut off
 - The online counter on the start screen counts only players (named connections), not probes or menus without a name
+- Microturn movement flows: leaps over allies are shown step by step without freezing the other troops, and a Meca is no longer stuck behind idle Mecas
+- Mechanical troops (Meca, APC, Raptor…) explode when they die instead of falling over, and explosion fire is no longer tinted blue by night or weather
+- When the enemy Government falls, the replay ends after the final lupa: the rest of the round is no longer played
 
 ### v2026.10.24 alpha
 

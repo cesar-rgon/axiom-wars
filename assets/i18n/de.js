@@ -192,7 +192,7 @@
   "dl.c2": "Starte das Spiel: Die Serveradresse ist schon eingetragen. Gib deinen Namen ein und erstelle einen Raum oder tritt einem bei.",
   "nav.news": "Neuigkeiten",
   "news.title": "Neuigkeiten",
-  "news.body": "Im Browser spielen, Ressourcenpanel mit jetzt frei und nächster Zug, Baubuttons mit grünem oder rotem Punkt und Tooltips mit Shift. Kamera über den Kartenrand hinaus, Auflösung und Monitor in den Einstellungen und größere Startbildschirme.",
+  "news.body": "Im Browser spielen, Ressourcenpanel mit jetzt frei und nächster Zug, Baubuttons mit grünem oder rotem Punkt und Tooltips mit Shift. Kamera über den Kartenrand hinaus, Auflösung und Monitor in den Einstellungen und größere Startbildschirme. Flüssigere Märsche, explodierende mechanische Truppen und Spielende beim Fall der Regierung.",
   "news.all": "Gesamten Verlauf ansehen",
   "news.all.href": "docs/historico.de.txt",
   "lang.eyebrow": "Sprachen",

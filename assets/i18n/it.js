@@ -192,7 +192,7 @@
   "dl.c2": "Avvia il gioco: l'indirizzo del server è già compilato. Scrivi il tuo nome, poi crea una stanza o unisciti a una.",
   "nav.news": "Novità",
   "news.title": "Novità",
-  "news.body": "Gioca nel browser, pannello delle risorse con libero ora e turno successivo, pulsanti di costruzione con pallino verde o rosso e tooltip con Shift. Telecamera oltre il bordo della mappa, risoluzione e monitor nelle impostazioni e schermate iniziali più grandi.",
+  "news.body": "Gioca nel browser, pannello delle risorse con libero ora e turno successivo, pulsanti di costruzione con pallino verde o rosso e tooltip con Shift. Telecamera oltre il bordo della mappa, risoluzione e monitor nelle impostazioni e schermate iniziali più grandi. Marce più fluide, truppe meccaniche che esplodono e fine partita alla caduta del Governo.",
   "news.all": "Vedi tutta la cronologia",
   "news.all.href": "docs/historico.it.txt",
   "lang.eyebrow": "Lingue",

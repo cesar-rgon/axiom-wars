@@ -16,6 +16,9 @@ v2026.10.25 alpha
     Impostazioni → Video: risoluzione della finestra (da 1280×720 a 4K, o automatica) e monitor su cui si apre lo schermo intero; il menu delle impostazioni passa a due colonne con margini più ampi
     Le schermate iniziali si ingrandiscono per sfruttare la finestra, fino a 1,5 volte, senza essere tagliate
     Il contatore dei connessi della schermata iniziale conta solo i giocatori (connessioni con un nome), non i sondaggi né i menu senza nome
+    I movimenti a microturni sono fluidi: i salti sopra gli alleati si vedono passo passo senza bloccare le altre truppe, e un Meca non resta più bloccato da Meca fermi
+    Le truppe meccaniche (Meca, APC, Raptor…) esplodono quando muoiono invece di crollare, e il fuoco delle esplosioni non è più tinto di blu dalla notte o dal meteo
+    Quando cade il Governo nemico la ripetizione termina dopo la lente finale: il resto del round non viene più riprodotto
 
 v2026.10.24 alpha
     Attacchi, abilità e apertura dei forzieri si risolvono casella per casella insieme al movimento, nell'ordine di invio; gli ordini di ogni truppa si eseguono in sequenza
