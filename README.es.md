@@ -163,10 +163,19 @@ Criaturas neutrales que no pertenecen a ningún jugador. Las dóciles deambulan 
 
 ## Histórico de cambios
 
-La última versión es **v2026.10.25 alpha**.
+La última versión es **v2026.10.26 alpha**.
 
 <details>
 <summary>Ver todas las versiones</summary>
+
+### v2026.10.26 alpha
+
+- Disparos en cascada: si el objetivo ya ha muerto cuando le toca a la orden, ésta se cancela sin fallar ni gastar el disparo y la tropa pasa directamente a su siguiente objetivo
+- Con varias tropas de distintos tipos seleccionadas, Tab recorre un tipo cada vez: la orden siguiente va sólo a ese subconjunto, el panel de selección lo resalta (agrupado por tipo) y la cámara se centra donde caben más
+- La tecla Espacio selecciona las tropas ociosas, las que no tienen órdenes; después Tab las recorre por tipos
+- El aviso «Esta orden reemplaza a otras anteriores» sale una sola vez mientras mantienes Ctrl
+- Sin flechas de órdenes durante la resolución del turno ni en las repeticiones; sólo se ven las tuyas y las de tus aliados en el turno normal
+- La leyenda de atajos incluye Tab y Espacio y se reparte en varias filas si no cabe; el tutorial avanza con Enter (Espacio ya no)
 
 ### v2026.10.25 alpha
 

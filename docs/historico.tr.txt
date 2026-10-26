@@ -1,6 +1,14 @@
 AXIOM WARS DEĞİŞİKLİK GEÇMİŞİ
 (Sürüm, sunucuda veya istemcide yapılan son değişikliğin tarihidir.)
 
+v2026.10.26 alpha
+    Zincirleme atışlar: emrin sırası geldiğinde hedef zaten ölmüşse emir başarısız olmadan ve atış harcamadan iptal edilir, birlik doğrudan bir sonraki hedefe geçer
+    Farklı türde birden çok birlik seçiliyken Tab her seferinde bir türü dolaşır: sonraki emir yalnızca o alt kümeye gider, seçim paneli onu vurgular (türe göre gruplanmış) ve kamera en çoğunun sığdığı yere ortalanır
+    Boşluk tuşu boştaki, emri olmayan birlikleri seçer; ardından Tab onları türe göre dolaşır
+    «Bu emir öncekilerin yerine geçer» uyarısı Ctrl basılı tutulduğu sürece yalnızca bir kez çıkar
+    Tur çözümlenirken ve tekrarlarda emir okları gösterilmez; normal turda yalnızca seninkiler ve müttefiklerinki görünür
+    Kısayol göstergesi Tab ve Boşluk'u içerir, sığmazsa birkaç satıra bölünür; eğitim artık Enter ile ilerler (Boşluk ile değil)
+
 v2026.10.25 alpha
     Oyunun web sürümü: hiçbir şey kurmadan raseconline.es/axiom-wars adresinde tarayıcıdan oynanır; küçük bir haritada yapay zekâya karşı 1'e 1 maça doğrudan açılır ve dil sitede seçtiğin dildir
     Yeni kaynak paneli: her kaynak, sıradaki emirler düşüldükten sonra şimdi serbest olan miktarı ve altında sonraki tur elinde olacak miktarı gösterir; renkli çubuklar, azalan şeyin ne kadar yeteceğine dair uyarılar ve kendi çubuklarıyla sivil ve askeri nüfus

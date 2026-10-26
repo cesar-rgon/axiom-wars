@@ -183,7 +183,7 @@
   "mus.t14": "<strong>Yüzen arayüz.</strong> Menü, kaynaklar, mini harita, Hükümet seviyesine göre inşa paneli ve her emir türü için bir simge.",
   "mus.hint": "Zaman çizgisinde ilerlemek için kaydır →",
   "news.title": "Yenilikler",
-  "news.body": "Tarayıcıda oyna, şimdi serbest ve sonraki turu gösteren kaynak paneli, yeşil veya kırmızı noktalı inşa düğmeleri ve Shift ile ipuçları. Harita kenarının ötesinde kamera, ayarlarda çözünürlük ve monitör ve daha büyük başlangıç ekranları. Daha akıcı yürüyüşler, patlayan mekanik birlikler ve Hükümet düşünce biten maç.",
+  "news.body": "Zincirleme atışlar, birlik türlerine göre Tab, boştakiler için Boşluk ve çözümlemede ok yok.",
   "news.all": "Tüm değişiklik geçmişini gör",
   "news.all.href": "docs/historico.tr.txt",
   "join.eyebrow": "Topluluk",

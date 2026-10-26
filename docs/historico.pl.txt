@@ -1,6 +1,14 @@
 HISTORIA ZMIAN AXIOM WARS
 (Wersja to data ostatniej zmiany serwera lub klienta.)
 
+v2026.10.26 alpha
+    Strzały kaskadowe: jeśli cel już nie żyje, gdy przychodzi kolej na rozkaz, rozkaz jest anulowany bez błędu i bez zużycia strzału, a oddział od razu przechodzi do następnego celu
+    Przy kilku zaznaczonych oddziałach różnych typów Tab przełącza po jednym typie: następny rozkaz trafia tylko do tego podzbioru, panel zaznaczenia go podświetla (pogrupowane według typu), a kamera centruje się tam, gdzie mieści się ich najwięcej
+    Klawisz Spacja zaznacza bezczynne oddziały, bez rozkazów; potem Tab przełącza je według typu
+    Ostrzeżenie „Ten rozkaz zastępuje poprzednie” pojawia się tylko raz, dopóki trzymasz Ctrl
+    Brak strzałek rozkazów podczas rozstrzygania tury i w powtórkach; w zwykłej turze widać tylko twoje i sojuszników
+    Legenda skrótów zawiera Tab i Spację i zawija się do kilku wierszy, gdy się nie mieści; samouczek przechodzi dalej klawiszem Enter (już nie Spacją)
+
 v2026.10.25 alpha
     Wersja przeglądarkowa gry: gra się w przeglądarce na raseconline.es/axiom-wars, bez instalowania; od razu otwiera partię 1 na 1 z SI na małej mapie, w języku wybranym na stronie
     Nowy panel zasobów: każdy zasób pokazuje, ile masz teraz wolne, po odjęciu rozkazów z kolejki, a pod spodem, ile będziesz mieć w następnej turze; kolorowe paski, ostrzeżenia, na jak długo wystarczy to, co się kończy, oraz populacja cywilna i wojskowa z własnymi paskami

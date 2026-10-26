@@ -163,10 +163,19 @@ Neutral creatures that belong to no player. The docile ones wander their own hab
 
 ## Change history
 
-The latest version is **v2026.10.25 alpha**.
+The latest version is **v2026.10.26 alpha**.
 
 <details>
 <summary>Show all versions</summary>
+
+### v2026.10.26 alpha
+
+- Cascade shots: if the target has already died when its order comes up, the order is cancelled without failing or spending the shot and the troop goes straight to its next target
+- With several troops of different types selected, Tab walks through one type at a time: the next order goes only to that subset, the selection panel highlights it (grouped by type) and the camera centers where most of them fit
+- The Space key selects the idle troops, those with no orders; Tab then walks through them by type
+- The «This order replaces earlier ones» warning shows once while you hold Ctrl
+- No order arrows while the turn resolves or in replays; only yours and your allies' show in the normal turn
+- The hotkey legend includes Tab and Space and wraps onto several rows when it does not fit; the tutorial advances with Enter (no longer Space)
 
 ### v2026.10.25 alpha
 

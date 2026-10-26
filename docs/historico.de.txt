@@ -1,6 +1,14 @@
 ÄNDERUNGSVERLAUF VON AXIOM WARS
 (Die Version ist das Datum der letzten Änderung am Server oder am Client.)
 
+v2026.10.26 alpha
+    Kaskadenschüsse: Ist das Ziel schon tot, wenn der Befehl an der Reihe ist, wird er ohne Fehlschlag und ohne den Schuss zu verbrauchen abgebrochen, und die Truppe geht direkt zum nächsten Ziel über
+    Bei mehreren ausgewählten Truppen verschiedener Typen geht Tab einen Typ nach dem anderen durch: Der nächste Befehl gilt nur dieser Teilmenge, das Auswahlfeld hebt sie hervor (nach Typ gruppiert) und die Kamera zentriert dorthin, wo die meisten hineinpassen
+    Die Leertaste wählt die untätigen Truppen ohne Befehle aus; Tab geht sie dann nach Typ durch
+    Die Warnung „Dieser Befehl ersetzt frühere“ erscheint nur einmal, solange du Strg gedrückt hältst
+    Keine Befehlspfeile während der Rundenauflösung und in Wiederholungen; in der normalen Runde siehst du nur deine eigenen und die deiner Verbündeten
+    Die Tastenlegende enthält Tab und Leertaste und bricht auf mehrere Zeilen um, wenn sie nicht passt; das Tutorial geht mit Enter weiter (nicht mehr mit der Leertaste)
+
 v2026.10.25 alpha
     Web-Version des Spiels: Sie läuft im Browser unter raseconline.es/axiom-wars, ohne Installation; sie öffnet direkt eine 1-gegen-1-Partie gegen die KI auf einer kleinen Karte, in der auf der Website gewählten Sprache
     Neues Ressourcenpanel: Jede Ressource zeigt, was du jetzt frei hast, wartende Befehle schon abgezogen, und darunter, was du im nächsten Zug haben wirst; Farbbalken, Warnungen, wie lange etwas Knappes noch reicht, und das zivile und militärische Kontingent mit eigenem Balken

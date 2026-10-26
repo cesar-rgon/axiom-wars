@@ -183,7 +183,7 @@
   "mus.t14": "<strong>Interface flutuante.</strong> Menu, recursos, minimapa, um painel de construção por nível de Governo e um ícone para cada tipo de ordem.",
   "mus.hint": "Deslize para percorrer a linha do tempo →",
   "news.title": "Novidades",
-  "news.body": "Jogue no navegador, painel de recursos com livre agora e próximo turno, botões de construção com bolinha verde ou vermelha e tooltips com Shift. Câmera além da borda do mapa, resolução e monitor nas configurações e telas iniciais maiores. Marchas mais fluidas, tropas mecânicas que explodem e fim da partida com a queda do Governo.",
+  "news.body": "Tiros em cascata, Tab por tipo de tropa, Espaço para as ociosas e sem setas na resolução.",
   "news.all": "Ver o histórico completo de mudanças",
   "join.eyebrow": "Comunidade",
   "join.title": "Jogue com a gente",

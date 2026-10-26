@@ -1,6 +1,14 @@
 CRONOLOGIA DELLE MODIFICHE DI AXIOM WARS
 (La versione è la data dell'ultima modifica del server o del client.)
 
+v2026.10.26 alpha
+    Colpi a cascata: se il bersaglio è già morto quando tocca all'ordine, questo viene annullato senza fallire né sprecare il colpo e la truppa passa subito al bersaglio successivo
+    Con più truppe di tipi diversi selezionate, Tab scorre un tipo alla volta: l'ordine successivo va solo a quel sottoinsieme, il pannello di selezione lo evidenzia (raggruppato per tipo) e la telecamera si centra dove ne stanno di più
+    Il tasto Spazio seleziona le truppe inattive, quelle senza ordini; poi Tab le scorre per tipo
+    L'avviso «Questo ordine sostituisce quelli precedenti» compare una sola volta finché tieni premuto Ctrl
+    Niente frecce degli ordini durante la risoluzione del turno né nelle ripetizioni; si vedono solo le tue e quelle degli alleati nel turno normale
+    La legenda dei tasti include Tab e Spazio e va su più righe se non ci sta; il tutorial avanza con Invio (non più con Spazio)
+
 v2026.10.25 alpha
     Versione web del gioco: si gioca nel browser su raseconline.es/axiom-wars, senza installare nulla; si apre direttamente in una partita 1 contro 1 contro l'IA su una mappa piccola, nella lingua scelta sul sito
     Nuovo pannello delle risorse: ogni risorsa mostra quanto ti resta libero ora, con gli ordini in coda già sottratti, e sotto quanto avrai il turno successivo; barre colorate, avvisi su quanto dura ciò che sta finendo e quota civile e militare con la loro barra
