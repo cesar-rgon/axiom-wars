@@ -19,6 +19,7 @@ v2026.10.26 alpha
     Karta jednego zaznaczonego oddziału wymienia jego efekty, pozytywne, negatywne i neutralne: ikona z pierścieniem, który opróżnia się z kolejnymi rundami, nazwa i pozostałe rundy oraz podpowiedź z opisem, a z Shiftem także ze źródłem; przy zaznaczeniu kilku oddziałów nic się nie zmienia
     Sprint i Dodatkowy kontratak pojawiają się jako efekt na karcie, dopóki ich rozkaz stoi w kolejce (Dodatkowy kontratak także dopóki drugi kontratak jest wolny)
     Dopowanie, Maskowanie, Turbo i Naprawa wydają dźwięk przy rozstrzygnięciu (Maskowanie, Turbo i Naprawa z dźwiękiem syntezowanym, dopóki nie będzie ich mp3)
+    Nowe tekstury: Robotnik — ikona na ekstraktorach, generatorach i w listach oraz postać w pełnej postaci na jego karcie, w wiki i na stronie, gdzie jest też animowany jak pozostałe oddziały; podpowiedź rozkazu produkcji jednostki pokazuje tę jednostkę
 
 v2026.10.25 alpha
     Wersja przeglądarkowa gry: gra się w przeglądarce na raseconline.es/axiom-wars, bez instalowania; od razu otwiera partię 1 na 1 z SI na małej mapie, w języku wybranym na stronie

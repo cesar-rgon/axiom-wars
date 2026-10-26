@@ -19,6 +19,7 @@ v2026.10.26 alpha
     The card of a single selected troop lists its effects, positive, negative and neutral: an icon with a ring that empties as rounds pass, the name and the rounds left, and a tooltip with its description and, with Shift, its origin; with several troops selected it stays as it was
     Sprint and Extra counterattack show up as an effect on the card while their order is queued (Extra counterattack also while its second counterattack is still free)
     Dope, Camouflage, Turbo and Repair make a sound when they resolve (Camouflage, Turbo and Repair with a synthesized sound until their mp3 arrives)
+    New Worker textures: an icon on extractors, generators and lists, and a full-body figure on its card, in the wiki and on the website, where it is also animated like the other troops; the tooltip of an order that produces a unit shows that unit
 
 v2026.10.25 alpha
     Web version of the game: play in the browser at raseconline.es/axiom-wars with nothing to install; it opens straight into a 1 vs 1 match against the AI on a small map, in the language chosen on the website

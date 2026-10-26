@@ -19,6 +19,7 @@ v2026.10.26 alpha
     La scheda di una sola truppa selezionata elenca i suoi effetti, positivi, negativi e neutri: un'icona con un anello che si svuota con i round, il nome e i round rimasti, e un tooltip con la descrizione e, con Maiusc, l'origine; con più truppe selezionate non cambia nulla
     Scatto e Contrattacco aggiuntivo compaiono come effetto nella scheda finché il loro ordine è in coda (Contrattacco aggiuntivo anche finché il secondo contrattacco è ancora libero)
     Dopare, Mimetismo, Turbo e Riparare emettono un suono alla risoluzione (Mimetismo, Turbo e Riparare con suono sintetizzato finché non ci sarà l'mp3)
+    Nuove texture del Lavoratore: un'icona su estrattori, generatori ed elenchi, e una figura intera nella sua scheda, nella wiki e nel sito, dove è anche animato come le altre truppe; il tooltip di un ordine di produzione di un'unità mostra quell'unità
 
 v2026.10.25 alpha
     Versione web del gioco: si gioca nel browser su raseconline.es/axiom-wars, senza installare nulla; si apre direttamente in una partita 1 contro 1 contro l'IA su una mappa piccola, nella lingua scelta sul sito

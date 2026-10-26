@@ -19,6 +19,7 @@ v2026.10.26 alpha
     Seçili tek bir birliğin kartı etkilerini listeler, olumlu, olumsuz ve nötr: raunt geçtikçe boşalan halkalı bir simge, ad ve kalan raunt sayısı ile açıklama ve Shift'le kaynağını gösteren bir ipucu; birden fazla birlik seçiliyken değişen bir şey yok
     Sprint ve Ek karşı saldırı, emirleri kuyruktayken kartta etki olarak görünür (Ek karşı saldırı ikinci karşı saldırısı hâlâ boştayken de görünür)
     Dopla, Kamuflaj, Turbo ve Onar çözülürken ses çıkarır (Kamuflaj, Turbo ve Onar mp3'leri gelene kadar sentezlenmiş sesle)
+    İşçi için yeni dokular: çıkarıcılarda, jeneratörlerde ve listelerde simge, kartında, wikide ve web sitesinde tam boy figür; web sitesinde ayrıca diğer birlikler gibi canlandırılır; bir birim üretme emrinin ipucu o birimi gösterir
 
 v2026.10.25 alpha
     Oyunun web sürümü: hiçbir şey kurmadan raseconline.es/axiom-wars adresinde tarayıcıdan oynanır; küçük bir haritada yapay zekâya karşı 1'e 1 maça doğrudan açılır ve dil sitede seçtiğin dildir

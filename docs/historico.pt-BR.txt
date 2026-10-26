@@ -19,6 +19,7 @@ v2026.10.26 alpha
     A ficha de uma única tropa selecionada lista seus efeitos, positivos, negativos e neutros: um ícone com um anel que se esvazia com as rodadas, o nome e as rodadas restantes, e uma dica com a descrição e, com Shift, a origem; com várias tropas selecionadas nada muda
     Sprint e Contra-ataque extra aparecem como efeito na ficha enquanto a ordem está na fila (Contra-ataque extra também enquanto o segundo contra-ataque continua livre)
     Dopar, Camuflagem, Turbo e Reparar soam ao serem resolvidos (Camuflagem, Turbo e Reparar com som sintetizado até terem o mp3)
+    Texturas novas do Trabalhador: ícone em extratores, geradores e listas, e figura de corpo inteiro na sua ficha, na wiki e no site, onde também é animado como as outras tropas; a dica de uma ordem de produzir uma unidade mostra essa unidade
 
 v2026.10.25 alpha
     Versão web do jogo: joga-se no navegador em raseconline.es/axiom-wars, sem instalar nada; ela abre direto uma partida 1 contra 1 contra a IA em um mapa pequeno, no idioma escolhido no site

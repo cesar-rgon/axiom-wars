@@ -19,6 +19,7 @@ v2026.10.26 alpha
     Die Karte einer einzelnen ausgewählten Truppe listet ihre Effekte auf, positive, negative und neutrale: ein Symbol mit einem Ring, der sich mit den Runden leert, den Namen und die verbleibenden Runden sowie ein Tooltip mit Beschreibung und, mit Umschalt, Herkunft; bei mehreren ausgewählten Truppen bleibt alles wie bisher
     Sprint und Zusätzlicher Gegenangriff erscheinen als Effekt auf der Karte, solange ihr Befehl in der Warteschlange steht (Zusätzlicher Gegenangriff auch, solange der zweite Gegenangriff noch frei ist)
     Dopen, Tarnung, Turbo und Reparieren geben bei der Auflösung einen Ton von sich (Tarnung, Turbo und Reparieren mit synthetisiertem Klang, bis ihr mp3 da ist)
+    Neue Texturen für den Arbeiter: ein Symbol an Extraktoren, Generatoren und in Listen sowie eine Ganzkörperfigur auf seiner Karte, im Wiki und auf der Website, wo er wie die anderen Truppen auch animiert ist; der Tooltip eines Produktionsbefehls zeigt die Einheit
 
 v2026.10.25 alpha
     Web-Version des Spiels: Sie läuft im Browser unter raseconline.es/axiom-wars, ohne Installation; sie öffnet direkt eine 1-gegen-1-Partie gegen die KI auf einer kleinen Karte, in der auf der Website gewählten Sprache

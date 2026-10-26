@@ -187,6 +187,7 @@ La última versión es **v2026.10.26 alpha**.
 - La ficha de una sola tropa seleccionada lista sus efectos, positivos, negativos y neutros: un icono con un anillo que se vacía con las rondas, el nombre y las rondas restantes, y un tooltip con su descripción y, con Shift, su origen; con varias tropas seleccionadas no cambia
 - Sprint y Contraataque adicional aparecen como efecto en la ficha mientras su orden está en cola (Contraataque adicional también mientras su segundo contraataque sigue libre)
 - Dopar, Camuflaje, Turbo y Reparar suenan al resolverse (Camuflaje, Turbo y Reparar con sonido sintetizado hasta tener su mp3)
+- Texturas nuevas del Trabajador: icono en extractores, generadores y listas, y figura de cuerpo entero en su ficha, en la wiki y en la web, donde además se anima como el resto de tropas; el tooltip de una orden de producir una unidad enseña esa unidad
 
 ### v2026.10.25 alpha
 
