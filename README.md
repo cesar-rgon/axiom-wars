@@ -174,12 +174,15 @@ The latest version is **v2026.10.26 alpha**.
 - With several troops of different types selected, Tab walks through one type at a time: the next order goes only to that subset, the selection panel highlights it (grouped by type) and the camera centers where most of them fit
 - The Space key selects the idle troops, those with no orders; Tab then walks through them by type
 - The «This order replaces earlier ones» warning shows once while you hold Ctrl
-- No order arrows while the turn resolves or in replays; only yours and your allies' show in the normal turn
+- No order arrows while the turn resolves; they show in the normal turn and during the 10-second wait before a replay resolves
 - The hotkey legend includes Tab and Space and wraps onto several rows when it does not fit; the tutorial advances with Enter (no longer Space)
 - New lobby option: the host picks the Government level everyone starts at (1 by default); at level 2 and 3, players and AIs start with the Government at that level and a base already built (extractors and generators with 4 workers each, Bank, houses, Training Center and, at level 3, the Roboces Factory) with resources to match
 - The starting buildings are placed symmetrically between players whose bases mirror each other, and everyone starts with a single Constructor
 - The Space key no longer selects troops that are attacking: only those that really have no order
 - Alt+click now also marks on the minimap and plays an alert sound; "J H C T" is gone from the shortcut legend
+- Sprint, Extra counterattack and the Raptor's Load and Unload have their own animation and sound (they used to borrow Turbo's, the Reflector Shield's and the APC's)
+- Preview while aiming: Healing, Paralyzing gas and EMP shock show their range and their circular area; Mines, Clone and Dimensional portal mark the valid targets; Stomp, Self-destruct and Load show their area when you hover the button
+- New indicators while the turn resolves: an Extra counterattack badge while it is available (it breaks when spent), a Sprint trail while running, and the EMP shock lock shows as interference over the troop
 
 ### v2026.10.25 alpha
 

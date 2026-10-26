@@ -192,7 +192,7 @@
   "dl.c2": "Starte das Spiel: Die Serveradresse ist schon eingetragen. Gib deinen Namen ein und erstelle einen Raum oder tritt einem bei.",
   "nav.news": "Neuigkeiten",
   "news.title": "Neuigkeiten",
-  "news.body": "Kaskadenschüsse, Tab durch Truppentypen, Leertaste für untätige Truppen, wählbare Start-Regierungsstufe und Markierungen auf der Minikarte.",
+  "news.body": "Kaskadenschüsse, Tab durch Truppentypen, Leertaste für untätige Truppen, wählbare Start-Regierungsstufe und Markierungen auf der Minikarte. Neue Animationen und Töne für Fähigkeiten, mit Vorschau beim Zielen.",
   "news.all": "Gesamten Verlauf ansehen",
   "news.all.href": "docs/historico.de.txt",
   "lang.eyebrow": "Sprachen",

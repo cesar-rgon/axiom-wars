@@ -6,12 +6,15 @@ v2026.10.26 alpha
     Com várias tropas de tipos diferentes selecionadas, Tab percorre um tipo por vez: a ordem seguinte vai só a esse subconjunto, o painel de seleção o destaca (agrupado por tipo) e a câmera centraliza onde cabem mais
     A tecla Espaço seleciona as tropas ociosas, as que não têm ordens; depois o Tab as percorre por tipo
     O aviso «Esta ordem substitui as anteriores» aparece uma só vez enquanto você segura Ctrl
-    Sem setas de ordens durante a resolução do turno nem nas repetições; só aparecem as suas e as dos aliados no turno normal
+    Sem setas de ordens durante a resolução do turno; elas aparecem no turno normal e na espera de 10 segundos das repetições, antes da resolução
     A legenda de atalhos inclui Tab e Espaço e passa para várias linhas quando não cabe; o tutorial avança com Enter (não mais com Espaço)
     Nova opção do lobby: o anfitrião escolhe o nível de Governo com o qual todos começam (1 por padrão); nos níveis 2 e 3, jogadores e IAs começam com o Governo nesse nível e a base já construída (extratores e geradores com 4 trabalhadores cada, Banco, moradias, Centro de Treinamento e, no nível 3, a Fábrica de Roboces) com recursos compatíveis
     Os edifícios iniciais são posicionados de forma simétrica entre os jogadores cujas bases são espelhadas, e todos começam com um único Construtor
     A tecla Espaço não seleciona mais as tropas que estão atacando: apenas as que realmente não têm nenhuma ordem
     Alt+clique também marca no minimapa e toca um aviso sonoro; «J H C T» sai da legenda de atalhos
+    Animação e som próprios para Sprint, Contra-ataque extra e Carregar e Descarregar do Raptor (antes emprestavam os de Turbo, do Escudo refletor e do APC)
+    Pré-visualização ao mirar: Cura, Gás paralisante e Choque EMP mostram alcance e área circular; Minas, Clonar e Portal dimensional marcam os alvos válidos; Pisão, Autodestruição e Carregar mostram a área ao passar o mouse no botão
+    Novos indicadores durante a resolução: distintivo do Contra-ataque extra enquanto disponível (quebra ao ser usado), rastro do Sprint ao correr, e o bloqueio do Choque EMP aparece como interferência sobre a tropa
 
 v2026.10.25 alpha
     Versão web do jogo: joga-se no navegador em raseconline.es/axiom-wars, sem instalar nada; ela abre direto uma partida 1 contra 1 contra a IA em um mapa pequeno, no idioma escolhido no site

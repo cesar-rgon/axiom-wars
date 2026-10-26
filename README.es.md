@@ -174,12 +174,15 @@ La última versión es **v2026.10.26 alpha**.
 - Con varias tropas de distintos tipos seleccionadas, Tab recorre un tipo cada vez: la orden siguiente va sólo a ese subconjunto, el panel de selección lo resalta (agrupado por tipo) y la cámara se centra donde caben más
 - La tecla Espacio selecciona las tropas ociosas, las que no tienen órdenes; después Tab las recorre por tipos
 - El aviso «Esta orden reemplaza a otras anteriores» sale una sola vez mientras mantienes Ctrl
-- Sin flechas de órdenes durante la resolución del turno ni en las repeticiones; sólo se ven las tuyas y las de tus aliados en el turno normal
+- Sin flechas de órdenes durante la resolución del turno; se ven en el turno normal y en la espera de 10 segundos de las repeticiones, antes de resolver
 - La leyenda de atajos incluye Tab y Espacio y se reparte en varias filas si no cabe; el tutorial avanza con Enter (Espacio ya no)
 - Opción nueva en el lobby: el anfitrión elige el nivel de Gobierno con el que empieza todo el mundo (1 por defecto); en nivel 2 y 3, jugadores e IA arrancan con el Gobierno a ese nivel y la base ya construida (extractores y generadores con 4 trabajadores cada uno, Banco, viviendas, Centro de Entrenamiento y, en nivel 3, Fábrica de Roboces) y con recursos acordes
 - Los edificios iniciales se colocan de forma simétrica entre los jugadores cuyas bases son imagen especular unas de otras, y todos empiezan con un único Constructor
 - La tecla Espacio ya no selecciona las tropas que están atacando: sólo las que de verdad no tienen ninguna orden
 - Alt+clic también marca en el minimapa y suena un aviso; «J H C T» sale de la leyenda de atajos
+- Animación y sonido propios para Sprint, Contraataque adicional y Cargar y Descargar del Raptor (antes tomaban prestados los de Turbo, el Escudo reflector y el APC)
+- Vista previa al apuntar: Curación, Gas paralizante y Shock EMP muestran su alcance y su área en círculo; Minas, Clonar y Portal dimensional marcan los objetivos válidos; Pisotón, Inmolar y Cargar enseñan su área al pasar el ratón por el botón
+- Indicadores nuevos durante la resolución: insignia de Contraataque adicional mientras está disponible (se rompe al gastarse), estela de Sprint al correr, y el bloqueo de Shock EMP se ve como interferencia sobre la tropa
 
 ### v2026.10.25 alpha
 

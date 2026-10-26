@@ -6,12 +6,15 @@ v2026.10.26 alpha
     Przy kilku zaznaczonych oddziałach różnych typów Tab przełącza po jednym typie: następny rozkaz trafia tylko do tego podzbioru, panel zaznaczenia go podświetla (pogrupowane według typu), a kamera centruje się tam, gdzie mieści się ich najwięcej
     Klawisz Spacja zaznacza bezczynne oddziały, bez rozkazów; potem Tab przełącza je według typu
     Ostrzeżenie „Ten rozkaz zastępuje poprzednie” pojawia się tylko raz, dopóki trzymasz Ctrl
-    Brak strzałek rozkazów podczas rozstrzygania tury i w powtórkach; w zwykłej turze widać tylko twoje i sojuszników
+    Brak strzałek rozkazów podczas rozstrzygania tury; widać je w zwykłej turze i podczas 10-sekundowego oczekiwania w powtórkach, przed rozstrzygnięciem
     Legenda skrótów zawiera Tab i Spację i zawija się do kilku wierszy, gdy się nie mieści; samouczek przechodzi dalej klawiszem Enter (już nie Spacją)
     Nowa opcja poczekalni: gospodarz wybiera poziom Rządu, od którego zaczynają wszyscy (domyślnie 1); na poziomach 2 i 3 gracze i SI zaczynają z Rządem na tym poziomie i gotową bazą (ekstraktory i generatory po 4 robotników, Bank, domy, Centrum Szkolenia, a na poziomie 3 Fabryka Roboces) oraz odpowiednimi zasobami
     Budynki startowe są rozmieszczone symetrycznie między graczami, których bazy są swoim lustrzanym odbiciem, a wszyscy zaczynają z jednym Konstruktorem
     Spacja nie zaznacza już oddziałów, które atakują: tylko te, które naprawdę nie mają żadnego rozkazu
     Alt+klik zaznacza też na minimapie i odtwarza sygnał dźwiękowy; „J H C T” znika z legendy skrótów
+    Własna animacja i dźwięk dla Sprintu, Dodatkowego kontrataku oraz Załaduj i Wyładuj Raptora (wcześniej pożyczały te z Turbo, Tarczy odbijającej i transportera)
+    Podgląd podczas celowania: Leczenie, Gaz paraliżujący i Wstrząs EMP pokazują zasięg i kolisty obszar; Miny, Klonuj i Portal wymiarowy zaznaczają prawidłowe cele; Tupnięcie, Samozniszczenie i Załaduj pokazują obszar po najechaniu na przycisk
+    Nowe wskaźniki podczas rozstrzygania: odznaka Dodatkowego kontrataku, dopóki jest dostępny (pęka po użyciu), smuga Sprintu podczas biegu, a blokada Wstrząsu EMP wygląda jak zakłócenia nad oddziałem
 
 v2026.10.25 alpha
     Wersja przeglądarkowa gry: gra się w przeglądarce na raseconline.es/axiom-wars, bez instalowania; od razu otwiera partię 1 na 1 z SI na małej mapie, w języku wybranym na stronie

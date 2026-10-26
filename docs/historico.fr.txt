@@ -6,12 +6,15 @@ v2026.10.26 alpha
     Avec plusieurs troupes de types différents sélectionnées, Tab parcourt un type à la fois : l'ordre suivant ne va qu'à ce sous-ensemble, le panneau de sélection le met en évidence (groupé par type) et la caméra se centre là où il en tient le plus
     La touche Espace sélectionne les troupes inactives, celles sans ordres ; Tab les parcourt ensuite par type
     L'avertissement « Cet ordre remplace les précédents » n'apparaît qu'une fois tant que tu maintiens Ctrl
-    Plus de flèches d'ordres pendant la résolution du tour ni dans les rediffusions ; seules les tiennes et celles de tes alliés se voient pendant le tour normal
+    Plus de flèches d'ordres pendant la résolution du tour ; on les voit pendant le tour normal et pendant l'attente de 10 secondes des rediffusions, avant la résolution
     La légende des raccourcis inclut Tab et Espace et passe sur plusieurs lignes si elle ne tient pas ; le tutoriel avance avec Entrée (plus Espace)
     Nouvelle option du salon : l'hôte choisit le niveau de Gouvernement avec lequel tout le monde commence (1 par défaut) ; aux niveaux 2 et 3, joueurs et IA démarrent avec le Gouvernement à ce niveau et une base déjà construite (extracteurs et générateurs avec 4 ouvriers chacun, Banque, habitations, Centre d'entraînement et, au niveau 3, l'Usine de Roboces) avec les ressources correspondantes
     Les bâtiments de départ sont placés de façon symétrique entre les joueurs dont les bases sont le miroir les unes des autres, et tout le monde commence avec un seul Constructeur
     La touche Espace ne sélectionne plus les troupes qui attaquent : seulement celles qui n'ont vraiment aucun ordre
     Alt+clic marque aussi sur la mini-carte et joue une alerte sonore ; « J H C T » disparaît de la légende des raccourcis
+    Animation et son propres pour Sprint, Contre-attaque supplémentaire et Charger et Décharger du Raptor (ils empruntaient ceux de Turbo, du Bouclier réflecteur et du VTT)
+    Aperçu en visant : Soin, Gaz paralysant et Choc IEM montrent leur portée et leur zone circulaire ; Mines, Cloner et Portail dimensionnel marquent les cibles valides ; Piétinement, Immolation et Charger montrent leur zone au survol du bouton
+    Nouveaux indicateurs pendant la résolution : insigne de Contre-attaque supplémentaire tant qu'elle est disponible (il se brise à l'usage), traînée de Sprint pendant la course, et le blocage du Choc IEM apparaît comme de l'interférence sur la troupe
 
 v2026.10.25 alpha
     Version web du jeu : on y joue dans le navigateur sur raseconline.es/axiom-wars, sans rien installer ; elle ouvre directement une partie 1 contre 1 contre l'IA sur une petite carte, dans la langue choisie sur le site

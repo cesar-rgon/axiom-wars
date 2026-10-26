@@ -192,7 +192,7 @@
   "dl.c2": "Avvia il gioco: l'indirizzo del server è già compilato. Scrivi il tuo nome, poi crea una stanza o unisciti a una.",
   "nav.news": "Novità",
   "news.title": "Novità",
-  "news.body": "Colpi a cascata, Tab per tipo di truppa, Spazio per le inattive, livello di Governo iniziale a scelta e segnali sulla minimappa.",
+  "news.body": "Colpi a cascata, Tab per tipo di truppa, Spazio per le inattive, livello di Governo iniziale a scelta e segnali sulla minimappa. Nuove animazioni e suoni delle abilità, con anteprima durante la mira.",
   "news.all": "Vedi tutta la cronologia",
   "news.all.href": "docs/historico.it.txt",
   "lang.eyebrow": "Lingue",

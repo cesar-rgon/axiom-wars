@@ -183,7 +183,7 @@
   "mus.t14": "<strong>Interface flutuante.</strong> Menu, recursos, minimapa, um painel de construção por nível de Governo e um ícone para cada tipo de ordem.",
   "mus.hint": "Deslize para percorrer a linha do tempo →",
   "news.title": "Novidades",
-  "news.body": "Tiros em cascata, Tab por tipo de tropa, Espaço para as ociosas, nível de Governo inicial à escolha e marcas no minimapa.",
+  "news.body": "Tiros em cascata, Tab por tipo de tropa, Espaço para as ociosas, nível de Governo inicial à escolha e marcas no minimapa. Novas animações e sons de habilidades, com pré-visualização ao mirar.",
   "news.all": "Ver o histórico completo de mudanças",
   "join.eyebrow": "Comunidade",
   "join.title": "Jogue com a gente",
