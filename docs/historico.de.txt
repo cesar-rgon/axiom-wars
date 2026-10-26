@@ -15,6 +15,10 @@ v2026.10.26 alpha
     Eigene Animation und eigener Ton für Sprint, Zusätzlicher Gegenangriff sowie Laden und Entladen des Raptors (vorher liehen sie sich die von Turbo, Reflektorschild und APC)
     Vorschau beim Zielen: Heilung, Lähmgas und EMP-Schock zeigen Reichweite und kreisförmige Fläche; Minen, Klonen und Dimensionales Portal markieren gültige Ziele; Stampfen, Selbstopferung und Laden zeigen ihre Fläche, wenn du über die Schaltfläche fährst
     Neue Anzeigen während der Auflösung: Abzeichen für den Zusätzlichen Gegenangriff, solange er verfügbar ist (es zerbricht beim Verbrauch), Sprint-Spur beim Laufen, und die EMP-Sperre erscheint als Störung über der Truppe
+    Eigene Animation für Granatwerfer (rollende Granate), Kanonenschuss des APC-Transporter (Schienenkanone aus dem Turm) und Wilder Biss des Späher (Kiefer); der Späher und der APC-Transporter drehen sich beim Angriff zum Ziel
+    Die Karte einer einzelnen ausgewählten Truppe listet ihre Effekte auf, positive, negative und neutrale: ein Symbol mit einem Ring, der sich mit den Runden leert, den Namen und die verbleibenden Runden sowie ein Tooltip mit Beschreibung und, mit Umschalt, Herkunft; bei mehreren ausgewählten Truppen bleibt alles wie bisher
+    Sprint und Zusätzlicher Gegenangriff erscheinen als Effekt auf der Karte, solange ihr Befehl in der Warteschlange steht (Zusätzlicher Gegenangriff auch, solange der zweite Gegenangriff noch frei ist)
+    Dopen, Tarnung, Turbo und Reparieren geben bei der Auflösung einen Ton von sich (Tarnung, Turbo und Reparieren mit synthetisiertem Klang, bis ihr mp3 da ist)
 
 v2026.10.25 alpha
     Web-Version des Spiels: Sie läuft im Browser unter raseconline.es/axiom-wars, ohne Installation; sie öffnet direkt eine 1-gegen-1-Partie gegen die KI auf einer kleinen Karte, in der auf der Website gewählten Sprache

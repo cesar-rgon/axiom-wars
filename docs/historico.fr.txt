@@ -15,6 +15,10 @@ v2026.10.26 alpha
     Animation et son propres pour Sprint, Contre-attaque supplémentaire et Charger et Décharger du Raptor (ils empruntaient ceux de Turbo, du Bouclier réflecteur et du VTT)
     Aperçu en visant : Soin, Gaz paralysant et Choc IEM montrent leur portée et leur zone circulaire ; Mines, Cloner et Portail dimensionnel marquent les cibles valides ; Piétinement, Immolation et Charger montrent leur zone au survol du bouton
     Nouveaux indicateurs pendant la résolution : insigne de Contre-attaque supplémentaire tant qu'elle est disponible (il se brise à l'usage), traînée de Sprint pendant la course, et le blocage du Choc IEM apparaît comme de l'interférence sur la troupe
+    Animation propre pour Lance-grenades (grenade qui roule), Coup de canon du Transport APC (canon à rails depuis la tourelle) et Morsure féroce de l'Éclaireur (mâchoires) ; l'Éclaireur et le Transport APC se tournent vers leur cible en attaquant
+    La fiche d'une seule troupe sélectionnée liste ses effets, positifs, négatifs et neutres : une icône avec un anneau qui se vide au fil des manches, le nom et les manches restantes, et une infobulle avec sa description et, avec Maj, son origine ; avec plusieurs troupes sélectionnées, rien ne change
+    Sprint et Contre-attaque supplémentaire apparaissent comme effet sur la fiche tant que leur ordre est en file (Contre-attaque supplémentaire aussi tant que sa seconde contre-attaque est disponible)
+    Doper, Camouflage, Turbo et Réparer émettent un son à la résolution (Camouflage, Turbo et Réparer avec un son synthétisé en attendant leur mp3)
 
 v2026.10.25 alpha
     Version web du jeu : on y joue dans le navigateur sur raseconline.es/axiom-wars, sans rien installer ; elle ouvre directement une partie 1 contre 1 contre l'IA sur une petite carte, dans la langue choisie sur le site

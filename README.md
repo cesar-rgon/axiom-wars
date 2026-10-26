@@ -183,6 +183,10 @@ The latest version is **v2026.10.26 alpha**.
 - Sprint, Extra counterattack and the Raptor's Load and Unload have their own animation and sound (they used to borrow Turbo's, the Reflector Shield's and the APC's)
 - Preview while aiming: Healing, Paralyzing gas and EMP shock show their range and their circular area; Mines, Clone and Dimensional portal mark the valid targets; Stomp, Self-destruct and Load show their area when you hover the button
 - New indicators while the turn resolves: an Extra counterattack badge while it is available (it breaks when spent), a Sprint trail while running, and the EMP shock lock shows as interference over the troop
+- Own animation for Grenade launcher (rolling grenade), Cannon shot of the APC Transport (rail cannon from the turret) and Chomp of the Explorer (jaws); the Explorer and the APC Transport turn to face their target when attacking
+- The card of a single selected troop lists its effects, positive, negative and neutral: an icon with a ring that empties as rounds pass, the name and the rounds left, and a tooltip with its description and, with Shift, its origin; with several troops selected it stays as it was
+- Sprint and Extra counterattack show up as an effect on the card while their order is queued (Extra counterattack also while its second counterattack is still free)
+- Dope, Camouflage, Turbo and Repair make a sound when they resolve (Camouflage, Turbo and Repair with a synthesized sound until their mp3 arrives)
 
 ### v2026.10.25 alpha
 

@@ -15,6 +15,10 @@ v2026.10.26 alpha
     Własna animacja i dźwięk dla Sprintu, Dodatkowego kontrataku oraz Załaduj i Wyładuj Raptora (wcześniej pożyczały te z Turbo, Tarczy odbijającej i transportera)
     Podgląd podczas celowania: Leczenie, Gaz paraliżujący i Wstrząs EMP pokazują zasięg i kolisty obszar; Miny, Klonuj i Portal wymiarowy zaznaczają prawidłowe cele; Tupnięcie, Samozniszczenie i Załaduj pokazują obszar po najechaniu na przycisk
     Nowe wskaźniki podczas rozstrzygania: odznaka Dodatkowego kontrataku, dopóki jest dostępny (pęka po użyciu), smuga Sprintu podczas biegu, a blokada Wstrząsu EMP wygląda jak zakłócenia nad oddziałem
+    Własna animacja dla Granatnik (toczący się granat), Strzał z działa Transporter APC (działo szynowe z wieżyczki) i Ugryzienie Zwiadowca (szczęki); Zwiadowca i Transporter APC obracają się w stronę celu podczas ataku
+    Karta jednego zaznaczonego oddziału wymienia jego efekty, pozytywne, negatywne i neutralne: ikona z pierścieniem, który opróżnia się z kolejnymi rundami, nazwa i pozostałe rundy oraz podpowiedź z opisem, a z Shiftem także ze źródłem; przy zaznaczeniu kilku oddziałów nic się nie zmienia
+    Sprint i Dodatkowy kontratak pojawiają się jako efekt na karcie, dopóki ich rozkaz stoi w kolejce (Dodatkowy kontratak także dopóki drugi kontratak jest wolny)
+    Dopowanie, Maskowanie, Turbo i Naprawa wydają dźwięk przy rozstrzygnięciu (Maskowanie, Turbo i Naprawa z dźwiękiem syntezowanym, dopóki nie będzie ich mp3)
 
 v2026.10.25 alpha
     Wersja przeglądarkowa gry: gra się w przeglądarce na raseconline.es/axiom-wars, bez instalowania; od razu otwiera partię 1 na 1 z SI na małej mapie, w języku wybranym na stronie

@@ -15,6 +15,10 @@ v2026.10.26 alpha
     Animazione e suono propri per Scatto, Contrattacco aggiuntivo e Carica e Scarica del Raptor (prima prendevano in prestito quelli di Turbo, dello Scudo riflettente e dell'APC)
     Anteprima durante la mira: Guarigione, Gas paralizzante e Scossa EMP mostrano portata e area circolare; Mine, Clona e Portale dimensionale segnano i bersagli validi; Calpestio, Immola e Carica mostrano la loro area passando sul pulsante
     Nuovi indicatori durante la risoluzione: distintivo del Contrattacco aggiuntivo finché è disponibile (si rompe quando viene usato), scia dello Scatto durante la corsa, e il blocco della Scossa EMP appare come interferenza sulla truppa
+    Animazione propria per Lanciagranate (granata che rotola), Cannonata dell'Trasporto APC (cannone a rotaia dalla torretta) e Morso feroce dell'Esploratore (fauci); l'Esploratore e l'Trasporto APC si girano verso il bersaglio quando attaccano
+    La scheda di una sola truppa selezionata elenca i suoi effetti, positivi, negativi e neutri: un'icona con un anello che si svuota con i round, il nome e i round rimasti, e un tooltip con la descrizione e, con Maiusc, l'origine; con più truppe selezionate non cambia nulla
+    Scatto e Contrattacco aggiuntivo compaiono come effetto nella scheda finché il loro ordine è in coda (Contrattacco aggiuntivo anche finché il secondo contrattacco è ancora libero)
+    Dopare, Mimetismo, Turbo e Riparare emettono un suono alla risoluzione (Mimetismo, Turbo e Riparare con suono sintetizzato finché non ci sarà l'mp3)
 
 v2026.10.25 alpha
     Versione web del gioco: si gioca nel browser su raseconline.es/axiom-wars, senza installare nulla; si apre direttamente in una partita 1 contro 1 contro l'IA su una mappa piccola, nella lingua scelta sul sito

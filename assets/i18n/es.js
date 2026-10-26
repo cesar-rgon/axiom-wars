@@ -216,7 +216,7 @@
   "dl.c2": "Abre el juego: la dirección del servidor ya viene rellena. Escribe tu nombre y crea una sala o únete a una.",
   "nav.news": "Novedades",
   "news.title": "Novedades",
-  "news.body": "Disparos en cascada, Tab por tipos de tropa, Espacio para las ociosas, nivel de Gobierno inicial a elegir y marcas en el minimapa. Animaciones y sonidos nuevos de habilidades, con vista previa al apuntar.",
+  "news.body": "Disparos en cascada, Tab por tipos de tropa, Espacio para las ociosas, nivel de Gobierno inicial a elegir y marcas en el minimapa. Animaciones y sonidos nuevos de habilidades, con vista previa al apuntar. Animaciones propias de armas, efectos de estado en el panel y sonidos nuevos.",
   "news.all": "Ver el histórico completo",
   "news.all.href": "docs/historico.es.txt",
   "lang.eyebrow": "Idiomas",

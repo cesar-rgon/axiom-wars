@@ -15,6 +15,10 @@ v2026.10.26 alpha
     Sprint, Ek karşı saldırı ve Raptor'un Yükle ile Boşalt yeteneklerine kendi animasyon ve sesleri eklendi (önceden Turbo, Yansıtıcı kalkan ve APC'ninkini ödünç alıyorlardı)
     Nişan alırken önizleme: İyileştirme, Felç edici gaz ve EMP şoku menzilini ve dairesel alanını gösterir; Mayınlar, Klonla ve Boyutlar arası portal geçerli hedefleri işaretler; Çiğneme, Kendini patlat ve Yükle düğmenin üzerine gelince alanını gösterir
     Çözümleme sırasındaki yeni göstergeler: Ek karşı saldırı varken rozet (kullanılınca kırılır), koşarken Sprint izi ve EMP şokunun kilidi birliğin üzerinde parazit olarak görünür
+    Bomba atar (yuvarlanan bomba), APC Taşıyıcı birliğinin Top atışı (taretten rayli top) ve Kaşif birliğinin Diş darbesi (çeneler) için özel animasyon; Kaşif ve APC Taşıyıcı saldırırken hedefe dönerler
+    Seçili tek bir birliğin kartı etkilerini listeler, olumlu, olumsuz ve nötr: raunt geçtikçe boşalan halkalı bir simge, ad ve kalan raunt sayısı ile açıklama ve Shift'le kaynağını gösteren bir ipucu; birden fazla birlik seçiliyken değişen bir şey yok
+    Sprint ve Ek karşı saldırı, emirleri kuyruktayken kartta etki olarak görünür (Ek karşı saldırı ikinci karşı saldırısı hâlâ boştayken de görünür)
+    Dopla, Kamuflaj, Turbo ve Onar çözülürken ses çıkarır (Kamuflaj, Turbo ve Onar mp3'leri gelene kadar sentezlenmiş sesle)
 
 v2026.10.25 alpha
     Oyunun web sürümü: hiçbir şey kurmadan raseconline.es/axiom-wars adresinde tarayıcıdan oynanır; küçük bir haritada yapay zekâya karşı 1'e 1 maça doğrudan açılır ve dil sitede seçtiğin dildir
