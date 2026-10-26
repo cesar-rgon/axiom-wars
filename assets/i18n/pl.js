@@ -183,7 +183,7 @@
   "mus.t14": "<strong>Pływający interfejs.</strong> Menu, zasoby, minimapa, panel budowy według poziomu Rządu i ikona dla każdego rodzaju rozkazu.",
   "mus.hint": "Przesuń palcem, aby poruszać się po osi czasu →",
   "news.title": "Nowości",
-  "news.body": "Strzały kaskadowe, Tab po typach oddziałów, Spacja dla bezczynnych i brak strzałek przy rozstrzyganiu tury.",
+  "news.body": "Strzały kaskadowe, Tab po typach oddziałów, Spacja dla bezczynnych, wybór poziomu Rządu na starcie i znaczniki na minimapie.",
   "news.all": "Zobacz pełną historię zmian",
   "news.all.href": "docs/historico.pl.txt",
   "join.eyebrow": "Społeczność",

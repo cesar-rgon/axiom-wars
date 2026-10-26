@@ -8,6 +8,10 @@ v2026.10.26 alpha
     Ostrzeżenie „Ten rozkaz zastępuje poprzednie” pojawia się tylko raz, dopóki trzymasz Ctrl
     Brak strzałek rozkazów podczas rozstrzygania tury i w powtórkach; w zwykłej turze widać tylko twoje i sojuszników
     Legenda skrótów zawiera Tab i Spację i zawija się do kilku wierszy, gdy się nie mieści; samouczek przechodzi dalej klawiszem Enter (już nie Spacją)
+    Nowa opcja poczekalni: gospodarz wybiera poziom Rządu, od którego zaczynają wszyscy (domyślnie 1); na poziomach 2 i 3 gracze i SI zaczynają z Rządem na tym poziomie i gotową bazą (ekstraktory i generatory po 4 robotników, Bank, domy, Centrum Szkolenia, a na poziomie 3 Fabryka Roboces) oraz odpowiednimi zasobami
+    Budynki startowe są rozmieszczone symetrycznie między graczami, których bazy są swoim lustrzanym odbiciem, a wszyscy zaczynają z jednym Konstruktorem
+    Spacja nie zaznacza już oddziałów, które atakują: tylko te, które naprawdę nie mają żadnego rozkazu
+    Alt+klik zaznacza też na minimapie i odtwarza sygnał dźwiękowy; „J H C T” znika z legendy skrótów
 
 v2026.10.25 alpha
     Wersja przeglądarkowa gry: gra się w przeglądarce na raseconline.es/axiom-wars, bez instalowania; od razu otwiera partię 1 na 1 z SI na małej mapie, w języku wybranym na stronie

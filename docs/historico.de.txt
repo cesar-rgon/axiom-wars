@@ -8,6 +8,10 @@ v2026.10.26 alpha
     Die Warnung „Dieser Befehl ersetzt frühere“ erscheint nur einmal, solange du Strg gedrückt hältst
     Keine Befehlspfeile während der Rundenauflösung und in Wiederholungen; in der normalen Runde siehst du nur deine eigenen und die deiner Verbündeten
     Die Tastenlegende enthält Tab und Leertaste und bricht auf mehrere Zeilen um, wenn sie nicht passt; das Tutorial geht mit Enter weiter (nicht mehr mit der Leertaste)
+    Neue Lobby-Option: Der Gastgeber wählt die Regierungsstufe, mit der alle starten (standardmäßig 1); auf Stufe 2 und 3 starten Spieler und KIs mit der Regierung auf dieser Stufe und einer fertigen Basis (Extraktoren und Generatoren mit je 4 Arbeitern, Bank, Wohnhäuser, Trainingszentrum und auf Stufe 3 die Roboces-Fabrik) samt passenden Ressourcen
+    Die Startgebäude werden symmetrisch zwischen Spielern platziert, deren Basen einander spiegeln, und alle starten mit nur einem Konstrukteur
+    Die Leertaste wählt keine angreifenden Truppen mehr aus, sondern nur solche, die wirklich keinen Befehl haben
+    Alt+Klick markiert jetzt auch auf der Minikarte und spielt einen Warnton; „J H C T“ entfällt in der Tastenübersicht
 
 v2026.10.25 alpha
     Web-Version des Spiels: Sie läuft im Browser unter raseconline.es/axiom-wars, ohne Installation; sie öffnet direkt eine 1-gegen-1-Partie gegen die KI auf einer kleinen Karte, in der auf der Website gewählten Sprache

@@ -8,6 +8,10 @@ v2026.10.26 alpha
     «Bu emir öncekilerin yerine geçer» uyarısı Ctrl basılı tutulduğu sürece yalnızca bir kez çıkar
     Tur çözümlenirken ve tekrarlarda emir okları gösterilmez; normal turda yalnızca seninkiler ve müttefiklerinki görünür
     Kısayol göstergesi Tab ve Boşluk'u içerir, sığmazsa birkaç satıra bölünür; eğitim artık Enter ile ilerler (Boşluk ile değil)
+    Lobide yeni seçenek: ev sahibi herkesin başlayacağı Hükümet seviyesini seçer (varsayılan 1); 2. ve 3. seviyede oyuncular ve yapay zekâlar Hükümet o seviyede ve hazır bir üsle başlar (her biri 4 işçili çıkarıcılar ve jeneratörler, Banka, konutlar, Eğitim Merkezi ve 3. seviyede Roboces Fabrikası) ve buna uygun kaynaklarla
+    Başlangıç binaları, üsleri birbirinin ayna görüntüsü olan oyuncular arasında simetrik yerleştirilir ve herkes tek bir İnşaatçı ile başlar
+    Boşluk tuşu artık saldıran birlikleri seçmez: yalnızca gerçekten hiç emri olmayanları seçer
+    Alt+tık artık mini haritada da işaret koyar ve uyarı sesi çalar; „J H C T“ kısayol göstergesinden kaldırıldı
 
 v2026.10.25 alpha
     Oyunun web sürümü: hiçbir şey kurmadan raseconline.es/axiom-wars adresinde tarayıcıdan oynanır; küçük bir haritada yapay zekâya karşı 1'e 1 maça doğrudan açılır ve dil sitede seçtiğin dildir

@@ -192,7 +192,7 @@
   "dl.c2": "打开游戏：服务器地址已经填好。输入你的名字，然后创建房间或加入一个房间。",
   "nav.news": "新内容",
   "news.title": "新内容",
-  "news.body": "连锁射击、Tab 按部队类型切换、空格选择空闲部队，结算时不再显示箭头。",
+  "news.body": "连锁射击、Tab 按部队类型切换、空格选择空闲部队、可选的初始政府等级和小地图标记。",
   "news.all": "查看完整更新历史",
   "news.all.href": "docs/historico.zh.txt",
   "lang.eyebrow": "语言",

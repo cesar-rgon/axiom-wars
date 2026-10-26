@@ -8,6 +8,10 @@ v2026.10.26 alpha
     L'avviso «Questo ordine sostituisce quelli precedenti» compare una sola volta finché tieni premuto Ctrl
     Niente frecce degli ordini durante la risoluzione del turno né nelle ripetizioni; si vedono solo le tue e quelle degli alleati nel turno normale
     La legenda dei tasti include Tab e Spazio e va su più righe se non ci sta; il tutorial avanza con Invio (non più con Spazio)
+    Nuova opzione della sala: l'host sceglie il livello di Governo con cui parte tutta la partita (1 di default); ai livelli 2 e 3, giocatori e IA partono con il Governo a quel livello e una base già costruita (estrattori e generatori con 4 lavoratori ciascuno, Banca, abitazioni, Centro di addestramento e, al livello 3, la Fabbrica di Roboces) con risorse adeguate
+    Gli edifici iniziali sono posizionati in modo simmetrico tra i giocatori le cui basi sono speculari, e tutti partono con un solo Costruttore
+    Il tasto Spazio non seleziona più le truppe che stanno attaccando: solo quelle che non hanno davvero alcun ordine
+    Alt+clic segna anche sulla minimappa e riproduce un avviso sonoro; «J H C T» sparisce dalla legenda delle scorciatoie
 
 v2026.10.25 alpha
     Versione web del gioco: si gioca nel browser su raseconline.es/axiom-wars, senza installare nulla; si apre direttamente in una partita 1 contro 1 contro l'IA su una mappa piccola, nella lingua scelta sul sito

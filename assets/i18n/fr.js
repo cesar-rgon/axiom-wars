@@ -192,7 +192,7 @@
   "dl.c2": "Lancez le jeu : l'adresse du serveur est déjà remplie. Saisissez votre nom, puis créez un salon ou rejoignez-en un.",
   "nav.news": "Nouveautés",
   "news.title": "Nouveautés",
-  "news.body": "Tirs en cascade, Tab par type de troupe, Espace pour les inactives et pas de flèches pendant la résolution.",
+  "news.body": "Tirs en cascade, Tab par type de troupe, Espace pour les inactives, niveau de Gouvernement de départ au choix et marques sur la mini-carte.",
   "news.all": "Voir tout l'historique",
   "news.all.href": "docs/historico.fr.txt",
   "lang.eyebrow": "Langues",
