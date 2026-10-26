@@ -192,7 +192,7 @@
   "dl.c2": "Avvia il gioco: l'indirizzo del server è già compilato. Scrivi il tuo nome, poi crea una stanza o unisciti a una.",
   "nav.news": "Novità",
   "news.title": "Novità",
-  "news.body": "Colpi a cascata, Tab per tipo di truppa, Spazio per le inattive, livello di Governo iniziale a scelta e segnali sulla minimappa. Nuove animazioni e suoni delle abilità, con anteprima durante la mira. Animazioni proprie delle armi, effetti di stato nel pannello e nuovi suoni.",
+  "news.body": "Colpi a cascata, Tab per tipo di truppa, Spazio per le inattive, livello di Governo iniziale a scelta e segnali sulla minimappa. Nuove animazioni e suoni delle abilità, con anteprima durante la mira. Animazioni proprie delle armi, effetti di stato nel pannello e nuovi suoni. Nuove animazioni e suoni per sblocchi, addestramento, banca, forzieri, diserzioni e altro; indicatori sulla mappa per danni, energia, feriti, passeggeri e prestiti; tempesta e radioattività colpiscono le truppe.",
   "news.all": "Vedi tutta la cronologia",
   "news.all.href": "docs/historico.it.txt",
   "lang.eyebrow": "Lingue",

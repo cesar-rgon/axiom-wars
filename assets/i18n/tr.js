@@ -183,7 +183,7 @@
   "mus.t14": "<strong>Yüzen arayüz.</strong> Menü, kaynaklar, mini harita, Hükümet seviyesine göre inşa paneli ve her emir türü için bir simge.",
   "mus.hint": "Zaman çizgisinde ilerlemek için kaydır →",
   "news.title": "Yenilikler",
-  "news.body": "Zincirleme atışlar, birlik türlerine göre Tab, boştakiler için Boşluk, seçilebilir başlangıç Hükümet seviyesi ve mini haritada işaretler. Yeni yetenek animasyonları ve sesleri, nişan alırken önizlemeyle. Silahlara özel animasyonlar, panelde durum etkileri ve yeni sesler.",
+  "news.body": "Zincirleme atışlar, birlik türlerine göre Tab, boştakiler için Boşluk, seçilebilir başlangıç Hükümet seviyesi ve mini haritada işaretler. Yeni yetenek animasyonları ve sesleri, nişan alırken önizlemeyle. Silahlara özel animasyonlar, panelde durum etkileri ve yeni sesler. Açılışlar, eğitim, banka, sandıklar, firarlar ve daha fazlası için yeni animasyonlar ve sesler; hasar, enerji, yaralılar, yolcular ve krediler için harita göstergeleri; fırtına ve radyoaktivite birliklere vuruyor.",
   "news.all": "Tüm değişiklik geçmişini gör",
   "news.all.href": "docs/historico.tr.txt",
   "join.eyebrow": "Topluluk",

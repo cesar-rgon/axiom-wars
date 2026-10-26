@@ -188,6 +188,11 @@ La última versión es **v2026.10.26 alpha**.
 - Sprint y Contraataque adicional aparecen como efecto en la ficha mientras su orden está en cola (Contraataque adicional también mientras su segundo contraataque sigue libre)
 - Dopar, Camuflaje, Turbo y Reparar suenan al resolverse (Camuflaje, Turbo y Reparar con sonido sintetizado hasta tener su mp3)
 - Texturas nuevas del Trabajador: icono en extractores, generadores y listas, y figura de cuerpo entero en su ficha, en la wiki y en la web, donde además se anima como el resto de tropas; el tooltip de una orden de producir una unidad enseña esa unidad
+- Animaciones y sonidos propios para sucesos que sólo tenían aviso de texto: desbloqueo de pasivas, armas y habilidades por separado; tropa que sale entrenada o se une a una pila; obra cancelada; órdenes fallidas o parciales con su resumen por ronda; vender, comerciar, préstamos (concesión y cobro) y transferencias; petición de recursos y premios cedidos entre aliados; cofre abierto, caza, fuente agotada, cupo lleno y energía al tope
+- Más sucesos con efecto: deserciones, tropa detenida por falta de energía o combustible o por ruta bloqueada, camuflaje perdido o detectado, descarga fallida, dividir y unir pilas, salir de debajo de la tierra, clon que expira y Constructor sin camino
+- Indicadores que quedan en el mapa: edificio sin energía, edificios dañados con humo y fuego, tropas heridas (cruz médica en las orgánicas, humo y chispas en las mecánicas), transporte con su número de pasajeros, reloj del préstamo activo sobre el Banco, rayo de plano del Constructor en obra y llamarada en la Refinería
+- El clima actúa sobre las tropas: en tormenta cae un rayo sobre cada una y en radiactividad un pulso verde recorre el suelo al empezar el turno
+- 41 sonidos nuevos para todo lo anterior (de momento sintetizados; los mp3 definitivos llegarán más adelante); el servidor emite eventos nuevos para estos sucesos
 
 ### v2026.10.25 alpha
 

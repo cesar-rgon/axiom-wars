@@ -20,6 +20,11 @@ v2026.10.26 alpha
     Sprint e Contra-ataque extra aparecem como efeito na ficha enquanto a ordem está na fila (Contra-ataque extra também enquanto o segundo contra-ataque continua livre)
     Dopar, Camuflagem, Turbo e Reparar soam ao serem resolvidos (Camuflagem, Turbo e Reparar com som sintetizado até terem o mp3)
     Texturas novas do Trabalhador: ícone em extratores, geradores e listas, e figura de corpo inteiro na sua ficha, na wiki e no site, onde também é animado como as outras tropas; a dica de uma ordem de produzir uma unidade mostra essa unidade
+    Animações e sons próprios para eventos que só tinham aviso de texto: desbloqueio de passivas, armas e habilidades, cada um do seu jeito; tropa que sai do treinamento ou se junta a uma pilha; obra cancelada; ordens que falharam ou foram parciais com o resumo por rodada; venda, troca, empréstimos (concessão e cobrança) e transferências; pedidos de recursos e prêmios cedidos entre aliados; baú aberto, caça, fonte esgotada, limite cheio e energia no teto
+    Mais eventos com efeito: deserções, tropa parada por falta de energia ou combustível ou por rota bloqueada, camuflagem perdida ou descoberta, descarga que falhou, divisão e união de pilhas, sair de debaixo da terra, clone que expira e Construtor sem caminho
+    Indicadores que ficam no mapa: edifício sem energia, edifícios danificados com fumaça e fogo, tropas feridas (cruz médica nas orgânicas, fumaça e faíscas nas mecânicas), transporte com seu número de passageiros, relógio do empréstimo ativo sobre o Banco, raio de planta do Construtor trabalhando e a chama da Refinaria
+    O clima age sobre as tropas: na tempestade um raio atinge cada uma e na radioatividade um pulso verde percorre o chão no início do turno
+    41 sons novos para tudo isso (por enquanto sintetizados; os mp3 definitivos virão depois); o servidor envia novos eventos para esses casos
 
 v2026.10.25 alpha
     Versão web do jogo: joga-se no navegador em raseconline.es/axiom-wars, sem instalar nada; ela abre direto uma partida 1 contra 1 contra a IA em um mapa pequeno, no idioma escolhido no site

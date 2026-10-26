@@ -183,7 +183,7 @@
   "mus.t14": "<strong>Interface flutuante.</strong> Menu, recursos, minimapa, um painel de construção por nível de Governo e um ícone para cada tipo de ordem.",
   "mus.hint": "Deslize para percorrer a linha do tempo →",
   "news.title": "Novidades",
-  "news.body": "Tiros em cascata, Tab por tipo de tropa, Espaço para as ociosas, nível de Governo inicial à escolha e marcas no minimapa. Novas animações e sons de habilidades, com pré-visualização ao mirar. Animações próprias de armas, efeitos de estado no painel e sons novos.",
+  "news.body": "Tiros em cascata, Tab por tipo de tropa, Espaço para as ociosas, nível de Governo inicial à escolha e marcas no minimapa. Novas animações e sons de habilidades, com pré-visualização ao mirar. Animações próprias de armas, efeitos de estado no painel e sons novos. Novas animações e sons para desbloqueios, treinamento, banco, baús, deserções e mais; indicadores no mapa de dano, energia, feridos, passageiros e empréstimos; a tempestade e a radioatividade atingem as tropas.",
   "news.all": "Ver o histórico completo de mudanças",
   "join.eyebrow": "Comunidade",
   "join.title": "Jogue com a gente",

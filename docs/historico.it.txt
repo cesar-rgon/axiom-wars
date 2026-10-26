@@ -20,6 +20,11 @@ v2026.10.26 alpha
     Scatto e Contrattacco aggiuntivo compaiono come effetto nella scheda finché il loro ordine è in coda (Contrattacco aggiuntivo anche finché il secondo contrattacco è ancora libero)
     Dopare, Mimetismo, Turbo e Riparare emettono un suono alla risoluzione (Mimetismo, Turbo e Riparare con suono sintetizzato finché non ci sarà l'mp3)
     Nuove texture del Lavoratore: un'icona su estrattori, generatori ed elenchi, e una figura intera nella sua scheda, nella wiki e nel sito, dove è anche animato come le altre truppe; il tooltip di un ordine di produzione di un'unità mostra quell'unità
+    Animazioni e suoni propri per eventi che avevano solo un avviso di testo: sblocco di passive, armi e abilità ciascuno a modo suo; truppa che esce dall'addestramento o si unisce a una pila; costruzione annullata; ordini falliti o parziali con il riepilogo per round; vendita, scambio, prestiti (concessione e riscossione) e trasferimenti; richieste di risorse e premi ceduti tra alleati; forziere aperto, caccia, fonte esaurita, limite pieno ed energia al massimo
+    Altri eventi con effetto: diserzioni, truppa fermata per mancanza di energia o carburante o per percorso bloccato, mimetizzazione persa o scoperta, scarico fallito, divisione e unione di pile, uscita da sottoterra, clone che scade e Costruttore senza strada
+    Indicatori che restano sulla mappa: edificio senza energia, edifici danneggiati con fumo e fuoco, truppe ferite (croce medica per le organiche, fumo e scintille per le meccaniche), trasporto con il numero di passeggeri, orologio del prestito attivo sulla Banca, raggio di progetto del Costruttore al lavoro e fiammata della Raffineria
+    Il clima agisce sulle truppe: con la tempesta un fulmine colpisce ognuna e con la radioattività un impulso verde percorre il terreno all'inizio del turno
+    41 nuovi suoni per tutto questo (per ora sintetizzati; gli mp3 definitivi arriveranno più avanti); il server invia nuovi eventi per questi casi
 
 v2026.10.25 alpha
     Versione web del gioco: si gioca nel browser su raseconline.es/axiom-wars, senza installare nulla; si apre direttamente in una partita 1 contro 1 contro l'IA su una mappa piccola, nella lingua scelta sul sito

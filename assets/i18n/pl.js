@@ -183,7 +183,7 @@
   "mus.t14": "<strong>Pływający interfejs.</strong> Menu, zasoby, minimapa, panel budowy według poziomu Rządu i ikona dla każdego rodzaju rozkazu.",
   "mus.hint": "Przesuń palcem, aby poruszać się po osi czasu →",
   "news.title": "Nowości",
-  "news.body": "Strzały kaskadowe, Tab po typach oddziałów, Spacja dla bezczynnych, wybór poziomu Rządu na starcie i znaczniki na minimapie. Nowe animacje i dźwięki zdolności z podglądem podczas celowania. Własne animacje broni, efekty stanu w panelu i nowe dźwięki.",
+  "news.body": "Strzały kaskadowe, Tab po typach oddziałów, Spacja dla bezczynnych, wybór poziomu Rządu na starcie i znaczniki na minimapie. Nowe animacje i dźwięki zdolności z podglądem podczas celowania. Własne animacje broni, efekty stanu w panelu i nowe dźwięki. Nowe animacje i dźwięki dla odblokowań, treningu, banku, skrzyń, dezercji i nie tylko; znaczniki na mapie dla uszkodzeń, energii, rannych, pasażerów i pożyczek; burza i radioaktywność uderzają w oddziały.",
   "news.all": "Zobacz pełną historię zmian",
   "news.all.href": "docs/historico.pl.txt",
   "join.eyebrow": "Społeczność",

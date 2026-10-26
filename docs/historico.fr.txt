@@ -20,6 +20,11 @@ v2026.10.26 alpha
     Sprint et Contre-attaque supplémentaire apparaissent comme effet sur la fiche tant que leur ordre est en file (Contre-attaque supplémentaire aussi tant que sa seconde contre-attaque est disponible)
     Doper, Camouflage, Turbo et Réparer émettent un son à la résolution (Camouflage, Turbo et Réparer avec un son synthétisé en attendant leur mp3)
     Nouvelles textures du Ouvrier : une icône sur les extracteurs, les générateurs et les listes, et une figure en pied sur sa fiche, dans le wiki et sur le site, où il est aussi animé comme les autres troupes ; l'infobulle d'un ordre de production d'une unité montre cette unité
+    Animations et sons propres pour des événements qui n'avaient qu'un avis écrit : déblocage de passives, d'armes et de capacités chacun à sa façon ; troupe qui sort d'entraînement ou rejoint une pile ; chantier annulé ; ordres échoués ou partiels avec leur résumé par tour ; vente, troc, prêts (octroi et encaissement) et transferts ; demandes de ressources et récompenses cédées entre alliés ; coffre ouvert, chasse, source épuisée, plafond atteint et énergie au maximum
+    Davantage d'événements avec effet : désertions, troupe arrêtée faute d'énergie ou de carburant ou par une route bloquée, camouflage perdu ou repéré, déchargement raté, scission et fusion de piles, sortie de terre, clone qui expire et Constructeur sans chemin
+    Indicateurs qui restent sur la carte : bâtiment sans énergie, bâtiments endommagés avec fumée et feu, troupes blessées (croix médicale pour les organiques, fumée et étincelles pour les mécaniques), transport avec son nombre de passagers, horloge du prêt actif sur la Banque, rayon de plan du Constructeur au travail et torchère de la Raffinerie
+    Le climat agit sur les troupes : en cas d'orage la foudre frappe chacune et avec la radioactivité une impulsion verte parcourt le sol au début du tour
+    41 nouveaux sons pour tout cela (synthétisés pour l'instant ; les mp3 définitifs viendront plus tard) ; le serveur envoie de nouveaux événements pour ces cas
 
 v2026.10.25 alpha
     Version web du jeu : on y joue dans le navigateur sur raseconline.es/axiom-wars, sans rien installer ; elle ouvre directement une partie 1 contre 1 contre l'IA sur une petite carte, dans la langue choisie sur le site

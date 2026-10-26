@@ -20,6 +20,11 @@ v2026.10.26 alpha
     Sprint i Dodatkowy kontratak pojawiają się jako efekt na karcie, dopóki ich rozkaz stoi w kolejce (Dodatkowy kontratak także dopóki drugi kontratak jest wolny)
     Dopowanie, Maskowanie, Turbo i Naprawa wydają dźwięk przy rozstrzygnięciu (Maskowanie, Turbo i Naprawa z dźwiękiem syntezowanym, dopóki nie będzie ich mp3)
     Nowe tekstury: Robotnik — ikona na ekstraktorach, generatorach i w listach oraz postać w pełnej postaci na jego karcie, w wiki i na stronie, gdzie jest też animowany jak pozostałe oddziały; podpowiedź rozkazu produkcji jednostki pokazuje tę jednostkę
+    Własne animacje i dźwięki dla zdarzeń, które miały tylko komunikat tekstowy: odblokowanie pasywek, broni i umiejętności, każde po swojemu; oddział wychodzący z treningu lub dołączający do stosu; anulowana budowa; nieudane lub częściowe rozkazy z podsumowaniem rundy; sprzedaż, handel, pożyczki (udzielenie i spłata) i przelewy; prośby o zasoby i przekazane nagrody między sojusznikami; otwarta skrzynia, polowanie, wyczerpane źródło, pełny limit i energia na maksimum
+    Więcej zdarzeń z efektem: dezercje, oddział zatrzymany z braku energii lub paliwa albo przez zablokowaną trasę, utrata lub wykrycie kamuflażu, nieudany rozładunek, dzielenie i łączenie stosów, wyjście spod ziemi, wygasający klon i Konstruktor bez drogi
+    Znaczniki zostające na mapie: budynek bez energii, uszkodzone budynki z dymem i ogniem, ranne oddziały (krzyż medyczny przy organicznych, dym i iskry przy mechanicznych), transport z liczbą pasażerów, zegar aktywnej pożyczki nad Bankiem, promień planu pracującego Konstruktora i pochodnia Rafinerii
+    Pogoda działa na oddziały: w burzy piorun uderza w każdy z nich, a przy radioaktywności na początku tury po ziemi przechodzi zielony impuls
+    41 nowych dźwięków do tego wszystkiego (na razie syntetyzowane; ostateczne pliki mp3 pojawią się później); serwer wysyła nowe zdarzenia dla tych przypadków
 
 v2026.10.25 alpha
     Wersja przeglądarkowa gry: gra się w przeglądarce na raseconline.es/axiom-wars, bez instalowania; od razu otwiera partię 1 na 1 z SI na małej mapie, w języku wybranym na stronie

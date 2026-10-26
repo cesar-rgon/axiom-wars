@@ -20,6 +20,11 @@ v2026.10.26 alpha
     Sprint and Extra counterattack show up as an effect on the card while their order is queued (Extra counterattack also while its second counterattack is still free)
     Dope, Camouflage, Turbo and Repair make a sound when they resolve (Camouflage, Turbo and Repair with a synthesized sound until their mp3 arrives)
     New Worker textures: an icon on extractors, generators and lists, and a full-body figure on its card, in the wiki and on the website, where it is also animated like the other troops; the tooltip of an order that produces a unit shows that unit
+    Own animations and sounds for events that only had a text notice: unlocking passives, weapons and abilities each in their own way; a troop coming out of training or joining a stack; a cancelled build; failed or partial orders with a per-round summary; selling, trading, loans (granting and collecting) and transfers; requests for resources and prizes handed over between allies; an opened chest, hunting, an exhausted source, a full cap and energy at its ceiling
+    More events with an effect: desertions, a troop stopped for lack of energy or fuel or by a blocked route, camouflage lost or spotted, a failed unload, splitting and merging stacks, coming up from underground, an expiring clone and a Constructor with no way through
+    Marks that stay on the map: a building without energy, damaged buildings with smoke and fire, wounded troops (a medical cross on organic ones, smoke and sparks on mechanical ones), a transport with its passenger count, the active loan's clock over the Bank, the blueprint beam of a Constructor at work and the Refinery's flare
+    The weather acts on the troops: in a storm a lightning bolt hits each one and in radioactivity a green pulse sweeps the ground when the turn starts
+    41 new sounds for all of the above (synthesized for now; the final mp3 files will come later); the server sends new events for these
 
 v2026.10.25 alpha
     Web version of the game: play in the browser at raseconline.es/axiom-wars with nothing to install; it opens straight into a 1 vs 1 match against the AI on a small map, in the language chosen on the website

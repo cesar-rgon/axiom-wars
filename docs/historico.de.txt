@@ -20,6 +20,11 @@ v2026.10.26 alpha
     Sprint und Zusätzlicher Gegenangriff erscheinen als Effekt auf der Karte, solange ihr Befehl in der Warteschlange steht (Zusätzlicher Gegenangriff auch, solange der zweite Gegenangriff noch frei ist)
     Dopen, Tarnung, Turbo und Reparieren geben bei der Auflösung einen Ton von sich (Tarnung, Turbo und Reparieren mit synthetisiertem Klang, bis ihr mp3 da ist)
     Neue Texturen für den Arbeiter: ein Symbol an Extraktoren, Generatoren und in Listen sowie eine Ganzkörperfigur auf seiner Karte, im Wiki und auf der Website, wo er wie die anderen Truppen auch animiert ist; der Tooltip eines Produktionsbefehls zeigt die Einheit
+    Eigene Animationen und Klänge für Ereignisse, die bisher nur eine Textmeldung hatten: Freischaltung von Passiven, Waffen und Fähigkeiten jeweils auf eigene Art; Truppe, die aus dem Training kommt oder sich einem Stapel anschließt; abgebrochener Bau; gescheiterte oder teilweise Befehle mit Zusammenfassung pro Runde; Verkaufen, Tauschen, Kredite (Gewährung und Einzug) und Überweisungen; Ressourcenanfragen und überlassene Preise zwischen Verbündeten; geöffnete Truhe, Jagd, erschöpfte Quelle, volle Kapazität und Energie am Limit
+    Weitere Ereignisse mit Effekt: Desertionen, Truppe gestoppt wegen fehlender Energie oder fehlendem Treibstoff oder durch blockierte Route, Tarnung verloren oder entdeckt, gescheitertes Entladen, Stapel teilen und vereinen, Auftauchen aus dem Boden, ablaufender Klon und Konstrukteur ohne Weg
+    Markierungen, die auf der Karte bleiben: Gebäude ohne Energie, beschädigte Gebäude mit Rauch und Feuer, verwundete Truppen (Sanitätskreuz bei organischen, Rauch und Funken bei mechanischen), Transporter mit Passagierzahl, Uhr des aktiven Kredits über der Bank, Bauplanstrahl des arbeitenden Konstrukteurs und Fackel der Raffinerie
+    Das Wetter wirkt auf die Truppen: im Sturm schlägt ein Blitz in jede ein und bei Radioaktivität läuft zu Rundenbeginn ein grüner Impuls über den Boden
+    41 neue Klänge für all das (vorerst synthetisiert; die endgültigen mp3-Dateien folgen später); der Server sendet dafür neue Ereignisse
 
 v2026.10.25 alpha
     Web-Version des Spiels: Sie läuft im Browser unter raseconline.es/axiom-wars, ohne Installation; sie öffnet direkt eine 1-gegen-1-Partie gegen die KI auf einer kleinen Karte, in der auf der Website gewählten Sprache

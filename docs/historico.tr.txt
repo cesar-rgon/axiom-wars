@@ -20,6 +20,11 @@ v2026.10.26 alpha
     Sprint ve Ek karşı saldırı, emirleri kuyruktayken kartta etki olarak görünür (Ek karşı saldırı ikinci karşı saldırısı hâlâ boştayken de görünür)
     Dopla, Kamuflaj, Turbo ve Onar çözülürken ses çıkarır (Kamuflaj, Turbo ve Onar mp3'leri gelene kadar sentezlenmiş sesle)
     İşçi için yeni dokular: çıkarıcılarda, jeneratörlerde ve listelerde simge, kartında, wikide ve web sitesinde tam boy figür; web sitesinde ayrıca diğer birlikler gibi canlandırılır; bir birim üretme emrinin ipucu o birimi gösterir
+    Daha önce yalnızca metin bildirimi olan olaylar için özel animasyonlar ve sesler: pasiflerin, silahların ve yeteneklerin açılması her biri kendi biçiminde; eğitimden çıkan veya bir yığına katılan birlik; iptal edilen inşaat; başarısız veya kısmi emirler ve tur özeti; satış, takas, krediler (verme ve tahsil) ve transferler; müttefikler arasında kaynak istekleri ve devredilen ödüller; açılan sandık, avlanma, tükenen kaynak, dolan kapasite ve sınıra gelen enerji
+    Efektli daha fazla olay: firarlar, enerji veya yakıt eksikliği ya da kapalı rota yüzünden duran birlik, kaybedilen veya fark edilen kamuflaj, başarısız boşaltma, yığınları bölme ve birleştirme, yerin altından çıkma, süresi dolan klon ve yolu olmayan İnşaatçı
+    Haritada kalan göstergeler: enerjisi olmayan bina, duman ve ateşli hasarlı binalar, yaralı birlikler (organiklerde tıbbi artı, mekaniklerde duman ve kıvılcım), yolcu sayısını gösteren nakliye aracı, Banka üzerinde aktif kredinin saati, çalışan İnşaatçının plan ışını ve Rafineri'nin alevi
+    Hava durumu birliklere etki eder: fırtınada her birine yıldırım düşer, radyoaktivitede tur başında yerde yeşil bir darbe dolaşır
+    Yukarıdakilerin hepsi için 41 yeni ses (şimdilik sentezlenmiş; kesin mp3 dosyaları daha sonra gelecek); sunucu bu olaylar için yeni olaylar gönderir
 
 v2026.10.25 alpha
     Oyunun web sürümü: hiçbir şey kurmadan raseconline.es/axiom-wars adresinde tarayıcıdan oynanır; küçük bir haritada yapay zekâya karşı 1'e 1 maça doğrudan açılır ve dil sitede seçtiğin dildir
