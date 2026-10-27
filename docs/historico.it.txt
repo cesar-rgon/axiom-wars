@@ -7,6 +7,8 @@ v2026.10.27 alpha
     L'IA compra tecnologia con l'Energia in eccesso, non assegna più lavoratori a generatori inutili e distribuisce i Costruttori per zone (la base e ogni espansione) per camminare meno verso i cantieri lontani
     Ogni casella di pascolo dà 3.500 di Cibo (prima 1.000)
     Le creature cacciate restano visibili fino al colpo che le uccide, anche se erano fuori vista all'inizio del turno
+    Mappe: la miniera di ferro accanto a ogni Governo è simmetrica tra le basi che sono lo specchio l'una dell'altra, e resta sempre libero un lotto 3×3 per la Banca
+    Mappe: le macchie di pascolo sono di 12 caselle e quelle lontane dalle basi sono più grandi (fino a 20) per incoraggiare l'espansione; non compaiono più sacche di terra isolate
 
 v2026.10.26 alpha
     Colpi a cascata: se il bersaglio è già morto quando tocca all'ordine, questo viene annullato senza fallire né sprecare il colpo e la truppa passa subito al bersaglio successivo

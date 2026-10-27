@@ -7,6 +7,8 @@ v2026.10.27 alpha
     Die KI kauft mit überschüssiger Energie Technologie, besetzt unnötige Generatoren nicht mehr mit Arbeitern und verteilt ihre Konstrukteure auf Zonen (Basis und jede Erweiterung), um weniger zu weit entfernten Baustellen zu laufen
     Jedes Weidefeld liefert 3.500 Nahrung (vorher 1.000)
     Gejagte Kreaturen bleiben bis zum tödlichen Treffer sichtbar, auch wenn sie zu Rundenbeginn außer Sicht waren
+    Karten: Die Eisenmine neben jeder Regierung ist zwischen spiegelbildlichen Basen symmetrisch, und für die Bank bleibt immer ein freier 3×3-Platz erhalten
+    Karten: Weideflächen sind 12 Felder groß, und die weiter von den Basen entfernten sind größer (bis zu 20), um zur Expansion anzuregen; isolierte Landinseln treten nicht mehr auf
 
 v2026.10.26 alpha
     Kaskadenschüsse: Ist das Ziel schon tot, wenn der Befehl an der Reihe ist, wird er ohne Fehlschlag und ohne den Schuss zu verbrauchen abgebrochen, und die Truppe geht direkt zum nächsten Ziel über

@@ -7,6 +7,8 @@ v2026.10.27 alpha
     A IA compra tecnologia com a Energia que sobra, não coloca mais trabalhadores em geradores desnecessários e distribui os Construtores por zonas (a base e cada expansão) para andar menos até obras distantes
     Cada casa de pasto dá 3.500 de Comida (antes 1.000)
     As criaturas caçadas ficam visíveis até o golpe que as mata, mesmo que estivessem fora de vista no início da rodada
+    Mapas: a mina de ferro ao lado de cada Governo é simétrica entre as bases que são espelho uma da outra, e sempre sobra um lote livre de 3×3 para o Banco
+    Mapas: as manchas de pasto têm 12 casas e as mais longe das bases são maiores (até 20) para incentivar a expansão; não aparecem mais ilhas de terra isoladas
 
 v2026.10.26 alpha
     Tiros em cascata: se o alvo já morreu quando chega a vez da ordem, ela é cancelada sem falhar nem gastar o tiro e a tropa passa direto ao próximo alvo

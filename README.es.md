@@ -175,6 +175,8 @@ La última versión es **v2026.10.27 alpha**.
 - La IA compra tecnología con la Energía que le sobra, ya no pone trabajadores en generadores innecesarios y reparte los Constructores por zonas (la base y cada expansión) para caminar menos hasta las obras lejanas
 - Cada casilla de pasto da 3.500 de Comida (antes 1.000)
 - Las criaturas cazadas se ven hasta el golpe que las mata, aunque no estuvieran a la vista al empezar la ronda
+- Mapas: la mina de acero junto a cada Gobierno es simétrica entre las bases que son espejo una de otra, y siempre queda un hueco libre de 3×3 para el Banco
+- Mapas: las manchas de pasto son de 12 casillas y las más alejadas de las bases son más grandes (hasta 20) para animar a expandirse; ya no aparecen islas de tierra aisladas
 
 ### v2026.10.26 alpha
 

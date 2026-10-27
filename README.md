@@ -175,6 +175,8 @@ The latest version is **v2026.10.27 alpha**.
 - The AI buys technology with its spare Energy, no longer staffs unneeded generators, and spreads its Constructors over zones (the base and each expansion) so they walk less to distant sites
 - Each pasture tile now gives 3,500 Food (it was 1,000)
 - Hunted creatures stay visible until the hit that kills them, even if they were out of sight at the start of the round
+- Maps: the iron mine next to each Government is symmetric between bases that mirror each other, and a free 3×3 lot for the Bank is always kept
+- Maps: pasture patches are 12 tiles and the ones farther from the bases are bigger (up to 20) to encourage expanding; isolated pockets of land no longer appear
 
 ### v2026.10.26 alpha
 

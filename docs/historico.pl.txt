@@ -7,6 +7,8 @@ v2026.10.27 alpha
     SI kupuje technologie za nadmiar Energii, nie obsadza już zbędnych generatorów robotnikami i rozdziela Konstruktorów na strefy (baza i każda ekspansja), aby mniej chodzić do odległych budów
     Każde pole pastwiska daje 3 500 Żywności (wcześniej 1 000)
     Upolowane stworzenia są widoczne aż do ciosu, który je zabija, nawet jeśli na początku rundy były poza zasięgiem wzroku
+    Mapy: kopalnia żelaza obok każdego Rządu jest symetryczna między bazami będącymi swoim lustrzanym odbiciem, a dla Banku zawsze zostaje wolna działka 3×3
+    Mapy: plamy pastwisk mają 12 pól, a te dalej od baz są większe (do 20), by zachęcać do ekspansji; nie pojawiają się już odizolowane skrawki lądu
 
 v2026.10.26 alpha
     Strzały kaskadowe: jeśli cel już nie żyje, gdy przychodzi kolej na rozkaz, rozkaz jest anulowany bez błędu i bez zużycia strzału, a oddział od razu przechodzi do następnego celu

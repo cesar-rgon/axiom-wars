@@ -7,6 +7,8 @@ v2026.10.27 alpha
     Yapay zekâ artan Enerjiyle teknoloji satın alır, gereksiz jeneratörlere artık işçi koymaz ve İnşaatçıları bölgelere (üs ve her genişleme) dağıtarak uzak şantiyelere daha az yürür
     Her otlak karesi artık 3.500 Yiyecek veriyor (eskiden 1.000)
     Avlanan yaratıklar, turun başında görüş dışında olsalar bile, onları öldüren vuruşa kadar görünür kalır
+    Haritalar: her Hükümetin yanındaki demir madeni, birbirinin aynası olan üsler arasında simetriktir ve Banka için her zaman 3×3'lük boş bir alan bırakılır
+    Haritalar: otlak lekeleri 12 kare büyüklüğündedir ve üslerden uzak olanlar daha büyüktür (20'ye kadar), genişlemeyi teşvik etmek için; artık izole kara parçaları oluşmaz
 
 v2026.10.26 alpha
     Zincirleme atışlar: emrin sırası geldiğinde hedef zaten ölmüşse emir başarısız olmadan ve atış harcamadan iptal edilir, birlik doğrudan bir sonraki hedefe geçer

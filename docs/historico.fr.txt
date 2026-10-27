@@ -7,6 +7,8 @@ v2026.10.27 alpha
     L'IA achète de la technologie avec son Énergie excédentaire, n'affecte plus de travailleurs aux générateurs inutiles et répartit ses Constructeurs par zones (la base et chaque expansion) pour moins marcher vers les chantiers lointains
     Chaque case de pâturage donne 3 500 de Nourriture (contre 1 000 avant)
     Les créatures chassées restent visibles jusqu'au coup qui les tue, même si elles étaient hors de vue au début du tour
+    Cartes : la mine de fer à côté de chaque Gouvernement est symétrique entre les bases qui sont le miroir l'une de l'autre, et un emplacement libre de 3×3 est toujours réservé à la Banque
+    Cartes : les taches de pâturage font 12 cases et celles qui sont loin des bases sont plus grandes (jusqu'à 20) pour encourager l'expansion ; il n'apparaît plus de poches de terre isolées
 
 v2026.10.26 alpha
     Tirs en cascade : si la cible est déjà morte quand vient le tour de l'ordre, celui-ci est annulé sans échouer ni dépenser le tir et la troupe passe directement à sa cible suivante
