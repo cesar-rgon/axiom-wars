@@ -163,10 +163,18 @@ Neutral creatures that belong to no player. The docile ones wander their own hab
 
 ## Change history
 
-The latest version is **v2026.10.26 alpha**.
+The latest version is **v2026.10.27 alpha**.
 
 <details>
 <summary>Show all versions</summary>
+
+### v2026.10.27 alpha
+
+- The AI manages its economy on demand, with no fixed limits: it builds extractors, farms, generators, Housing, Training Centers and Factories as it needs them, and trains as many units as it can feed (keeping a round of food in reserve)
+- The AI uses the Bank only in emergencies (it used to take loans in almost every match); it orders the Government upgrade only when it can pay for it and builds another wood extractor when it runs short
+- The AI buys technology with its spare Energy, no longer staffs unneeded generators, and spreads its Constructors over zones (the base and each expansion) so they walk less to distant sites
+- Each pasture tile now gives 3,500 Food (it was 1,000)
+- Hunted creatures stay visible until the hit that kills them, even if they were out of sight at the start of the round
 
 ### v2026.10.26 alpha
 

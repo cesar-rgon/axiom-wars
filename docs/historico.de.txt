@@ -1,6 +1,13 @@
 ÄNDERUNGSVERLAUF VON AXIOM WARS
 (Die Version ist das Datum der letzten Änderung am Server oder am Client.)
 
+v2026.10.27 alpha
+    Die KI verwaltet ihre Wirtschaft nach Bedarf, ohne feste Grenzen: Sie baut Förderer, Farmen, Generatoren, Wohnhäuser, Ausbildungszentren und Fabriken, wie sie sie braucht, und bildet so viele Einheiten aus, wie sie ernähren kann (mit einer Runde Nahrung als Reserve)
+    Die KI nutzt die Bank nur in Notfällen (früher nahm sie in fast jeder Partie Kredite auf); sie bestellt den Regierungsausbau nur, wenn sie ihn bezahlen kann, und baut einen weiteren Holzförderer, wenn Holz fehlt
+    Die KI kauft mit überschüssiger Energie Technologie, besetzt unnötige Generatoren nicht mehr mit Arbeitern und verteilt ihre Konstrukteure auf Zonen (Basis und jede Erweiterung), um weniger zu weit entfernten Baustellen zu laufen
+    Jedes Weidefeld liefert 3.500 Nahrung (vorher 1.000)
+    Gejagte Kreaturen bleiben bis zum tödlichen Treffer sichtbar, auch wenn sie zu Rundenbeginn außer Sicht waren
+
 v2026.10.26 alpha
     Kaskadenschüsse: Ist das Ziel schon tot, wenn der Befehl an der Reihe ist, wird er ohne Fehlschlag und ohne den Schuss zu verbrauchen abgebrochen, und die Truppe geht direkt zum nächsten Ziel über
     Bei mehreren ausgewählten Truppen verschiedener Typen geht Tab einen Typ nach dem anderen durch: Der nächste Befehl gilt nur dieser Teilmenge, das Auswahlfeld hebt sie hervor (nach Typ gruppiert) und die Kamera zentriert dorthin, wo die meisten hineinpassen

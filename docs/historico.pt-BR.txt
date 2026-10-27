@@ -1,6 +1,13 @@
 HISTÓRICO DE MUDANÇAS DE AXIOM WARS
 (A versão é a data da última mudança no servidor ou no cliente.)
 
+v2026.10.27 alpha
+    A IA gerencia a economia conforme a demanda, sem limites fixos: constrói extratores, fazendas, geradores, Moradias, Centros de Treinamento e Fábricas conforme precisa e treina todas as unidades que consegue manter (com uma rodada de comida de reserva)
+    A IA usa o Banco só em emergências (antes pedia empréstimos em quase todas as partidas); só encomenda a melhoria do Governo quando pode pagá-la e constrói outro extrator de madeira quando falta
+    A IA compra tecnologia com a Energia que sobra, não coloca mais trabalhadores em geradores desnecessários e distribui os Construtores por zonas (a base e cada expansão) para andar menos até obras distantes
+    Cada casa de pasto dá 3.500 de Comida (antes 1.000)
+    As criaturas caçadas ficam visíveis até o golpe que as mata, mesmo que estivessem fora de vista no início da rodada
+
 v2026.10.26 alpha
     Tiros em cascata: se o alvo já morreu quando chega a vez da ordem, ela é cancelada sem falhar nem gastar o tiro e a tropa passa direto ao próximo alvo
     Com várias tropas de tipos diferentes selecionadas, Tab percorre um tipo por vez: a ordem seguinte vai só a esse subconjunto, o painel de seleção o destaca (agrupado por tipo) e a câmera centraliza onde cabem mais

@@ -163,10 +163,18 @@ Criaturas neutrales que no pertenecen a ningún jugador. Las dóciles deambulan 
 
 ## Histórico de cambios
 
-La última versión es **v2026.10.26 alpha**.
+La última versión es **v2026.10.27 alpha**.
 
 <details>
 <summary>Ver todas las versiones</summary>
+
+### v2026.10.27 alpha
+
+- La IA gestiona su economía según la demanda, sin límites fijos: construye extractores, granjas, generadores, Viviendas, Centros de entrenamiento y Fábricas según lo que necesita, y entrena todas las unidades que puede mantener (con una ronda de comida de reserva)
+- La IA usa el Banco sólo en emergencias (antes pedía préstamos en casi todas las partidas); encarga la mejora del Gobierno sólo cuando puede pagarla y construye otro extractor de madera cuando le falta
+- La IA compra tecnología con la Energía que le sobra, ya no pone trabajadores en generadores innecesarios y reparte los Constructores por zonas (la base y cada expansión) para caminar menos hasta las obras lejanas
+- Cada casilla de pasto da 3.500 de Comida (antes 1.000)
+- Las criaturas cazadas se ven hasta el golpe que las mata, aunque no estuvieran a la vista al empezar la ronda
 
 ### v2026.10.26 alpha
 

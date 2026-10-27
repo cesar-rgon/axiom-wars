@@ -1,6 +1,13 @@
 HISTORIA ZMIAN AXIOM WARS
 (Wersja to data ostatniej zmiany serwera lub klienta.)
 
+v2026.10.27 alpha
+    SI zarządza gospodarką według zapotrzebowania, bez sztywnych limitów: buduje ekstraktory, farmy, generatory, Mieszkania, Centra Szkolenia i Fabryki w miarę potrzeb i szkoli tyle jednostek, ile może wyżywić (z zapasem żywności na jedną rundę)
+    SI korzysta z Banku tylko w nagłych wypadkach (wcześniej brała kredyty w prawie każdej partii); zleca ulepszenie Rządu tylko wtedy, gdy może za nie zapłacić, i buduje kolejny ekstraktor drewna, gdy go brakuje
+    SI kupuje technologie za nadmiar Energii, nie obsadza już zbędnych generatorów robotnikami i rozdziela Konstruktorów na strefy (baza i każda ekspansja), aby mniej chodzić do odległych budów
+    Każde pole pastwiska daje 3 500 Żywności (wcześniej 1 000)
+    Upolowane stworzenia są widoczne aż do ciosu, który je zabija, nawet jeśli na początku rundy były poza zasięgiem wzroku
+
 v2026.10.26 alpha
     Strzały kaskadowe: jeśli cel już nie żyje, gdy przychodzi kolej na rozkaz, rozkaz jest anulowany bez błędu i bez zużycia strzału, a oddział od razu przechodzi do następnego celu
     Przy kilku zaznaczonych oddziałach różnych typów Tab przełącza po jednym typie: następny rozkaz trafia tylko do tego podzbioru, panel zaznaczenia go podświetla (pogrupowane według typu), a kamera centruje się tam, gdzie mieści się ich najwięcej

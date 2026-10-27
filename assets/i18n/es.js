@@ -216,7 +216,7 @@
   "dl.c2": "Abre el juego: la dirección del servidor ya viene rellena. Escribe tu nombre y crea una sala o únete a una.",
   "nav.news": "Novedades",
   "news.title": "Novedades",
-  "news.body": "Disparos en cascada, Tab por tipos de tropa, Espacio para las ociosas, nivel de Gobierno inicial a elegir y marcas en el minimapa. Animaciones y sonidos nuevos de habilidades, con vista previa al apuntar. Animaciones propias de armas, efectos de estado en el panel y sonidos nuevos. Animaciones y sonidos nuevos para desbloqueos, entrenamiento, banco, cofres, deserciones y más; indicadores en el mapa de daño, energía, heridos, pasajeros y préstamos; la tormenta y la radiactividad golpean a las tropas.",
+  "news.body": "Economía de la IA por demanda y sin límites fijos, Banco sólo en emergencias, más tecnología y Constructores por zonas. 3.500 de Comida por casilla de pasto. Las criaturas cazadas se ven hasta que mueren.",
   "news.all": "Ver el histórico completo",
   "news.all.href": "docs/historico.es.txt",
   "lang.eyebrow": "Idiomas",

@@ -1,6 +1,13 @@
 CRONOLOGIA DELLE MODIFICHE DI AXIOM WARS
 (La versione è la data dell'ultima modifica del server o del client.)
 
+v2026.10.27 alpha
+    L'IA gestisce la sua economia secondo la domanda, senza limiti fissi: costruisce estrattori, fattorie, generatori, Alloggi, Centri di addestramento e Fabbriche in base alle necessità e addestra tutte le unità che riesce a mantenere (con un turno di cibo di riserva)
+    L'IA usa la Banca solo nelle emergenze (prima chiedeva prestiti in quasi ogni partita); ordina il potenziamento del Governo solo quando può pagarlo e costruisce un altro estrattore di legno quando ne ha bisogno
+    L'IA compra tecnologia con l'Energia in eccesso, non assegna più lavoratori a generatori inutili e distribuisce i Costruttori per zone (la base e ogni espansione) per camminare meno verso i cantieri lontani
+    Ogni casella di pascolo dà 3.500 di Cibo (prima 1.000)
+    Le creature cacciate restano visibili fino al colpo che le uccide, anche se erano fuori vista all'inizio del turno
+
 v2026.10.26 alpha
     Colpi a cascata: se il bersaglio è già morto quando tocca all'ordine, questo viene annullato senza fallire né sprecare il colpo e la truppa passa subito al bersaglio successivo
     Con più truppe di tipi diversi selezionate, Tab scorre un tipo alla volta: l'ordine successivo va solo a quel sottoinsieme, il pannello di selezione lo evidenzia (raggruppato per tipo) e la telecamera si centra dove ne stanno di più

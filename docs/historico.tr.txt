@@ -1,6 +1,13 @@
 AXIOM WARS DEĞİŞİKLİK GEÇMİŞİ
 (Sürüm, sunucuda veya istemcide yapılan son değişikliğin tarihidir.)
 
+v2026.10.27 alpha
+    Yapay zekâ ekonomisini sabit sınırlar olmadan ihtiyaca göre yönetir: ihtiyacı kadar çıkarıcı, çiftlik, jeneratör, Konut, Eğitim Merkezi ve Fabrika inşa eder; besleyebildiği kadar birim eğitir (bir tur yiyecek yedek bırakarak)
+    Yapay zekâ Bankayı yalnızca acil durumlarda kullanır (eskiden neredeyse her maçta kredi çekerdi); Hükümet yükseltmesini yalnızca ödeyebildiğinde emreder ve odun yetmediğinde bir odun çıkarıcı daha inşa eder
+    Yapay zekâ artan Enerjiyle teknoloji satın alır, gereksiz jeneratörlere artık işçi koymaz ve İnşaatçıları bölgelere (üs ve her genişleme) dağıtarak uzak şantiyelere daha az yürür
+    Her otlak karesi artık 3.500 Yiyecek veriyor (eskiden 1.000)
+    Avlanan yaratıklar, turun başında görüş dışında olsalar bile, onları öldüren vuruşa kadar görünür kalır
+
 v2026.10.26 alpha
     Zincirleme atışlar: emrin sırası geldiğinde hedef zaten ölmüşse emir başarısız olmadan ve atış harcamadan iptal edilir, birlik doğrudan bir sonraki hedefe geçer
     Farklı türde birden çok birlik seçiliyken Tab her seferinde bir türü dolaşır: sonraki emir yalnızca o alt kümeye gider, seçim paneli onu vurgular (türe göre gruplanmış) ve kamera en çoğunun sığdığı yere ortalanır
