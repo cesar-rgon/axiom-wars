@@ -216,7 +216,7 @@
   "dl.c2": "Abre el juego: la dirección del servidor ya viene rellena. Escribe tu nombre y crea una sala o únete a una.",
   "nav.news": "Novedades",
   "news.title": "Novedades",
-  "news.body": "La IA contraataca tras defender, ataca ejércitos y expansiones enemigas más débiles y defiende sus expansiones con vigías y reserva. Las unidades destruidas ya no disparan.",
+  "news.body": "La IA contraataca tras defender, ataca ejércitos y expansiones enemigas más débiles y defiende sus expansiones con vigías y reserva. Las unidades destruidas ya no disparan. Las IAs aliadas juegan en equipo: se pasan recursos, se defienden y atacan juntas.",
   "news.all": "Ver el histórico completo",
   "news.all.href": "docs/historico.es.txt",
   "lang.eyebrow": "Idiomas",

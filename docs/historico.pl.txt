@@ -2,6 +2,9 @@ HISTORIA ZMIAN AXIOM WARS
 (Wersja to data ostatniej zmiany serwera lub klienta.)
 
 v2026.10.28 alpha
+    Sojusznicze SI pomagają sobie w gospodarce: proszą sojuszników (ludzi lub SI) o surowce, gdy któryś skończy się w ciągu 2 rund lub szybciej; każdy sojusznik przyjmuje lub odrzuca zależnie od nadwyżki, a jedną prośbę może pokryć kilku; człowiek widzi powiadomienie z przyciskami Przyjmij i Odrzuć, a sojusznicy widzą nawzajem swoje surowce
+    Sojusznicze SI bronią się nawzajem: rezerwa idzie do zaatakowanego rządu sojusznika (przed własnymi ekspansjami), potem do innych budynków sojuszników, każda SI proporcjonalnie do swojej armii; jeśli jej baza ma upaść, SI przekazuje swoje surowce i wycofuje wojska do sojusznika
+    Kooperacyjny atak wspólny: SI z największą armią stawia znacznik zbiórki (Alt+klik na kanale sojuszników; Alt+Shift+klik go anuluje, a SI podążają też za znacznikiem człowieka), armie sojuszników zbierają się i razem atakują najbliższy rząd wroga przy przewadze 1,3x, wspierając się, gdy zostaną zaatakowane w marszu; przy mniejszej sile prowadzą wypady na gospodarkę wroga. Ponadto SI buduje generatory dla sojusznika bez energii, pomaga zapóźnionemu sojusznikowi ulepszyć rząd, wzywa pomocy na czacie, gdy ją atakują, a SI dzielą się eksploracją
     SI atakuje okazjonalnie: kontratakuje całą armią po obronie bazy lub ekspansji, atakuje zauważone słabsze armie wroga, atakuje wrogie ekspansje obok własnych i wykorzystuje chwile, gdy armia rywala jest daleko, by uderzyć w jego Rząd
     SI broni swoich ekspansji: zostawia Zwiadowców na czatach przy dojściach, zbiera rezerwę w równoodległym punkcie i wysyła ją do zagrożonej ekspansji, jeśli jest silniejsza od napastnika; w przeciwnym razie oszczędza wojska i porzuca ekspansję
     Jednostka zniszczona w tym samym momencie nie wykonuje już swojego rozkazu ataku w kolejce (wcześniej martwy wróg mógł dalej strzelać)

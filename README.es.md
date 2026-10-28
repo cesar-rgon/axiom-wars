@@ -170,6 +170,9 @@ La última versión es **v2026.10.28 alpha**.
 
 ### v2026.10.28 alpha
 
+- Las IAs aliadas se ayudan con la economía: piden recursos a sus aliados (humanos o IAs) cuando un recurso va a agotarse en 2 rondas o menos, cada aliado acepta o rechaza según su sobrante y varios pueden cubrir una misma petición; un humano ve un aviso con Aceptar y Rechazar, y los aliados ven los recursos de los demás
+- Las IAs aliadas se defienden entre sí: la reserva acude al Gobierno aliado atacado (antes que a sus propias expansiones) y a los demás edificios aliados (después), cada IA en proporción a su ejército; si su base va a caer, la IA dona sus recursos y evacúa sus tropas hacia un aliado
+- Ataque conjunto cooperativo: la IA con más ejército pone una marca de reunión (Alt+clic en el canal de aliados; Alt+Mayús+clic la cancela, y las IAs siguen también la marca de un humano), los ejércitos aliados se reúnen y atacan juntos el Gobierno enemigo más cercano con superioridad 1,3x, apoyándose si los atacan en la marcha; con menos fuerza hacen guerrillas contra la economía enemiga. Además, una IA construye generadores para un aliado sin energía, ayuda a mejorar el Gobierno a otro que va atrasado, avisa por el chat cuando la atacan y las IAs se reparten la exploración
 - La IA ataca de forma oportunista: contraataca con todo su ejército tras defender su base o una expansión, ataca a los ejércitos enemigos avistados que son más débiles, ataca las expansiones enemigas junto a las suyas y aprovecha las ventanas en las que el ejército rival está lejos para golpear su Gobierno
 - La IA defiende sus expansiones: deja Exploradores de vigía en los accesos, reúne la reserva en un punto equidistante y la envía a la expansión amenazada si es más fuerte que el atacante; si no, conserva las tropas y abandona la expansión
 - Una unidad destruida en el mismo instante ya no dispara su orden de ataque en cola (antes un enemigo muerto podía seguir disparando)

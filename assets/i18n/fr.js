@@ -192,7 +192,7 @@
   "dl.c2": "Lancez le jeu : l'adresse du serveur est déjà remplie. Saisissez votre nom, puis créez un salon ou rejoignez-en un.",
   "nav.news": "Nouveautés",
   "news.title": "Nouveautés",
-  "news.body": "L'IA contre-attaque après avoir défendu, attaque les armées et expansions ennemies plus faibles et défend ses expansions avec des vigies et une réserve. Les unités détruites ne tirent plus.",
+  "news.body": "L'IA contre-attaque après avoir défendu, attaque les armées et expansions ennemies plus faibles et défend ses expansions avec des vigies et une réserve. Les unités détruites ne tirent plus. Les IA alliées jouent en équipe : elles s'échangent des ressources, se défendent et attaquent ensemble.",
   "news.all": "Voir tout l'historique",
   "news.all.href": "docs/historico.fr.txt",
   "lang.eyebrow": "Langues",

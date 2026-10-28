@@ -2,6 +2,9 @@ HISTÓRICO DE MUDANÇAS DE AXIOM WARS
 (A versão é a data da última mudança no servidor ou no cliente.)
 
 v2026.10.28 alpha
+    As IAs aliadas se ajudam na economia: pedem recursos aos aliados (humanos ou IAs) quando um recurso vai acabar em 2 rodadas ou menos, cada aliado aceita ou recusa conforme o seu excedente e vários podem cobrir um mesmo pedido; um humano vê um aviso com Aceitar e Recusar, e os aliados veem os recursos uns dos outros
+    As IAs aliadas se defendem entre si: a reserva vai ao Governo aliado atacado (antes das próprias expansões) e depois aos outros edifícios aliados, cada IA em proporção ao seu exército; se a sua base vai cair, a IA doa os seus recursos e evacua as tropas para um aliado
+    Ataque conjunto cooperativo: a IA com o maior exército coloca uma marca de reunião (Alt+clique no canal de aliados; Alt+Shift+clique a cancela, e as IAs também seguem a marca de um humano), os exércitos aliados se reúnem e atacam juntos o Governo inimigo mais próximo com superioridade de 1,3x, apoiando-se se forem atacados na marcha; com menos força, fazem guerrilhas contra a economia inimiga. Além disso, uma IA constrói geradores para um aliado sem energia, ajuda um aliado atrasado a melhorar o Governo, pede ajuda no chat quando é atacada e as IAs dividem a exploração
     A IA ataca de forma oportunista: contra-ataca com todo o exército depois de defender a base ou uma expansão, ataca exércitos inimigos avistados que sejam mais fracos, ataca expansões inimigas ao lado das suas e aproveita os momentos em que o exército rival está longe para atingir o Governo dele
     A IA defende as suas expansões: deixa Exploradores de vigia nos acessos, reúne a reserva num ponto equidistante e a envia à expansão ameaçada se for mais forte que o atacante; caso contrário, preserva as tropas e abandona a expansão
     Uma unidade destruída no mesmo instante já não dispara a sua ordem de ataque na fila (antes um inimigo morto podia continuar a atirar)

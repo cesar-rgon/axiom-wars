@@ -192,7 +192,7 @@
   "dl.c2": "Starte das Spiel: Die Serveradresse ist schon eingetragen. Gib deinen Namen ein und erstelle einen Raum oder tritt einem bei.",
   "nav.news": "Neuigkeiten",
   "news.title": "Neuigkeiten",
-  "news.body": "Die KI kontert nach der Verteidigung, greift schwächere feindliche Armeen und Expansionen an und verteidigt ihre Expansionen mit Wachen und Reserve. Zerstörte Einheiten feuern nicht mehr.",
+  "news.body": "Die KI kontert nach der Verteidigung, greift schwächere feindliche Armeen und Expansionen an und verteidigt ihre Expansionen mit Wachen und Reserve. Zerstörte Einheiten feuern nicht mehr. Verbündete KIs spielen als Team: Sie tauschen Ressourcen, verteidigen sich und greifen gemeinsam an.",
   "news.all": "Gesamten Verlauf ansehen",
   "news.all.href": "docs/historico.de.txt",
   "lang.eyebrow": "Sprachen",

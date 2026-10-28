@@ -170,6 +170,9 @@ The latest version is **v2026.10.28 alpha**.
 
 ### v2026.10.28 alpha
 
+- Allied AIs help each other with the economy: they ask their allies (humans or AIs) for resources when one is about to run out within 2 rounds, each ally accepts or declines according to its surplus and several can cover one request; a human sees a notice with Accept and Decline, and allies can see each other's resources
+- Allied AIs defend each other: the reserve goes to an allied Government under attack (before its own expansions) and to other allied buildings (after them), each AI in proportion to its army; if its base is about to fall, the AI donates its resources and evacuates its troops to an ally
+- Cooperative joint attack: the AI with the biggest army places a rally mark (Alt+click in the allies channel; Alt+Shift+click cancels it, and the AIs also follow a human's mark), the allied armies gather and attack the nearest enemy Government together with 1.3x superiority, supporting each other if attacked on the march; with less strength they raid the enemy economy. Also, an AI builds generators for an ally without power, helps a lagging ally upgrade its Government, calls for help in the chat when attacked, and the AIs split the exploration
 - The AI attacks opportunistically: it counterattacks with its whole army after defending its base or an expansion, attacks weaker enemy armies it spots, attacks enemy expansions next to its own, and takes the windows when the rival army is far away to strike its Government
 - The AI defends its expansions: it leaves Scouts on watch at the approaches, gathers its reserve at an equidistant point and sends it to the threatened expansion if it is stronger than the attacker; otherwise it keeps its troops and gives the expansion up
 - A unit destroyed in the same instant no longer fires its queued attack order (a dead enemy could keep shooting before)
