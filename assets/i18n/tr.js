@@ -183,7 +183,7 @@
   "mus.t14": "<strong>Yüzen arayüz.</strong> Menü, kaynaklar, mini harita, Hükümet seviyesine göre inşa paneli ve her emir türü için bir simge.",
   "mus.hint": "Zaman çizgisinde ilerlemek için kaydır →",
   "news.title": "Yenilikler",
-  "news.body": "Yapay zekâ ekonomisi ihtiyaca göre ve sabit sınır olmadan çalışır, Banka yalnızca acil durumlarda, daha fazla teknoloji ve bölgelere göre İnşaatçılar. Otlak karesi başına 3.500 Yiyecek. Avlanan yaratıklar ölene kadar görünür.",
+  "news.body": "Yapay zekâ savunmadan sonra karşı saldırı yapar, daha zayıf düşman ordularına ve genişlemelerine saldırır, genişlemelerini nöbetçiler ve yedekle savunur. Yok edilen birimler artık ateş etmez.",
   "news.all": "Tüm değişiklik geçmişini gör",
   "news.all.href": "docs/historico.tr.txt",
   "join.eyebrow": "Topluluk",

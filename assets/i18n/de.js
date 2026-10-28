@@ -192,7 +192,7 @@
   "dl.c2": "Starte das Spiel: Die Serveradresse ist schon eingetragen. Gib deinen Namen ein und erstelle einen Raum oder tritt einem bei.",
   "nav.news": "Neuigkeiten",
   "news.title": "Neuigkeiten",
-  "news.body": "KI-Wirtschaft nach Bedarf und ohne feste Grenzen, Bank nur in Notfällen, mehr Technologie und Konstrukteure nach Zonen. 3.500 Nahrung pro Weidefeld. Gejagte Kreaturen bleiben bis zu ihrem Tod sichtbar.",
+  "news.body": "Die KI kontert nach der Verteidigung, greift schwächere feindliche Armeen und Expansionen an und verteidigt ihre Expansionen mit Wachen und Reserve. Zerstörte Einheiten feuern nicht mehr.",
   "news.all": "Gesamten Verlauf ansehen",
   "news.all.href": "docs/historico.de.txt",
   "lang.eyebrow": "Sprachen",

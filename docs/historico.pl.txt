@@ -1,6 +1,11 @@
 HISTORIA ZMIAN AXIOM WARS
 (Wersja to data ostatniej zmiany serwera lub klienta.)
 
+v2026.10.28 alpha
+    SI atakuje okazjonalnie: kontratakuje całą armią po obronie bazy lub ekspansji, atakuje zauważone słabsze armie wroga, atakuje wrogie ekspansje obok własnych i wykorzystuje chwile, gdy armia rywala jest daleko, by uderzyć w jego Rząd
+    SI broni swoich ekspansji: zostawia Zwiadowców na czatach przy dojściach, zbiera rezerwę w równoodległym punkcie i wysyła ją do zagrożonej ekspansji, jeśli jest silniejsza od napastnika; w przeciwnym razie oszczędza wojska i porzuca ekspansję
+    Jednostka zniszczona w tym samym momencie nie wykonuje już swojego rozkazu ataku w kolejce (wcześniej martwy wróg mógł dalej strzelać)
+
 v2026.10.27 alpha
     SI zarządza gospodarką według zapotrzebowania, bez sztywnych limitów: buduje ekstraktory, farmy, generatory, Mieszkania, Centra Szkolenia i Fabryki w miarę potrzeb i szkoli tyle jednostek, ile może wyżywić (z zapasem żywności na jedną rundę)
     SI korzysta z Banku tylko w nagłych wypadkach (wcześniej brała kredyty w prawie każdej partii); zleca ulepszenie Rządu tylko wtedy, gdy może za nie zapłacić, i buduje kolejny ekstraktor drewna, gdy go brakuje

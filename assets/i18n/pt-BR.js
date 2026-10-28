@@ -183,7 +183,7 @@
   "mus.t14": "<strong>Interface flutuante.</strong> Menu, recursos, minimapa, um painel de construção por nível de Governo e um ícone para cada tipo de ordem.",
   "mus.hint": "Deslize para percorrer a linha do tempo →",
   "news.title": "Novidades",
-  "news.body": "Economia da IA por demanda e sem limites fixos, Banco só em emergências, mais tecnologia e Construtores por zonas. 3.500 de Comida por casa de pasto. As criaturas caçadas ficam visíveis até morrerem.",
+  "news.body": "A IA contra-ataca depois de defender, ataca exércitos e expansões inimigos mais fracos e defende as suas expansões com vigias e reserva. As unidades destruídas já não disparam.",
   "news.all": "Ver o histórico completo de mudanças",
   "join.eyebrow": "Comunidade",
   "join.title": "Jogue com a gente",

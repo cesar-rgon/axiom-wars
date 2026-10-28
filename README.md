@@ -163,10 +163,16 @@ Neutral creatures that belong to no player. The docile ones wander their own hab
 
 ## Change history
 
-The latest version is **v2026.10.27 alpha**.
+The latest version is **v2026.10.28 alpha**.
 
 <details>
 <summary>Show all versions</summary>
+
+### v2026.10.28 alpha
+
+- The AI attacks opportunistically: it counterattacks with its whole army after defending its base or an expansion, attacks weaker enemy armies it spots, attacks enemy expansions next to its own, and takes the windows when the rival army is far away to strike its Government
+- The AI defends its expansions: it leaves Scouts on watch at the approaches, gathers its reserve at an equidistant point and sends it to the threatened expansion if it is stronger than the attacker; otherwise it keeps its troops and gives the expansion up
+- A unit destroyed in the same instant no longer fires its queued attack order (a dead enemy could keep shooting before)
 
 ### v2026.10.27 alpha
 

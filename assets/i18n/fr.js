@@ -192,7 +192,7 @@
   "dl.c2": "Lancez le jeu : l'adresse du serveur est déjà remplie. Saisissez votre nom, puis créez un salon ou rejoignez-en un.",
   "nav.news": "Nouveautés",
   "news.title": "Nouveautés",
-  "news.body": "Économie de l'IA à la demande et sans limites fixes, Banque seulement en cas d'urgence, plus de technologie et des Constructeurs par zones. 3 500 de Nourriture par case de pâturage. Les créatures chassées restent visibles jusqu'à leur mort.",
+  "news.body": "L'IA contre-attaque après avoir défendu, attaque les armées et expansions ennemies plus faibles et défend ses expansions avec des vigies et une réserve. Les unités détruites ne tirent plus.",
   "news.all": "Voir tout l'historique",
   "news.all.href": "docs/historico.fr.txt",
   "lang.eyebrow": "Langues",

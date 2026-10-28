@@ -1,6 +1,11 @@
 AXIOM WARS DEĞİŞİKLİK GEÇMİŞİ
 (Sürüm, sunucuda veya istemcide yapılan son değişikliğin tarihidir.)
 
+v2026.10.28 alpha
+    Yapay zekâ fırsatçı biçimde saldırır: üssünü ya da bir genişlemeyi savunduktan sonra tüm ordusuyla karşı saldırı yapar, gördüğü daha zayıf düşman ordularına saldırır, kendi genişlemelerinin yanındaki düşman genişlemelerine saldırır ve rakip ordu uzaktayken Hükümetine vurma fırsatını kullanır
+    Yapay zekâ genişlemelerini savunur: girişlere nöbetçi Kaşifler bırakır, yedeği eşit uzaklıktaki bir noktada toplar ve saldırgandan güçlüyse tehdit altındaki genişlemeye gönderir; değilse birlikleri korur ve genişlemeyi terk eder
+    Aynı anda yok edilen bir birim artık sıradaki saldırı emrini ateşlemez (eskiden ölmüş bir düşman ateş etmeye devam edebiliyordu)
+
 v2026.10.27 alpha
     Yapay zekâ ekonomisini sabit sınırlar olmadan ihtiyaca göre yönetir: ihtiyacı kadar çıkarıcı, çiftlik, jeneratör, Konut, Eğitim Merkezi ve Fabrika inşa eder; besleyebildiği kadar birim eğitir (bir tur yiyecek yedek bırakarak)
     Yapay zekâ Bankayı yalnızca acil durumlarda kullanır (eskiden neredeyse her maçta kredi çekerdi); Hükümet yükseltmesini yalnızca ödeyebildiğinde emreder ve odun yetmediğinde bir odun çıkarıcı daha inşa eder

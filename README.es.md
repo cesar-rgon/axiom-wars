@@ -163,10 +163,16 @@ Criaturas neutrales que no pertenecen a ningún jugador. Las dóciles deambulan 
 
 ## Histórico de cambios
 
-La última versión es **v2026.10.27 alpha**.
+La última versión es **v2026.10.28 alpha**.
 
 <details>
 <summary>Ver todas las versiones</summary>
+
+### v2026.10.28 alpha
+
+- La IA ataca de forma oportunista: contraataca con todo su ejército tras defender su base o una expansión, ataca a los ejércitos enemigos avistados que son más débiles, ataca las expansiones enemigas junto a las suyas y aprovecha las ventanas en las que el ejército rival está lejos para golpear su Gobierno
+- La IA defiende sus expansiones: deja Exploradores de vigía en los accesos, reúne la reserva en un punto equidistante y la envía a la expansión amenazada si es más fuerte que el atacante; si no, conserva las tropas y abandona la expansión
+- Una unidad destruida en el mismo instante ya no dispara su orden de ataque en cola (antes un enemigo muerto podía seguir disparando)
 
 ### v2026.10.27 alpha
 

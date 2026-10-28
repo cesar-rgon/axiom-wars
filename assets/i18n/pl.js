@@ -183,7 +183,7 @@
   "mus.t14": "<strong>Pływający interfejs.</strong> Menu, zasoby, minimapa, panel budowy według poziomu Rządu i ikona dla każdego rodzaju rozkazu.",
   "mus.hint": "Przesuń palcem, aby poruszać się po osi czasu →",
   "news.title": "Nowości",
-  "news.body": "Gospodarka SI według zapotrzebowania i bez sztywnych limitów, Bank tylko w nagłych wypadkach, więcej technologii i Konstruktorzy w strefach. 3 500 Żywności na pole pastwiska. Upolowane stworzenia są widoczne do śmierci.",
+  "news.body": "SI kontratakuje po obronie, atakuje słabsze armie i ekspansje wroga oraz broni swoich ekspansji czatami i rezerwą. Zniszczone jednostki już nie strzelają.",
   "news.all": "Zobacz pełną historię zmian",
   "news.all.href": "docs/historico.pl.txt",
   "join.eyebrow": "Społeczność",

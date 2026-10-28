@@ -1,6 +1,11 @@
 HISTÓRICO DE MUDANÇAS DE AXIOM WARS
 (A versão é a data da última mudança no servidor ou no cliente.)
 
+v2026.10.28 alpha
+    A IA ataca de forma oportunista: contra-ataca com todo o exército depois de defender a base ou uma expansão, ataca exércitos inimigos avistados que sejam mais fracos, ataca expansões inimigas ao lado das suas e aproveita os momentos em que o exército rival está longe para atingir o Governo dele
+    A IA defende as suas expansões: deixa Exploradores de vigia nos acessos, reúne a reserva num ponto equidistante e a envia à expansão ameaçada se for mais forte que o atacante; caso contrário, preserva as tropas e abandona a expansão
+    Uma unidade destruída no mesmo instante já não dispara a sua ordem de ataque na fila (antes um inimigo morto podia continuar a atirar)
+
 v2026.10.27 alpha
     A IA gerencia a economia conforme a demanda, sem limites fixos: constrói extratores, fazendas, geradores, Moradias, Centros de Treinamento e Fábricas conforme precisa e treina todas as unidades que consegue manter (com uma rodada de comida de reserva)
     A IA usa o Banco só em emergências (antes pedia empréstimos em quase todas as partidas); só encomenda a melhoria do Governo quando pode pagá-la e constrói outro extrator de madeira quando falta

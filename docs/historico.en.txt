@@ -1,6 +1,11 @@
 AXIOM WARS CHANGE HISTORY
 (The version is the date of the latest change to the server or the client.)
 
+v2026.10.28 alpha
+    The AI attacks opportunistically: it counterattacks with its whole army after defending its base or an expansion, attacks weaker enemy armies it spots, attacks enemy expansions next to its own, and takes the windows when the rival army is far away to strike its Government
+    The AI defends its expansions: it leaves Scouts on watch at the approaches, gathers its reserve at an equidistant point and sends it to the threatened expansion if it is stronger than the attacker; otherwise it keeps its troops and gives the expansion up
+    A unit destroyed in the same instant no longer fires its queued attack order (a dead enemy could keep shooting before)
+
 v2026.10.27 alpha
     The AI manages its economy on demand, with no fixed limits: it builds extractors, farms, generators, Housing, Training Centers and Factories as it needs them, and trains as many units as it can feed (keeping a round of food in reserve)
     The AI uses the Bank only in emergencies (it used to take loans in almost every match); it orders the Government upgrade only when it can pay for it and builds another wood extractor when it runs short

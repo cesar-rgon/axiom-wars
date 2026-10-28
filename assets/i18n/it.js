@@ -192,7 +192,7 @@
   "dl.c2": "Avvia il gioco: l'indirizzo del server è già compilato. Scrivi il tuo nome, poi crea una stanza o unisciti a una.",
   "nav.news": "Novità",
   "news.title": "Novità",
-  "news.body": "Economia dell'IA a richiesta e senza limiti fissi, Banca solo nelle emergenze, più tecnologia e Costruttori per zone. 3.500 di Cibo per casella di pascolo. Le creature cacciate restano visibili fino alla morte.",
+  "news.body": "L'IA contrattacca dopo aver difeso, attacca eserciti ed espansioni nemici più deboli e difende le sue espansioni con vedette e riserva. Le unità distrutte non sparano più.",
   "news.all": "Vedi tutta la cronologia",
   "news.all.href": "docs/historico.it.txt",
   "lang.eyebrow": "Lingue",

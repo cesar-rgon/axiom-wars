@@ -216,7 +216,7 @@
   "dl.c2": "Abre el juego: la dirección del servidor ya viene rellena. Escribe tu nombre y crea una sala o únete a una.",
   "nav.news": "Novedades",
   "news.title": "Novedades",
-  "news.body": "Economía de la IA por demanda y sin límites fijos, Banco sólo en emergencias, más tecnología y Constructores por zonas. 3.500 de Comida por casilla de pasto. Las criaturas cazadas se ven hasta que mueren.",
+  "news.body": "La IA contraataca tras defender, ataca ejércitos y expansiones enemigas más débiles y defiende sus expansiones con vigías y reserva. Las unidades destruidas ya no disparan.",
   "news.all": "Ver el histórico completo",
   "news.all.href": "docs/historico.es.txt",
   "lang.eyebrow": "Idiomas",
