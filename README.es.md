@@ -163,10 +163,16 @@ Criaturas neutrales que no pertenecen a ningún jugador. Las dóciles deambulan 
 
 ## Histórico de cambios
 
-La última versión es **v2026.10.28 alpha**.
+La última versión es **v2026.10.29 alpha**.
 
 <details>
 <summary>Ver todas las versiones</summary>
+
+### v2026.10.29 alpha
+
+- Nuevo panel de órdenes: desaparecen las columnas de órdenes civiles y militares y el mapa ocupa toda la pantalla; al seleccionar una tropa, el panel de abajo a la izquierda del mapa muestra su cola completa en el orden real de ejecución (órdenes propias y de grupo mezcladas) y, con varias tropas, las órdenes que tienen en común
+- Grupos: un doble clic en una tropa selecciona su grupo más reciente (las tropas que comparten órdenes); «Pertenece a grupo» permite volver a elegir cada grupo con un clic, un clic en una tropa de la selección deja sólo esa y las órdenes de grupo se ven con el color de su grupo
+- Al seleccionar un edificio propio se ven sus órdenes (producción, Banco…) y el Gobierno ve todas las órdenes civiles; un clic en la ruta de una orden en el mapa selecciona a quien la ejecuta
 
 ### v2026.10.28 alpha
 
@@ -176,9 +182,6 @@ La última versión es **v2026.10.28 alpha**.
 - La IA ataca de forma oportunista: contraataca con todo su ejército tras defender su base o una expansión, ataca a los ejércitos enemigos avistados que son más débiles, ataca las expansiones enemigas junto a las suyas y aprovecha las ventanas en las que el ejército rival está lejos para golpear su Gobierno
 - La IA defiende sus expansiones: deja Exploradores de vigía en los accesos, reúne la reserva en un punto equidistante y la envía a la expansión amenazada si es más fuerte que el atacante; si no, conserva las tropas y abandona la expansión
 - Una unidad destruida en el mismo instante ya no dispara su orden de ataque en cola (antes un enemigo muerto podía seguir disparando)
-- Nuevo panel de órdenes: desaparecen las columnas de órdenes civiles y militares y el mapa ocupa toda la pantalla; al seleccionar una tropa, el panel de abajo a la izquierda del mapa muestra su cola completa en el orden real de ejecución (órdenes propias y de grupo mezcladas) y, con varias tropas, las órdenes que tienen en común
-- Grupos: un doble clic en una tropa selecciona su grupo más reciente (las tropas que comparten órdenes); «Pertenece a grupo» permite volver a elegir cada grupo con un clic, un clic en una tropa de la selección deja sólo esa y las órdenes de grupo se ven con el color de su grupo
-- Al seleccionar un edificio propio se ven sus órdenes (producción, Banco…) y el Gobierno ve todas las órdenes civiles; un clic en la ruta de una orden en el mapa selecciona a quien la ejecuta
 - Las habilidades ya no tienen fase propia: cada una sale al principio del microturno en que está lista (Curación, Gas paralizante y Shock EMP afectan a quien está en su área en ese momento) y lo que se encola después de una habilidad de la misma tropa espera a que salga
 - El fin de partida corta justo tras el golpe que destruye el Gobierno: los disparos y contraataques del mismo microturno ya no cuentan y los microturnos se detienen al haber ganador
 - Las torres duran la mitad: la Defensa de Suelo pasa a 400 de vida y 100 de escudo (antes 800 y 200) y la Defensa Aérea a 300 y 75 (antes 600 y 150)

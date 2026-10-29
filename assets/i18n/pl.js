@@ -183,7 +183,7 @@
   "mus.t14": "<strong>Pływający interfejs.</strong> Menu, zasoby, minimapa, panel budowy według poziomu Rządu i ikona dla każdego rodzaju rozkazu.",
   "mus.hint": "Przesuń palcem, aby poruszać się po osi czasu →",
   "news.title": "Nowości",
-  "news.body": "SI kontratakuje po obronie, atakuje słabsze armie i ekspansje wroga oraz broni swoich ekspansji czatami i rezerwą. Zniszczone jednostki już nie strzelają. Sojusznicze SI grają zespołowo: wymieniają się surowcami, bronią się nawzajem i atakują razem. Nowy panel rozkazów: bez kolumn, mapa na cały ekran i prawdziwa kolejka każdego oddziału z jego grupami (dwuklik na oddziale wybiera jego grupę). Zdolności uruchamiają się w swojej mikroturze, a wieże wytrzymują o połowę mniej.",
+  "news.body": "Nowy panel rozkazów: bez kolumn, mapa na cały ekran i prawdziwa kolejka każdego oddziału z jego grupami (dwuklik na oddziale wybiera jego grupę).",
   "news.all": "Zobacz pełną historię zmian",
   "news.all.href": "docs/historico.pl.txt",
   "join.eyebrow": "Społeczność",

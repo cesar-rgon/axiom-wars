@@ -1,6 +1,11 @@
 HISTORIA ZMIAN AXIOM WARS
 (Wersja to data ostatniej zmiany serwera lub klienta.)
 
+v2026.10.29 alpha
+    Nowy panel rozkazów: znikają kolumny rozkazów cywilnych i wojskowych, a mapa zajmuje cały ekran; po zaznaczeniu oddziału panel w lewym dolnym rogu mapy pokazuje jego pełną kolejkę w rzeczywistej kolejności wykonania (rozkazy własne i grupowe wymieszane), a przy kilku oddziałach — rozkazy, które mają wspólne
+    Grupy: dwukrotne kliknięcie oddziału zaznacza jego najnowszą grupę (oddziały, które dzielą rozkazy); sekcja „Należy do grupy” pozwala jednym kliknięciem wybrać grupę ponownie, kliknięcie oddziału z zaznaczenia zostawia tylko jego, a rozkazy grupowe mają kolor swojej grupy
+    Po zaznaczeniu własnego budynku widać jego rozkazy (produkcja, Bank…), a Rząd widzi wszystkie rozkazy cywilne; kliknięcie trasy rozkazu na mapie zaznacza jego wykonawcę
+
 v2026.10.28 alpha
     Sojusznicze SI pomagają sobie w gospodarce: proszą sojuszników (ludzi lub SI) o surowce, gdy któryś skończy się w ciągu 2 rund lub szybciej; każdy sojusznik przyjmuje lub odrzuca zależnie od nadwyżki, a jedną prośbę może pokryć kilku; człowiek widzi powiadomienie z przyciskami Przyjmij i Odrzuć, a sojusznicy widzą nawzajem swoje surowce
     Sojusznicze SI bronią się nawzajem: rezerwa idzie do zaatakowanego rządu sojusznika (przed własnymi ekspansjami), potem do innych budynków sojuszników, każda SI proporcjonalnie do swojej armii; jeśli jej baza ma upaść, SI przekazuje swoje surowce i wycofuje wojska do sojusznika
@@ -8,9 +13,6 @@ v2026.10.28 alpha
     SI atakuje okazjonalnie: kontratakuje całą armią po obronie bazy lub ekspansji, atakuje zauważone słabsze armie wroga, atakuje wrogie ekspansje obok własnych i wykorzystuje chwile, gdy armia rywala jest daleko, by uderzyć w jego Rząd
     SI broni swoich ekspansji: zostawia Zwiadowców na czatach przy dojściach, zbiera rezerwę w równoodległym punkcie i wysyła ją do zagrożonej ekspansji, jeśli jest silniejsza od napastnika; w przeciwnym razie oszczędza wojska i porzuca ekspansję
     Jednostka zniszczona w tym samym momencie nie wykonuje już swojego rozkazu ataku w kolejce (wcześniej martwy wróg mógł dalej strzelać)
-    Nowy panel rozkazów: znikają kolumny rozkazów cywilnych i wojskowych, a mapa zajmuje cały ekran; po zaznaczeniu oddziału panel w lewym dolnym rogu mapy pokazuje jego pełną kolejkę w rzeczywistej kolejności wykonania (rozkazy własne i grupowe wymieszane), a przy kilku oddziałach — rozkazy, które mają wspólne
-    Grupy: dwukrotne kliknięcie oddziału zaznacza jego najnowszą grupę (oddziały, które dzielą rozkazy); sekcja „Należy do grupy” pozwala jednym kliknięciem wybrać grupę ponownie, kliknięcie oddziału z zaznaczenia zostawia tylko jego, a rozkazy grupowe mają kolor swojej grupy
-    Po zaznaczeniu własnego budynku widać jego rozkazy (produkcja, Bank…), a Rząd widzi wszystkie rozkazy cywilne; kliknięcie trasy rozkazu na mapie zaznacza jego wykonawcę
     Zdolności nie mają już własnej fazy: każda uruchamia się na początku mikrotury, w której jest gotowa (Leczenie, Gaz paraliżujący i Wstrząs EMP działają na tych, którzy są wtedy w ich obszarze), a to, co ustawiono w kolejce po zdolności tego samego oddziału, czeka, aż ta się uruchomi
     Koniec partii ucina się tuż po ciosie, który niszczy Rząd: strzały i kontrataki z tej samej mikrotury już się nie liczą, a mikrotury zatrzymują się, gdy jest zwycięzca
     Wieże wytrzymują o połowę mniej: Obrona Naziemna ma 400 HP i 100 tarczy (było 800 i 200), a Obrona Powietrzna 300 i 75 (było 600 i 150)

@@ -192,7 +192,7 @@
   "dl.c2": "Avvia il gioco: l'indirizzo del server è già compilato. Scrivi il tuo nome, poi crea una stanza o unisciti a una.",
   "nav.news": "Novità",
   "news.title": "Novità",
-  "news.body": "L'IA contrattacca dopo aver difeso, attacca eserciti ed espansioni nemici più deboli e difende le sue espansioni con vedette e riserva. Le unità distrutte non sparano più. Le IA alleate giocano in squadra: si passano risorse, si difendono e attaccano insieme. Nuovo pannello degli ordini: niente colonne, mappa a schermo intero e la coda reale di ogni truppa con i suoi gruppi (doppio clic su una truppa per scegliere il suo gruppo). Le abilità partono nel loro microturno e le torri durano la metà.",
+  "news.body": "Nuovo pannello degli ordini: niente colonne, mappa a schermo intero e la coda reale di ogni truppa con i suoi gruppi (doppio clic su una truppa per scegliere il suo gruppo).",
   "news.all": "Vedi tutta la cronologia",
   "news.all.href": "docs/historico.it.txt",
   "lang.eyebrow": "Lingue",

@@ -1,6 +1,11 @@
 CRONOLOGIA DELLE MODIFICHE DI AXIOM WARS
 (La versione è la data dell'ultima modifica del server o del client.)
 
+v2026.10.29 alpha
+    Nuovo pannello degli ordini: le colonne degli ordini civili e militari scompaiono e la mappa occupa tutto lo schermo; selezionando una truppa, il pannello in basso a sinistra della mappa mostra la sua coda completa nell'ordine reale di esecuzione (ordini propri e di gruppo mescolati) e, con più truppe, gli ordini che hanno in comune
+    Gruppi: un doppio clic su una truppa seleziona il suo gruppo più recente (le truppe che condividono ordini); «Appartiene al gruppo» permette di riscegliere ogni gruppo con un clic, un clic su una truppa della selezione lascia solo quella e gli ordini di gruppo hanno il colore del loro gruppo
+    Selezionando un proprio edificio si vedono i suoi ordini (produzione, Banca…) e il Governo vede tutti gli ordini civili; un clic sul percorso di un ordine sulla mappa seleziona chi lo esegue
+
 v2026.10.28 alpha
     Le IA alleate si aiutano nell'economia: chiedono risorse agli alleati (umani o IA) quando una sta per esaurirsi entro 2 turni o meno, ogni alleato accetta o rifiuta in base al suo surplus e più alleati possono coprire una stessa richiesta; un umano vede un avviso con Accetta e Rifiuta, e gli alleati vedono le risorse degli altri
     Le IA alleate si difendono a vicenda: la riserva accorre al Governo alleato attaccato (prima delle proprie espansioni) e agli altri edifici alleati (dopo), ogni IA in proporzione al suo esercito; se la sua base sta per cadere, l'IA dona le sue risorse ed evacua le truppe verso un alleato
@@ -8,9 +13,6 @@ v2026.10.28 alpha
     L'IA attacca in modo opportunistico: contrattacca con tutto l'esercito dopo aver difeso la base o un'espansione, attacca gli eserciti nemici avvistati più deboli, attacca le espansioni nemiche vicine alle proprie e approfitta dei momenti in cui l'esercito rivale è lontano per colpire il suo Governo
     L'IA difende le sue espansioni: lascia Esploratori di vedetta agli accessi, riunisce la riserva in un punto equidistante e la manda all'espansione minacciata se è più forte dell'attaccante; altrimenti conserva le truppe e abbandona l'espansione
     Un'unità distrutta nello stesso istante non spara più il suo ordine di attacco in coda (prima un nemico morto poteva continuare a sparare)
-    Nuovo pannello degli ordini: le colonne degli ordini civili e militari scompaiono e la mappa occupa tutto lo schermo; selezionando una truppa, il pannello in basso a sinistra della mappa mostra la sua coda completa nell'ordine reale di esecuzione (ordini propri e di gruppo mescolati) e, con più truppe, gli ordini che hanno in comune
-    Gruppi: un doppio clic su una truppa seleziona il suo gruppo più recente (le truppe che condividono ordini); «Appartiene al gruppo» permette di riscegliere ogni gruppo con un clic, un clic su una truppa della selezione lascia solo quella e gli ordini di gruppo hanno il colore del loro gruppo
-    Selezionando un proprio edificio si vedono i suoi ordini (produzione, Banca…) e il Governo vede tutti gli ordini civili; un clic sul percorso di un ordine sulla mappa seleziona chi lo esegue
     Le abilità non hanno più una fase propria: ognuna parte all'inizio del microturno in cui è pronta (Guarigione, Gas paralizzante e Scossa EMP colpiscono chi si trova allora nella loro area) e ciò che viene messo in coda dopo un'abilità della stessa truppa aspetta che parta
     La fine partita taglia subito dopo il colpo che distrugge il Governo: i colpi e i contrattacchi dello stesso microturno non contano più e i microturni si fermano quando c'è un vincitore
     Le torri durano la metà: la Difesa terrestre passa a 400 PS e 100 di scudo (prima 800 e 200) e la Difesa antiaerea a 300 e 75 (prima 600 e 150)
