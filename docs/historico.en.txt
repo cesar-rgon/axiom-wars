@@ -8,6 +8,12 @@ v2026.10.28 alpha
     The AI attacks opportunistically: it counterattacks with its whole army after defending its base or an expansion, attacks weaker enemy armies it spots, attacks enemy expansions next to its own, and takes the windows when the rival army is far away to strike its Government
     The AI defends its expansions: it leaves Scouts on watch at the approaches, gathers its reserve at an equidistant point and sends it to the threatened expansion if it is stronger than the attacker; otherwise it keeps its troops and gives the expansion up
     A unit destroyed in the same instant no longer fires its queued attack order (a dead enemy could keep shooting before)
+    New orders panel: the civil and military order columns are gone and the map fills the screen; when you select a troop, the panel at the bottom left of the map shows its whole queue in the order it actually runs (its own and its group orders mixed) and, with several troops, the orders they have in common
+    Groups: double-clicking a troop selects its most recent group (the troops that share orders); "Belongs to group" lets you pick each group again with one click, clicking a troop of the selection keeps just that one, and group orders show in their group's color
+    Selecting one of your buildings shows its orders (production, Bank…) and the Government shows every civil order; clicking an order's route on the map selects whoever carries it out
+    Abilities no longer have a phase of their own: each one goes off at the start of the microturn in which it is ready (Healing, Paralyzing gas and EMP shock affect whoever is in their area at that moment) and whatever is queued after a troop's ability waits for it to go off
+    The end of the game cuts right after the blow that destroys the Government: shots and counterattacks of the same microturn no longer count and the microturns stop as soon as there is a winner
+    Towers last half as long: the Ground Defense drops to 400 HP and 100 shield (was 800 and 200) and the Air Defense to 300 and 75 (was 600 and 150)
 
 v2026.10.27 alpha
     The AI manages its economy on demand, with no fixed limits: it builds extractors, farms, generators, Housing, Training Centers and Factories as it needs them, and trains as many units as it can feed (keeping a round of food in reserve)

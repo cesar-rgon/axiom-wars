@@ -8,6 +8,12 @@ v2026.10.28 alpha
     L'IA attaque de façon opportuniste : elle contre-attaque avec toute son armée après avoir défendu sa base ou une expansion, attaque les armées ennemies repérées qui sont plus faibles, attaque les expansions ennemies proches des siennes et profite des moments où l'armée rivale est loin pour frapper son Gouvernement
     L'IA défend ses expansions : elle poste des Éclaireurs en vigie aux accès, rassemble sa réserve en un point équidistant et l'envoie vers l'expansion menacée si elle est plus forte que l'attaquant ; sinon elle garde ses troupes et abandonne l'expansion
     Une unité détruite au même instant ne tire plus son ordre d'attaque en file (avant, un ennemi mort pouvait continuer à tirer)
+    Nouveau panneau d'ordres : les colonnes d'ordres civils et militaires disparaissent et la carte occupe tout l'écran ; en sélectionnant une troupe, le panneau en bas à gauche de la carte montre sa file complète dans l'ordre réel d'exécution (ordres propres et de groupe mélangés) et, avec plusieurs troupes, les ordres qu'elles ont en commun
+    Groupes : un double-clic sur une troupe sélectionne son groupe le plus récent (les troupes qui partagent des ordres) ; « Appartient au groupe » permet de rechoisir chaque groupe d'un clic, un clic sur une troupe de la sélection ne garde que celle-ci et les ordres de groupe prennent la couleur de leur groupe
+    En sélectionnant un de ses bâtiments, on voit ses ordres (production, Banque…) et le Gouvernement voit tous les ordres civils ; un clic sur la route d'un ordre sur la carte sélectionne celui qui l'exécute
+    Les capacités n'ont plus de phase propre : chacune part au début du micro-tour où elle est prête (Soin, Gaz paralysant et Choc IEM touchent ceux qui se trouvent alors dans leur zone) et ce qui est mis en file après une capacité de la même troupe attend qu'elle parte
+    La fin de partie coupe juste après le coup qui détruit le Gouvernement : les tirs et contre-attaques du même micro-tour ne comptent plus et les micro-tours s'arrêtent dès qu'il y a un gagnant
+    Les tourelles durent moitié moins : la Défense au sol passe à 400 PV et 100 de bouclier (avant 800 et 200) et la Défense antiaérienne à 300 et 75 (avant 600 et 150)
 
 v2026.10.27 alpha
     L'IA gère son économie à la demande, sans limites fixes : elle construit extracteurs, fermes, générateurs, Logements, Centres d'entraînement et Usines selon ses besoins, et entraîne autant d'unités qu'elle peut nourrir (avec un tour de nourriture en réserve)

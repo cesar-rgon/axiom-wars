@@ -8,6 +8,12 @@ v2026.10.28 alpha
     A IA ataca de forma oportunista: contra-ataca com todo o exército depois de defender a base ou uma expansão, ataca exércitos inimigos avistados que sejam mais fracos, ataca expansões inimigas ao lado das suas e aproveita os momentos em que o exército rival está longe para atingir o Governo dele
     A IA defende as suas expansões: deixa Exploradores de vigia nos acessos, reúne a reserva num ponto equidistante e a envia à expansão ameaçada se for mais forte que o atacante; caso contrário, preserva as tropas e abandona a expansão
     Uma unidade destruída no mesmo instante já não dispara a sua ordem de ataque na fila (antes um inimigo morto podia continuar a atirar)
+    Novo painel de ordens: as colunas de ordens civis e militares desaparecem e o mapa ocupa toda a tela; ao selecionar uma tropa, o painel no canto inferior esquerdo do mapa mostra a fila completa na ordem real de execução (ordens próprias e de grupo misturadas) e, com várias tropas, as ordens que elas têm em comum
+    Grupos: um clique duplo em uma tropa seleciona o grupo mais recente dela (as tropas que compartilham ordens); «Pertence ao grupo» permite escolher cada grupo de novo com um clique, um clique em uma tropa da seleção deixa só ela e as ordens de grupo aparecem com a cor do seu grupo
+    Ao selecionar um edifício próprio, suas ordens aparecem (produção, Banco…) e o Governo vê todas as ordens civis; um clique na rota de uma ordem no mapa seleciona quem a executa
+    As habilidades já não têm fase própria: cada uma sai no início do microturno em que está pronta (Cura, Gás paralisante e Choque EMP afetam quem está na sua área naquele momento) e o que é enfileirado depois de uma habilidade da mesma tropa espera até ela sair
+    O fim de partida corta logo após o golpe que destrói o Governo: os disparos e contra-ataques do mesmo microturno deixam de contar e os microturnos param quando há um vencedor
+    As torres duram a metade: a Defesa Terrestre passa a 400 de vida e 100 de escudo (antes 800 e 200) e a Defesa Antiaérea a 300 e 75 (antes 600 e 150)
 
 v2026.10.27 alpha
     A IA gerencia a economia conforme a demanda, sem limites fixos: constrói extratores, fazendas, geradores, Moradias, Centros de Treinamento e Fábricas conforme precisa e treina todas as unidades que consegue manter (com uma rodada de comida de reserva)

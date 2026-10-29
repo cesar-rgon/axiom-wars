@@ -8,6 +8,12 @@ v2026.10.28 alpha
     SI atakuje okazjonalnie: kontratakuje całą armią po obronie bazy lub ekspansji, atakuje zauważone słabsze armie wroga, atakuje wrogie ekspansje obok własnych i wykorzystuje chwile, gdy armia rywala jest daleko, by uderzyć w jego Rząd
     SI broni swoich ekspansji: zostawia Zwiadowców na czatach przy dojściach, zbiera rezerwę w równoodległym punkcie i wysyła ją do zagrożonej ekspansji, jeśli jest silniejsza od napastnika; w przeciwnym razie oszczędza wojska i porzuca ekspansję
     Jednostka zniszczona w tym samym momencie nie wykonuje już swojego rozkazu ataku w kolejce (wcześniej martwy wróg mógł dalej strzelać)
+    Nowy panel rozkazów: znikają kolumny rozkazów cywilnych i wojskowych, a mapa zajmuje cały ekran; po zaznaczeniu oddziału panel w lewym dolnym rogu mapy pokazuje jego pełną kolejkę w rzeczywistej kolejności wykonania (rozkazy własne i grupowe wymieszane), a przy kilku oddziałach — rozkazy, które mają wspólne
+    Grupy: dwukrotne kliknięcie oddziału zaznacza jego najnowszą grupę (oddziały, które dzielą rozkazy); sekcja „Należy do grupy” pozwala jednym kliknięciem wybrać grupę ponownie, kliknięcie oddziału z zaznaczenia zostawia tylko jego, a rozkazy grupowe mają kolor swojej grupy
+    Po zaznaczeniu własnego budynku widać jego rozkazy (produkcja, Bank…), a Rząd widzi wszystkie rozkazy cywilne; kliknięcie trasy rozkazu na mapie zaznacza jego wykonawcę
+    Zdolności nie mają już własnej fazy: każda uruchamia się na początku mikrotury, w której jest gotowa (Leczenie, Gaz paraliżujący i Wstrząs EMP działają na tych, którzy są wtedy w ich obszarze), a to, co ustawiono w kolejce po zdolności tego samego oddziału, czeka, aż ta się uruchomi
+    Koniec partii ucina się tuż po ciosie, który niszczy Rząd: strzały i kontrataki z tej samej mikrotury już się nie liczą, a mikrotury zatrzymują się, gdy jest zwycięzca
+    Wieże wytrzymują o połowę mniej: Obrona Naziemna ma 400 HP i 100 tarczy (było 800 i 200), a Obrona Powietrzna 300 i 75 (było 600 i 150)
 
 v2026.10.27 alpha
     SI zarządza gospodarką według zapotrzebowania, bez sztywnych limitów: buduje ekstraktory, farmy, generatory, Mieszkania, Centra Szkolenia i Fabryki w miarę potrzeb i szkoli tyle jednostek, ile może wyżywić (z zapasem żywności na jedną rundę)

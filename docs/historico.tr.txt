@@ -8,6 +8,12 @@ v2026.10.28 alpha
     Yapay zekâ fırsatçı biçimde saldırır: üssünü ya da bir genişlemeyi savunduktan sonra tüm ordusuyla karşı saldırı yapar, gördüğü daha zayıf düşman ordularına saldırır, kendi genişlemelerinin yanındaki düşman genişlemelerine saldırır ve rakip ordu uzaktayken Hükümetine vurma fırsatını kullanır
     Yapay zekâ genişlemelerini savunur: girişlere nöbetçi Kaşifler bırakır, yedeği eşit uzaklıktaki bir noktada toplar ve saldırgandan güçlüyse tehdit altındaki genişlemeye gönderir; değilse birlikleri korur ve genişlemeyi terk eder
     Aynı anda yok edilen bir birim artık sıradaki saldırı emrini ateşlemez (eskiden ölmüş bir düşman ateş etmeye devam edebiliyordu)
+    Yeni emir paneli: sivil ve askerî emir sütunları kalkıyor ve harita ekranın tamamını kaplıyor; bir birlik seçildiğinde haritanın sol altındaki panel, tam kuyruğunu gerçek yürütme sırasıyla gösterir (kendi emirleri ile grup emirleri karışık), birden çok birlikte ise ortak emirleri gösterir
+    Gruplar: bir birliğe çift tıklamak onun en yeni grubunu (emirleri paylaşan birlikleri) seçer; «Ait olduğu grup» her grubu tek tıkla yeniden seçtirir, seçimdeki bir birliğe tıklamak yalnızca onu bırakır ve grup emirleri grubunun renginde görünür
+    Kendi binanız seçildiğinde emirleri (üretim, Banka…) görünür ve Hükümet tüm sivil emirleri görür; haritada bir emrin rotasına tıklamak onu yürüten birimi seçer
+    Yeteneklerin artık kendi aşaması yok: her biri hazır olduğu mikro turun başında çıkar (İyileştirme, Felç edici gaz ve EMP şoku o anda alanında bulunanları etkiler) ve aynı birliğin bir yeteneğinden sonra sıraya konan emirler onun çıkmasını bekler
+    Oyun sonu, Hükümeti yok eden vuruştan hemen sonra kesilir: aynı mikro turdaki atışlar ve karşı saldırılar artık sayılmaz ve bir kazanan olunca mikro turlar durur
+    Kuleler yarı yarıya dayanıyor: Kara Savunması 400 can ve 100 kalkan (eskiden 800 ve 200), Hava Savunması 300 ve 75 (eskiden 600 ve 150) oluyor
 
 v2026.10.27 alpha
     Yapay zekâ ekonomisini sabit sınırlar olmadan ihtiyaca göre yönetir: ihtiyacı kadar çıkarıcı, çiftlik, jeneratör, Konut, Eğitim Merkezi ve Fabrika inşa eder; besleyebildiği kadar birim eğitir (bir tur yiyecek yedek bırakarak)
