@@ -216,7 +216,7 @@
   "dl.c2": "Abre el juego: la dirección del servidor ya viene rellena. Escribe tu nombre y crea una sala o únete a una.",
   "nav.news": "Novedades",
   "news.title": "Novedades",
-  "news.body": "Panel de órdenes nuevo: sin columnas, mapa a pantalla completa y la cola real de cada tropa con sus grupos (doble clic en una tropa elige su grupo).",
+  "news.body": "Las tecnologías no se pueden comprar dos veces, los tooltips de órdenes salen en tu idioma, un grupo es ahora una elipse pequeña con líneas discontinuas animadas y se arregla la pérdida de texturas en partidas largas.",
   "news.all": "Ver el histórico completo",
   "news.all.href": "docs/historico.es.txt",
   "lang.eyebrow": "Idiomas",

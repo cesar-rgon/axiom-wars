@@ -1,6 +1,13 @@
 CRONOLOGIA DELLE MODIFICHE DI AXIOM WARS
 (La versione è la data dell'ultima modifica del server o del client.)
 
+v2026.10.30 alpha
+    Le tecnologie non si possono più comprare due volte: il server rifiuta quella che hai già, che è in ricerca o in coda, e l'albero delle tecnologie la mostra «in coda» in tutte le lingue (prima era riconosciuta dal nome spagnolo)
+    I tooltip degli ordini e il dettaglio delle spese ora sono nella lingua scelta, non nello spagnolo del server
+    Selezionare un solo Costruttore con un riquadro di trascinamento mostra il suo pannello di costruzione, come un clic; riordinare gli ordini non viene più rifiutato se un Costruttore è bloccato e senza percorso
+    Selezione di gruppo: il segno compare solo per truppe che condividono un ordine; ora è una piccola ellisse fissa al centro da cui partono gli ordini, con una linea tratteggiata sottile e tenue che corre verso di essa da ogni truppa e un anello tenue su ogni truppa
+    Correzioni: il combattimento per collisione indica la sua arma (un Esploratore morde invece di sparare) e le lenti della risoluzione riusano la loro immagine GPU invece di crearne una nuova a ogni fotogramma, cosa che riempiva la memoria video nelle partite lunghe e faceva sparire tutte le texture
+
 v2026.10.29 alpha
     Nuovo pannello degli ordini: le colonne degli ordini civili e militari scompaiono e la mappa occupa tutto lo schermo; selezionando una truppa, il pannello in basso a sinistra della mappa mostra la sua coda completa nell'ordine reale di esecuzione (ordini propri e di gruppo mescolati) e, con più truppe, gli ordini che hanno in comune
     Gruppi: un doppio clic su una truppa seleziona il suo gruppo più recente (le truppe che condividono ordini); «Appartiene al gruppo» permette di riscegliere ogni gruppo con un clic, un clic su una truppa della selezione lascia solo quella e gli ordini di gruppo hanno il colore del loro gruppo

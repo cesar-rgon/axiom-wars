@@ -1,6 +1,13 @@
 ÄNDERUNGSVERLAUF VON AXIOM WARS
 (Die Version ist das Datum der letzten Änderung am Server oder am Client.)
 
+v2026.10.30 alpha
+    Technologien lassen sich nicht mehr doppelt kaufen: der Server lehnt eine ab, die du besitzt, die erforscht wird oder in der Warteschlange steht, und der Technologiebaum zeigt sie in allen Sprachen als „in Warteschlange“ (vorher wurde sie am spanischen Namen erkannt)
+    Die Tooltips der Befehle und die Ausgabenaufschlüsselung erscheinen jetzt in der gewählten Sprache statt im Spanisch des Servers
+    Ein einzelner Konstrukteur, mit einem Auswahlrahmen markiert, zeigt sein Baupanel wie bei einem Klick; das Umsortieren von Befehlen wird nicht mehr abgelehnt, wenn ein Konstrukteur blockiert ist und keinen Weg hat
+    Gruppenauswahl: die Markierung erscheint nur für Truppen mit einem gemeinsamen Befehl; sie ist jetzt eine kleine feste Ellipse im Zentrum, von dem die Befehle ausgehen, mit einer dünnen, blassen gestrichelten Linie von jeder Truppe dorthin und einem blassen Ring um jede Truppe
+    Korrekturen: der Kollisionskampf nennt seine Waffe (ein Späher beißt statt zu schießen) und die Lupen der Auflösung nutzen ihr GPU-Bild weiter, statt in jedem Frame ein neues anzulegen, was in langen Partien den Videospeicher füllte und alle Texturen verschwinden ließ
+
 v2026.10.29 alpha
     Neues Befehlspanel: Die Spalten für zivile und militärische Befehle verschwinden und die Karte füllt den ganzen Bildschirm; wählt man eine Truppe aus, zeigt das Panel unten links auf der Karte ihre vollständige Warteschlange in der tatsächlichen Ausführungsreihenfolge (eigene und Gruppenbefehle gemischt) und bei mehreren Truppen die Befehle, die sie gemeinsam haben
     Gruppen: Ein Doppelklick auf eine Truppe wählt ihre jüngste Gruppe aus (die Truppen, die Befehle teilen); „Gehört zur Gruppe“ erlaubt es, jede Gruppe mit einem Klick erneut zu wählen, ein Klick auf eine Truppe der Auswahl lässt nur diese übrig und Gruppenbefehle erscheinen in der Farbe ihrer Gruppe

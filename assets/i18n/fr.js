@@ -192,7 +192,7 @@
   "dl.c2": "Lancez le jeu : l'adresse du serveur est déjà remplie. Saisissez votre nom, puis créez un salon ou rejoignez-en un.",
   "nav.news": "Nouveautés",
   "news.title": "Nouveautés",
-  "news.body": "Nouveau panneau d'ordres : sans colonnes, carte plein écran et file réelle de chaque troupe avec ses groupes (double-clic sur une troupe pour choisir son groupe).",
+  "news.body": "Technologies non achetables deux fois, infobulles d'ordres dans votre langue, un groupe devient une petite ellipse avec des pointillés animés, et correction de la perte de textures en longue partie.",
   "news.all": "Voir tout l'historique",
   "news.all.href": "docs/historico.fr.txt",
   "lang.eyebrow": "Langues",

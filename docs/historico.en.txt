@@ -1,6 +1,13 @@
 AXIOM WARS CHANGE HISTORY
 (The version is the date of the latest change to the server or the client.)
 
+v2026.10.30 alpha
+    Technologies can no longer be bought twice: one you own, are researching or have queued is refused by the server, and the technology tree shows it as "queued" in every language (it used to be recognised by its Spanish name)
+    Order tooltips and the spending breakdown are now written in the selected language instead of the server's Spanish
+    Boxing in a single Constructor with a drag selection now shows its build panel, like a click; reordering orders is no longer refused when a Constructor is blocked and has no path
+    Group selection: the mark only appears for troops that share an order; it is now a small fixed ellipse at the centre the orders leave from, with a thin, faint dashed line running toward it from each troop and a faint ring on each troop
+    Fixes: collision combat now reports its weapon (a Scout bites instead of shooting) and the resolution lupas reuse their GPU image instead of allocating a new one every frame, which filled the video memory in long games and made every texture vanish
+
 v2026.10.29 alpha
     New orders panel: the civil and military order columns are gone and the map fills the screen; when you select a troop, the panel at the bottom left of the map shows its whole queue in the order it actually runs (its own and its group orders mixed) and, with several troops, the orders they have in common
     Groups: double-clicking a troop selects its most recent group (the troops that share orders); "Belongs to group" lets you pick each group again with one click, clicking a troop of the selection keeps just that one, and group orders show in their group's color

@@ -1,6 +1,13 @@
 HISTORIA ZMIAN AXIOM WARS
 (Wersja to data ostatniej zmiany serwera lub klienta.)
 
+v2026.10.30 alpha
+    Technologii nie można już kupić dwa razy: serwer odrzuca tę, którą już masz, która jest badana lub czeka w kolejce, a drzewo technologii pokazuje ją jako „w kolejce” we wszystkich językach (wcześniej rozpoznawał ją po hiszpańskiej nazwie)
+    Podpowiedzi rozkazów i zestawienie wydatków są teraz w wybranym języku, a nie po hiszpańsku jak na serwerze
+    Zaznaczenie ramką jednego Konstruktora pokazuje jego panel budowy, jak po kliknięciu; zmiana kolejności rozkazów nie jest już odrzucana, gdy Konstruktor jest zablokowany i nie ma drogi
+    Zaznaczenie grupy: znacznik pojawia się tylko przy oddziałach ze wspólnym rozkazem; to teraz mała stała elipsa w środku, z którego wychodzą rozkazy, z cienką, bladą linią przerywaną biegnącą do niej od każdego oddziału i bladym pierścieniem przy każdym oddziale
+    Poprawki: walka przy kolizji podaje swoją broń (Zwiadowca gryzie zamiast strzelać), a lupy rozstrzygnięcia ponownie używają swojego obrazu GPU zamiast tworzyć nowy w każdej klatce, co w długich partiach zapełniało pamięć wideo i sprawiało, że znikały wszystkie tekstury
+
 v2026.10.29 alpha
     Nowy panel rozkazów: znikają kolumny rozkazów cywilnych i wojskowych, a mapa zajmuje cały ekran; po zaznaczeniu oddziału panel w lewym dolnym rogu mapy pokazuje jego pełną kolejkę w rzeczywistej kolejności wykonania (rozkazy własne i grupowe wymieszane), a przy kilku oddziałach — rozkazy, które mają wspólne
     Grupy: dwukrotne kliknięcie oddziału zaznacza jego najnowszą grupę (oddziały, które dzielą rozkazy); sekcja „Należy do grupy” pozwala jednym kliknięciem wybrać grupę ponownie, kliknięcie oddziału z zaznaczenia zostawia tylko jego, a rozkazy grupowe mają kolor swojej grupy

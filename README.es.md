@@ -163,10 +163,18 @@ Criaturas neutrales que no pertenecen a ningún jugador. Las dóciles deambulan 
 
 ## Histórico de cambios
 
-La última versión es **v2026.10.29 alpha**.
+La última versión es **v2026.10.30 alpha**.
 
 <details>
 <summary>Ver todas las versiones</summary>
+
+### v2026.10.30 alpha
+
+- Las tecnologías ya no se pueden comprar dos veces: el servidor rechaza una que ya tienes, se está investigando o está en cola, y el árbol de tecnologías la muestra «en cola» en todos los idiomas (antes la reconocía por su nombre en español)
+- Los tooltips de las órdenes y el desglose de gasto salen ahora en el idioma elegido, no en el español del servidor
+- Seleccionar un solo Constructor con un recuadro de arrastre muestra su panel de construcción, igual que un clic; reordenar órdenes ya no se rechaza si un Constructor está bloqueado y sin camino
+- Selección de grupo: la marca sólo sale para tropas que comparten una orden; ahora es una elipse pequeña y fija en el centro de donde salen las órdenes, con una línea discontinua fina y tenue que corre hacia ella desde cada tropa y un aro tenue en cada tropa
+- Arreglos: el combate por colisión indica su arma (un Explorador muerde en vez de disparar) y las lupas de la resolución reutilizan su imagen de GPU en vez de crear una nueva en cada fotograma, lo que llenaba la memoria de vídeo en partidas largas y hacía desaparecer todas las texturas
 
 ### v2026.10.29 alpha
 

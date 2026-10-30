@@ -183,7 +183,7 @@
   "mus.t14": "<strong>Interface flutuante.</strong> Menu, recursos, minimapa, um painel de construção por nível de Governo e um ícone para cada tipo de ordem.",
   "mus.hint": "Deslize para percorrer a linha do tempo →",
   "news.title": "Novidades",
-  "news.body": "Novo painel de ordens: sem colunas, mapa em tela cheia e a fila real de cada tropa com seus grupos (clique duplo em uma tropa escolhe o grupo dela).",
+  "news.body": "Tecnologias não podem ser compradas duas vezes, dicas de ordens no seu idioma, um grupo agora é uma pequena elipse com tracejados animados e corrigida a perda de texturas em partidas longas.",
   "news.all": "Ver o histórico completo de mudanças",
   "join.eyebrow": "Comunidade",
   "join.title": "Jogue com a gente",
