@@ -192,7 +192,7 @@
   "dl.c2": "Starte das Spiel: Die Serveradresse ist schon eingetragen. Gib deinen Namen ein und erstelle einen Raum oder tritt einem bei.",
   "nav.news": "Neuigkeiten",
   "news.title": "Neuigkeiten",
-  "news.body": "Technologien nicht doppelt kaufbar, Befehls-Tooltips in deiner Sprache, eine Gruppe ist jetzt eine kleine Ellipse mit animierten gestrichelten Linien und der Texturverlust in langen Partien ist behoben.",
+  "news.body": "Schnellere Auflösung, Fähigkeiten aus der Ferne, ein Panel pro Auswahl mit Gruppen 1-10 und große Truppen, die die ganze Karte erreichen.",
   "news.all": "Gesamten Verlauf ansehen",
   "news.all.href": "docs/historico.de.txt",
   "lang.eyebrow": "Sprachen",

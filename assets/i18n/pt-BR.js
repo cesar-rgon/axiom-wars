@@ -183,7 +183,7 @@
   "mus.t14": "<strong>Interface flutuante.</strong> Menu, recursos, minimapa, um painel de construção por nível de Governo e um ícone para cada tipo de ordem.",
   "mus.hint": "Deslize para percorrer a linha do tempo →",
   "news.title": "Novidades",
-  "news.body": "Tecnologias não podem ser compradas duas vezes, dicas de ordens no seu idioma, um grupo agora é uma pequena elipse com tracejados animados e corrigida a perda de texturas em partidas longas.",
+  "news.body": "Resolução mais ágil, habilidades à distância, um painel por seleção com grupos de 1 a 10 e tropas grandes que chegam a todo o mapa.",
   "news.all": "Ver o histórico completo de mudanças",
   "join.eyebrow": "Comunidade",
   "join.title": "Jogue com a gente",

@@ -1,6 +1,14 @@
 AXIOM WARS DEĞİŞİKLİK GEÇMİŞİ
 (Sürüm, sunucuda veya istemcide yapılan son değişikliğin tarihidir.)
 
+v2026.10.31 alpha
+    Menzil dışına nişanlanan yetenekler (Şifa, Felç gazı, EMP şoku, Mayınlar): birlik yaklaşır ve tek emirle kullanır, tur çözülene kadar bölge vurgulu kalır
+    Daha hızlı çözümleme: aynı mikro turdaki hareketler, atışlar ve yetenekler birlikte oynar ve kamera artık beklemez; daha fazla olay mercek açar (destek yetenekleri, mayınlar, başarısız emirler, şantiyeler, keşifler, sandık bekçileri ve sandık ödülleri) ve her bildirim kendi dilinde yazı olarak yükselir
+    Gruplar: Ctrl+sağ tık tüm grubu tek istekle taşır (titreme yok), grup oku elipsin merkezinden hedefe düz bir çizgidir ve yalnızca seçili ya da işaret edilen birlik veya grubun okları görünür; bir birlikten grup emrini iptal etmek yalnızca o birliği çıkarır
+    Seçimin yanında 1-10 numaralı gruplarla yeni «Gruplar» paneli ve seçmek için 1…0 tuşları; bina (kart ve emirler) ve birlik başına tek panel, Shift basılıyken ayrıntı içinde görünür
+    Haritalar: büyük birlikler (Meka, APC) küçüklerin ulaştığı her yere ulaşır (köprüler ve iki kare genişliğinde geçitler) ve bir İnşaatçı kendi binasından geçerken müttefik birliğin arkasında takılıp kalmaz
+    Windows: açılıp kapanan konsol penceresi kalmadı; sis ve zeminde artık blok ya da çizgi görünmüyor
+
 v2026.10.30 alpha
     Teknolojiler artık iki kez satın alınamaz: sunucu, zaten sahip olduğunuz, araştırılan veya sırada bekleyen teknolojiyi reddeder ve teknoloji ağacı onu tüm dillerde «sırada» olarak gösterir (eskiden İspanyolca adıyla tanınıyordu)
     Emir ipuçları ve harcama dökümü artık sunucunun İspanyolcası yerine seçilen dilde görünür

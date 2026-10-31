@@ -183,7 +183,7 @@
   "mus.t14": "<strong>Yüzen arayüz.</strong> Menü, kaynaklar, mini harita, Hükümet seviyesine göre inşa paneli ve her emir türü için bir simge.",
   "mus.hint": "Zaman çizgisinde ilerlemek için kaydır →",
   "news.title": "Yenilikler",
-  "news.body": "Teknolojiler iki kez alınamaz, emir ipuçları kendi dilinizde, grup artık animasyonlu kesik çizgili küçük bir elips ve uzun oyunlardaki doku kaybı düzeltildi.",
+  "news.body": "Daha hızlı çözümleme, uzaktan yetenekler, seçim başına tek panel ve 1-10 gruplar, tüm haritaya ulaşan büyük birlikler.",
   "news.all": "Tüm değişiklik geçmişini gör",
   "news.all.href": "docs/historico.tr.txt",
   "join.eyebrow": "Topluluk",

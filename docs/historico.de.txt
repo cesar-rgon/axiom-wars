@@ -1,6 +1,14 @@
 ÄNDERUNGSVERLAUF VON AXIOM WARS
 (Die Version ist das Datum der letzten Änderung am Server oder am Client.)
 
+v2026.10.31 alpha
+    Außer Reichweite anvisierte Fähigkeiten (Heilung, Lähmgas, EMP-Schock, Minen): die Truppe geht hin und wirkt sie in einem einzigen Befehl, die Zone bleibt bis zur Auflösung hervorgehoben
+    Schnellere Auflösung: Bewegungen, Schüsse und Fähigkeiten eines Mikrozugs laufen gleichzeitig und die Kamera wartet nicht mehr; mehr Ereignisse öffnen eine Lupe (Unterstützungsfähigkeiten, Minen, fehlgeschlagene Befehle, Baustellen, Entdeckungen, Truhenwächter und Truhenpreise) und jede Meldung steigt als Text in deiner Sprache auf
+    Gruppen: Strg+Rechtsklick bewegt eine ganze Gruppe in einer einzigen Anfrage (kein Flackern mehr), der Gruppenpfeil ist gerade vom Zentrum der Ellipse zum Ziel, und nur die Pfeile der ausgewählten oder anvisierten Truppe oder Gruppe werden gezeigt; einen Gruppenbefehl von einer Truppe aus abzubrechen entfernt nur diese Truppe
+    Neues Panel „Gruppen“ neben der Auswahl, mit den Gruppen von 1 bis 10 und den Tasten 1…0 zum Wählen; ein einziges Panel pro Gebäude (Steckbrief und Befehle) und pro Truppe, mit den Details darin bei gehaltener Umschalttaste
+    Karten: große Truppen (Meca, APC) erreichen alles, was kleine erreichen (Brücken und zwei Felder breite Durchgänge), und ein Konstrukteur bleibt beim Durchqueren eines eigenen Gebäudes nicht mehr hinter einer verbündeten Truppe stehen
+    Windows: kein Konsolenfenster mehr, das sich öffnet und schließt; Nebel und Boden zeigen keine Blöcke oder Linien mehr
+
 v2026.10.30 alpha
     Technologien lassen sich nicht mehr doppelt kaufen: der Server lehnt eine ab, die du besitzt, die erforscht wird oder in der Warteschlange steht, und der Technologiebaum zeigt sie in allen Sprachen als „in Warteschlange“ (vorher wurde sie am spanischen Namen erkannt)
     Die Tooltips der Befehle und die Ausgabenaufschlüsselung erscheinen jetzt in der gewählten Sprache statt im Spanisch des Servers

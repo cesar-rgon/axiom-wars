@@ -1,6 +1,14 @@
 HISTORIQUE DES CHANGEMENTS D'AXIOM WARS
 (La version est la date de la dernière modification du serveur ou du client.)
 
+v2026.10.31 alpha
+    Capacités visées hors de portée (Soin, Gaz paralysant, Choc EMP, Mines) : la troupe s'approche et les lance en un seul ordre, et la zone reste en surbrillance jusqu'à la résolution
+    Résolution plus rapide : les déplacements, tirs et capacités d'un même microtour se jouent ensemble et la caméra n'attend plus ; plus d'événements ouvrent une loupe (capacités de soutien, mines, ordres échoués, chantiers, découvertes, gardiens et récompenses de coffre) et chaque avis monte en texte dans votre langue
+    Groupes : Ctrl+clic droit déplace tout un groupe en une seule requête (plus de scintillement), la flèche du groupe est droite du centre de l'ellipse à la destination, et seules les flèches de la troupe ou du groupe sélectionné ou pointé s'affichent ; annuler un ordre de groupe depuis une troupe ne retire que cette troupe
+    Nouveau panneau « Groupes » à côté de la sélection, avec les groupes numérotés de 1 à 10 et les touches 1…0 pour les choisir ; un seul panneau par bâtiment (fiche et ordres) et par troupe, avec le détail à l'intérieur en maintenant Maj
+    Cartes : les grandes troupes (Méca, APC) atteignent tout ce qu'atteignent les petites (ponts et passages de deux cases) et un Constructeur ne reste plus bloqué derrière une troupe alliée en traversant son propre bâtiment
+    Windows : plus de fenêtre de console qui s'ouvre et se ferme ; le brouillard et le sol n'affichent plus de blocs ni de lignes
+
 v2026.10.30 alpha
     Les technologies ne peuvent plus être achetées deux fois : le serveur refuse celle que vous possédez, qui est en recherche ou en file, et l'arbre des technologies l'affiche « en file » dans toutes les langues (elle était reconnue par son nom espagnol)
     Les infobulles des ordres et le détail des dépenses s'affichent maintenant dans la langue choisie, et non dans l'espagnol du serveur

@@ -163,10 +163,19 @@ Criaturas neutrales que no pertenecen a ningún jugador. Las dóciles deambulan 
 
 ## Histórico de cambios
 
-La última versión es **v2026.10.30 alpha**.
+La última versión es **v2026.10.31 alpha**.
 
 <details>
 <summary>Ver todas las versiones</summary>
+
+### v2026.10.31 alpha
+
+- Habilidades apuntadas fuera de alcance (Curación, Gas paralizante, Shock EMP, Minas): la tropa se acerca y las lanza en una sola orden, y la zona queda resaltada hasta que la ronda la resuelve
+- Resolución más ágil: los movimientos, disparos y habilidades de un microturno se reproducen a la vez y la cámara ya no espera; más eventos abren lupa (habilidades de apoyo, minas, órdenes fallidas, obras, descubrimientos, guardianes y premios de cofre) y cada aviso sube como texto en tu idioma
+- Grupos: Ctrl+clic derecho mueve un grupo entero en una sola petición (sin parpadeos), la flecha del grupo es recta del centro de la elipse al destino y sólo se ven flechas de la tropa o grupo seleccionado o señalado; cancelar una orden de grupo desde una tropa saca sólo a esa tropa
+- Panel «Grupos» nuevo junto al de selección, con los grupos numerados del 1 al 10 y las teclas 1…0 para elegirlos; un solo panel por edificio (ficha y órdenes) y por tropa, con el detalle dentro mientras se mantiene Shift
+- Mapas: las tropas grandes (Meca, APC) llegan a todo lo que llegan las pequeñas (puentes y pasos de dos casillas) y un Constructor ya no se queda parado tras una tropa aliada al cruzar un edificio propio
+- Windows: se acabó la ventana de consola que se abría y cerraba; la niebla y el suelo ya no muestran bloques ni líneas
 
 ### v2026.10.30 alpha
 

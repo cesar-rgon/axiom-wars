@@ -1,6 +1,14 @@
 HISTORIA ZMIAN AXIOM WARS
 (Wersja to data ostatniej zmiany serwera lub klienta.)
 
+v2026.10.31 alpha
+    Umiejętności wymierzone poza zasięg (Leczenie, Gaz paraliżujący, Wstrząs EMP, Miny): oddział podchodzi i rzuca je jednym rozkazem, a strefa pozostaje podświetlona do rozstrzygnięcia rundy
+    Szybsze rozstrzygnięcie: ruchy, strzały i umiejętności jednego mikroruchu odtwarzają się razem, a kamera już nie czeka; więcej zdarzeń otwiera lupę (umiejętności wsparcia, miny, nieudane rozkazy, place budowy, odkrycia, strażnicy i nagrody ze skrzyń), a każde powiadomienie unosi się jako tekst w twoim języku
+    Grupy: Ctrl+prawy klik przesuwa całą grupę jednym żądaniem (bez migotania), strzałka grupy jest prosta od środka elipsy do celu, a widać tylko strzałki zaznaczonego lub wskazanego oddziału albo grupy; anulowanie rozkazu grupy z poziomu oddziału usuwa tylko ten oddział
+    Nowy panel „Grupy” obok zaznaczenia, z grupami numerowanymi od 1 do 10 i klawiszami 1…0 do wyboru; jeden panel na budynek (karta i rozkazy) i na oddział, ze szczegółami w środku po przytrzymaniu Shift
+    Mapy: duże oddziały (Meca, APC) docierają wszędzie tam, gdzie małe (mosty i przejścia szerokie na dwa pola), a Konstruktor nie stoi już za sojuszniczym oddziałem przy przechodzeniu przez własny budynek
+    Windows: koniec z oknem konsoli, które otwierało się i zamykało; mgła i teren nie pokazują już bloków ani linii
+
 v2026.10.30 alpha
     Technologii nie można już kupić dwa razy: serwer odrzuca tę, którą już masz, która jest badana lub czeka w kolejce, a drzewo technologii pokazuje ją jako „w kolejce” we wszystkich językach (wcześniej rozpoznawał ją po hiszpańskiej nazwie)
     Podpowiedzi rozkazów i zestawienie wydatków są teraz w wybranym języku, a nie po hiszpańsku jak na serwerze

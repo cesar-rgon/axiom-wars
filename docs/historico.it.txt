@@ -1,6 +1,14 @@
 CRONOLOGIA DELLE MODIFICHE DI AXIOM WARS
 (La versione è la data dell'ultima modifica del server o del client.)
 
+v2026.10.31 alpha
+    Abilità mirate fuori portata (Cura, Gas paralizzante, Shock EMP, Mine): la truppa si avvicina e le lancia in un solo ordine, e la zona resta evidenziata finché il round non la risolve
+    Risoluzione più rapida: i movimenti, i colpi e le abilità di un microturno si riproducono insieme e la camera non aspetta più; più eventi aprono una lente (abilità di supporto, mine, ordini falliti, cantieri, scoperte, guardiani e premi dei forzieri) e ogni avviso sale come testo nella tua lingua
+    Gruppi: Ctrl+clic destro sposta un intero gruppo in una sola richiesta (niente più sfarfallio), la freccia del gruppo è dritta dal centro dell'ellisse alla destinazione e si vedono solo le frecce della truppa o del gruppo selezionato o puntato; annullare un ordine di gruppo da una truppa toglie solo quella truppa
+    Nuovo pannello «Gruppi» accanto alla selezione, con i gruppi numerati da 1 a 10 e i tasti 1…0 per sceglierli; un solo pannello per edificio (scheda e ordini) e per truppa, con il dettaglio dentro tenendo premuto Maiusc
+    Mappe: le truppe grandi (Meca, APC) raggiungono tutto ciò che raggiungono le piccole (ponti e passaggi di due caselle) e un Costruttore non resta più fermo dietro una truppa alleata attraversando un edificio proprio
+    Windows: niente più finestra di console che si apre e si chiude; nebbia e terreno non mostrano più blocchi né linee
+
 v2026.10.30 alpha
     Le tecnologie non si possono più comprare due volte: il server rifiuta quella che hai già, che è in ricerca o in coda, e l'albero delle tecnologie la mostra «in coda» in tutte le lingue (prima era riconosciuta dal nome spagnolo)
     I tooltip degli ordini e il dettaglio delle spese ora sono nella lingua scelta, non nello spagnolo del server

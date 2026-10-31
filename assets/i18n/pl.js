@@ -183,7 +183,7 @@
   "mus.t14": "<strong>Pływający interfejs.</strong> Menu, zasoby, minimapa, panel budowy według poziomu Rządu i ikona dla każdego rodzaju rozkazu.",
   "mus.hint": "Przesuń palcem, aby poruszać się po osi czasu →",
   "news.title": "Nowości",
-  "news.body": "Technologii nie kupisz dwa razy, podpowiedzi rozkazów w twoim języku, grupa to teraz mała elipsa z animowanymi liniami przerywanymi, naprawiono utratę tekstur w długich partiach.",
+  "news.body": "Szybsze rozstrzygnięcie, umiejętności z daleka, jeden panel na zaznaczenie z grupami 1-10 i duże oddziały docierające na całą mapę.",
   "news.all": "Zobacz pełną historię zmian",
   "news.all.href": "docs/historico.pl.txt",
   "join.eyebrow": "Społeczność",

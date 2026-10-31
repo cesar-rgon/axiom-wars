@@ -1,6 +1,14 @@
 AXIOM WARS CHANGE HISTORY
 (The version is the date of the latest change to the server or the client.)
 
+v2026.10.31 alpha
+    Abilities aimed out of range (Healing, Paralyzing gas, EMP shock, Mines): the troop walks up and casts in one order, and the zone stays highlighted until the round resolves it
+    A faster resolution: the moves, shots and abilities of one microturn play together and the camera no longer waits; more events open a lupa (support abilities, mines, failed orders, building sites, discoveries, chest guards, chest prizes) and every notice floats up as text in your language
+    Groups: Ctrl+right click moves a whole group in one request (no more flicker), the group's arrow is straight from the ellipse's centre to the destination, and arrows only show for the selected or pointed troop or group; cancelling a group order from one troop only takes that troop out of it
+    New "Groups" panel next to the selection with the groups numbered 1-10 and keys 1…0 to pick them; one panel per building (ficha and orders) and per troop, with the detail inside it while Shift is held
+    Maps: big troops (Meca, APC) reach everything small ones do (bridges and passes two cells wide), and a Constructor no longer stands still behind an allied troop when crossing its own building
+    Windows: no more console window opening and closing; the fog and the ground no longer show blocks or lines
+
 v2026.10.30 alpha
     Technologies can no longer be bought twice: one you own, are researching or have queued is refused by the server, and the technology tree shows it as "queued" in every language (it used to be recognised by its Spanish name)
     Order tooltips and the spending breakdown are now written in the selected language instead of the server's Spanish
