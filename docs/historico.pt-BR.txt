@@ -9,6 +9,7 @@ v2026.10.31 alpha
     Mapas: as tropas grandes (Meca, APC) chegam a tudo o que as pequenas chegam (pontes e passagens de duas casas) e um Construtor não fica mais parado atrás de uma tropa aliada ao cruzar um edifício próprio
     Windows: acabou a janela de console que abria e fechava; a névoa e o chão não mostram mais blocos nem linhas
     Tutorial rápido por padrão (12 avisos curtos, só o necessário para jogar); o estendido é ativado nas Configurações ou com uma caixa em cada painel do tutorial, e o detalhe com Shift de uma tropa ou edifício agora cabe no painel
+    Névoa de guerra em nuvens: o que você não explorou é coberto por nuvens de tempestade pretas e densas que se movem devagar e de vez em quando soltam um relâmpago, e o terreno explorado que você não vê fica velado por nuvens leves; além disso, o uso de memória da placa de vídeo cai (principalmente nas resoluções com lupas) e a moldura de uma casa de construção meio escondida pela rolagem não cobre mais o botão de fim de turno
 
 v2026.10.30 alpha
     As tecnologias não podem mais ser compradas duas vezes: o servidor recusa uma que você já tem, está em pesquisa ou na fila, e a árvore de tecnologias a mostra «na fila» em todos os idiomas (antes ela era reconhecida pelo nome em espanhol)

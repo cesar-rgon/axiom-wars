@@ -9,6 +9,7 @@ v2026.10.31 alpha
     Mappe: le truppe grandi (Meca, APC) raggiungono tutto ciò che raggiungono le piccole (ponti e passaggi di due caselle) e un Costruttore non resta più fermo dietro una truppa alleata attraversando un edificio proprio
     Windows: niente più finestra di console che si apre e si chiude; nebbia e terreno non mostrano più blocchi né linee
     Tutorial rapido per impostazione predefinita (12 avvisi brevi, solo l'essenziale per giocare); quello esteso si attiva nelle Impostazioni o con una casella su ogni pannello del tutorial, e il dettaglio con Maiusc di una truppa o di un edificio ora sta nel suo pannello
+    Nebbia di guerra a nuvole: ciò che non hai esplorato è coperto da dense nubi nere di tempesta che si muovono piano e ogni tanto lanciano un fulmine, e il terreno esplorato che non vedi è velato da nuvole leggere; cala anche l'uso di memoria della scheda grafica (soprattutto nelle risoluzioni con lenti) e il riquadro di una casella di costruzione mezza nascosta dallo scorrimento non copre più il pulsante di fine turno
 
 v2026.10.30 alpha
     Le tecnologie non si possono più comprare due volte: il server rifiuta quella che hai già, che è in ricerca o in coda, e l'albero delle tecnologie la mostra «in coda» in tutte le lingue (prima era riconosciuta dal nome spagnolo)

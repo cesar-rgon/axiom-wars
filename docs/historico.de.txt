@@ -9,6 +9,7 @@ v2026.10.31 alpha
     Karten: große Truppen (Meca, APC) erreichen alles, was kleine erreichen (Brücken und zwei Felder breite Durchgänge), und ein Konstrukteur bleibt beim Durchqueren eines eigenen Gebäudes nicht mehr hinter einer verbündeten Truppe stehen
     Windows: kein Konsolenfenster mehr, das sich öffnet und schließt; Nebel und Boden zeigen keine Blöcke oder Linien mehr
     Standardmäßig ein kurzes Tutorial (12 kurze Hinweise, nur das Nötige zum Spielen); das ausführliche schaltest du in den Einstellungen oder mit einem Kästchen in jedem Tutorial-Panel ein, und die Umschalt-Details einer Truppe oder eines Gebäudes passen jetzt in ihr Panel
+    Kriegsnebel als Wolken: was du nicht erkundet hast, wird von dichten schwarzen Gewitterwolken bedeckt, die langsam ziehen und ab und zu blitzen, und erkundetes Gebiet, das du nicht siehst, wird von leichten Wolken verschleiert; außerdem sinkt der Speicherverbrauch der Grafikkarte (vor allem bei Auflösungen mit Lupen), und der Rahmen eines vom Scrollen halb verdeckten Baufelds verdeckt den Zug-beenden-Knopf nicht mehr
 
 v2026.10.30 alpha
     Technologien lassen sich nicht mehr doppelt kaufen: der Server lehnt eine ab, die du besitzt, die erforscht wird oder in der Warteschlange steht, und der Technologiebaum zeigt sie in allen Sprachen als „in Warteschlange“ (vorher wurde sie am spanischen Namen erkannt)

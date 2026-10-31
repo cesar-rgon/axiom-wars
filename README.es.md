@@ -177,6 +177,7 @@ La última versión es **v2026.10.31 alpha**.
 - Mapas: las tropas grandes (Meca, APC) llegan a todo lo que llegan las pequeñas (puentes y pasos de dos casillas) y un Constructor ya no se queda parado tras una tropa aliada al cruzar un edificio propio
 - Windows: se acabó la ventana de consola que se abría y cerraba; la niebla y el suelo ya no muestran bloques ni líneas
 - Tutorial rápido por defecto (12 avisos cortos, sólo lo necesario para jugar); el extendido se activa en Configuración o con una casilla en cada panel del tutorial, y el detalle con Shift de una tropa o edificio ya cabe en su panel
+- Niebla de guerra en nubes: lo que no has explorado se cubre con nubarrones negros y densos que se mueven despacio y, de vez en cuando, lanzan un relámpago, y lo explorado que no ves se vela con nubes ligeras; además baja el uso de memoria de la tarjeta gráfica (sobre todo en las resoluciones con lupas) y el recuadro de una casilla de construcción medio oculta por el scroll ya no tapa el botón de fin de turno
 
 ### v2026.10.30 alpha
 

@@ -9,6 +9,7 @@ v2026.10.31 alpha
     Cartes : les grandes troupes (Méca, APC) atteignent tout ce qu'atteignent les petites (ponts et passages de deux cases) et un Constructeur ne reste plus bloqué derrière une troupe alliée en traversant son propre bâtiment
     Windows : plus de fenêtre de console qui s'ouvre et se ferme ; le brouillard et le sol n'affichent plus de blocs ni de lignes
     Tutoriel rapide par défaut (12 messages courts, seulement l'essentiel pour jouer) ; l'étendu s'active dans les Paramètres ou avec une case sur chaque panneau du tutoriel, et le détail avec Maj d'une troupe ou d'un bâtiment tient désormais dans son panneau
+    Brouillard de guerre en nuages : ce que vous n'avez pas exploré est couvert de gros nuages d'orage noirs qui dérivent lentement et lancent parfois un éclair, et le terrain exploré que vous ne voyez pas est voilé de nuages légers ; la mémoire de la carte graphique est aussi moins sollicitée (surtout pendant les résolutions avec loupes) et le cadre d'une case de construction à moitié cachée par le défilement ne recouvre plus le bouton de fin de tour
 
 v2026.10.30 alpha
     Les technologies ne peuvent plus être achetées deux fois : le serveur refuse celle que vous possédez, qui est en recherche ou en file, et l'arbre des technologies l'affiche « en file » dans toutes les langues (elle était reconnue par son nom espagnol)
