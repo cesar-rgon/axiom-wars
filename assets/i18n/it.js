@@ -9,7 +9,7 @@
   "nav.museum": "Museo",
   "nav.lang": "Lingua",
   "hero.status": "In sviluppo · partite di prova aperte",
-  "hero.tagline": "Strategia a round simultanei. Tutti danno gli ordini nello stesso momento; nessuno aspetta il proprio turno.",
+  "hero.tagline": "Strategia a round simultanei.<br>Tutti danno gli ordini nello stesso momento; nessuno aspetta il proprio turno.",
   "hero.lede": "Costruisci la tua base attorno al Governo, tieni sfamata la tua gente e manda le tue truppe nella nebbia. Quando tutti hanno confermato, il server risolve il round e tu vedi scontrarsi i piani di tutti.",
   "hero.discord": "Entra nel Discord",
   "hero.download": "Scarica",

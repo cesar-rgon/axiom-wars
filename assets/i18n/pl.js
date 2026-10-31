@@ -10,7 +10,7 @@
   "nav.news": "Nowości",
   "nav.lang": "Język",
   "hero.status": "W rozwoju · mecze testowe otwarte",
-  "hero.tagline": "Strategia z rundami jednoczesnymi. Wszyscy wydają rozkazy naraz; nikt nie czeka na swoją turę.",
+  "hero.tagline": "Strategia z rundami jednoczesnymi.<br>Wszyscy wydają rozkazy naraz; nikt nie czeka na swoją turę.",
   "hero.lede": "Zbuduj bazę wokół Rządu, dbaj o wyżywienie swoich ludzi i posyłaj oddziały w mgłę. Gdy wszyscy zatwierdzą, serwer rozstrzyga rundę, a Ty patrzysz, jak plany wszystkich się zderzają.",
   "hero.discord": "Dołącz do Discorda",
   "hero.download": "Pobierz",

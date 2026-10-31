@@ -10,7 +10,7 @@
   "nav.news": "Yenilikler",
   "nav.lang": "Dil",
   "hero.status": "Geliştirme aşamasında · deneme maçları açık",
-  "hero.tagline": "Eşzamanlı raundlu strateji. Herkes aynı anda emir verir; kimse sırasını beklemez.",
+  "hero.tagline": "Eşzamanlı raundlu strateji.<br>Herkes aynı anda emir verir; kimse sırasını beklemez.",
   "hero.lede": "Üssünü Hükümet'in etrafında kur, halkını doyur ve birliklerini sisin içine gönder. Herkes onaylayınca sunucu raundu çözer, sen de herkesin planlarının çarpışmasını izlersin.",
   "hero.discord": "Discord'a katıl",
   "hero.download": "İndir",

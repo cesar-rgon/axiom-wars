@@ -70,7 +70,7 @@
   "st.level": "Nivel",
   "st.tiles": "Casillas",
   "hero.status": "En desarrollo · partidas de prueba abiertas",
-  "hero.tagline": "Estrategia por rondas simultáneas. Todos ordenan a la vez; nadie espera su turno.",
+  "hero.tagline": "Estrategia por rondas simultáneas.<br>Todos ordenan a la vez; nadie espera su turno.",
   "hero.lede": "Construye tu base alrededor del Gobierno, mantén alimentada a tu gente y lanza tus tropas a través de la niebla. Cuando todos confirman, el servidor resuelve la ronda y ves cómo chocan los planes de todos.",
   "hero.discord": "Únete al Discord",
   "hero.download": "Descargar",

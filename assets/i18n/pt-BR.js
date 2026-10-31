@@ -10,7 +10,7 @@
   "nav.news": "Novidades",
   "nav.lang": "Idioma",
   "hero.status": "Em desenvolvimento · partidas de teste abertas",
-  "hero.tagline": "Estratégia de rodadas simultâneas. Todos dão ordens ao mesmo tempo; ninguém espera a sua vez.",
+  "hero.tagline": "Estratégia de rodadas simultâneas.<br>Todos dão ordens ao mesmo tempo; ninguém espera a sua vez.",
   "hero.lede": "Construa sua base em torno do Governo, mantenha seu povo alimentado e envie suas tropas pela névoa. Quando todos confirmarem, o servidor resolve a rodada e você vê os planos de todos colidirem.",
   "hero.discord": "Entre no Discord",
   "hero.download": "Baixar",

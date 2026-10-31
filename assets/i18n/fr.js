@@ -9,7 +9,7 @@
   "nav.museum": "Musée",
   "nav.lang": "Langue",
   "hero.status": "En développement · parties de test ouvertes",
-  "hero.tagline": "Stratégie en manches simultanées. Tout le monde donne ses ordres en même temps ; personne n'attend son tour.",
+  "hero.tagline": "Stratégie en manches simultanées.<br>Tout le monde donne ses ordres en même temps ; personne n'attend son tour.",
   "hero.lede": "Bâtissez votre base autour du Gouvernement, nourrissez votre population et envoyez vos troupes dans le brouillard. Quand tout le monde a confirmé, le serveur résout la manche et vous voyez les plans de chacun s'entrechoquer.",
   "hero.discord": "Rejoindre le Discord",
   "hero.download": "Télécharger",

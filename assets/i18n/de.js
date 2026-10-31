@@ -9,7 +9,7 @@
   "nav.museum": "Museum",
   "nav.lang": "Sprache",
   "hero.status": "In Entwicklung · Testpartien offen",
-  "hero.tagline": "Strategie mit gleichzeitigen Runden. Alle geben ihre Befehle zur selben Zeit; niemand wartet auf seinen Zug.",
+  "hero.tagline": "Strategie mit gleichzeitigen Runden.<br>Alle geben ihre Befehle zur selben Zeit; niemand wartet auf seinen Zug.",
   "hero.lede": "Baue deine Basis um die Regierung herum, halte dein Volk satt und schicke deine Truppen in den Nebel. Sobald alle bestätigt haben, löst der Server die Runde auf, und du siehst, wie die Pläne aller aufeinanderprallen.",
   "hero.discord": "Dem Discord beitreten",
   "hero.download": "Herunterladen",
