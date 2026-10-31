@@ -49,18 +49,18 @@ Up to 8 players, free-for-all or in teams (up to 4 versus 4). Empty seats are fi
 Screenshots from the current build. Click one to see it full size.
 
 <p align="center">
-  <a href="assets/img/galeria-17.webp"><img src="assets/img/galeria-17.webp" alt="Round 48 in the rain: a large base with dozens of buildings, a group of Mechs at the front and the route lines of the planned orders across the map" width="100%"></a>
-  <br><sub>Round 48 in the rain: a developed base, a group of Mechs at the front and the routes of the planned orders drawn across the map.</sub>
+  <a href="assets/img/galeria-20.webp"><img src="assets/img/galeria-20.webp" alt="Round 57: a swarm of Raptors bombs the enemy Government inside a combat magnifier, with the blast zone and the damage of every shot" width="100%"></a>
+  <br><sub>Round 57: a swarm of Raptors bombs the enemy Government inside a combat magnifier, with the blast zone and the damage of every shot.</sub>
 </p>
 
 <table>
   <tr>
-    <td width="50%"><a href="assets/img/galeria-16.webp"><img src="assets/img/galeria-16.webp" alt="Plateaus with ramps: a group of troops advances together while two enemy targets are fired upon with Auto attacks along their line of fire"></a></td>
-    <td width="50%"><a href="assets/img/galeria-15.webp"><img src="assets/img/galeria-15.webp" alt="Round 4 in the rain with the new framed interface: orders column on the left, the map inside its frame, and minimap, build panel and turn on the right"></a></td>
+    <td width="50%"><a href="assets/img/galeria-19.webp"><img src="assets/img/galeria-19.webp" alt="Mechs trade fire inside a combat magnifier: the explosion and the damage numbers over the view of the whole island"></a></td>
+    <td width="50%"><a href="assets/img/galeria-18.webp"><img src="assets/img/galeria-18.webp" alt="A developed base with the Power coverage zones, the numbered groups panel and the build panel by Government level"></a></td>
   </tr>
   <tr>
-    <td><sub>Plateaus and ramps: troops move as a group and Auto attacks follow their targets, with the line of fire checked against the plateaus.</sub></td>
-    <td><sub>Round 4 in the rain: the new interface frames the map between the orders column and the column with the minimap, the build panel and the turn.</sub></td>
+    <td><sub>Mechs trade fire inside a combat magnifier: the explosion and the damage numbers over the view of the whole island.</sub></td>
+    <td><sub>A developed base with the Power coverage zones, the numbered groups panel and the build panel by Government level.</sub></td>
   </tr>
 </table>
 
