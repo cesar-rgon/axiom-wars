@@ -8,6 +8,7 @@ v2026.10.31 alpha
     Seçimin yanında 1-10 numaralı gruplarla yeni «Gruplar» paneli ve seçmek için 1…0 tuşları; bina (kart ve emirler) ve birlik başına tek panel, Shift basılıyken ayrıntı içinde görünür
     Haritalar: büyük birlikler (Meka, APC) küçüklerin ulaştığı her yere ulaşır (köprüler ve iki kare genişliğinde geçitler) ve bir İnşaatçı kendi binasından geçerken müttefik birliğin arkasında takılıp kalmaz
     Windows: açılıp kapanan konsol penceresi kalmadı; sis ve zeminde artık blok ya da çizgi görünmüyor
+    Varsayılan olarak hızlı öğretici (12 kısa bildirim, yalnızca oynamak için gerekenler); genişletilmişi Ayarlar'dan ya da her öğretici panelindeki kutuyla açılır ve bir birliğin ya da binanın Shift ayrıntısı artık paneline sığıyor
 
 v2026.10.30 alpha
     Teknolojiler artık iki kez satın alınamaz: sunucu, zaten sahip olduğunuz, araştırılan veya sırada bekleyen teknolojiyi reddeder ve teknoloji ağacı onu tüm dillerde «sırada» olarak gösterir (eskiden İspanyolca adıyla tanınıyordu)

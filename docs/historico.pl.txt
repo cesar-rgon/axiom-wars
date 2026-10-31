@@ -8,6 +8,7 @@ v2026.10.31 alpha
     Nowy panel „Grupy” obok zaznaczenia, z grupami numerowanymi od 1 do 10 i klawiszami 1…0 do wyboru; jeden panel na budynek (karta i rozkazy) i na oddział, ze szczegółami w środku po przytrzymaniu Shift
     Mapy: duże oddziały (Meca, APC) docierają wszędzie tam, gdzie małe (mosty i przejścia szerokie na dwa pola), a Konstruktor nie stoi już za sojuszniczym oddziałem przy przechodzeniu przez własny budynek
     Windows: koniec z oknem konsoli, które otwierało się i zamykało; mgła i teren nie pokazują już bloków ani linii
+    Domyślnie szybki samouczek (12 krótkich podpowiedzi, tylko to, co potrzebne do gry); rozszerzony włączysz w Ustawieniach lub polem wyboru na każdym panelu samouczka, a szczegóły z Shift dla oddziału lub budynku mieszczą się teraz w jego panelu
 
 v2026.10.30 alpha
     Technologii nie można już kupić dwa razy: serwer odrzuca tę, którą już masz, która jest badana lub czeka w kolejce, a drzewo technologii pokazuje ją jako „w kolejce” we wszystkich językach (wcześniej rozpoznawał ją po hiszpańskiej nazwie)

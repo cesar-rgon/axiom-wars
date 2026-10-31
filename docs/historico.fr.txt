@@ -8,6 +8,7 @@ v2026.10.31 alpha
     Nouveau panneau « Groupes » à côté de la sélection, avec les groupes numérotés de 1 à 10 et les touches 1…0 pour les choisir ; un seul panneau par bâtiment (fiche et ordres) et par troupe, avec le détail à l'intérieur en maintenant Maj
     Cartes : les grandes troupes (Méca, APC) atteignent tout ce qu'atteignent les petites (ponts et passages de deux cases) et un Constructeur ne reste plus bloqué derrière une troupe alliée en traversant son propre bâtiment
     Windows : plus de fenêtre de console qui s'ouvre et se ferme ; le brouillard et le sol n'affichent plus de blocs ni de lignes
+    Tutoriel rapide par défaut (12 messages courts, seulement l'essentiel pour jouer) ; l'étendu s'active dans les Paramètres ou avec une case sur chaque panneau du tutoriel, et le détail avec Maj d'une troupe ou d'un bâtiment tient désormais dans son panneau
 
 v2026.10.30 alpha
     Les technologies ne peuvent plus être achetées deux fois : le serveur refuse celle que vous possédez, qui est en recherche ou en file, et l'arbre des technologies l'affiche « en file » dans toutes les langues (elle était reconnue par son nom espagnol)

@@ -8,6 +8,7 @@ v2026.10.31 alpha
     Panel «Grupos» nuevo junto al de selección, con los grupos numerados del 1 al 10 y las teclas 1…0 para elegirlos; un solo panel por edificio (ficha y órdenes) y por tropa, con el detalle dentro mientras se mantiene Shift
     Mapas: las tropas grandes (Meca, APC) llegan a todo lo que llegan las pequeñas (puentes y pasos de dos casillas) y un Constructor ya no se queda parado tras una tropa aliada al cruzar un edificio propio
     Windows: se acabó la ventana de consola que se abría y cerraba; la niebla y el suelo ya no muestran bloques ni líneas
+    Tutorial rápido por defecto (12 avisos cortos, sólo lo necesario para jugar); el extendido se activa en Configuración o con una casilla en cada panel del tutorial, y el detalle con Shift de una tropa o edificio ya cabe en su panel
 
 v2026.10.30 alpha
     Las tecnologías ya no se pueden comprar dos veces: el servidor rechaza una que ya tienes, se está investigando o está en cola, y el árbol de tecnologías la muestra «en cola» en todos los idiomas (antes la reconocía por su nombre en español)

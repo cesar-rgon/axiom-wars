@@ -8,6 +8,7 @@ v2026.10.31 alpha
     Nuovo pannello «Gruppi» accanto alla selezione, con i gruppi numerati da 1 a 10 e i tasti 1…0 per sceglierli; un solo pannello per edificio (scheda e ordini) e per truppa, con il dettaglio dentro tenendo premuto Maiusc
     Mappe: le truppe grandi (Meca, APC) raggiungono tutto ciò che raggiungono le piccole (ponti e passaggi di due caselle) e un Costruttore non resta più fermo dietro una truppa alleata attraversando un edificio proprio
     Windows: niente più finestra di console che si apre e si chiude; nebbia e terreno non mostrano più blocchi né linee
+    Tutorial rapido per impostazione predefinita (12 avvisi brevi, solo l'essenziale per giocare); quello esteso si attiva nelle Impostazioni o con una casella su ogni pannello del tutorial, e il dettaglio con Maiusc di una truppa o di un edificio ora sta nel suo pannello
 
 v2026.10.30 alpha
     Le tecnologie non si possono più comprare due volte: il server rifiuta quella che hai già, che è in ricerca o in coda, e l'albero delle tecnologie la mostra «in coda» in tutte le lingue (prima era riconosciuta dal nome spagnolo)

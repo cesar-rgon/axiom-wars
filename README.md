@@ -176,6 +176,7 @@ The latest version is **v2026.10.31 alpha**.
 - New "Groups" panel next to the selection with the groups numbered 1-10 and keys 1…0 to pick them; one panel per building (ficha and orders) and per troop, with the detail inside it while Shift is held
 - Maps: big troops (Meca, APC) reach everything small ones do (bridges and passes two cells wide), and a Constructor no longer stands still behind an allied troop when crossing its own building
 - Windows: no more console window opening and closing; the fog and the ground no longer show blocks or lines
+- A quick tutorial by default (12 short briefings, only what you need to play); the extended one is switched on in Settings or with a checkbox on every tutorial panel, and the Shift detail of a troop or building now fits its panel
 
 ### v2026.10.30 alpha
 

@@ -8,6 +8,7 @@ v2026.10.31 alpha
     Neues Panel „Gruppen“ neben der Auswahl, mit den Gruppen von 1 bis 10 und den Tasten 1…0 zum Wählen; ein einziges Panel pro Gebäude (Steckbrief und Befehle) und pro Truppe, mit den Details darin bei gehaltener Umschalttaste
     Karten: große Truppen (Meca, APC) erreichen alles, was kleine erreichen (Brücken und zwei Felder breite Durchgänge), und ein Konstrukteur bleibt beim Durchqueren eines eigenen Gebäudes nicht mehr hinter einer verbündeten Truppe stehen
     Windows: kein Konsolenfenster mehr, das sich öffnet und schließt; Nebel und Boden zeigen keine Blöcke oder Linien mehr
+    Standardmäßig ein kurzes Tutorial (12 kurze Hinweise, nur das Nötige zum Spielen); das ausführliche schaltest du in den Einstellungen oder mit einem Kästchen in jedem Tutorial-Panel ein, und die Umschalt-Details einer Truppe oder eines Gebäudes passen jetzt in ihr Panel
 
 v2026.10.30 alpha
     Technologien lassen sich nicht mehr doppelt kaufen: der Server lehnt eine ab, die du besitzt, die erforscht wird oder in der Warteschlange steht, und der Technologiebaum zeigt sie in allen Sprachen als „in Warteschlange“ (vorher wurde sie am spanischen Namen erkannt)
