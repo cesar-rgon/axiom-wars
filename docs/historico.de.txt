@@ -9,6 +9,9 @@ v2026.11.01 alpha
     Oberfläche: Beim Fokus auf ein Vorkommen erscheint eine leuchtende, transparente Kontur statt der Füllung pro Feld, und sein Tooltip ist transparenter; Wasser und Öl senken den Boden an ihrem Ufer wie ein Stausee ab; Brücken und Rampen sehen futuristisch aus, aus Stahl mit Lichtern; das Arbeiterpanel blinkt leuchtend, solange Arbeiter fehlen; und wer im rechten Panel eine Truppe oder ein Gebäude wählt, zentriert die Kamera darauf und eine goldene Ellipse hebt es hervor
     Das rechte Panel ohne Auswahl hat zwei Bereiche mit eigenem Scrollen: oben deine Truppen, unten die Gebäude, die Truppen produzieren
     Menü „Video“ mit den Voreinstellungen Hoch, Mittel und Niedrig und 17 Grafikeffekten zum Ein- und Ausschalten (Wetter, Schatten, Wasser und Öl, Nebel, Gelände, Einheiten, Kampf und Gebäude) sowie optionaler FPS-Anzeige in den Einstellungen
+    Regeln: Die Fähigkeiten des Wissenschaftlers (Heilung, EMP-Schock, Lähmgas) und Klonen reichen 5 Felder weit, der Droide kostet 250 Energie (80 Stahl), und ein Befehl zu einem blockierten Feld (Truhe, Hindernis) endet auf dem freien Nachbarfeld auf dem kürzesten Weg
+    KI: Sie repariert beschädigte Gebäude ihrer Verbündeten
+    Oberfläche: Truppen zeigen im Auswahlfenster und auf der Karteikarte ein Porträt mit animiertem Gesicht; der Chat verliert seine Reiter und bekommt einen X-Knopf, der Markieren-Knopf wandert in die Kopfzeile (markiert auch auf der Minikarte) mit größeren Ringen; ein Gebäude animiert Produktion und Forschung gleichzeitig; und die Lupe zeigt kein Gebäude mehr, das vor dem letzten Schuss darauf verschwindet
 
 v2026.10.31 alpha
     Außer Reichweite anvisierte Fähigkeiten (Heilung, Lähmgas, EMP-Schock, Minen): die Truppe geht hin und wirkt sie in einem einzigen Befehl, die Zone bleibt bis zur Auflösung hervorgehoben

@@ -9,6 +9,9 @@ v2026.11.01 alpha
     Interface : cibler un gisement montre un contour lumineux et transparent au lieu du remplissage case par case, et son infobulle est plus transparente ; l'eau et le pétrole creusent le sol de leur rive comme un réservoir ; les ponts et les rampes ont un aspect futuriste d'acier avec des lumières ; le panneau des travailleurs clignote en brillant tant qu'il manque des travailleurs ; et choisir une troupe ou un bâtiment dans le panneau de droite y centre la caméra et une ellipse dorée le met en évidence
     Le panneau de droite sans sélection a deux sections, chacune avec son défilement : vos troupes en haut et les bâtiments qui produisent des troupes en bas
     Menu « Vidéo » avec les préréglages Élevé, Moyen et Bas et 17 effets graphiques activables ou désactivables (météo, ombres, eau et pétrole, brouillard, terrain, unités, combat et bâtiments), et compteur de FPS optionnel dans la Configuration
+    Règles : les capacités du Scientifique (Soin, Choc EMP, Gaz paralysant) et Cloner portent à 5 cases, le Droïde coûte 250 d'énergie (80 d'acier), et un ordre vers une case bloquée (coffre, obstacle) se termine sur la case libre voisine par le chemin le plus court
+    IA : elle répare les bâtiments endommagés de ses alliés
+    Interface : les troupes affichent un portrait au visage animé dans le panneau de sélection et la fiche ; le chat perd ses onglets et gagne un bouton X, et le bouton de marquage passe dans l'en-tête (il marque aussi sur la minicarte) avec des anneaux plus grands ; un bâtiment anime production et recherche en même temps ; et la loupe ne montre plus un bâtiment disparaître avant le dernier tir reçu
 
 v2026.10.31 alpha
     Capacités visées hors de portée (Soin, Gaz paralysant, Choc EMP, Mines) : la troupe s'approche et les lance en un seul ordre, et la zone reste en surbrillance jusqu'à la résolution

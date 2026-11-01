@@ -9,6 +9,9 @@ v2026.11.01 alpha
     Interfejs: po wskazaniu złoża widać świecący, przezroczysty kontur zamiast wypełnienia po polach, a jego podpowiedź jest bardziej przezroczysta; woda i ropa zapadają grunt na brzegu jak zbiornik; mosty i rampy mają futurystyczny wygląd ze stali ze światłami; panel robotników miga z poświatą, gdy brakuje robotników; a wybranie jednostki lub budynku w prawym panelu centruje na nim kamerę i podświetla go złota elipsa
     Prawy panel bez zaznaczenia ma dwie sekcje z własnym przewijaniem: u góry twoje jednostki, na dole budynki produkujące jednostki
     Menu „Wideo” z ustawieniami Wysokie, Średnie i Niskie oraz 17 efektami graficznymi do włączania i wyłączania (pogoda, cienie, woda i ropa, mgła, teren, jednostki, walka i budynki), a w Ustawieniach opcjonalny licznik FPS
+    Zasady: zdolności Naukowca (Leczenie, Szok EMP, Gaz paraliżujący) i Klonowanie sięgają 5 pól, Droid kosztuje 250 energii (80 stali), a rozkaz na zablokowane pole (skrzynia, przeszkoda) kończy się na wolnym polu obok, najkrótszą drogą
+    SI: naprawia uszkodzone budynki sojuszników
+    Interfejs: oddziały pokazują portret z animowaną twarzą w panelu zaznaczenia i na karcie; czat traci zakładki i zyskuje przycisk X, a przycisk znaczników przenosi się do nagłówka (znaczy także na minimapie) z większymi pierścieniami; budynek animuje naraz produkcję i badania; a lupa nie pokazuje już budynku znikającego przed ostatnim strzałem
 
 v2026.10.31 alpha
     Umiejętności wymierzone poza zasięg (Leczenie, Gaz paraliżujący, Wstrząs EMP, Miny): oddział podchodzi i rzuca je jednym rozkazem, a strefa pozostaje podświetlona do rozstrzygnięcia rundy

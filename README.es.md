@@ -177,6 +177,9 @@ La última versión es **v2026.11.01 alpha**.
 - Interfaz: al hacer foco en un pool se ve un contorno brillante y transparente en vez del relleno por casillas, y su tooltip es más transparente; el agua y el petróleo hunden la tierra de su orilla como un embalse; los puentes y las rampas tienen un aspecto futurista de acero con luces; el panel de trabajadores parpadea con brillo mientras faltan trabajadores; y al elegir una tropa o un edificio en el panel derecho la cámara lo centra y una elipse dorada lo resalta
 - Panel derecho sin selección en dos secciones con scroll propio: tus tropas arriba y los edificios que producen tropas abajo
 - Menú «Vídeo» con presets Alto, Medio y Bajo y 17 efectos gráficos que se pueden activar o apagar (clima, sombras, agua y petróleo, niebla, terreno, unidades, combate y edificios), y contador de FPS opcional en Configuración
+- Reglas: las habilidades del Científico (Curación, Shock EMP, Gas paralizante) y Clonar alcanzan 5 casillas, el Droide cuesta 250 de energía (80 de acero) y una orden hacia una casilla bloqueada (cofre, obstáculo) termina en la casilla libre contigua por el camino más corto
+- IA: repara los edificios dañados de sus aliados
+- Interfaz: las tropas muestran su retrato con la cara animada en el panel de selección y en la ficha; el chat pierde las pestañas y gana un botón X, y el botón de marcar pasa a la cabecera (también marca en el minimapa) con aros más grandes; un edificio anima a la vez producción e investigación; y la lupa ya no muestra un edificio desaparecer antes del último disparo que recibe
 
 ### v2026.10.31 alpha
 

@@ -9,6 +9,9 @@ v2026.11.01 alpha
     Interfaccia: mettere a fuoco un giacimento mostra un contorno luminoso e trasparente invece del riempimento a caselle, e il suo tooltip è più trasparente; acqua e petrolio fanno affondare il terreno della riva come un bacino; ponti e rampe hanno un aspetto futuristico d'acciaio con luci; il pannello dei lavoratori lampeggia con un bagliore finché mancano lavoratori; e scegliere una truppa o un edificio nel pannello destro ci centra la camera e un'ellisse dorata lo evidenzia
     Il pannello destro senza selezione ha due sezioni, ognuna con il suo scorrimento: le tue truppe sopra e gli edifici che producono truppe sotto
     Menu «Video» con le preimpostazioni Alto, Medio e Basso e 17 effetti grafici attivabili o disattivabili (meteo, ombre, acqua e petrolio, nebbia, terreno, unità, combattimento ed edifici), e contatore FPS opzionale nelle Impostazioni
+    Regole: le abilità dello Scienziato (Cura, Shock EMP, Gas paralizzante) e Clona arrivano a 5 caselle, il Droide costa 250 di energia (80 di acciaio) e un ordine verso una casella bloccata (forziere, ostacolo) termina sulla casella libera accanto lungo il percorso più breve
+    IA: ripara gli edifici danneggiati dei suoi alleati
+    Interfaccia: le truppe mostrano un ritratto con il volto animato nel pannello di selezione e nella scheda; la chat perde le schede e guadagna un pulsante X, e il pulsante di segnalazione passa nell'intestazione (segnala anche sulla minimappa) con anelli più grandi; un edificio anima produzione e ricerca insieme; e la lente non mostra più un edificio sparire prima dell'ultimo colpo ricevuto
 
 v2026.10.31 alpha
     Abilità mirate fuori portata (Cura, Gas paralizzante, Shock EMP, Mine): la truppa si avvicina e le lancia in un solo ordine, e la zona resta evidenziata finché il round non la risolve

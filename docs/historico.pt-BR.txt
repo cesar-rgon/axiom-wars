@@ -9,6 +9,9 @@ v2026.11.01 alpha
     Interface: ao focar um depósito aparece um contorno brilhante e transparente em vez do preenchimento por casas, e seu tooltip é mais transparente; a água e o petróleo afundam o terreno da margem como um reservatório; as pontes e rampas têm um visual futurista de aço com luzes; o painel de trabalhadores pisca com brilho enquanto faltam trabalhadores; e ao escolher uma tropa ou um edifício no painel direito a câmera o centraliza e uma elipse dourada o destaca
     O painel direito sem seleção tem duas seções, cada uma com sua rolagem: suas tropas em cima e os edifícios que produzem tropas embaixo
     Menu «Vídeo» com as predefinições Alto, Médio e Baixo e 17 efeitos gráficos que podem ser ligados ou desligados (clima, sombras, água e petróleo, névoa, terreno, unidades, combate e edifícios), e contador de FPS opcional em Configurações
+    Regras: as habilidades do Cientista (Cura, Choque EMP, Gás paralisante) e Clonar alcançam 5 casas, o Droide custa 250 de energia (80 de aço) e uma ordem para uma casa bloqueada (baú, obstáculo) termina na casa livre ao lado pelo caminho mais curto
+    IA: repara os edifícios danificados de seus aliados
+    Interface: as tropas mostram um retrato com o rosto animado no painel de seleção e na ficha; o chat perde as abas e ganha um botão X, e o botão de marcar vai para o cabeçalho (também marca no minimapa) com anéis maiores; um edifício anima produção e pesquisa ao mesmo tempo; e a lupa não mostra mais um edifício sumir antes do último tiro recebido
 
 v2026.10.31 alpha
     Habilidades apontadas fora de alcance (Cura, Gás paralisante, Choque EMP, Minas): a tropa se aproxima e as lança em uma única ordem, e a zona fica destacada até a rodada resolvê-la

@@ -177,6 +177,9 @@ The latest version is **v2026.11.01 alpha**.
 - Interface: focusing a pool shows a glowing, transparent outline instead of the per-tile fill, and its tooltip is more transparent; water and oil sink the ground along their shore like a reservoir; bridges and ramps have a futuristic look of steel with lights; the workers panel blinks with a glow while workers are missing; and picking a troop or a building in the right panel centres the camera on it and a golden ellipse highlights it
 - The right panel with nothing selected has two sections, each with its own scroll: your troops above and the buildings that produce troops below
 - A "Video" menu with High, Medium and Low presets and 17 graphic effects you can switch on or off (weather, shadows, water and oil, fog, terrain, units, combat and buildings), and an optional FPS counter in Settings
+- Rules: the Scientist's abilities (Healing, EMP shock, Paralyzing gas) and Clone reach 5 tiles, the Droid costs 250 energy (80 steel), and an order to a blocked tile (chest, obstacle) ends on the free tile beside it by the shortest route
+- AI: it repairs its allies' damaged buildings
+- Interface: troops show a portrait with an animated face in the selection panel and the sheet; the chat loses its tabs and gains an X button, and the ping button moves to the header (it also pings on the minimap) with bigger rings; a building animates production and research at once; and the lupa no longer shows a building vanish before the last shot it receives
 
 ### v2026.10.31 alpha
 

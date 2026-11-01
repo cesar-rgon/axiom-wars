@@ -9,6 +9,9 @@ v2026.11.01 alpha
     Arayüz: bir yatağa odaklanınca kare kare dolgu yerine parlayan, saydam bir kontur görünür ve ipucu kutusu daha saydamdır; su ve petrol kıyıdaki toprağı baraj gölü gibi çökertir; köprüler ve rampalar ışıklı çelikten fütüristik bir görünüme sahiptir; işçi eksikken işçi paneli parlayarak yanıp söner; sağ panelden bir birlik veya bina seçince kamera ona odaklanır ve altın bir elips onu vurgular
     Seçim yokken sağ panel, her biri kendi kaydırmasına sahip iki bölümden oluşur: üstte birliklerin, altta birlik üreten binalar
     Yüksek, Orta ve Düşük ön ayarlı bir “Video” menüsü ve açılıp kapatılabilen 17 grafik efekti (hava durumu, gölgeler, su ve petrol, sis, arazi, birimler, savaş ve binalar) ile Ayarlar'da isteğe bağlı FPS sayacı
+    Kurallar: Bilim İnsanı'nın yetenekleri (İyileştirme, EMP şoku, Felç gazı) ve Klonlama 5 kareye ulaşır, Droid 250 enerji (80 çelik) tutar ve engelli bir kareye (sandık, engel) verilen emir en kısa yoldan yanındaki boş karede biter
+    YZ: müttefiklerinin hasarlı binalarını onarır
+    Arayüz: birlikler seçim panelinde ve kartta animasyonlu yüzlü bir portre gösterir; sohbet sekmelerini kaybedip bir X düğmesi kazanır, işaretleme düğmesi başlığa taşınır (mini haritada da işaretler) ve halkalar büyür; bir bina üretimi ve araştırmayı aynı anda canlandırır; ve büyüteç artık bir binanın aldığı son atıştan önce yok olduğunu göstermez
 
 v2026.10.31 alpha
     Menzil dışına nişanlanan yetenekler (Şifa, Felç gazı, EMP şoku, Mayınlar): birlik yaklaşır ve tek emirle kullanır, tur çözülene kadar bölge vurgulu kalır
