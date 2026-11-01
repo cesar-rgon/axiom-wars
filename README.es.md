@@ -163,10 +163,15 @@ Criaturas neutrales que no pertenecen a ningún jugador. Las dóciles deambulan 
 
 ## Histórico de cambios
 
-La última versión es **v2026.10.31 alpha**.
+La última versión es **v2026.11.01 alpha**.
 
 <details>
 <summary>Ver todas las versiones</summary>
+
+### v2026.11.01 alpha
+
+- Sombras: edificios, tropas, criaturas, plantas y aeronaves proyectan una sombra con su silueta; el sol se decide al empezar cada ronda de día (nunca por debajo de 45° y nunca hacia ti), de noche no hay sombras y el clima las atenúa y las difumina; las aeronaves vuelan más altas y su sombra se separa del suelo
+- Suelo y líquidos: el terreno llano ya no repite texturas (giros, tonos y plantas decorativas) y el agua y el petróleo tienen una textura que se mueve y se agita con las gotas; los mapas usan ahora 13 piezas de decoración (se retiran 9 que no encajaban)
 
 ### v2026.10.31 alpha
 

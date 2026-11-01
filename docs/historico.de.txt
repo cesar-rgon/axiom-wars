@@ -1,6 +1,10 @@
 ÄNDERUNGSVERLAUF VON AXIOM WARS
 (Die Version ist das Datum der letzten Änderung am Server oder am Client.)
 
+v2026.11.01 alpha
+    Schatten: Gebäude, Truppen, Kreaturen, Pflanzen und Luftfahrzeuge werfen einen Schatten in ihrer Silhouette; die Sonne wird zu Beginn jeder Tagesrunde festgelegt (nie unter 45° und nie auf dich zu), nachts gibt es keine Schatten und das Wetter schwächt sie ab und verwischt sie; Luftfahrzeuge fliegen höher und ihr Schatten löst sich vom Boden
+    Boden und Flüssigkeiten: ebener Boden wiederholt seine Texturen nicht mehr (Drehungen, Töne und Zierpflanzen) und Wasser und Öl haben eine bewegte Textur, die bei Tropfen Wellen schlägt; die Karten verwenden jetzt 13 Dekorationsteile (9 unpassende wurden entfernt)
+
 v2026.10.31 alpha
     Außer Reichweite anvisierte Fähigkeiten (Heilung, Lähmgas, EMP-Schock, Minen): die Truppe geht hin und wirkt sie in einem einzigen Befehl, die Zone bleibt bis zur Auflösung hervorgehoben
     Schnellere Auflösung: Bewegungen, Schüsse und Fähigkeiten eines Mikrozugs laufen gleichzeitig und die Kamera wartet nicht mehr; mehr Ereignisse öffnen eine Lupe (Unterstützungsfähigkeiten, Minen, fehlgeschlagene Befehle, Baustellen, Entdeckungen, Truhenwächter und Truhenpreise) und jede Meldung steigt als Text in deiner Sprache auf

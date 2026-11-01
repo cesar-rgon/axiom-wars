@@ -1,6 +1,10 @@
 HISTÓRICO DE CAMBIOS DE AXIOM WARS
 (La versión es la fecha de la última modificación del servidor o del cliente.)
 
+v2026.11.01 alpha
+    Sombras: edificios, tropas, criaturas, plantas y aeronaves proyectan una sombra con su silueta; el sol se decide al empezar cada ronda de día (nunca por debajo de 45° y nunca hacia ti), de noche no hay sombras y el clima las atenúa y las difumina; las aeronaves vuelan más altas y su sombra se separa del suelo
+    Suelo y líquidos: el terreno llano ya no repite texturas (giros, tonos y plantas decorativas) y el agua y el petróleo tienen una textura que se mueve y se agita con las gotas; los mapas usan ahora 13 piezas de decoración (se retiran 9 que no encajaban)
+
 v2026.10.31 alpha
     Habilidades apuntadas fuera de alcance (Curación, Gas paralizante, Shock EMP, Minas): la tropa se acerca y las lanza en una sola orden, y la zona queda resaltada hasta que la ronda la resuelve
     Resolución más ágil: los movimientos, disparos y habilidades de un microturno se reproducen a la vez y la cámara ya no espera; más eventos abren lupa (habilidades de apoyo, minas, órdenes fallidas, obras, descubrimientos, guardianes y premios de cofre) y cada aviso sube como texto en tu idioma

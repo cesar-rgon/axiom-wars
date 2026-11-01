@@ -1,6 +1,10 @@
 CRONOLOGIA DELLE MODIFICHE DI AXIOM WARS
 (La versione è la data dell'ultima modifica del server o del client.)
 
+v2026.11.01 alpha
+    Ombre: edifici, truppe, creature, piante e velivoli proiettano un'ombra con la loro sagoma; il sole si decide all'inizio di ogni round di giorno (mai sotto i 45° e mai rivolto verso di te), di notte non ci sono ombre e il meteo le attenua e le sfuma; i velivoli volano più in alto e la loro ombra si stacca dal suolo
+    Terreno e liquidi: il terreno pianeggiante non ripete più le texture (rotazioni, toni e piante decorative) e acqua e petrolio hanno una texture in movimento che si increspa con le gocce; le mappe usano ora 13 pezzi di decorazione (ne vengono tolti 9 che non andavano bene)
+
 v2026.10.31 alpha
     Abilità mirate fuori portata (Cura, Gas paralizzante, Shock EMP, Mine): la truppa si avvicina e le lancia in un solo ordine, e la zona resta evidenziata finché il round non la risolve
     Risoluzione più rapida: i movimenti, i colpi e le abilità di un microturno si riproducono insieme e la camera non aspetta più; più eventi aprono una lente (abilità di supporto, mine, ordini falliti, cantieri, scoperte, guardiani e premi dei forzieri) e ogni avviso sale come testo nella tua lingua

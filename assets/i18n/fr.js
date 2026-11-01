@@ -192,7 +192,7 @@
   "dl.c2": "Lancez le jeu : l'adresse du serveur est déjà remplie. Saisissez votre nom, puis créez un salon ou rejoignez-en un.",
   "nav.news": "Nouveautés",
   "news.title": "Nouveautés",
-  "news.body": "Résolution plus rapide, capacités à distance, un panneau par sélection avec groupes 1-10 et grandes troupes qui atteignent toute la carte.",
+  "news.body": "Ombres de silhouette selon le soleil de chaque tour, sol sans répétitions et eau et pétrole à texture mouvante.",
   "news.all": "Voir tout l'historique",
   "news.all.href": "docs/historico.fr.txt",
   "lang.eyebrow": "Langues",

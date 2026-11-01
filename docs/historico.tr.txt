@@ -1,6 +1,10 @@
 AXIOM WARS DEĞİŞİKLİK GEÇMİŞİ
 (Sürüm, sunucuda veya istemcide yapılan son değişikliğin tarihidir.)
 
+v2026.11.01 alpha
+    Gölgeler: binalar, birlikler, yaratıklar, bitkiler ve hava araçları kendi siluetleriyle gölge düşürür; güneş her gün turunun başında belirlenir (asla 45°'nin altına inmez ve asla sana doğru bakmaz), geceleri gölge yoktur ve hava durumu gölgeleri soluklaştırır ve bulanıklaştırır; hava araçları daha yüksekte uçar ve gölgeleri yerden ayrılır
+    Zemin ve sıvılar: düz zemin artık dokularını tekrarlamıyor (döndürmeler, tonlar ve süs bitkileri), su ve petrol damlalarla dalgalanan hareketli bir dokuya sahip; haritalar artık 13 dekor parçası kullanıyor (uymayan 9 tanesi kaldırıldı)
+
 v2026.10.31 alpha
     Menzil dışına nişanlanan yetenekler (Şifa, Felç gazı, EMP şoku, Mayınlar): birlik yaklaşır ve tek emirle kullanır, tur çözülene kadar bölge vurgulu kalır
     Daha hızlı çözümleme: aynı mikro turdaki hareketler, atışlar ve yetenekler birlikte oynar ve kamera artık beklemez; daha fazla olay mercek açar (destek yetenekleri, mayınlar, başarısız emirler, şantiyeler, keşifler, sandık bekçileri ve sandık ödülleri) ve her bildirim kendi dilinde yazı olarak yükselir

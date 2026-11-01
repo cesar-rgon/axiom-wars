@@ -163,10 +163,15 @@ Neutral creatures that belong to no player. The docile ones wander their own hab
 
 ## Change history
 
-The latest version is **v2026.10.31 alpha**.
+The latest version is **v2026.11.01 alpha**.
 
 <details>
 <summary>Show all versions</summary>
+
+### v2026.11.01 alpha
+
+- Shadows: buildings, troops, creatures, plants and aircraft cast a shadow with their own silhouette; the sun is chosen at the start of every day round (never below 45° and never pointing at you), there are no shadows at night and the weather softens and blurs them; aircraft fly higher and their shadow is detached from the ground
+- Ground and liquids: plain ground no longer repeats its textures (rotations, tones and decorative plants) and water and oil have a moving texture that ripples with drops; maps now use 13 decoration pieces (9 that did not fit are removed)
 
 ### v2026.10.31 alpha
 

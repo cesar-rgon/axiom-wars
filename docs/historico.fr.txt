@@ -1,6 +1,10 @@
 HISTORIQUE DES CHANGEMENTS D'AXIOM WARS
 (La version est la date de la dernière modification du serveur ou du client.)
 
+v2026.11.01 alpha
+    Ombres : bâtiments, troupes, créatures, plantes et appareils volants projettent une ombre à leur silhouette ; le soleil est choisi au début de chaque tour de jour (jamais sous 45° ni dirigé vers vous), il n'y a pas d'ombres la nuit et la météo les atténue et les adoucit ; les appareils volent plus haut et leur ombre se détache du sol
+    Sol et liquides : le terrain plat ne répète plus ses textures (rotations, teintes et plantes décoratives) et l'eau et le pétrole ont une texture mouvante qui ondule avec les gouttes ; les cartes utilisent désormais 13 pièces de décor (9 qui ne convenaient pas sont retirées)
+
 v2026.10.31 alpha
     Capacités visées hors de portée (Soin, Gaz paralysant, Choc EMP, Mines) : la troupe s'approche et les lance en un seul ordre, et la zone reste en surbrillance jusqu'à la résolution
     Résolution plus rapide : les déplacements, tirs et capacités d'un même microtour se jouent ensemble et la caméra n'attend plus ; plus d'événements ouvrent une loupe (capacités de soutien, mines, ordres échoués, chantiers, découvertes, gardiens et récompenses de coffre) et chaque avis monte en texte dans votre langue

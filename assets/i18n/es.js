@@ -216,7 +216,7 @@
   "dl.c2": "Abre el juego: la dirección del servidor ya viene rellena. Escribe tu nombre y crea una sala o únete a una.",
   "nav.news": "Novedades",
   "news.title": "Novedades",
-  "news.body": "Resolución más ágil, habilidades desde lejos, un panel por selección con grupos del 1 al 10 y tropas grandes que llegan a todo el mapa.",
+  "news.body": "Sombras de silueta según el sol de cada ronda, suelo sin repeticiones y agua y petróleo con textura en movimiento.",
   "news.all": "Ver el histórico completo",
   "news.all.href": "docs/historico.es.txt",
   "lang.eyebrow": "Idiomas",

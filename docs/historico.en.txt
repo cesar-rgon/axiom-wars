@@ -1,6 +1,10 @@
 AXIOM WARS CHANGE HISTORY
 (The version is the date of the latest change to the server or the client.)
 
+v2026.11.01 alpha
+    Shadows: buildings, troops, creatures, plants and aircraft cast a shadow with their own silhouette; the sun is chosen at the start of every day round (never below 45° and never pointing at you), there are no shadows at night and the weather softens and blurs them; aircraft fly higher and their shadow is detached from the ground
+    Ground and liquids: plain ground no longer repeats its textures (rotations, tones and decorative plants) and water and oil have a moving texture that ripples with drops; maps now use 13 decoration pieces (9 that did not fit are removed)
+
 v2026.10.31 alpha
     Abilities aimed out of range (Healing, Paralyzing gas, EMP shock, Mines): the troop walks up and casts in one order, and the zone stays highlighted until the round resolves it
     A faster resolution: the moves, shots and abilities of one microturn play together and the camera no longer waits; more events open a lupa (support abilities, mines, failed orders, building sites, discoveries, chest guards, chest prizes) and every notice floats up as text in your language

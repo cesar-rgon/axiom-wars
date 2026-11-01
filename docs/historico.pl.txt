@@ -1,6 +1,10 @@
 HISTORIA ZMIAN AXIOM WARS
 (Wersja to data ostatniej zmiany serwera lub klienta.)
 
+v2026.11.01 alpha
+    Cienie: budynki, oddziały, stworzenia, rośliny i statki powietrzne rzucają cień o własnej sylwetce; słońce jest ustalane na początku każdej rundy dnia (nigdy poniżej 45° i nigdy skierowane w twoją stronę), w nocy nie ma cieni, a pogoda je osłabia i rozmywa; statki powietrzne latają wyżej, a ich cień oddziela się od ziemi
+    Podłoże i ciecze: płaski teren nie powtarza już tekstur (obroty, odcienie i rośliny ozdobne), a woda i ropa mają ruchomą teksturę, która faluje od kropli; mapy używają teraz 13 elementów dekoracji (usunięto 9 niepasujących)
+
 v2026.10.31 alpha
     Umiejętności wymierzone poza zasięg (Leczenie, Gaz paraliżujący, Wstrząs EMP, Miny): oddział podchodzi i rzuca je jednym rozkazem, a strefa pozostaje podświetlona do rozstrzygnięcia rundy
     Szybsze rozstrzygnięcie: ruchy, strzały i umiejętności jednego mikroruchu odtwarzają się razem, a kamera już nie czeka; więcej zdarzeń otwiera lupę (umiejętności wsparcia, miny, nieudane rozkazy, place budowy, odkrycia, strażnicy i nagrody ze skrzyń), a każde powiadomienie unosi się jako tekst w twoim języku
