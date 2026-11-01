@@ -172,6 +172,11 @@ The latest version is **v2026.11.01 alpha**.
 
 - Shadows: buildings, troops, creatures, plants and aircraft cast a shadow with their own silhouette; the sun is chosen at the start of every day round (never below 45° and never pointing at you), there are no shadows at night and the weather softens and blurs them; aircraft fly higher and their shadow is detached from the ground
 - Ground and liquids: plain ground no longer repeats its textures (rotations, tones and decorative plants) and water and oil have a moving texture that ripples with drops; maps now use 13 decoration pieces (9 that did not fit are removed)
+- Maps: the Mecha and the APC are no longer trapped in their own area by passes that only met at a corner; they reach every area by at least one way
+- AI: it uses the Bank in an emergency (one resource run out and another far in surplus, a trade only), builds its extractors in its own base before using an ally's coverage, and taking back "End turn" no longer waits for the other machine that plans its orders
+- Interface: focusing a pool shows a glowing, transparent outline instead of the per-tile fill, and its tooltip is more transparent; water and oil sink the ground along their shore like a reservoir; bridges and ramps have a futuristic look of steel with lights; the workers panel blinks with a glow while workers are missing; and picking a troop or a building in the right panel centres the camera on it and a golden ellipse highlights it
+- The right panel with nothing selected has two sections, each with its own scroll: your troops above and the buildings that produce troops below
+- A "Video" menu with High, Medium and Low presets and 17 graphic effects you can switch on or off (weather, shadows, water and oil, fog, terrain, units, combat and buildings), and an optional FPS counter in Settings
 
 ### v2026.10.31 alpha
 

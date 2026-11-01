@@ -4,6 +4,11 @@ AXIOM WARS DEĞİŞİKLİK GEÇMİŞİ
 v2026.11.01 alpha
     Gölgeler: binalar, birlikler, yaratıklar, bitkiler ve hava araçları kendi siluetleriyle gölge düşürür; güneş her gün turunun başında belirlenir (asla 45°'nin altına inmez ve asla sana doğru bakmaz), geceleri gölge yoktur ve hava durumu gölgeleri soluklaştırır ve bulanıklaştırır; hava araçları daha yüksekte uçar ve gölgeleri yerden ayrılır
     Zemin ve sıvılar: düz zemin artık dokularını tekrarlamıyor (döndürmeler, tonlar ve süs bitkileri), su ve petrol damlalarla dalgalanan hareketli bir dokuya sahip; haritalar artık 13 dekor parçası kullanıyor (uymayan 9 tanesi kaldırıldı)
+    Haritalar: Mech ve APC artık yalnızca köşeden birleşen geçitler yüzünden kendi bölgelerinde hapsolmuyor; tüm bölgelere en az bir yoldan ulaşıyor
+    YZ: acil durumda Bankayı kullanır (bir kaynak bitmiş, bir başkası çok fazlaysa, yalnızca takas), müttefikin kapsama alanını kullanmadan önce çıkarıcılarını kendi üssünde kurar ve “Turu bitir” geri alındığında emirlerini hesaplayan diğer makineyi artık beklemez
+    Arayüz: bir yatağa odaklanınca kare kare dolgu yerine parlayan, saydam bir kontur görünür ve ipucu kutusu daha saydamdır; su ve petrol kıyıdaki toprağı baraj gölü gibi çökertir; köprüler ve rampalar ışıklı çelikten fütüristik bir görünüme sahiptir; işçi eksikken işçi paneli parlayarak yanıp söner; sağ panelden bir birlik veya bina seçince kamera ona odaklanır ve altın bir elips onu vurgular
+    Seçim yokken sağ panel, her biri kendi kaydırmasına sahip iki bölümden oluşur: üstte birliklerin, altta birlik üreten binalar
+    Yüksek, Orta ve Düşük ön ayarlı bir “Video” menüsü ve açılıp kapatılabilen 17 grafik efekti (hava durumu, gölgeler, su ve petrol, sis, arazi, birimler, savaş ve binalar) ile Ayarlar'da isteğe bağlı FPS sayacı
 
 v2026.10.31 alpha
     Menzil dışına nişanlanan yetenekler (Şifa, Felç gazı, EMP şoku, Mayınlar): birlik yaklaşır ve tek emirle kullanır, tur çözülene kadar bölge vurgulu kalır

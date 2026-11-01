@@ -216,7 +216,7 @@
   "dl.c2": "Abre el juego: la dirección del servidor ya viene rellena. Escribe tu nombre y crea una sala o únete a una.",
   "nav.news": "Novedades",
   "news.title": "Novedades",
-  "news.body": "Sombras de silueta según el sol de cada ronda, suelo sin repeticiones y agua y petróleo con textura en movimiento.",
+  "news.body": "Menú Vídeo con presets y 17 efectos activables, contador de FPS, puentes y rampas futuristas, orilla hundida en agua y petróleo, y el Meca y el APC llegan a todas las zonas.",
   "news.all": "Ver el histórico completo",
   "news.all.href": "docs/historico.es.txt",
   "lang.eyebrow": "Idiomas",

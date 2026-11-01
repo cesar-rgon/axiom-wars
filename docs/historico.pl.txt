@@ -4,6 +4,11 @@ HISTORIA ZMIAN AXIOM WARS
 v2026.11.01 alpha
     Cienie: budynki, oddziały, stworzenia, rośliny i statki powietrzne rzucają cień o własnej sylwetce; słońce jest ustalane na początku każdej rundy dnia (nigdy poniżej 45° i nigdy skierowane w twoją stronę), w nocy nie ma cieni, a pogoda je osłabia i rozmywa; statki powietrzne latają wyżej, a ich cień oddziela się od ziemi
     Podłoże i ciecze: płaski teren nie powtarza już tekstur (obroty, odcienie i rośliny ozdobne), a woda i ropa mają ruchomą teksturę, która faluje od kropli; mapy używają teraz 13 elementów dekoracji (usunięto 9 niepasujących)
+    Mapy: Mech i transporter APC nie zostają już uwięzione w swojej strefie przez przejścia łączące się tylko rogiem; docierają do wszystkich stref co najmniej jedną drogą
+    SI: w nagłej potrzebie korzysta z Banku (jeden zasób wyczerpany, inny w dużym nadmiarze, tylko wymiana), buduje wydobycie najpierw we własnej bazie, zanim użyje zasięgu sojusznika, a cofnięcie „Końca tury” nie czeka już na drugą maszynę liczącą jej rozkazy
+    Interfejs: po wskazaniu złoża widać świecący, przezroczysty kontur zamiast wypełnienia po polach, a jego podpowiedź jest bardziej przezroczysta; woda i ropa zapadają grunt na brzegu jak zbiornik; mosty i rampy mają futurystyczny wygląd ze stali ze światłami; panel robotników miga z poświatą, gdy brakuje robotników; a wybranie jednostki lub budynku w prawym panelu centruje na nim kamerę i podświetla go złota elipsa
+    Prawy panel bez zaznaczenia ma dwie sekcje z własnym przewijaniem: u góry twoje jednostki, na dole budynki produkujące jednostki
+    Menu „Wideo” z ustawieniami Wysokie, Średnie i Niskie oraz 17 efektami graficznymi do włączania i wyłączania (pogoda, cienie, woda i ropa, mgła, teren, jednostki, walka i budynki), a w Ustawieniach opcjonalny licznik FPS
 
 v2026.10.31 alpha
     Umiejętności wymierzone poza zasięg (Leczenie, Gaz paraliżujący, Wstrząs EMP, Miny): oddział podchodzi i rzuca je jednym rozkazem, a strefa pozostaje podświetlona do rozstrzygnięcia rundy

@@ -4,6 +4,11 @@ HISTÓRICO DE CAMBIOS DE AXIOM WARS
 v2026.11.01 alpha
     Sombras: edificios, tropas, criaturas, plantas y aeronaves proyectan una sombra con su silueta; el sol se decide al empezar cada ronda de día (nunca por debajo de 45° y nunca hacia ti), de noche no hay sombras y el clima las atenúa y las difumina; las aeronaves vuelan más altas y su sombra se separa del suelo
     Suelo y líquidos: el terreno llano ya no repite texturas (giros, tonos y plantas decorativas) y el agua y el petróleo tienen una textura que se mueve y se agita con las gotas; los mapas usan ahora 13 piezas de decoración (se retiran 9 que no encajaban)
+    Mapas: el Meca y el APC ya no quedan encerrados en su zona por pasos que sólo se unían por una esquina; llegan a todas las zonas por al menos un camino
+    IA: usa el Banco en una emergencia (un recurso agotado y otro muy sobrante, sólo trueque), levanta sus extractores en su propia base antes de usar la cobertura de un aliado, y quitar «Fin de turno» ya no se queda esperando a la otra máquina que calcula sus órdenes
+    Interfaz: al hacer foco en un pool se ve un contorno brillante y transparente en vez del relleno por casillas, y su tooltip es más transparente; el agua y el petróleo hunden la tierra de su orilla como un embalse; los puentes y las rampas tienen un aspecto futurista de acero con luces; el panel de trabajadores parpadea con brillo mientras faltan trabajadores; y al elegir una tropa o un edificio en el panel derecho la cámara lo centra y una elipse dorada lo resalta
+    Panel derecho sin selección en dos secciones con scroll propio: tus tropas arriba y los edificios que producen tropas abajo
+    Menú «Vídeo» con presets Alto, Medio y Bajo y 17 efectos gráficos que se pueden activar o apagar (clima, sombras, agua y petróleo, niebla, terreno, unidades, combate y edificios), y contador de FPS opcional en Configuración
 
 v2026.10.31 alpha
     Habilidades apuntadas fuera de alcance (Curación, Gas paralizante, Shock EMP, Minas): la tropa se acerca y las lanza en una sola orden, y la zona queda resaltada hasta que la ronda la resuelve

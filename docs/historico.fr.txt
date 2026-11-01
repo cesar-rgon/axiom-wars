@@ -4,6 +4,11 @@ HISTORIQUE DES CHANGEMENTS D'AXIOM WARS
 v2026.11.01 alpha
     Ombres : bâtiments, troupes, créatures, plantes et appareils volants projettent une ombre à leur silhouette ; le soleil est choisi au début de chaque tour de jour (jamais sous 45° ni dirigé vers vous), il n'y a pas d'ombres la nuit et la météo les atténue et les adoucit ; les appareils volent plus haut et leur ombre se détache du sol
     Sol et liquides : le terrain plat ne répète plus ses textures (rotations, teintes et plantes décoratives) et l'eau et le pétrole ont une texture mouvante qui ondule avec les gouttes ; les cartes utilisent désormais 13 pièces de décor (9 qui ne convenaient pas sont retirées)
+    Cartes : le Méca et le VTT ne restent plus enfermés dans leur zone par des passages qui ne se joignaient que par un coin ; ils atteignent toutes les zones par au moins un chemin
+    IA : elle utilise la Banque en cas d'urgence (une ressource épuisée et une autre largement excédentaire, seulement un troc), construit ses extracteurs dans sa propre base avant d'utiliser la couverture d'un allié, et annuler « Fin de tour » n'attend plus l'autre machine qui calcule ses ordres
+    Interface : cibler un gisement montre un contour lumineux et transparent au lieu du remplissage case par case, et son infobulle est plus transparente ; l'eau et le pétrole creusent le sol de leur rive comme un réservoir ; les ponts et les rampes ont un aspect futuriste d'acier avec des lumières ; le panneau des travailleurs clignote en brillant tant qu'il manque des travailleurs ; et choisir une troupe ou un bâtiment dans le panneau de droite y centre la caméra et une ellipse dorée le met en évidence
+    Le panneau de droite sans sélection a deux sections, chacune avec son défilement : vos troupes en haut et les bâtiments qui produisent des troupes en bas
+    Menu « Vidéo » avec les préréglages Élevé, Moyen et Bas et 17 effets graphiques activables ou désactivables (météo, ombres, eau et pétrole, brouillard, terrain, unités, combat et bâtiments), et compteur de FPS optionnel dans la Configuration
 
 v2026.10.31 alpha
     Capacités visées hors de portée (Soin, Gaz paralysant, Choc EMP, Mines) : la troupe s'approche et les lance en un seul ordre, et la zone reste en surbrillance jusqu'à la résolution

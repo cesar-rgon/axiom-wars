@@ -192,7 +192,7 @@
   "dl.c2": "Lancez le jeu : l'adresse du serveur est déjà remplie. Saisissez votre nom, puis créez un salon ou rejoignez-en un.",
   "nav.news": "Nouveautés",
   "news.title": "Nouveautés",
-  "news.body": "Ombres de silhouette selon le soleil de chaque tour, sol sans répétitions et eau et pétrole à texture mouvante.",
+  "news.body": "Menu Vidéo avec préréglages et 17 effets activables, compteur de FPS, ponts et rampes futuristes, rives affaissées autour de l'eau et du pétrole, et le Méca et le VTT atteignent toutes les zones.",
   "news.all": "Voir tout l'historique",
   "news.all.href": "docs/historico.fr.txt",
   "lang.eyebrow": "Langues",

@@ -192,7 +192,7 @@
   "dl.c2": "Avvia il gioco: l'indirizzo del server è già compilato. Scrivi il tuo nome, poi crea una stanza o unisciti a una.",
   "nav.news": "Novità",
   "news.title": "Novità",
-  "news.body": "Ombre di sagoma secondo il sole di ogni round, terreno senza ripetizioni e acqua e petrolio con texture in movimento.",
+  "news.body": "Menu Video con preimpostazioni e 17 effetti attivabili, contatore FPS, ponti e rampe futuristici, rive incavate attorno ad acqua e petrolio, e il Mecha e l'APC raggiungono ogni zona.",
   "news.all": "Vedi tutta la cronologia",
   "news.all.href": "docs/historico.it.txt",
   "lang.eyebrow": "Lingue",

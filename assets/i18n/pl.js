@@ -183,7 +183,7 @@
   "mus.t14": "<strong>Pływający interfejs.</strong> Menu, zasoby, minimapa, panel budowy według poziomu Rządu i ikona dla każdego rodzaju rozkazu.",
   "mus.hint": "Przesuń palcem, aby poruszać się po osi czasu →",
   "news.title": "Nowości",
-  "news.body": "Cienie sylwetek zależne od słońca w każdej rundzie, podłoże bez powtórzeń oraz woda i ropa z ruchomą teksturą.",
+  "news.body": "Menu Wideo z ustawieniami i 17 efektami do przełączania, licznik FPS, futurystyczne mosty i rampy, zapadnięte brzegi wody i ropy, a Mech i APC docierają do wszystkich stref.",
   "news.all": "Zobacz pełną historię zmian",
   "news.all.href": "docs/historico.pl.txt",
   "join.eyebrow": "Społeczność",
