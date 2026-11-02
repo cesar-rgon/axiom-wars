@@ -16,7 +16,7 @@
   "hero.download": "Pobierz",
   "hero.play": "Graj w przeglądarce",
   "hero.stream": "Oglądaj transmisję na żywo",
-  "hero.playnote": "Wersja przeglądarkowa: wydajność może być niższa niż w kliencie natywnym i możesz doświadczyć spowolnień. Jest ograniczona do trybu PvP przeciwko 1 SI. Gra jest w fazie rozwoju, a prace nad zawartością i wydajnością będą kontynuowane. Jeśli gra Ci się podoba, zalecamy pobranie klienta, aby cieszyć się pełnym doświadczeniem.",
+  "hero.playnote": "Wersja przeglądarkowa: wydajność jest gorsza niż w kliencie natywnym i możesz doświadczyć spowolnień, dlatego zalecamy pobranie klienta natywnego. Ma to samo lobby co klient natywny (mapy dowolnej wielkości, do 8 graczy, a grać możesz razem z użytkownikami klienta natywnego), ale korzystaj z niej rozważnie: małe mapy i niewielu graczy. Gra jest w fazie rozwoju, a prace nad zawartością i wydajnością będą kontynuowane.",
   "dl.winnote": "Windows: jeśli pojawi się ostrzeżenie o nierozpoznanym oprogramowaniu (SmartScreen), kliknij „Więcej informacji”, a następnie „Uruchom mimo to”. To fałszywy alarm.",
   "round.eyebrow": "Jak działa runda",
   "round.title": "Planuj równolegle, walcz jednocześnie",

@@ -16,7 +16,7 @@
   "hero.download": "İndir",
   "hero.play": "Tarayıcıda oyna",
   "hero.stream": "Canlı yayını izle",
-  "hero.playnote": "Tarayıcı sürümü: performans yerel istemciden düşük olabilir ve yavaşlamalar yaşayabilirsiniz. 1 yapay zekaya karşı PvP modu ile sınırlıdır. Oyun geliştirme aşamasındadır; içerik ve performans üzerinde çalışmaya devam edilecektir. Oyunu beğenirseniz, tam deneyim için istemciyi indirmenizi öneririz.",
+  "hero.playnote": "Tarayıcı sürümü: performans yerel istemciden daha düşüktür ve yavaşlamalar yaşayabilirsiniz; bu yüzden yerel istemciyi indirmeniz önerilir. Yerel istemciyle aynı lobiye sahiptir (her boyutta harita, en çok 8 oyuncu ve yerel istemci oyuncularıyla birlikte oynayabilirsiniz), ancak ölçülü kullanın: küçük haritalar ve az oyuncu. Oyun geliştirme aşamasındadır; içerik ve performans üzerinde çalışmaya devam edilecektir.",
   "dl.winnote": "Windows: Tanınmayan yazılım uyarısı (SmartScreen) görünürse “Daha fazla bilgi”ye ve ardından “Yine de çalıştır”a tıklayın. Bu bir yanlış pozitiftir.",
   "round.eyebrow": "Raunt nasıl işler",
   "round.title": "Paralel planla, aynı anda savaş",

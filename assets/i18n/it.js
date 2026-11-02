@@ -15,7 +15,7 @@
   "hero.download": "Scarica",
   "hero.play": "Gioca nel browser",
   "hero.stream": "Guarda la diretta",
-  "hero.playnote": "Versione browser: le prestazioni possono essere inferiori a quelle del client nativo e potresti notare rallentamenti. È limitata alla modalità PvP contro 1 IA. Il gioco è in sviluppo e si continuerà a lavorare su contenuti e prestazioni. Se ti piace, ti consigliamo di scaricare il client per l'esperienza completa.",
+  "hero.playnote": "Versione browser: le prestazioni sono peggiori del client nativo e potresti notare rallentamenti, quindi si consiglia di scaricare il client nativo. Ha la stessa lobby del client nativo (mappe di qualsiasi dimensione, fino a 8 giocatori, e puoi giocare insieme a chi usa il client nativo), ma usala con prudenza: mappe piccole e pochi giocatori. Il gioco è in sviluppo e si continuerà a lavorare su contenuti e prestazioni.",
   "dl.winnote": "Windows: se compare l'avviso di software non riconosciuto (SmartScreen), fai clic su «Ulteriori informazioni» e poi su «Esegui comunque». È un falso positivo.",
   "round.eyebrow": "Come funziona un round",
   "round.title": "Pianifica in parallelo, combatti nello stesso momento",

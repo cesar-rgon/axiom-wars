@@ -15,7 +15,7 @@
   "hero.download": "Herunterladen",
   "hero.play": "Im Browser spielen",
   "hero.stream": "Livestream ansehen",
-  "hero.playnote": "Browser-Version: Die Leistung kann geringer sein als beim nativen Client, und es kann zu Verlangsamungen kommen. Sie ist auf den PvP-Modus gegen 1 KI beschränkt. Das Spiel befindet sich in Entwicklung; an Inhalten und Leistung wird weitergearbeitet. Wenn dir das Spiel gefällt, empfehlen wir, den Client für das volle Erlebnis herunterzuladen.",
+  "hero.playnote": "Browser-Version: Die Leistung ist schlechter als beim nativen Client und es kann zu Verlangsamungen kommen; deshalb wird der native Client empfohlen. Sie hat dieselbe Lobby wie der native Client (Karten beliebiger Größe, bis zu 8 Spieler, und du kannst zusammen mit Spielern des nativen Clients spielen), aber nutze sie mit Vorsicht: kleine Karten und wenige Spieler. Das Spiel befindet sich in Entwicklung; an Inhalten und Leistung wird weitergearbeitet.",
   "dl.winnote": "Windows: Wenn die Warnung vor nicht erkannter Software (SmartScreen) erscheint, klicke auf „Weitere Informationen“ und dann auf „Trotzdem ausführen“. Es handelt sich um einen Fehlalarm.",
   "round.eyebrow": "Wie eine Runde abläuft",
   "round.title": "Parallel planen, gleichzeitig kämpfen",
