@@ -8,6 +8,7 @@ v2026.11.02 alpha
     Rozstrzygnięcie: lupy równoczesnych zdarzeń otwierają się równolegle, szukają najbliższego wolnego miejsca i są wspólne dla strzałów jednej sceny; mikrotura ustawia się w menu "Gra", a panel robotników jest rysowany z pamięci podręcznej (z 37 do 67 FPS przy ciężkim rozstrzygnięciu)
     Klient webowy: otwiera pełny ekran główny i pokój jak klient natywny (do 8 graczy, tryb kooperacji, hasła, zapisane gry i powtórki) i ostrzega, że wydajność jest niższa
     Klient webowy: pierwsza wizyta wchodzi jako "Web Player", w języku strony i z losowym kolorem
+    Animowane tło Drogi Mlecznej na ekranie głównym, w pokoju, przy wczytywaniu gry i w powtórkach: wypełnia całe okno (migoczące gwiazdy, oddychające mgławice, powolny dryf i od czasu do czasu spadająca gwiazda), a panele są nieprzezroczyste w 80 %; wyłączysz je w Menu → Wideo ("Menu"; ustawienie Niskie je wyłącza)
 
 v2026.11.01 alpha
     Cienie: budynki, oddziały, stworzenia, rośliny i statki powietrzne rzucają cień o własnej sylwetce; słońce jest ustalane na początku każdej rundy dnia (nigdy poniżej 45° i nigdy skierowane w twoją stronę), w nocy nie ma cieni, a pogoda je osłabia i rozmywa; statki powietrzne latają wyżej, a ich cień oddziela się od ziemi

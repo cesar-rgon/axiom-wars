@@ -8,6 +8,7 @@ v2026.11.02 alpha
     Auflösung: die Lupen gleichzeitiger Ereignisse öffnen sich parallel, suchen die nächste freie Stelle und werden von den Schüssen einer Szene gemeinsam genutzt; der Mikrozug wird im Menü "Spiel" eingestellt und das Arbeiterfeld wird aus einem Cache gezeichnet (von 37 auf 67 FPS bei einer aufwendigen Auflösung)
     Web-Client: öffnet den vollständigen Startbildschirm und Raum wie der native Client (bis zu 8 Spieler, kooperativ, Passwörter, gespeicherte Partien und Wiederholungen) und weist auf die geringere Leistung hin
     Web-Client: der erste Besuch tritt als "Web Player" ein, mit der Sprache der Seite und einer zufälligen Farbe
+    Animierter Milchstraßen-Hintergrund auf Start-, Raum-, Laden- und Wiederholungsbildschirm: er füllt das ganze Fenster (funkelnde Sterne, atmende Nebel, langsames Driften und gelegentlich eine Sternschnuppe) und die Felder sind zu 80 % deckend; abschaltbar unter Menü → Video ("Menüs"; die Voreinstellung Niedrig schaltet ihn aus)
 
 v2026.11.01 alpha
     Schatten: Gebäude, Truppen, Kreaturen, Pflanzen und Luftfahrzeuge werfen einen Schatten in ihrer Silhouette; die Sonne wird zu Beginn jeder Tagesrunde festgelegt (nie unter 45° und nie auf dich zu), nachts gibt es keine Schatten und das Wetter schwächt sie ab und verwischt sie; Luftfahrzeuge fliegen höher und ihr Schatten löst sich vom Boden

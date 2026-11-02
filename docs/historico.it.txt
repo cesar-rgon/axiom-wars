@@ -8,6 +8,7 @@ v2026.11.02 alpha
     Risoluzione: le lenti degli eventi simultanei si aprono in parallelo, cercano lo spazio libero più vicino e sono condivise dai colpi di una stessa scena; il microturno si imposta nel menu "Gioco" e il pannello dei lavoratori è disegnato in cache (da 37 a 67 FPS in una risoluzione pesante)
     Client web: apre la schermata iniziale e la stanza complete come il client nativo (fino a 8 giocatori, cooperativo, password, partite salvate e repliche) e avvisa che le prestazioni sono inferiori
     Client web: la prima visita entra come "Web Player", con la lingua della pagina e un colore casuale
+    Sfondo di Via Lattea animata nelle schermate iniziale, stanza, carica partita e repliche: riempie tutta la finestra (stelle che brillano, nebulose che respirano, lenta deriva e qualche stella cadente) e i pannelli sono opachi all'80 %; si disattiva in Menu → Video ("Menu"; il preset Basso lo spegne)
 
 v2026.11.01 alpha
     Ombre: edifici, truppe, creature, piante e velivoli proiettano un'ombra con la loro sagoma; il sole si decide all'inizio di ogni round di giorno (mai sotto i 45° e mai rivolto verso di te), di notte non ci sono ombre e il meteo le attenua e le sfuma; i velivoli volano più in alto e la loro ombra si stacca dal suolo

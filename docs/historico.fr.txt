@@ -8,6 +8,7 @@ v2026.11.02 alpha
     Résolution : les loupes des événements simultanés s'ouvrent en parallèle, cherchent la place libre la plus proche et sont partagées par les tirs d'une même scène ; le microtour se règle dans le menu "Jeu" et le panneau des ouvriers est dessiné en cache (de 37 à 67 FPS dans une résolution lourde)
     Client web : il ouvre l'écran d'accueil et le salon complets comme le client natif (jusqu'à 8 joueurs, coopératif, mots de passe, parties sauvegardées et rediffusions) et prévient que les performances sont moindres
     Client web : la première visite entre en tant que "Web Player", avec la langue de la page et une couleur aléatoire
+    Fond de Voie lactée animée sur les écrans d'accueil, de salon, de chargement et de rediffusions : il remplit toute la fenêtre (étoiles scintillantes, nébuleuses qui respirent, lente dérive et parfois une étoile filante) et les panneaux sont opaques à 80 % ; il se désactive dans Menu → Vidéo ("Menus" ; le préréglage Bas le coupe)
 
 v2026.11.01 alpha
     Ombres : bâtiments, troupes, créatures, plantes et appareils volants projettent une ombre à leur silhouette ; le soleil est choisi au début de chaque tour de jour (jamais sous 45° ni dirigé vers vous), il n'y a pas d'ombres la nuit et la météo les atténue et les adoucit ; les appareils volent plus haut et leur ombre se détache du sol

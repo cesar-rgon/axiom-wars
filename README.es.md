@@ -176,6 +176,7 @@ La última versión es **v2026.11.02 alpha**.
 - Resolución: las lupas de eventos simultáneos se abren en paralelo, buscan el hueco libre más cercano y se comparten entre los disparos de una misma escena; el microturno se configura en el menú «Juego» y el panel de trabajadores se dibuja en caché (de 37 a 67 FPS en una resolución pesada)
 - Cliente web: abre la pantalla de inicio y la sala completas como el cliente nativo (hasta 8 jugadores, cooperativo, contraseñas, partidas guardadas y repeticiones) y avisa de que el rendimiento es menor
 - Cliente web: la primera visita entra como «Web Player», con el idioma de la página y un color aleatorio
+- Fondo de Vía Láctea animada en las pantallas de inicio, sala, cargar partida y repeticiones: ocupa toda la ventana (estrellas que centellean, nebulosas que respiran, deriva lenta y alguna estrella fugaz) y los paneles son un 80 % opacos; se apaga en Menú → Vídeo («Menús»; el preajuste Bajo la apaga)
 
 ### v2026.11.01 alpha
 

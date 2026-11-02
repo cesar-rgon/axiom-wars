@@ -8,6 +8,7 @@ v2026.11.02 alpha
     Resolução: as lupas de eventos simultâneos abrem em paralelo, procuram o espaço livre mais próximo e são compartilhadas pelos disparos de uma mesma cena; o microturno é configurado no menu "Jogo" e o painel de trabalhadores é desenhado em cache (de 37 a 67 FPS em uma resolução pesada)
     Cliente web: abre a tela inicial e a sala completas como o cliente nativo (até 8 jogadores, cooperativo, senhas, partidas salvas e replays) e avisa que o desempenho é menor
     Cliente web: a primeira visita entra como "Web Player", com o idioma da página e uma cor aleatória
+    Fundo de Via Láctea animada nas telas inicial, da sala, de carregar partida e de replays: ocupa a janela inteira (estrelas que cintilam, nebulosas que respiram, deriva lenta e uma estrela cadente de vez em quando) e os painéis são 80 % opacos; dá para desligar em Menu → Vídeo ("Menus"; o predefinido Baixo a desliga)
 
 v2026.11.01 alpha
     Sombras: edifícios, tropas, criaturas, plantas e aeronaves projetam uma sombra com a sua silhueta; o sol é definido no início de cada rodada de dia (nunca abaixo de 45° e nunca apontando para você), à noite não há sombras e o clima as atenua e desfoca; as aeronaves voam mais alto e a sombra delas se afasta do chão

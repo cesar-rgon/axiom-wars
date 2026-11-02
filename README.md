@@ -176,6 +176,7 @@ The latest version is **v2026.11.02 alpha**.
 - Resolution: the lupas of simultaneous events open in parallel, look for the nearest free spot and are shared by the shots of one scene; the microturn is set in the "Game" menu and the workers panel is drawn from a cache (from 37 to 67 FPS in a heavy resolution)
 - Web client: it opens the full start screen and room like the native client (up to 8 players, cooperative, passwords, saved matches and replays) and warns that performance is lower
 - Web client: the first visit enters as "Web Player", with the page's language and a random colour
+- Animated Milky Way background on the start, room, load game and replays screens: it fills the whole window (twinkling stars, breathing nebulae, a slow drift and the odd shooting star) and the panels are 80 % opaque; it can be switched off in Menu → Video ("Menus"; the Low preset turns it off)
 
 ### v2026.11.01 alpha
 

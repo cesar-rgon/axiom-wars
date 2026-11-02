@@ -8,6 +8,7 @@ v2026.11.02 alpha
     Çözümleme: aynı anda olan olayların büyüteçleri paralel açılır, en yakın boş yeri arar ve aynı sahnenin atışlarınca paylaşılır; mikro tur "Oyun" menüsünden ayarlanır ve işçi paneli önbellekten çizilir (ağır bir çözümlemede 37'den 67 FPS'e)
     Web istemcisi: yerel istemci gibi tam başlangıç ekranını ve odayı açar (8 oyuncuya kadar, işbirlikçi, parolalar, kayıtlı oyunlar ve tekrarlar) ve performansın daha düşük olduğunu bildirir
     Web istemcisi: ilk ziyaret "Web Player" olarak, sayfanın diliyle ve rastgele bir renkle girer
+    Başlangıç, oda, oyun yükleme ve tekrar ekranlarında hareketli Samanyolu arka planı: pencerenin tamamını kaplar (parlayıp sönen yıldızlar, nefes alan bulutsular, yavaş kayma ve ara sıra bir kayan yıldız) ve paneller %80 opaktır; Menü → Video'dan ("Menüler") kapatılabilir, Düşük ön ayarı onu kapatır
 
 v2026.11.01 alpha
     Gölgeler: binalar, birlikler, yaratıklar, bitkiler ve hava araçları kendi siluetleriyle gölge düşürür; güneş her gün turunun başında belirlenir (asla 45°'nin altına inmez ve asla sana doğru bakmaz), geceleri gölge yoktur ve hava durumu gölgeleri soluklaştırır ve bulanıklaştırır; hava araçları daha yüksekte uçar ve gölgeleri yerden ayrılır
