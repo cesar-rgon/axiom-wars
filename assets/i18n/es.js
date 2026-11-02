@@ -216,7 +216,7 @@
   "dl.c2": "Abre el juego: la dirección del servidor ya viene rellena. Escribe tu nombre y crea una sala o únete a una.",
   "nav.news": "Novedades",
   "news.title": "Novedades",
-  "news.body": "Menú Vídeo con presets y 17 efectos activables, contador de FPS, puentes y rampas futuristas, orilla hundida en agua y petróleo, y el Meca y el APC llegan a todas las zonas.",
+  "news.body": "Chat en la sala y en la pantalla inicial, botón «Novedades» con los cambios de la última versión, sala en tres columnas, lupas de resolución en paralelo y lobby completo en el cliente web.",
   "news.all": "Ver el histórico completo",
   "news.all.href": "docs/historico.es.txt",
   "lang.eyebrow": "Idiomas",

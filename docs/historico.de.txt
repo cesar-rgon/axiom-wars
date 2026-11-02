@@ -1,6 +1,14 @@
 ÄNDERUNGSVERLAUF VON AXIOM WARS
 (Die Version ist das Datum der letzten Änderung am Server oder am Client.)
 
+v2026.11.02 alpha
+    Raum-Chat: eine Spalte rechts im Raum (bis zu 8 Spieler) mit den Nachrichten aller Anwesenden; der Raum hat jetzt drei Spalten mit gleich breiten Spieler- und Kartenfeldern, die Karte ist quadratisch und "Verlassen" und "Neu erzeugen" sind Symbolschaltflächen
+    Chat im Startbildschirm: ein Kanal für alle Verbundenen, der das Neuigkeiten-Feld ersetzt (kleine Schrift, Scrollen, die letzten 50 Nachrichten für später Hinzukommende und höchstens eine Nachricht pro Sekunde)
+    Die Schaltfläche "Neuigkeiten" ersetzt die "Verlauf"-Schaltfläche: sie öffnet die Änderungen der neuesten Version (mit dem Hinweis "neu", bis du sie öffnest) und von dort führt eine Schaltfläche zum vollständigen Verlauf
+    Auflösung: die Lupen gleichzeitiger Ereignisse öffnen sich parallel, suchen die nächste freie Stelle und werden von den Schüssen einer Szene gemeinsam genutzt; der Mikrozug wird im Menü "Spiel" eingestellt und das Arbeiterfeld wird aus einem Cache gezeichnet (von 37 auf 67 FPS bei einer aufwendigen Auflösung)
+    Web-Client: öffnet den vollständigen Startbildschirm und Raum wie der native Client (bis zu 8 Spieler, kooperativ, Passwörter, gespeicherte Partien und Wiederholungen) und weist auf die geringere Leistung hin
+    Web-Client: der erste Besuch tritt als "Web Player" ein, mit der Sprache der Seite und einer zufälligen Farbe
+
 v2026.11.01 alpha
     Schatten: Gebäude, Truppen, Kreaturen, Pflanzen und Luftfahrzeuge werfen einen Schatten in ihrer Silhouette; die Sonne wird zu Beginn jeder Tagesrunde festgelegt (nie unter 45° und nie auf dich zu), nachts gibt es keine Schatten und das Wetter schwächt sie ab und verwischt sie; Luftfahrzeuge fliegen höher und ihr Schatten löst sich vom Boden
     Boden und Flüssigkeiten: ebener Boden wiederholt seine Texturen nicht mehr (Drehungen, Töne und Zierpflanzen) und Wasser und Öl haben eine bewegte Textur, die bei Tropfen Wellen schlägt; die Karten verwenden jetzt 13 Dekorationsteile (9 unpassende wurden entfernt)

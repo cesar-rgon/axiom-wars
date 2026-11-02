@@ -183,7 +183,7 @@
   "mus.t14": "<strong>Yüzen arayüz.</strong> Menü, kaynaklar, mini harita, Hükümet seviyesine göre inşa paneli ve her emir türü için bir simge.",
   "mus.hint": "Zaman çizgisinde ilerlemek için kaydır →",
   "news.title": "Yenilikler",
-  "news.body": "Ön ayarlı ve 17 açılıp kapanabilir efektli Video menüsü, FPS sayacı, fütüristik köprüler ve rampalar, su ve petrolün çöken kıyıları, ve Mech ile APC tüm bölgelere ulaşıyor.",
+  "news.body": "Odada ve başlangıç ekranında sohbet, son sürümün değişikliklerini gösteren \"Yenilikler\" düğmesi, üç sütunlu oda, paralel çözümleme büyüteçleri ve web istemcisinde tam lobi.",
   "news.all": "Tüm değişiklik geçmişini gör",
   "news.all.href": "docs/historico.tr.txt",
   "join.eyebrow": "Topluluk",

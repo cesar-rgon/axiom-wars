@@ -1,6 +1,14 @@
 HISTORIQUE DES CHANGEMENTS D'AXIOM WARS
 (La version est la date de la dernière modification du serveur ou du client.)
 
+v2026.11.02 alpha
+    Chat du salon : une colonne à droite du salon (jusqu'à 8 joueurs) avec les messages de ceux qui y sont ; le salon passe à trois colonnes avec joueurs et carte de même largeur, la carte est carrée et "Quitter" et "Régénérer" deviennent des boutons d'icône
+    Chat de l'écran d'accueil : un canal pour tous les connectés qui remplace le panneau des Nouveautés (petit texte, défilement, les 50 derniers messages pour qui arrive ensuite et un message par seconde au maximum)
+    Le bouton "Nouveautés" remplace celui de "Historique" : il ouvre les changements de la dernière version (avec la mention "nouveau" tant que vous ne l'avez pas ouvert) et un bouton mène à l'historique complet
+    Résolution : les loupes des événements simultanés s'ouvrent en parallèle, cherchent la place libre la plus proche et sont partagées par les tirs d'une même scène ; le microtour se règle dans le menu "Jeu" et le panneau des ouvriers est dessiné en cache (de 37 à 67 FPS dans une résolution lourde)
+    Client web : il ouvre l'écran d'accueil et le salon complets comme le client natif (jusqu'à 8 joueurs, coopératif, mots de passe, parties sauvegardées et rediffusions) et prévient que les performances sont moindres
+    Client web : la première visite entre en tant que "Web Player", avec la langue de la page et une couleur aléatoire
+
 v2026.11.01 alpha
     Ombres : bâtiments, troupes, créatures, plantes et appareils volants projettent une ombre à leur silhouette ; le soleil est choisi au début de chaque tour de jour (jamais sous 45° ni dirigé vers vous), il n'y a pas d'ombres la nuit et la météo les atténue et les adoucit ; les appareils volent plus haut et leur ombre se détache du sol
     Sol et liquides : le terrain plat ne répète plus ses textures (rotations, teintes et plantes décoratives) et l'eau et le pétrole ont une texture mouvante qui ondule avec les gouttes ; les cartes utilisent désormais 13 pièces de décor (9 qui ne convenaient pas sont retirées)

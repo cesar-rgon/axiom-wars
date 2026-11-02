@@ -192,7 +192,7 @@
   "dl.c2": "Starte das Spiel: Die Serveradresse ist schon eingetragen. Gib deinen Namen ein und erstelle einen Raum oder tritt einem bei.",
   "nav.news": "Neuigkeiten",
   "news.title": "Neuigkeiten",
-  "news.body": "Video-Menü mit Voreinstellungen und 17 schaltbaren Effekten, FPS-Anzeige, futuristische Brücken und Rampen, abgesenkte Ufer um Wasser und Öl, und Mech und APC erreichen alle Gebiete.",
+  "news.body": "Chat im Raum und im Startbildschirm, Schaltfläche \"Neuigkeiten\" mit den Änderungen der neuesten Version, Raum mit drei Spalten, parallele Auflösungslupen und die vollständige Lobby im Web-Client.",
   "news.all": "Gesamten Verlauf ansehen",
   "news.all.href": "docs/historico.de.txt",
   "lang.eyebrow": "Sprachen",

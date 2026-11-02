@@ -1,6 +1,14 @@
 AXIOM WARS DEĞİŞİKLİK GEÇMİŞİ
 (Sürüm, sunucuda veya istemcide yapılan son değişikliğin tarihidir.)
 
+v2026.11.02 alpha
+    Oda sohbeti: odanın sağında bir sütun (8 oyuncuya kadar), içerideki herkesin mesajlarıyla; oda artık üç sütunlu, oyuncular ve harita aynı genişlikte, harita kare ve "Ayrıl" ile "Yeniden oluştur" simge düğmesi oldu
+    Başlangıç ekranı sohbeti: bağlı herkes için tek kanal, Yenilikler panelinin yerini alır (küçük yazı, kaydırma, sonradan girenler için son 50 mesaj ve saniyede en fazla bir mesaj)
+    "Yenilikler" düğmesi "Geçmiş" düğmesinin yerini alır: son sürümün değişikliklerini açar (açana kadar "yeni" işaretiyle) ve oradaki bir düğme tam geçmişe götürür
+    Çözümleme: aynı anda olan olayların büyüteçleri paralel açılır, en yakın boş yeri arar ve aynı sahnenin atışlarınca paylaşılır; mikro tur "Oyun" menüsünden ayarlanır ve işçi paneli önbellekten çizilir (ağır bir çözümlemede 37'den 67 FPS'e)
+    Web istemcisi: yerel istemci gibi tam başlangıç ekranını ve odayı açar (8 oyuncuya kadar, işbirlikçi, parolalar, kayıtlı oyunlar ve tekrarlar) ve performansın daha düşük olduğunu bildirir
+    Web istemcisi: ilk ziyaret "Web Player" olarak, sayfanın diliyle ve rastgele bir renkle girer
+
 v2026.11.01 alpha
     Gölgeler: binalar, birlikler, yaratıklar, bitkiler ve hava araçları kendi siluetleriyle gölge düşürür; güneş her gün turunun başında belirlenir (asla 45°'nin altına inmez ve asla sana doğru bakmaz), geceleri gölge yoktur ve hava durumu gölgeleri soluklaştırır ve bulanıklaştırır; hava araçları daha yüksekte uçar ve gölgeleri yerden ayrılır
     Zemin ve sıvılar: düz zemin artık dokularını tekrarlamıyor (döndürmeler, tonlar ve süs bitkileri), su ve petrol damlalarla dalgalanan hareketli bir dokuya sahip; haritalar artık 13 dekor parçası kullanıyor (uymayan 9 tanesi kaldırıldı)

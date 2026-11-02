@@ -183,7 +183,7 @@
   "mus.t14": "<strong>Interface flutuante.</strong> Menu, recursos, minimapa, um painel de construção por nível de Governo e um ícone para cada tipo de ordem.",
   "mus.hint": "Deslize para percorrer a linha do tempo →",
   "news.title": "Novidades",
-  "news.body": "Menu Vídeo com predefinições e 17 efeitos ativáveis, contador de FPS, pontes e rampas futuristas, margens afundadas em água e petróleo, e o Meca e o APC chegam a todas as zonas.",
+  "news.body": "Chat na sala e na tela inicial, botão \"Novidades\" com as mudanças da última versão, sala em três colunas, lupas de resolução em paralelo e lobby completo no cliente web.",
   "news.all": "Ver o histórico completo de mudanças",
   "join.eyebrow": "Comunidade",
   "join.title": "Jogue com a gente",

@@ -1,6 +1,14 @@
 HISTORIA ZMIAN AXIOM WARS
 (Wersja to data ostatniej zmiany serwera lub klienta.)
 
+v2026.11.02 alpha
+    Czat pokoju: kolumna po prawej stronie pokoju (do 8 graczy) z wiadomościami wszystkich w środku; pokój ma teraz trzy kolumny, a gracze i mapa mają tę samą szerokość, mapa jest kwadratowa, a "Wyjdź" i "Wygeneruj ponownie" to przyciski z ikoną
+    Czat ekranu głównego: jeden kanał dla wszystkich połączonych, zastępujący panel Nowości (mały tekst, przewijanie, ostatnie 50 wiadomości dla wchodzących później i najwyżej jedna wiadomość na sekundę)
+    Przycisk "Nowości" zastępuje przycisk "Historia": otwiera zmiany najnowszej wersji (ze znacznikiem "nowe", dopóki go nie otworzysz), a stamtąd przycisk prowadzi do pełnej historii
+    Rozstrzygnięcie: lupy równoczesnych zdarzeń otwierają się równolegle, szukają najbliższego wolnego miejsca i są wspólne dla strzałów jednej sceny; mikrotura ustawia się w menu "Gra", a panel robotników jest rysowany z pamięci podręcznej (z 37 do 67 FPS przy ciężkim rozstrzygnięciu)
+    Klient webowy: otwiera pełny ekran główny i pokój jak klient natywny (do 8 graczy, tryb kooperacji, hasła, zapisane gry i powtórki) i ostrzega, że wydajność jest niższa
+    Klient webowy: pierwsza wizyta wchodzi jako "Web Player", w języku strony i z losowym kolorem
+
 v2026.11.01 alpha
     Cienie: budynki, oddziały, stworzenia, rośliny i statki powietrzne rzucają cień o własnej sylwetce; słońce jest ustalane na początku każdej rundy dnia (nigdy poniżej 45° i nigdy skierowane w twoją stronę), w nocy nie ma cieni, a pogoda je osłabia i rozmywa; statki powietrzne latają wyżej, a ich cień oddziela się od ziemi
     Podłoże i ciecze: płaski teren nie powtarza już tekstur (obroty, odcienie i rośliny ozdobne), a woda i ropa mają ruchomą teksturę, która faluje od kropli; mapy używają teraz 13 elementów dekoracji (usunięto 9 niepasujących)

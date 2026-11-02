@@ -163,10 +163,19 @@ Criaturas neutrales que no pertenecen a ningún jugador. Las dóciles deambulan 
 
 ## Histórico de cambios
 
-La última versión es **v2026.11.01 alpha**.
+La última versión es **v2026.11.02 alpha**.
 
 <details>
 <summary>Ver todas las versiones</summary>
+
+### v2026.11.02 alpha
+
+- Chat en la sala: columna a la derecha de la sala (hasta 8 jugadores) con los mensajes de quienes están dentro; la sala pasa a tres columnas con jugadores y mapa del mismo ancho, el mapa es cuadrado y «Salir» y «Regenerar» son botones de icono
+- Chat en la pantalla inicial: un canal para todos los conectados que sustituye al panel de Novedades (letra pequeña, scroll, los últimos 50 mensajes para quien entra después y un mensaje por segundo como máximo)
+- El botón «Novedades» sustituye al de «Histórico»: abre los cambios de la última versión (con aviso «nuevo» hasta que lo abres) y desde ahí un botón lleva al historial completo
+- Resolución: las lupas de eventos simultáneos se abren en paralelo, buscan el hueco libre más cercano y se comparten entre los disparos de una misma escena; el microturno se configura en el menú «Juego» y el panel de trabajadores se dibuja en caché (de 37 a 67 FPS en una resolución pesada)
+- Cliente web: abre la pantalla de inicio y la sala completas como el cliente nativo (hasta 8 jugadores, cooperativo, contraseñas, partidas guardadas y repeticiones) y avisa de que el rendimiento es menor
+- Cliente web: la primera visita entra como «Web Player», con el idioma de la página y un color aleatorio
 
 ### v2026.11.01 alpha
 

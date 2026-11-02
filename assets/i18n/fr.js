@@ -192,7 +192,7 @@
   "dl.c2": "Lancez le jeu : l'adresse du serveur est déjà remplie. Saisissez votre nom, puis créez un salon ou rejoignez-en un.",
   "nav.news": "Nouveautés",
   "news.title": "Nouveautés",
-  "news.body": "Menu Vidéo avec préréglages et 17 effets activables, compteur de FPS, ponts et rampes futuristes, rives affaissées autour de l'eau et du pétrole, et le Méca et le VTT atteignent toutes les zones.",
+  "news.body": "Chat dans le salon et sur l'écran d'accueil, bouton \"Nouveautés\" avec les changements de la dernière version, salon à trois colonnes, loupes de résolution en parallèle et lobby complet dans le client web.",
   "news.all": "Voir tout l'historique",
   "news.all.href": "docs/historico.fr.txt",
   "lang.eyebrow": "Langues",

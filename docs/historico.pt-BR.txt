@@ -1,6 +1,14 @@
 HISTÓRICO DE MUDANÇAS DE AXIOM WARS
 (A versão é a data da última mudança no servidor ou no cliente.)
 
+v2026.11.02 alpha
+    Chat da sala: uma coluna à direita da sala (até 8 jogadores) com as mensagens de quem está dentro; a sala passa a ter três colunas com jogadores e mapa da mesma largura, o mapa é quadrado e "Sair" e "Regenerar" viram botões de ícone
+    Chat da tela inicial: um canal para todos os conectados que substitui o painel de Novidades (letra pequena, rolagem, as últimas 50 mensagens para quem entra depois e no máximo uma mensagem por segundo)
+    O botão "Novidades" substitui o de "Histórico": abre as mudanças da última versão (com o aviso "novo" até você abri-lo) e de lá um botão leva ao histórico completo
+    Resolução: as lupas de eventos simultâneos abrem em paralelo, procuram o espaço livre mais próximo e são compartilhadas pelos disparos de uma mesma cena; o microturno é configurado no menu "Jogo" e o painel de trabalhadores é desenhado em cache (de 37 a 67 FPS em uma resolução pesada)
+    Cliente web: abre a tela inicial e a sala completas como o cliente nativo (até 8 jogadores, cooperativo, senhas, partidas salvas e replays) e avisa que o desempenho é menor
+    Cliente web: a primeira visita entra como "Web Player", com o idioma da página e uma cor aleatória
+
 v2026.11.01 alpha
     Sombras: edifícios, tropas, criaturas, plantas e aeronaves projetam uma sombra com a sua silhueta; o sol é definido no início de cada rodada de dia (nunca abaixo de 45° e nunca apontando para você), à noite não há sombras e o clima as atenua e desfoca; as aeronaves voam mais alto e a sombra delas se afasta do chão
     Chão e líquidos: o terreno plano não repete mais as texturas (rotações, tons e plantas decorativas) e a água e o petróleo têm uma textura em movimento que ondula com as gotas; os mapas agora usam 13 peças de decoração (9 que não combinavam foram removidas)

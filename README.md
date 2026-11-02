@@ -163,10 +163,19 @@ Neutral creatures that belong to no player. The docile ones wander their own hab
 
 ## Change history
 
-The latest version is **v2026.11.01 alpha**.
+The latest version is **v2026.11.02 alpha**.
 
 <details>
 <summary>Show all versions</summary>
+
+### v2026.11.02 alpha
+
+- Room chat: a column at the right of the room (up to 8 players) with the messages of everyone inside; the room now has three columns with players and map of the same width, the map is square and "Leave" and "Regenerate" are icon buttons
+- Start screen chat: one channel for everybody connected that replaces the News panel (small text, scroll, the last 50 messages for whoever joins later and at most one message per second)
+- The "News" button replaces the "History" one: it opens the changes of the latest version (with a "new" mark until you open it) and a button there leads to the full history
+- Resolution: the lupas of simultaneous events open in parallel, look for the nearest free spot and are shared by the shots of one scene; the microturn is set in the "Game" menu and the workers panel is drawn from a cache (from 37 to 67 FPS in a heavy resolution)
+- Web client: it opens the full start screen and room like the native client (up to 8 players, cooperative, passwords, saved matches and replays) and warns that performance is lower
+- Web client: the first visit enters as "Web Player", with the page's language and a random colour
 
 ### v2026.11.01 alpha
 
