@@ -167,7 +167,21 @@ En Linux, en una terminal:
 curl -L https://github.com/cesar-rgon/axiom-wars/releases/latest/download/AxiomWars-Linux-x64.tar.gz | tar -xz && ./AxiomWars/AxiomWars
 ```
 
-1. Después, abre **AxiomWars.exe** (Windows) o **AxiomWars** (Linux) dentro de la carpeta `AxiomWars`. Deja la carpeta `assets` a su lado.
+Mac (Apple Silicon: M1 o posterior), en una terminal:
+
+```bash
+curl -L https://github.com/cesar-rgon/axiom-wars/releases/latest/download/AxiomWars-Mac-arm64.tar.gz | tar -xz && ./AxiomWars/AxiomWars
+```
+
+Mac (Intel), en una terminal:
+
+```bash
+curl -L https://github.com/cesar-rgon/axiom-wars/releases/latest/download/AxiomWars-Mac-x64.tar.gz | tar -xz && ./AxiomWars/AxiomWars
+```
+
+(Requiere macOS 11 o posterior. Descargar con `curl` evita el aviso de «desarrollador no identificado».)
+
+1. Después, abre **AxiomWars.exe** (Windows) o **AxiomWars** (Linux/Mac) dentro de la carpeta `AxiomWars`. Deja la carpeta `assets` a su lado.
 2. Abre el juego: la dirección del servidor ya viene rellena. Escribe tu nombre y crea una sala o únete a una.
 
 ## Histórico de cambios
@@ -182,7 +196,7 @@ La última versión es **v2026.11.03 alpha**.
 - Apoyo: la Curación cura el 20 % de la vida máxima de cualquier tropa aliada (vivas, máquinas y voladoras), el Shock EMP quita el 50 % del escudo máximo de tropas y edificios enemigos en vez de todo, y el Gas paralizante afecta a las tropas terrestres enemigas ligeras y medias, orgánicas o máquinas (no a las pesadas ni a las voladoras)
 - Droide: Clonar copia todas las tropas aliadas del 3×3 (también Constructores y tropas grandes) a 200 de energía por tropa copiada, con vista previa circular en magenta, y el Portal también lleva tropas grandes; los señuelos enemigos se ven donde detecta un Explorador con «Detectar ocultos» o un Gobierno
 - IA: ignora los señuelos enemigos detectados y clona el grupo de tropas más poderoso
-- Descargas: el cliente de Linux pasa a .tar.gz (conserva el permiso de ejecución) y la web ofrece un comando de una línea con botón de copiar para Windows y Linux, que evita el aviso de SmartScreen; el actualizador del juego entiende el .tar.gz
+- Descargas: el cliente de Linux pasa a .tar.gz (conserva el permiso de ejecución) y la web ofrece un comando de una línea con botón de copiar para Windows y Linux, que evita el aviso de SmartScreen; el actualizador del juego entiende el .tar.gz; además nace la versión para Mac (Apple Silicon e Intel), con su comando en la web y actualización integrada en el juego
 
 ### v2026.11.02 alpha
 
@@ -698,4 +712,4 @@ docs/balance/       el mismo grafo en inglés
 tools/make_logo.py  recorta el logo original a PNG transparente
 ```
 
-Cada release contiene sólo los binarios del cliente para Windows y Linux; el servidor no se distribuye.
+Cada release contiene sólo los binarios del cliente para Windows, Linux y Mac (Apple Silicon e Intel); el servidor no se distribuye.

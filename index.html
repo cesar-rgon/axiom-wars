@@ -314,7 +314,7 @@ h3.sub { font-family: var(--font-display, inherit); margin: 28px 0 12px; color: 
 .dl .arrow { font: 600 .8rem var(--font-mono); color: var(--plasma); }
 .cmdbox { margin-top: 16px; padding: 14px 16px; border: 1px solid var(--line); background: var(--hull); }
 .cmdbox h3 { font-size: 1rem; margin: 0 0 10px; }
-.cmdtabs { display: flex; gap: 6px; margin-bottom: 8px; }
+.cmdtabs { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
 .cmdtab { padding: 5px 12px; background: var(--hull-2); border: 1px solid var(--line); color: var(--steel-dim); font: 600 .8rem var(--font-mono); cursor: pointer; }
 .cmdtab[aria-selected="true"] { border-color: var(--plasma); color: var(--steel); }
 .cmdline { margin: 0 0 10px; padding: 10px 12px; background: #0b0f14; border: 1px solid var(--line); overflow-x: auto; white-space: pre-wrap; word-break: break-all; }
@@ -817,15 +817,17 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
           <div class="cmdtabs" role="tablist">
             <button type="button" class="cmdtab" data-os="windows" role="tab">Windows</button>
             <button type="button" class="cmdtab" data-os="linux" role="tab">Linux</button>
+            <button type="button" class="cmdtab" data-os="mac-arm" role="tab">Mac (Apple Silicon)</button>
+            <button type="button" class="cmdtab" data-os="mac-intel" role="tab">Mac (Intel)</button>
           </div>
           <pre class="cmdline"><code id="cmdText"></code></pre>
           <button type="button" class="btn btn-ghost cmdcopy" id="cmdCopy" data-i18n="dl.cmd.copy">Copy</button>
-          <p class="cmdhint" data-i18n="dl.cmd.hint">Paste it in PowerShell (Windows) or in a terminal (Linux). It downloads the latest version, unpacks it into the current folder and starts the game. Run it again to update.</p>
+          <p class="cmdhint" data-i18n="dl.cmd.hint">Paste it in PowerShell (Windows) or in a terminal (Linux/Mac). It downloads the latest version, unpacks it into the current folder and starts the game. Run it again to update.</p>
         </div>
         <div class="connect">
           <h3 data-i18n="dl.connect">How to connect</h3>
           <ol>
-            <li data-i18n="dl.c1">Run the command above: it downloads the game, unpacks it in the current folder and starts it. Later, open <strong>AxiomWars.exe</strong> (Windows) or <strong>AxiomWars</strong> (Linux) inside the AxiomWars folder; keep the <code>assets</code> folder next to it.</li>
+            <li data-i18n="dl.c1">Run the command above: it downloads the game, unpacks it in the current folder and starts it. Later, open <strong>AxiomWars.exe</strong> (Windows) or <strong>AxiomWars</strong> (Linux/Mac) inside the AxiomWars folder; keep the <code>assets</code> folder next to it.</li>
             <li data-i18n="dl.c2">Open the game: the server address is already filled in. Type your name, then create a lobby or join one.</li>
           </ol>
         </div>
@@ -1124,18 +1126,22 @@ window.addEventListener('message', function (ev) {
 })();
 </script>
 <script>
-/* Instalar con un comando: el curl.exe/tar de Windows y el curl|tar de Linux no marcan
+/* Instalar con un comando: el curl.exe/tar de Windows y el curl|tar de Linux y Mac no marcan
    lo descargado como «de Internet», así que no salta SmartScreen. */
 (function () {
   var base = 'https://github.com/cesar-rgon/axiom-wars/releases/latest/download/';
   var cmds = {
     windows: 'curl.exe -L -o AxiomWars.zip ' + base + 'AxiomWars-Windows-x64.zip; tar -xf AxiomWars.zip; del AxiomWars.zip; .\\AxiomWars\\AxiomWars.exe',
-    linux: 'curl -L ' + base + 'AxiomWars-Linux-x64.tar.gz | tar -xz && ./AxiomWars/AxiomWars'
+    linux: 'curl -L ' + base + 'AxiomWars-Linux-x64.tar.gz | tar -xz && ./AxiomWars/AxiomWars',
+    'mac-arm': 'curl -L ' + base + 'AxiomWars-Mac-arm64.tar.gz | tar -xz && ./AxiomWars/AxiomWars',
+    'mac-intel': 'curl -L ' + base + 'AxiomWars-Mac-x64.tar.gz | tar -xz && ./AxiomWars/AxiomWars'
   };
   var code = document.getElementById('cmdText'), copy = document.getElementById('cmdCopy');
   var tabs = document.querySelectorAll('.cmdtab');
   if (!code || !copy) return;
-  var os = /Linux|X11/.test(navigator.userAgent) && !/Android/.test(navigator.userAgent) ? 'linux' : 'windows';
+  var ua = navigator.userAgent, os = 'windows';
+  if (/Macintosh|Mac OS X/.test(ua) && !/iPhone|iPad/.test(ua)) os = 'mac-arm'; // el navegador no distingue Apple Silicon de Intel: se elige a mano
+  else if (/Linux|X11/.test(ua) && !/Android/.test(ua)) os = 'linux';
   function show(o) {
     os = o; code.textContent = cmds[o];
     tabs.forEach(function (b) { b.setAttribute('aria-selected', b.dataset.os === o ? 'true' : 'false'); });

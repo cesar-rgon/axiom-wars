@@ -5,7 +5,7 @@ v2026.11.03 alpha
     Destek: İyileştirme, her müttefik birliğin (canlı, makine ve hava) maksimum canının %20'sini iyileştirir, EMP şoku düşman birlik ve binaların kalkanının tamamını değil maksimumun %50'sini siler, Felç edici gaz ise hafif ve orta düşman kara birliklerini (organik ya da makine; ağır ve hava birlikleri hariç) etkiler
     Droid: Klonla, 3x3'teki tüm müttefik birlikleri (İnşaatçılar ve büyük birlikler dahil) kopyalanan birlik başına 200 enerjiyle kopyalar, macenta dairesel önizlemesi vardır; Boyutlar arası portal artık büyük birlikleri de taşır; düşman yemleri, "Gizlileri tespit" yetenekli bir Kaşifin ya da bir Hükümetin tespit ettiği yerde görülür
     YZ: tespit edilen düşman yemlerini yok sayar ve en güçlü birlik grubunu klonlar
-    İndirmeler: Linux istemcisi artık .tar.gz (çalıştırma iznini korur) ve web sitesi Windows ve Linux için kopyalama düğmeli tek satırlık bir komut sunuyor; bu, SmartScreen uyarısını önler; oyun içi güncelleyici .tar.gz'yi anlıyor
+    İndirmeler: Linux istemcisi artık .tar.gz (çalıştırma iznini korur) ve web sitesi Windows ve Linux için kopyalama düğmeli tek satırlık bir komut sunuyor; bu, SmartScreen uyarısını önler; oyun içi güncelleyici .tar.gz'yi anlıyor; ayrıca Mac sürümü (Apple Silicon ve Intel) geliyor; web sitesinde kendi komutu ve oyun içi güncelleme var
 
 v2026.11.02 alpha
     Oda sohbeti: odanın sağında bir sütun (8 oyuncuya kadar), içerideki herkesin mesajlarıyla; oda artık üç sütunlu, oyuncular ve harita aynı genişlikte, harita kare ve "Ayrıl" ile "Yeniden oluştur" simge düğmesi oldu

@@ -5,7 +5,7 @@ v2026.11.03 alpha
     Supporto: la Guarigione cura il 20% della salute massima di qualsiasi truppa alleata (vive, macchine e volanti), la Scossa EMP toglie il 50% dello scudo massimo di truppe ed edifici nemici invece di tutto, e il Gas paralizzante colpisce le truppe di terra nemiche leggere e medie, organiche o macchine (non le pesanti né le volanti)
     Droide: Clona copia tutte le truppe alleate dell'area 3×3 (anche Costruttori e truppe grandi) a 200 di energia per truppa copiata, con anteprima circolare magenta, e il Portale porta anche le truppe grandi; le esche nemiche si vedono dove rileva un Esploratore con «Rileva nascosti» o un Governo
     IA: ignora le esche nemiche rilevate e clona il gruppo di truppe più potente
-    Download: il client Linux passa a .tar.gz (conserva il permesso di esecuzione) e il sito offre un comando su una riga con pulsante di copia per Windows e Linux, che evita l'avviso di SmartScreen; l'aggiornamento del gioco capisce il .tar.gz
+    Download: il client Linux passa a .tar.gz (conserva il permesso di esecuzione) e il sito offre un comando su una riga con pulsante di copia per Windows e Linux, che evita l'avviso di SmartScreen; l'aggiornamento del gioco capisce il .tar.gz; inoltre nasce la versione per Mac (Apple Silicon e Intel), con il suo comando sul sito e l'aggiornamento integrato nel gioco
 
 v2026.11.02 alpha
     Chat della stanza: una colonna a destra della stanza (fino a 8 giocatori) con i messaggi di chi è dentro; la stanza passa a tre colonne con giocatori e mappa della stessa larghezza, la mappa è quadrata e "Esci" e "Rigenera" diventano pulsanti con icona

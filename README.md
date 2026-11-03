@@ -167,7 +167,21 @@ Linux, in a terminal:
 curl -L https://github.com/cesar-rgon/axiom-wars/releases/latest/download/AxiomWars-Linux-x64.tar.gz | tar -xz && ./AxiomWars/AxiomWars
 ```
 
-1. Later, open **AxiomWars.exe** (Windows) or **AxiomWars** (Linux) inside the `AxiomWars` folder. Keep the `assets` folder next to it.
+Mac (Apple Silicon: M1 or newer), in a terminal:
+
+```bash
+curl -L https://github.com/cesar-rgon/axiom-wars/releases/latest/download/AxiomWars-Mac-arm64.tar.gz | tar -xz && ./AxiomWars/AxiomWars
+```
+
+Mac (Intel), in a terminal:
+
+```bash
+curl -L https://github.com/cesar-rgon/axiom-wars/releases/latest/download/AxiomWars-Mac-x64.tar.gz | tar -xz && ./AxiomWars/AxiomWars
+```
+
+(Requires macOS 11 or newer. Downloading with `curl` avoids the "unidentified developer" warning.)
+
+1. Later, open **AxiomWars.exe** (Windows) or **AxiomWars** (Linux/Mac) inside the `AxiomWars` folder. Keep the `assets` folder next to it.
 2. Open the game: the server address is already filled in. Type your name, then create a lobby or join one.
 
 ## Change history
@@ -182,7 +196,7 @@ The latest version is **v2026.11.03 alpha**.
 - Support: Healing heals 20% of the max health of any allied troop (living, machines and aircraft), EMP shock strips 50% of the max shield of enemy troops and buildings instead of all of it, and Paralyzing gas affects light and medium enemy ground troops, organic or machine (not heavy ones or aircraft)
 - Droid: Clone copies every allied troop in the 3×3 (Constructors and large troops too) at 200 energy per troop copied, with a magenta circular preview, and the Portal carries large troops too; enemy decoys are revealed where an Explorer with "Detect hidden" or a Government detects
 - AI: ignores detected enemy decoys and clones the most powerful group of troops
-- Downloads: the Linux client is now a .tar.gz (it keeps the execute permission) and the website offers a one-line command with a copy button for Windows and Linux, which avoids the SmartScreen warning; the in-game updater understands the .tar.gz
+- Downloads: the Linux client is now a .tar.gz (it keeps the execute permission) and the website offers a one-line command with a copy button for Windows and Linux, which avoids the SmartScreen warning; the in-game updater understands the .tar.gz; the game also gets a Mac version (Apple Silicon and Intel), with its own command on the website and in-game updating
 
 ### v2026.11.02 alpha
 
@@ -698,4 +712,4 @@ docs/balanceo/      the same graph in Spanish
 tools/make_logo.py  cuts the original logo out to a transparent PNG
 ```
 
-Each release contains only the client binaries for Windows and Linux; the server is not distributed.
+Each release contains only the client binaries for Windows, Linux and Mac (Apple Silicon and Intel); the server is not distributed.

@@ -5,7 +5,7 @@ v2026.11.03 alpha
     Wsparcie: Leczenie leczy 20% maksymalnego zdrowia każdego sojuszniczego oddziału (żywych, maszyn i latających), Wstrząs EMP zdejmuje 50% maksymalnej tarczy wrogich oddziałów i budynków zamiast całej, a Gaz paraliżujący działa na lekkie i średnie wrogie oddziały naziemne, organiczne lub maszyny (nie na ciężkie ani latające)
     Droid: Klonuj kopiuje wszystkie sojusznicze oddziały w 3×3 (także Konstruktorów i duże oddziały) za 200 energii za skopiowany oddział, z okrągłym podglądem w kolorze magenta, a Portal wymiarowy przenosi też duże oddziały; wrogie wabiki widać tam, gdzie wykrywa Zwiadowca z „Wykrywaniem ukrytych” albo Rząd
     SI: ignoruje wykryte wrogie wabiki i klonuje najsilniejszą grupę oddziałów
-    Pobieranie: klient Linux jest teraz w formacie .tar.gz (zachowuje uprawnienie do uruchamiania), a strona oferuje jednolinijkowe polecenie z przyciskiem kopiowania dla Windows i Linuksa, które omija ostrzeżenie SmartScreen; aktualizator w grze rozumie .tar.gz
+    Pobieranie: klient Linux jest teraz w formacie .tar.gz (zachowuje uprawnienie do uruchamiania), a strona oferuje jednolinijkowe polecenie z przyciskiem kopiowania dla Windows i Linuksa, które omija ostrzeżenie SmartScreen; aktualizator w grze rozumie .tar.gz; ponadto gra ma teraz wersję na Maca (Apple Silicon i Intel), z własnym poleceniem na stronie i aktualizacją w grze
 
 v2026.11.02 alpha
     Czat pokoju: kolumna po prawej stronie pokoju (do 8 graczy) z wiadomościami wszystkich w środku; pokój ma teraz trzy kolumny, a gracze i mapa mają tę samą szerokość, mapa jest kwadratowa, a "Wyjdź" i "Wygeneruj ponownie" to przyciski z ikoną
