@@ -193,7 +193,7 @@
   "dl.get": "Pobierz",
   "dl.connect": "Jak się połączyć",
   "dl.c1": "Uruchom powyższe polecenie: pobiera grę, rozpakowuje ją do bieżącego folderu i uruchamia. Później otwieraj <strong>AxiomWars.exe</strong> (Windows) lub <strong>AxiomWars</strong> (Linux) w folderze AxiomWars; folder <code>assets</code> musi leżeć obok.",
-  "dl.cmd.title": "Albo zainstaluj i uruchom jednym poleceniem",
+  "dl.cmd.title": "Zainstaluj i uruchom jednym poleceniem",
   "dl.cmd.hint": "Wklej je w PowerShell (Windows) lub w terminalu (Linux). Pobiera najnowszą wersję, rozpakowuje ją do bieżącego folderu i uruchamia grę. Uruchom ponownie, aby zaktualizować.",
   "dl.cmd.copy": "Kopiuj",
   "dl.cmd.copied": "Skopiowano",

@@ -188,7 +188,7 @@
   "dl.get": "下載",
   "dl.connect": "如何連線",
   "dl.c1": "執行上面的指令：它會下載遊戲，解壓到目前資料夾並啟動。之後，在 AxiomWars 資料夾中開啟 <strong>AxiomWars.exe</strong>（Windows）或 <strong>AxiomWars</strong>（Linux）；請讓 <code>assets</code> 資料夾留在它旁邊。",
-  "dl.cmd.title": "或用一條指令安裝並啟動",
+  "dl.cmd.title": "用一條指令安裝並啟動",
   "dl.cmd.hint": "貼到 PowerShell（Windows）或終端機（Linux）。它會下載最新版本，解壓到目前資料夾並啟動遊戲。再次執行即可更新。",
   "dl.cmd.copy": "複製",
   "dl.cmd.copied": "已複製",

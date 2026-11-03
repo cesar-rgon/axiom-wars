@@ -188,7 +188,7 @@
   "dl.get": "Scarica",
   "dl.connect": "Come connettersi",
   "dl.c1": "Esegui il comando qui sopra: scarica il gioco, lo estrae nella cartella corrente e lo avvia. In seguito, apri <strong>AxiomWars.exe</strong> (Windows) o <strong>AxiomWars</strong> (Linux) nella cartella AxiomWars; tieni la cartella <code>assets</code> accanto.",
-  "dl.cmd.title": "Oppure installa e avvia con un solo comando",
+  "dl.cmd.title": "Installa e avvia con un solo comando",
   "dl.cmd.hint": "Incollalo in PowerShell (Windows) o in un terminale (Linux). Scarica l'ultima versione, la estrae nella cartella corrente e avvia il gioco. Eseguilo di nuovo per aggiornare.",
   "dl.cmd.copy": "Copia",
   "dl.cmd.copied": "Copiato",

@@ -193,7 +193,7 @@
   "dl.get": "İndir",
   "dl.connect": "Nasıl bağlanılır",
   "dl.c1": "Yukarıdaki komutu çalıştırın: oyunu indirir, geçerli klasöre açar ve başlatır. Sonra AxiomWars klasöründeki <strong>AxiomWars.exe</strong> (Windows) veya <strong>AxiomWars</strong> (Linux) dosyasını açın; <code>assets</code> klasörü yanında kalmalı.",
-  "dl.cmd.title": "Ya da tek komutla kurun ve başlatın",
+  "dl.cmd.title": "Tek komutla kurun ve başlatın",
   "dl.cmd.hint": "PowerShell'e (Windows) veya bir terminale (Linux) yapıştırın. En son sürümü indirir, geçerli klasöre açar ve oyunu başlatır. Güncellemek için yeniden çalıştırın.",
   "dl.cmd.copy": "Kopyala",
   "dl.cmd.copied": "Kopyalandı",
