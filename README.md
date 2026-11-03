@@ -153,15 +153,9 @@ Neutral creatures that belong to no player. The docile ones wander their own hab
 
 ## Download and play
 
-| System | Download |
-|---|---|
-| Windows 64-bit | [AxiomWars-Windows-x64.zip](https://github.com/cesar-rgon/axiom-wars/releases/latest/download/AxiomWars-Windows-x64.zip) |
-| Linux x86-64 | [AxiomWars-Linux-x64.tar.gz](https://github.com/cesar-rgon/axiom-wars/releases/latest/download/AxiomWars-Linux-x64.tar.gz) |
+Install and launch with one command. It downloads the latest version into the current folder, unpacks it and starts the game; run it again to update.
 
-1. Unzip the file (Linux: `tar -xzf` the .tar.gz) and open **AxiomWars.exe** (Windows) or **AxiomWars** (Linux) inside the `AxiomWars` folder. Keep the `assets` folder next to it.
-2. Open the game: the server address is already filled in. Type your name, then create a lobby or join one.
-
-**Or with a single command** (it downloads the latest version into the current folder and starts the game; run it again to update). Windows, in PowerShell:
+Windows, in PowerShell:
 
 ```powershell
 curl.exe -L -o AxiomWars.zip https://github.com/cesar-rgon/axiom-wars/releases/latest/download/AxiomWars-Windows-x64.zip; tar -xf AxiomWars.zip; del AxiomWars.zip; .\AxiomWars\AxiomWars.exe
@@ -173,7 +167,8 @@ Linux, in a terminal:
 curl -L https://github.com/cesar-rgon/axiom-wars/releases/latest/download/AxiomWars-Linux-x64.tar.gz | tar -xz && ./AxiomWars/AxiomWars
 ```
 
-On Windows, downloading the zip with the browser may show a SmartScreen warning ("unrecognized software"): right-click the zip, Properties, Unblock before unzipping — or use the command above, which avoids it.
+1. Later, open **AxiomWars.exe** (Windows) or **AxiomWars** (Linux) inside the `AxiomWars` folder. Keep the `assets` folder next to it.
+2. Open the game: the server address is already filled in. Type your name, then create a lobby or join one.
 
 ## Change history
 
