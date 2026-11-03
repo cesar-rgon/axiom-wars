@@ -1,6 +1,11 @@
 HISTÓRICO DE MUDANÇAS DE AXIOM WARS
 (A versão é a data da última mudança no servidor ou no cliente.)
 
+v2026.11.03 alpha
+    Apoio: a Cura cura 20% da vida máxima de qualquer tropa aliada (vivas, máquinas e voadoras), o Choque EMP remove 50% do escudo máximo de tropas e edifícios inimigos em vez de tudo, e o Gás paralisante atinge as tropas terrestres inimigas leves e médias, orgânicas ou máquinas (não as pesadas nem as voadoras)
+    Droide: Clonar copia todas as tropas aliadas em 3×3 (também Construtores e tropas grandes) por 200 de energia por tropa copiada, com pré-visualização circular magenta, e o Portal dimensional também leva tropas grandes; as iscas inimigas aparecem onde detecta um Explorador com «Detectar ocultos» ou um Governo
+    IA: ignora as iscas inimigas detectadas e clona o grupo de tropas mais poderoso
+
 v2026.11.02 alpha
     Chat da sala: uma coluna à direita da sala (até 8 jogadores) com as mensagens de quem está dentro; a sala passa a ter três colunas com jogadores e mapa da mesma largura, o mapa é quadrado e "Sair" e "Regenerar" viram botões de ícone
     Chat da tela inicial: um canal para todos os conectados que substitui o painel de Novidades (letra pequena, rolagem, as últimas 50 mensagens para quem entra depois e no máximo uma mensagem por segundo)

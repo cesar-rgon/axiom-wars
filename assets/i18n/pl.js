@@ -183,7 +183,7 @@
   "mus.t14": "<strong>Pływający interfejs.</strong> Menu, zasoby, minimapa, panel budowy według poziomu Rządu i ikona dla każdego rodzaju rozkazu.",
   "mus.hint": "Przesuń palcem, aby poruszać się po osi czasu →",
   "news.title": "Nowości",
-  "news.body": "Czat w pokoju i na ekranie głównym, przycisk \"Nowości\" ze zmianami najnowszej wersji, pokój w trzech kolumnach, równoległe lupy rozstrzygnięcia i pełne lobby w kliencie webowym.",
+  "news.body": "Wzmocnione wsparcie: Leczenie dla całej armii, Wstrząs EMP procentowo, gaz na lekkie i średnie maszyny, klonowanie obszarowe i Portal z dużymi oddziałami.",
   "news.all": "Zobacz pełną historię zmian",
   "news.all.href": "docs/historico.pl.txt",
   "join.eyebrow": "Społeczność",

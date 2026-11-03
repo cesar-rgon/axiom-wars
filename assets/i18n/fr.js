@@ -192,7 +192,7 @@
   "dl.c2": "Lancez le jeu : l'adresse du serveur est déjà remplie. Saisissez votre nom, puis créez un salon ou rejoignez-en un.",
   "nav.news": "Nouveautés",
   "news.title": "Nouveautés",
-  "news.body": "Chat dans le salon et sur l'écran d'accueil, bouton \"Nouveautés\" avec les changements de la dernière version, salon à trois colonnes, loupes de résolution en parallèle et lobby complet dans le client web.",
+  "news.body": "Soutien renforcé : Soin pour toute l'armée, Choc IEM en pourcentage, Gaz sur machines légères et moyennes, Clonage de zone et Portail avec grandes troupes.",
   "news.all": "Voir tout l'historique",
   "news.all.href": "docs/historico.fr.txt",
   "lang.eyebrow": "Langues",

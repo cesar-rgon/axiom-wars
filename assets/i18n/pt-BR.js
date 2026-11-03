@@ -183,7 +183,7 @@
   "mus.t14": "<strong>Interface flutuante.</strong> Menu, recursos, minimapa, um painel de construção por nível de Governo e um ícone para cada tipo de ordem.",
   "mus.hint": "Deslize para percorrer a linha do tempo →",
   "news.title": "Novidades",
-  "news.body": "Chat na sala e na tela inicial, botão \"Novidades\" com as mudanças da última versão, sala em três colunas, lupas de resolução em paralelo e lobby completo no cliente web.",
+  "news.body": "Apoio reforçado: Cura para todo o exército, Choque EMP por porcentagem, Gás em máquinas leves e médias, Clonar em área e Portal com tropas grandes.",
   "news.all": "Ver o histórico completo de mudanças",
   "join.eyebrow": "Comunidade",
   "join.title": "Jogue com a gente",

@@ -163,10 +163,16 @@ Criaturas neutrales que no pertenecen a ningún jugador. Las dóciles deambulan 
 
 ## Histórico de cambios
 
-La última versión es **v2026.11.02 alpha**.
+La última versión es **v2026.11.03 alpha**.
 
 <details>
 <summary>Ver todas las versiones</summary>
+
+### v2026.11.03 alpha
+
+- Apoyo: la Curación cura el 20 % de la vida máxima de cualquier tropa aliada (vivas, máquinas y voladoras), el Shock EMP quita el 50 % del escudo máximo de tropas y edificios enemigos en vez de todo, y el Gas paralizante afecta a las tropas terrestres enemigas ligeras y medias, orgánicas o máquinas (no a las pesadas ni a las voladoras)
+- Droide: Clonar copia todas las tropas aliadas del 3×3 (también Constructores y tropas grandes) a 200 de energía por tropa copiada, con vista previa circular en magenta, y el Portal también lleva tropas grandes; los señuelos enemigos se ven donde detecta un Explorador con «Detectar ocultos» o un Gobierno
+- IA: ignora los señuelos enemigos detectados y clona el grupo de tropas más poderoso
 
 ### v2026.11.02 alpha
 

@@ -163,10 +163,16 @@ Neutral creatures that belong to no player. The docile ones wander their own hab
 
 ## Change history
 
-The latest version is **v2026.11.02 alpha**.
+The latest version is **v2026.11.03 alpha**.
 
 <details>
 <summary>Show all versions</summary>
+
+### v2026.11.03 alpha
+
+- Support: Healing heals 20% of the max health of any allied troop (living, machines and aircraft), EMP shock strips 50% of the max shield of enemy troops and buildings instead of all of it, and Paralyzing gas affects light and medium enemy ground troops, organic or machine (not heavy ones or aircraft)
+- Droid: Clone copies every allied troop in the 3×3 (Constructors and large troops too) at 200 energy per troop copied, with a magenta circular preview, and the Portal carries large troops too; enemy decoys are revealed where an Explorer with "Detect hidden" or a Government detects
+- AI: ignores detected enemy decoys and clones the most powerful group of troops
 
 ### v2026.11.02 alpha
 

@@ -1,6 +1,11 @@
 AXIOM WARS CHANGE HISTORY
 (The version is the date of the latest change to the server or the client.)
 
+v2026.11.03 alpha
+    Support: Healing heals 20% of the max health of any allied troop (living, machines and aircraft), EMP shock strips 50% of the max shield of enemy troops and buildings instead of all of it, and Paralyzing gas affects light and medium enemy ground troops, organic or machine (not heavy ones or aircraft)
+    Droid: Clone copies every allied troop in the 3×3 (Constructors and large troops too) at 200 energy per troop copied, with a magenta circular preview, and the Portal carries large troops too; enemy decoys are revealed where an Explorer with "Detect hidden" or a Government detects
+    AI: ignores detected enemy decoys and clones the most powerful group of troops
+
 v2026.11.02 alpha
     Room chat: a column at the right of the room (up to 8 players) with the messages of everyone inside; the room now has three columns with players and map of the same width, the map is square and "Leave" and "Regenerate" are icon buttons
     Start screen chat: one channel for everybody connected that replaces the News panel (small text, scroll, the last 50 messages for whoever joins later and at most one message per second)
