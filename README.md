@@ -156,10 +156,24 @@ Neutral creatures that belong to no player. The docile ones wander their own hab
 | System | Download |
 |---|---|
 | Windows 64-bit | [AxiomWars-Windows-x64.zip](https://github.com/cesar-rgon/axiom-wars/releases/latest/download/AxiomWars-Windows-x64.zip) |
-| Linux x86-64 | [AxiomWars-Linux-x64.zip](https://github.com/cesar-rgon/axiom-wars/releases/latest/download/AxiomWars-Linux-x64.zip) |
+| Linux x86-64 | [AxiomWars-Linux-x64.tar.gz](https://github.com/cesar-rgon/axiom-wars/releases/latest/download/AxiomWars-Linux-x64.tar.gz) |
 
-1. Unzip the file and open **AxiomWars.exe** (Windows) or **AxiomWars** (Linux) inside the `AxiomWars` folder. Keep the `assets` folder next to it.
+1. Unzip the file (Linux: `tar -xzf` the .tar.gz) and open **AxiomWars.exe** (Windows) or **AxiomWars** (Linux) inside the `AxiomWars` folder. Keep the `assets` folder next to it.
 2. Open the game: the server address is already filled in. Type your name, then create a lobby or join one.
+
+**Or with a single command** (it downloads the latest version into the current folder and starts the game; run it again to update). Windows, in PowerShell:
+
+```powershell
+curl.exe -L -o AxiomWars.zip https://github.com/cesar-rgon/axiom-wars/releases/latest/download/AxiomWars-Windows-x64.zip; tar -xf AxiomWars.zip; del AxiomWars.zip; .\AxiomWars\AxiomWars.exe
+```
+
+Linux, in a terminal:
+
+```bash
+curl -L https://github.com/cesar-rgon/axiom-wars/releases/latest/download/AxiomWars-Linux-x64.tar.gz | tar -xz && ./AxiomWars/AxiomWars
+```
+
+On Windows, downloading the zip with the browser may show a SmartScreen warning ("unrecognized software"): right-click the zip, Properties, Unblock before unzipping — or use the command above, which avoids it.
 
 ## Change history
 
@@ -173,6 +187,7 @@ The latest version is **v2026.11.03 alpha**.
 - Support: Healing heals 20% of the max health of any allied troop (living, machines and aircraft), EMP shock strips 50% of the max shield of enemy troops and buildings instead of all of it, and Paralyzing gas affects light and medium enemy ground troops, organic or machine (not heavy ones or aircraft)
 - Droid: Clone copies every allied troop in the 3×3 (Constructors and large troops too) at 200 energy per troop copied, with a magenta circular preview, and the Portal carries large troops too; enemy decoys are revealed where an Explorer with "Detect hidden" or a Government detects
 - AI: ignores detected enemy decoys and clones the most powerful group of troops
+- Downloads: the Linux client is now a .tar.gz (it keeps the execute permission) and the website offers a one-line command with a copy button for Windows and Linux, which avoids the SmartScreen warning; the in-game updater understands the .tar.gz
 
 ### v2026.11.02 alpha
 

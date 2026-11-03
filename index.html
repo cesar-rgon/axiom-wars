@@ -312,6 +312,15 @@ h3.sub { font-family: var(--font-display, inherit); margin: 28px 0 12px; color: 
 .dl strong { font: 600 1rem var(--font-display); letter-spacing: .04em; display: block; }
 .dl small { color: var(--steel-dim); font: 400 .78rem var(--font-mono); }
 .dl .arrow { font: 600 .8rem var(--font-mono); color: var(--plasma); }
+.cmdbox { margin-top: 16px; padding: 14px 16px; border: 1px solid var(--line); background: var(--hull); }
+.cmdbox h3 { font-size: 1rem; margin: 0 0 10px; }
+.cmdtabs { display: flex; gap: 6px; margin-bottom: 8px; }
+.cmdtab { padding: 5px 12px; background: var(--hull-2); border: 1px solid var(--line); color: var(--steel-dim); font: 600 .8rem var(--font-mono); cursor: pointer; }
+.cmdtab[aria-selected="true"] { border-color: var(--plasma); color: var(--steel); }
+.cmdline { margin: 0 0 10px; padding: 10px 12px; background: #0b0f14; border: 1px solid var(--line); overflow-x: auto; white-space: pre-wrap; word-break: break-all; }
+.cmdline code { font: 500 .8rem var(--font-mono); color: var(--steel); }
+.cmdcopy { padding: 6px 14px; font-size: .85rem; }
+.cmdhint { margin: 10px 0 0; color: var(--steel-dim); font-size: .85rem; line-height: 1.45; }
 .connect { margin-top: 18px; padding: 16px 18px; border: 1px dashed var(--line); }
 .connect h3 { font-size: 1rem; }
 .connect ol { margin: 10px 0 0; padding-left: 1.3em; display: grid; gap: 6px; color: var(--steel-dim); font-size: .92rem; }
@@ -807,15 +816,25 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
           <a class="dl" href="https://github.com/cesar-rgon/axiom-wars/releases/latest/download/AxiomWars-Windows-x64.zip" target="_blank" rel="noopener">
             <span><strong>Windows</strong><small data-asset="AxiomWars-Windows-x64.zip">64-bit · .zip · 94 MB</small></span><span class="arrow" data-i18n="dl.get">Download</span>
           </a>
-          <a class="dl" href="https://github.com/cesar-rgon/axiom-wars/releases/latest/download/AxiomWars-Linux-x64.zip" target="_blank" rel="noopener">
-            <span><strong>Linux</strong><small data-asset="AxiomWars-Linux-x64.zip">x86-64 · .zip · 93 MB</small></span><span class="arrow" data-i18n="dl.get">Download</span>
+          <a class="dl" href="https://github.com/cesar-rgon/axiom-wars/releases/latest/download/AxiomWars-Linux-x64.tar.gz" target="_blank" rel="noopener">
+            <span><strong>Linux</strong><small data-asset="AxiomWars-Linux-x64.tar.gz">x86-64 · .tar.gz · 99 MB</small></span><span class="arrow" data-i18n="dl.get">Download</span>
           </a>
         </div>
-        <p class="note" data-i18n="dl.winnote">Windows: if you see an “unrecognized software” warning (SmartScreen), click “More info” and then “Run anyway”. It is a false positive.</p>
+        <div class="cmdbox">
+          <h3 data-i18n="dl.cmd.title">Or install and launch with one command</h3>
+          <div class="cmdtabs" role="tablist">
+            <button type="button" class="cmdtab" data-os="windows" role="tab">Windows</button>
+            <button type="button" class="cmdtab" data-os="linux" role="tab">Linux</button>
+          </div>
+          <pre class="cmdline"><code id="cmdText"></code></pre>
+          <button type="button" class="btn btn-ghost cmdcopy" id="cmdCopy" data-i18n="dl.cmd.copy">Copy</button>
+          <p class="cmdhint" data-i18n="dl.cmd.hint">Paste it in PowerShell (Windows) or in a terminal (Linux). It downloads the latest version, unpacks it into the current folder and starts the game. Run it again to update.</p>
+        </div>
+        <p class="note" data-i18n="dl.winnote">Windows: downloading the zip with the browser may show an “unrecognized software” warning (SmartScreen). Before unzipping, right-click the zip → Properties → Unblock, or use the one-line command above, which avoids it.</p>
         <div class="connect">
           <h3 data-i18n="dl.connect">How to connect</h3>
           <ol>
-            <li data-i18n="dl.c1">Unzip the file and open <strong>AxiomWars.exe</strong> (Windows) or <strong>AxiomWars</strong> (Linux) inside the AxiomWars folder. Keep the <code>assets</code> folder next to it.</li>
+            <li data-i18n="dl.c1">Unzip the file (Linux: <code>tar -xzf</code> the .tar.gz) and open <strong>AxiomWars.exe</strong> (Windows) or <strong>AxiomWars</strong> (Linux) inside the AxiomWars folder. Keep the <code>assets</code> folder next to it.</li>
             <li data-i18n="dl.c2">Open the game: the server address is already filled in. Type your name, then create a lobby or join one.</li>
           </ol>
         </div>
@@ -1129,6 +1148,41 @@ window.addEventListener('message', function (ev) {
   poll();
   setInterval(poll, 15000);
   document.addEventListener('visibilitychange', function () { if (!document.hidden) poll(); });
+})();
+</script>
+<script>
+/* Instalar con un comando: el curl.exe/tar de Windows y el curl|tar de Linux no marcan
+   lo descargado como «de Internet», así que no salta SmartScreen. */
+(function () {
+  var base = 'https://github.com/cesar-rgon/axiom-wars/releases/latest/download/';
+  var cmds = {
+    windows: 'curl.exe -L -o AxiomWars.zip ' + base + 'AxiomWars-Windows-x64.zip; tar -xf AxiomWars.zip; del AxiomWars.zip; .\\AxiomWars\\AxiomWars.exe',
+    linux: 'curl -L ' + base + 'AxiomWars-Linux-x64.tar.gz | tar -xz && ./AxiomWars/AxiomWars'
+  };
+  var code = document.getElementById('cmdText'), copy = document.getElementById('cmdCopy');
+  var tabs = document.querySelectorAll('.cmdtab');
+  if (!code || !copy) return;
+  var os = /Linux|X11/.test(navigator.userAgent) && !/Android/.test(navigator.userAgent) ? 'linux' : 'windows';
+  function show(o) {
+    os = o; code.textContent = cmds[o];
+    tabs.forEach(function (b) { b.setAttribute('aria-selected', b.dataset.os === o ? 'true' : 'false'); });
+  }
+  tabs.forEach(function (b) { b.addEventListener('click', function () { show(b.dataset.os); }); });
+  show(os);
+  copy.addEventListener('click', function () {
+    var done = function () {
+      var sel = document.getElementById('lang'), d = (window.AW_I18N || {})[sel ? sel.value : 'en'];
+      var old = copy.innerHTML, l = (d && d.dict && d.dict['dl.cmd.copied']) || 'Copied';
+      copy.textContent = l; setTimeout(function () { copy.innerHTML = old; }, 1600);
+    };
+    if (navigator.clipboard && window.isSecureContext) navigator.clipboard.writeText(cmds[os]).then(done, fallback);
+    else fallback();
+    function fallback() {
+      var r = document.createRange(); r.selectNodeContents(code);
+      var gs = window.getSelection(); gs.removeAllRanges(); gs.addRange(r);
+      try { document.execCommand('copy'); done(); } catch (e) {}
+    }
+  });
 })();
 </script>
 <script src="assets/js/reposo.js?v=20261026a"></script>

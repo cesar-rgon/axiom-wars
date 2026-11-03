@@ -156,10 +156,24 @@ Criaturas neutrales que no pertenecen a ningún jugador. Las dóciles deambulan 
 | Sistema | Descarga |
 |---|---|
 | Windows 64 bits | [AxiomWars-Windows-x64.zip](https://github.com/cesar-rgon/axiom-wars/releases/latest/download/AxiomWars-Windows-x64.zip) |
-| Linux x86-64 | [AxiomWars-Linux-x64.zip](https://github.com/cesar-rgon/axiom-wars/releases/latest/download/AxiomWars-Linux-x64.zip) |
+| Linux x86-64 | [AxiomWars-Linux-x64.tar.gz](https://github.com/cesar-rgon/axiom-wars/releases/latest/download/AxiomWars-Linux-x64.tar.gz) |
 
-1. Descomprime el zip y abre **AxiomWars.exe** (Windows) o **AxiomWars** (Linux) dentro de la carpeta `AxiomWars`. Deja la carpeta `assets` a su lado.
+1. Descomprime el archivo (en Linux: `tar -xzf` del .tar.gz) y abre **AxiomWars.exe** (Windows) o **AxiomWars** (Linux) dentro de la carpeta `AxiomWars`. Deja la carpeta `assets` a su lado.
 2. Abre el juego: la dirección del servidor ya viene rellena. Escribe tu nombre y crea una sala o únete a una.
+
+**O con un solo comando** (descarga la última versión en la carpeta actual y abre el juego; vuelve a ejecutarlo para actualizar). En Windows, en PowerShell:
+
+```powershell
+curl.exe -L -o AxiomWars.zip https://github.com/cesar-rgon/axiom-wars/releases/latest/download/AxiomWars-Windows-x64.zip; tar -xf AxiomWars.zip; del AxiomWars.zip; .\AxiomWars\AxiomWars.exe
+```
+
+En Linux, en una terminal:
+
+```bash
+curl -L https://github.com/cesar-rgon/axiom-wars/releases/latest/download/AxiomWars-Linux-x64.tar.gz | tar -xz && ./AxiomWars/AxiomWars
+```
+
+En Windows, si descargas el zip con el navegador puede salir el aviso de SmartScreen («software no reconocido»): clic derecho en el zip, Propiedades, Desbloquear antes de descomprimir, o usa el comando de arriba, que lo evita.
 
 ## Histórico de cambios
 
@@ -173,6 +187,7 @@ La última versión es **v2026.11.03 alpha**.
 - Apoyo: la Curación cura el 20 % de la vida máxima de cualquier tropa aliada (vivas, máquinas y voladoras), el Shock EMP quita el 50 % del escudo máximo de tropas y edificios enemigos en vez de todo, y el Gas paralizante afecta a las tropas terrestres enemigas ligeras y medias, orgánicas o máquinas (no a las pesadas ni a las voladoras)
 - Droide: Clonar copia todas las tropas aliadas del 3×3 (también Constructores y tropas grandes) a 200 de energía por tropa copiada, con vista previa circular en magenta, y el Portal también lleva tropas grandes; los señuelos enemigos se ven donde detecta un Explorador con «Detectar ocultos» o un Gobierno
 - IA: ignora los señuelos enemigos detectados y clona el grupo de tropas más poderoso
+- Descargas: el cliente de Linux pasa a .tar.gz (conserva el permiso de ejecución) y la web ofrece un comando de una línea con botón de copiar para Windows y Linux, que evita el aviso de SmartScreen; el actualizador del juego entiende el .tar.gz
 
 ### v2026.11.02 alpha
 

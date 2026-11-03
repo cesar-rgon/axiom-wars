@@ -5,6 +5,7 @@ v2026.11.03 alpha
     Soutien : le Soin soigne 20 % de la santé maximale de toute troupe alliée (vivante, machine ou volante), le Choc IEM retire 50 % du bouclier maximal des troupes et bâtiments ennemis au lieu de tout, et le Gaz paralysant touche les troupes terrestres ennemies légères et moyennes, organiques ou machines (ni lourdes ni volantes)
     Droïde : Cloner copie toutes les troupes alliées de la zone 3×3 (Constructeurs et grandes troupes compris) pour 200 d'énergie par troupe copiée, avec un aperçu circulaire magenta, et le Portail emmène aussi les grandes troupes ; les leurres ennemis sont révélés là où détecte un Éclaireur avec « Détection des cachés » ou un Gouvernement
     IA : ignore les leurres ennemis détectés et clone le groupe de troupes le plus puissant
+    Téléchargements : le client Linux passe en .tar.gz (il conserve le droit d'exécution) et le site propose une commande en une ligne avec bouton de copie pour Windows et Linux, qui évite l'avertissement SmartScreen ; le programme de mise à jour du jeu comprend le .tar.gz
 
 v2026.11.02 alpha
     Chat du salon : une colonne à droite du salon (jusqu'à 8 joueurs) avec les messages de ceux qui y sont ; le salon passe à trois colonnes avec joueurs et carte de même largeur, la carte est carrée et "Quitter" et "Régénérer" deviennent des boutons d'icône

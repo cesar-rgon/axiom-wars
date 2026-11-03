@@ -5,6 +5,7 @@ v2026.11.03 alpha
     Unterstützung: Heilung heilt 20 % der maximalen Gesundheit jeder verbündeten Truppe (Lebewesen, Maschinen und Flieger), EMP-Schock entzieht 50 % des maximalen Schilds gegnerischer Truppen und Gebäude statt alles, und Lähmgas trifft leichte und mittlere gegnerische Bodentruppen, organisch oder Maschinen (nicht schwere und keine Flieger)
     Droide: Klonen kopiert alle verbündeten Truppen in 3×3 (auch Konstrukteure und große Truppen) für 200 Energie pro kopierter Truppe, mit kreisförmiger Magenta-Vorschau, und das Portal befördert auch große Truppen; gegnerische Attrappen sind sichtbar, wo ein Späher mit „Verborgene entdecken“ oder eine Regierung entdeckt
     KI: ignoriert entdeckte gegnerische Attrappen und klont die stärkste Truppengruppe
+    Downloads: Der Linux-Client kommt jetzt als .tar.gz (er behält das Ausführungsrecht) und die Website bietet einen Einzeiler mit Kopieren-Schaltfläche für Windows und Linux, der die SmartScreen-Warnung vermeidet; der Updater des Spiels versteht das .tar.gz
 
 v2026.11.02 alpha
     Raum-Chat: eine Spalte rechts im Raum (bis zu 8 Spieler) mit den Nachrichten aller Anwesenden; der Raum hat jetzt drei Spalten mit gleich breiten Spieler- und Kartenfeldern, die Karte ist quadratisch und "Verlassen" und "Neu erzeugen" sind Symbolschaltflächen
