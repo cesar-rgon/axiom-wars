@@ -49,18 +49,18 @@ Hasta 8 jugadores, todos contra todos o por equipos (hasta 4 contra 4). Los huec
 Capturas de la versión actual. Pulsa en una para verla a tamaño completo.
 
 <p align="center">
-  <a href="assets/img/galeria-20.webp"><img src="assets/img/galeria-20.webp" alt="Ronda 57: un enjambre de Raptors bombardea el Gobierno enemigo dentro de una lupa de combate, con la zona de la explosión y el daño de cada disparo" width="100%"></a>
-  <br><sub>Ronda 57: un enjambre de Raptors bombardea el Gobierno enemigo dentro de una lupa de combate, con la zona de la explosión y el daño de cada disparo.</sub>
+  <a href="assets/img/galeria-21.webp"><img src="assets/img/galeria-21.webp" alt="Planificando un turno en una base desarrollada: zonas de cobertura de energía, grupos de tropas numerados y panel de construcción por nivel de Gobierno." width="100%"></a>
+  <br><sub>Planificando un turno en una base desarrollada: zonas de cobertura de energía, grupos de tropas numerados y panel de construcción por nivel de Gobierno.</sub>
 </p>
 
 <table>
   <tr>
-    <td width="50%"><a href="assets/img/galeria-19.webp"><img src="assets/img/galeria-19.webp" alt="Mecas intercambiando fuego dentro de una lupa de combate: la explosión y las cifras de daño sobre la vista de toda la isla"></a></td>
-    <td width="50%"><a href="assets/img/galeria-18.webp"><img src="assets/img/galeria-18.webp" alt="Una base desarrollada con las zonas de cobertura de energía, el panel de grupos numerados y el panel de construcción por nivel de Gobierno"></a></td>
+    <td width="50%"><a href="assets/img/galeria-22.webp"><img src="assets/img/galeria-22.webp" alt="Resolución de ronda en una repetición, con dos lupas de combate siguiendo los combates por toda la isla y el minimapa al lado."></a></td>
+    <td width="50%"><a href="assets/img/galeria-23.webp"><img src="assets/img/galeria-23.webp" alt="El tutorial interactivo: el Asesor de campo te guía paso a paso en tu primer turno."></a></td>
   </tr>
   <tr>
-    <td><sub>Mecas intercambiando fuego dentro de una lupa de combate: la explosión y las cifras de daño sobre la vista de toda la isla.</sub></td>
-    <td><sub>Una base desarrollada con las zonas de cobertura de energía, el panel de grupos numerados y el panel de construcción por nivel de Gobierno.</sub></td>
+    <td><sub>Resolución de ronda en una repetición, con dos lupas de combate siguiendo los combates por toda la isla y el minimapa al lado.</sub></td>
+    <td><sub>El tutorial interactivo: el Asesor de campo te guía paso a paso en tu primer turno.</sub></td>
   </tr>
 </table>
 

@@ -49,18 +49,18 @@ Up to 8 players, free-for-all or in teams (up to 4 versus 4). Empty seats are fi
 Screenshots from the current build. Click one to see it full size.
 
 <p align="center">
-  <a href="assets/img/galeria-20.webp"><img src="assets/img/galeria-20.webp" alt="Round 57: a swarm of Raptors bombs the enemy Government inside a combat magnifier, with the blast zone and the damage of every shot" width="100%"></a>
-  <br><sub>Round 57: a swarm of Raptors bombs the enemy Government inside a combat magnifier, with the blast zone and the damage of every shot.</sub>
+  <a href="assets/img/galeria-21.webp"><img src="assets/img/galeria-21.webp" alt="Planning a turn on a developed base: Power coverage zones, numbered troop groups and the build panel by Government level." width="100%"></a>
+  <br><sub>Planning a turn on a developed base: Power coverage zones, numbered troop groups and the build panel by Government level.</sub>
 </p>
 
 <table>
   <tr>
-    <td width="50%"><a href="assets/img/galeria-19.webp"><img src="assets/img/galeria-19.webp" alt="Mechs trade fire inside a combat magnifier: the explosion and the damage numbers over the view of the whole island"></a></td>
-    <td width="50%"><a href="assets/img/galeria-18.webp"><img src="assets/img/galeria-18.webp" alt="A developed base with the Power coverage zones, the numbered groups panel and the build panel by Government level"></a></td>
+    <td width="50%"><a href="assets/img/galeria-22.webp"><img src="assets/img/galeria-22.webp" alt="Round resolution replayed with two combat magnifiers following the fights across the island, with the minimap beside it."></a></td>
+    <td width="50%"><a href="assets/img/galeria-23.webp"><img src="assets/img/galeria-23.webp" alt="The interactive tutorial: the Field Advisor walks you through your first turn, step by step."></a></td>
   </tr>
   <tr>
-    <td><sub>Mechs trade fire inside a combat magnifier: the explosion and the damage numbers over the view of the whole island.</sub></td>
-    <td><sub>A developed base with the Power coverage zones, the numbered groups panel and the build panel by Government level.</sub></td>
+    <td><sub>Round resolution replayed with two combat magnifiers following the fights across the island, with the minimap beside it.</sub></td>
+    <td><sub>The interactive tutorial: the Field Advisor walks you through your first turn, step by step.</sub></td>
   </tr>
 </table>
 
