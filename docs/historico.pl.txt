@@ -7,6 +7,7 @@ v2026.11.04 alpha
     Ekran startowy: Ustawienia, Samouczek i Nowości otwierają się bez przyciemniania tła, a Nowości stają się ikoną obok wyboru języka
     Rozkazy zastępujące inne ostrzegają wcześniej, zmieniając pionki na czerwono, a «Wyjdź do menu» działa nawet po zerwaniu połączenia z serwerem
     Zwiadowca: nogi poruszają się szybciej podczas marszu
+    Ikony graczy: każdy gracz wybiera twarz jednostki terrańskiej (za pierwszym razem losową) na ekranie startowym i w lobby; kolor wybiera się teraz w każdym wierszu lobby, a SI używa twarzy doradczyni polowej
 
 v2026.11.03 alpha
     Wsparcie: Leczenie leczy 20% maksymalnego zdrowia każdego sojuszniczego oddziału (żywych, maszyn i latających), Wstrząs EMP zdejmuje 50% maksymalnej tarczy wrogich oddziałów i budynków zamiast całej, a Gaz paraliżujący działa na lekkie i średnie wrogie oddziały naziemne, organiczne lub maszyny (nie na ciężkie ani latające)

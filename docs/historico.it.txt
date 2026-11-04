@@ -7,6 +7,7 @@ v2026.11.04 alpha
     Schermata iniziale: Impostazioni, Tutorial e Novità si aprono senza oscurare lo sfondo, e Novità diventa un'icona accanto al selettore della lingua
     Gli ordini che ne sostituiscono altri avvertono prima con le pedine in rosso, e «Esci al menu» funziona anche se la connessione al server è caduta
     Esploratore: le zampe si muovono più veloci quando cammina
+    Icone del giocatore: ogni giocatore sceglie il volto di un'unità terrana (a caso la prima volta) nella schermata iniziale e nella lobby; il colore si sceglie ora in ogni riga della lobby, e l'IA usa il volto della consulente di campo
 
 v2026.11.03 alpha
     Supporto: la Guarigione cura il 20% della salute massima di qualsiasi truppa alleata (vive, macchine e volanti), la Scossa EMP toglie il 50% dello scudo massimo di truppe ed edifici nemici invece di tutto, e il Gas paralizzante colpisce le truppe di terra nemiche leggere e medie, organiche o macchine (non le pesanti né le volanti)

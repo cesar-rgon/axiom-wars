@@ -7,6 +7,7 @@ v2026.11.04 alpha
     Tela inicial: Configurações, Tutorial e Novidades abrem sem escurecer o fundo, e Novidades vira um ícone ao lado do seletor de idioma
     Ordens que substituem outras avisam antes com as fichas em vermelho, e «Sair para o menu» funciona mesmo se a conexão com o servidor tiver caído
     Explorador: as patas se movem mais rápido ao andar
+    Ícones de jogador: cada jogador escolhe o rosto de uma unidade terrana (aleatório na primeira vez) na tela inicial e no lobby; a cor agora é escolhida em cada linha do lobby, e a IA usa o rosto da assessora de campo
 
 v2026.11.03 alpha
     Apoio: a Cura cura 20% da vida máxima de qualquer tropa aliada (vivas, máquinas e voadoras), o Choque EMP remove 50% do escudo máximo de tropas e edifícios inimigos em vez de tudo, e o Gás paralisante atinge as tropas terrestres inimigas leves e médias, orgânicas ou máquinas (não as pesadas nem as voadoras)

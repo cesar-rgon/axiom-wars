@@ -7,6 +7,7 @@ v2026.11.04 alpha
     Startbildschirm: Einstellungen, Tutorial und Neuigkeiten öffnen sich ohne abgedunkelten Hintergrund, und Neuigkeiten wird zu einem Symbol neben der Sprachauswahl
     Befehle, die andere ersetzen, warnen vorher mit roten Marken, und «Zum Menü» funktioniert auch bei unterbrochener Verbindung zum Server
     Späher: Die Beine bewegen sich beim Gehen schneller
+    Spielersymbole: Jeder Spieler wählt das Gesicht einer terranischen Einheit (beim ersten Mal zufällig) auf dem Startbildschirm und in der Lobby; die Farbe wird jetzt in jeder Lobby-Zeile gewählt, und die KI verwendet das Gesicht der Feldberaterin
 
 v2026.11.03 alpha
     Unterstützung: Heilung heilt 20 % der maximalen Gesundheit jeder verbündeten Truppe (Lebewesen, Maschinen und Flieger), EMP-Schock entzieht 50 % des maximalen Schilds gegnerischer Truppen und Gebäude statt alles, und Lähmgas trifft leichte und mittlere gegnerische Bodentruppen, organisch oder Maschinen (nicht schwere und keine Flieger)

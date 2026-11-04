@@ -7,6 +7,7 @@ v2026.11.04 alpha
     Başlangıç ekranı: Ayarlar, Eğitim ve Yenilikler arka planı karartmadan açılır; Yenilikler dil seçicinin yanında bir simge olur
     Başkalarının yerine geçen emirler önce taşları kırmızı yaparak uyarır; «Menüye çık» sunucu bağlantısı kopsa bile çalışır
     Kâşif: yürürken bacakları daha hızlı hareket eder
+    Oyuncu simgeleri: her oyuncu başlangıç ekranında ve lobide bir Terran biriminin yüzünü seçer (ilk seferde rastgele); renk artık lobinin her satırında seçilir ve yapay zekâ saha danışmanının yüzünü kullanır
 
 v2026.11.03 alpha
     Destek: İyileştirme, her müttefik birliğin (canlı, makine ve hava) maksimum canının %20'sini iyileştirir, EMP şoku düşman birlik ve binaların kalkanının tamamını değil maksimumun %50'sini siler, Felç edici gaz ise hafif ve orta düşman kara birliklerini (organik ya da makine; ağır ve hava birlikleri hariç) etkiler

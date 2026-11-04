@@ -7,6 +7,7 @@ v2026.11.04 alpha
     Écran d'accueil : Configuration, Tutoriel et Nouveautés s'ouvrent sans assombrir le fond, et Nouveautés devient une icône à côté du sélecteur de langue
     Les ordres qui en remplacent d'autres avertissent d'abord en passant les pions en rouge, et «Quitter vers le menu» fonctionne même si la connexion au serveur est coupée
     Éclaireur : ses pattes bougent plus vite quand il marche
+    Icônes de joueur : chaque joueur choisit le visage d'une unité terrane (au hasard la première fois) sur l'écran d'accueil et dans le salon ; la couleur se choisit désormais sur chaque ligne du salon, et l'IA utilise le visage de la conseillère de terrain
 
 v2026.11.03 alpha
     Soutien : le Soin soigne 20 % de la santé maximale de toute troupe alliée (vivante, machine ou volante), le Choc IEM retire 50 % du bouclier maximal des troupes et bâtiments ennemis au lieu de tout, et le Gaz paralysant touche les troupes terrestres ennemies légères et moyennes, organiques ou machines (ni lourdes ni volantes)

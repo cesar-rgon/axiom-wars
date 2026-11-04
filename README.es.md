@@ -198,6 +198,7 @@ La última versión es **v2026.11.04 alpha**.
 - Pantalla inicial: Configuración, Tutorial y Novedades se abren sin oscurecer el fondo, y Novedades pasa a ser un icono junto al selector de idioma
 - Las órdenes que reemplazan a otras avisan antes con las fichas en rojo, y «Salir al menú» funciona aunque la conexión con el servidor se haya caído
 - Explorador: las patas se mueven más rápido al caminar
+- Iconos de jugador: cada jugador elige la cara de una unidad terrana (al azar la primera vez) en la pantalla inicial y en el lobby; el color pasa a elegirse en cada fila del lobby, y la IA usa la cara de la asesora de campo
 
 ### v2026.11.03 alpha
 

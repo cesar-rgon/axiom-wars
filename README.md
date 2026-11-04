@@ -198,6 +198,7 @@ The latest version is **v2026.11.04 alpha**.
 - Start screen: Settings, Tutorial and News open without dimming the background, and News becomes an icon next to the language selector
 - Orders that replace others warn first by turning the tokens red, and "Leave to menu" works even if the connection to the server has dropped
 - Explorer: its legs move faster when walking
+- Player icons: each player picks the face of a Terran unit (random the first time) on the start screen and in the lobby; the colour is now chosen on each lobby row, and the AI uses the field advisor's face
 
 ### v2026.11.03 alpha
 
