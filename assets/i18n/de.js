@@ -195,7 +195,7 @@
   "dl.c2": "Starte das Spiel: Die Serveradresse ist schon eingetragen. Gib deinen Namen ein und erstelle einen Raum oder tritt einem bei.",
   "nav.news": "Neuigkeiten",
   "news.title": "Neuigkeiten",
-  "news.body": "Unterstützung verstärkt: Heilung für die ganze Armee, EMP-Schock prozentual, Gas auf leichte und mittlere Maschinen, Klonen im Bereich und Portal mit großen Truppen.",
+  "news.body": "Basis-Tutorial mit fünf Lektionen und Willkommenshinweis, Startbildschirm-Fenster ohne dunklen Hintergrund und schnellere Späher-Beine.",
   "news.all": "Gesamten Verlauf ansehen",
   "news.all.href": "docs/historico.de.txt",
   "lang.eyebrow": "Sprachen",

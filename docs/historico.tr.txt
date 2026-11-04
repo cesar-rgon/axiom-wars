@@ -1,6 +1,13 @@
 AXIOM WARS DEĞİŞİKLİK GEÇMİŞİ
 (Sürüm, sunucuda veya istemcide yapılan son değişikliğin tarihidir.)
 
+v2026.11.04 alpha
+    Temel eğitim: başlangıç ekranındaki «Eğitim» düğmesinden gerçekten oynayarak beş kısa ders; her biri pasif bir yapay zekâya karşı alıştırma maçı başlatır, emirleri her adımın öğrettiğiyle sınırlayan sarı kutular ve 4. derste rehberli bir çatışma vardır
+    Oyun ilk açıldığında eğitimi öneren karşılama bildirimi
+    Başlangıç ekranı: Ayarlar, Eğitim ve Yenilikler arka planı karartmadan açılır; Yenilikler dil seçicinin yanında bir simge olur
+    Başkalarının yerine geçen emirler önce taşları kırmızı yaparak uyarır; «Menüye çık» sunucu bağlantısı kopsa bile çalışır
+    Kâşif: yürürken bacakları daha hızlı hareket eder
+
 v2026.11.03 alpha
     Destek: İyileştirme, her müttefik birliğin (canlı, makine ve hava) maksimum canının %20'sini iyileştirir, EMP şoku düşman birlik ve binaların kalkanının tamamını değil maksimumun %50'sini siler, Felç edici gaz ise hafif ve orta düşman kara birliklerini (organik ya da makine; ağır ve hava birlikleri hariç) etkiler
     Droid: Klonla, 3x3'teki tüm müttefik birlikleri (İnşaatçılar ve büyük birlikler dahil) kopyalanan birlik başına 200 enerjiyle kopyalar, macenta dairesel önizlemesi vardır; Boyutlar arası portal artık büyük birlikleri de taşır; düşman yemleri, "Gizlileri tespit" yetenekli bir Kaşifin ya da bir Hükümetin tespit ettiği yerde görülür

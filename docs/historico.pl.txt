@@ -1,6 +1,13 @@
 HISTORIA ZMIAN AXIOM WARS
 (Wersja to data ostatniej zmiany serwera lub klienta.)
 
+v2026.11.04 alpha
+    Podstawowy samouczek: pięć krótkich lekcji w prawdziwej grze, z przycisku «Samouczek» na ekranie startowym; każda uruchamia partię treningową przeciwko pasywnej SI, z żółtymi ramkami ograniczającymi rozkazy do tego, czego uczy dany krok, oraz prowadzoną walką w lekcji 4
+    Powitanie przy pierwszym uruchomieniu gry, polecające samouczek
+    Ekran startowy: Ustawienia, Samouczek i Nowości otwierają się bez przyciemniania tła, a Nowości stają się ikoną obok wyboru języka
+    Rozkazy zastępujące inne ostrzegają wcześniej, zmieniając pionki na czerwono, a «Wyjdź do menu» działa nawet po zerwaniu połączenia z serwerem
+    Zwiadowca: nogi poruszają się szybciej podczas marszu
+
 v2026.11.03 alpha
     Wsparcie: Leczenie leczy 20% maksymalnego zdrowia każdego sojuszniczego oddziału (żywych, maszyn i latających), Wstrząs EMP zdejmuje 50% maksymalnej tarczy wrogich oddziałów i budynków zamiast całej, a Gaz paraliżujący działa na lekkie i średnie wrogie oddziały naziemne, organiczne lub maszyny (nie na ciężkie ani latające)
     Droid: Klonuj kopiuje wszystkie sojusznicze oddziały w 3×3 (także Konstruktorów i duże oddziały) za 200 energii za skopiowany oddział, z okrągłym podglądem w kolorze magenta, a Portal wymiarowy przenosi też duże oddziały; wrogie wabiki widać tam, gdzie wykrywa Zwiadowca z „Wykrywaniem ukrytych” albo Rząd

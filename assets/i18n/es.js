@@ -219,7 +219,7 @@
   "dl.c2": "Abre el juego: la dirección del servidor ya viene rellena. Escribe tu nombre y crea una sala o únete a una.",
   "nav.news": "Novedades",
   "news.title": "Novedades",
-  "news.body": "Apoyo reforzado: Curación a todo el ejército, Shock EMP por porcentaje, Gas a máquinas ligeras y medias, Clonar en área y Portal con tropas grandes.",
+  "news.body": "Tutorial básico de cinco lecciones con aviso de bienvenida, paneles de la pantalla inicial sin fondo oscuro y patas del Explorador más rápidas.",
   "news.all": "Ver el histórico completo",
   "news.all.href": "docs/historico.es.txt",
   "lang.eyebrow": "Idiomas",

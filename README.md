@@ -186,10 +186,18 @@ curl -L https://github.com/cesar-rgon/axiom-wars/releases/latest/download/AxiomW
 
 ## Change history
 
-The latest version is **v2026.11.03 alpha**.
+The latest version is **v2026.11.04 alpha**.
 
 <details>
 <summary>Show all versions</summary>
+
+### v2026.11.04 alpha
+
+- Basic tutorial: five short lessons, playing for real, from the "Tutorial" button on the start screen; each one starts a practice match against a passive AI, with yellow boxes that limit the orders to what each step teaches and a guided fight in lesson 4
+- Welcome notice the first time the game is opened, recommending the tutorial
+- Start screen: Settings, Tutorial and News open without dimming the background, and News becomes an icon next to the language selector
+- Orders that replace others warn first by turning the tokens red, and "Leave to menu" works even if the connection to the server has dropped
+- Explorer: its legs move faster when walking
 
 ### v2026.11.03 alpha
 

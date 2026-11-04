@@ -182,7 +182,7 @@
   "mus.t14": "<strong>Pływający interfejs.</strong> Menu, zasoby, minimapa, panel budowy według poziomu Rządu i ikona dla każdego rodzaju rozkazu.",
   "mus.hint": "Przesuń palcem, aby poruszać się po osi czasu →",
   "news.title": "Nowości",
-  "news.body": "Wzmocnione wsparcie: Leczenie dla całej armii, Wstrząs EMP procentowo, gaz na lekkie i średnie maszyny, klonowanie obszarowe i Portal z dużymi oddziałami.",
+  "news.body": "Podstawowy samouczek w pięciu lekcjach z powitaniem, panele ekranu startowego bez ciemnego tła i szybsze nogi Zwiadowcy.",
   "news.all": "Zobacz pełną historię zmian",
   "news.all.href": "docs/historico.pl.txt",
   "join.eyebrow": "Społeczność",

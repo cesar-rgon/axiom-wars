@@ -1,6 +1,13 @@
 HISTÓRICO DE CAMBIOS DE AXIOM WARS
 (La versión es la fecha de la última modificación del servidor o del cliente.)
 
+v2026.11.04 alpha
+    Tutorial básico: cinco lecciones cortas, jugando de verdad, desde el botón «Tutorial» de la pantalla inicial; cada una empieza una partida de práctica contra una IA pasiva, con cajas amarillas que limitan las órdenes a lo que enseña cada paso y un combate guiado en la lección 4
+    Aviso de bienvenida la primera vez que se abre el juego, que recomienda hacer el tutorial
+    Pantalla inicial: Configuración, Tutorial y Novedades se abren sin oscurecer el fondo, y Novedades pasa a ser un icono junto al selector de idioma
+    Las órdenes que reemplazan a otras avisan antes con las fichas en rojo, y «Salir al menú» funciona aunque la conexión con el servidor se haya caído
+    Explorador: las patas se mueven más rápido al caminar
+
 v2026.11.03 alpha
     Apoyo: la Curación cura el 20 % de la vida máxima de cualquier tropa aliada (vivas, máquinas y voladoras), el Shock EMP quita el 50 % del escudo máximo de tropas y edificios enemigos en vez de todo, y el Gas paralizante afecta a las tropas terrestres enemigas ligeras y medias, orgánicas o máquinas (no a las pesadas ni a las voladoras)
     Droide: Clonar copia todas las tropas aliadas del 3×3 (también Constructores y tropas grandes) a 200 de energía por tropa copiada, con vista previa circular en magenta, y el Portal también lleva tropas grandes; los señuelos enemigos se ven donde detecta un Explorador con «Detectar ocultos» o un Gobierno

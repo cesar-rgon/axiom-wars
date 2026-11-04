@@ -1,6 +1,13 @@
 AXIOM WARS CHANGE HISTORY
 (The version is the date of the latest change to the server or the client.)
 
+v2026.11.04 alpha
+    Basic tutorial: five short lessons, playing for real, from the "Tutorial" button on the start screen; each one starts a practice match against a passive AI, with yellow boxes that limit the orders to what each step teaches and a guided fight in lesson 4
+    Welcome notice the first time the game is opened, recommending the tutorial
+    Start screen: Settings, Tutorial and News open without dimming the background, and News becomes an icon next to the language selector
+    Orders that replace others warn first by turning the tokens red, and "Leave to menu" works even if the connection to the server has dropped
+    Explorer: its legs move faster when walking
+
 v2026.11.03 alpha
     Support: Healing heals 20% of the max health of any allied troop (living, machines and aircraft), EMP shock strips 50% of the max shield of enemy troops and buildings instead of all of it, and Paralyzing gas affects light and medium enemy ground troops, organic or machine (not heavy ones or aircraft)
     Droid: Clone copies every allied troop in the 3×3 (Constructors and large troops too) at 200 energy per troop copied, with a magenta circular preview, and the Portal carries large troops too; enemy decoys are revealed where an Explorer with "Detect hidden" or a Government detects

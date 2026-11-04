@@ -182,7 +182,7 @@
   "mus.t14": "<strong>Yüzen arayüz.</strong> Menü, kaynaklar, mini harita, Hükümet seviyesine göre inşa paneli ve her emir türü için bir simge.",
   "mus.hint": "Zaman çizgisinde ilerlemek için kaydır →",
   "news.title": "Yenilikler",
-  "news.body": "Güçlendirilmiş destek: tüm orduya İyileştirme, yüzdeli EMP şoku, hafif ve orta makinelere gaz, alanlı Klonla ve büyük birlikleri taşıyan Portal.",
+  "news.body": "Karşılama bildirimli beş derslik temel eğitim, karartmasız başlangıç paneli ve daha hızlı Kâşif bacakları.",
   "news.all": "Tüm değişiklik geçmişini gör",
   "news.all.href": "docs/historico.tr.txt",
   "join.eyebrow": "Topluluk",

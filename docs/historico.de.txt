@@ -1,6 +1,13 @@
 ÄNDERUNGSVERLAUF VON AXIOM WARS
 (Die Version ist das Datum der letzten Änderung am Server oder am Client.)
 
+v2026.11.04 alpha
+    Basis-Tutorial: fünf kurze Lektionen im echten Spiel über die Schaltfläche «Tutorial» auf dem Startbildschirm; jede startet eine Übungspartie gegen eine passive KI, mit gelben Kästen, die die Befehle auf das beschränken, was der jeweilige Schritt lehrt, und einem geführten Gefecht in Lektion 4
+    Willkommenshinweis beim ersten Öffnen des Spiels, der das Tutorial empfiehlt
+    Startbildschirm: Einstellungen, Tutorial und Neuigkeiten öffnen sich ohne abgedunkelten Hintergrund, und Neuigkeiten wird zu einem Symbol neben der Sprachauswahl
+    Befehle, die andere ersetzen, warnen vorher mit roten Marken, und «Zum Menü» funktioniert auch bei unterbrochener Verbindung zum Server
+    Späher: Die Beine bewegen sich beim Gehen schneller
+
 v2026.11.03 alpha
     Unterstützung: Heilung heilt 20 % der maximalen Gesundheit jeder verbündeten Truppe (Lebewesen, Maschinen und Flieger), EMP-Schock entzieht 50 % des maximalen Schilds gegnerischer Truppen und Gebäude statt alles, und Lähmgas trifft leichte und mittlere gegnerische Bodentruppen, organisch oder Maschinen (nicht schwere und keine Flieger)
     Droide: Klonen kopiert alle verbündeten Truppen in 3×3 (auch Konstrukteure und große Truppen) für 200 Energie pro kopierter Truppe, mit kreisförmiger Magenta-Vorschau, und das Portal befördert auch große Truppen; gegnerische Attrappen sind sichtbar, wo ein Späher mit „Verborgene entdecken“ oder eine Regierung entdeckt

@@ -1,6 +1,13 @@
 HISTORIQUE DES CHANGEMENTS D'AXIOM WARS
 (La version est la date de la dernière modification du serveur ou du client.)
 
+v2026.11.04 alpha
+    Tutoriel de base : cinq courtes leçons, en jouant pour de vrai, depuis le bouton «Tutoriel» de l'écran d'accueil ; chacune lance une partie d'entraînement contre une IA passive, avec des cadres jaunes qui limitent les ordres à ce qu'enseigne chaque étape et un combat guidé à la leçon 4
+    Message de bienvenue à la première ouverture du jeu, qui recommande de suivre le tutoriel
+    Écran d'accueil : Configuration, Tutoriel et Nouveautés s'ouvrent sans assombrir le fond, et Nouveautés devient une icône à côté du sélecteur de langue
+    Les ordres qui en remplacent d'autres avertissent d'abord en passant les pions en rouge, et «Quitter vers le menu» fonctionne même si la connexion au serveur est coupée
+    Éclaireur : ses pattes bougent plus vite quand il marche
+
 v2026.11.03 alpha
     Soutien : le Soin soigne 20 % de la santé maximale de toute troupe alliée (vivante, machine ou volante), le Choc IEM retire 50 % du bouclier maximal des troupes et bâtiments ennemis au lieu de tout, et le Gaz paralysant touche les troupes terrestres ennemies légères et moyennes, organiques ou machines (ni lourdes ni volantes)
     Droïde : Cloner copie toutes les troupes alliées de la zone 3×3 (Constructeurs et grandes troupes compris) pour 200 d'énergie par troupe copiée, avec un aperçu circulaire magenta, et le Portail emmène aussi les grandes troupes ; les leurres ennemis sont révélés là où détecte un Éclaireur avec « Détection des cachés » ou un Gouvernement

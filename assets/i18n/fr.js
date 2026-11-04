@@ -195,7 +195,7 @@
   "dl.c2": "Lancez le jeu : l'adresse du serveur est déjà remplie. Saisissez votre nom, puis créez un salon ou rejoignez-en un.",
   "nav.news": "Nouveautés",
   "news.title": "Nouveautés",
-  "news.body": "Soutien renforcé : Soin pour toute l'armée, Choc IEM en pourcentage, Gaz sur machines légères et moyennes, Clonage de zone et Portail avec grandes troupes.",
+  "news.body": "Tutoriel de base en cinq leçons avec message de bienvenue, panneaux de l'accueil sans fond sombre et pattes de l'Éclaireur plus rapides.",
   "news.all": "Voir tout l'historique",
   "news.all.href": "docs/historico.fr.txt",
   "lang.eyebrow": "Langues",
