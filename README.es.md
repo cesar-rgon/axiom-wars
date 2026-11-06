@@ -198,6 +198,7 @@ La última versión es **v2026.11.06 alpha**.
 - Una tropa enterrada nunca bloquea el paso de otras tropas, ni propias ni enemigas
 - Primer arranque del cliente nativo: el nombre de jugador viene ya rellenado (se puede cambiar)
 - Meca: Escudo+ (nivel 3) sustituye a Combustible-, con Pisotón y Escudo reflector reajustados; Científico: Curación y Shock EMP reajustados
+- Tutorial intermedio: cinco lecciones nuevas (grupos de tropas, Mayús y órdenes que reemplazan, alcance y combate simultáneo, energía y defensas, defenderse de un ataque), cada una con su partida de práctica, desde el botón «Tutorial» de la pantalla inicial
 
 ### v2026.11.04 alpha
 

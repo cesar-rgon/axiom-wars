@@ -7,6 +7,7 @@ v2026.11.06 alpha
     Gömülü bir birlik, dost ya da düşman, diğer birliklerin yolunu asla kapatmaz
     Yerel istemcinin ilk açılışı: oyuncu adı hazır doldurulmuş gelir (değiştirilebilir)
     Meka: Kalkan+ (seviye 3) Yakıt-'ın yerini alır, Çiğneme ve Yansıtıcı kalkan yeniden ayarlandı; Bilim insanı: Şifa ve EMP Şoku yeniden ayarlandı
+    Orta seviye eğitim: beş yeni ders (birlik grupları, Shift ve değiştiren emirler, menzil ve eşzamanlı çatışma, enerji ve savunmalar, saldırıya karşı savunma), her birinin kendi alıştırma maçı var; başlangıç ekranındaki «Eğitimler» düğmesinden
 
 v2026.11.04 alpha
     Temel eğitim: başlangıç ekranındaki «Eğitim» düğmesinden gerçekten oynayarak beş kısa ders; her biri pasif bir yapay zekâya karşı alıştırma maçı başlatır, emirleri her adımın öğrettiğiyle sınırlayan sarı kutular ve 4. derste rehberli bir çatışma vardır

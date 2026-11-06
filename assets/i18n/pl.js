@@ -188,7 +188,7 @@
   "mus.t14": "<strong>Pływający interfejs.</strong> Menu, zasoby, minimapa, panel budowy według poziomu Rządu i ikona dla każdego rodzaju rozkazu.",
   "mus.hint": "Przesuń palcem, aby poruszać się po osi czasu →",
   "news.title": "Nowości",
-  "news.body": "Czytelniejsze lupy (bliskie budynki w jednej, bez powtórzeń, większe przybliżenie), porzucone lobby zamykane, zakopane oddziały nie przeszkadzają i domyślna nazwa.",
+  "news.body": "Czytelniejsze lupy (bliskie budynki w jednej, bez powtórzeń, większe przybliżenie), porzucone lobby zamykane, zakopane oddziały nie przeszkadzają i domyślna nazwa. Nowy samouczek średniozaawansowany z pięcioma lekcjami.",
   "news.all": "Zobacz pełną historię zmian",
   "news.all.href": "docs/historico.pl.txt",
   "join.eyebrow": "Społeczność",

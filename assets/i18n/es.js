@@ -225,7 +225,7 @@
   "dl.c2": "Abre el juego: la dirección del servidor ya viene rellena. Escribe tu nombre y crea una sala o únete a una.",
   "nav.news": "Novedades",
   "news.title": "Novedades",
-  "news.body": "Lupas más claras (edificios juntos en una, avisos sin repetir, más zoom), lobbies abandonados cerrados, tropas enterradas que no estorban y nombre por defecto.",
+  "news.body": "Lupas más claras (edificios juntos en una, avisos sin repetir, más zoom), lobbies abandonados cerrados, tropas enterradas que no estorban y nombre por defecto. Tutorial intermedio con cinco lecciones nuevas.",
   "news.all": "Ver el histórico completo",
   "news.all.href": "docs/historico.es.txt",
   "lang.eyebrow": "Idiomas",

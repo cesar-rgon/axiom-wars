@@ -7,6 +7,7 @@ v2026.11.06 alpha
     Una truppa interrata non blocca mai il passaggio di altre truppe, alleate o nemiche
     Primo avvio del client nativo: il nome del giocatore è già compilato (modificabile)
     Meca: Scudo+ (livello 3) sostituisce Carburante-, con Calpestio e Scudo riflettente ritoccati; Scienziato: Cura e Shock EMP ritoccati
+    Tutorial intermedio: cinque nuove lezioni (gruppi di truppe, Maiusc e ordini che sostituiscono, portata e combattimento simultaneo, energia e difese, difendersi da un attacco), ognuna con la sua partita di pratica, dal pulsante «Tutorial» della schermata iniziale
 
 v2026.11.04 alpha
     Tutorial di base: cinque brevi lezioni, giocando davvero, dal pulsante «Tutorial» della schermata iniziale; ognuna avvia una partita di prova contro un'IA passiva, con riquadri gialli che limitano gli ordini a ciò che insegna ogni passo e uno scontro guidato nella lezione 4

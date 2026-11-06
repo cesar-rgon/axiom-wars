@@ -198,6 +198,7 @@ The latest version is **v2026.11.06 alpha**.
 - A buried troop never blocks the way of other troops, friendly or enemy
 - First launch of the native client: the player name comes pre-filled (it can be changed)
 - Meca: Shield+ (level 3) replaces Fuel-, with Stomp and Reflector shield retuned; Scientist: Healing and EMP Shock retuned
+- Intermediate tutorial: five new lessons (troop groups, Shift and replacing orders, range and simultaneous combat, energy and defences, defending against an attack), each with its own practice match, from the «Tutorial» button on the start screen
 
 ### v2026.11.04 alpha
 

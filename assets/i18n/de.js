@@ -201,7 +201,7 @@
   "dl.c2": "Starte das Spiel: Die Serveradresse ist schon eingetragen. Gib deinen Namen ein und erstelle einen Raum oder tritt einem bei.",
   "nav.news": "Neuigkeiten",
   "news.title": "Neuigkeiten",
-  "news.body": "Klarere Lupen (nahe Gebäude in einer, keine doppelten Meldungen, mehr Zoom), verlassene Lobbys geschlossen, eingegrabene Truppen im Weg und ein Standardname.",
+  "news.body": "Klarere Lupen (nahe Gebäude in einer, keine doppelten Meldungen, mehr Zoom), verlassene Lobbys geschlossen, eingegrabene Truppen im Weg und ein Standardname. Neues Mittelstufen-Tutorial mit fünf Lektionen.",
   "news.all": "Gesamten Verlauf ansehen",
   "news.all.href": "docs/historico.de.txt",
   "lang.eyebrow": "Sprachen",

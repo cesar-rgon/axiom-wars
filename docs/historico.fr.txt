@@ -7,6 +7,7 @@ v2026.11.06 alpha
     Une troupe enterrée ne bloque jamais le passage des autres troupes, alliées ou ennemies
     Premier lancement du client natif : le nom du joueur est déjà rempli (modifiable)
     Méca : Bouclier+ (niveau 3) remplace Carburant-, avec Piétinement et Bouclier réflecteur réajustés ; Scientifique : Soin et Choc EMP réajustés
+    Tutoriel intermédiaire : cinq nouvelles leçons (groupes de troupes, Maj et ordres qui remplacent, portée et combat simultané, énergie et défenses, se défendre d'une attaque), chacune avec sa partie d'entraînement, depuis le bouton «Tutoriels» de l'écran d'accueil
 
 v2026.11.04 alpha
     Tutoriel de base : cinq courtes leçons, en jouant pour de vrai, depuis le bouton «Tutoriel» de l'écran d'accueil ; chacune lance une partie d'entraînement contre une IA passive, avec des cadres jaunes qui limitent les ordres à ce qu'enseigne chaque étape et un combat guidé à la leçon 4

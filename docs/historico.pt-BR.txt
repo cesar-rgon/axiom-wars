@@ -7,6 +7,7 @@ v2026.11.06 alpha
     Uma tropa enterrada nunca bloqueia a passagem de outras tropas, aliadas ou inimigas
     Primeira inicialização do cliente nativo: o nome do jogador já vem preenchido (pode ser alterado)
     Meca: Escudo+ (nível 3) substitui Combustível-, com Pisão e Escudo refletor reajustados; Cientista: Cura e Choque EMP reajustados
+    Tutorial intermediário: cinco lições novas (grupos de tropas, Shift e ordens que substituem, alcance e combate simultâneo, energia e defesas, defender-se de um ataque), cada uma com sua partida de prática, pelo botão «Tutoriais» da tela inicial
 
 v2026.11.04 alpha
     Tutorial básico: cinco lições curtas, jogando de verdade, pelo botão «Tutorial» da tela inicial; cada uma inicia uma partida de treino contra uma IA passiva, com caixas amarelas que limitam as ordens ao que cada passo ensina e um combate guiado na lição 4

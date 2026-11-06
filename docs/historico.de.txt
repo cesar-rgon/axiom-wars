@@ -7,6 +7,7 @@ v2026.11.06 alpha
     Eine eingegrabene Truppe blockiert nie den Weg anderer Truppen, weder eigener noch feindlicher
     Erster Start des nativen Clients: Der Spielername ist bereits ausgefüllt (änderbar)
     Meca: Schild+ (Stufe 3) ersetzt Treibstoff-, Stampfen und Reflektorschild angepasst; Wissenschaftler: Heilung und EMP-Schock angepasst
+    Mittelstufen-Tutorial: fünf neue Lektionen (Truppengruppen, Shift und ersetzende Befehle, Reichweite und gleichzeitiger Kampf, Energie und Verteidigung, sich gegen einen Angriff verteidigen), jede mit eigener Übungspartie, über die Schaltfläche «Tutorial» des Startbildschirms
 
 v2026.11.04 alpha
     Basis-Tutorial: fünf kurze Lektionen im echten Spiel über die Schaltfläche «Tutorial» auf dem Startbildschirm; jede startet eine Übungspartie gegen eine passive KI, mit gelben Kästen, die die Befehle auf das beschränken, was der jeweilige Schritt lehrt, und einem geführten Gefecht in Lektion 4

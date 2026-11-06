@@ -188,7 +188,7 @@
   "mus.t14": "<strong>Yüzen arayüz.</strong> Menü, kaynaklar, mini harita, Hükümet seviyesine göre inşa paneli ve her emir türü için bir simge.",
   "mus.hint": "Zaman çizgisinde ilerlemek için kaydır →",
   "news.title": "Yenilikler",
-  "news.body": "Daha net büyüteçler (yakın binalar tek büyüteçte, tekrarsız uyarılar, daha çok yakınlaştırma), terk edilmiş lobilerin kapanması, yol kesmeyen gömülü birlikler ve varsayılan ad.",
+  "news.body": "Daha net büyüteçler (yakın binalar tek büyüteçte, tekrarsız uyarılar, daha çok yakınlaştırma), terk edilmiş lobilerin kapanması, yol kesmeyen gömülü birlikler ve varsayılan ad. Beş dersten oluşan yeni orta seviye eğitim.",
   "news.all": "Tüm değişiklik geçmişini gör",
   "news.all.href": "docs/historico.tr.txt",
   "join.eyebrow": "Topluluk",
