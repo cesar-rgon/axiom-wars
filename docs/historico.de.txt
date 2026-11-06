@@ -1,6 +1,13 @@
 ÄNDERUNGSVERLAUF VON AXIOM WARS
 (Die Version ist das Datum der letzten Änderung am Server oder am Client.)
 
+v2026.11.06 alpha
+    Lupen: nahe beieinander fertiggestellte Gebäude teilen sich eine Lupe, Fehlermeldungen zu Befehlen erscheinen einmal und bleiben lange genug lesbar, die Lupen zoomen stärker, schneiden die Animation von Verbesserungen nicht mehr ab und sitzen direkt über dem Ereignis
+    Lobbys ohne verbundenen Spieler schließen sich nach 5 Minuten selbst
+    Eine eingegrabene Truppe blockiert nie den Weg anderer Truppen, weder eigener noch feindlicher
+    Erster Start des nativen Clients: Der Spielername ist bereits ausgefüllt (änderbar)
+    Meca: Schild+ (Stufe 3) ersetzt Treibstoff-, Stampfen und Reflektorschild angepasst; Wissenschaftler: Heilung und EMP-Schock angepasst
+
 v2026.11.04 alpha
     Basis-Tutorial: fünf kurze Lektionen im echten Spiel über die Schaltfläche «Tutorial» auf dem Startbildschirm; jede startet eine Übungspartie gegen eine passive KI, mit gelben Kästen, die die Befehle auf das beschränken, was der jeweilige Schritt lehrt, und einem geführten Gefecht in Lektion 4
     Willkommenshinweis beim ersten Öffnen des Spiels, der das Tutorial empfiehlt

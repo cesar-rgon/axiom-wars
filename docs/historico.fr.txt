@@ -1,6 +1,13 @@
 HISTORIQUE DES CHANGEMENTS D'AXIOM WARS
 (La version est la date de la dernière modification du serveur ou du client.)
 
+v2026.11.06 alpha
+    Loupes : les bâtiments terminés à proximité partagent une seule loupe, les avis d'erreur des ordres apparaissent une fois et restent assez longtemps pour être lus, les loupes zooment davantage, ne coupent plus l'animation des améliorations et se placent juste au-dessus de l'événement
+    Les salons sans aucun joueur connecté pendant 5 minutes se ferment seuls
+    Une troupe enterrée ne bloque jamais le passage des autres troupes, alliées ou ennemies
+    Premier lancement du client natif : le nom du joueur est déjà rempli (modifiable)
+    Méca : Bouclier+ (niveau 3) remplace Carburant-, avec Piétinement et Bouclier réflecteur réajustés ; Scientifique : Soin et Choc EMP réajustés
+
 v2026.11.04 alpha
     Tutoriel de base : cinq courtes leçons, en jouant pour de vrai, depuis le bouton «Tutoriel» de l'écran d'accueil ; chacune lance une partie d'entraînement contre une IA passive, avec des cadres jaunes qui limitent les ordres à ce qu'enseigne chaque étape et un combat guidé à la leçon 4
     Message de bienvenue à la première ouverture du jeu, qui recommande de suivre le tutoriel

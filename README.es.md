@@ -186,10 +186,18 @@ curl -L https://github.com/cesar-rgon/axiom-wars/releases/latest/download/AxiomW
 
 ## Histórico de cambios
 
-La última versión es **v2026.11.04 alpha**.
+La última versión es **v2026.11.06 alpha**.
 
 <details>
 <summary>Ver todas las versiones</summary>
+
+### v2026.11.06 alpha
+
+- Lupas: los edificios terminados cerca unos de otros comparten una sola lupa, los avisos de error de las órdenes salen una vez y duran lo suficiente para leerse, las lupas amplían más, no cortan la animación de las mejoras y se colocan justo encima del evento
+- Los lobbies sin ningún jugador conectado durante 5 minutos se cierran solos
+- Una tropa enterrada nunca bloquea el paso de otras tropas, ni propias ni enemigas
+- Primer arranque del cliente nativo: el nombre de jugador viene ya rellenado (se puede cambiar)
+- Meca: Escudo+ (nivel 3) sustituye a Combustible-, con Pisotón y Escudo reflector reajustados; Científico: Curación y Shock EMP reajustados
 
 ### v2026.11.04 alpha
 

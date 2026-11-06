@@ -1,6 +1,13 @@
 AXIOM WARS DEĞİŞİKLİK GEÇMİŞİ
 (Sürüm, sunucuda veya istemcide yapılan son değişikliğin tarihidir.)
 
+v2026.11.06 alpha
+    Büyüteçler: birbirine yakın tamamlanan binalar tek büyüteci paylaşır, emir hata uyarıları bir kez çıkar ve okunacak kadar kalır, büyüteçler daha çok yaklaştırır, geliştirme animasyonunu artık kesmez ve olayın hemen üstüne yerleşir
+    5 dakika boyunca bağlı oyuncusu olmayan lobiler kendiliğinden kapanır
+    Gömülü bir birlik, dost ya da düşman, diğer birliklerin yolunu asla kapatmaz
+    Yerel istemcinin ilk açılışı: oyuncu adı hazır doldurulmuş gelir (değiştirilebilir)
+    Meka: Kalkan+ (seviye 3) Yakıt-'ın yerini alır, Çiğneme ve Yansıtıcı kalkan yeniden ayarlandı; Bilim insanı: Şifa ve EMP Şoku yeniden ayarlandı
+
 v2026.11.04 alpha
     Temel eğitim: başlangıç ekranındaki «Eğitim» düğmesinden gerçekten oynayarak beş kısa ders; her biri pasif bir yapay zekâya karşı alıştırma maçı başlatır, emirleri her adımın öğrettiğiyle sınırlayan sarı kutular ve 4. derste rehberli bir çatışma vardır
     Oyun ilk açıldığında eğitimi öneren karşılama bildirimi

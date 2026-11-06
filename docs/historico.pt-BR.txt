@@ -1,6 +1,13 @@
 HISTÓRICO DE MUDANÇAS DE AXIOM WARS
 (A versão é a data da última mudança no servidor ou no cliente.)
 
+v2026.11.06 alpha
+    Lupas: edifícios concluídos perto uns dos outros compartilham uma só lupa, os avisos de erro das ordens aparecem uma vez e duram o bastante para serem lidos, as lupas aproximam mais, não cortam mais a animação das melhorias e ficam logo acima do evento
+    Lobbies sem nenhum jogador conectado por 5 minutos se fecham sozinhos
+    Uma tropa enterrada nunca bloqueia a passagem de outras tropas, aliadas ou inimigas
+    Primeira inicialização do cliente nativo: o nome do jogador já vem preenchido (pode ser alterado)
+    Meca: Escudo+ (nível 3) substitui Combustível-, com Pisão e Escudo refletor reajustados; Cientista: Cura e Choque EMP reajustados
+
 v2026.11.04 alpha
     Tutorial básico: cinco lições curtas, jogando de verdade, pelo botão «Tutorial» da tela inicial; cada uma inicia uma partida de treino contra uma IA passiva, com caixas amarelas que limitam as ordens ao que cada passo ensina e um combate guiado na lição 4
     Aviso de boas-vindas na primeira vez que o jogo é aberto, recomendando o tutorial

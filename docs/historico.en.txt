@@ -1,6 +1,13 @@
 AXIOM WARS CHANGE HISTORY
 (The version is the date of the latest change to the server or the client.)
 
+v2026.11.06 alpha
+    Lupas: buildings finished close to each other share one lupa, order error notices appear once and last long enough to be read, lupas zoom in more, no longer cut an upgrade's animation and sit right above the event
+    Lobbies with no connected player for 5 minutes close by themselves
+    A buried troop never blocks the way of other troops, friendly or enemy
+    First launch of the native client: the player name comes pre-filled (it can be changed)
+    Meca: Shield+ (level 3) replaces Fuel-, with Stomp and Reflector shield retuned; Scientist: Healing and EMP Shock retuned
+
 v2026.11.04 alpha
     Basic tutorial: five short lessons, playing for real, from the "Tutorial" button on the start screen; each one starts a practice match against a passive AI, with yellow boxes that limit the orders to what each step teaches and a guided fight in lesson 4
     Welcome notice the first time the game is opened, recommending the tutorial

@@ -188,7 +188,7 @@
   "mus.t14": "<strong>Pływający interfejs.</strong> Menu, zasoby, minimapa, panel budowy według poziomu Rządu i ikona dla każdego rodzaju rozkazu.",
   "mus.hint": "Przesuń palcem, aby poruszać się po osi czasu →",
   "news.title": "Nowości",
-  "news.body": "Podstawowy samouczek w pięciu lekcjach z powitaniem, panele ekranu startowego bez ciemnego tła i szybsze nogi Zwiadowcy.",
+  "news.body": "Czytelniejsze lupy (bliskie budynki w jednej, bez powtórzeń, większe przybliżenie), porzucone lobby zamykane, zakopane oddziały nie przeszkadzają i domyślna nazwa.",
   "news.all": "Zobacz pełną historię zmian",
   "news.all.href": "docs/historico.pl.txt",
   "join.eyebrow": "Społeczność",

@@ -188,7 +188,7 @@
   "mus.t14": "<strong>Interface flutuante.</strong> Menu, recursos, minimapa, um painel de construção por nível de Governo e um ícone para cada tipo de ordem.",
   "mus.hint": "Deslize para percorrer a linha do tempo →",
   "news.title": "Novidades",
-  "news.body": "Tutorial básico de cinco lições com aviso de boas-vindas, painéis da tela inicial sem fundo escuro e patas do Explorador mais rápidas.",
+  "news.body": "Lupas mais claras (edifícios próximos em uma só, avisos sem repetição, mais zoom), lobbies abandonados fechados, tropas enterradas que não atrapalham e nome padrão.",
   "news.all": "Ver o histórico completo de mudanças",
   "join.eyebrow": "Comunidade",
   "join.title": "Jogue com a gente",

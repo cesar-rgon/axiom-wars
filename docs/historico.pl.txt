@@ -1,6 +1,13 @@
 HISTORIA ZMIAN AXIOM WARS
 (Wersja to data ostatniej zmiany serwera lub klienta.)
 
+v2026.11.06 alpha
+    Lupy: budynki ukończone blisko siebie dzielą jedną lupę, komunikaty o błędach rozkazów pojawiają się raz i trwają wystarczająco długo, by je przeczytać, lupy mocniej przybliżają, nie ucinają animacji ulepszeń i ustawiają się tuż nad zdarzeniem
+    Lobby bez żadnego połączonego gracza przez 5 minut zamykają się same
+    Zakopany oddział nigdy nie blokuje przejścia innym oddziałom, własnym ani wrogim
+    Pierwsze uruchomienie klienta natywnego: nazwa gracza jest już wypełniona (można ją zmienić)
+    Meca: Tarcza+ (poziom 3) zastępuje Paliwo-, Tupnięcie i Tarcza odbijająca dostrojone; Naukowiec: Leczenie i Szok EMP dostrojone
+
 v2026.11.04 alpha
     Podstawowy samouczek: pięć krótkich lekcji w prawdziwej grze, z przycisku «Samouczek» na ekranie startowym; każda uruchamia partię treningową przeciwko pasywnej SI, z żółtymi ramkami ograniczającymi rozkazy do tego, czego uczy dany krok, oraz prowadzoną walką w lekcji 4
     Powitanie przy pierwszym uruchomieniu gry, polecające samouczek

@@ -186,10 +186,18 @@ curl -L https://github.com/cesar-rgon/axiom-wars/releases/latest/download/AxiomW
 
 ## Change history
 
-The latest version is **v2026.11.04 alpha**.
+The latest version is **v2026.11.06 alpha**.
 
 <details>
 <summary>Show all versions</summary>
+
+### v2026.11.06 alpha
+
+- Lupas: buildings finished close to each other share one lupa, order error notices appear once and last long enough to be read, lupas zoom in more, no longer cut an upgrade's animation and sit right above the event
+- Lobbies with no connected player for 5 minutes close by themselves
+- A buried troop never blocks the way of other troops, friendly or enemy
+- First launch of the native client: the player name comes pre-filled (it can be changed)
+- Meca: Shield+ (level 3) replaces Fuel-, with Stomp and Reflector shield retuned; Scientist: Healing and EMP Shock retuned
 
 ### v2026.11.04 alpha
 
