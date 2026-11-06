@@ -39,7 +39,7 @@ _Nueva unidad · Facción Terránea_
 | | Nombre | Detalles |
 |---|---|---|
 | ⚔️ Arma | _no aplica_ |  |
-| ✨ Activa | **Curación** | Coste 2 PA y 50 energía · Recarga 1 vez cada 3 turnos · Efecto Cura 20 de vida a cada individuo de los aliados en 3x3. Alcance 4. · Compra 1000 energía |
+| ✨ Activa | **Curación** | Coste 2 PA y 50 energía · Recarga 1 vez cada 5 turnos · Efecto Cura el 5% de la vida máxima de cada individuo de las tropas aliadas en 3x3 (vivas, máquinas y voladoras). Alcance 4. · Compra 1000 energía |
 | 🛡️ Pasiva | _no aplica_ |  |
 
 ## Gobierno 2
@@ -47,7 +47,7 @@ _Nueva unidad · Facción Terránea_
 | | Nombre | Detalles |
 |---|---|---|
 | ⚔️ Arma | _no aplica_ |  |
-| ✨ Activa | **Shock EMP** | Coste 3 PA y 150 energía · Recarga 1 vez cada 4 turnos · Efecto Vacía escudos y bloquea habilidades 1 turno en 3x3. Alcance 4. · Compra 2500 energía |
+| ✨ Activa | **Shock EMP** | Coste 3 PA y 150 energía · Recarga 1 vez cada 5 turnos · Efecto Quita el 30% del escudo máximo y bloquea habilidades 1 turno en 3x3 (tropas y edificios enemigos). Alcance 4. · Compra 2500 energía |
 | 🛡️ Pasiva | **Aura Escudo** | Condición Siempre · Efecto +10 de escudo por turno a aliados adyacentes. No se acumula con otra Aura Escudo. · Compra 2500 energía |
 | 🛡️ Pasiva | **Instrucción+** | Condición Siempre · Efecto +1 PA propio por individuo a Militares y Científicos. · Compra 2500 energía |
 
@@ -56,7 +56,7 @@ _Nueva unidad · Facción Terránea_
 | | Nombre | Detalles |
 |---|---|---|
 | ⚔️ Arma | _no aplica_ |  |
-| ✨ Activa | **Gas paralizante** | Coste 3 PA y 100 energía · Recarga 1 vez cada 3 turnos · Efecto Orgánicos en 3x3 no mueven ni atacan 1 turno. Alcance 4. · Compra 5000 energía |
+| ✨ Activa | **Gas paralizante** | Coste 3 PA y 100 energía · Recarga 1 vez cada 3 turnos · Efecto Tropas de tierra enemigas, orgánicas o máquinas (no pesadas ni aéreas), en 3x3 no mueven ni atacan 1 turno. Alcance 4. · Compra 5000 energía |
 | 🛡️ Pasiva | **Aura Vida** | Condición Siempre · Efecto +5 de vida por turno a aliados adyacentes. No se acumula con otra Aura Vida. · Compra 5000 energía |
 | 🛡️ Pasiva | **Instrucción++** | Condición Siempre · Efecto Otro +1 PA propio por individuo a Militares y Científicos. · Compra 5000 energía (requiere Instrucción+) |
 

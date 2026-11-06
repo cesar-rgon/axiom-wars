@@ -39,7 +39,7 @@ _New unit · Terran Faction_
 | | Name | Details |
 |---|---|---|
 | ⚔️ Weapon | _not applicable_ |  |
-| ✨ Active | **Healing** | Cost 2 AP and 50 energy · Cooldown Once every 3 turns · Effect Heals 20 health to each individual of allies in 3x3. Range 4. · Purchase 1000 energy |
+| ✨ Active | **Healing** | Cost 2 AP and 50 energy · Cooldown Once every 5 turns · Effect Heals 5% of the max health of each individual of allied troops in 3x3 (living, machines and aircraft). Range 4. · Purchase 1000 energy |
 | 🛡️ Passive | _not applicable_ |  |
 
 ## Government 2
@@ -47,7 +47,7 @@ _New unit · Terran Faction_
 | | Name | Details |
 |---|---|---|
 | ⚔️ Weapon | _not applicable_ |  |
-| ✨ Active | **EMP Shock** | Cost 3 AP and 150 energy · Cooldown Once every 4 turns · Effect Drains shields and blocks abilities for 1 turn in 3x3. Range 4. · Purchase 2500 energy |
+| ✨ Active | **EMP Shock** | Cost 3 AP and 150 energy · Cooldown Once every 5 turns · Effect Strips 30% of the max shield and blocks abilities for 1 turn in 3x3 (enemy troops and buildings). Range 4. · Purchase 2500 energy |
 | 🛡️ Passive | **Shield Aura** | Condition Always · Effect +10 shield per turn to adjacent allies. Does not stack with another Shield Aura. · Purchase 2500 energy |
 | 🛡️ Passive | **Training+** | Condition Always · Effect +1 own AP per individual for Military and Scientists. · Purchase 2500 energy |
 
@@ -56,7 +56,7 @@ _New unit · Terran Faction_
 | | Name | Details |
 |---|---|---|
 | ⚔️ Weapon | _not applicable_ |  |
-| ✨ Active | **Paralyzing gas** | Cost 3 AP and 100 energy · Cooldown Once every 3 turns · Effect Organic units in 3x3 cannot move or attack for 1 turn. Range 4. · Purchase 5000 energy |
+| ✨ Active | **Paralyzing gas** | Cost 3 AP and 100 energy · Cooldown Once every 3 turns · Effect Enemy ground troops, organic or machine (not heavy, not aircraft), in 3x3 cannot move or attack for 1 turn. Range 4. · Purchase 5000 energy |
 | 🛡️ Passive | **Health Aura** | Condition Always · Effect +5 health per turn to adjacent allies. Does not stack with another Health Aura. · Purchase 5000 energy |
 | 🛡️ Passive | **Training++** | Condition Always · Effect Another +1 own AP per individual for Military and Scientists. · Purchase 5000 energy (requires Training+) |
 

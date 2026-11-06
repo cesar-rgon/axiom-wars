@@ -26,7 +26,7 @@ _Unidad mecanizada de asalto · Facción Terránea_
 
 | Vida (HP) | Escudo máx. | Regen. escudo | Absorción | Clase objetivo | Naturaleza |
 |---|---|---|---|---|---|
-| 250 | 150 | +5 / turno | 80% escudo | Pesada | Mecánica |
+| 130 | 85 | +5 / turno | 80% escudo | Pesada | Mecánica |
 
 ### Movimiento y tropa
 
@@ -42,9 +42,9 @@ _No disponible: El Meca se fabrica en la Fábrica Terrestre, que requiere Gobier
 
 | | Nombre | Detalles |
 |---|---|---|
-| ⚔️ Arma | **Lanzallamas** | Modalidad Terrestre · Daño 60 × individuo · Tipo/alcance Distancia · 3 · Perfil AntiLigera 100/70/40/40% · Efecto Área 3x3 (100% en el centro, 50% alrededor). Quema el 50% del daño el turno siguiente. · Ataques/turno Cada turno · Coste 2 PA y 5 combustible por individuo · Compra Incluida con la unidad |
-| ⚔️ Arma | **Misiles** | Modalidad Tierra-Aire · Daño 60 × individuo · Tipo/alcance Distancia · 6 · Perfil AntiPesada 40/70/100/100% · Efecto Precisión: la mitad del daño ignora el escudo. · Ataques/turno 1 vez cada 2 turnos · Coste PA 2 PA por individuo · Compra 2000 energía |
-| ✨ Activa | **Pisotón** | Coste 2 PA y 100 energía · Recarga 1 vez cada 3 turnos · Efecto 40 por individuo y aturde 1 turno a las unidades terrestres enemigas en 3x3. · Compra 2500 energía |
+| ⚔️ Arma | **Lanzallamas** | Modalidad Terrestre · Daño 48 × individuo · Tipo/alcance Distancia · 3 · Perfil AntiLigera 100/70/40/40% · Efecto Área 3x3 (100% en el centro, 50% alrededor). Quema el 50% del daño el turno siguiente. · Ataques/turno Cada turno · Coste 2 PA y 5 combustible por individuo · Compra Incluida con la unidad |
+| ⚔️ Arma | **Misiles** | Modalidad Tierra-Aire · Daño 51 × individuo · Tipo/alcance Distancia · 6 · Perfil AntiPesada 40/70/100/100% · Efecto Precisión: la mitad del daño ignora el escudo. · Ataques/turno 1 vez cada 2 turnos · Coste PA 2 PA por individuo · Compra 2000 energía |
+| ✨ Activa | **Pisotón** | Coste 2 PA y 100 energía · Recarga 1 vez cada 5 turnos · Efecto 20 por individuo y aturde 1 turno a las unidades terrestres enemigas en 3x3. · Compra 2500 energía |
 | 🛡️ Pasiva | **Energía-** | Condición Siempre · Efecto Gasta un 30% menos de Energía por turno. · Compra 2500 energía |
 | 🛡️ Pasiva | **Motores optimizados+** | Condición Siempre · Efecto +1 PA propio por individuo a Mecas y Transportes APC. · Compra 2500 energía |
 
@@ -53,8 +53,8 @@ _No disponible: El Meca se fabrica en la Fábrica Terrestre, que requiere Gobier
 | | Nombre | Detalles |
 |---|---|---|
 | ⚔️ Arma | **Freezergun** | Modalidad Terrestre · Daño 10 × individuo · Tipo/alcance Distancia · 5 · Perfil AntiLigera 100/70/40/40% · Efecto Área 3x3 (100% en el centro, 50% alrededor). Ralentiza 50% 2 turnos. · Ataques/turno 1 vez cada 2 turnos · Coste 2 PA y 20 energía por individuo · Compra 4000 energía |
-| ✨ Activa | **Escudo reflector** | Coste 2 PA y 100 energía por individuo · Recarga 1 vez cada 3 turnos · Efecto +100 de escudo por individuo 2 turnos. Devuelve el 25% del daño absorbido. · Compra 4000 energía |
-| 🛡️ Pasiva | **Combustible-** | Condición Siempre · Efecto Gasta el 80% del combustible al moverse (1,6 por casilla) y en el Lanzallamas (4 por individuo). · Compra 5000 energía |
+| ✨ Activa | **Escudo reflector** | Coste 2 PA y 100 energía por individuo · Recarga 1 vez cada 4 turnos · Efecto +50 de escudo por individuo 2 turnos. Devuelve el 25% del daño absorbido. · Compra 4000 energía |
+| 🛡️ Pasiva | **Escudo+** | Condición Siempre · Efecto +70% de escudo máximo propio a los Mecas. · Compra 5000 energía |
 | 🛡️ Pasiva | **Motores optimizados++** | Condición Siempre · Efecto Otro +1 PA propio por individuo a Mecas y Transportes APC. · Compra 5000 energía (requiere Motores optimizados+) |
 
 ---
