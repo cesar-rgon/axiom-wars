@@ -153,36 +153,29 @@ Criaturas neutrales que no pertenecen a ningún jugador. Las dóciles deambulan 
 
 ## Descargar y jugar
 
-Instala y arranca con un solo comando. Descarga la última versión en la carpeta actual, la descomprime y abre el juego; vuelve a ejecutarlo para actualizar.
+Instala y arranca con un script. Descarga la última versión en tu carpeta de usuario (`C:\Users\<tú>` en Windows, `$HOME` en Linux y Mac), sustituye la instalación anterior y abre el juego. No hace falta ser administrador; vuelve a ejecutarlo para actualizar.
 
-En Windows, en PowerShell:
+**Windows**
 
-```powershell
-curl.exe -L -o AxiomWars.zip https://github.com/cesar-rgon/axiom-wars/releases/latest/download/AxiomWars-Windows-x64.zip; tar -xf AxiomWars.zip; del AxiomWars.zip; .\AxiomWars\AxiomWars.exe
-```
+1. Descarga [`install.bat`](scripts/install.bat). Si el navegador avisa, elige «Conservar».
+2. Desbloquéalo: clic derecho sobre el archivo, Propiedades, marca «Desbloquear», Aceptar. Si no aparece la casilla, ya está desbloqueado.
+3. Haz doble clic en `install.bat`. Si sale «Windows protegió su PC», pulsa «Más información» y «Ejecutar de todas formas».
 
-En Linux, en una terminal:
+**Mac (Apple Silicon e Intel)**
 
-```bash
-curl -L https://github.com/cesar-rgon/axiom-wars/releases/latest/download/AxiomWars-Linux-x64.tar.gz | tar -xz && ./AxiomWars/AxiomWars
-```
+1. Descarga [`install.sh`](scripts/install.sh).
+2. Abre la app Terminal y desbloquea el archivo: `xattr -d com.apple.quarantine ~/Downloads/install.sh`
+3. Ejecútalo: `bash ~/Downloads/install.sh` (requiere macOS 11 o posterior).
 
-Mac (Apple Silicon: M1 o posterior), en una terminal:
+**Linux**
 
-```bash
-curl -L https://github.com/cesar-rgon/axiom-wars/releases/latest/download/AxiomWars-Mac-arm64.tar.gz | tar -xz && ./AxiomWars/AxiomWars
-```
+1. Descarga [`install.sh`](scripts/install.sh).
+2. Abre una terminal. No hay nada que desbloquear.
+3. Ejecútalo: `bash ~/Downloads/install.sh` (cambia la ruta si tu carpeta de descargas tiene otro nombre).
 
-Mac (Intel), en una terminal:
+Después, abre **AxiomWars.exe** (Windows) o **AxiomWars** (Linux/Mac) dentro de la carpeta `AxiomWars`; deja la carpeta `assets` a su lado.
 
-```bash
-curl -L https://github.com/cesar-rgon/axiom-wars/releases/latest/download/AxiomWars-Mac-x64.tar.gz | tar -xz && ./AxiomWars/AxiomWars
-```
-
-(Requiere macOS 11 o posterior. Descargar con `curl` evita el aviso de «desarrollador no identificado».)
-
-1. Después, abre **AxiomWars.exe** (Windows) o **AxiomWars** (Linux/Mac) dentro de la carpeta `AxiomWars`. Deja la carpeta `assets` a su lado.
-2. Abre el juego: la dirección del servidor ya viene rellena. Escribe tu nombre y crea una sala o únete a una.
+Abre el juego: la dirección del servidor ya viene rellena. Escribe tu nombre y crea una sala o únete a una.
 
 ## Histórico de cambios
 
