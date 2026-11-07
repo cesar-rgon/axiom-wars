@@ -1,6 +1,14 @@
 HISTORIA ZMIAN AXIOM WARS
 (Wersja to data ostatniej zmiany serwera lub klienta.)
 
+v2026.11.07 alpha
+    Zaawansowany samouczek: pięć nowych lekcji (ulepszenia i poziom Rządu, Technologia i Leczenie, pożyczki i racjonowanie, stworzenia i skrzynie, ekspansje), każda z własną partią treningową, z przycisku «Samouczek» na ekranie startowym; lekcja o grupach uczy też zapisywać i przywoływać zaznaczenia
+    Zaznaczenie: Ctrl+1–0 zapisuje zaznaczone oddziały, a 1–0 je przywołuje (cyfry nie wybierają już grup; grupy wybiera się na wyspie Grup lub dwuklikiem); Shift+klik dodaje oddział do zaznaczenia, Ctrl+klik go usuwa
+    Własny lub sojuszniczy budynek jest półprzezroczysty, gdy stoi na nim oddział, a przyciski tworzenia oddziałów szarzeją, gdy w rozkazie nie mieści się już nic więcej
+    Skrzynie: Meca i inne duże oddziały mogą teraz otworzyć skrzynię lub walczyć o nią z przylegającego pola; Klonowanie samo podchodzi przed użyciem, a podgląd zdolności poza zasięgiem jest blady zamiast krzyżyka
+    Strzałki rozkazów kaskadowych nie migają już, gdy oddział należy do kilku grup
+    SI: buduje więcej Raptorów i rzadziej powtarza rozkazy; lupy pokazują nowe stany (płonie, spowolnienie, EMP…) w chwili trafienia
+
 v2026.11.06 alpha
     Lupy: budynki ukończone blisko siebie dzielą jedną lupę, komunikaty o błędach rozkazów pojawiają się raz i trwają wystarczająco długo, by je przeczytać, lupy mocniej przybliżają, nie ucinają animacji ulepszeń i ustawiają się tuż nad zdarzeniem
     Lobby bez żadnego połączonego gracza przez 5 minut zamykają się same

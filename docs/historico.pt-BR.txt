@@ -1,6 +1,14 @@
 HISTÓRICO DE MUDANÇAS DE AXIOM WARS
 (A versão é a data da última mudança no servidor ou no cliente.)
 
+v2026.11.07 alpha
+    Tutorial avançado: cinco lições novas (melhorias e nível do Governo, Tecnologia e Cura, empréstimos e racionamento, criaturas e baús, expansões), cada uma com sua partida de prática, pelo botão «Tutorial» da tela inicial; a lição de grupos também ensina a guardar e recuperar seleções
+    Seleção: Ctrl+1–0 guarda as tropas selecionadas e 1–0 as recupera (os números não escolhem mais grupos, que se escolhem na ilha Grupos ou com duplo clique); Shift+clique adiciona uma tropa à seleção e Ctrl+clique a remove
+    Um edifício próprio ou aliado fica semitransparente quando há uma tropa em cima, e os botões de criar tropas ficam cinza quando não cabe mais nenhuma na ordem
+    Baús: o Meca e as outras tropas grandes agora podem abrir um baú ou lutar por ele de uma casa vizinha; Clonar se aproxima sozinho antes de ser lançado e a prévia de uma habilidade fora de alcance fica tênue em vez de uma cruz
+    As setas das ordens em cascata não piscam mais quando uma tropa pertence a vários grupos
+    IA: constrói mais Raptors e repete menos ordens; as lupas mostram os estados novos (queimado, lento, EMP…) quando o impacto chega
+
 v2026.11.06 alpha
     Lupas: edifícios concluídos perto uns dos outros compartilham uma só lupa, os avisos de erro das ordens aparecem uma vez e duram o bastante para serem lidos, as lupas aproximam mais, não cortam mais a animação das melhorias e ficam logo acima do evento
     Lobbies sem nenhum jogador conectado por 5 minutos se fecham sozinhos

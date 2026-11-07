@@ -1,6 +1,14 @@
 ÄNDERUNGSVERLAUF VON AXIOM WARS
 (Die Version ist das Datum der letzten Änderung am Server oder am Client.)
 
+v2026.11.07 alpha
+    Fortgeschrittenen-Tutorial: fünf neue Lektionen (Verbesserungen und Regierungsstufe, Technologie und Heilung, Kredite und Rationierung, Kreaturen und Truhen, Erweiterungen), jede mit eigener Übungspartie, über den Knopf «Tutorial» im Startbildschirm; die Gruppen-Lektion zeigt auch, wie man Auswahlen speichert und aufruft
+    Auswahl: Strg+1–0 speichert die ausgewählten Truppen und 1–0 ruft sie auf (Zahlen wählen keine Gruppen mehr; Gruppen wählt man in der Gruppen-Insel oder per Doppelklick); Umschalt+Klick fügt eine Truppe zur Auswahl hinzu, Strg+Klick entfernt sie
+    Ein eigenes oder verbündetes Gebäude wird halbtransparent gezeichnet, wenn eine Truppe darauf steht, und die Knöpfe zum Erzeugen von Truppen werden grau, wenn nichts mehr in den Befehl passt
+    Truhen: Der Meca und andere große Truppen können jetzt von einem angrenzenden Feld aus eine Truhe öffnen oder um sie kämpfen; Klonen läuft vor dem Wirken selbst heran, und die Vorschau einer Fähigkeit außer Reichweite ist blass statt mit einem Kreuz
+    Die Pfeile verketteter Befehle flackern nicht mehr, wenn eine Truppe zu mehreren Gruppen gehört
+    KI: baut mehr Raptoren und wiederholt weniger Befehle; die Lupen zeigen die neuen Zustände (brennend, verlangsamt, EMP…), wenn der Treffer eintrifft
+
 v2026.11.06 alpha
     Lupen: nahe beieinander fertiggestellte Gebäude teilen sich eine Lupe, Fehlermeldungen zu Befehlen erscheinen einmal und bleiben lange genug lesbar, die Lupen zoomen stärker, schneiden die Animation von Verbesserungen nicht mehr ab und sitzen direkt über dem Ereignis
     Lobbys ohne verbundenen Spieler schließen sich nach 5 Minuten selbst

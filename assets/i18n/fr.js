@@ -201,7 +201,7 @@
   "dl.c2": "Lancez le jeu : l'adresse du serveur est déjà remplie. Saisissez votre nom, puis créez un salon ou rejoignez-en un.",
   "nav.news": "Nouveautés",
   "news.title": "Nouveautés",
-  "news.body": "Loupes plus claires (bâtiments proches en une seule, avis sans répétition, plus de zoom), salons abandonnés fermés, troupes enterrées qui ne gênent pas et nom par défaut. Nouveau tutoriel intermédiaire de cinq leçons.",
+  "news.body": "Tutoriel avancé en cinq leçons, mémoires de sélection avec Ctrl+chiffre, coffres que les grandes troupes ouvrent aussi, et flèches d'ordres sans clignotement.",
   "news.all": "Voir tout l'historique",
   "news.all.href": "docs/historico.fr.txt",
   "lang.eyebrow": "Langues",

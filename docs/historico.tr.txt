@@ -1,6 +1,14 @@
 AXIOM WARS DEĞİŞİKLİK GEÇMİŞİ
 (Sürüm, sunucuda veya istemcide yapılan son değişikliğin tarihidir.)
 
+v2026.11.07 alpha
+    İleri düzey eğitim: beş yeni ders (yükseltmeler ve Hükümet seviyesi, Teknoloji ve İyileştirme, krediler ve karne, yaratıklar ve sandıklar, genişlemeler), her birinin kendi alıştırma maçı var, başlangıç ekranındaki «Eğitim» düğmesinden; gruplar dersi seçimleri kaydetmeyi ve geri çağırmayı da öğretir
+    Seçim: Ctrl+1–0 seçili birlikleri kaydeder, 1–0 geri çağırır (rakamlar artık grup seçmez; gruplar Gruplar adasından veya çift tıkla seçilir); Shift+tık seçime bir birlik ekler, Ctrl+tık çıkarır
+    Bir birlik üzerindeyken kendi veya müttefik binası yarı saydam çizilir ve emre daha fazla birlik sığmadığında birlik oluşturma düğmeleri grileşir
+    Sandıklar: Meca ve diğer büyük birlikler artık bitişik bir kareden sandığı açabilir veya onun için savaşabilir; Klonlama atılmadan önce kendi başına yaklaşır ve menzil dışı bir yeteneğin önizlemesi çarpı yerine soluk görünür
+    Bir birlik birkaç gruba ait olduğunda zincirleme emirlerin okları artık yanıp sönmez
+    YZ: daha fazla Raptor üretir ve daha az emri tekrarlar; büyüteçler yeni durumları (yanıyor, yavaşlamış, EMP…) darbe gelince gösterir
+
 v2026.11.06 alpha
     Büyüteçler: birbirine yakın tamamlanan binalar tek büyüteci paylaşır, emir hata uyarıları bir kez çıkar ve okunacak kadar kalır, büyüteçler daha çok yaklaştırır, geliştirme animasyonunu artık kesmez ve olayın hemen üstüne yerleşir
     5 dakika boyunca bağlı oyuncusu olmayan lobiler kendiliğinden kapanır

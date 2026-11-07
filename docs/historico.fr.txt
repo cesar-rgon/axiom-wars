@@ -1,6 +1,14 @@
 HISTORIQUE DES CHANGEMENTS D'AXIOM WARS
 (La version est la date de la dernière modification du serveur ou du client.)
 
+v2026.11.07 alpha
+    Tutoriel avancé : cinq nouvelles leçons (améliorations et niveau du Gouvernement, Technologie et Soin, prêts et rationnement, créatures et coffres, expansions), chacune avec sa partie d'entraînement, depuis le bouton «Tutoriel» de l'écran d'accueil ; la leçon sur les groupes apprend aussi à mémoriser et rappeler des sélections
+    Sélection : Ctrl+1–0 mémorise les troupes sélectionnées et 1–0 les rappelle (les chiffres ne choisissent plus les groupes, qui se choisissent dans l'îlot Groupes ou par double clic) ; Maj+clic ajoute une troupe à la sélection et Ctrl+clic la retire
+    Un bâtiment à soi ou allié devient semi-transparent quand une troupe se trouve dessus, et les boutons de création de troupes se grisent quand il n'y a plus de place dans l'ordre
+    Coffres : le Meca et les autres grandes troupes peuvent désormais ouvrir un coffre ou le combattre depuis une case adjacente ; Clonage s'approche tout seul avant d'être lancé, et l'aperçu d'une capacité hors de portée est pâle au lieu d'une croix
+    Les flèches des ordres en cascade ne clignotent plus quand une troupe appartient à plusieurs groupes
+    IA : construit plus de Raptors et répète moins d'ordres ; les loupes montrent les nouveaux états (brûlé, ralenti, EMP…) à l'arrivée de l'impact
+
 v2026.11.06 alpha
     Loupes : les bâtiments terminés à proximité partagent une seule loupe, les avis d'erreur des ordres apparaissent une fois et restent assez longtemps pour être lus, les loupes zooment davantage, ne coupent plus l'animation des améliorations et se placent juste au-dessus de l'événement
     Les salons sans aucun joueur connecté pendant 5 minutes se ferment seuls

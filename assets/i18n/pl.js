@@ -188,7 +188,7 @@
   "mus.t14": "<strong>Pływający interfejs.</strong> Menu, zasoby, minimapa, panel budowy według poziomu Rządu i ikona dla każdego rodzaju rozkazu.",
   "mus.hint": "Przesuń palcem, aby poruszać się po osi czasu →",
   "news.title": "Nowości",
-  "news.body": "Czytelniejsze lupy (bliskie budynki w jednej, bez powtórzeń, większe przybliżenie), porzucone lobby zamykane, zakopane oddziały nie przeszkadzają i domyślna nazwa. Nowy samouczek średniozaawansowany z pięcioma lekcjami.",
+  "news.body": "Zaawansowany samouczek z pięcioma lekcjami, pamięć zaznaczeń pod Ctrl+cyfra, skrzynie otwierane też przez duże oddziały i strzałki rozkazów bez migania.",
   "news.all": "Zobacz pełną historię zmian",
   "news.all.href": "docs/historico.pl.txt",
   "join.eyebrow": "Społeczność",

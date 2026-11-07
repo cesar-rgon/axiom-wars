@@ -186,10 +186,19 @@ curl -L https://github.com/cesar-rgon/axiom-wars/releases/latest/download/AxiomW
 
 ## Change history
 
-The latest version is **v2026.11.06 alpha**.
+The latest version is **v2026.11.07 alpha**.
 
 <details>
 <summary>Show all versions</summary>
+
+### v2026.11.07 alpha
+
+- Advanced tutorial: five new lessons (upgrades and Government level, Technology and Healing, loans and rationing, creatures and chests, expansions), each with its own practice match, from the «Tutorial» button on the start screen; the groups lesson also teaches how to save and recall selections
+- Selection: Ctrl+1–0 saves the selected troops and 1–0 recalls them (numbers no longer pick groups, which are picked from the Groups island or by double click); Shift+click adds a troop to the selection and Ctrl+click removes it
+- A friendly or allied building is drawn see-through when a troop stands on it, and the troop-building buttons grey out when no more fit in the order
+- Chests: the Meca and other big troops can now open a chest or fight for it from an adjacent tile; Clonar walks up by itself before casting, and the preview of an out-of-range ability is faint instead of a cross
+- The arrows of cascaded orders no longer blink when a troop belongs to several groups
+- AI: builds more Raptors and repeats fewer orders; the lupas show the new states (burning, slowed, EMP…) when the hit lands
 
 ### v2026.11.06 alpha
 

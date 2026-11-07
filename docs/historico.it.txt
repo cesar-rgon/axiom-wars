@@ -1,6 +1,14 @@
 CRONOLOGIA DELLE MODIFICHE DI AXIOM WARS
 (La versione è la data dell'ultima modifica del server o del client.)
 
+v2026.11.07 alpha
+    Tutorial avanzato: cinque nuove lezioni (miglioramenti e livello del Governo, Tecnologia e Cura, prestiti e razionamento, creature e forzieri, espansioni), ognuna con la sua partita di pratica, dal pulsante «Tutorial» della schermata iniziale; la lezione sui gruppi insegna anche a salvare e richiamare le selezioni
+    Selezione: Ctrl+1–0 salva le truppe selezionate e 1–0 le richiama (i numeri non scelgono più i gruppi, che si scelgono dall'isola Gruppi o con doppio clic); Maiusc+clic aggiunge una truppa alla selezione e Ctrl+clic la toglie
+    Un edificio proprio o alleato si vede semitrasparente quando c'è una truppa sopra, e i pulsanti per creare truppe si spengono quando nell'ordine non ne entrano altre
+    Forzieri: il Meca e le altre truppe grandi ora possono aprire un forziere o combattere per esso da una casella adiacente; Clonare si avvicina da solo prima di essere lanciato e l'anteprima di un'abilità fuori portata è tenue invece di una croce
+    Le frecce degli ordini a cascata non lampeggiano più quando una truppa appartiene a più gruppi
+    IA: costruisce più Raptor e ripete meno ordini; le lenti mostrano i nuovi stati (bruciato, rallentato, EMP…) all'arrivo dell'impatto
+
 v2026.11.06 alpha
     Lenti: gli edifici completati vicini condividono una sola lente, gli avvisi di errore degli ordini compaiono una volta e durano abbastanza da essere letti, le lenti ingrandiscono di più, non tagliano più l'animazione dei potenziamenti e si posizionano subito sopra l'evento
     Le lobby senza alcun giocatore connesso per 5 minuti si chiudono da sole
