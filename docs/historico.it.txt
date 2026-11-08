@@ -4,6 +4,13 @@ CRONOLOGIA DELLE MODIFICHE DI AXIOM WARS
 v2026.11.08 alpha
     Tutorial avanzato: le cinque nuove lezioni sono ora tradotte in tutte le lingue
     Truppe sepolte: corretti i casi in cui una truppa sepolta o nascosta sotto una truppa grande (Meca, APC, Raptor) poteva perdere il suo posto sulla mappa quando una truppa grande alleata le passava sopra o si spostava per farle spazio
+    Tasto A: attiva lo spostamento con vigilanza (il cursore diventa il mirino d'attacco e il clic sinistro mette l'ordine in coda; su un nemico attacca); Ctrl+A sostituisce gli ordini precedenti. La scheda dell'ordine mostra una bandiera e un occhio, e le truppe si fermano a sparare a ciò che entra a tiro lungo la strada
+    WASD non sposta più la mappa (solo le frecce), perché A è ora il tasto d'attacco
+    Doppio clic su una truppa: seleziona tutte quelle dello stesso tipo visibili sullo schermo; un gruppo si richiama solo dalla sua scheda nell'isola Gruppi
+    Risoluzione del turno: se sullo schermo non succede altro, una lente segue le truppe che marciano lontano, così non ci sono momenti in cui «non succede nulla»
+    Le lenti degli edifici alti crescono in verticale invece di ridurre lo zoom
+    Il microturno predefinito passa a 600 ms
+    Tutorial: la lezione 6 insegna anche il doppio clic, A, Ctrl+A e Ctrl+numero
 
 v2026.11.07 alpha
     Tutorial avanzato: cinque nuove lezioni (miglioramenti e livello del Governo, Tecnologia e Cura, prestiti e razionamento, creature e forzieri, espansioni), ognuna con la sua partita di pratica, dal pulsante «Tutorial» della schermata iniziale; la lezione sui gruppi insegna anche a salvare e richiamare le selezioni

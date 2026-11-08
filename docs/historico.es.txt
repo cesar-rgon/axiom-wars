@@ -4,6 +4,13 @@ HISTÓRICO DE CAMBIOS DE AXIOM WARS
 v2026.11.08 alpha
     Tutorial avanzado: las cinco lecciones nuevas ya están traducidas a todos los idiomas
     Tropas enterradas: se corrigen casos en los que una tropa enterrada o escondida bajo una tropa grande (Meca, APC, Raptor) podía perder su sitio en el mapa cuando una tropa grande aliada pasaba por encima o se apartaba para dejarle paso
+    Tecla A: arma el movimiento con vigilancia (el cursor pasa a la mira de ataque y el clic izquierdo encola la orden; sobre un enemigo ataca); Ctrl+A reemplaza las órdenes anteriores. La tarjeta de la orden muestra una bandera y un ojo, y las tropas se paran a disparar a lo que entre a tiro por el camino
+    WASD ya no mueve el mapa (solo las flechas), porque A es ahora la tecla de ataque
+    Doble clic sobre una tropa: selecciona todas las del mismo tipo que se ven en pantalla; un grupo solo se recupera desde su tarjeta de la isla Grupos
+    Resolución de turno: si en pantalla no ocurre nada más, una lupa sigue a las tropas que marchan lejos para que no haya momentos de «no pasa nada»
+    Las lupas de edificios altos crecen en vertical en lugar de alejar el zoom
+    El microturno por defecto pasa a 600 ms
+    Tutorial: la lección 6 enseña también el doble clic, A, Ctrl+A y Ctrl+número
 
 v2026.11.07 alpha
     Tutorial avanzado: cinco lecciones nuevas (mejoras y nivel de Gobierno, Tecnología y Curación, préstamos y racionamiento, criaturas y cofres, expansiones), cada una con su partida de práctica, desde el botón «Tutorial» de la pantalla inicial; la lección de grupos enseña también a guardar y recuperar selecciones

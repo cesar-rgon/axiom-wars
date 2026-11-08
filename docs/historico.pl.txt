@@ -4,6 +4,13 @@ HISTORIA ZMIAN AXIOM WARS
 v2026.11.08 alpha
     Zaawansowany samouczek: pięć nowych lekcji jest już przetłumaczonych na wszystkie języki
     Zakopane oddziały: naprawiono przypadki, w których oddział zakopany lub ukryty pod dużym oddziałem (Meca, APC, Raptor) mógł stracić miejsce na mapie, gdy sojuszniczy duży oddział przechodził nad nim lub odsuwał się, by zrobić przejście
+    Klawisz A: włącza ruch z czujnością (kursor zmienia się w celownik ataku, a lewy przycisk dodaje rozkaz do kolejki; na wrogu atakuje); Ctrl+A zastępuje wcześniejsze rozkazy. Karta rozkazu pokazuje flagę i oko, a oddziały zatrzymują się i strzelają do tego, co po drodze znajdzie się w zasięgu
+    WASD już nie przesuwa mapy (tylko strzałki), bo A jest teraz klawiszem ataku
+    Podwójne kliknięcie oddziału: zaznacza wszystkie oddziały tego samego typu widoczne na ekranie; grupę przywołuje się tylko jej kartą na wyspie Grup
+    Rozstrzygnięcie tury: gdy na ekranie nic innego się nie dzieje, lupa śledzi oddziały maszerujące daleko, żeby nie było chwil, w których «nic się nie dzieje»
+    Lupy wysokich budynków rosną w pionie zamiast oddalać zoom
+    Domyślna mikrotura trwa teraz 600 ms
+    Samouczek: lekcja 6 uczy też podwójnego kliknięcia, A, Ctrl+A i Ctrl+cyfra
 
 v2026.11.07 alpha
     Zaawansowany samouczek: pięć nowych lekcji (ulepszenia i poziom Rządu, Technologia i Leczenie, pożyczki i racjonowanie, stworzenia i skrzynie, ekspansje), każda z własną partią treningową, z przycisku «Samouczek» na ekranie startowym; lekcja o grupach uczy też zapisywać i przywoływać zaznaczenia

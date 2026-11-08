@@ -235,7 +235,7 @@
   "dl.c2": "Abre el juego: la dirección del servidor ya viene rellena. Escribe tu nombre y crea una sala o únete a una.",
   "nav.news": "Novedades",
   "news.title": "Novedades",
-  "news.body": "Tutorial avanzado traducido a todos los idiomas y arreglos de las tropas enterradas bajo tropas grandes.",
+  "news.body": "Tutorial avanzado traducido a todos los idiomas y arreglos de las tropas enterradas bajo tropas grandes. Tecla A para mover con vigilancia, doble clic por tipo de tropa, lupa que sigue marchas lejanas y lección 6 ampliada.",
   "news.all": "Ver el histórico completo",
   "news.all.href": "docs/historico.es.txt",
   "lang.eyebrow": "Idiomas",

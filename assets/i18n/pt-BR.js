@@ -188,7 +188,7 @@
   "mus.t14": "<strong>Interface flutuante.</strong> Menu, recursos, minimapa, um painel de construção por nível de Governo e um ícone para cada tipo de ordem.",
   "mus.hint": "Deslize para percorrer a linha do tempo →",
   "news.title": "Novidades",
-  "news.body": "Tutorial avançado traduzido para todos os idiomas e correções das tropas enterradas sob tropas grandes.",
+  "news.body": "Tutorial avançado traduzido para todos os idiomas e correções das tropas enterradas sob tropas grandes. Tecla A para mover com vigilância, clique duplo por tipo de tropa, lupa que acompanha marchas distantes e lição 6 ampliada.",
   "news.all": "Ver o histórico completo de mudanças",
   "join.eyebrow": "Comunidade",
   "join.title": "Jogue com a gente",

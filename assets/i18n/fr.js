@@ -211,7 +211,7 @@
   "dl.c2": "Lancez le jeu : l'adresse du serveur est déjà remplie. Saisissez votre nom, puis créez un salon ou rejoignez-en un.",
   "nav.news": "Nouveautés",
   "news.title": "Nouveautés",
-  "news.body": "Tutoriel avancé traduit dans toutes les langues et corrections des troupes enterrées sous les grandes troupes.",
+  "news.body": "Tutoriel avancé traduit dans toutes les langues et corrections des troupes enterrées sous les grandes troupes. Touche A pour se déplacer avec vigilance, double clic par type de troupe, loupe qui suit les marches lointaines et leçon 6 enrichie.",
   "news.all": "Voir tout l'historique",
   "news.all.href": "docs/historico.fr.txt",
   "lang.eyebrow": "Langues",

@@ -211,7 +211,7 @@
   "dl.c2": "Avvia il gioco: l'indirizzo del server è già compilato. Scrivi il tuo nome, poi crea una stanza o unisciti a una.",
   "nav.news": "Novità",
   "news.title": "Novità",
-  "news.body": "Tutorial avanzato tradotto in tutte le lingue e correzioni per le truppe sepolte sotto le truppe grandi.",
+  "news.body": "Tutorial avanzato tradotto in tutte le lingue e correzioni per le truppe sepolte sotto le truppe grandi. Tasto A per muoversi con vigilanza, doppio clic per tipo di truppa, lente che segue le marce lontane e lezione 6 ampliata.",
   "news.all": "Vedi tutta la cronologia",
   "news.all.href": "docs/historico.it.txt",
   "lang.eyebrow": "Lingue",

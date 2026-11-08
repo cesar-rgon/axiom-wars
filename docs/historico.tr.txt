@@ -4,6 +4,13 @@ AXIOM WARS DEĞİŞİKLİK GEÇMİŞİ
 v2026.11.08 alpha
     Gelişmiş eğitim: beş yeni ders artık tüm dillere çevrildi
     Gömülü birlikler: büyük bir birliğin (Meca, APC, Raptor) altında gömülü ya da gizli bir birliğin, müttefik bir büyük birlik üzerinden geçtiğinde veya yol vermek için kenara çekildiğinde haritadaki yerini kaybedebildiği durumlar düzeltildi
+    A tuşu: teyakkuzlu hareketi başlatır (imleç saldırı nişangâhına dönüşür, sol tık emri sıraya ekler; düşmana saldırır); Ctrl+A önceki emirleri değiştirir. Emir kartında bir bayrak ve bir göz görünür, birlikler yolda menzile giren her şeye ateş etmek için durur
+    WASD artık haritayı kaydırmıyor (yalnızca ok tuşları), çünkü A artık saldırı tuşu
+    Bir birliğe çift tık: ekranda görünen aynı türden tüm birlikleri seçer; bir grup yalnızca Gruplar adasındaki kartından geri çağrılır
+    Tur çözümü: ekranda başka bir şey olmuyorsa, uzakta yürüyen birlikleri bir büyüteç izler; böylece «hiçbir şey olmuyor» anları kalmaz
+    Yüksek binaların büyüteçleri uzaklaşmak yerine dikey olarak büyür
+    Varsayılan mikro tur artık 600 ms
+    Eğitim: 6. ders çift tık, A, Ctrl+A ve Ctrl+sayıyı da öğretir
 
 v2026.11.07 alpha
     İleri düzey eğitim: beş yeni ders (yükseltmeler ve Hükümet seviyesi, Teknoloji ve İyileştirme, krediler ve karne, yaratıklar ve sandıklar, genişlemeler), her birinin kendi alıştırma maçı var, başlangıç ekranındaki «Eğitim» düğmesinden; gruplar dersi seçimleri kaydetmeyi ve geri çağırmayı da öğretir

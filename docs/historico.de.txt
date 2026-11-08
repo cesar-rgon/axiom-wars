@@ -4,6 +4,13 @@
 v2026.11.08 alpha
     Fortgeschrittenes Tutorial: Die fünf neuen Lektionen sind jetzt in alle Sprachen übersetzt
     Vergrabene Truppen: Fälle behoben, in denen eine vergrabene oder verborgene Truppe unter einer großen Truppe (Meca, APC, Raptor) ihren Platz auf der Karte verlieren konnte, wenn eine verbündete große Truppe darüber hinwegzog oder zur Seite wich
+    Taste A: schaltet die Bewegung mit Wachsamkeit ein (der Cursor wird zum Angriffsfadenkreuz, der Linksklick reiht den Befehl ein; auf einem Feind greift er an); Strg+A ersetzt die früheren Befehle. Die Befehlskarte zeigt eine Fahne und ein Auge, und die Truppen halten an und schießen auf alles, was unterwegs in Reichweite kommt
+    WASD verschiebt die Karte nicht mehr (nur noch die Pfeiltasten), weil A jetzt die Angriffstaste ist
+    Doppelklick auf eine Truppe: wählt alle Truppen desselben Typs aus, die auf dem Bildschirm zu sehen sind; eine Gruppe holt man nur über ihre Karte in der Gruppen-Insel zurück
+    Zugauswertung: Passiert auf dem Bildschirm sonst nichts, folgt eine Lupe den Truppen, die weit entfernt marschieren, damit es keine Momente gibt, in denen «nichts passiert»
+    Die Lupen hoher Gebäude wachsen in die Höhe, statt herauszuzoomen
+    Der Standard-Mikrozug beträgt jetzt 600 ms
+    Tutorial: Lektion 6 lehrt auch den Doppelklick, A, Strg+A und Strg+Zahl
 
 v2026.11.07 alpha
     Fortgeschrittenen-Tutorial: fünf neue Lektionen (Verbesserungen und Regierungsstufe, Technologie und Heilung, Kredite und Rationierung, Kreaturen und Truhen, Erweiterungen), jede mit eigener Übungspartie, über den Knopf «Tutorial» im Startbildschirm; die Gruppen-Lektion zeigt auch, wie man Auswahlen speichert und aufruft

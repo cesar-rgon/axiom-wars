@@ -211,7 +211,7 @@
   "dl.c2": "Starte das Spiel: Die Serveradresse ist schon eingetragen. Gib deinen Namen ein und erstelle einen Raum oder tritt einem bei.",
   "nav.news": "Neuigkeiten",
   "news.title": "Neuigkeiten",
-  "news.body": "Fortgeschrittenes Tutorial in alle Sprachen übersetzt und Korrekturen für unter großen Truppen vergrabene Truppen.",
+  "news.body": "Fortgeschrittenes Tutorial in alle Sprachen übersetzt und Korrekturen für unter großen Truppen vergrabene Truppen. Taste A für Bewegung mit Wachsamkeit, Doppelklick nach Truppentyp, eine Lupe, die weit entfernten Märschen folgt, und eine erweiterte Lektion 6.",
   "news.all": "Gesamten Verlauf ansehen",
   "news.all.href": "docs/historico.de.txt",
   "lang.eyebrow": "Sprachen",

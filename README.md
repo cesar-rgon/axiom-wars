@@ -188,6 +188,13 @@ The latest version is **v2026.11.08 alpha**.
 
 - Advanced tutorial: the five new lessons are now translated into all languages
 - Buried troops: fixed cases where a troop buried or hidden under a big troop (Meca, APC, Raptor) could lose its place on the map when an allied big troop walked over it or moved aside to make way
+- A key: arms the move with vigilance (the cursor becomes the attack sight and the left click queues the order; on an enemy it attacks); Ctrl+A replaces the earlier orders. The order's card shows a flag and an eye, and the troops stop to fire at whatever comes into range on the way
+- WASD no longer pans the map (arrow keys only), because A is now the attack key
+- Double click on a troop: selects all troops of the same type in sight on the screen; a group is only recalled from its card in the Groups island
+- Turn resolution: if nothing else is happening on the screen, a lupa follows the troops marching far away so there are no «nothing happens» moments
+- The lupas of tall buildings grow vertically instead of zooming out
+- The default microturn is now 600 ms
+- Tutorial: lesson 6 also teaches the double click, A, Ctrl+A and Ctrl+number
 
 ### v2026.11.07 alpha
 
