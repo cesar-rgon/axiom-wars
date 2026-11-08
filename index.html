@@ -122,14 +122,51 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--ember); outline
 .btn-play { background: var(--ember); color: #1a1006; }
 .btn-download { background: #1fbf6a; color: #04210f; }
 .btn-ghost { background: var(--hull-2); color: var(--steel); box-shadow: inset 0 0 0 1px var(--line); }
-.btn-live { background: var(--hull-2); color: var(--steel); box-shadow: inset 0 0 0 1px var(--line); }
-.live-dot { width: 9px; height: 9px; border-radius: 50%; background: #6b7683; flex: none; }
-.live-badge { font: 600 .72rem var(--font-mono); letter-spacing: .08em; padding: 3px 8px; border-radius: 2px; background: #2a323c; color: #9aa7b4; }
-.btn-live[data-state="online"] { box-shadow: inset 0 0 0 1px #1fbf6a; }
-.btn-live[data-state="online"] .live-dot { background: #1fbf6a; box-shadow: 0 0 8px #1fbf6a; animation: live-pulse 1.4s ease-in-out infinite; }
-.btn-live[data-state="online"] .live-badge { background: #1fbf6a; color: #04210f; }
+.live-dot { width: 9px; height: 9px; border-radius: 50%; background: #1fbf6a; box-shadow: 0 0 8px #1fbf6a; animation: live-pulse 1.4s ease-in-out infinite; flex: none; }
 @keyframes live-pulse { 50% { opacity: .35; } }
-@media (prefers-reduced-motion: reduce) { .btn-live[data-state="online"] .live-dot { animation: none; } }
+@media (prefers-reduced-motion: reduce) { .live-dot { animation: none; } }
+/* Live stream box: only visible while the stream is ONLINE */
+.stream-wrap { width: min(1180px, 100%); margin-top: 8px; margin-bottom: 14px; display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 12px; align-items: stretch; }
+.stream-wrap[hidden] { display: none; }
+.stream-wrap .stream-box { margin-top: 0; width: 100%; align-self: start; }
+.stream-wrap:has(.stream-box.min) { grid-template-columns: minmax(0, 1fr); width: min(860px, 100%); }
+.stream-wrap:has(.stream-box.min) .chat { display: none; }
+.chat { position: relative; min-height: 260px; border-radius: 10px; overflow: hidden; background: var(--hull-2); box-shadow: 0 0 0 1px var(--line), 0 20px 50px rgba(0,0,0,.5); }
+.chat-in { position: absolute; inset: 0; display: flex; flex-direction: column; }
+.chat-head { display: flex; justify-content: space-between; align-items: center; padding: 7px 10px; font: 600 .78rem var(--font-mono); letter-spacing: .06em; color: var(--steel); background: #0f141b; }
+.chat-demo { all: unset; box-sizing: border-box; cursor: pointer; font: 600 .66rem var(--font-mono); padding: 2px 6px; border-radius: 2px; background: #2a323c; color: #9aa7b4; max-width: 60%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.chat-demo[hidden] { display: none; }
+.chat-demo:hover { background: #3a4552; }
+.chat-demo:focus-visible { outline: 2px solid #1fbf6a; }
+.chat-log .sys { color: #9aa7b4; font-style: italic; }
+.chat-log { text-align: left; flex: 1; min-height: 0; overflow-y: auto; padding: 8px 10px; font-size: .84rem; line-height: 1.35; color: var(--steel); }
+.chat-log p { margin: 0 0 6px; overflow-wrap: anywhere; }
+.chat-log b { font-weight: 700; margin-right: 6px; }
+.chat-form { display: flex; gap: 6px; padding: 8px; background: #0f141b; }
+.chat-form input { flex: 1; min-width: 0; padding: 7px 9px; border: 0; border-radius: 4px; background: #1b222b; color: var(--steel); font: inherit; font-size: .84rem; }
+.chat-form input:focus-visible, .chat-form button:focus-visible { outline: 2px solid #1fbf6a; outline-offset: 1px; }
+.chat-form button { all: unset; box-sizing: border-box; cursor: pointer; width: 34px; display: grid; place-items: center; border-radius: 4px; background: #1fbf6a; color: #04210f; }
+.chat-form svg { width: 18px; height: 18px; fill: currentColor; }
+@media (max-width: 860px) { .stream-wrap { grid-template-columns: minmax(0, 1fr); } .chat { min-height: 0; height: 320px; } }
+.stream-box { width: min(860px, 100%); margin-top: 14px; border-radius: 10px; overflow: hidden; background: #000; box-shadow: 0 0 0 1px #1fbf6a, 0 20px 50px rgba(0,0,0,.5); }
+.stream-box[hidden] { display: none; }
+.stream-bar { display: flex; align-items: center; gap: 10px; padding: 7px 10px; background: var(--hull-2); color: var(--steel); font: 600 .78rem var(--font-mono); letter-spacing: .06em; }
+.stream-bar .live-badge { font: 600 .72rem var(--font-mono); letter-spacing: .08em; padding: 3px 8px; border-radius: 2px; background: #1fbf6a; color: #04210f; }
+.stream-title { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.stream-ctl { display: flex; align-items: center; gap: 6px; }
+.stream-ctl button { all: unset; box-sizing: border-box; cursor: pointer; width: 30px; height: 30px; display: grid; place-items: center; border-radius: 4px; color: var(--steel); }
+.stream-ctl button:hover { background: #2a323c; }
+.stream-ctl button:focus-visible { outline: 2px solid #1fbf6a; outline-offset: 1px; }
+.stream-ctl svg { width: 18px; height: 18px; fill: currentColor; }
+.stream-vol { width: 90px; accent-color: #1fbf6a; cursor: pointer; }
+.stream-view { position: relative; aspect-ratio: 16 / 9; background: #000; }
+.stream-box.min .stream-view { display: none; }
+.stream-view video { width: 100%; height: 100%; display: block; background: #000; object-fit: contain; }
+.stream-msg { position: absolute; inset: 0; display: grid; place-items: center; color: #9aa7b4; font: .85rem var(--font-mono); pointer-events: none; }
+.stream-msg[hidden] { display: none; }
+.stream-box:fullscreen { width: 100vw; height: 100vh; margin: 0; border-radius: 0; display: flex; flex-direction: column; }
+.stream-box:fullscreen .stream-view { flex: 1; aspect-ratio: auto; }
+@media (max-width: 520px) { .stream-vol { width: 60px; } .stream-title { display: none; } .stream-bar { justify-content: space-between; } }
 .btn svg { width: 20px; height: 20px; flex: none; }
 
 /* Hero */
@@ -408,6 +445,31 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
         <div class="sheen" aria-hidden="true"><div class="band"></div></div>
       </div>
       <h1 class="tagline" data-i18n="hero.tagline">Simultaneous-round strategy.<br>Everyone gives orders at once; nobody waits for their turn.</h1>
+      <div class="stream-wrap" id="stream-wrap" hidden>
+        <div class="stream-box" id="stream-box">
+          <div class="stream-bar">
+            <span class="live-dot" aria-hidden="true"></span><span class="live-badge">LIVE</span>
+            <span class="stream-title">Axiom Wars · live stream</span>
+            <div class="stream-ctl">
+              <button type="button" id="sv-mute" aria-label="Mute / unmute" title="Mute / unmute"><svg viewBox="0 0 24 24" id="sv-mute-ico"></svg></button>
+              <input type="range" class="stream-vol" id="sv-vol" min="0" max="100" value="70" aria-label="Volume">
+              <button type="button" id="sv-min" aria-label="Minimize / restore" title="Minimize / restore"><svg viewBox="0 0 24 24" id="sv-min-ico"></svg></button>
+              <button type="button" id="sv-full" aria-label="Maximize (full screen)" title="Maximize (full screen)"><svg viewBox="0 0 24 24"><path d="M4 4h6v2H6v4H4V4Zm10 0h6v6h-2V6h-4V4ZM4 14h2v4h4v2H4v-6Zm14 0h2v6h-6v-2h4v-4Z"/></svg></button>
+            </div>
+          </div>
+          <div class="stream-view"><video id="sv-video" autoplay muted playsinline></video><div class="stream-msg" id="sv-msg">Connecting…</div></div>
+        </div>
+        <aside class="chat" id="stream-chat" aria-label="Chat">
+          <div class="chat-in">
+            <div class="chat-head"><span id="chat-count">CHAT</span><button type="button" class="chat-demo" id="chat-nick" title="Change nickname"></button></div>
+            <div class="chat-log" id="chat-log" role="log" aria-live="polite"></div>
+            <form class="chat-form" id="chat-form" autocomplete="off">
+              <input id="chat-text" maxlength="200" placeholder="Write a message…" aria-label="Message">
+              <button type="submit" aria-label="Send"><svg viewBox="0 0 24 24"><path d="M3 20v-6l12-2L3 10V4l19 8L3 20Z"/></svg></button>
+            </form>
+          </div>
+        </aside>
+      </div>
       <div class="trailer"><iframe src="https://www.youtube-nocookie.com/embed/xbGR0Yee_CY" title="Axiom Wars trailer" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
       <div class="cta-row">
         <a class="btn btn-discord" href="https://discord.gg/2EZAtyqtzW" data-i18n-href="discord.href" target="_blank" rel="noopener">
@@ -415,7 +477,6 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
           <span data-i18n="hero.discord">Join the Discord</span>
         </a>
         <a class="btn btn-play" id="play-web" href="https://www.raseconline.es/axiom-wars/" target="_blank" rel="noopener" data-i18n="hero.play">Play in browser</a>
-        <a class="btn btn-live" id="stream-btn" data-state="unknown" href="https://www.raseconline.es:8889/rasecfight/" target="_blank" rel="noopener"><span class="live-dot" aria-hidden="true"></span><span data-i18n="hero.stream">Watch live stream</span><span class="live-badge" id="stream-badge">…</span></a>
         <a class="btn btn-download" href="#descargas" data-i18n="hero.download">Download</a>
       </div>
       <p class="note" data-i18n="hero.playnote">Browser version: performance is worse than the native client and you may experience slowdowns, so downloading the native client is recommended. It has the same lobby as the native client (maps of any size, up to 8 players, and you can play together with native-client players), but use it with care: small maps and few players. The game is in development and work on content and performance will continue.</p>
@@ -1117,25 +1178,165 @@ window.addEventListener('message', function (ev) {
 });
 </script>
 <script>
-// ONLINE/OFFLINE of the live stream: the VPS writes stream-status.json every few seconds
-// (see axiomwars-cli web/stream-status.sh); a file older than 30 s counts as offline.
+// Live stream box: shown only while stream-status.json says ONLINE (the VPS writes it every few
+// seconds; a file older than 30 s counts as offline). Video comes from MediaMTX over WHEP (WebRTC).
+// Preview: add ?stream=online or ?stream=offline to the URL to force the state.
 (function () {
-  var URL = 'https://www.raseconline.es/axiom-wars/stream-status.json';
-  var btn = document.getElementById('stream-btn'), badge = document.getElementById('stream-badge');
-  if (!btn || !badge) return;
-  function show(on) {
-    btn.setAttribute('data-state', on ? 'online' : 'offline');
-    badge.textContent = on ? 'ONLINE' : 'OFFLINE';
+  var STATUS = 'https://www.raseconline.es/axiom-wars/stream-status.json';
+  var WHEP = 'https://www.raseconline.es:8889/rasecfight/whep';
+  var box = document.getElementById('stream-box'), wrap = document.getElementById('stream-wrap'); if (!box || !wrap) return;
+  var video = document.getElementById('sv-video'), msg = document.getElementById('sv-msg');
+  var vol = document.getElementById('sv-vol'), muteB = document.getElementById('sv-mute'), muteI = document.getElementById('sv-mute-ico');
+  var minB = document.getElementById('sv-min'), minI = document.getElementById('sv-min-ico'), fullB = document.getElementById('sv-full');
+  var forced = (location.search.match(/[?&]stream=(online|offline)/) || [])[1];
+  var online = false, pc = null, resource = null, retry = 0, gen = 0;
+  if (forced) { var tt = box.querySelector('.stream-title'); if (tt) tt.textContent = 'PREVIEW (forced by ?stream=' + forced + ')'; }
+  var ICO = {
+    on: 'M3 9v6h4l5 5V4L7 9H3Zm13.5 3A4.5 4.5 0 0 0 14 8v8a4.5 4.5 0 0 0 2.5-4Zm-2.5-9v2.1a7 7 0 0 1 0 13.8V21a9 9 0 0 0 0-18Z',
+    off: 'M16.5 12A4.5 4.5 0 0 0 14 8v2.2l2.5 2.5V12ZM19 12a7 7 0 0 1-.7 3l1.5 1.5A9 9 0 0 0 21 12a9 9 0 0 0-7-8.8v2.1A7 7 0 0 1 19 12ZM4.3 3 3 4.3 7.7 9H3v6h4l5 5v-6.7l4.3 4.3a8 8 0 0 1-2.3 1.2V21a10 10 0 0 0 3.5-1.7l2.2 2.2 1.3-1.3L4.3 3ZM12 4 9.9 6.1 12 8.2V4Z',
+    min: 'M5 11h14v2H5z', max: 'M4 6h16v12H4V6Zm2 2v8h12V8H6Z'
+  };
+  function ico(el, d) { el.innerHTML = '<path d="' + d + '"/>'; }
+  function syncSound() { video.volume = vol.value / 100; ico(muteI, video.muted || vol.value == 0 ? ICO.off : ICO.on); }
+  function close() {
+    gen++;
+    if (resource) { try { fetch(resource, { method: 'DELETE' }); } catch (e) {} resource = null; }
+    if (pc) { try { pc.close(); } catch (e) {} pc = null; }
+    video.srcObject = null;
+  }
+  function connect() {
+    if (!online || box.classList.contains('min') || pc) return;
+    var my = ++gen;
+    msg.hidden = false; msg.textContent = 'Connecting…';
+    var p = pc = new RTCPeerConnection({ iceServers: [{ urls: 'stun:stun.l.google.com:19302' }] });
+    p.addTransceiver('video', { direction: 'recvonly' });
+    p.addTransceiver('audio', { direction: 'recvonly' });
+    p.ontrack = function (e) { if (video.srcObject !== e.streams[0]) { video.srcObject = e.streams[0]; video.play().catch(function () {}); } };
+    p.onconnectionstatechange = function () {
+      if (my !== gen) return;
+      if (p.connectionState === 'connected') { retry = 0; msg.hidden = true; }
+      else if (p.connectionState === 'failed' || p.connectionState === 'closed') { lost(); }
+    };
+    p.createOffer().then(function (o) { return p.setLocalDescription(o); }).then(function () {
+      return new Promise(function (ok) {
+        if (p.iceGatheringState === 'complete') return ok();
+        var t = setTimeout(ok, 2000);
+        p.onicegatheringstatechange = function () { if (p.iceGatheringState === 'complete') { clearTimeout(t); ok(); } };
+      });
+    }).then(function () {
+      return fetch(WHEP, { method: 'POST', headers: { 'Content-Type': 'application/sdp' }, body: p.localDescription.sdp });
+    }).then(function (r) {
+      if (!r.ok) throw new Error('WHEP ' + r.status);
+      var loc = r.headers.get('Location'); if (loc) resource = new URL(loc, WHEP).href;
+      return r.text();
+    }).then(function (sdp) {
+      if (my !== gen) return;
+      return p.setRemoteDescription({ type: 'answer', sdp: sdp });
+    }).catch(function () { if (my === gen) lost(); });
+  }
+  function lost() {
+    close();
+    if (!online) return;
+    msg.hidden = false; msg.textContent = 'Reconnecting…';
+    setTimeout(connect, Math.min(15000, 2000 * ++retry));
+  }
+  function setOnline(on) {
+    if (on === online) return;
+    online = on;
+    wrap.hidden = !on;
+    if (on) connect(); else close();
+    setTimeout(function () { document.dispatchEvent(new CustomEvent('aw-stream', { detail: on })); }, 0);
   }
   function poll() {
-    fetch(URL, { cache: 'no-store' })
+    if (forced) return setOnline(forced === 'online');
+    fetch(STATUS, { cache: 'no-store' })
       .then(function (r) { return r.json(); })
-      .then(function (d) { show(d.online === true && Date.now() / 1000 - d.t < 30); })
-      .catch(function () { show(false); });
+      .then(function (d) { setOnline(d.online === true && Date.now() / 1000 - d.t < 30); })
+      .catch(function () { setOnline(false); });
   }
+  vol.addEventListener('input', function () { video.muted = vol.value == 0; syncSound(); });
+  muteB.addEventListener('click', function () {
+    video.muted = !video.muted;
+    if (!video.muted && vol.value == 0) vol.value = 50;
+    syncSound();
+  });
+  minB.addEventListener('click', function () {
+    var m = box.classList.toggle('min');
+    ico(minI, m ? ICO.max : ICO.min);
+    minB.title = minB.ariaLabel = m ? 'Restore' : 'Minimize';
+    if (m) close(); else connect();
+  });
+  fullB.addEventListener('click', function () {
+    if (document.fullscreenElement) document.exitFullscreen();
+    else if (box.requestFullscreen) box.requestFullscreen();
+  });
+  ico(minI, ICO.min); syncSound();
   poll();
   setInterval(poll, 15000);
   document.addEventListener('visibilitychange', function () { if (!document.hidden) poll(); });
+})();
+</script>
+<script>
+// Live chat (own WebSocket hub on the VPS, see axiomwars-srv/cmd/webchat). It connects only while
+// the stream is ONLINE and disconnects when it ends. Preview locally with ?chat=ws://127.0.0.1:4002
+(function () {
+  var URL_ = (location.search.match(/[?&]chat=([^&]+)/) || [])[1];
+  URL_ = URL_ ? decodeURIComponent(URL_) : 'wss://www.raseconline.es/axiom-wars/chat';
+  var log = document.getElementById('chat-log'), form = document.getElementById('chat-form'), inp = document.getElementById('chat-text');
+  var nickB = document.getElementById('chat-nick'), countEl = document.getElementById('chat-count');
+  if (!log) return;
+  var ws = null, wantOn = false, retry = 0, timer = null, nick = '';
+  try { nick = localStorage.getItem('aw-chat-nick') || ''; } catch (e) {}
+  var cols = ['#ff9f43', '#4aa8ff', '#1fbf6a', '#c58cff', '#ff6b6b', '#f0d264'];
+  function add(n, t, cls) {
+    var p = document.createElement('p'), b;
+    if (n) { b = document.createElement('b'); b.textContent = n; b.style.color = cols[(n.length * 7 + n.charCodeAt(0)) % cols.length]; p.appendChild(b); }
+    if (cls) p.className = cls;
+    p.appendChild(document.createTextNode(t)); log.appendChild(p);
+    while (log.children.length > 100) log.removeChild(log.firstChild);
+    log.scrollTop = log.scrollHeight;
+  }
+  function cleanNick(s) { return s.replace(/[^\p{L}\p{N}_. -]/gu, '').replace(/\s+/g, ' ').trim().slice(0, 20); }
+  function ui() {
+    nickB.hidden = !nick; nickB.textContent = nick;
+    inp.placeholder = nick ? 'Write a message…' : 'Choose a nickname and press Enter';
+    inp.maxLength = nick ? 200 : 20;
+  }
+  function open() {
+    if (!wantOn || ws) return;
+    var w = ws = new WebSocket(URL_);
+    w.onopen = function () { retry = 0; };
+    w.onmessage = function (e) {
+      var m; try { m = JSON.parse(e.data); } catch (x) { return; }
+      if (m.t === 'say') add(m.nick, m.text);
+      else if (m.t === 'sys') add('', m.text, 'sys');
+      else if (m.t === 'count') countEl.textContent = 'CHAT · ' + m.count;
+    };
+    w.onclose = function () {
+      if (ws === w) ws = null;
+      if (wantOn) timer = setTimeout(open, Math.min(30000, 2000 * ++retry));
+    };
+    w.onerror = function () { try { w.close(); } catch (x) {} };
+  }
+  function shut() {
+    clearTimeout(timer);
+    if (ws) { var w = ws; ws = null; w.onclose = null; try { w.close(); } catch (e) {} }
+    log.textContent = ''; countEl.textContent = 'CHAT';
+  }
+  document.addEventListener('aw-stream', function (e) { wantOn = !!e.detail; if (wantOn) open(); else shut(); });
+  nickB.addEventListener('click', function () { nick = ''; ui(); inp.value = ''; inp.focus(); });
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var v = inp.value.trim(); inp.value = ''; if (!v) return;
+    if (!nick) {
+      var n = cleanNick(v); if (!n) return;
+      nick = n; try { localStorage.setItem('aw-chat-nick', nick); } catch (x) {}
+      ui(); inp.focus(); return;
+    }
+    if (ws && ws.readyState === 1) ws.send(JSON.stringify({ t: 'say', nick: nick, text: v }));
+    else add('', 'Not connected, retrying…', 'sys');
+  });
+  ui();
 })();
 </script>
 <script>
