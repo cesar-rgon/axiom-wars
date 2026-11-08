@@ -1,6 +1,10 @@
 HISTORIQUE DES CHANGEMENTS D'AXIOM WARS
 (La version est la date de la dernière modification du serveur ou du client.)
 
+v2026.11.08 alpha
+    Tutoriel avancé : les cinq nouvelles leçons sont désormais traduites dans toutes les langues
+    Troupes enterrées : correction de cas où une troupe enterrée ou cachée sous une grande troupe (Meca, APC, Raptor) pouvait perdre sa place sur la carte quand une grande troupe alliée passait par-dessus ou s'écartait pour lui laisser le passage
+
 v2026.11.07 alpha
     Tutoriel avancé : cinq nouvelles leçons (améliorations et niveau du Gouvernement, Technologie et Soin, prêts et rationnement, créatures et coffres, expansions), chacune avec sa partie d'entraînement, depuis le bouton «Tutoriel» de l'écran d'accueil ; la leçon sur les groupes apprend aussi à mémoriser et rappeler des sélections
     Sélection : Ctrl+1–0 mémorise les troupes sélectionnées et 1–0 les rappelle (les chiffres ne choisissent plus les groupes, qui se choisissent dans l'îlot Groupes ou par double clic) ; Maj+clic ajoute une troupe à la sélection et Ctrl+clic la retire

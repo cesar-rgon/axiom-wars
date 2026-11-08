@@ -1,6 +1,10 @@
 CRONOLOGIA DELLE MODIFICHE DI AXIOM WARS
 (La versione è la data dell'ultima modifica del server o del client.)
 
+v2026.11.08 alpha
+    Tutorial avanzato: le cinque nuove lezioni sono ora tradotte in tutte le lingue
+    Truppe sepolte: corretti i casi in cui una truppa sepolta o nascosta sotto una truppa grande (Meca, APC, Raptor) poteva perdere il suo posto sulla mappa quando una truppa grande alleata le passava sopra o si spostava per farle spazio
+
 v2026.11.07 alpha
     Tutorial avanzato: cinque nuove lezioni (miglioramenti e livello del Governo, Tecnologia e Cura, prestiti e razionamento, creature e forzieri, espansioni), ognuna con la sua partita di pratica, dal pulsante «Tutorial» della schermata iniziale; la lezione sui gruppi insegna anche a salvare e richiamare le selezioni
     Selezione: Ctrl+1–0 salva le truppe selezionate e 1–0 le richiama (i numeri non scelgono più i gruppi, che si scelgono dall'isola Gruppi o con doppio clic); Maiusc+clic aggiunge una truppa alla selezione e Ctrl+clic la toglie

@@ -1,6 +1,10 @@
 HISTORIA ZMIAN AXIOM WARS
 (Wersja to data ostatniej zmiany serwera lub klienta.)
 
+v2026.11.08 alpha
+    Zaawansowany samouczek: pięć nowych lekcji jest już przetłumaczonych na wszystkie języki
+    Zakopane oddziały: naprawiono przypadki, w których oddział zakopany lub ukryty pod dużym oddziałem (Meca, APC, Raptor) mógł stracić miejsce na mapie, gdy sojuszniczy duży oddział przechodził nad nim lub odsuwał się, by zrobić przejście
+
 v2026.11.07 alpha
     Zaawansowany samouczek: pięć nowych lekcji (ulepszenia i poziom Rządu, Technologia i Leczenie, pożyczki i racjonowanie, stworzenia i skrzynie, ekspansje), każda z własną partią treningową, z przycisku «Samouczek» na ekranie startowym; lekcja o grupach uczy też zapisywać i przywoływać zaznaczenia
     Zaznaczenie: Ctrl+1–0 zapisuje zaznaczone oddziały, a 1–0 je przywołuje (cyfry nie wybierają już grup; grupy wybiera się na wyspie Grup lub dwuklikiem); Shift+klik dodaje oddział do zaznaczenia, Ctrl+klik go usuwa

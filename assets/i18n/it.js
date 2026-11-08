@@ -211,7 +211,7 @@
   "dl.c2": "Avvia il gioco: l'indirizzo del server è già compilato. Scrivi il tuo nome, poi crea una stanza o unisciti a una.",
   "nav.news": "Novità",
   "news.title": "Novità",
-  "news.body": "Tutorial avanzato con cinque lezioni, memorie di selezione con Ctrl+numero, forzieri che aprono anche le truppe grandi e frecce degli ordini senza lampeggi.",
+  "news.body": "Tutorial avanzato tradotto in tutte le lingue e correzioni per le truppe sepolte sotto le truppe grandi.",
   "news.all": "Vedi tutta la cronologia",
   "news.all.href": "docs/historico.it.txt",
   "lang.eyebrow": "Lingue",

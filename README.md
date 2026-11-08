@@ -179,10 +179,15 @@ Open the game: the server address is already filled in. Type your name, then cre
 
 ## Change history
 
-The latest version is **v2026.11.07 alpha**.
+The latest version is **v2026.11.08 alpha**.
 
 <details>
 <summary>Show all versions</summary>
+
+### v2026.11.08 alpha
+
+- Advanced tutorial: the five new lessons are now translated into all languages
+- Buried troops: fixed cases where a troop buried or hidden under a big troop (Meca, APC, Raptor) could lose its place on the map when an allied big troop walked over it or moved aside to make way
 
 ### v2026.11.07 alpha
 

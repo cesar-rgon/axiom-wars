@@ -179,10 +179,15 @@ Abre el juego: la dirección del servidor ya viene rellena. Escribe tu nombre y 
 
 ## Histórico de cambios
 
-La última versión es **v2026.11.07 alpha**.
+La última versión es **v2026.11.08 alpha**.
 
 <details>
 <summary>Ver todas las versiones</summary>
+
+### v2026.11.08 alpha
+
+- Tutorial avanzado: las cinco lecciones nuevas ya están traducidas a todos los idiomas
+- Tropas enterradas: se corrigen casos en los que una tropa enterrada o escondida bajo una tropa grande (Meca, APC, Raptor) podía perder su sitio en el mapa cuando una tropa grande aliada pasaba por encima o se apartaba para dejarle paso
 
 ### v2026.11.07 alpha
 

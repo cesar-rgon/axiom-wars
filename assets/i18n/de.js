@@ -211,7 +211,7 @@
   "dl.c2": "Starte das Spiel: Die Serveradresse ist schon eingetragen. Gib deinen Namen ein und erstelle einen Raum oder tritt einem bei.",
   "nav.news": "Neuigkeiten",
   "news.title": "Neuigkeiten",
-  "news.body": "Fortgeschrittenen-Tutorial mit fünf Lektionen, Auswahlspeicher mit Strg+Zahl, Truhen, die auch große Truppen öffnen, und Befehlspfeile ohne Flackern.",
+  "news.body": "Fortgeschrittenes Tutorial in alle Sprachen übersetzt und Korrekturen für unter großen Truppen vergrabene Truppen.",
   "news.all": "Gesamten Verlauf ansehen",
   "news.all.href": "docs/historico.de.txt",
   "lang.eyebrow": "Sprachen",

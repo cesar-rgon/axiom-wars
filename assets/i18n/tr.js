@@ -188,7 +188,7 @@
   "mus.t14": "<strong>Yüzen arayüz.</strong> Menü, kaynaklar, mini harita, Hükümet seviyesine göre inşa paneli ve her emir türü için bir simge.",
   "mus.hint": "Zaman çizgisinde ilerlemek için kaydır →",
   "news.title": "Yenilikler",
-  "news.body": "Beş dersli ileri düzey eğitim, Ctrl+rakamla seçim belleği, büyük birliklerin de açabildiği sandıklar ve yanıp sönmeyen emir okları.",
+  "news.body": "Gelişmiş eğitim tüm dillere çevrildi ve büyük birliklerin altında gömülü birlikler düzeltildi.",
   "news.all": "Tüm değişiklik geçmişini gör",
   "news.all.href": "docs/historico.tr.txt",
   "join.eyebrow": "Topluluk",

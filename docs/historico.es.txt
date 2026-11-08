@@ -1,6 +1,10 @@
 HISTÓRICO DE CAMBIOS DE AXIOM WARS
 (La versión es la fecha de la última modificación del servidor o del cliente.)
 
+v2026.11.08 alpha
+    Tutorial avanzado: las cinco lecciones nuevas ya están traducidas a todos los idiomas
+    Tropas enterradas: se corrigen casos en los que una tropa enterrada o escondida bajo una tropa grande (Meca, APC, Raptor) podía perder su sitio en el mapa cuando una tropa grande aliada pasaba por encima o se apartaba para dejarle paso
+
 v2026.11.07 alpha
     Tutorial avanzado: cinco lecciones nuevas (mejoras y nivel de Gobierno, Tecnología y Curación, préstamos y racionamiento, criaturas y cofres, expansiones), cada una con su partida de práctica, desde el botón «Tutorial» de la pantalla inicial; la lección de grupos enseña también a guardar y recuperar selecciones
     Selección: Ctrl+1–0 guarda las tropas seleccionadas y 1–0 las recupera (los números ya no eligen grupos, que se eligen en la isla Grupos o con doble clic); Mayús+clic añade una tropa a la selección y Ctrl+clic la quita
