@@ -1,6 +1,12 @@
 HISTORIQUE DES CHANGEMENTS D'AXIOM WARS
 (La version est la date de la dernière modification du serveur ou du client.)
 
+v2026.11.09 alpha
+    Équilibrage : le Militar perd en dégâts (Gouvernement 2 : -33 %, Gouvernement 3 : -40 %) et passe à 56 de vie et 29 de bouclier, avec des troupes de 4/6/7 ; l'Explorador passe à 88 de vie, Morsure +22 % (Gouvernement 2) et +40 % (Gouvernement 3), Dentellada +40 %, et des troupes de 6/8 ; le bouclier du Meca monte à 89 ; l'APC tombe à 117 de vie mais sa Tourelle et son Coup de canon frappent +40 % au Gouvernement 3
+    Explorador : Se déplacer enterré remplace Vitesse+ (enterré, il va à mi-vitesse, dépense le double d'Énergie, passe sous les autres troupes et attaque en sortant de terre) ; l'IA l'utilise pour des embuscades et achète des Exploradores de combat
+    Portails : les troupes se chevauchent sur l'emprise d'un portail utilisé et atterrissent dans un rayon plus large
+    Cartes : avec un Gouvernement initial de niveau 2 ou 3, la base de départ tient toujours (Usine, flaques et gisement d'acier), sans que la faune docile prenne la place
+
 v2026.11.08 alpha
     Tutoriel avancé : les cinq nouvelles leçons sont désormais traduites dans toutes les langues
     Troupes enterrées : correction de cas où une troupe enterrée ou cachée sous une grande troupe (Meca, APC, Raptor) pouvait perdre sa place sur la carte quand une grande troupe alliée passait par-dessus ou s'écartait pour lui laisser le passage

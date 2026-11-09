@@ -1,6 +1,12 @@
 ÄNDERUNGSVERLAUF VON AXIOM WARS
 (Die Version ist das Datum der letzten Änderung am Server oder am Client.)
 
+v2026.11.09 alpha
+    Balance: Der Militar verliert Schaden (Regierung 2: -33 %, Regierung 3: -40 %) und hat 56 Leben und 29 Schild, Truppen mit 4/6/7; der Explorador erhält 88 Leben, Biss +22 % (Regierung 2) und +40 % (Regierung 3), Dentellada +40 % und Truppen mit 6/8; der Schild des Meca steigt auf 89; der APC sinkt auf 117 Leben, aber Geschütz und Kanonenschuss treffen mit Regierung 3 um 40 % stärker
+    Explorador: Vergraben bewegen ersetzt Geschwindigkeit+ (vergraben halbe Geschwindigkeit, doppelter Energieverbrauch, Durchgang unter anderen Truppen, Angriff durch Auftauchen); die KI nutzt es für Hinterhalte und kauft Kampf-Exploradores
+    Portale: Truppen überlappen sich auf dem Feld eines genutzten Portals und landen in einem größeren Radius
+    Karten: mit Start-Regierung 2 oder 3 passt die Startbasis immer (Fabrik, Pfützen und Stahlvorkommen), ohne dass zahme Fauna den Platz besetzt
+
 v2026.11.08 alpha
     Fortgeschrittenes Tutorial: Die fünf neuen Lektionen sind jetzt in alle Sprachen übersetzt
     Vergrabene Truppen: Fälle behoben, in denen eine vergrabene oder verborgene Truppe unter einer großen Truppe (Meca, APC, Raptor) ihren Platz auf der Karte verlieren konnte, wenn eine verbündete große Truppe darüber hinwegzog oder zur Seite wich

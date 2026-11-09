@@ -179,10 +179,17 @@ Abre el juego: la dirección del servidor ya viene rellena. Escribe tu nombre y 
 
 ## Histórico de cambios
 
-La última versión es **v2026.11.08 alpha**.
+La última versión es **v2026.11.09 alpha**.
 
 <details>
 <summary>Ver todas las versiones</summary>
+
+### v2026.11.09 alpha
+
+- Balance: el Militar baja su daño (Gobierno 2: -33 %, Gobierno 3: -40 %) y pasa a vida 56 y escudo 29, con tropas de 4/6/7; el Explorador sube su vida a 88, su mordisco +22 % (Gobierno 2) y +40 % (Gobierno 3), la Dentellada +40 %, y tropas de 6/8; el Meca sube su escudo a 89; el APC baja su vida a 117 pero su Torreta y su Cañonazo hacen +40 % con Gobierno 3
+- Explorador: Moverse enterrado sustituye a Velocidad+ (enterrado va a media velocidad, gasta el doble de Energía, pasa bajo otras tropas y ataca desenterrándose); la IA lo usa para emboscadas y compra Exploradores de combate
+- Portales: las tropas se solapan sobre la huella de un portal en uso y aterrizan en un radio mayor
+- Mapas: con Gobierno inicial 2 o 3 la base de partida cabe siempre (Fábrica, charcos y depósito de acero), sin que la fauna dócil ocupe el sitio
 
 ### v2026.11.08 alpha
 

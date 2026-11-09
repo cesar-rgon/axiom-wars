@@ -211,7 +211,7 @@
   "dl.c2": "Avvia il gioco: l'indirizzo del server è già compilato. Scrivi il tuo nome, poi crea una stanza o unisciti a una.",
   "nav.news": "Novità",
   "news.title": "Novità",
-  "news.body": "Tutorial avanzato tradotto in tutte le lingue e correzioni per le truppe sepolte sotto le truppe grandi. Tasto A per muoversi con vigilanza, doppio clic per tipo di truppa, lente che segue le marce lontane e lezione 6 ampliata.",
+  "news.body": "Bilanciamento del combattimento: Militar più debole; Explorador, Meca e APC rinforzati. L'Explorador si muove sepolto e attacca di sorpresa, i portali accettano truppe sovrapposte e la base iniziale ci sta sempre con Governo 2 o 3.",
   "news.all": "Vedi tutta la cronologia",
   "news.all.href": "docs/historico.it.txt",
   "lang.eyebrow": "Lingue",

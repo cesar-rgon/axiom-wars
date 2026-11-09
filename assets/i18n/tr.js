@@ -188,7 +188,7 @@
   "mus.t14": "<strong>Yüzen arayüz.</strong> Menü, kaynaklar, mini harita, Hükümet seviyesine göre inşa paneli ve her emir türü için bir simge.",
   "mus.hint": "Zaman çizgisinde ilerlemek için kaydır →",
   "news.title": "Yenilikler",
-  "news.body": "Gelişmiş eğitim tüm dillere çevrildi ve büyük birliklerin altında gömülü birlikler düzeltildi. Teyakkuzlu hareket için A tuşu, birlik türüne göre çift tık, uzak yürüyüşleri izleyen büyüteç ve genişletilmiş 6. ders.",
+  "news.body": "Savaş dengesi: Militar daha zayıf; Explorador, Meca ve APC güçlendirildi. Explorador gömülü hareket edip sürpriz saldırı yapar, portallar üst üste binen birlikleri kabul eder ve başlangıç üssü Hükümet 2 veya 3 ile her zaman sığar.",
   "news.all": "Tüm değişiklik geçmişini gör",
   "news.all.href": "docs/historico.tr.txt",
   "join.eyebrow": "Topluluk",

@@ -188,7 +188,7 @@
   "mus.t14": "<strong>Pływający interfejs.</strong> Menu, zasoby, minimapa, panel budowy według poziomu Rządu i ikona dla każdego rodzaju rozkazu.",
   "mus.hint": "Przesuń palcem, aby poruszać się po osi czasu →",
   "news.title": "Nowości",
-  "news.body": "Zaawansowany samouczek przetłumaczony na wszystkie języki i poprawki dla oddziałów zakopanych pod dużymi oddziałami. Klawisz A do ruchu z czujnością, podwójne kliknięcie według typu oddziału, lupa śledząca dalekie marsze i rozszerzona lekcja 6.",
+  "news.body": "Balans walki: słabszy Militar; wzmocnione Explorador, Meca i APC. Explorador porusza się pod ziemią i atakuje z zaskoczenia, portale przyjmują nakładające się oddziały, a baza startowa zawsze się mieści przy Rządzie 2 lub 3.",
   "news.all": "Zobacz pełną historię zmian",
   "news.all.href": "docs/historico.pl.txt",
   "join.eyebrow": "Społeczność",

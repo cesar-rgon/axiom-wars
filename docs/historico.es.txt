@@ -1,6 +1,12 @@
 HISTÓRICO DE CAMBIOS DE AXIOM WARS
 (La versión es la fecha de la última modificación del servidor o del cliente.)
 
+v2026.11.09 alpha
+    Balance: el Militar baja su daño (Gobierno 2: -33 %, Gobierno 3: -40 %) y pasa a vida 56 y escudo 29, con tropas de 4/6/7; el Explorador sube su vida a 88, su mordisco +22 % (Gobierno 2) y +40 % (Gobierno 3), la Dentellada +40 %, y tropas de 6/8; el Meca sube su escudo a 89; el APC baja su vida a 117 pero su Torreta y su Cañonazo hacen +40 % con Gobierno 3
+    Explorador: Moverse enterrado sustituye a Velocidad+ (enterrado va a media velocidad, gasta el doble de Energía, pasa bajo otras tropas y ataca desenterrándose); la IA lo usa para emboscadas y compra Exploradores de combate
+    Portales: las tropas se solapan sobre la huella de un portal en uso y aterrizan en un radio mayor
+    Mapas: con Gobierno inicial 2 o 3 la base de partida cabe siempre (Fábrica, charcos y depósito de acero), sin que la fauna dócil ocupe el sitio
+
 v2026.11.08 alpha
     Tutorial avanzado: las cinco lecciones nuevas ya están traducidas a todos los idiomas
     Tropas enterradas: se corrigen casos en los que una tropa enterrada o escondida bajo una tropa grande (Meca, APC, Raptor) podía perder su sitio en el mapa cuando una tropa grande aliada pasaba por encima o se apartaba para dejarle paso

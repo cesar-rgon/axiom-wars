@@ -1,6 +1,12 @@
 HISTORIA ZMIAN AXIOM WARS
 (Wersja to data ostatniej zmiany serwera lub klienta.)
 
+v2026.11.09 alpha
+    Balans: Militar traci obrażenia (Rząd 2: -33 %, Rząd 3: -40 %) i ma 56 życia oraz 29 tarczy, oddziały po 4/6/7; Explorador dostaje 88 życia, Ugryzienie +22 % (Rząd 2) i +40 % (Rząd 3), Dentellada +40 % oraz oddziały po 6/8; tarcza Meca rośnie do 89; APC spada do 117 życia, ale jego Wieżyczka i Strzał z działa biją o 40 % mocniej przy Rządzie 3
+    Explorador: Poruszanie się pod ziemią zastępuje Prędkość+ (pod ziemią porusza się z połową prędkości, zużywa podwójną Energię, przechodzi pod innymi oddziałami i atakuje, wynurzając się); SI używa go do zasadzek i kupuje bojowe Exploradory
+    Portale: oddziały nakładają się na pole używanego portalu i lądują w większym promieniu
+    Mapy: przy początkowym Rządzie 2 lub 3 baza startowa zawsze się mieści (Fabryka, kałuże i złoże stali), a oswojona fauna nie zajmuje miejsca
+
 v2026.11.08 alpha
     Zaawansowany samouczek: pięć nowych lekcji jest już przetłumaczonych na wszystkie języki
     Zakopane oddziały: naprawiono przypadki, w których oddział zakopany lub ukryty pod dużym oddziałem (Meca, APC, Raptor) mógł stracić miejsce na mapie, gdy sojuszniczy duży oddział przechodził nad nim lub odsuwał się, by zrobić przejście

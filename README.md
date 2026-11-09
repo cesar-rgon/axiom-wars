@@ -179,10 +179,17 @@ Open the game: the server address is already filled in. Type your name, then cre
 
 ## Change history
 
-The latest version is **v2026.11.08 alpha**.
+The latest version is **v2026.11.09 alpha**.
 
 <details>
 <summary>Show all versions</summary>
+
+### v2026.11.09 alpha
+
+- Balance: the Militar loses damage (Government 2: -33%, Government 3: -40%) and moves to 56 life and 29 shield, with troops of 4/6/7; the Explorador gets 88 life, Bite +22% (Government 2) and +40% (Government 3), Dentellada +40%, and troops of 6/8; the Meca's shield goes up to 89; the APC drops to 117 life but its Turret and Cannon hit +40% at Government 3
+- Explorador: Move buried replaces Speed+ (buried it moves at half speed, spends double Energy, passes under other troops and attacks by surfacing); the AI uses it for ambushes and buys combat Exploradores
+- Portals: troops overlap on the footprint of a portal in use and land in a wider radius
+- Maps: with starting Government 2 or 3 the starting base always fits (Factory, puddles and steel deposit), and tame fauna no longer takes the spot
 
 ### v2026.11.08 alpha
 
