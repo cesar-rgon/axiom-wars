@@ -6,6 +6,10 @@ v2026.11.09 alpha
     Explorador: Mover-se enterrado substitui Velocidade+ (enterrado vai a meia velocidade, gasta o dobro de Energia, passa por baixo de outras tropas e ataca ao emergir); a IA o usa em emboscadas e compra Exploradores de combate
     Portais: as tropas se sobrepõem sobre a área de um portal em uso e pousam num raio maior
     Mapas: com Governo inicial 2 ou 3 a base inicial sempre cabe (Fábrica, poças e depósito de aço), sem que a fauna dócil ocupe o lugar
+    Portais: um grupo enviado a um portal não se espalha mais em bloco ao redor dele e viaja inteiro; uma tropa grande viaja mesmo que só parte dela esteja sobre a área do portal
+    Explorador enterrado: não ataca nem contra-ataca por conta própria (só com uma ordem de ataque explícita); é desenhado uma casa mais abaixo, com a elipse de seleção e a elipse dourada do mesmo tamanho e um contorno tracejado que segue sua textura; clicar na textura o seleciona e ele deixa um sulco com pedrinhas ao se mover debaixo da terra; Enterrar, mover-se e emergir aparecem na lupa de resolução
+    Várias tropas do mesmo tipo selecionadas: o painel mostra suas armas e habilidades comuns, e a arma escolhida e a habilidade se aplicam a todas (as ordens formam um grupo)
+    Segurar Espaço: tudo o que não são suas tropas aparece a 35 %, e suas tropas ganham um contorno que segue a forma da textura (contínuo sobre a terra, tracejado debaixo dela); o clique esquerdo não seleciona o que está atenuado e o direito continua dando ordens. Selecionar as tropas ociosas passa para a tecla I
 
 v2026.11.08 alpha
     Tutorial avançado: as cinco lições novas já estão traduzidas para todos os idiomas

@@ -6,6 +6,10 @@ v2026.11.09 alpha
     Explorador: Gömülü hareket Hız+ yerine geçer (gömülüyken yarı hızla gider, iki kat Enerji harcar, diğer birliklerin altından geçer ve yüzeye çıkarak saldırır); YZ bunu pusu için kullanır ve savaş Exploradorları satın alır
     Portallar: birlikler kullanımdaki bir portalın izi üzerinde üst üste biner ve daha geniş bir yarıçapa iner
     Haritalar: başlangıç Hükümeti 2 veya 3 iken başlangıç üssü her zaman sığar (Fabrika, su birikintileri ve çelik yatağı), evcil fauna yeri kapmaz
+    Portallar: bir portala gönderilen grup artık çevresinde blok halinde dağılmaz ve bütün olarak yolculuk eder; büyük bir birlik, yalnızca bir kısmı portalın alanı üzerinde olsa bile yolculuk eder
+    Gömülü Explorador: kendi başına saldırmaz ve karşı saldırı yapmaz (yalnızca açık bir saldırı emriyle); bir kare aşağıda çizilir, aynı boyda seçim elipsi ve altın elips ile dokusunun biçimini izleyen kesikli bir kontur taşır; dokusuna tıklamak onu seçer ve yer altında hareket ederken taşlı bir iz bırakır; Gömülme, hareket ve yüzeye çıkış çözümleme merceğinde görünür
+    Aynı türden birkaç birlik seçildiğinde: panel ortak silahlarını ve yeteneklerini gösterir; seçilen silah ve yetenek hepsine uygulanır (emirler bir grup oluşturur)
+    Boşluk tuşunu basılı tutmak: birliklerin dışındaki her şey %35 ile gösterilir ve birliklerin dokularının biçimini izleyen bir kontur alır (yerin üstünde sürekli, yeraltında kesikli); sol tık soluklaştırılanı seçmez, sağ tık emir vermeye devam eder. Boştaki birlikleri seçme I tuşuna taşındı
 
 v2026.11.08 alpha
     Gelişmiş eğitim: beş yeni ders artık tüm dillere çevrildi

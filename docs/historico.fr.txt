@@ -6,6 +6,10 @@ v2026.11.09 alpha
     Explorador : Se déplacer enterré remplace Vitesse+ (enterré, il va à mi-vitesse, dépense le double d'Énergie, passe sous les autres troupes et attaque en sortant de terre) ; l'IA l'utilise pour des embuscades et achète des Exploradores de combat
     Portails : les troupes se chevauchent sur l'emprise d'un portail utilisé et atterrissent dans un rayon plus large
     Cartes : avec un Gouvernement initial de niveau 2 ou 3, la base de départ tient toujours (Usine, flaques et gisement d'acier), sans que la faune docile prenne la place
+    Portails : un groupe envoyé vers un portail ne se répartit plus en bloc autour de lui et voyage en entier ; une grande troupe voyage même si seule une partie d'elle se trouve sur l'emprise du portail
+    Explorador enterré : il n'attaque ni ne contre-attaque de lui-même (seulement sur un ordre d'attaque explicite) ; il est dessiné une case plus bas, avec l'ellipse de sélection et l'ellipse dorée de même taille et un contour en pointillés qui suit sa texture ; cliquer sur sa texture le sélectionne, et il laisse un sillon avec des cailloux en se déplaçant sous terre ; Enterrer, se déplacer et remonter apparaissent dans la loupe de résolution
+    Plusieurs troupes du même type sélectionnées : le panneau affiche leurs armes et capacités communes, et l'arme choisie et la capacité s'appliquent à toutes (les ordres forment un groupe)
+    Maintenir Espace : tout ce qui n'est pas vos troupes s'affiche à 35 %, et vos troupes ont un contour qui suit la forme de leur texture (continu au-dessus du sol, en pointillés sous terre) ; le clic gauche ne sélectionne pas ce qui est atténué et le clic droit donne toujours des ordres. La sélection des troupes inactives passe à la touche I
 
 v2026.11.08 alpha
     Tutoriel avancé : les cinq nouvelles leçons sont désormais traduites dans toutes les langues

@@ -6,6 +6,10 @@ v2026.11.09 alpha
     Explorador: Poruszanie się pod ziemią zastępuje Prędkość+ (pod ziemią porusza się z połową prędkości, zużywa podwójną Energię, przechodzi pod innymi oddziałami i atakuje, wynurzając się); SI używa go do zasadzek i kupuje bojowe Exploradory
     Portale: oddziały nakładają się na pole używanego portalu i lądują w większym promieniu
     Mapy: przy początkowym Rządzie 2 lub 3 baza startowa zawsze się mieści (Fabryka, kałuże i złoże stali), a oswojona fauna nie zajmuje miejsca
+    Portale: grupa wysłana do portalu nie rozkłada się już blokiem wokół niego i podróżuje w całości; duża jednostka podróżuje, nawet jeśli tylko jej część stoi na obszarze portalu
+    Zakopany Explorador: nie atakuje ani nie kontratakuje sam (tylko na wyraźny rozkaz ataku); jest rysowany o jedno pole niżej, z elipsą zaznaczenia i złotą elipsą tego samego rozmiaru oraz przerywanym konturem w kształcie jego tekstury; kliknięcie tekstury go zaznacza, a pod ziemią zostawia bruzdę z kamykami; Zakopanie, ruch i wynurzenie pojawiają się w lupie rozstrzygnięcia
+    Zaznaczono kilka jednostek tego samego typu: panel pokazuje ich wspólną broń i umiejętności, a wybrana broń i umiejętność dotyczą wszystkich (rozkazy tworzą grupę)
+    Przytrzymanie Spacji: wszystko, co nie jest twoimi jednostkami, jest pokazane w 35 %, a twoje jednostki mają kontur w kształcie tekstury (ciągły nad ziemią, przerywany pod ziemią); lewy przycisk nie zaznacza tego, co przyciemnione, a prawy nadal wydaje rozkazy. Zaznaczanie bezczynnych jednostek przechodzi na klawisz I
 
 v2026.11.08 alpha
     Zaawansowany samouczek: pięć nowych lekcji jest już przetłumaczonych na wszystkie języki

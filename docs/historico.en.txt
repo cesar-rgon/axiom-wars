@@ -6,6 +6,10 @@ v2026.11.09 alpha
     Explorador: Move buried replaces Speed+ (buried it moves at half speed, spends double Energy, passes under other troops and attacks by surfacing); the AI uses it for ambushes and buys combat Exploradores
     Portals: troops overlap on the footprint of a portal in use and land in a wider radius
     Maps: with starting Government 2 or 3 the starting base always fits (Factory, puddles and steel deposit), and tame fauna no longer takes the spot
+    Portals: a group sent to a portal is no longer spread in a block around it and travels whole; a big troop travels even if only part of it is over the portal's footprint
+    Buried Explorador: it does not attack or counterattack on its own (only on an explicit attack order); it is drawn one tile lower, with the selection ellipse and the golden ellipse the same size and a dashed outline that follows its texture; click its texture to select it, and it leaves a furrow with pebbles when moving underground; Bury, moving and surfacing show in the resolution magnifier
+    Several troops of the same type selected: the panel shows their common weapons and abilities, and the chosen weapon and the ability apply to all of them (the orders form a group)
+    Hold Space: everything that is not your troops is shown at 35 %, and your troops get an outline that follows the shape of their texture (solid above ground, dashed underground); the left click does not select what is dimmed and the right click still gives orders. Selecting the idle troops moves to the I key
 
 v2026.11.08 alpha
     Advanced tutorial: the five new lessons are now translated into all languages

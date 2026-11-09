@@ -6,6 +6,10 @@ v2026.11.09 alpha
     Explorador: Muoversi sepolto sostituisce Velocità+ (sepolto va a metà velocità, spende il doppio di Energia, passa sotto le altre truppe e attacca emergendo); l'IA lo usa per le imboscate e compra Exploradores da combattimento
     Portali: le truppe si sovrappongono sull'impronta di un portale in uso e atterrano in un raggio maggiore
     Mappe: con Governo iniziale 2 o 3 la base di partenza ci sta sempre (Fabbrica, pozze e giacimento d'acciaio), senza che la fauna docile occupi il posto
+    Portali: un gruppo inviato a un portale non si dispone più a blocco intorno ad esso e viaggia al completo; una truppa grande viaggia anche se solo una parte di essa è sull'area del portale
+    Explorador sotterrato: non attacca né contrattacca da solo (solo con un ordine di attacco esplicito); viene disegnato una casella più in basso, con l'ellisse di selezione e l'ellisse dorata della stessa dimensione e un contorno tratteggiato che segue la sua texture; un clic sulla texture lo seleziona e, muovendosi sottoterra, lascia un solco con sassolini; Seppellire, muoversi e riemergere compaiono nella lente di risoluzione
+    Più truppe dello stesso tipo selezionate: il pannello mostra le loro armi e abilità comuni, e l'arma scelta e l'abilità si applicano a tutte (gli ordini formano un gruppo)
+    Tenendo premuto Spazio: tutto ciò che non sono le tue truppe è mostrato al 35 %, e le tue truppe hanno un contorno che segue la forma della loro texture (continuo sopra il suolo, tratteggiato sottoterra); il clic sinistro non seleziona ciò che è attenuato e il destro continua a dare ordini. La selezione delle truppe inattive passa al tasto I
 
 v2026.11.08 alpha
     Tutorial avanzato: le cinque nuove lezioni sono ora tradotte in tutte le lingue

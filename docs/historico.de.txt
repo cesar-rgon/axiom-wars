@@ -6,6 +6,10 @@ v2026.11.09 alpha
     Explorador: Vergraben bewegen ersetzt Geschwindigkeit+ (vergraben halbe Geschwindigkeit, doppelter Energieverbrauch, Durchgang unter anderen Truppen, Angriff durch Auftauchen); die KI nutzt es für Hinterhalte und kauft Kampf-Exploradores
     Portale: Truppen überlappen sich auf dem Feld eines genutzten Portals und landen in einem größeren Radius
     Karten: mit Start-Regierung 2 oder 3 passt die Startbasis immer (Fabrik, Pfützen und Stahlvorkommen), ohne dass zahme Fauna den Platz besetzt
+    Portale: Eine zu einem Portal geschickte Gruppe verteilt sich nicht mehr als Block darum herum und reist vollständig; eine große Truppe reist auch dann mit, wenn nur ein Teil von ihr auf der Grundfläche des Portals steht
+    Vergrabener Explorador: Er greift nicht von selbst an und kontert nicht (nur auf einen ausdrücklichen Angriffsbefehl); er wird ein Feld weiter unten gezeichnet, mit gleich großer Auswahlellipse und goldener Ellipse sowie einer gestrichelten Kontur in der Form seiner Textur; Klick auf die Textur wählt ihn aus, und beim Bewegen unter der Erde hinterlässt er eine Furche mit Steinchen; Vergraben, Bewegen und Auftauchen erscheinen in der Auflösungslupe
+    Mehrere Truppen desselben Typs ausgewählt: Das Panel zeigt ihre gemeinsamen Waffen und Fähigkeiten, und die gewählte Waffe und die Fähigkeit gelten für alle (die Befehle bilden eine Gruppe)
+    Leertaste gedrückt halten: Alles, was nicht zu deinen Truppen gehört, wird mit 35 % dargestellt, und deine Truppen erhalten eine Kontur in der Form ihrer Textur (durchgezogen über der Erde, gestrichelt unter der Erde); der Linksklick wählt Abgedunkeltes nicht aus, der Rechtsklick gibt weiterhin Befehle. Das Auswählen der untätigen Truppen liegt jetzt auf der Taste I
 
 v2026.11.08 alpha
     Fortgeschrittenes Tutorial: Die fünf neuen Lektionen sind jetzt in alle Sprachen übersetzt
