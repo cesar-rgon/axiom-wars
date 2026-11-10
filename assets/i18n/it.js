@@ -217,7 +217,7 @@
   "dl.c2": "Avvia il gioco: l'indirizzo del server è già compilato. Scrivi il tuo nome, poi crea una stanza o unisciti a una.",
   "nav.news": "Novità",
   "news.title": "Novità",
-  "news.body": "Bilanciamento del combattimento: Militar più debole; Explorador, Meca e APC rinforzati. L'Explorador si muove sepolto e attacca di sorpresa, i portali accettano truppe sovrapposte e la base iniziale ci sta sempre con Governo 2 o 3.",
+  "news.body": "Prestazioni: l'IA pensa circa 3 volte più veloce senza cambiare le sue decisioni e i raggi dei portali rendono il 21 % in più.",
   "news.all": "Vedi tutta la cronologia",
   "news.all.href": "docs/historico.it.txt",
   "lang.eyebrow": "Lingue",

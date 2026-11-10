@@ -194,7 +194,7 @@
   "mus.t14": "<strong>Yüzen arayüz.</strong> Menü, kaynaklar, mini harita, Hükümet seviyesine göre inşa paneli ve her emir türü için bir simge.",
   "mus.hint": "Zaman çizgisinde ilerlemek için kaydır →",
   "news.title": "Yenilikler",
-  "news.body": "Savaş dengesi: Militar daha zayıf; Explorador, Meca ve APC güçlendirildi. Explorador gömülü hareket edip sürpriz saldırı yapar, portallar üst üste binen birlikleri kabul eder ve başlangıç üssü Hükümet 2 veya 3 ile her zaman sığar.",
+  "news.body": "Performans: YZ kararlarını değiştirmeden yaklaşık 3 kat daha hızlı düşünür ve portal ışınları %21 daha hızlı çalışır.",
   "news.all": "Tüm değişiklik geçmişini gör",
   "news.all.href": "docs/historico.tr.txt",
   "join.eyebrow": "Topluluk",

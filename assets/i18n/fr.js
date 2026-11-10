@@ -217,7 +217,7 @@
   "dl.c2": "Lancez le jeu : l'adresse du serveur est déjà remplie. Saisissez votre nom, puis créez un salon ou rejoignez-en un.",
   "nav.news": "Nouveautés",
   "news.title": "Nouveautés",
-  "news.body": "Équilibrage du combat : Militar plus faible ; Explorador, Meca et APC renforcés. L'Explorador se déplace enterré et frappe par surprise, les portails acceptent des troupes superposées et la base de départ tient toujours avec un Gouvernement 2 ou 3.",
+  "news.body": "Performances : l'IA réfléchit environ 3 fois plus vite sans changer ses décisions, et les rayons des portails sont 21 % plus rapides.",
   "news.all": "Voir tout l'historique",
   "news.all.href": "docs/historico.fr.txt",
   "lang.eyebrow": "Langues",

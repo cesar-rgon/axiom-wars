@@ -217,7 +217,7 @@
   "dl.c2": "Starte das Spiel: Die Serveradresse ist schon eingetragen. Gib deinen Namen ein und erstelle einen Raum oder tritt einem bei.",
   "nav.news": "Neuigkeiten",
   "news.title": "Neuigkeiten",
-  "news.body": "Kampfbalance: schwächerer Militar; stärkere Explorador, Meca und APC. Der Explorador bewegt sich vergraben und greift überraschend an, Portale erlauben überlappende Truppen und die Startbasis passt mit Regierung 2 oder 3 immer.",
+  "news.body": "Leistung: Die KI denkt etwa 3-mal schneller, ohne ihre Entscheidungen zu ändern, und die Portalstrahlen laufen 21 % schneller.",
   "news.all": "Gesamten Verlauf ansehen",
   "news.all.href": "docs/historico.de.txt",
   "lang.eyebrow": "Sprachen",

@@ -179,10 +179,15 @@ Open the game: the server address is already filled in. Type your name, then cre
 
 ## Change history
 
-The latest version is **v2026.11.09 alpha**.
+The latest version is **v2026.11.10 alpha**.
 
 <details>
 <summary>Show all versions</summary>
+
+### v2026.11.10 alpha
+
+- AI: it thinks 2.8-3.2 times faster without changing its decisions, so matches with many troops run smoother
+- Portals: the rays are drawn as a single path per layer (+21 % FPS with a portal network) and are no longer seen in pieces
 
 ### v2026.11.09 alpha
 

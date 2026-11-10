@@ -241,7 +241,7 @@
   "dl.c2": "Abre el juego: la dirección del servidor ya viene rellena. Escribe tu nombre y crea una sala o únete a una.",
   "nav.news": "Novedades",
   "news.title": "Novedades",
-  "news.body": "Balance de combate: Militar más débil; Explorador, Meca y APC reforzados. El Explorador se mueve enterrado y ataca por sorpresa, los portales admiten tropas solapadas y la base inicial cabe siempre con Gobierno 2 o 3.",
+  "news.body": "Rendimiento: la IA piensa unas 3 veces más rápido sin cambiar sus decisiones y los rayos de los portales rinden un 21 % más.",
   "news.all": "Ver el histórico completo",
   "news.all.href": "docs/historico.es.txt",
   "lang.eyebrow": "Idiomas",

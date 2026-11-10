@@ -1,6 +1,10 @@
 AXIOM WARS DEĞİŞİKLİK GEÇMİŞİ
 (Sürüm, sunucuda veya istemcide yapılan son değişikliğin tarihidir.)
 
+v2026.11.10 alpha
+    YZ: kararlarını değiştirmeden 2,8-3,2 kat daha hızlı düşünür; çok birimli maçlar daha akıcı çalışır
+    Portallar: ışınlar katman başına tek yol olarak çizilir (portal ağında +%21 FPS) ve artık parça parça görünmez
+
 v2026.11.09 alpha
     Denge: Militar hasar kaybeder (Hükümet 2: -%33, Hükümet 3: -%40), 56 can ve 29 kalkana sahip olur, birlikleri 4/6/7'dir; Explorador 88 cana, Isırık +%22 (Hükümet 2) ve +%40 (Hükümet 3), Dentellada +%40 ve 6/8 birliğe kavuşur; Meca'nın kalkanı 89'a çıkar; APC 117 cana düşer ama Taret ve Top Atışı Hükümet 3'te %40 daha çok vurur
     Explorador: Gömülü hareket Hız+ yerine geçer (gömülüyken yarı hızla gider, iki kat Enerji harcar, diğer birliklerin altından geçer ve yüzeye çıkarak saldırır); YZ bunu pusu için kullanır ve savaş Exploradorları satın alır

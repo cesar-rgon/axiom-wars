@@ -1,6 +1,10 @@
 AXIOM WARS CHANGE HISTORY
 (The version is the date of the latest change to the server or the client.)
 
+v2026.11.10 alpha
+    AI: it thinks 2.8-3.2 times faster without changing its decisions, so matches with many troops run smoother
+    Portals: the rays are drawn as a single path per layer (+21 % FPS with a portal network) and are no longer seen in pieces
+
 v2026.11.09 alpha
     Balance: the Militar loses damage (Government 2: -33%, Government 3: -40%) and moves to 56 life and 29 shield, with troops of 4/6/7; the Explorador gets 88 life, Bite +22% (Government 2) and +40% (Government 3), Dentellada +40%, and troops of 6/8; the Meca's shield goes up to 89; the APC drops to 117 life but its Turret and Cannon hit +40% at Government 3
     Explorador: Move buried replaces Speed+ (buried it moves at half speed, spends double Energy, passes under other troops and attacks by surfacing); the AI uses it for ambushes and buys combat Exploradores

@@ -1,6 +1,10 @@
 CRONOLOGIA DELLE MODIFICHE DI AXIOM WARS
 (La versione è la data dell'ultima modifica del server o del client.)
 
+v2026.11.10 alpha
+    IA: pensa 2,8-3,2 volte più veloce senza cambiare le sue decisioni, quindi le partite con molte truppe sono più fluide
+    Portali: i raggi sono disegnati in un unico percorso per livello (+21 % di FPS con una rete di portali) e non si vedono più a pezzi
+
 v2026.11.09 alpha
     Bilanciamento: il Militar perde danno (Governo 2: -33 %, Governo 3: -40 %) e passa a 56 di vita e 29 di scudo, con truppe da 4/6/7; l'Explorador sale a 88 di vita, Morso +22 % (Governo 2) e +40 % (Governo 3), Dentellada +40 %, e truppe da 6/8; lo scudo del Meca sale a 89; l'APC scende a 117 di vita ma Torretta e Cannonata colpiscono +40 % con Governo 3
     Explorador: Muoversi sepolto sostituisce Velocità+ (sepolto va a metà velocità, spende il doppio di Energia, passa sotto le altre truppe e attacca emergendo); l'IA lo usa per le imboscate e compra Exploradores da combattimento

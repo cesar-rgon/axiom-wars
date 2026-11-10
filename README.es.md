@@ -179,10 +179,15 @@ Abre el juego: la dirección del servidor ya viene rellena. Escribe tu nombre y 
 
 ## Histórico de cambios
 
-La última versión es **v2026.11.09 alpha**.
+La última versión es **v2026.11.10 alpha**.
 
 <details>
 <summary>Ver todas las versiones</summary>
+
+### v2026.11.10 alpha
+
+- IA: piensa 2,8-3,2 veces más rápido sin cambiar sus decisiones, así que las partidas con muchas tropas van más fluidas
+- Portales: los rayos se dibujan en un solo camino por capa (+21 % de FPS con una red de portales) y ya no se ven a trozos
 
 ### v2026.11.09 alpha
 
