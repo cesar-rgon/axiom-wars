@@ -4,6 +4,8 @@
 v2026.11.10 alpha
     KI: Sie denkt 2,8-3,2-mal schneller, ohne ihre Entscheidungen zu ändern; Partien mit vielen Truppen laufen flüssiger
     Portale: Die Strahlen werden als ein einziger Pfad pro Ebene gezeichnet (+21 % FPS bei einem Portalnetz) und erscheinen nicht mehr in Stücken
+    Server: Ein Gruppenbefehl (z. B. Strg+A) mit gemischten Luft- und Bodentruppen nahe am Kartenrand kann den Server nicht mehr zum Absturz bringen; schlägt ein Befehl durch einen internen Fehler fehl, bekommt nur dieser Befehl den Fehler
+    Spielende: Die Schaltfläche „Neue Karte“ im Ergebnisfenster wurde entfernt
 
 v2026.11.09 alpha
     Balance: Der Militar verliert Schaden (Regierung 2: -33 %, Regierung 3: -40 %) und hat 56 Leben und 29 Schild, Truppen mit 4/6/7; der Explorador erhält 88 Leben, Biss +22 % (Regierung 2) und +40 % (Regierung 3), Dentellada +40 % und Truppen mit 6/8; der Schild des Meca steigt auf 89; der APC sinkt auf 117 Leben, aber Geschütz und Kanonenschuss treffen mit Regierung 3 um 40 % stärker

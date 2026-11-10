@@ -188,6 +188,8 @@ The latest version is **v2026.11.10 alpha**.
 
 - AI: it thinks 2.8-3.2 times faster without changing its decisions, so matches with many troops run smoother
 - Portals: the rays are drawn as a single path per layer (+21 % FPS with a portal network) and are no longer seen in pieces
+- Server: a group order (for example Ctrl+A) with mixed air and ground troops near the map edge can no longer bring the server down; if an order fails with an internal error, only that order gets the error
+- End of match: the "New map" button is removed from the result window
 
 ### v2026.11.09 alpha
 

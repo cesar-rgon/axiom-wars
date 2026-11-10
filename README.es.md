@@ -188,6 +188,8 @@ La última versión es **v2026.11.10 alpha**.
 
 - IA: piensa 2,8-3,2 veces más rápido sin cambiar sus decisiones, así que las partidas con muchas tropas van más fluidas
 - Portales: los rayos se dibujan en un solo camino por capa (+21 % de FPS con una red de portales) y ya no se ven a trozos
+- Servidor: una orden de grupo (por ejemplo Ctrl+A) con tropas aéreas y terrestres mezcladas cerca del borde del mapa ya no puede tumbar el servidor; si una orden falla por un error interno, solo esa orden recibe el error
+- Fin de partida: se quita el botón «Nuevo mapa» de la ventana de resultado
 
 ### v2026.11.09 alpha
 

@@ -4,6 +4,8 @@ AXIOM WARS CHANGE HISTORY
 v2026.11.10 alpha
     AI: it thinks 2.8-3.2 times faster without changing its decisions, so matches with many troops run smoother
     Portals: the rays are drawn as a single path per layer (+21 % FPS with a portal network) and are no longer seen in pieces
+    Server: a group order (for example Ctrl+A) with mixed air and ground troops near the map edge can no longer bring the server down; if an order fails with an internal error, only that order gets the error
+    End of match: the "New map" button is removed from the result window
 
 v2026.11.09 alpha
     Balance: the Militar loses damage (Government 2: -33%, Government 3: -40%) and moves to 56 life and 29 shield, with troops of 4/6/7; the Explorador gets 88 life, Bite +22% (Government 2) and +40% (Government 3), Dentellada +40%, and troops of 6/8; the Meca's shield goes up to 89; the APC drops to 117 life but its Turret and Cannon hit +40% at Government 3

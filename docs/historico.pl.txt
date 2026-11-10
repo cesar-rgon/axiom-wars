@@ -4,6 +4,8 @@ HISTORIA ZMIAN AXIOM WARS
 v2026.11.10 alpha
     SI: myśli 2,8-3,2 razy szybciej bez zmiany swoich decyzji, więc partie z wieloma oddziałami działają płynniej
     Portale: promienie są rysowane jako jedna ścieżka na warstwę (+21 % FPS przy sieci portali) i nie są już widoczne we fragmentach
+    Serwer: rozkaz grupowy (np. Ctrl+A) z mieszanymi wojskami powietrznymi i lądowymi blisko krawędzi mapy nie może już wyłączyć serwera; jeśli rozkaz zawiedzie z powodu błędu wewnętrznego, błąd dostaje tylko ten rozkaz
+    Koniec meczu: z okna wyniku usunięto przycisk „Nowa mapa”
 
 v2026.11.09 alpha
     Balans: Militar traci obrażenia (Rząd 2: -33 %, Rząd 3: -40 %) i ma 56 życia oraz 29 tarczy, oddziały po 4/6/7; Explorador dostaje 88 życia, Ugryzienie +22 % (Rząd 2) i +40 % (Rząd 3), Dentellada +40 % oraz oddziały po 6/8; tarcza Meca rośnie do 89; APC spada do 117 życia, ale jego Wieżyczka i Strzał z działa biją o 40 % mocniej przy Rządzie 3

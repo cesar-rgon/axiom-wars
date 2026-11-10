@@ -4,6 +4,8 @@ HISTÓRICO DE MUDANÇAS DE AXIOM WARS
 v2026.11.10 alpha
     IA: pensa 2,8-3,2 vezes mais rápido sem mudar suas decisões, então partidas com muitas tropas ficam mais fluidas
     Portais: os raios são desenhados em um único caminho por camada (+21 % de FPS com uma rede de portais) e não aparecem mais em pedaços
+    Servidor: uma ordem de grupo (por exemplo Ctrl+A) com tropas aéreas e terrestres misturadas perto da borda do mapa não derruba mais o servidor; se uma ordem falhar por um erro interno, só essa ordem recebe o erro
+    Fim de partida: o botão «Novo mapa» foi removido da janela de resultado
 
 v2026.11.09 alpha
     Balanceamento: o Militar perde dano (Governo 2: -33 %, Governo 3: -40 %) e passa a 56 de vida e 29 de escudo, com tropas de 4/6/7; o Explorador sobe para 88 de vida, Mordida +22 % (Governo 2) e +40 % (Governo 3), Dentellada +40 %, e tropas de 6/8; o escudo do Meca sobe para 89; o APC cai para 117 de vida, mas Torreta e Canhonaço causam +40 % com Governo 3
