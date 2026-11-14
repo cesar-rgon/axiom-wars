@@ -5,4 +5,4 @@ La web lo lee sola cada pocos minutos; no hace falta desplegar nada. El banner d
 
 Mientras no haya ninguna fecha aquí, no se muestra ningún banner.
 
-**Fecha:** 11/11/2026 18:00:00
+**Fecha:** 14/11/2026 23:00:00
