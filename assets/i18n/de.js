@@ -217,7 +217,7 @@
   "dl.c2": "Starte das Spiel: Die Serveradresse ist schon eingetragen. Gib deinen Namen ein und erstelle einen Raum oder tritt einem bei.",
   "nav.news": "Neuigkeiten",
   "news.title": "Neuigkeiten",
-  "news.body": "Leistung: Die KI denkt etwa 3-mal schneller, ohne ihre Entscheidungen zu ändern, und die Portalstrahlen laufen 21 % schneller.",
+  "news.body": "Technologie nach Einheiten, Spieler mit eindeutigem Namen und Alias, neues Droiden-Set und Karten mit Inseln.",
   "news.all": "Gesamten Verlauf ansehen",
   "news.all.href": "docs/historico.de.txt",
   "lang.eyebrow": "Sprachen",

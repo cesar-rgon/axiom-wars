@@ -194,7 +194,7 @@
   "mus.t14": "<strong>Interface flutuante.</strong> Menu, recursos, minimapa, um painel de construção por nível de Governo e um ícone para cada tipo de ordem.",
   "mus.hint": "Deslize para percorrer a linha do tempo →",
   "news.title": "Novidades",
-  "news.body": "Desempenho: a IA pensa cerca de 3 vezes mais rápido sem mudar suas decisões, e os raios dos portais rendem 21 % mais.",
+  "news.body": "Tecnologia por unidade, jogadores com nome único e apelido, novo kit do Droide e mapas com ilhas.",
   "news.all": "Ver o histórico completo de mudanças",
   "join.eyebrow": "Comunidade",
   "join.title": "Jogue com a gente",

@@ -241,7 +241,7 @@
   "dl.c2": "Abre el juego: la dirección del servidor ya viene rellena. Escribe tu nombre y crea una sala o únete a una.",
   "nav.news": "Novedades",
   "news.title": "Novedades",
-  "news.body": "Rendimiento: la IA piensa unas 3 veces más rápido sin cambiar sus decisiones y los rayos de los portales rinden un 21 % más.",
+  "news.body": "Tecnología por unidad, jugadores con nombre único y alias, kit nuevo del Droide y mapas con islas.",
   "news.all": "Ver el histórico completo",
   "news.all.href": "docs/historico.es.txt",
   "lang.eyebrow": "Idiomas",

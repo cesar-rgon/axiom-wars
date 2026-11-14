@@ -217,7 +217,7 @@
   "dl.c2": "Lancez le jeu : l'adresse du serveur est déjà remplie. Saisissez votre nom, puis créez un salon ou rejoignez-en un.",
   "nav.news": "Nouveautés",
   "news.title": "Nouveautés",
-  "news.body": "Performances : l'IA réfléchit environ 3 fois plus vite sans changer ses décisions, et les rayons des portails sont 21 % plus rapides.",
+  "news.body": "Technologie par unité, joueurs à nom unique et pseudo, nouveau kit du Droïde et cartes avec îles.",
   "news.all": "Voir tout l'historique",
   "news.all.href": "docs/historico.fr.txt",
   "lang.eyebrow": "Langues",

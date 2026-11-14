@@ -1,6 +1,23 @@
 AXIOM WARS CHANGE HISTORY
 (The version is the date of the latest change to the server or the client.)
 
+v2026.11.14 alpha
+    Technology: the window is reorganized by unit (Units and Action points tabs), with Weapons, Active abilities and Passives panels where you buy; Strength+ and Strength++ use a heart; the Droid shows its three Government 3 abilities and the Mech's Stomp and the APC's Mines are back
+    Droid: new Designate target ability (+30% damage from your side against the target for 2 turns), Smoke grenades (5x5 clouds that block sight for 2 turns) and the Reboot passive (-1 cooldown turn for adjacent allies) in place of Shield+; the AI uses the smoke
+    Raptor: seen from behind when climbing and from the front when descending
+    Maps: the generator picks the symmetry from the seed, with styles, variable exits, islands with a bridge (the Islands option from the medium map) and bridges as wide as the ramps
+    Improved animations: marching with start, braking and turning, and new effects for shots, hits, casualties, death and the end of a state
+    Players: every player has a unique internal name and an alias they can change; saved games and replays follow the name, so they no longer get mixed up between players with the same alias (the previous ones are deleted)
+    Fog of war: a visible enemy builder no longer reveals which building it will build if you cannot see the site
+    Selection: Shift + double click adds every troop of the same type on screen, and Shift + box adds without duplicating
+
+v2026.11.11 alpha
+    Explorer: ranged Immolate (click a troop or building: it sticks to the target and explodes centered on it) and the AI uses it; Explorer AP 3/4/5, Burrow 2 AP and Immolate 3 AP
+    Targeted abilities (Healing, EMP shock, Paralyzing gas, Clone, Immolate): the caster chases the target and casts as soon as it is in range; the order carries over from turn to turn
+    Groups: on arrival, troops of the same type merge and different types stack on the tile without being moved around; big troops advance to an adjacent tile where they fit; the group arrow always points at the clicked tile and the formation block grows no more than needed
+    Technology tree: each level's own weapons are no longer hidden by repeats
+    Selection memory: the first press only reselects and the second centers the camera
+
 v2026.11.10 alpha
     AI: it thinks 2.8-3.2 times faster without changing its decisions, so matches with many troops run smoother
     Portals: the rays are drawn as a single path per layer (+21 % FPS with a portal network) and are no longer seen in pieces

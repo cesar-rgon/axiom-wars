@@ -179,10 +179,29 @@ Abre el juego: la dirección del servidor ya viene rellena. Escribe tu nombre y 
 
 ## Histórico de cambios
 
-La última versión es **v2026.11.10 alpha**.
+La última versión es **v2026.11.14 alpha**.
 
 <details>
 <summary>Ver todas las versiones</summary>
+
+### v2026.11.14 alpha
+
+- Tecnología: la ventana se reorganiza por unidad (pestañas Unidades y Puntos de acción), con paneles de Armas, Habilidades activas y Pasivas donde se compra; Fuerza+ y Fuerza++ llevan un corazón; el Droide muestra sus tres habilidades de Gobierno 3 y reaparecen Pisotón (Meca) y Minas (APC)
+- Droide: nueva habilidad Designar objetivo (+30 % de daño de tu bando contra el objetivo durante 2 turnos), Granadas de humo (nubes de 5x5 que tapan la vista 2 turnos) y la pasiva Reinicio (-1 turno de enfriamiento a los aliados adyacentes) en lugar de Escudo+; la IA usa el humo
+- Raptor: se ve de espaldas al subir y de frente al bajar
+- Mapas: el generador elige la simetría según la semilla, con estilos, salidas variables, islas con puente (casilla «Islas» desde el mapa mediano) y puentes del ancho de las rampas
+- Animaciones mejoradas: marcha con arranque, frenada y giro, y nuevos efectos de disparo, golpe, bajas, muerte y fin de estado
+- Jugadores: cada jugador tiene un nombre único interno y un alias que puede cambiar; las partidas guardadas y las repeticiones siguen al nombre, así que ya no se mezclan entre jugadores con el mismo alias (se borran las anteriores)
+- Niebla de guerra: un constructor enemigo visible ya no revela qué edificio va a construir si no ves el solar
+- Selección: Mayús + doble clic añade todas las tropas del mismo tipo en pantalla, y Mayús + recuadro añade sin duplicar
+
+### v2026.11.11 alpha
+
+- Explorador: Inmolar a distancia (clic en una tropa o edificio: se pega al objetivo y explota centrado en él) y la IA lo usa; PA del Explorador 3/4/5, Enterrar 2 PA e Inmolar 3 PA
+- Habilidades con objetivo (Curación, Shock EMP, Gas paralizante, Clonar, Inmolar): el lanzador persigue al objetivo y la lanza al entrar en alcance; la orden sigue de un turno a otro
+- Grupos: al llegar, las tropas del mismo tipo se funden y las de tipos distintos se apilan en la casilla sin recolocarse; las tropas grandes avanzan hasta una casilla adyacente donde caben; la flecha del grupo apunta siempre a la casilla pulsada y el bloque de formación no crece más de lo necesario
+- Árbol de tecnología: las armas propias de cada nivel ya no quedan tapadas por repeticiones
+- Memoria de selección: la primera pulsación solo reselecciona y la segunda centra la cámara
 
 ### v2026.11.10 alpha
 

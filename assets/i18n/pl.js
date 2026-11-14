@@ -194,7 +194,7 @@
   "mus.t14": "<strong>Pływający interfejs.</strong> Menu, zasoby, minimapa, panel budowy według poziomu Rządu i ikona dla każdego rodzaju rozkazu.",
   "mus.hint": "Przesuń palcem, aby poruszać się po osi czasu →",
   "news.title": "Nowości",
-  "news.body": "Wydajność: SI myśli około 3 razy szybciej bez zmiany decyzji, a promienie portali działają o 21 % szybciej.",
+  "news.body": "Technologia według jednostek, gracze z unikalną nazwą i pseudonimem, nowy zestaw Drona i mapy z wyspami.",
   "news.all": "Zobacz pełną historię zmian",
   "news.all.href": "docs/historico.pl.txt",
   "join.eyebrow": "Społeczność",

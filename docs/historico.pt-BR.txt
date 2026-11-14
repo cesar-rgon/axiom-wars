@@ -1,6 +1,23 @@
 HISTÓRICO DE MUDANÇAS DE AXIOM WARS
 (A versão é a data da última mudança no servidor ou no cliente.)
 
+v2026.11.14 alpha
+    Tecnologia: a janela é reorganizada por unidade (abas Unidades e Pontos de ação), com painéis de Armas, Habilidades ativas e Passivas onde se compra; Força+ e Força++ usam um coração; o Droide mostra suas três habilidades de Governo 3 e voltam Pisão (Meca) e Minas (APC)
+    Droide: nova habilidade Designar alvo (+30 % de dano do seu lado contra o alvo por 2 turnos), Granadas de fumaça (nuvens 5x5 que bloqueiam a visão por 2 turnos) e a passiva Reinício (-1 turno de recarga para aliados adjacentes) no lugar de Escudo+; a IA usa a fumaça
+    Raptor: visto de costas ao subir e de frente ao descer
+    Mapas: o gerador escolhe a simetria pela semente, com estilos, saídas variáveis, ilhas com ponte (a opção Ilhas a partir do mapa médio) e pontes da largura das rampas
+    Animações melhoradas: marcha com arranque, freada e curva, e novos efeitos de tiro, golpe, baixas, morte e fim de estado
+    Jogadores: cada jogador tem um nome interno único e um apelido que pode mudar; os jogos salvos e as repetições seguem o nome e não se misturam mais entre jogadores com o mesmo apelido (os anteriores são apagados)
+    Névoa de guerra: um construtor inimigo visível não revela mais qual edifício vai construir se você não vê o terreno
+    Seleção: Shift + clique duplo adiciona todas as tropas do mesmo tipo na tela, e Shift + retângulo adiciona sem duplicar
+
+v2026.11.11 alpha
+    Explorador: Imolar à distância (clique em uma tropa ou edifício: ele gruda no alvo e explode centrado nele) e a IA o usa; PA do Explorador 3/4/5, Enterrar 2 PA e Imolar 3 PA
+    Habilidades com alvo (Cura, Choque EMP, Gás paralisante, Clonar, Imolar): quem lança persegue o alvo e lança ao entrar no alcance; a ordem continua de um turno para outro
+    Grupos: ao chegar, as tropas do mesmo tipo se fundem e as de tipos diferentes se empilham na casa sem se mexer; as tropas grandes avançam até uma casa adjacente onde cabem; a seta do grupo aponta sempre para a casa clicada e o bloco de formação não cresce além do necessário
+    Árvore de tecnologia: as armas próprias de cada nível não ficam mais cobertas por repetições
+    Memória de seleção: o primeiro toque apenas reseleciona e o segundo centraliza a câmera
+
 v2026.11.10 alpha
     IA: pensa 2,8-3,2 vezes mais rápido sem mudar suas decisões, então partidas com muitas tropas ficam mais fluidas
     Portais: os raios são desenhados em um único caminho por camada (+21 % de FPS com uma rede de portais) e não aparecem mais em pedaços

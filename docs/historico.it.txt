@@ -1,6 +1,23 @@
 CRONOLOGIA DELLE MODIFICHE DI AXIOM WARS
 (La versione è la data dell'ultima modifica del server o del client.)
 
+v2026.11.14 alpha
+    Tecnologia: la finestra è riorganizzata per unità (schede Unità e Punti azione), con pannelli Armi, Abilità attive e Passive dove si acquista; Forza+ e Forza++ usano un cuore; il Droide mostra le sue tre abilità di Governo 3 e tornano Pestone (Meca) e Mine (APC)
+    Droide: nuova abilità Designa bersaglio (+30 % di danno della tua parte contro il bersaglio per 2 turni), Granate fumogene (nubi 5x5 che bloccano la vista per 2 turni) e la passiva Riavvio (-1 turno di ricarica agli alleati adiacenti) al posto di Scudo+; l'IA usa il fumo
+    Raptor: si vede di spalle quando sale e di fronte quando scende
+    Mappe: il generatore sceglie la simmetria in base al seme, con stili, uscite variabili, isole con ponte (l'opzione Isole dalla mappa media) e ponti larghi come le rampe
+    Animazioni migliorate: marcia con partenza, frenata e svolta, e nuovi effetti di sparo, colpo, perdite, morte e fine di uno stato
+    Giocatori: ogni giocatore ha un nome interno unico e un alias modificabile; le partite salvate e i replay seguono il nome e non si mescolano più tra giocatori con lo stesso alias (quelli precedenti vengono eliminati)
+    Nebbia di guerra: un costruttore nemico visibile non rivela più quale edificio sta per costruire se non vedi il cantiere
+    Selezione: Maiusc + doppio clic aggiunge tutte le truppe dello stesso tipo sullo schermo, e Maiusc + riquadro aggiunge senza duplicare
+
+v2026.11.11 alpha
+    Esploratore: Immolazione a distanza (clic su una truppa o un edificio: si attacca al bersaglio ed esplode al centro) e l'IA la usa; PA dell'Esploratore 3/4/5, Interrare 2 PA e Immolazione 3 PA
+    Abilità con bersaglio (Guarigione, Shock EMP, Gas paralizzante, Clona, Immolazione): chi la lancia insegue il bersaglio e la lancia appena è a portata; l'ordine continua da un turno all'altro
+    Gruppi: all'arrivo le truppe dello stesso tipo si fondono e quelle di tipi diversi si impilano nella casella senza essere spostate; le truppe grandi avanzano fino a una casella adiacente dove stanno; la freccia del gruppo punta sempre alla casella cliccata e il blocco di formazione non cresce più del necessario
+    Albero tecnologico: le armi proprie di ogni livello non sono più nascoste dalle ripetizioni
+    Memoria di selezione: la prima pressione riseleziona soltanto e la seconda centra la telecamera
+
 v2026.11.10 alpha
     IA: pensa 2,8-3,2 volte più veloce senza cambiare le sue decisioni, quindi le partite con molte truppe sono più fluide
     Portali: i raggi sono disegnati in un unico percorso per livello (+21 % di FPS con una rete di portali) e non si vedono più a pezzi

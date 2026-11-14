@@ -1,6 +1,23 @@
 HISTORIQUE DES CHANGEMENTS D'AXIOM WARS
 (La version est la date de la dernière modification du serveur ou du client.)
 
+v2026.11.14 alpha
+    Technologie : la fenêtre est réorganisée par unité (onglets Unités et Points d'action), avec des panneaux Armes, Capacités actives et Passifs où l'on achète ; Force+ et Force++ portent un cœur ; le Droïde montre ses trois capacités de Gouvernement 3 et Piétinement (Méca) et Mines (APC) reviennent
+    Droïde : nouvelle capacité Désigner une cible (+30 % de dégâts de ton camp contre la cible pendant 2 tours), Grenades fumigènes (nuages de 5x5 qui bloquent la vue 2 tours) et le passif Redémarrage (-1 tour de recharge aux alliés adjacents) à la place de Bouclier+ ; l'IA utilise la fumée
+    Raptor : vu de dos en montant et de face en descendant
+    Cartes : le générateur choisit la symétrie selon la graine, avec des styles, des sorties variables, des îles avec pont (l'option Îles à partir de la carte moyenne) et des ponts de la largeur des rampes
+    Animations améliorées : marche avec démarrage, freinage et virage, et nouveaux effets de tir, impact, pertes, mort et fin d'état
+    Joueurs : chaque joueur a un nom interne unique et un pseudo modifiable ; les parties sauvegardées et les rediffusions suivent le nom et ne se mélangent plus entre joueurs au même pseudo (les anciennes sont supprimées)
+    Brouillard de guerre : un constructeur ennemi visible ne révèle plus quel bâtiment il va construire si tu ne vois pas le chantier
+    Sélection : Maj + double clic ajoute toutes les troupes du même type à l'écran, et Maj + rectangle ajoute sans doublon
+
+v2026.11.11 alpha
+    Éclaireur : Immolation à distance (clic sur une troupe ou un bâtiment : il se colle à la cible et explose centré sur elle) et l'IA l'utilise ; PA de l'Éclaireur 3/4/5, Enterrer 2 PA et Immolation 3 PA
+    Capacités ciblées (Soin, Choc EMP, Gaz paralysant, Clonage, Immolation) : le lanceur poursuit la cible et lance dès qu'elle est à portée ; l'ordre se poursuit d'un tour à l'autre
+    Groupes : à l'arrivée, les troupes du même type fusionnent et les types différents s'empilent sur la case sans être déplacés ; les grandes troupes avancent jusqu'à une case adjacente où elles tiennent ; la flèche du groupe pointe toujours la case cliquée et le bloc de formation ne grandit pas plus que nécessaire
+    Arbre technologique : les armes propres à chaque niveau ne sont plus masquées par les répétitions
+    Mémoire de sélection : le premier appui ne fait que resélectionner et le second centre la caméra
+
 v2026.11.10 alpha
     IA : elle réfléchit 2,8 à 3,2 fois plus vite sans changer ses décisions, donc les parties avec beaucoup de troupes sont plus fluides
     Portails : les rayons sont dessinés en un seul tracé par couche (+21 % de FPS avec un réseau de portails) et n'apparaissent plus en morceaux

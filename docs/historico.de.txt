@@ -1,6 +1,23 @@
 ÄNDERUNGSVERLAUF VON AXIOM WARS
 (Die Version ist das Datum der letzten Änderung am Server oder am Client.)
 
+v2026.11.14 alpha
+    Technologie: das Fenster ist nach Einheiten geordnet (Tabs Einheiten und Aktionspunkte), mit Feldern für Waffen, Aktive Fähigkeiten und Passiven, in denen man kauft; Stärke+ und Stärke++ zeigen ein Herz; der Droide zeigt seine drei Fähigkeiten der Regierungsstufe 3 und Stampfen (Mech) und Minen (APC) sind wieder da
+    Droide: neue Fähigkeit Ziel markieren (+30 % Schaden deiner Seite gegen das Ziel für 2 Runden), Rauchgranaten (5x5-Wolken, die 2 Runden die Sicht versperren) und die Passive Neustart (-1 Abklingrunde für benachbarte Verbündete) statt Schild+; die KI nutzt den Rauch
+    Raptor: beim Steigen von hinten, beim Sinken von vorn zu sehen
+    Karten: der Generator wählt die Symmetrie nach dem Startwert, mit Stilen, variablen Ausgängen, Inseln mit Brücke (die Option Inseln ab der mittleren Karte) und Brücken in der Breite der Rampen
+    Bessere Animationen: Marsch mit Anlauf, Bremsen und Drehen sowie neue Effekte für Schüsse, Treffer, Verluste, Tod und das Ende eines Zustands
+    Spieler: jeder Spieler hat einen eindeutigen internen Namen und einen Alias, den er ändern kann; gespeicherte Spiele und Wiederholungen folgen dem Namen und vermischen sich nicht mehr zwischen Spielern mit demselben Alias (die bisherigen werden gelöscht)
+    Kriegsnebel: ein sichtbarer feindlicher Baumeister verrät nicht mehr, welches Gebäude er baut, wenn du die Baustelle nicht siehst
+    Auswahl: Umschalt + Doppelklick fügt alle Truppen desselben Typs auf dem Bildschirm hinzu, und Umschalt + Rahmen fügt ohne Duplikate hinzu
+
+v2026.11.11 alpha
+    Späher: Opfern aus der Ferne (Klick auf eine Truppe oder ein Gebäude: er heftet sich ans Ziel und explodiert in dessen Mitte) und die KI nutzt es; AP des Spähers 3/4/5, Eingraben 2 AP und Opfern 3 AP
+    Fähigkeiten mit Ziel (Heilung, EMP-Schock, Lähmgas, Klonen, Opfern): der Wirker verfolgt das Ziel und wirkt, sobald es in Reichweite ist; der Befehl bleibt von Runde zu Runde
+    Gruppen: bei der Ankunft verschmelzen Truppen desselben Typs und verschiedene Typen stapeln sich auf dem Feld, ohne verschoben zu werden; große Truppen rücken bis zu einem benachbarten Feld vor, auf das sie passen; der Gruppenpfeil zeigt immer auf das angeklickte Feld und der Formationsblock wächst nicht mehr als nötig
+    Technologiebaum: die eigenen Waffen jeder Stufe werden nicht mehr von Wiederholungen verdeckt
+    Auswahlspeicher: der erste Druck wählt nur neu aus, der zweite zentriert die Kamera
+
 v2026.11.10 alpha
     KI: Sie denkt 2,8-3,2-mal schneller, ohne ihre Entscheidungen zu ändern; Partien mit vielen Truppen laufen flüssiger
     Portale: Die Strahlen werden als ein einziger Pfad pro Ebene gezeichnet (+21 % FPS bei einem Portalnetz) und erscheinen nicht mehr in Stücken

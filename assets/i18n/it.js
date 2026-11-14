@@ -217,7 +217,7 @@
   "dl.c2": "Avvia il gioco: l'indirizzo del server è già compilato. Scrivi il tuo nome, poi crea una stanza o unisciti a una.",
   "nav.news": "Novità",
   "news.title": "Novità",
-  "news.body": "Prestazioni: l'IA pensa circa 3 volte più veloce senza cambiare le sue decisioni e i raggi dei portali rendono il 21 % in più.",
+  "news.body": "Tecnologia per unità, giocatori con nome unico e alias, nuovo kit del Droide e mappe con isole.",
   "news.all": "Vedi tutta la cronologia",
   "news.all.href": "docs/historico.it.txt",
   "lang.eyebrow": "Lingue",
