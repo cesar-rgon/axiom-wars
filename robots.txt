@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://cesar-rgon.github.io/axiom-wars/sitemap.xml

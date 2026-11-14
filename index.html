@@ -3,12 +3,21 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Axiom Wars</title>
+<title>Axiom Wars: free sci-fi strategy with simultaneous rounds</title>
+<link rel="canonical" href="https://cesar-rgon.github.io/axiom-wars/">
 <meta name="description" content="Axiom Wars: sci-fi strategy with simultaneous rounds. Plan, confirm and watch everyone's orders collide at once. Up to 8 players.">
-<meta property="og:title" content="Axiom Wars">
+<meta property="og:title" content="Axiom Wars: free sci-fi strategy with simultaneous rounds">
 <meta property="og:description" content="Sci-fi strategy with simultaneous rounds. Up to 8 players, in teams or against bots.">
 <meta property="og:image" content="https://cesar-rgon.github.io/axiom-wars/assets/img/og.jpg">
 <meta property="og:type" content="website">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"VideoGame","name":"Axiom Wars","url":"https://cesar-rgon.github.io/axiom-wars/",
+ "description":"Sci-fi strategy with simultaneous rounds: everyone gives orders at once and the round resolves all together, under fog of war. Up to 8 players, in teams or against bots.",
+ "genre":["Strategy","Turn-based strategy","Science fiction"],"gamePlatform":["Web browser","Windows","macOS","Linux"],"applicationCategory":"Game",
+ "operatingSystem":"Windows, macOS, Linux, Web","playMode":["MultiPlayer","SinglePlayer"],"numberOfPlayers":{"@type":"QuantitativeValue","minValue":1,"maxValue":8},
+ "inLanguage":["en","es","fr","it","de","ru","zh-Hans","zh-Hant","ja","ko","pl","pt-BR","tr"],"image":"https://cesar-rgon.github.io/axiom-wars/assets/img/og.jpg",
+ "offers":{"@type":"Offer","price":"0","priceCurrency":"EUR"},"author":{"@type":"Person","name":"rasecfight"}}
+</script>
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" type="image/png" href="assets/img/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -209,6 +218,48 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--ember); outline
 .lede { margin: 0; color: var(--steel-dim); max-width: 60ch; font-size: 1.05rem; }
 .trailer { width: min(860px, 100%); aspect-ratio: 16 / 9; border-radius: 10px; overflow: hidden; background: #000; box-shadow: 0 0 0 1px var(--line), 0 20px 50px rgba(0,0,0,.5); margin-top: 8px; }
 .trailer iframe { width: 100%; height: 100%; border: 0; display: block; }
+
+/* Cabecera cinematográfica: la captura ocupa todo el ancho y, cada cierto tiempo, el tráiler de YouTube se reproduce encima. */
+.hero-cine { padding-block: 0; min-height: min(90vh, 820px); display: grid; align-items: stretch; }
+.hero-cine::before, .hero-cine::after { display: none; }
+.hero-media { position: absolute; inset: 0; z-index: 0; background: var(--void); }
+.hero-shot { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: .6; }
+.hero-media::after { content: ""; position: absolute; inset: 0; z-index: 2; pointer-events: none; background: linear-gradient(90deg, rgba(10,13,21,.3) 0%, rgba(10,13,21,.1) 55%, rgba(10,13,21,0) 80%), linear-gradient(180deg, rgba(10,13,21,.35) 0%, rgba(10,13,21,0) 22%, rgba(10,13,21,.3) 52%, rgba(10,13,21,.62) 100%); }
+.hero-cine .hero-content { position: relative; z-index: 3; pointer-events: none; }
+.hero-cine .logo-fx { width: min(420px, 70%); }
+.hero-cine .tagline { text-shadow: 0 2px 18px rgba(0,0,0,.85); }
+.hero-video { position: absolute; inset: 0; z-index: 1; overflow: hidden; background: #000; opacity: 0; pointer-events: none; transition: opacity .7s; }
+.hero-cine.playing .hero-video { opacity: 1; pointer-events: auto; }
+.hero-video iframe { position: absolute; left: 50%; top: 0; transform: translateX(-50%); width: auto; height: auto; aspect-ratio: 16 / 9; min-width: 100%; min-height: 100%; border: 0; pointer-events: none; }
+.hero-click { position: absolute; inset: 0; width: 100%; height: 100%; background: transparent; border: 0; cursor: pointer; }
+.hero-click:focus-visible, .hero-skip:focus-visible { outline: 3px solid var(--plasma); outline-offset: -3px; }
+.hero-skip { position: absolute; top: 14px; right: 14px; z-index: 4; width: 38px; height: 38px; border-radius: 50%; border: 1px solid rgba(255,255,255,.5); background: rgba(10,13,21,.7); color: #fff; font: 600 1.1rem var(--font-display); cursor: pointer; }
+.hero-hint { position: absolute; left: 16px; top: 14px; z-index: 4; padding: 4px 10px; border-radius: 4px; background: rgba(10,13,21,.7); color: var(--steel); font: .78rem var(--font-mono); pointer-events: none; }
+.hero-video:fullscreen .hero-skip, .hero-video:fullscreen .hero-hint { display: none; }
+.hero-video:fullscreen { width: 100vw; height: 100vh; }
+@media (prefers-reduced-motion: reduce) { .hero-video { display: none; } }
+
+/* Banner de próxima transmisión y transmisión en directo: debajo de la cabecera. */
+.live-wrap { display: grid; justify-items: center; }
+.live-zone .stream-wrap { margin-top: 12px; margin-bottom: 18px; }
+.live-zone .event-banner { margin-block: 18px 0; }
+
+/* Cabecera según el mockup B: titular a la izquierda, dos botones, etiquetas y las tres fases. */
+.hero-cine .wrap { justify-items: start; text-align: left; gap: 16px; width: 100%; }
+.hero-cine .hero-content { padding-block: 22px 14px; display: flex; flex-direction: column; align-items: flex-start; }
+.hero-content a, .hero-content button, .hero-content .event-banner, .hero-content .stream-wrap { pointer-events: auto; }
+.hero-cine .logo-fx { filter: drop-shadow(0 4px 14px rgba(0,0,0,.8)); width: min(260px, 60%); align-self: center; margin-bottom: auto; }
+.hero-h1 { margin: 6px 0 0; font: 700 clamp(1.3rem, 4.6vw, 3.6rem)/1.1 var(--font-display); color: #fff; text-shadow: 0 0 2px #000, 0 0 5px rgba(0,0,0,.95), 1px 1px 2px #000, -1px -1px 2px #000, 1px -1px 2px #000, -1px 1px 2px #000, 0 3px 12px rgba(0,0,0,.85); white-space: nowrap; }
+.hero-lede { margin: 6px 0 0; font: 500 clamp(.85rem, 3.4vw, 1.3rem)/1.3 var(--font-body); white-space: nowrap; color: #fff; text-shadow: 0 0 2px #000, 0 0 5px rgba(0,0,0,.95), 1px 1px 2px #000, -1px -1px 2px #000, 1px -1px 2px #000, -1px 1px 2px #000, 0 3px 12px rgba(0,0,0,.85); }
+.sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+.hero-cine .cta-row { justify-content: flex-start; margin-top: 4px; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 0; list-style: none; }
+.chips li { font: 500 .8rem var(--font-mono); letter-spacing: .04em; color: #fff; padding: 4px 12px; border: 1px solid rgba(255,255,255,.4); border-radius: 20px; background: rgba(10,13,21,.55); text-shadow: 0 0 3px #000, 1px 1px 2px #000; }
+.steps3 { list-style: none; margin: 10px 0 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; width: 100%; }
+.steps3 li { padding: 12px 14px; border: 1px solid rgba(255,255,255,.28); border-radius: 8px; background: rgba(10,13,21,.55); display: grid; gap: 2px; text-shadow: 0 0 3px #000, 1px 1px 2px #000, 0 2px 8px rgba(0,0,0,.8); }
+.steps3 b { font: 600 1rem var(--font-display); color: #8fd0ff; }
+.steps3 span { font-size: .88rem; color: #fff; }
+@media (max-width: 700px) { .steps3 { grid-template-columns: minmax(0, 1fr); } }
 /* Next event banner (text read from evento.md on GitHub; see the script at the end) */
 .event-banner { margin: 18px auto 4px; max-width: min(900px, 100%); padding: 16px 22px; text-align: center; border: 2px solid var(--ember); border-radius: 8px; background: linear-gradient(180deg, rgba(255,140,40,.20), rgba(255,140,40,.07)); box-shadow: 0 0 28px rgba(255,140,40,.28); }
 .event-banner[hidden] { display: none; }
@@ -446,15 +497,42 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
 </header>
 
 <main id="top">
-  <div class="hero">
-    <div class="wrap">
+  <div class="hero hero-cine" id="hero">
+    <div class="hero-media">
+      <img class="hero-shot" src="assets/img/hero.webp" width="1600" height="882" alt="Planning a turn on a developed base" data-i18n-alt="shots.a21" fetchpriority="high">
+      <div class="hero-video" id="hero-video">
+        <div id="hero-yt"></div>
+        <button type="button" class="hero-click" id="hero-click" title="Full screen with sound" aria-label="Watch the trailer full screen"></button>
+        <button type="button" class="hero-skip" id="hero-skip" title="Close" aria-label="Close the trailer">&#x2715;</button>
+        <span class="hero-hint" aria-hidden="true">Click: full screen · YouTube</span>
+      </div>
+    </div>
+    <div class="wrap hero-content">
       <div class="logo-fx" id="logo-fx">
         <img class="glow" src="assets/img/logo-core.webp" alt="" aria-hidden="true">
         <canvas class="sparks" aria-hidden="true"></canvas>
         <div class="crisp"><img src="assets/img/logo.webp" width="1000" height="560" alt="Axiom Wars"></div>
         <div class="sheen" aria-hidden="true"><div class="band"></div></div>
       </div>
-      <h1 class="tagline" data-i18n="hero.tagline">Simultaneous-round strategy.<br>Everyone gives orders at once; nobody waits for their turn.</h1>
+      <h1 class="hero-h1 sr-only" data-i18n="hero.h1">Nobody waits for their turn.</h1>
+      <p class="hero-lede" data-i18n="hero.pitch">Everyone gives orders at once; nobody waits.</p>
+      <div class="cta-row">
+        <a class="btn btn-play" id="play-web" href="https://www.raseconline.es/axiom-wars/" target="_blank" rel="noopener">&#9654; <span data-i18n="hero.play2">Play now, no install</span></a>
+        <a class="btn btn-download" href="#descargas" data-i18n="hero.download">Download</a>
+      </div>
+      <ul class="chips">
+        <li data-i18n="hero.c1">Free</li><li data-i18n="hero.c2">2-8 players</li><li data-i18n="hero.c3">Against friends or bots</li><li data-i18n="hero.c4">13 languages</li><li data-i18n="hero.c5">Alpha, in development</li>
+      </ul>
+      <ol class="steps3">
+        <li><b data-i18n="hero.s1t">Plan</b><span data-i18n="hero.s1d">Action points, orders and your Government.</span></li>
+        <li><b data-i18n="hero.s2t">Confirm</b><span data-i18n="hero.s2d">Reorder while the others decide.</span></li>
+        <li><b data-i18n="hero.s3t">Resolve</b><span data-i18n="hero.s3d">Replay of everything that happened.</span></li>
+      </ol>
+    </div>
+  </div>
+
+  <div class="live-zone" id="live-zone">
+    <div class="wrap live-wrap">
       <div class="event-banner" id="event-banner" role="status" hidden>
         <span class="event-text" data-i18n="event.text">Next streaming and online matches on {date}. Don't miss it!</span>
         <span id="event-tz" data-i18n="event.tz" hidden>in your time zone</span>
@@ -484,16 +562,6 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
           </div>
         </aside>
       </div>
-      <div class="trailer"><iframe src="https://www.youtube-nocookie.com/embed/xbGR0Yee_CY" title="Axiom Wars trailer" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
-      <div class="cta-row">
-        <a class="btn btn-discord" href="https://discord.gg/2EZAtyqtzW" data-i18n-href="discord.href" target="_blank" rel="noopener">
-          <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M20.3 4.4A19.6 19.6 0 0 0 15.4 3l-.6 1.3a18.2 18.2 0 0 0-5.6 0L8.6 3a19.5 19.5 0 0 0-4.9 1.5C.6 9.1-.3 13.6.1 18.1a19.8 19.8 0 0 0 6 3l1.3-2.1a12.8 12.8 0 0 1-2-1l.5-.4a14.1 14.1 0 0 0 12.2 0l.5.4c-.6.4-1.3.7-2 1l1.3 2.1a19.7 19.7 0 0 0 6-3c.5-5.2-.8-9.7-3.6-13.7ZM8 15.3c-1.2 0-2.2-1.1-2.2-2.4S6.8 10.5 8 10.5s2.2 1.1 2.2 2.4-1 2.4-2.2 2.4Zm8 0c-1.2 0-2.2-1.1-2.2-2.4s1-2.4 2.2-2.4 2.2 1.1 2.2 2.4-1 2.4-2.2 2.4Z"/></svg>
-          <span data-i18n="hero.discord">Join the Discord</span>
-        </a>
-        <a class="btn btn-play" id="play-web" href="https://www.raseconline.es/axiom-wars/" target="_blank" rel="noopener" data-i18n="hero.play">Play in browser</a>
-        <a class="btn btn-download" href="#descargas" data-i18n="hero.download">Download</a>
-      </div>
-      <p class="note" data-i18n="hero.playnote">Browser version: performance is worse than the native client and you may experience slowdowns, so downloading the native client is recommended. It has the same lobby as the native client (maps of any size, up to 8 players, and you can play together with native-client players), but use it with care: small maps and few players. The game is in development and work on content and performance will continue.</p>
     </div>
   </div>
 
@@ -630,11 +698,53 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
 
   <section id="balance-danos">
     <div class="wrap">
-      <p class="eyebrow" data-i18n="dmg.eyebrow">Terran Faction</p>
+      <p class="eyebrow" data-i18n="dmg.eyebrow">Balance</p>
       <h2 data-i18n="dmg.title">Damage balance</h2>
       <p class="section-intro" data-i18n="dmg.intro">Every weapon deals full damage only to the armor it was made for, and every troop takes maximum damage from exactly three attackers, so none of them rules. Click a unit to see who it beats and who beats it, and pick a Government level to see only the attacks available at it.</p>
       <iframe id="dmg-frame" class="dmg-frame" src="docs/balance/damage-graph.html?embed&amp;theme=dark" data-i18n-src="dmg.src" title="Damage balance graph" data-i18n-title="dmg.frame" loading="lazy"></iframe>
       <p class="more-links"><a href="docs/balance/damage-graph.html" data-i18n="dmg.open" data-i18n-href="dmg.open.href">Open the graph on its own page</a></p>
+    </div>
+  </section>
+
+  <section id="descargas">
+    <div class="wrap join">
+      <div class="discord-card">
+        <p class="eyebrow" style="color:#aab2ff" data-i18n="join.eyebrow">Community</p>
+        <h2 data-i18n="join.title">Play with us</h2>
+        <p data-i18n="join.text">On the Discord we organize test matches, announce every new build and collect bug reports and balance ideas.</p>
+        <a class="btn btn-discord" href="https://discord.gg/2EZAtyqtzW" data-i18n-href="discord.href" target="_blank" rel="noopener" data-i18n="join.btn">Open Discord</a>
+      </div>
+      <div>
+        <p class="eyebrow" data-i18n="dl.eyebrow">Downloads</p>
+        <p class="note" data-i18n="hero.playnote">Browser version: performance is worse than the native client and you may experience slowdowns, so downloading the native client is recommended. It has the same lobby as the native client (maps of any size, up to 8 players, and you can play together with native-client players), but use it with care: small maps and few players. The game is in development and work on content and performance will continue.</p>
+        <div class="cmdbox">
+          <h3 data-i18n="dl.cmd.title">Install and launch with one script</h3>
+          <div class="cmdtabs" role="tablist">
+            <button type="button" class="cmdtab" data-os="windows" role="tab">Windows</button>
+            <button type="button" class="cmdtab" data-os="linux" role="tab">Linux</button>
+            <button type="button" class="cmdtab" data-os="mac" role="tab">Mac (Apple Silicon / Intel)</button>
+          </div>
+          <a class="btn cmddl" id="cmdDownload" href="scripts/install.sh" download data-i18n="dl.script.btn">Download the install script</a>
+          <ol class="cmdsteps" id="cmdSteps">
+            <li data-i18n="dl.step.w1" data-os="windows">Press the button above to download <code>install.bat</code>. If the browser warns you, choose “Keep”.</li>
+            <li data-i18n="dl.step.w2" data-os="windows">Unblock it: right-click the file → Properties → tick “Unblock” → OK. If the box is not there, it is already unblocked.</li>
+            <li data-i18n="dl.step.w3" data-os="windows">Double-click <code>install.bat</code>. It downloads the game, installs it in your user folder and starts it. If “Windows protected your PC” appears, press “More info” and then “Run anyway”.</li>
+            <li data-i18n="dl.step.m1" data-os="mac">Press the button above to download <code>install.sh</code>.</li>
+            <li data-i18n="dl.step.m2" data-os="mac">Open the Terminal app and unblock the file with: <code>xattr -d com.apple.quarantine ~/Downloads/install.sh</code></li>
+            <li data-i18n="dl.step.m3" data-os="mac">Run it with: <code>bash ~/Downloads/install.sh</code>. It detects whether your Mac is Apple Silicon or Intel, downloads the game, installs it in your user folder and starts it.</li>
+            <li data-i18n="dl.step.l1" data-os="linux">Press the button above to download <code>install.sh</code>.</li>
+            <li data-i18n="dl.step.l2" data-os="linux">Open a terminal. There is nothing to unblock on Linux.</li>
+            <li data-i18n="dl.step.l3" data-os="linux">Run it with: <code>bash ~/Downloads/install.sh</code> (if your folder has another name, such as Descargas, change the path). It downloads the game, installs it in your user folder and starts it.</li>
+          </ol>
+        </div>
+        <div class="connect">
+          <h3 data-i18n="dl.connect">How to connect</h3>
+          <ol>
+            <li data-i18n="dl.c1">Download and run the install script (see above): it installs the game in your user folder and starts it. Later, open <strong>AxiomWars.exe</strong> (Windows) or <strong>AxiomWars</strong> (Linux/Mac) inside the AxiomWars folder; keep the <code>assets</code> folder next to it.</li>
+            <li data-i18n="dl.c2">Open the game: the server address is already filled in. Type your name, then create a lobby or join one.</li>
+          </ol>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -869,6 +979,16 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
           <a href="assets/img/museo/14.webp" target="_blank" rel="noopener"><img src="assets/img/museo/14.webp" alt="Round 26 with the floating interface: Menu, resources, minimap, build panel by Government level and the order row with an icon per kind of order" data-i18n-alt="mus.a14" loading="lazy" width="1920" height="1075"></a>
           <p data-i18n="mus.t14"><strong>Floating interface.</strong> Menu, resources, minimap, a build panel by Government level and an icon for each kind of order.</p>
         </li>
+        <li class="era">
+          <span class="n" data-i18n="mus.s15">Stage 15</span>
+          <a href="assets/img/museo/15.webp" target="_blank" rel="noopener"><img src="assets/img/museo/15.webp" alt="Base with vision circles over the fog of war and the build panel" data-i18n-alt="mus.a15" loading="lazy" width="1920" height="1058"></a>
+          <p data-i18n="mus.t15"><strong>Vision and construction.</strong> Every building and troop draws its sight over the fog of war, with the build panel at the side.</p>
+        </li>
+        <li class="era">
+          <span class="n" data-i18n="mus.s16">Stage 16</span>
+          <a href="assets/img/museo/16.webp" target="_blank" rel="noopener"><img src="assets/img/museo/16.webp" alt="Replay of a round: a big magnifier over a fight with damage numbers" data-i18n-alt="mus.a16" loading="lazy" width="1920" height="1058"></a>
+          <p data-i18n="mus.t16"><strong>Round replay.</strong> A big magnifier over a fight, with the damage of every hit.</p>
+        </li>
       </ol>
       <p class="museum-hint" data-i18n="mus.hint">Swipe to move along the timeline →</p>
     </div>
@@ -882,47 +1002,6 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
       <p class="more-links"><a href="docs/historico.en.txt" data-i18n="news.all" data-i18n-href="news.all.href">See the full change history</a></p>
     </div>
   </section>
-  <section id="descargas">
-    <div class="wrap join">
-      <div class="discord-card">
-        <p class="eyebrow" style="color:#aab2ff" data-i18n="join.eyebrow">Community</p>
-        <h2 data-i18n="join.title">Play with us</h2>
-        <p data-i18n="join.text">On the Discord we organize test matches, announce every new build and collect bug reports and balance ideas.</p>
-        <a class="btn btn-discord" href="https://discord.gg/2EZAtyqtzW" data-i18n-href="discord.href" target="_blank" rel="noopener" data-i18n="join.btn">Open Discord</a>
-      </div>
-      <div>
-        <p class="eyebrow" data-i18n="dl.eyebrow">Downloads</p>
-        <div class="cmdbox">
-          <h3 data-i18n="dl.cmd.title">Install and launch with one script</h3>
-          <div class="cmdtabs" role="tablist">
-            <button type="button" class="cmdtab" data-os="windows" role="tab">Windows</button>
-            <button type="button" class="cmdtab" data-os="linux" role="tab">Linux</button>
-            <button type="button" class="cmdtab" data-os="mac" role="tab">Mac (Apple Silicon / Intel)</button>
-          </div>
-          <a class="btn cmddl" id="cmdDownload" href="scripts/install.sh" download data-i18n="dl.script.btn">Download the install script</a>
-          <ol class="cmdsteps" id="cmdSteps">
-            <li data-i18n="dl.step.w1" data-os="windows">Press the button above to download <code>install.bat</code>. If the browser warns you, choose “Keep”.</li>
-            <li data-i18n="dl.step.w2" data-os="windows">Unblock it: right-click the file → Properties → tick “Unblock” → OK. If the box is not there, it is already unblocked.</li>
-            <li data-i18n="dl.step.w3" data-os="windows">Double-click <code>install.bat</code>. It downloads the game, installs it in your user folder and starts it. If “Windows protected your PC” appears, press “More info” and then “Run anyway”.</li>
-            <li data-i18n="dl.step.m1" data-os="mac">Press the button above to download <code>install.sh</code>.</li>
-            <li data-i18n="dl.step.m2" data-os="mac">Open the Terminal app and unblock the file with: <code>xattr -d com.apple.quarantine ~/Downloads/install.sh</code></li>
-            <li data-i18n="dl.step.m3" data-os="mac">Run it with: <code>bash ~/Downloads/install.sh</code>. It detects whether your Mac is Apple Silicon or Intel, downloads the game, installs it in your user folder and starts it.</li>
-            <li data-i18n="dl.step.l1" data-os="linux">Press the button above to download <code>install.sh</code>.</li>
-            <li data-i18n="dl.step.l2" data-os="linux">Open a terminal. There is nothing to unblock on Linux.</li>
-            <li data-i18n="dl.step.l3" data-os="linux">Run it with: <code>bash ~/Downloads/install.sh</code> (if your folder has another name, such as Descargas, change the path). It downloads the game, installs it in your user folder and starts it.</li>
-          </ol>
-        </div>
-        <div class="connect">
-          <h3 data-i18n="dl.connect">How to connect</h3>
-          <ol>
-            <li data-i18n="dl.c1">Download and run the install script (see above): it installs the game in your user folder and starts it. Later, open <strong>AxiomWars.exe</strong> (Windows) or <strong>AxiomWars</strong> (Linux/Mac) inside the AxiomWars folder; keep the <code>assets</code> folder next to it.</li>
-            <li data-i18n="dl.c2">Open the game: the server address is already filled in. Type your name, then create a lobby or join one.</li>
-          </ol>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <section id="idiomas">
     <div class="wrap">
       <p class="eyebrow" data-i18n="lang.eyebrow">Languages</p>
@@ -1006,7 +1085,7 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
     </div>
   </div>
 </div>
-<script src="assets/js/i18n.js?v=20261110c"></script>
+<script src="assets/js/i18n.js?v=20261114a"></script>
 <script>
 // Cielo de fondo: una banda diagonal de Vía Láctea (nubes violeta/cian con un toque ámbar y una
 // franja de polvo oscuro) y estrellas más densas cerca de la banda. Todo muy tenue para no
@@ -1458,6 +1537,83 @@ window.addEventListener('message', function (ev) {
     modal.addEventListener('click', function (e) { if (e.target === modal) modal.hidden = true; });
     document.addEventListener('keydown', function (e) { if (e.key === 'Escape') modal.hidden = true; });
   }
+})();
+</script>
+<script>
+/* Cabecera cinematográfica: cada cierto tiempo el tráiler de YouTube (sin sonido) se reproduce sobre la captura;
+   al acabar vuelve la captura. Clic en el vídeo: pantalla completa con sonido (si el navegador no lo permite, abre YouTube). */
+(function () {
+  var ID = 'xbGR0Yee_CY', FIRST = 5000, GAP = 45000;
+  var hero = document.getElementById('hero'), box = document.getElementById('hero-video');
+  if (!hero || !box) return;
+  var conn = navigator.connection || {};
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches || conn.saveData) return;
+  var player = null, timer = 0, inView = true, started = 0, live = false;
+  function schedule(ms) { clearTimeout(timer); timer = setTimeout(play, ms); }
+  function loadApi(cb) {
+    if (window.YT && YT.Player) return cb();
+    var prev = window.onYouTubeIframeAPIReady;
+    window.onYouTubeIframeAPIReady = function () { if (prev) prev(); cb(); };
+    var s = document.createElement('script'); s.src = 'https://www.youtube.com/iframe_api'; s.async = true; document.head.appendChild(s);
+  }
+  function show() { hero.classList.add('playing'); }
+  function end() {
+    hero.classList.remove('playing');
+    if (document.fullscreenElement) { try { document.exitFullscreen(); } catch (e) {} }
+    if (player && player.stopVideo) { try { player.stopVideo(); } catch (e) {} }
+    if (!live) schedule(GAP);
+  }
+  function play() {
+    if (live) return;
+    if (document.hidden || !inView) return schedule(8000);
+    if (player) { try { player.mute(); player.seekTo(0); player.playVideo(); } catch (e) { schedule(GAP); } return; }
+    loadApi(function () {
+      player = new YT.Player('hero-yt', {
+        host: 'https://www.youtube-nocookie.com', videoId: ID,
+        playerVars: { autoplay: 1, mute: 1, controls: 0, rel: 0, modestbranding: 1, playsinline: 1, iv_load_policy: 3, disablekb: 1, fs: 0 },
+        events: {
+          onReady: function (e) { e.target.mute(); e.target.playVideo(); },
+          onStateChange: function (e) {
+            if (e.data === YT.PlayerState.PLAYING) { show(); }
+            else if (e.data === YT.PlayerState.ENDED) { end(); }
+          },
+          onError: function () { player = null; hero.classList.remove('playing'); schedule(GAP * 2); }
+        }
+      });
+    });
+  }
+  // Con la transmisión en directo el vídeo se para y se oculta; vuelve cuando termina.
+  var sw = document.getElementById('stream-wrap');
+  function onLive() {
+    var now = !!sw && !sw.hidden;
+    if (now === live) return;
+    live = now;
+    if (live) { clearTimeout(timer); hero.classList.remove('playing'); if (document.fullscreenElement) { try { document.exitFullscreen(); } catch (e) {} } if (player && player.stopVideo) { try { player.stopVideo(); } catch (e) {} } }
+    else schedule(FIRST);
+  }
+  if (sw && window.MutationObserver) new MutationObserver(onLive).observe(sw, { attributes: true, attributeFilter: ['hidden'] });
+  document.getElementById('hero-skip').addEventListener('click', end);
+  document.getElementById('hero-click').addEventListener('click', function () {
+    if (document.fullscreenElement) { document.exitFullscreen(); return; }
+    try { player.unMute(); player.setVolume(70); } catch (e) {}
+    var go = box.requestFullscreen ? box.requestFullscreen() : null;
+    if (go && go.catch) go.catch(openYouTube); else if (!go) openYouTube();
+  });
+  function openYouTube() {
+    var t = 0; try { t = Math.floor(player.getCurrentTime()); player.pauseVideo(); } catch (e) {}
+    hero.classList.remove('playing');
+    window.open('https://www.youtube.com/watch?v=' + ID + '&t=' + t + 's', '_blank', 'noopener');
+    schedule(GAP * 2);
+  }
+  if ('IntersectionObserver' in window) {
+    new IntersectionObserver(function (es) {
+      inView = es[0].isIntersecting;
+      if (!inView && hero.classList.contains('playing') && !document.fullscreenElement) end();
+    }, { threshold: 0.25 }).observe(hero);
+  }
+  document.addEventListener('visibilitychange', function () { if (document.hidden && hero.classList.contains('playing')) end(); });
+  onLive();
+  if (!live) schedule(FIRST);
 })();
 </script>
 </body>
