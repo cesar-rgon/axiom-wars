@@ -242,7 +242,7 @@
   "dl.c2": "Starte das Spiel: Die Serveradresse ist schon eingetragen. Gib deinen Namen ein und erstelle einen Raum oder tritt einem bei.",
   "nav.news": "Neuigkeiten",
   "news.title": "Neuigkeiten",
-  "news.body": "Technologie nach Einheiten, Spieler mit eindeutigem Namen und Alias, neues Droiden-Set und Karten mit Inseln.",
+  "news.body": "Heilung und Lebensaura neu abgestimmt, Fähigkeiten, die bewegte Truppen mit einer einzigen Lupe verfolgen, und Verbesserungen beim Droide.",
   "news.all": "Gesamten Verlauf ansehen",
   "news.all.href": "docs/historico.de.txt",
   "lang.eyebrow": "Sprachen",

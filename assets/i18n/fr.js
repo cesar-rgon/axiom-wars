@@ -242,7 +242,7 @@
   "dl.c2": "Lancez le jeu : l'adresse du serveur est déjà remplie. Saisissez votre nom, puis créez un salon ou rejoignez-en un.",
   "nav.news": "Nouveautés",
   "news.title": "Nouveautés",
-  "news.body": "Technologie par unité, joueurs à nom unique et pseudo, nouveau kit du Droïde et cartes avec îles.",
+  "news.body": "Soin et Aura de vie rééquilibrées, capacités qui poursuivent les troupes en mouvement avec une seule loupe, et améliorations du Droïde.",
   "news.all": "Voir tout l'historique",
   "news.all.href": "docs/historico.fr.txt",
   "lang.eyebrow": "Langues",

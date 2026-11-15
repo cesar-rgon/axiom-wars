@@ -268,7 +268,7 @@
   "dl.c2": "Abre el juego: la dirección del servidor ya viene rellena. Escribe tu nombre y crea una sala o únete a una.",
   "nav.news": "Novedades",
   "news.title": "Novedades",
-  "news.body": "Tecnología por unidad, jugadores con nombre único y alias, kit nuevo del Droide y mapas con islas.",
+  "news.body": "Curación y Aura Vida reequilibradas, habilidades que persiguen a tropas en movimiento con una sola lupa y mejoras del Droide.",
   "news.all": "Ver el histórico completo",
   "news.all.href": "docs/historico.es.txt",
   "lang.eyebrow": "Idiomas",

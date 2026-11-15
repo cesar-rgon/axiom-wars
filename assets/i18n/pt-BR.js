@@ -219,7 +219,7 @@
   "mus.t16": "<strong>Replay da rodada.</strong> Uma lupa grande sobre um combate, com o dano de cada golpe.",
   "mus.hint": "Deslize para percorrer a linha do tempo →",
   "news.title": "Novidades",
-  "news.body": "Tecnologia por unidade, jogadores com nome único e apelido, novo kit do Droide e mapas com ilhas.",
+  "news.body": "Cura e Aura de Vida reequilibradas, habilidades que perseguem tropas em movimento com uma única lupa e melhorias do Droide.",
   "news.all": "Ver o histórico completo de mudanças",
   "join.eyebrow": "Comunidade",
   "join.title": "Jogue com a gente",

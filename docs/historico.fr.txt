@@ -1,6 +1,14 @@
 HISTORIQUE DES CHANGEMENTS D'AXIOM WARS
 (La version est la date de la dernière modification du serveur ou du client.)
 
+v2026.11.15 alpha
+    Soin et Aura de vie : Soin soigne 30 % (troupes vivantes) ou 20 % (machines et volantes) de la santé maximale d'un individu par lancer, au minimum 10, et n'est plus multiplié par la taille de la troupe ; Aura de vie soigne 5 % de la santé maximale par tour, arrondi au supérieur, également sans multiplication
+    Capacités sur des troupes en mouvement (Soin, Cloner, Gaz paralysant, Choc IEM, Désigner une cible et Grenades fumigènes) : le lanceur recalcule son trajet le plus court vers la cible pendant qu'elle bouge, et l'ordre déplacement + capacité ne va plus d'abord à la case que la cible a quittée ; Grenades fumigènes peut maintenant viser une troupe
+    Résolution : une seule loupe mobile suit le lanceur et les troupes ciblées de son premier pas jusqu'au lancer ; l'effet attend que le lanceur soit en place, et la marque de la capacité (zone ou réticule) se voit après le choix de la cible et pendant la résolution, jusque juste avant le lancer
+    Soin : l'animation est dessinée sur chaque troupe soignée, pas seulement sur le Scientifique
+    Droïde : la ligne de Désigner une cible reste entre les tours jusqu'à ce qu'il marque une autre cible (la nouvelle remplace l'ancienne) ; les Grenades fumigènes rebondissent deux fois sur le sol avant de former les nuages, plus denses et qui ne teintent plus les cases
+    Interface : le clic droit annule une capacité armée ; le panneau de droite sans sélection montre toutes les troupes (aucune ne reste cachée, comme les Droïdes) ; « Fin du tour » fonctionne en un seul clic (il se perdait si une autre requête était en cours ou si la main bougeait de quelques pixels)
+
 v2026.11.14 alpha
     Technologie : la fenêtre est réorganisée par unité (onglets Unités et Points d'action), avec des panneaux Armes, Capacités actives et Passifs où l'on achète ; Force+ et Force++ portent un cœur ; le Droïde montre ses trois capacités de Gouvernement 3 et Piétinement (Méca) et Mines (APC) reviennent
     Droïde : nouvelle capacité Désigner une cible (+30 % de dégâts de ton camp contre la cible pendant 2 tours), Grenades fumigènes (nuages de 5x5 qui bloquent la vue 2 tours) et le passif Redémarrage (-1 tour de recharge aux alliés adjacents) à la place de Bouclier+ ; l'IA utilise la fumée

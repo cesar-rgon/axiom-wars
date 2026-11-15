@@ -1,6 +1,14 @@
 CRONOLOGIA DELLE MODIFICHE DI AXIOM WARS
 (La versione è la data dell'ultima modifica del server o del client.)
 
+v2026.11.15 alpha
+    Guarigione e Aura di vita: Guarigione cura il 30% (truppe vive) o il 20% (macchine e volanti) della salute massima di un individuo per lancio, almeno 10, e non è più moltiplicata per la dimensione della truppa; Aura di vita cura il 5% della salute massima per turno, arrotondato per eccesso, anch'essa senza moltiplicazione
+    Abilità su truppe in movimento (Guarigione, Clona, Gas paralizzante, Scossa EMP, Designare bersaglio e Granate fumogene): chi lancia ricalcola il percorso più breve verso il bersaglio mentre si muove, e l'ordine muovi + abilità non va più prima alla casella che il bersaglio ha lasciato; Granate fumogene si può ora lanciare su una truppa
+    Risoluzione: una sola lente mobile segue chi lancia e le truppe bersaglio dal primo passo fino al lancio; l'effetto aspetta che chi lancia sia in posizione, e il segno dell'abilità (zona o mirino) si vede dopo aver scelto il bersaglio e durante la risoluzione, fino a poco prima del lancio
+    Guarigione: l'animazione è disegnata su ogni truppa curata, non solo sullo Scienziato
+    Droide: la linea di Designare bersaglio resta tra i turni finché non segna un altro bersaglio (il nuovo sostituisce il precedente); le Granate fumogene rimbalzano due volte a terra prima di formare le nuvole, più dense e che non colorano più le caselle
+    Interfaccia: il tasto destro del mouse annulla un'abilità armata; il pannello destro senza selezione mostra tutte le truppe (nessuna resta nascosta, come i Droidi); «Fine turno» funziona con un solo clic (si perdeva se c'era un'altra richiesta in corso o se la mano si muoveva di qualche pixel)
+
 v2026.11.14 alpha
     Tecnologia: la finestra è riorganizzata per unità (schede Unità e Punti azione), con pannelli Armi, Abilità attive e Passive dove si acquista; Forza+ e Forza++ usano un cuore; il Droide mostra le sue tre abilità di Governo 3 e tornano Pestone (Meca) e Mine (APC)
     Droide: nuova abilità Designa bersaglio (+30 % di danno della tua parte contro il bersaglio per 2 turni), Granate fumogene (nubi 5x5 che bloccano la vista per 2 turni) e la passiva Riavvio (-1 turno di ricarica agli alleati adiacenti) al posto di Scudo+; l'IA usa il fumo

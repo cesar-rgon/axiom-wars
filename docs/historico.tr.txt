@@ -1,6 +1,14 @@
 AXIOM WARS DEĞİŞİKLİK GEÇMİŞİ
 (Sürüm, sunucuda veya istemcide yapılan son değişikliğin tarihidir.)
 
+v2026.11.15 alpha
+    İyileştirme ve Can Aurası: İyileştirme her kullanımda bir kişinin maksimum canının %30'unu (canlı birlikler) veya %20'sini (makineler ve hava birlikleri) iyileştirir, en az 10, ve artık birliğin büyüklüğüyle çarpılmaz; Can Aurası her tur maksimum canın %5'ini yukarı yuvarlayarak iyileştirir, o da çarpılmaz
+    Hareket eden birliklere yetenekler (İyileştirme, Klonla, Felç edici gaz, EMP şoku, Hedef İşaretleme ve Sis Bombaları): kullanan, hedefe giden en kısa yolu hedef hareket ederken yeniden hesaplar ve hareket + yetenek emri artık önce hedefin terk ettiği kareye yürümez; Sis Bombaları artık bir birliğe de atılabilir
+    Çözümleme: tek bir hareketli büyüteç, kullananı ve hedef birlikleri ilk adımdan kullanıma kadar izler; etki, kullanan yerine gelmeden çıkmaz ve yeteneğin işareti (bölge veya nişangâh) hedef seçildikten sonra ve çözümleme boyunca kullanımdan hemen öncesine kadar görünür
+    İyileştirme: animasyon yalnızca Bilim İnsanı üzerinde değil, iyileştirilen her birliğin üzerinde çizilir
+    Droid: Hedef İşaretleme çizgisi başka bir hedef işaretleyene kadar turlar arasında kalır (yenisi eskisinin yerini alır); Sis Bombaları bulutları oluşturmadan önce yerde iki kez zıplar, bulutlar daha yoğundur ve artık kareleri renklendirmez
+    Arayüz: sağ fare tuşu hazırlanmış bir yeteneği iptal eder; seçim yokken sağ panel tüm birlikleri gösterir (Droidler gibi hiçbiri gizli kalmaz); “Turu bitir” tek tıkla çalışır (başka bir istek sürerken veya el birkaç piksel kayınca kayboluyordu)
+
 v2026.11.14 alpha
     Teknoloji: pencere birimlere göre yeniden düzenlendi (Birimler ve Eylem puanları sekmeleri); satın alma Silahlar, Aktif yetenekler ve Pasifler panellerinde yapılıyor; Güç+ ve Güç++ kalp simgesi kullanıyor; Droid üç Hükümet 3 yeteneğini gösteriyor, Mech'in Ezme'si ve APC'nin Mayınlar'ı geri geldi
     Droid: yeni Hedef belirle yeteneği (tarafının hedefe verdiği hasar 2 tur boyunca +30 %), Duman bombaları (2 tur görüşü kapatan 5x5 bulutlar) ve Kalkan+ yerine Yeniden başlatma pasifi (yanındaki müttefiklere -1 bekleme turu); yapay zeka dumanı kullanıyor

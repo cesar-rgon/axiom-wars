@@ -1,6 +1,14 @@
 HISTORIA ZMIAN AXIOM WARS
 (Wersja to data ostatniej zmiany serwera lub klienta.)
 
+v2026.11.15 alpha
+    Leczenie i Aura Życia: Leczenie leczy 30% (żywe oddziały) lub 20% (maszyny i latające) maksymalnego zdrowia jednego osobnika na użycie, co najmniej 10, i nie jest już mnożone przez wielkość oddziału; Aura Życia leczy 5% maksymalnego zdrowia na turę, z zaokrągleniem w górę, również bez mnożenia
+    Zdolności na poruszające się oddziały (Leczenie, Klonuj, Gaz paraliżujący, Wstrząs EMP, Wskazanie celu i Granaty dymne): użytkownik przelicza najkrótszą trasę do celu w trakcie ruchu, a rozkaz ruch + zdolność nie idzie już najpierw na pole, które cel opuścił; Granaty dymne można teraz rzucać na oddział
+    Rozstrzygnięcie: jedna ruchoma lupa podąża za użytkownikiem i oddziałami docelowymi od pierwszego kroku do użycia; efekt pojawia się dopiero, gdy użytkownik jest na miejscu, a znacznik zdolności (strefa lub celownik) widać po wyborze celu i podczas rozstrzygnięcia, aż tuż przed użyciem
+    Leczenie: animacja jest rysowana nad każdym uleczonym oddziałem, nie tylko nad Naukowiec
+    Droid: linia Wskazanie celu pozostaje między turami, aż oznaczy inny cel (nowa zastępuje starą); Granaty dymne odbijają się dwa razy od ziemi, zanim utworzą chmury, które są gęstsze i nie barwią już pól
+    Interfejs: prawy przycisk myszy anuluje przygotowaną zdolność; prawy panel bez zaznaczenia pokazuje wszystkie oddziały (żaden nie jest już ukryty, jak Droidy); „Zakończ turę” działa jednym kliknięciem (ginął, gdy trwało inne żądanie lub ręka przesunęła się o kilka pikseli)
+
 v2026.11.14 alpha
     Technologia: okno uporządkowano według jednostek (zakładki Jednostki i Punkty akcji), z panelami Bronie, Zdolności aktywne i Pasywki, w których się kupuje; Siła+ i Siła++ mają serce; Dron pokazuje trzy zdolności Rządu 3, a Stąpnięcie (Mech) i Miny (APC) wróciły
     Dron: nowa zdolność Wyznacz cel (+30 % obrażeń twojej strony wobec celu przez 2 tury), Granaty dymne (chmury 5x5 zasłaniające widok przez 2 tury) i pasywka Restart (-1 tura odnowienia dla sąsiednich sojuszników) zamiast Tarczy+; SI używa dymu

@@ -219,7 +219,7 @@
   "mus.t16": "<strong>Raunt tekrarı.</strong> Bir çatışmanın üzerinde büyük bir büyüteç ve her vuruşun hasarı.",
   "mus.hint": "Zaman çizgisinde ilerlemek için kaydır →",
   "news.title": "Yenilikler",
-  "news.body": "Birimlere göre teknoloji, benzersiz adlı ve takma adlı oyuncular, yeni Droid seti ve adalı haritalar.",
+  "news.body": "İyileştirme ve Can Aurası yeniden dengelendi, hareket eden birlikleri tek büyüteçle kovalayan yetenekler ve Droid iyileştirmeleri.",
   "news.all": "Tüm değişiklik geçmişini gör",
   "news.all.href": "docs/historico.tr.txt",
   "join.eyebrow": "Topluluk",

@@ -179,10 +179,19 @@ Open the game: the server address is already filled in. Type your name, then cre
 
 ## Change history
 
-The latest version is **v2026.11.14 alpha**.
+The latest version is **v2026.11.15 alpha**.
 
 <details>
 <summary>Show all versions</summary>
+
+### v2026.11.15 alpha
+
+- Healing and Health Aura: Healing heals 30% (living troops) or 20% (machines and aircraft) of the max health of one individual per cast, at least 10, and is no longer multiplied by the size of the troop; Health Aura heals 5% of the max health per turn, rounded up, also without multiplying
+- Abilities on moving troops (Healing, Clone, Paralyzing gas, EMP shock, Designate Target and Smoke Grenades): the caster re-plans the shortest route to the target while it moves, and the move + ability order no longer walks first to the tile the target has left; Smoke Grenades can now be aimed at a troop
+- Resolution: one single moving lupa follows the caster and the target troops from its first step until it casts; the effect waits until the caster is in place, and the mark of the ability (zone or reticle) shows after you pick the target and during the resolution, until just before the cast
+- Healing: the animation is drawn over every troop healed, not only over the Scientist
+- Droid: the Designate Target line stays between turns until it marks another target (the new one replaces it); the Smoke Grenades bounce twice on the ground before forming the clouds, which are denser and no longer tint the tiles
+- Interface: the right mouse button cancels an armed ability; the right panel with nothing selected shows every troop (none stay hidden, like the Droids); "End turn" works with a single click (it was lost when another request was in progress or the hand moved a few pixels)
 
 ### v2026.11.14 alpha
 

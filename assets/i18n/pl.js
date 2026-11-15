@@ -219,7 +219,7 @@
   "mus.t16": "<strong>Powtórka rundy.</strong> Duża lupa nad starciem z obrażeniami każdego trafienia.",
   "mus.hint": "Przesuń palcem, aby poruszać się po osi czasu →",
   "news.title": "Nowości",
-  "news.body": "Technologia według jednostek, gracze z unikalną nazwą i pseudonimem, nowy zestaw Drona i mapy z wyspami.",
+  "news.body": "Leczenie i Aura Życia na nowo wyważone, zdolności ścigające poruszające się oddziały jedną lupą oraz usprawnienia Droid.",
   "news.all": "Zobacz pełną historię zmian",
   "news.all.href": "docs/historico.pl.txt",
   "join.eyebrow": "Społeczność",

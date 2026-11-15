@@ -179,10 +179,19 @@ Abre el juego: la dirección del servidor ya viene rellena. Escribe tu nombre y 
 
 ## Histórico de cambios
 
-La última versión es **v2026.11.14 alpha**.
+La última versión es **v2026.11.15 alpha**.
 
 <details>
 <summary>Ver todas las versiones</summary>
+
+### v2026.11.15 alpha
+
+- Curación y Aura Vida: la Curación cura el 30 % (tropas vivas) o el 20 % (máquinas y voladoras) de la vida máxima de un individuo por lanzamiento, con un mínimo de 10, y ya no se multiplica por el tamaño de la tropa; Aura Vida cura el 5 % de la vida máxima por turno, redondeado hacia arriba, también sin multiplicar
+- Habilidades sobre tropas en movimiento (Curación, Clonar, Gas paralizante, Shock EMP, Designar objetivo y Granadas de humo): el lanzador recalcula su ruta por el camino más corto hasta el objetivo mientras se mueve, y la orden mover + habilidad ya no camina primero a la casilla que el objetivo ha dejado; Granadas de humo ya se puede lanzar sobre una tropa
+- Resolución: una sola lupa móvil sigue al lanzador y a las tropas objetivo desde que empieza a andar hasta que lanza; el efecto no sale hasta que el lanzador está en posición, y la marca de la habilidad (zona o retículo) se ve tras elegir el objetivo y durante la resolución, hasta justo antes de lanzar
+- Curación: la animación se dibuja sobre cada tropa curada, no solo sobre el Científico
+- Droide: la línea de Designar objetivo se mantiene entre turnos hasta que marque otro objetivo (el nuevo sustituye al anterior); las Granadas de humo botan dos veces contra el suelo antes de formar las nubes, que son más densas y ya no tiñen las casillas
+- Interfaz: el botón derecho del ratón cancela una habilidad armada; el panel derecho sin selección muestra todas las tropas (ya no quedan ocultas, como los Droides); «Fin turno» funciona con un solo clic (se perdía si había otra petición en curso o si la mano se movía unos píxeles)
 
 ### v2026.11.14 alpha
 
