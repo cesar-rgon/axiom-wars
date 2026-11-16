@@ -8,6 +8,10 @@ v2026.11.15 alpha
     Guarigione: l'animazione è disegnata su ogni truppa curata, non solo sullo Scienziato
     Droide: la linea di Designare bersaglio resta tra i turni finché non segna un altro bersaglio (il nuovo sostituisce il precedente); le Granate fumogene rimbalzano due volte a terra prima di formare le nuvole, più dense e che non colorano più le caselle
     Interfaccia: il tasto destro del mouse annulla un'abilità armata; il pannello destro senza selezione mostra tutte le truppe (nessuna resta nascosta, come i Droidi); «Fine turno» funziona con un solo clic (si perdeva se c'era un'altra richiesta in corso o se la mano si muoveva di qualche pixel)
+    Forzieri: un clic destro è un unico ordine muovi + apri/combatti; i forzieri senza guardiani vivi si aprono nella stessa risoluzione e aprire è gratis; Combatti funziona anche sui forzieri
+    Partite online: i trasferimenti si applicano all'inizio del round, UNISCI funziona con le truppe grandi, un Governo caduto abbandona truppe ed edifici e gli alleati li rilevano
+    Frecce di gruppo concatenate con truppe a movimento proprio; il selettore delle lenti offre Io, i tuoi alleati e Tutti i giocatori
+    Vittoria/Sconfitta: il pannello non compare finché non si chiude la lente di distruzione dell'ultimo Governo
 
 v2026.11.14 alpha
     Tecnologia: la finestra è riorganizzata per unità (schede Unità e Punti azione), con pannelli Armi, Abilità attive e Passive dove si acquista; Forza+ e Forza++ usano un cuore; il Droide mostra le sue tre abilità di Governo 3 e tornano Pestone (Meca) e Mine (APC)

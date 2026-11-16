@@ -8,6 +8,10 @@ v2026.11.15 alpha
     Leczenie: animacja jest rysowana nad każdym uleczonym oddziałem, nie tylko nad Naukowiec
     Droid: linia Wskazanie celu pozostaje między turami, aż oznaczy inny cel (nowa zastępuje starą); Granaty dymne odbijają się dwa razy od ziemi, zanim utworzą chmury, które są gęstsze i nie barwią już pól
     Interfejs: prawy przycisk myszy anuluje przygotowaną zdolność; prawy panel bez zaznaczenia pokazuje wszystkie oddziały (żaden nie jest już ukryty, jak Droidy); „Zakończ turę” działa jednym kliknięciem (ginął, gdy trwało inne żądanie lub ręka przesunęła się o kilka pikseli)
+    Skrzynie: jedno kliknięcie prawym przyciskiem to jeden rozkaz ruch + otwórz/walcz; skrzynie bez żywych strażników otwierają się w tym samym rozstrzygnięciu, a otwieranie jest darmowe; Walcz działa też na skrzynie
+    Gry online: przelewy działają od początku rundy, POŁĄCZ działa z dużymi oddziałami, upadły Rząd porzuca oddziały i budynki, a sojusznicy je przejmują
+    Strzałki grup łączą się z oddziałami poruszającymi się samodzielnie; wybór lup oferuje Ja, twoich sojuszników i Wszystkich graczy
+    Zwycięstwo/Porażka: panel pojawia się dopiero po zamknięciu lupy zniszczenia ostatniego Rządu
 
 v2026.11.14 alpha
     Technologia: okno uporządkowano według jednostek (zakładki Jednostki i Punkty akcji), z panelami Bronie, Zdolności aktywne i Pasywki, w których się kupuje; Siła+ i Siła++ mają serce; Dron pokazuje trzy zdolności Rządu 3, a Stąpnięcie (Mech) i Miny (APC) wróciły

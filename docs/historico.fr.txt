@@ -8,6 +8,10 @@ v2026.11.15 alpha
     Soin : l'animation est dessinée sur chaque troupe soignée, pas seulement sur le Scientifique
     Droïde : la ligne de Désigner une cible reste entre les tours jusqu'à ce qu'il marque une autre cible (la nouvelle remplace l'ancienne) ; les Grenades fumigènes rebondissent deux fois sur le sol avant de former les nuages, plus denses et qui ne teintent plus les cases
     Interface : le clic droit annule une capacité armée ; le panneau de droite sans sélection montre toutes les troupes (aucune ne reste cachée, comme les Droïdes) ; « Fin du tour » fonctionne en un seul clic (il se perdait si une autre requête était en cours ou si la main bougeait de quelques pixels)
+    Coffres : un clic droit est un seul ordre déplacer + ouvrir/combattre ; les coffres sans gardiens vivants s'ouvrent dans la même résolution et l'ouverture est gratuite ; Combattre fonctionne aussi sur les coffres
+    Parties en ligne : les transferts s'appliquent au début de la manche, REJOINDRE fonctionne avec les grandes troupes, un Gouvernement tombé abandonne ses troupes et bâtiments et les alliés les reprennent
+    Flèches de groupe enchaînées avec des troupes qui bougent seules ; le sélecteur de loupes propose Moi, vos alliés et Tous les joueurs
+    Victoire/Défaite : le panneau n'apparaît plus avant la fermeture de la loupe de destruction du dernier Gouvernement
 
 v2026.11.14 alpha
     Technologie : la fenêtre est réorganisée par unité (onglets Unités et Points d'action), avec des panneaux Armes, Capacités actives et Passifs où l'on achète ; Force+ et Force++ portent un cœur ; le Droïde montre ses trois capacités de Gouvernement 3 et Piétinement (Méca) et Mines (APC) reviennent

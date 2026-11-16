@@ -8,6 +8,10 @@ v2026.11.15 alpha
     Healing: the animation is drawn over every troop healed, not only over the Scientist
     Droid: the Designate Target line stays between turns until it marks another target (the new one replaces it); the Smoke Grenades bounce twice on the ground before forming the clouds, which are denser and no longer tint the tiles
     Interface: the right mouse button cancels an armed ability; the right panel with nothing selected shows every troop (none stay hidden, like the Droids); "End turn" works with a single click (it was lost when another request was in progress or the hand moved a few pixels)
+    Chests: one right click is a single move + open/fight order; chests with no living guardians open in the same resolution and opening is free; Fight also works on chests
+    Online matches: transfers apply at the start of the round, JOIN works with large troops, a fallen Government abandons its troops and buildings and allies take them over
+    Group arrows chained with self-moving troops; the lupa selector offers Me, your allies and All players
+    Victory/Defeat: the panel no longer shows until the destruction lupa of the last Government has closed
 
 v2026.11.14 alpha
     Technology: the window is reorganized by unit (Units and Action points tabs), with Weapons, Active abilities and Passives panels where you buy; Strength+ and Strength++ use a heart; the Droid shows its three Government 3 abilities and the Mech's Stomp and the APC's Mines are back
