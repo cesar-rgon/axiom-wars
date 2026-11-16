@@ -1,6 +1,12 @@
 HISTÓRICO DE MUDANÇAS DE AXIOM WARS
 (A versão é a data da última mudança no servidor ou no cliente.)
 
+v2026.11.16 alpha
+    Baús: um clique direito é uma única ordem de mover + abrir/lutar; baús sem guardiões vivos abrem na mesma resolução e abrir é grátis; Lutar também funciona contra baús
+    Partidas online: as transferências valem no início da rodada, UNIR funciona com tropas grandes, um Governo caído abandona suas tropas e edifícios e os aliados os assumem
+    Setas de grupo encadeadas com tropas de movimento próprio; o seletor de lupas oferece Eu, seus aliados e Todos os jogadores
+    Vitória/Derrota: o painel só aparece depois que a lupa de destruição do último Governo se fecha
+
 v2026.11.15 alpha
     Cura e Aura de Vida: a Cura cura 30% (tropas vivas) ou 20% (máquinas e voadoras) da vida máxima de um indivíduo por lançamento, no mínimo 10, e já não é multiplicada pelo tamanho da tropa; a Aura de Vida cura 5% da vida máxima por turno, arredondado para cima, também sem multiplicar
     Habilidades sobre tropas em movimento (Cura, Clonar, Gás paralisante, Choque EMP, Designar alvo e Granadas de fumaça): o lançador recalcula o caminho mais curto até o alvo enquanto ele se move, e a ordem mover + habilidade já não vai primeiro à casa que o alvo deixou; as Granadas de fumaça agora podem ser lançadas sobre uma tropa
@@ -8,10 +14,6 @@ v2026.11.15 alpha
     Cura: a animação é desenhada sobre cada tropa curada, não só sobre o Cientista
     Droide: a linha de Designar alvo permanece entre os turnos até marcar outro alvo (o novo substitui o anterior); as Granadas de fumaça quicam duas vezes no chão antes de formar as nuvens, que são mais densas e já não tingem as casas
     Interface: o botão direito do mouse cancela uma habilidade armada; o painel direito sem seleção mostra todas as tropas (nenhuma fica oculta, como os Droides); «Encerrar turno» funciona com um único clique (perdia-se se havia outro pedido em andamento ou se a mão se mexia alguns pixels)
-    Baús: um clique direito é uma única ordem de mover + abrir/lutar; baús sem guardiões vivos abrem na mesma resolução e abrir é grátis; Lutar também funciona contra baús
-    Partidas online: as transferências valem no início da rodada, UNIR funciona com tropas grandes, um Governo caído abandona suas tropas e edifícios e os aliados os assumem
-    Setas de grupo encadeadas com tropas de movimento próprio; o seletor de lupas oferece Eu, seus aliados e Todos os jogadores
-    Vitória/Derrota: o painel só aparece depois que a lupa de destruição do último Governo se fecha
 
 v2026.11.14 alpha
     Tecnologia: a janela é reorganizada por unidade (abas Unidades e Pontos de ação), com painéis de Armas, Habilidades ativas e Passivas onde se compra; Força+ e Força++ usam um coração; o Droide mostra suas três habilidades de Governo 3 e voltam Pisão (Meca) e Minas (APC)

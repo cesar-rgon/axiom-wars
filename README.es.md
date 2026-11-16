@@ -179,10 +179,17 @@ Abre el juego: la dirección del servidor ya viene rellena. Escribe tu nombre y 
 
 ## Histórico de cambios
 
-La última versión es **v2026.11.15 alpha**.
+La última versión es **v2026.11.16 alpha**.
 
 <details>
 <summary>Ver todas las versiones</summary>
+
+### v2026.11.16 alpha
+
+- Cofres: un clic derecho es una sola orden de mover + abrir/luchar; los cofres sin guardianes vivos se abren en la misma resolución y abrir es gratis; Luchar también funciona contra cofres
+- Partidas en línea: las transferencias se aplican al inicio de la ronda, UNIR funciona con tropas grandes, un Gobierno caído abandona sus tropas y edificios y los aliados se los traspasan
+- Flechas de grupo encadenadas con tropas de movimiento propio; el selector de lupas ofrece Yo, tus aliados y Todos los jugadores
+- Victoria/Derrota: el panel no aparece hasta que se cierra la lupa de destrucción del último Gobierno
 
 ### v2026.11.15 alpha
 
@@ -192,10 +199,6 @@ La última versión es **v2026.11.15 alpha**.
 - Curación: la animación se dibuja sobre cada tropa curada, no solo sobre el Científico
 - Droide: la línea de Designar objetivo se mantiene entre turnos hasta que marque otro objetivo (el nuevo sustituye al anterior); las Granadas de humo botan dos veces contra el suelo antes de formar las nubes, que son más densas y ya no tiñen las casillas
 - Interfaz: el botón derecho del ratón cancela una habilidad armada; el panel derecho sin selección muestra todas las tropas (ya no quedan ocultas, como los Droides); «Fin turno» funciona con un solo clic (se perdía si había otra petición en curso o si la mano se movía unos píxeles)
-- Cofres: un clic derecho es una sola orden de mover + abrir/luchar; los cofres sin guardianes vivos se abren en la misma resolución y abrir es gratis; Luchar también funciona contra cofres
-- Partidas en línea: las transferencias se aplican al inicio de la ronda, UNIR funciona con tropas grandes, un Gobierno caído abandona sus tropas y edificios y los aliados se los traspasan
-- Flechas de grupo encadenadas con tropas de movimiento propio; el selector de lupas ofrece Yo, tus aliados y Todos los jugadores
-- Victoria/Derrota: el panel no aparece hasta que se cierra la lupa de destrucción del último Gobierno
 
 ### v2026.11.14 alpha
 

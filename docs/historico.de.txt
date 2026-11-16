@@ -1,6 +1,12 @@
 ÄNDERUNGSVERLAUF VON AXIOM WARS
 (Die Version ist das Datum der letzten Änderung am Server oder am Client.)
 
+v2026.11.16 alpha
+    Truhen: ein Rechtsklick ist ein einziger Befehl Bewegen + Öffnen/Kämpfen; Truhen ohne lebende Wächter öffnen sich in derselben Auflösung und Öffnen ist kostenlos; Kämpfen funktioniert auch gegen Truhen
+    Online-Partien: Überweisungen gelten zu Rundenbeginn, VEREINEN funktioniert mit großen Truppen, eine gefallene Regierung verlässt ihre Truppen und Gebäude und Verbündete übernehmen sie
+    Gruppenpfeile werden mit selbstfahrenden Truppen verkettet; die Lupenauswahl bietet Ich, deine Verbündeten und Alle Spieler
+    Sieg/Niederlage: das Fenster erscheint erst, wenn die Zerstörungslupe der letzten Regierung geschlossen ist
+
 v2026.11.15 alpha
     Heilung und Lebensaura: Heilung heilt pro Einsatz 30 % (Lebewesen) bzw. 20 % (Maschinen und Flieger) der maximalen Gesundheit eines Individuums, mindestens 10, und wird nicht mehr mit der Truppgröße multipliziert; Lebensaura heilt 5 % der maximalen Gesundheit pro Zug, aufgerundet, ebenfalls ohne Multiplikation
     Fähigkeiten auf bewegte Truppen (Heilung, Klonen, Lähmgas, EMP-Schock, Ziel markieren und Rauchgranaten): der Wirker berechnet seine Route zum Ziel unterwegs neu, auf dem kürzesten Weg, und der Befehl Bewegen + Fähigkeit läuft nicht mehr zuerst zum Feld, das das Ziel verlassen hat; Rauchgranaten lassen sich jetzt auf eine Truppe richten
@@ -8,10 +14,6 @@ v2026.11.15 alpha
     Heilung: die Animation wird über jeder geheilten Truppe gezeigt, nicht nur über dem Wissenschaftler
     Droide: die Linie von Ziel markieren bleibt zwischen den Zügen bestehen, bis ein anderes Ziel markiert wird (das neue ersetzt das alte); die Rauchgranaten springen zweimal auf den Boden, bevor die Wolken entstehen, die dichter sind und die Felder nicht mehr einfärben
     Oberfläche: die rechte Maustaste bricht eine bereitgestellte Fähigkeit ab; das rechte Panel ohne Auswahl zeigt alle Truppen (keine bleibt mehr verborgen, etwa die Droiden); „Zug beenden“ funktioniert mit einem einzigen Klick (er ging verloren, wenn eine andere Anfrage lief oder die Hand ein paar Pixel wanderte)
-    Truhen: ein Rechtsklick ist ein einziger Befehl Bewegen + Öffnen/Kämpfen; Truhen ohne lebende Wächter öffnen sich in derselben Auflösung und Öffnen ist kostenlos; Kämpfen funktioniert auch gegen Truhen
-    Online-Partien: Überweisungen gelten zu Rundenbeginn, VEREINEN funktioniert mit großen Truppen, eine gefallene Regierung verlässt ihre Truppen und Gebäude und Verbündete übernehmen sie
-    Gruppenpfeile werden mit selbstfahrenden Truppen verkettet; die Lupenauswahl bietet Ich, deine Verbündeten und Alle Spieler
-    Sieg/Niederlage: das Fenster erscheint erst, wenn die Zerstörungslupe der letzten Regierung geschlossen ist
 
 v2026.11.14 alpha
     Technologie: das Fenster ist nach Einheiten geordnet (Tabs Einheiten und Aktionspunkte), mit Feldern für Waffen, Aktive Fähigkeiten und Passiven, in denen man kauft; Stärke+ und Stärke++ zeigen ein Herz; der Droide zeigt seine drei Fähigkeiten der Regierungsstufe 3 und Stampfen (Mech) und Minen (APC) sind wieder da
