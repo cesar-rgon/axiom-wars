@@ -179,10 +179,19 @@ Open the game: the server address is already filled in. Type your name, then cre
 
 ## Change history
 
-The latest version is **v2026.11.16 alpha**.
+The latest version is **v2026.11.18 alpha**.
 
 <details>
 <summary>Show all versions</summary>
+
+### v2026.11.18 alpha
+
+- Military: the Laser SMG becomes the Government 1 weapon (Anti-light, 1 AP) and the Rifle the Government 2 one (Anti-medium, 2 AP, precision); both have range 5 and also hit aircraft (30% and 50% hit chance), counterattacks included; the Grenade launcher rises to 30 damage
+- Mech and APC Transport cost 15% less; the Flamethrower reaches 4 tiles, the Turret 5, and the Cannon shot becomes Anti-heavy
+- Ground Defense: Anti-light by default, with two upgrades in the technology tree (new Ground Defense entry): Piercing ammo (Government 2) adds Anti-medium and Heavy ammo (Government 3) adds Anti-heavy; each shot uses the best profile against its target, and an enemy tower's card shows its upgrades
+- AI: uses every ability (Cannon shot, Chomp, Stomp, Self-destruct, Extra counterattack, Sprint, Camouflage, Mines and carrying troops in the APC), brings the Scientist and the Droid to the front, looks for the enemy base and attacks with its army together; it replaces spent refineries and no longer gets stuck asking for buildings in impossible spots
+- Server: a Government falling with a loaded APC Transport no longer brings the server down
+- Performance: the round resolution runs 2 to 6 times smoother, and Settings has an FPS limit (30, 60, 90, 120 or unlimited)
 
 ### v2026.11.16 alpha
 

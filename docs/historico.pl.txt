@@ -1,6 +1,14 @@
 HISTORIA ZMIAN AXIOM WARS
 (Wersja to data ostatniej zmiany serwera lub klienta.)
 
+v2026.11.18 alpha
+    Żołnierz: Laserowy pistolet maszynowy staje się bronią Rządu 1 (przeciw lekkim, 1 PA), a Karabin bronią Rządu 2 (przeciw średnim, 2 PA, precyzja); obie mają zasięg 5 i trafiają też jednostki powietrzne (30 % i 50 % szans), także w kontrataku; Granatnik zadaje teraz 30 obrażeń
+    Mech i Transporter APC kosztują 15 % mniej; Miotacz ognia sięga 4 pól, Wieżyczka 5, a Strzał z działa staje się przeciw ciężkim
+    Obrona Naziemna: bazowo przeciw lekkim, z dwoma ulepszeniami w drzewie technologii (nowa pozycja Obrona Naziemna): Amunicja przeciwpancerna (Rząd 2) dodaje profil przeciw średnim, a Ciężka amunicja (Rząd 3) przeciw ciężkim; każdy strzał używa najlepszego profilu przeciw celowi, a karta wrogiej wieży pokazuje jej ulepszenia
+    SI: używa wszystkich umiejętności (Strzał z działa, Ugryzienie, Tupnięcie, Samozniszczenie, Dodatkowy kontratak, Sprint, Maskowanie, Miny i przewóz oddziałów w APC), prowadzi Naukowca i Droida na front, szuka wrogiej bazy i atakuje zwartą armią; zastępuje wyczerpane rafinerie i nie zacina się już, zamawiając budynki w niemożliwych miejscach
+    Serwer: upadek Rządu z załadowanym Transporterem APC nie wyłącza już serwera
+    Wydajność: rozstrzyganie rundy jest 2-6 razy płynniejsze, a Ustawienia mają limit FPS (30, 60, 90, 120 lub bez limitu)
+
 v2026.11.16 alpha
     Skrzynie: jedno kliknięcie prawym przyciskiem to jeden rozkaz ruch + otwórz/walcz; skrzynie bez żywych strażników otwierają się w tym samym rozstrzygnięciu, a otwieranie jest darmowe; Walcz działa też na skrzynie
     Gry online: przelewy działają od początku rundy, POŁĄCZ działa z dużymi oddziałami, upadły Rząd porzuca oddziały i budynki, a sojusznicy je przejmują

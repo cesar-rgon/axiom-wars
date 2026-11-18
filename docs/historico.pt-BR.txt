@@ -1,6 +1,14 @@
 HISTÓRICO DE MUDANÇAS DE AXIOM WARS
 (A versão é a data da última mudança no servidor ou no cliente.)
 
+v2026.11.18 alpha
+    Militar: a Metralhadora laser passa a ser a arma do Governo 1 (Antileve, 1 PA) e o Fuzil a do Governo 2 (Antimédio, 2 PA, precisão); as duas têm alcance 5 e também atingem aéreos (30 % e 50 % de acerto), inclusive no contra-ataque; o Lança-granadas sobe para 30 de dano
+    Mecha e Transporte APC custam 15 % menos; o Lança-chamas alcança 4 casas, a Torreta 5 e o Tiro de canhão passa a Antipesado
+    Defesa Terrestre: Antileve de base, com duas melhorias na árvore de tecnologia (nova entrada Defesa Terrestre): Munição perfurante (Governo 2) adiciona Antimédio e Munição pesada (Governo 3) adiciona Antipesado; cada tiro usa o melhor perfil contra o alvo, e a ficha de uma torre inimiga mostra suas melhorias
+    IA: usa todas as habilidades (Tiro de canhão, Mordida, Pisão, Autodestruição, Contra-ataque extra, Sprint, Camuflagem, Minas e o transporte de tropas no APC), leva o Cientista e o Droide para a frente, procura a base inimiga e ataca com o exército reunido; repõe as refinarias esgotadas e não trava mais pedindo edifícios em lugares impossíveis
+    Servidor: a queda de um Governo com um Transporte APC carregado não derruba mais o servidor
+    Desempenho: a resolução da rodada fica de 2 a 6 vezes mais fluida e as Configurações têm um limite de FPS (30, 60, 90, 120 ou ilimitado)
+
 v2026.11.16 alpha
     Baús: um clique direito é uma única ordem de mover + abrir/lutar; baús sem guardiões vivos abrem na mesma resolução e abrir é grátis; Lutar também funciona contra baús
     Partidas online: as transferências valem no início da rodada, UNIR funciona com tropas grandes, um Governo caído abandona suas tropas e edifícios e os aliados os assumem

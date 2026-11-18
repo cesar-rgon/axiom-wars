@@ -179,10 +179,19 @@ Abre el juego: la dirección del servidor ya viene rellena. Escribe tu nombre y 
 
 ## Histórico de cambios
 
-La última versión es **v2026.11.16 alpha**.
+La última versión es **v2026.11.18 alpha**.
 
 <details>
 <summary>Ver todas las versiones</summary>
+
+### v2026.11.18 alpha
+
+- Militar: la Metralleta láser pasa a ser el arma de Gobierno 1 (Anti-ligera, 1 PA) y el Fusil la de Gobierno 2 (Anti-media, 2 PA, precisión); las dos tienen alcance 5 y disparan también a aéreos (30 % y 50 % de acierto), también al contraatacar; el Lanzagranadas sube a 30 de daño
+- Meca y Transporte APC cuestan un 15 % menos; el Lanzallamas alcanza 4 casillas, la Torreta 5 y el Cañonazo pasa a Anti-pesada
+- Defensa de suelo: Anti-ligera de base, con dos mejoras en el árbol de tecnología (nueva entrada Defensa Suelo): Munición perforante (Gobierno 2) añade Anti-media y Munición pesada (Gobierno 3) añade Anti-pesada; cada disparo usa el mejor perfil contra su objetivo y la ficha de una torre enemiga muestra sus mejoras
+- IA: usa todas las habilidades (Cañonazo, Dentellada, Pisotón, Inmolar, Contraataque adicional, Sprint, Camuflaje, Minas y el transporte de tropas en APC), lleva al Científico y al Droide al frente, busca la base enemiga y ataca con el ejército agrupado; repone las refinerías agotadas y ya no se atasca pidiendo edificios en sitios imposibles
+- Servidor: la caída de un Gobierno con un Transporte APC cargado ya no tumba el servidor
+- Rendimiento: la resolución de la ronda va de 2 a 6 veces más fluida y Configuración tiene un límite de FPS (30, 60, 90, 120 o ilimitado)
 
 ### v2026.11.16 alpha
 

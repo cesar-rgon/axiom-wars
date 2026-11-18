@@ -1,6 +1,14 @@
 ÄNDERUNGSVERLAUF VON AXIOM WARS
 (Die Version ist das Datum der letzten Änderung am Server oder am Client.)
 
+v2026.11.18 alpha
+    Soldat: Die Laser-MP wird zur Waffe ab Regierung 1 (Anti-Leicht, 1 AP) und das Gewehr zur Waffe ab Regierung 2 (Anti-Mittel, 2 AP, Präzision); beide haben Reichweite 5 und treffen auch Luftziele (30 % bzw. 50 % Trefferchance), auch beim Gegenangriff; der Granatwerfer steigt auf 30 Schaden
+    Mech und APC-Transporter kosten 15 % weniger; der Flammenwerfer reicht 4 Felder, der Geschützturm 5, und der Kanonenschuss wird Anti-Schwer
+    Bodenverteidigung: Grundprofil Anti-Leicht, mit zwei Verbesserungen im Technologiebaum (neuer Eintrag Bodenverteidigung): Panzerbrechende Munition (Regierung 2) fügt Anti-Mittel hinzu und Schwere Munition (Regierung 3) Anti-Schwer; jeder Schuss nutzt das beste Profil gegen sein Ziel, und die Karte eines feindlichen Turms zeigt seine Verbesserungen
+    KI: nutzt alle Fähigkeiten (Kanonenschuss, Wilder Biss, Stampfen, Selbstopferung, Zusätzlicher Gegenangriff, Sprint, Tarnung, Minen und Truppentransport im APC), bringt Wissenschaftler und Droide an die Front, sucht die feindliche Basis und greift mit geschlossener Armee an; sie ersetzt erschöpfte Raffinerien und hängt nicht mehr fest, weil sie Gebäude an unmöglichen Stellen bestellt
+    Server: Der Fall einer Regierung mit einem beladenen APC-Transporter bringt den Server nicht mehr zum Absturz
+    Leistung: Die Rundenauflösung läuft 2- bis 6-mal flüssiger, und die Einstellungen haben eine FPS-Begrenzung (30, 60, 90, 120 oder unbegrenzt)
+
 v2026.11.16 alpha
     Truhen: ein Rechtsklick ist ein einziger Befehl Bewegen + Öffnen/Kämpfen; Truhen ohne lebende Wächter öffnen sich in derselben Auflösung und Öffnen ist kostenlos; Kämpfen funktioniert auch gegen Truhen
     Online-Partien: Überweisungen gelten zu Rundenbeginn, VEREINEN funktioniert mit großen Truppen, eine gefallene Regierung verlässt ihre Truppen und Gebäude und Verbündete übernehmen sie

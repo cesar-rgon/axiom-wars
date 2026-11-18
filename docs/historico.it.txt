@@ -1,6 +1,14 @@
 CRONOLOGIA DELLE MODIFICHE DI AXIOM WARS
 (La versione è la data dell'ultima modifica del server o del client.)
 
+v2026.11.18 alpha
+    Soldato: la Mitragliatrice laser diventa l'arma del Governo 1 (Anti-leggero, 1 PA) e il Fucile quella del Governo 2 (Anti-medio, 2 PA, precisione); entrambe hanno gittata 5 e colpiscono anche le unità aeree (30 % e 50 % di probabilità), anche nel contrattacco; il Lanciagranate sale a 30 danni
+    Mech e Trasporto APC costano il 15 % in meno; il Lanciafiamme arriva a 4 caselle, la Torretta a 5 e la Cannonata diventa Anti-pesante
+    Difesa terrestre: Anti-leggero di base, con due miglioramenti nell'albero tecnologico (nuova voce Difesa terrestre): Munizioni perforanti (Governo 2) aggiunge Anti-medio e Munizioni pesanti (Governo 3) aggiunge Anti-pesante; ogni colpo usa il profilo migliore contro il bersaglio, e la scheda di una torre nemica mostra i suoi miglioramenti
+    IA: usa tutte le abilità (Cannonata, Morso feroce, Calpestio, Immola, Contrattacco aggiuntivo, Scatto, Mimetismo, Mine e il trasporto di truppe nell'APC), porta lo Scienziato e il Droide al fronte, cerca la base nemica e attacca con l'esercito compatto; sostituisce le raffinerie esaurite e non si blocca più chiedendo edifici in posti impossibili
+    Server: la caduta di un Governo con un Trasporto APC carico non manda più in crash il server
+    Prestazioni: la risoluzione del turno è da 2 a 6 volte più fluida e le Impostazioni hanno un limite di FPS (30, 60, 90, 120 o illimitato)
+
 v2026.11.16 alpha
     Forzieri: un clic destro è un unico ordine muovi + apri/combatti; i forzieri senza guardiani vivi si aprono nella stessa risoluzione e aprire è gratis; Combatti funziona anche sui forzieri
     Partite online: i trasferimenti si applicano all'inizio del round, UNISCI funziona con le truppe grandi, un Governo caduto abbandona truppe ed edifici e gli alleati li rilevano

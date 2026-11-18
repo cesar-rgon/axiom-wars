@@ -1,6 +1,14 @@
 AXIOM WARS DEĞİŞİKLİK GEÇMİŞİ
 (Sürüm, sunucuda veya istemcide yapılan son değişikliğin tarihidir.)
 
+v2026.11.18 alpha
+    Asker: Lazer hafif makineli Hükümet 1 silahı olur (Hafif karşıtı, 1 AP), Tüfek ise Hükümet 2 silahı (Orta karşıtı, 2 AP, isabet); ikisinin de menzili 5'tir ve hava birimlerini de vurur (%30 ve %50 isabet), karşı saldırıda da; Bomba atar 30 hasara çıkar
+    Meca ve APC Taşıyıcı %15 daha ucuz; Alev silahı 4 kareye, Taret 5 kareye ulaşır ve Top atışı Ağır karşıtı olur
+    Kara Savunması: temel Hafif karşıtı, teknoloji ağacında iki geliştirme ile (yeni Kara Savunması girişi): Delici mühimmat (Hükümet 2) Orta karşıtı, Ağır mühimmat (Hükümet 3) Ağır karşıtı ekler; her atış hedefine karşı en iyi profili kullanır ve düşman kulesinin kartı geliştirmelerini gösterir
+    Yapay zeka: tüm yetenekleri kullanır (Top atışı, Diş darbesi, Çiğneme, Kendini patlat, Ek karşı saldırı, Sprint, Kamuflaj, Mayınlar ve APC ile birlik taşıma), Bilim insanını ve Droid'i cepheye götürür, düşman üssünü arar ve toplu orduyla saldırır; tükenen rafinerilerin yerine yenisini kurar ve imkansız yerlere bina isterken artık takılmaz
+    Sunucu: yüklü bir APC Taşıyıcı ile Hükümetin düşmesi artık sunucuyu çökertmiyor
+    Performans: tur çözümü 2-6 kat daha akıcı ve Ayarlar'da FPS sınırı var (30, 60, 90, 120 veya sınırsız)
+
 v2026.11.16 alpha
     Sandıklar: tek sağ tık tek bir hareket + aç/savaş emridir; yaşayan koruyucusu olmayan sandıklar aynı çözümlemede açılır ve açmak ücretsizdir; Savaş sandıklara karşı da çalışır
     Çevrimiçi maçlar: transferler turun başında uygulanır, BİRLEŞTİR büyük birliklerle çalışır, düşen Hükümet birliklerini ve binalarını terk eder ve müttefikler bunları devralır
