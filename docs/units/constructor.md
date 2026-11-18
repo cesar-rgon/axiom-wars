@@ -14,7 +14,7 @@ _Construction unit · Terran Faction_
 
 | Building | Min. Government | Cost | Time | AP cost | Cap |
 |---|---|---|---|---|---|
-| Government | Level 1 | 200 Energy | 1 turn | 2 AP / indiv. | 1 (civilian) |
+| Government | Level 1 | 200 Energy | 1 turn | 2 AP / indiv. | 0 (civilian) |
 
 ### Upkeep
 

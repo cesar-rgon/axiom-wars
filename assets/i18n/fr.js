@@ -102,7 +102,7 @@
   "fac.sheets": "Fiches complètes des unités",
   "dmg.eyebrow": "Équilibrage",
   "dmg.title": "Équilibre des dégâts",
-  "dmg.intro": "Chaque arme n'inflige tous ses dégâts qu'au blindage pour lequel elle a été conçue, et chaque troupe subit le maximum de dégâts d'exactement trois attaquants, donc aucune ne domine. Cliquez sur une unité pour voir qui elle bat et qui la bat, et choisissez un niveau de Gouvernement pour ne voir que les attaques disponibles à ce niveau.",
+  "dmg.intro": "Chaque arme n'inflige tous ses dégâts qu'au blindage pour lequel elle a été conçue, et chaque troupe subit le maximum de dégâts de trois unités et, avec les améliorations de la Tour au sol, aussi d'une tour, donc aucune ne domine. Cliquez sur une unité pour voir qui elle bat et qui la bat, et choisissez un niveau de Gouvernement pour ne voir que les attaques disponibles à ce niveau.",
   "dmg.open": "Ouvrir le graphe sur sa propre page",
   "cre.eyebrow": "Créatures de la carte",
   "cre.title": "La faune de la carte",

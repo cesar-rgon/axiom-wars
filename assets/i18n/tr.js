@@ -103,7 +103,7 @@
   "fac.sheets": "Tam birim künyeleri",
   "dmg.eyebrow": "Denge",
   "dmg.title": "Hasar dengesi",
-  "dmg.intro": "Her silah tam hasarı yalnızca kendisi için yapıldığı zırha verir ve her birlik tam üç saldırgandan azami hasar alır; bu yüzden hiçbiri tek başına hükmetmez. Kimi yendiğini ve kime yenildiğini görmek için bir birime tıkla, o seviyede kullanılabilen saldırıları görmek için bir Hükümet seviyesi seç.",
+  "dmg.intro": "Her silah tam hasarı yalnızca kendisi için yapıldığı zırha verir ve her birlik üç birimden, Kara Kulesi geliştirilince bir kuleden de azami hasar alır; bu yüzden hiçbiri tek başına hükmetmez. Kimi yendiğini ve kime yenildiğini görmek için bir birime tıkla, o seviyede kullanılabilen saldırıları görmek için bir Hükümet seviyesi seç.",
   "dmg.open": "Grafiği kendi sayfasında aç",
   "cre.eyebrow": "Harita yaratıkları",
   "cre.title": "Haritanın yaban hayatı",

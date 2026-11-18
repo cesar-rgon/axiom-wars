@@ -39,7 +39,7 @@ _New unit · Terran Faction_
 | | Name | Details |
 |---|---|---|
 | ⚔️ Weapon | _not applicable_ |  |
-| ✨ Active | **Healing** | Cost 2 AP and 50 energy · Cooldown Once every 5 turns · Effect Heals 5% of the max health of each individual of allied troops in 3x3 (living, machines and aircraft). Range 4. · Purchase 1000 energy |
+| ✨ Active | **Healing** | Cost 2 AP and 50 energy · Cooldown Once every 5 turns · Effect Heals 30% (living troops) or 20% (machines and aircraft) of the max health of each individual of allied troops in 3x3, at least 10. Range 4. · Purchase 1000 energy |
 | 🛡️ Passive | _not applicable_ |  |
 
 ## Government 2
@@ -57,7 +57,7 @@ _New unit · Terran Faction_
 |---|---|---|
 | ⚔️ Weapon | _not applicable_ |  |
 | ✨ Active | **Paralyzing gas** | Cost 3 AP and 100 energy · Cooldown Once every 3 turns · Effect Enemy ground troops, organic or machine (not heavy, not aircraft), in 3x3 cannot move or attack for 1 turn. Range 4. · Purchase 5000 energy |
-| 🛡️ Passive | **Health Aura** | Condition Always · Effect +5 health per turn to adjacent allies. Does not stack with another Health Aura. · Purchase 5000 energy |
+| 🛡️ Passive | **Health Aura** | Condition Always · Effect 5% of the max health per turn (rounded up) to adjacent allies. Does not stack with another Health Aura. · Purchase 5000 energy |
 | 🛡️ Passive | **Training++** | Condition Always · Effect Another +1 own AP per individual for Military and Scientists. · Purchase 5000 energy (requires Training+) |
 
 ---

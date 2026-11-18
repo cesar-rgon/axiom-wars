@@ -105,7 +105,7 @@ Index with each unit's role: [docs/units](docs/units/README.md) · All nine shee
 
 ## Damage balance
 
-Every weapon deals full damage only to the armor it was made for, and every troop takes maximum damage from exactly three attackers (units and the two towers), so none of them rules. Each arrow leaves the attacker and points at whoever takes 100% damage from that weapon. The border of each node is its armor.
+Every weapon deals full damage only to the armor it was made for, and every troop takes maximum damage from three units and, once the Ground Tower is upgraded (Piercing ammo, Heavy ammo), from one tower as well, so none of them rules. Each arrow leaves the attacker and points at whoever takes 100% damage from that weapon. The border of each node is its armor.
 
 <p align="center">
   <a href="https://cesar-rgon.github.io/axiom-wars/docs/balance/damage-graph.html"><img src="assets/img/damage-graph-en.webp" alt="Graph of maximum damage between the Terran units and towers: each arrow goes from the attacker to the units that take 100% damage from its weapon, and the node border shows the armor" width="100%"></a>

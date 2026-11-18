@@ -14,7 +14,7 @@ _Unidad de construcción · Facción Terránea_
 
 | Edificio | Gobierno mín. | Coste | Tiempo | Coste PA | Cupo |
 |---|---|---|---|---|---|
-| Gobierno | Nivel 1 | 200 Energía | 1 turno | 2 PA / indiv. | 1 (civil) |
+| Gobierno | Nivel 1 | 200 Energía | 1 turno | 2 PA / indiv. | 0 (civil) |
 
 ### Mantenimiento
 

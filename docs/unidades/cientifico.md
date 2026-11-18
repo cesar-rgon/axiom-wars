@@ -39,7 +39,7 @@ _Nueva unidad · Facción Terránea_
 | | Nombre | Detalles |
 |---|---|---|
 | ⚔️ Arma | _no aplica_ |  |
-| ✨ Activa | **Curación** | Coste 2 PA y 50 energía · Recarga 1 vez cada 5 turnos · Efecto Cura el 5% de la vida máxima de cada individuo de las tropas aliadas en 3x3 (vivas, máquinas y voladoras). Alcance 4. · Compra 1000 energía |
+| ✨ Activa | **Curación** | Coste 2 PA y 50 energía · Recarga 1 vez cada 5 turnos · Efecto Cura el 30% (tropas vivas) o el 20% (máquinas y voladoras) de la vida máxima de cada individuo de las tropas aliadas en 3x3, con un mínimo de 10. Alcance 4. · Compra 1000 energía |
 | 🛡️ Pasiva | _no aplica_ |  |
 
 ## Gobierno 2
@@ -57,7 +57,7 @@ _Nueva unidad · Facción Terránea_
 |---|---|---|
 | ⚔️ Arma | _no aplica_ |  |
 | ✨ Activa | **Gas paralizante** | Coste 3 PA y 100 energía · Recarga 1 vez cada 3 turnos · Efecto Tropas de tierra enemigas, orgánicas o máquinas (no pesadas ni aéreas), en 3x3 no mueven ni atacan 1 turno. Alcance 4. · Compra 5000 energía |
-| 🛡️ Pasiva | **Aura Vida** | Condición Siempre · Efecto +5 de vida por turno a aliados adyacentes. No se acumula con otra Aura Vida. · Compra 5000 energía |
+| 🛡️ Pasiva | **Aura Vida** | Condición Siempre · Efecto 5% de la vida máxima por turno (redondeado hacia arriba) a aliados adyacentes. No se acumula con otra Aura Vida. · Compra 5000 energía |
 | 🛡️ Pasiva | **Instrucción++** | Condición Siempre · Efecto Otro +1 PA propio por individuo a Militares y Científicos. · Compra 5000 energía (requiere Instrucción+) |
 
 ---

@@ -103,7 +103,7 @@
   "fac.sheets": "Pełne karty jednostek",
   "dmg.eyebrow": "Balans",
   "dmg.title": "Balans obrażeń",
-  "dmg.intro": "Każda broń zadaje pełne obrażenia tylko pancerzowi, do którego została stworzona, a każdy oddział przyjmuje maksymalne obrażenia od dokładnie trzech napastników, więc żaden nie dominuje. Kliknij jednostkę, by zobaczyć, kogo pokonuje i kto pokonuje ją, i wybierz poziom Rządu, by zobaczyć tylko ataki dostępne na nim.",
+  "dmg.intro": "Każda broń zadaje pełne obrażenia tylko pancerzowi, do którego została stworzona, a każdy oddział przyjmuje maksymalne obrażenia od trzech jednostek, a po ulepszeniu Wieży Naziemnej także od wieży, więc żaden nie dominuje. Kliknij jednostkę, by zobaczyć, kogo pokonuje i kto pokonuje ją, i wybierz poziom Rządu, by zobaczyć tylko ataki dostępne na nim.",
   "dmg.open": "Otwórz graf na osobnej stronie",
   "cre.eyebrow": "Stworzenia na mapie",
   "cre.title": "Dzika fauna mapy",

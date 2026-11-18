@@ -14,7 +14,7 @@ _Unidad mecanizada de asalto · Facción Terránea_
 
 | Edificio | Gobierno mín. | Coste | Tiempo | Coste PA | Cupo |
 |---|---|---|---|---|---|
-| F. Terrestre | Nivel 2 | 350 En. · 80 Acero | 2 turnos | 2 PA / indiv. | 2 (militar) |
+| F. Terrestre | Nivel 2 | 298 En. · 68 Acero | 2 turnos | 2 PA / indiv. | 2 (militar) |
 
 ### Combustible
 
@@ -26,7 +26,7 @@ _Unidad mecanizada de asalto · Facción Terránea_
 
 | Vida (HP) | Escudo máx. | Regen. escudo | Absorción | Clase objetivo | Naturaleza |
 |---|---|---|---|---|---|
-| 130 | 85 | +5 / turno | 80% escudo | Pesada | Mecánica |
+| 130 | 89 | +5 / turno | 80% escudo | Pesada | Mecánica |
 
 ### Movimiento y tropa
 
@@ -42,7 +42,7 @@ _No disponible: El Meca se fabrica en la Fábrica Terrestre, que requiere Gobier
 
 | | Nombre | Detalles |
 |---|---|---|
-| ⚔️ Arma | **Lanzallamas** | Modalidad Terrestre · Daño 48 × individuo · Tipo/alcance Distancia · 3 · Perfil AntiLigera 100/70/40/40% · Efecto Área 3x3 (100% en el centro, 50% alrededor). Quema el 50% del daño el turno siguiente. · Ataques/turno Cada turno · Coste 2 PA y 5 combustible por individuo · Compra Incluida con la unidad |
+| ⚔️ Arma | **Lanzallamas** | Modalidad Terrestre · Daño 48 × individuo · Tipo/alcance Distancia · 4 · Perfil AntiLigera 100/70/40/40% · Efecto Área 3x3 (100% en el centro, 50% alrededor). Quema el 50% del daño el turno siguiente. · Ataques/turno Cada turno · Coste 2 PA y 5 combustible por individuo · Compra Incluida con la unidad |
 | ⚔️ Arma | **Misiles** | Modalidad Tierra-Aire · Daño 51 × individuo · Tipo/alcance Distancia · 6 · Perfil AntiPesada 40/70/100/100% · Efecto Precisión: la mitad del daño ignora el escudo. · Ataques/turno 1 vez cada 2 turnos · Coste PA 2 PA por individuo · Compra 2000 energía |
 | ✨ Activa | **Pisotón** | Coste 2 PA y 100 energía · Recarga 1 vez cada 5 turnos · Efecto 20 por individuo y aturde 1 turno a las unidades terrestres enemigas en 3x3. · Compra 2500 energía |
 | 🛡️ Pasiva | **Energía-** | Condición Siempre · Efecto Gasta un 30% menos de Energía por turno. · Compra 2500 energía |

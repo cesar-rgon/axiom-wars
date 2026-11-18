@@ -131,7 +131,7 @@
   "mech.playerst": "Todos contra todos o por equipos, hasta 4 contra 4. Los huecos se rellenan con bots que planifican con búsqueda evolutiva.",
   "dmg.eyebrow": "Balance",
   "dmg.title": "Balance de daños",
-  "dmg.intro": "Cada arma hace todo su daño solo a la armadura para la que fue pensada, y cada tropa recibe daño máximo de exactamente tres atacantes, así que ninguna manda. Pulsa una unidad para ver a quién vence y quién la vence, y elige un nivel de Gobierno para ver solo los ataques disponibles en él.",
+  "dmg.intro": "Cada arma hace todo su daño solo a la armadura para la que fue pensada, y cada tropa recibe daño máximo de tres unidades y, con las mejoras de la Torre de Suelo, también de una torre, así que ninguna manda. Pulsa una unidad para ver a quién vence y quién la vence, y elige un nivel de Gobierno para ver solo los ataques disponibles en él.",
   "dmg.src": "docs/balanceo/grafo-ataques.html?embed&theme=dark",
   "dmg.frame": "Grafo del balance de daños",
   "dmg.open": "Abrir el grafo en su propia página",

@@ -14,7 +14,7 @@ _Mechanized assault unit · Terran Faction_
 
 | Building | Min. Government | Cost | Time | AP cost | Cap |
 |---|---|---|---|---|---|
-| Ground Fac. | Level 2 | 350 En. · 80 Steel | 2 turns | 2 AP / indiv. | 2 (military) |
+| Ground Fac. | Level 2 | 298 En. · 68 Steel | 2 turns | 2 AP / indiv. | 2 (military) |
 
 ### Fuel
 
@@ -26,7 +26,7 @@ _Mechanized assault unit · Terran Faction_
 
 | Health (HP) | Max. shield | Shield regen. | Absorption | Target class | Nature |
 |---|---|---|---|---|---|
-| 130 | 85 | +5 / turn | 80% shield | Heavy | Mechanical |
+| 130 | 89 | +5 / turn | 80% shield | Heavy | Mechanical |
 
 ### Movement and troop
 
@@ -42,7 +42,7 @@ _Not available: The Mech is built at the Ground Factory, which requires Governme
 
 | | Name | Details |
 |---|---|---|
-| ⚔️ Weapon | **Flamethrower** | Mode Ground · Damage 48 × individual · Type/range Ranged · 3 · Profile AntiLight 100/70/40/40% · Effect 3x3 area (100% at the centre, 50% around). Burns for 50% of the damage the next turn. · Attacks/turn Every turn · Cost 2 AP and 5 fuel per individual · Purchase Included with the unit |
+| ⚔️ Weapon | **Flamethrower** | Mode Ground · Damage 48 × individual · Type/range Ranged · 4 · Profile AntiLight 100/70/40/40% · Effect 3x3 area (100% at the centre, 50% around). Burns for 50% of the damage the next turn. · Attacks/turn Every turn · Cost 2 AP and 5 fuel per individual · Purchase Included with the unit |
 | ⚔️ Weapon | **Missiles** | Mode Ground-to-Air · Damage 51 × individual · Type/range Ranged · 6 · Profile AntiHeavy 40/70/100/100% · Effect Precision: half the damage ignores the shield. · Attacks/turn Once every 2 turns · AP cost 2 AP per individual · Purchase 2000 energy |
 | ✨ Active | **Stomp** | Cost 2 AP and 100 energy · Cooldown Once every 5 turns · Effect 20 per individual and stuns enemy ground units in 3x3 for 1 turn. · Purchase 2500 energy |
 | 🛡️ Passive | **Energy-** | Condition Always · Effect Uses 30% less Energy per turn. · Purchase 2500 energy |

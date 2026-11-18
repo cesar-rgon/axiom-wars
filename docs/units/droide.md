@@ -6,7 +6,7 @@ _New unit · Terran Faction_
 
 `Medium Air Class` · `No attack` · `Launch Pad`
 
-> Light-class military air unit with no attack, specialized in opening dimensional portals that teleport troops.
+> Medium-class air support unit with no attack. It designates targets so its side deals them more damage, blocks sight with smoke grenades and can clone allied troops.
 
 ## Stats
 
@@ -14,7 +14,7 @@ _New unit · Terran Faction_
 
 | Building | Min. Government | Cost | Time | AP cost | Cap |
 |---|---|---|---|---|---|
-| Launch Pad | Level 3 | 400 En. · 80 Steel | 2 turns | 2 AP / indiv. | 2 (military) |
+| Launch Pad | Level 3 | 250 En. · 80 Steel | 2 turns | 2 AP / indiv. | 2 (military) |
 
 ### Fuel
 
@@ -47,9 +47,10 @@ _Not available: The Droid is built at the Launch Pad, which requires Government 
 | | Name | Details |
 |---|---|---|
 | ⚔️ Weapon | _not applicable_ |  |
-| ✨ Active | **Dimensional portal** | Cost 300 energy + 1 AP per individual carried · Cooldown Once every 5 turns · Effect Moves own and allied units from one Droid's 3x3 to another Droid's 3x3, at any distance. · Purchase 5000 energy |
-| ✨ Active | **Clone** | Cost 2 AP and 200 energy · Cooldown Once every 6 turns · Effect Copies an allied troop: a decoy with 50% health, 3 turns, no damage and no cupo. Range 4. · Purchase 5000 energy |
-| 🛡️ Passive | **Shield+** | Condition Always · Effect +25% max. shield to adjacent allies (does not stack). · Purchase 5000 energy |
+| ✨ Active | **Clone** | Cost 2 AP and 200 energy · Cooldown Once every 6 turns · Effect Copies every allied troop in 3x3: decoys with 50% health, 3 turns, no damage and no cupo. 200 energy per troop copied. Range 4. · Purchase 5000 energy |
+| ✨ Active | **Designate Target** | Cost 2 AP and 100 energy · Cooldown Once every 4 turns · Effect Marks an enemy troop or building for 2 turns: your side's attacks deal +30% damage to it. Range 5. · Purchase 2500 energy |
+| ✨ Active | **Smoke Grenades** | Cost 2 AP and 150 energy · Cooldown Once every 5 turns · Effect Throws 3 grenades: one where you aim and two at random within range. Each cloud (5x5) lasts 2 turns: nobody outside sees into it and whoever is inside only sees the adjacent tiles. Range 5. · Purchase 4000 energy |
+| 🛡️ Passive | **Reboot** | Condition Always · Effect -1 turn of cooldown on the weapons and abilities of adjacent allies (minimum 1, does not stack). · Purchase 5000 energy |
 | 🛡️ Passive | **Propulsion++** | Condition Always · Effect Another +1 own AP per individual for Raptors and Droids. · Purchase 5000 energy (requires Propulsion+) |
 
 ---

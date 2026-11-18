@@ -102,7 +102,7 @@
   "fac.sheets": "Schede complete delle unità",
   "dmg.eyebrow": "Bilanciamento",
   "dmg.title": "Bilanciamento dei danni",
-  "dmg.intro": "Ogni arma infligge il danno pieno solo alla corazza per cui è stata progettata, e ogni truppa subisce il danno massimo da esattamente tre attaccanti, quindi nessuna domina. Clicca un'unità per vedere chi batte e da chi è battuta, e scegli un livello di Governo per vedere solo gli attacchi disponibili a quel livello.",
+  "dmg.intro": "Ogni arma infligge il danno pieno solo alla corazza per cui è stata progettata, e ogni truppa subisce il danno massimo da tre unità e, con i miglioramenti della Torre di terra, anche da una torre, quindi nessuna domina. Clicca un'unità per vedere chi batte e da chi è battuta, e scegli un livello di Governo per vedere solo gli attacchi disponibili a quel livello.",
   "dmg.open": "Apri il grafo nella sua pagina",
   "cre.eyebrow": "Creature della mappa",
   "cre.title": "La fauna della mappa",

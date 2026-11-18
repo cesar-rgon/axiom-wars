@@ -102,7 +102,7 @@
   "fac.sheets": "Vollständige Einheitenblätter",
   "dmg.eyebrow": "Balance",
   "dmg.title": "Schadensbalance",
-  "dmg.intro": "Jede Waffe richtet nur gegen die Panzerung vollen Schaden an, für die sie gebaut wurde, und jede Truppe erleidet von genau drei Angreifern maximalen Schaden, sodass keine dominiert. Klicke eine Einheit an, um zu sehen, wen sie schlägt und von wem sie geschlagen wird, und wähle eine Regierungsstufe, um nur die auf ihr verfügbaren Angriffe zu sehen.",
+  "dmg.intro": "Jede Waffe richtet nur gegen die Panzerung vollen Schaden an, für die sie gebaut wurde, und jede Truppe erleidet von drei Einheiten maximalen Schaden und, mit den Verbesserungen des Bodenturms, auch von einem Turm, sodass keine dominiert. Klicke eine Einheit an, um zu sehen, wen sie schlägt und von wem sie geschlagen wird, und wähle eine Regierungsstufe, um nur die auf ihr verfügbaren Angriffe zu sehen.",
   "dmg.open": "Den Graphen auf einer eigenen Seite öffnen",
   "cre.eyebrow": "Kreaturen der Karte",
   "cre.title": "Die Tierwelt der Karte",

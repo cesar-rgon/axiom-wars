@@ -105,7 +105,7 @@ Nueve unidades, de la mina al cielo. Cada ficha detalla producción, mantenimien
 
 ## Balance de daños
 
-Cada arma hace todo su daño solo a la armadura para la que fue pensada, y cada tropa recibe daño máximo de exactamente tres atacantes (unidades y las dos torres), así que ninguna manda. Cada flecha sale del atacante y apunta a quien recibe el 100 % de daño de esa arma. El borde de cada nodo es su armadura.
+Cada arma hace todo su daño solo a la armadura para la que fue pensada, y cada tropa recibe daño máximo de tres unidades y, con las mejoras de la Torre de Suelo (Munición perforante y Munición pesada), también de una torre, así que ninguna manda. Cada flecha sale del atacante y apunta a quien recibe el 100 % de daño de esa arma. El borde de cada nodo es su armadura.
 
 <p align="center">
   <a href="https://cesar-rgon.github.io/axiom-wars/docs/balanceo/grafo-ataques.html"><img src="assets/img/damage-graph-es.webp" alt="Grafo de daño máximo entre las unidades y torres terráneas: cada flecha va del atacante a las unidades que reciben el 100 % de daño de su arma, y el borde del nodo indica la armadura" width="100%"></a>

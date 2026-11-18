@@ -6,7 +6,7 @@ _Vehículo de transporte de tropas · Facción Terránea_
 
 `Clase Pesada` · `Cupo militar` · `Fábrica Terrestre`
 
-> Unidad militar de clase pesada encargada principalmente del transporte de tropas ligeras. Tiene además, a modo defensivo, ataque de torreta terrestre y minas explosivas por contacto. La torreta es efectiva contra unidades ligeras y medias. Las minas, contra todo tipo de unidades.
+> Unidad militar de clase pesada encargada principalmente del transporte de tropas ligeras. Tiene además una torreta tierra-aire, eficaz contra unidades medias, el Cañonazo, eficaz contra unidades pesadas, y minas explosivas por contacto, contra todo tipo de unidades.
 
 ## Características
 
@@ -14,7 +14,7 @@ _Vehículo de transporte de tropas · Facción Terránea_
 
 | Edificio | Gobierno mín. | Coste | Tiempo | Coste PA | Cupo |
 |---|---|---|---|---|---|
-| F. Terrestre | Nivel 2 | 250 En. · 60 Acero | 2 turnos | 2 PA / indiv. | 2 (militar) |
+| F. Terrestre | Nivel 2 | 213 En. · 51 Acero | 2 turnos | 2 PA / indiv. | 2 (militar) |
 
 ### Combustible
 
@@ -26,7 +26,7 @@ _Vehículo de transporte de tropas · Facción Terránea_
 
 | Vida (HP) | Escudo máx. | Regen. escudo | Absorción | Clase objetivo | Naturaleza |
 |---|---|---|---|---|---|
-| 150 | 100 | +5 / turno | 80% escudo | Pesada | Mecánica |
+| 117 | 85 | +5 / turno | 80% escudo | Pesada | Mecánica |
 
 ### Movimiento y tropa
 
@@ -42,7 +42,7 @@ _No disponible: El Transporte APC se fabrica en la Fábrica Terrestre, que requi
 
 | | Nombre | Detalles |
 |---|---|---|
-| ⚔️ Arma | **Torreta** | Modalidad Tierra-Aire · Daño 30 × individuo · Tipo/alcance Distancia · 4 · Perfil AntiMedia 70/100/70/70% · Ataques/turno Cada turno · Coste PA 1 PA por individuo · Compra Incluida con la unidad |
+| ⚔️ Arma | **Torreta** | Modalidad Tierra-Aire · Daño 38 × individuo · Tipo/alcance Distancia · 5 · Perfil AntiMedia 70/100/70/70% · Efecto Daño según Gobierno: G2 38 · G3 53. · Ataques/turno Cada turno · Coste PA 1 PA por individuo · Compra Incluida con la unidad |
 | ✨ Activa | **Cargar** | Coste 1 PA por individuo embarcado · Recarga Cada turno · Efecto 6 individuos Ligeros terrestres: no pagan movimiento ni disparan. Si lo destruyen, mueren todos. · Compra 1500 energía (incluye Descargar) |
 | 🛡️ Pasiva | **Capacidad+** | Condición Siempre · Efecto Aumenta la capacidad a 9 individuos. · Compra 2500 energía |
 | 🛡️ Pasiva | **Motores optimizados+** | Condición Siempre · Efecto +1 PA propio por individuo a Mecas y Transportes APC. · Compra 2500 energía |
@@ -51,7 +51,7 @@ _No disponible: El Transporte APC se fabrica en la Fábrica Terrestre, que requi
 
 | | Nombre | Detalles |
 |---|---|---|
-| ⚔️ Arma | **Cañonazo** | Modalidad Tierra-Aire · Daño 40 × individuo · Tipo/alcance Distancia · 5 · Perfil AntiMedia 70/100/70/70% · Ataques/turno Cada turno · Coste PA 2 PA por individuo · Compra 4000 energía |
+| ⚔️ Arma | **Cañonazo** | Modalidad Tierra-Aire · Daño 52 × individuo · Tipo/alcance Distancia · 5 · Perfil AntiPesada 40/70/100/100% · Ataques/turno Cada turno · Coste PA 2 PA por individuo · Compra 4000 energía |
 | ✨ Activa | **Turbo** | Coste 1 PA y 30 combustible · Recarga 1 vez cada 3 turnos · Efecto +100% de velocidad durante 2 turnos. · Compra 3000 energía |
 | ✨ Activa | **Minas** | Coste 2 PA y 30 acero · Recarga 1 vez cada 2 turnos · Efecto Área 3x3, máx. 3. Sólo las ven Explorador y Gobierno. Paran a quien la pisa. Sin daño a aliados ni aéreos. · Compra 4000 energía |
 | 🛡️ Pasiva | **Capacidad++** | Condición Siempre · Efecto Aumenta la capacidad a 12 individuos. · Compra 5000 energía (requiere Capacidad+) |

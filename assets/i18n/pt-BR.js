@@ -103,7 +103,7 @@
   "fac.sheets": "Fichas completas das unidades",
   "dmg.eyebrow": "Equilíbrio",
   "dmg.title": "Balanceamento de dano",
-  "dmg.intro": "Cada arma causa dano total apenas à blindagem para a qual foi feita, e cada tropa sofre o dano máximo de exatamente três atacantes, então nenhuma domina. Clique numa unidade para ver quem ela vence e quem a vence, e escolha um nível de Governo para ver só os ataques disponíveis nele.",
+  "dmg.intro": "Cada arma causa dano total apenas à blindagem para a qual foi feita, e cada tropa sofre o dano máximo de três unidades e, com as melhorias da Torre Terrestre, também de uma torre, então nenhuma domina. Clique numa unidade para ver quem ela vence e quem a vence, e escolha um nível de Governo para ver só os ataques disponíveis nele.",
   "dmg.open": "Abrir o grafo em página própria",
   "cre.eyebrow": "Criaturas do mapa",
   "cre.title": "A vida selvagem do mapa",
