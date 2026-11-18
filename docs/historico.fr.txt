@@ -7,7 +7,8 @@ v2026.11.18 alpha
     Défense au sol : Anti-léger de base, avec deux améliorations dans l'arbre technologique (nouvelle entrée Défense au sol) : Munitions perforantes (Gouvernement 2) ajoute Anti-moyen et Munitions lourdes (Gouvernement 3) ajoute Anti-lourd ; chaque tir utilise le meilleur profil contre sa cible, et la fiche d'une tour ennemie montre ses améliorations
     IA : elle utilise toutes les capacités (Coup de canon, Morsure féroce, Piétinement, Immolation, Contre-attaque supplémentaire, Sprint, Camouflage, Mines et transport de troupes en APC), amène le Scientifique et le Droïde au front, cherche la base ennemie et attaque avec son armée groupée ; elle remplace les raffineries épuisées et ne reste plus bloquée à demander des bâtiments à des endroits impossibles
     Serveur : la chute d'un Gouvernement avec un Transport APC chargé ne fait plus tomber le serveur
-    Performances : la résolution de la manche est 2 à 6 fois plus fluide, et les Paramètres ont une limite d'IPS (30, 60, 90, 120 ou illimité)
+    Performances : la résolution de la manche est 2 à 6 fois plus fluide, et les Paramètres ont une limite d'IPS (30, 60, 90, 120 ou illimité) ; le compteur de FPS reflète cette limite
+    Son : tous les effets ont désormais leur propre enregistrement (aucun n'est synthétisé) et le même volume perçu ; la pluie, le vent, le tonnerre et la musique passent sous les effets, et le curseur de musique démarre à 100 % comme celui des effets (remontez-le si vous l'aviez baissé)
 
 v2026.11.16 alpha
     Coffres : un clic droit est un seul ordre déplacer + ouvrir/combattre ; les coffres sans gardiens vivants s'ouvrent dans la même résolution et l'ouverture est gratuite ; Combattre fonctionne aussi sur les coffres

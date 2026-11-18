@@ -7,7 +7,8 @@ v2026.11.18 alpha
     Defesa Terrestre: Antileve de base, com duas melhorias na árvore de tecnologia (nova entrada Defesa Terrestre): Munição perfurante (Governo 2) adiciona Antimédio e Munição pesada (Governo 3) adiciona Antipesado; cada tiro usa o melhor perfil contra o alvo, e a ficha de uma torre inimiga mostra suas melhorias
     IA: usa todas as habilidades (Tiro de canhão, Mordida, Pisão, Autodestruição, Contra-ataque extra, Sprint, Camuflagem, Minas e o transporte de tropas no APC), leva o Cientista e o Droide para a frente, procura a base inimiga e ataca com o exército reunido; repõe as refinarias esgotadas e não trava mais pedindo edifícios em lugares impossíveis
     Servidor: a queda de um Governo com um Transporte APC carregado não derruba mais o servidor
-    Desempenho: a resolução da rodada fica de 2 a 6 vezes mais fluida e as Configurações têm um limite de FPS (30, 60, 90, 120 ou ilimitado)
+    Desempenho: a resolução da rodada fica de 2 a 6 vezes mais fluida e as Configurações têm um limite de FPS (30, 60, 90, 120 ou ilimitado); o contador de FPS reflete esse limite
+    Som: todos os efeitos agora têm gravação própria (nenhum é sintetizado) e o mesmo volume percebido; chuva, vento, trovões e música tocam abaixo dos efeitos, e o controle de música começa em 100 %, como o de efeitos (aumente-o se você o tinha abaixado)
 
 v2026.11.16 alpha
     Baús: um clique direito é uma única ordem de mover + abrir/lutar; baús sem guardiões vivos abrem na mesma resolução e abrir é grátis; Lutar também funciona contra baús

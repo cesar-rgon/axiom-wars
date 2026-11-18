@@ -7,7 +7,8 @@ v2026.11.18 alpha
     Ground Defense: Anti-light by default, with two upgrades in the technology tree (new Ground Defense entry): Piercing ammo (Government 2) adds Anti-medium and Heavy ammo (Government 3) adds Anti-heavy; each shot uses the best profile against its target, and an enemy tower's card shows its upgrades
     AI: uses every ability (Cannon shot, Chomp, Stomp, Self-destruct, Extra counterattack, Sprint, Camouflage, Mines and carrying troops in the APC), brings the Scientist and the Droid to the front, looks for the enemy base and attacks with its army together; it replaces spent refineries and no longer gets stuck asking for buildings in impossible spots
     Server: a Government falling with a loaded APC Transport no longer brings the server down
-    Performance: the round resolution runs 2 to 6 times smoother, and Settings has an FPS limit (30, 60, 90, 120 or unlimited)
+    Performance: the round resolution runs 2 to 6 times smoother, and Settings has an FPS limit (30, 60, 90, 120 or unlimited); the FPS counter reflects that limit
+    Sound: every effect now has its own recording (none synthesized) and the same perceived loudness; rain, wind, thunder and music play under the effects, and the music slider starts at 100% like the effects one (raise it if you had lowered it)
 
 v2026.11.16 alpha
     Chests: one right click is a single move + open/fight order; chests with no living guardians open in the same resolution and opening is free; Fight also works on chests

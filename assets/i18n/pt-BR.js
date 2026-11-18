@@ -219,7 +219,7 @@
   "mus.t16": "<strong>Replay da rodada.</strong> Uma lupa grande sobre um combate, com o dano de cada golpe.",
   "mus.hint": "Deslize para percorrer a linha do tempo →",
   "news.title": "Novidades",
-  "news.body": "Cura e Aura de Vida reequilibradas, habilidades que perseguem tropas em movimento com uma única lupa e melhorias do Droide.",
+  "news.body": "Novo equilíbrio para Militar, Mecha e APC, torres terrestres com melhorias, uma IA que usa todas as habilidades e mais FPS. Além disso, cada efeito sonoro agora tem gravação própria e a música toca abaixo dos efeitos.",
   "news.all": "Ver o histórico completo de mudanças",
   "join.eyebrow": "Comunidade",
   "join.title": "Jogue com a gente",

@@ -268,7 +268,7 @@
   "dl.c2": "Abre el juego: la dirección del servidor ya viene rellena. Escribe tu nombre y crea una sala o únete a una.",
   "nav.news": "Novedades",
   "news.title": "Novedades",
-  "news.body": "Curación y Aura Vida reequilibradas, habilidades que persiguen a tropas en movimiento con una sola lupa y mejoras del Droide.",
+  "news.body": "Nuevo equilibrio del Militar, el Meca y el APC, torres de suelo con mejoras, una IA que usa todas las habilidades y más FPS. Además, todos los efectos de sonido tienen grabación propia y la música suena por debajo de ellos.",
   "news.all": "Ver el histórico completo",
   "news.all.href": "docs/historico.es.txt",
   "lang.eyebrow": "Idiomas",

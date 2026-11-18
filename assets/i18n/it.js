@@ -242,7 +242,7 @@
   "dl.c2": "Avvia il gioco: l'indirizzo del server è già compilato. Scrivi il tuo nome, poi crea una stanza o unisciti a una.",
   "nav.news": "Novità",
   "news.title": "Novità",
-  "news.body": "Guarigione e Aura di vita riequilibrate, abilità che inseguono le truppe in movimento con una sola lente e miglioramenti del Droide.",
+  "news.body": "Nuovo bilanciamento per Soldato, Mech e APC, torri di terra con miglioramenti, un'IA che usa tutte le abilità e più FPS. Inoltre, ogni effetto sonoro ha ora una registrazione propria e la musica suona sotto gli effetti.",
   "news.all": "Vedi tutta la cronologia",
   "news.all.href": "docs/historico.it.txt",
   "lang.eyebrow": "Lingue",

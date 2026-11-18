@@ -191,7 +191,8 @@ La última versión es **v2026.11.18 alpha**.
 - Defensa de suelo: Anti-ligera de base, con dos mejoras en el árbol de tecnología (nueva entrada Defensa Suelo): Munición perforante (Gobierno 2) añade Anti-media y Munición pesada (Gobierno 3) añade Anti-pesada; cada disparo usa el mejor perfil contra su objetivo y la ficha de una torre enemiga muestra sus mejoras
 - IA: usa todas las habilidades (Cañonazo, Dentellada, Pisotón, Inmolar, Contraataque adicional, Sprint, Camuflaje, Minas y el transporte de tropas en APC), lleva al Científico y al Droide al frente, busca la base enemiga y ataca con el ejército agrupado; repone las refinerías agotadas y ya no se atasca pidiendo edificios en sitios imposibles
 - Servidor: la caída de un Gobierno con un Transporte APC cargado ya no tumba el servidor
-- Rendimiento: la resolución de la ronda va de 2 a 6 veces más fluida y Configuración tiene un límite de FPS (30, 60, 90, 120 o ilimitado)
+- Rendimiento: la resolución de la ronda va de 2 a 6 veces más fluida y Configuración tiene un límite de FPS (30, 60, 90, 120 o ilimitado); el contador de FPS refleja ese límite
+- Sonido: todos los efectos tienen ya su grabación (ninguno sintetizado) y el mismo volumen percibido; la lluvia, el viento, los truenos y la música suenan por debajo de los efectos, y el deslizador de música empieza al 100 % como el de efectos (si lo habías bajado, súbelo)
 
 ### v2026.11.16 alpha
 

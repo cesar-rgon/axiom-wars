@@ -7,7 +7,8 @@ v2026.11.18 alpha
     Kara Savunması: temel Hafif karşıtı, teknoloji ağacında iki geliştirme ile (yeni Kara Savunması girişi): Delici mühimmat (Hükümet 2) Orta karşıtı, Ağır mühimmat (Hükümet 3) Ağır karşıtı ekler; her atış hedefine karşı en iyi profili kullanır ve düşman kulesinin kartı geliştirmelerini gösterir
     Yapay zeka: tüm yetenekleri kullanır (Top atışı, Diş darbesi, Çiğneme, Kendini patlat, Ek karşı saldırı, Sprint, Kamuflaj, Mayınlar ve APC ile birlik taşıma), Bilim insanını ve Droid'i cepheye götürür, düşman üssünü arar ve toplu orduyla saldırır; tükenen rafinerilerin yerine yenisini kurar ve imkansız yerlere bina isterken artık takılmaz
     Sunucu: yüklü bir APC Taşıyıcı ile Hükümetin düşmesi artık sunucuyu çökertmiyor
-    Performans: tur çözümü 2-6 kat daha akıcı ve Ayarlar'da FPS sınırı var (30, 60, 90, 120 veya sınırsız)
+    Performans: tur çözümü 2-6 kat daha akıcı ve Ayarlar'da FPS sınırı var (30, 60, 90, 120 veya sınırsız); FPS sayacı bu sınırı yansıtır
+    Ses: tüm efektlerin artık kendi kaydı var (hiçbiri sentezlenmiyor) ve algılanan ses düzeyleri aynı; yağmur, rüzgâr, gök gürültüsü ve müzik efektlerin altında çalar, müzik kaydırıcısı da efektler gibi %100'den başlar (düşürdüyseniz yükseltin)
 
 v2026.11.16 alpha
     Sandıklar: tek sağ tık tek bir hareket + aç/savaş emridir; yaşayan koruyucusu olmayan sandıklar aynı çözümlemede açılır ve açmak ücretsizdir; Savaş sandıklara karşı da çalışır

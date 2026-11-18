@@ -7,7 +7,8 @@ v2026.11.18 alpha
     Difesa terrestre: Anti-leggero di base, con due miglioramenti nell'albero tecnologico (nuova voce Difesa terrestre): Munizioni perforanti (Governo 2) aggiunge Anti-medio e Munizioni pesanti (Governo 3) aggiunge Anti-pesante; ogni colpo usa il profilo migliore contro il bersaglio, e la scheda di una torre nemica mostra i suoi miglioramenti
     IA: usa tutte le abilità (Cannonata, Morso feroce, Calpestio, Immola, Contrattacco aggiuntivo, Scatto, Mimetismo, Mine e il trasporto di truppe nell'APC), porta lo Scienziato e il Droide al fronte, cerca la base nemica e attacca con l'esercito compatto; sostituisce le raffinerie esaurite e non si blocca più chiedendo edifici in posti impossibili
     Server: la caduta di un Governo con un Trasporto APC carico non manda più in crash il server
-    Prestazioni: la risoluzione del turno è da 2 a 6 volte più fluida e le Impostazioni hanno un limite di FPS (30, 60, 90, 120 o illimitato)
+    Prestazioni: la risoluzione del turno è da 2 a 6 volte più fluida e le Impostazioni hanno un limite di FPS (30, 60, 90, 120 o illimitato); il contatore di FPS riflette quel limite
+    Suono: tutti gli effetti hanno ora una registrazione propria (nessuno è sintetizzato) e lo stesso volume percepito; pioggia, vento, tuoni e musica suonano sotto gli effetti, e il cursore della musica parte dal 100 % come quello degli effetti (alzalo se l'avevi abbassato)
 
 v2026.11.16 alpha
     Forzieri: un clic destro è un unico ordine muovi + apri/combatti; i forzieri senza guardiani vivi si aprono nella stessa risoluzione e aprire è gratis; Combatti funziona anche sui forzieri

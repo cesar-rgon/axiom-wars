@@ -7,7 +7,8 @@ v2026.11.18 alpha
     Bodenverteidigung: Grundprofil Anti-Leicht, mit zwei Verbesserungen im Technologiebaum (neuer Eintrag Bodenverteidigung): Panzerbrechende Munition (Regierung 2) fügt Anti-Mittel hinzu und Schwere Munition (Regierung 3) Anti-Schwer; jeder Schuss nutzt das beste Profil gegen sein Ziel, und die Karte eines feindlichen Turms zeigt seine Verbesserungen
     KI: nutzt alle Fähigkeiten (Kanonenschuss, Wilder Biss, Stampfen, Selbstopferung, Zusätzlicher Gegenangriff, Sprint, Tarnung, Minen und Truppentransport im APC), bringt Wissenschaftler und Droide an die Front, sucht die feindliche Basis und greift mit geschlossener Armee an; sie ersetzt erschöpfte Raffinerien und hängt nicht mehr fest, weil sie Gebäude an unmöglichen Stellen bestellt
     Server: Der Fall einer Regierung mit einem beladenen APC-Transporter bringt den Server nicht mehr zum Absturz
-    Leistung: Die Rundenauflösung läuft 2- bis 6-mal flüssiger, und die Einstellungen haben eine FPS-Begrenzung (30, 60, 90, 120 oder unbegrenzt)
+    Leistung: Die Rundenauflösung läuft 2- bis 6-mal flüssiger, und die Einstellungen haben eine FPS-Begrenzung (30, 60, 90, 120 oder unbegrenzt); der FPS-Zähler zeigt dieses Limit
+    Sound: Alle Effekte haben jetzt eine eigene Aufnahme (keiner wird mehr synthetisiert) und dieselbe wahrgenommene Lautstärke; Regen, Wind, Donner und Musik liegen unter den Effekten, und der Musikregler startet wie der Effektregler bei 100 % (hochziehen, falls du ihn gesenkt hattest)
 
 v2026.11.16 alpha
     Truhen: ein Rechtsklick ist ein einziger Befehl Bewegen + Öffnen/Kämpfen; Truhen ohne lebende Wächter öffnen sich in derselben Auflösung und Öffnen ist kostenlos; Kämpfen funktioniert auch gegen Truhen

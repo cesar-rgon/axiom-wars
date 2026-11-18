@@ -219,7 +219,7 @@
   "mus.t16": "<strong>Raunt tekrarı.</strong> Bir çatışmanın üzerinde büyük bir büyüteç ve her vuruşun hasarı.",
   "mus.hint": "Zaman çizgisinde ilerlemek için kaydır →",
   "news.title": "Yenilikler",
-  "news.body": "İyileştirme ve Can Aurası yeniden dengelendi, hareket eden birlikleri tek büyüteçle kovalayan yetenekler ve Droid iyileştirmeleri.",
+  "news.body": "Asker, Meca ve APC için yeni denge, geliştirmeli kara kuleleri, tüm yetenekleri kullanan bir yapay zeka ve daha fazla FPS. Ayrıca her ses efektinin artık kendi kaydı var ve müzik efektlerin altında çalıyor.",
   "news.all": "Tüm değişiklik geçmişini gör",
   "news.all.href": "docs/historico.tr.txt",
   "join.eyebrow": "Topluluk",

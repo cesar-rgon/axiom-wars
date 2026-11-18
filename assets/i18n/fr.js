@@ -242,7 +242,7 @@
   "dl.c2": "Lancez le jeu : l'adresse du serveur est déjà remplie. Saisissez votre nom, puis créez un salon ou rejoignez-en un.",
   "nav.news": "Nouveautés",
   "news.title": "Nouveautés",
-  "news.body": "Soin et Aura de vie rééquilibrées, capacités qui poursuivent les troupes en mouvement avec une seule loupe, et améliorations du Droïde.",
+  "news.body": "Nouvel équilibre du Soldat, du Méca et de l'APC, tours au sol avec améliorations, une IA qui utilise toutes les capacités, et plus d'IPS. De plus, chaque effet sonore a désormais son propre enregistrement et la musique passe sous les effets.",
   "news.all": "Voir tout l'historique",
   "news.all.href": "docs/historico.fr.txt",
   "lang.eyebrow": "Langues",
