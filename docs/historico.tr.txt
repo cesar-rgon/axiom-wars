@@ -1,6 +1,10 @@
 AXIOM WARS DEĞİŞİKLİK GEÇMİŞİ
 (Sürüm, sunucuda veya istemcide yapılan son değişikliğin tarihidir.)
 
+v2026.11.20 alpha
+    Daha saldırgan ve işbirlikçi yapay zeka: haritanın simetrisinden düşman üssünü bulur, ilk turlardan itibaren rakibin ekonomisini rahatsız eder, Hükümeti tüm orduyla savunur, ordunun üçte birini yedekte tutar, işaret olmadan müttefike yardım eder ve kaynağı azsa ona kaynak hediye eder
+    Kimlik: her sunucu kendi oyuncu kodunu saklar, böylece sunucu değiştirmek artık «istemci kodu eksik» hatasına yol açmaz
+
 v2026.11.18 alpha
     Asker: Lazer hafif makineli Hükümet 1 silahı olur (Hafif karşıtı, 1 AP), Tüfek ise Hükümet 2 silahı (Orta karşıtı, 2 AP, isabet); ikisinin de menzili 5'tir ve hava birimlerini de vurur (%30 ve %50 isabet), karşı saldırıda da; Bomba atar 30 hasara çıkar
     Meca ve APC Taşıyıcı %15 daha ucuz; Alev silahı 4 kareye, Taret 5 kareye ulaşır ve Top atışı Ağır karşıtı olur

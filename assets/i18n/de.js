@@ -242,7 +242,7 @@
   "dl.c2": "Starte das Spiel: Die Serveradresse ist schon eingetragen. Gib deinen Namen ein und erstelle einen Raum oder tritt einem bei.",
   "nav.news": "Neuigkeiten",
   "news.title": "Neuigkeiten",
-  "news.body": "Neues Gleichgewicht für Soldat, Mech und APC, Bodentürme mit Verbesserungen, eine KI, die alle Fähigkeiten nutzt, und mehr FPS. Außerdem hat jeder Soundeffekt jetzt eine eigene Aufnahme, und die Musik liegt unter den Effekten.",
+  "news.body": "Eine aggressivere und kooperativere KI: Sie findet die feindliche Basis, bedrängt die gegnerische Wirtschaft, verteidigt die Regierung mit der ganzen Armee und hilft ihren Verbündeten. Außerdem speichert jeder Server seinen eigenen Spielercode.",
   "news.all": "Gesamten Verlauf ansehen",
   "news.all.href": "docs/historico.de.txt",
   "lang.eyebrow": "Sprachen",

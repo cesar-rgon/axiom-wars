@@ -179,10 +179,15 @@ Open the game: the server address is already filled in. Type your name, then cre
 
 ## Change history
 
-The latest version is **v2026.11.18 alpha**.
+The latest version is **v2026.11.20 alpha**.
 
 <details>
 <summary>Show all versions</summary>
+
+### v2026.11.20 alpha
+
+- More aggressive and cooperative AI: it finds the enemy base from the map's symmetry, harasses the rival economy from the first rounds, defends the Government with the whole army, keeps a third of its army in reserve, helps its ally without needing a mark, and gifts resources when the ally runs short
+- Identity: each server keeps its own player code, so switching servers no longer causes "the client code is missing"
 
 ### v2026.11.18 alpha
 

@@ -1,6 +1,10 @@
 ÄNDERUNGSVERLAUF VON AXIOM WARS
 (Die Version ist das Datum der letzten Änderung am Server oder am Client.)
 
+v2026.11.20 alpha
+    Aggressivere und kooperativere KI: findet die feindliche Basis über die Symmetrie der Karte, bedrängt ab den ersten Runden die gegnerische Wirtschaft, verteidigt die Regierung mit der ganzen Armee, hält ein Drittel als Reserve zurück, hilft dem Verbündeten auch ohne Markierung und schenkt ihm Ressourcen, wenn er knapp ist
+    Identität: Jeder Server speichert seinen eigenen Spielercode, sodass ein Serverwechsel nicht mehr zu „Der Client-Code fehlt“ führt
+
 v2026.11.18 alpha
     Soldat: Die Laser-MP wird zur Waffe ab Regierung 1 (Anti-Leicht, 1 AP) und das Gewehr zur Waffe ab Regierung 2 (Anti-Mittel, 2 AP, Präzision); beide haben Reichweite 5 und treffen auch Luftziele (30 % bzw. 50 % Trefferchance), auch beim Gegenangriff; der Granatwerfer steigt auf 30 Schaden
     Mech und APC-Transporter kosten 15 % weniger; der Flammenwerfer reicht 4 Felder, der Geschützturm 5, und der Kanonenschuss wird Anti-Schwer

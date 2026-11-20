@@ -1,6 +1,10 @@
 CRONOLOGIA DELLE MODIFICHE DI AXIOM WARS
 (La versione è la data dell'ultima modifica del server o del client.)
 
+v2026.11.20 alpha
+    IA più aggressiva e cooperativa: trova la base nemica grazie alla simmetria della mappa, tormenta l'economia rivale fin dai primi round, difende il Governo con tutto l'esercito, tiene un terzo in riserva, aiuta l'alleato senza bisogno di un segnale e gli regala risorse se ne ha poche
+    Identità: ogni server conserva il proprio codice giocatore, quindi cambiare server non provoca più «manca il codice del client»
+
 v2026.11.18 alpha
     Soldato: la Mitragliatrice laser diventa l'arma del Governo 1 (Anti-leggero, 1 PA) e il Fucile quella del Governo 2 (Anti-medio, 2 PA, precisione); entrambe hanno gittata 5 e colpiscono anche le unità aeree (30 % e 50 % di probabilità), anche nel contrattacco; il Lanciagranate sale a 30 danni
     Mech e Trasporto APC costano il 15 % in meno; il Lanciafiamme arriva a 4 caselle, la Torretta a 5 e la Cannonata diventa Anti-pesante

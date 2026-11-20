@@ -179,10 +179,15 @@ Abre el juego: la dirección del servidor ya viene rellena. Escribe tu nombre y 
 
 ## Histórico de cambios
 
-La última versión es **v2026.11.18 alpha**.
+La última versión es **v2026.11.20 alpha**.
 
 <details>
 <summary>Ver todas las versiones</summary>
+
+### v2026.11.20 alpha
+
+- IA más agresiva y cooperativa: encuentra la base enemiga por la simetría del mapa, hostiga la economía rival desde las primeras rondas, defiende el Gobierno con todo el ejército, guarda una reserva de un tercio, ayuda al aliado sin necesitar una marca y le regala recursos si va corto
+- Identidad: cada servidor guarda su propio código de jugador, así que cambiar de servidor ya no provoca «falta el código del cliente»
 
 ### v2026.11.18 alpha
 

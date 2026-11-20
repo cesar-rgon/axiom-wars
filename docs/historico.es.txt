@@ -1,6 +1,10 @@
 HISTÓRICO DE CAMBIOS DE AXIOM WARS
 (La versión es la fecha de la última modificación del servidor o del cliente.)
 
+v2026.11.20 alpha
+    IA más agresiva y cooperativa: encuentra la base enemiga por la simetría del mapa, hostiga la economía rival desde las primeras rondas, defiende el Gobierno con todo el ejército, guarda una reserva de un tercio, ayuda al aliado sin necesitar una marca y le regala recursos si va corto
+    Identidad: cada servidor guarda su propio código de jugador, así que cambiar de servidor ya no provoca «falta el código del cliente»
+
 v2026.11.18 alpha
     Militar: la Metralleta láser pasa a ser el arma de Gobierno 1 (Anti-ligera, 1 PA) y el Fusil la de Gobierno 2 (Anti-media, 2 PA, precisión); las dos tienen alcance 5 y disparan también a aéreos (30 % y 50 % de acierto), también al contraatacar; el Lanzagranadas sube a 30 de daño
     Meca y Transporte APC cuestan un 15 % menos; el Lanzallamas alcanza 4 casillas, la Torreta 5 y el Cañonazo pasa a Anti-pesada

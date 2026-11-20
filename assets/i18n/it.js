@@ -242,7 +242,7 @@
   "dl.c2": "Avvia il gioco: l'indirizzo del server è già compilato. Scrivi il tuo nome, poi crea una stanza o unisciti a una.",
   "nav.news": "Novità",
   "news.title": "Novità",
-  "news.body": "Nuovo bilanciamento per Soldato, Mech e APC, torri di terra con miglioramenti, un'IA che usa tutte le abilità e più FPS. Inoltre, ogni effetto sonoro ha ora una registrazione propria e la musica suona sotto gli effetti.",
+  "news.body": "Un'IA più aggressiva e cooperativa: trova la base nemica, tormenta l'economia rivale, difende il Governo con tutto l'esercito e aiuta i suoi alleati. Inoltre, ogni server conserva il proprio codice giocatore.",
   "news.all": "Vedi tutta la cronologia",
   "news.all.href": "docs/historico.it.txt",
   "lang.eyebrow": "Lingue",

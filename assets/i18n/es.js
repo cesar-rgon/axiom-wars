@@ -268,7 +268,7 @@
   "dl.c2": "Abre el juego: la dirección del servidor ya viene rellena. Escribe tu nombre y crea una sala o únete a una.",
   "nav.news": "Novedades",
   "news.title": "Novedades",
-  "news.body": "Nuevo equilibrio del Militar, el Meca y el APC, torres de suelo con mejoras, una IA que usa todas las habilidades y más FPS. Además, todos los efectos de sonido tienen grabación propia y la música suena por debajo de ellos.",
+  "news.body": "Una IA más agresiva y cooperativa: encuentra la base enemiga, hostiga la economía rival, defiende el Gobierno con todo el ejército y ayuda a sus aliados. Además, cada servidor guarda su propio código de jugador.",
   "news.all": "Ver el histórico completo",
   "news.all.href": "docs/historico.es.txt",
   "lang.eyebrow": "Idiomas",

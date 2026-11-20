@@ -1,6 +1,10 @@
 HISTORIA ZMIAN AXIOM WARS
 (Wersja to data ostatniej zmiany serwera lub klienta.)
 
+v2026.11.20 alpha
+    Bardziej agresywna i kooperacyjna SI: znajduje wrogą bazę dzięki symetrii mapy, nęka gospodarkę rywala od pierwszych rund, broni Rządu całą armią, trzyma jedną trzecią w odwodzie, pomaga sojusznikowi bez znacznika i daje mu surowce, gdy ich brakuje
+    Tożsamość: każdy serwer zapamiętuje własny kod gracza, więc zmiana serwera nie powoduje już komunikatu „brak kodu klienta”
+
 v2026.11.18 alpha
     Żołnierz: Laserowy pistolet maszynowy staje się bronią Rządu 1 (przeciw lekkim, 1 PA), a Karabin bronią Rządu 2 (przeciw średnim, 2 PA, precyzja); obie mają zasięg 5 i trafiają też jednostki powietrzne (30 % i 50 % szans), także w kontrataku; Granatnik zadaje teraz 30 obrażeń
     Mech i Transporter APC kosztują 15 % mniej; Miotacz ognia sięga 4 pól, Wieżyczka 5, a Strzał z działa staje się przeciw ciężkim

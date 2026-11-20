@@ -219,7 +219,7 @@
   "mus.t16": "<strong>Raunt tekrarı.</strong> Bir çatışmanın üzerinde büyük bir büyüteç ve her vuruşun hasarı.",
   "mus.hint": "Zaman çizgisinde ilerlemek için kaydır →",
   "news.title": "Yenilikler",
-  "news.body": "Asker, Meca ve APC için yeni denge, geliştirmeli kara kuleleri, tüm yetenekleri kullanan bir yapay zeka ve daha fazla FPS. Ayrıca her ses efektinin artık kendi kaydı var ve müzik efektlerin altında çalıyor.",
+  "news.body": "Daha saldırgan ve işbirlikçi yapay zeka: düşman üssünü bulur, rakibin ekonomisini rahatsız eder, Hükümeti tüm orduyla savunur ve müttefiklerine yardım eder. Ayrıca her sunucu kendi oyuncu kodunu saklar.",
   "news.all": "Tüm değişiklik geçmişini gör",
   "news.all.href": "docs/historico.tr.txt",
   "join.eyebrow": "Topluluk",

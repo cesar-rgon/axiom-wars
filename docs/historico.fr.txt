@@ -1,6 +1,10 @@
 HISTORIQUE DES CHANGEMENTS D'AXIOM WARS
 (La version est la date de la dernière modification du serveur ou du client.)
 
+v2026.11.20 alpha
+    IA plus agressive et plus coopérative : elle trouve la base ennemie grâce à la symétrie de la carte, harcèle l'économie adverse dès les premières rondes, défend le Gouvernement avec toute l'armée, garde un tiers en réserve, aide son allié sans avoir besoin d'une marque et lui offre des ressources s'il en manque
+    Identité : chaque serveur garde son propre code de joueur, si bien que changer de serveur ne provoque plus « le code du client est manquant »
+
 v2026.11.18 alpha
     Soldat : la Mitraillette laser devient l'arme du Gouvernement 1 (Anti-léger, 1 PA) et le Fusil celle du Gouvernement 2 (Anti-moyen, 2 PA, précision) ; les deux ont une portée de 5 et touchent aussi les unités aériennes (30 % et 50 % de réussite), y compris en contre-attaque ; le Lance-grenades passe à 30 de dégâts
     Le Méca et le Transport APC coûtent 15 % de moins ; le Lance-flammes atteint 4 cases, la Tourelle 5, et le Coup de canon devient Anti-lourd

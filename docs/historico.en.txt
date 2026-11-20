@@ -1,6 +1,10 @@
 AXIOM WARS CHANGE HISTORY
 (The version is the date of the latest change to the server or the client.)
 
+v2026.11.20 alpha
+    More aggressive and cooperative AI: it finds the enemy base from the map's symmetry, harasses the rival economy from the first rounds, defends the Government with the whole army, keeps a third of its army in reserve, helps its ally without needing a mark, and gifts resources when the ally runs short
+    Identity: each server keeps its own player code, so switching servers no longer causes "the client code is missing"
+
 v2026.11.18 alpha
     Military: the Laser SMG becomes the Government 1 weapon (Anti-light, 1 AP) and the Rifle the Government 2 one (Anti-medium, 2 AP, precision); both have range 5 and also hit aircraft (30% and 50% hit chance), counterattacks included; the Grenade launcher rises to 30 damage
     Mech and APC Transport cost 15% less; the Flamethrower reaches 4 tiles, the Turret 5, and the Cannon shot becomes Anti-heavy

@@ -242,7 +242,7 @@
   "dl.c2": "Lancez le jeu : l'adresse du serveur est déjà remplie. Saisissez votre nom, puis créez un salon ou rejoignez-en un.",
   "nav.news": "Nouveautés",
   "news.title": "Nouveautés",
-  "news.body": "Nouvel équilibre du Soldat, du Méca et de l'APC, tours au sol avec améliorations, une IA qui utilise toutes les capacités, et plus d'IPS. De plus, chaque effet sonore a désormais son propre enregistrement et la musique passe sous les effets.",
+  "news.body": "Une IA plus agressive et plus coopérative : elle trouve la base ennemie, harcèle l'économie adverse, défend le Gouvernement avec toute son armée et aide ses alliés. De plus, chaque serveur garde son propre code de joueur.",
   "news.all": "Voir tout l'historique",
   "news.all.href": "docs/historico.fr.txt",
   "lang.eyebrow": "Langues",
