@@ -268,7 +268,7 @@
   "dl.c2": "Abre el juego: la dirección del servidor ya viene rellena. Escribe tu nombre y crea una sala o únete a una.",
   "nav.news": "Novedades",
   "news.title": "Novedades",
-  "news.body": "Una IA más agresiva y cooperativa: encuentra la base enemiga, hostiga la economía rival, defiende el Gobierno con todo el ejército y ayuda a sus aliados. Además, cada servidor guarda su propio código de jugador.",
+  "news.body": "Las tropas que atacan abren paso a través de la base enemiga, las voladoras usan portales y el Raptor estalla en el aire y cae a pedazos. Además: flechas visibles en zona sin explorar, Mayús para repetir edificios y voladoras que se seleccionan por su dibujo.",
   "news.all": "Ver el histórico completo",
   "news.all.href": "docs/historico.es.txt",
   "lang.eyebrow": "Idiomas",

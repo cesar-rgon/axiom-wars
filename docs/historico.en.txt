@@ -1,6 +1,14 @@
 AXIOM WARS CHANGE HISTORY
 (The version is the date of the latest change to the server or the client.)
 
+v2026.11.21 alpha
+    Attacks that break through: right-clicking an enemy sends troops in a straight line and, if enemy buildings block the way, they open the gap where the least has to be destroyed; with A + tile they take the shortest path, attacking everything they meet. A normal move still goes around
+    Marching troops shoot the enemy troop blocking their way and walk around it in the same round, aircraft too; a lone troop ordered to attack something out of range no longer stands still
+    Portals: aircraft travel through your own and allied portals (paying as a big troop) and appear in the air around the destination portal; the portal your troops are heading to is outlined in your colour
+    Raptor: new destruction, it blows up in the air and falls to the ground in pieces
+    Interface: an order's arrow is also visible over unexplored areas; A + click on the minimap gives the order without moving the camera; holding Shift keeps placing the same building; troops standing on a building get an outline in your colour; an aircraft is selected by clicking its picture, and the ground around it selects the ground troop; the victory panel's bars fill one after another
+    Identity: on password-protected servers your matches show up in your match list again
+
 v2026.11.20 alpha
     More aggressive and cooperative AI: it finds the enemy base from the map's symmetry, harasses the rival economy from the first rounds, defends the Government with the whole army, keeps a third of its army in reserve, helps its ally without needing a mark, and gifts resources when the ally runs short
     Identity: each server keeps its own player code, so switching servers no longer causes "the client code is missing"

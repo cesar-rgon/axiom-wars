@@ -242,7 +242,7 @@
   "dl.c2": "Avvia il gioco: l'indirizzo del server è già compilato. Scrivi il tuo nome, poi crea una stanza o unisciti a una.",
   "nav.news": "Novità",
   "news.title": "Novità",
-  "news.body": "Un'IA più aggressiva e cooperativa: trova la base nemica, tormenta l'economia rivale, difende il Governo con tutto l'esercito e aiuta i suoi alleati. Inoltre, ogni server conserva il proprio codice giocatore.",
+  "news.body": "Le truppe all'attacco si aprono la strada nella base nemica, le unità volanti usano i portali e il Raptor esplode in aria e cade a pezzi. Inoltre: frecce visibili nelle zone inesplorate, Maiusc per ripetere gli edifici e unità volanti selezionate dal loro disegno.",
   "news.all": "Vedi tutta la cronologia",
   "news.all.href": "docs/historico.it.txt",
   "lang.eyebrow": "Lingue",

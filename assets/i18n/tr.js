@@ -219,7 +219,7 @@
   "mus.t16": "<strong>Raunt tekrarı.</strong> Bir çatışmanın üzerinde büyük bir büyüteç ve her vuruşun hasarı.",
   "mus.hint": "Zaman çizgisinde ilerlemek için kaydır →",
   "news.title": "Yenilikler",
-  "news.body": "Daha saldırgan ve işbirlikçi yapay zeka: düşman üssünü bulur, rakibin ekonomisini rahatsız eder, Hükümeti tüm orduyla savunur ve müttefiklerine yardım eder. Ayrıca her sunucu kendi oyuncu kodunu saklar.",
+  "news.body": "Saldıran birlikler düşman üssünde yol açar, hava birlikleri portalları kullanır ve Raptor havada patlayıp parçalar halinde düşer. Ayrıca: keşfedilmemiş alanlarda görünen oklar, binaları tekrarlamak için Shift ve çizimine tıklanarak seçilen hava birlikleri.",
   "news.all": "Tüm değişiklik geçmişini gör",
   "news.all.href": "docs/historico.tr.txt",
   "join.eyebrow": "Topluluk",

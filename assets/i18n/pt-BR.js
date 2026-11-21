@@ -219,7 +219,7 @@
   "mus.t16": "<strong>Replay da rodada.</strong> Uma lupa grande sobre um combate, com o dano de cada golpe.",
   "mus.hint": "Deslize para percorrer a linha do tempo →",
   "news.title": "Novidades",
-  "news.body": "Uma IA mais agressiva e cooperativa: encontra a base inimiga, hostiliza a economia rival, defende o Governo com todo o exército e ajuda os aliados. Além disso, cada servidor guarda o próprio código de jogador.",
+  "news.body": "As tropas que atacam abrem caminho pela base inimiga, as voadoras usam portais e o Raptor explode no ar e cai em pedaços. Além disso: setas visíveis em áreas não exploradas, Shift para repetir edifícios e voadoras selecionadas pelo desenho.",
   "news.all": "Ver o histórico completo de mudanças",
   "join.eyebrow": "Comunidade",
   "join.title": "Jogue com a gente",

@@ -242,7 +242,7 @@
   "dl.c2": "Lancez le jeu : l'adresse du serveur est déjà remplie. Saisissez votre nom, puis créez un salon ou rejoignez-en un.",
   "nav.news": "Nouveautés",
   "news.title": "Nouveautés",
-  "news.body": "Une IA plus agressive et plus coopérative : elle trouve la base ennemie, harcèle l'économie adverse, défend le Gouvernement avec toute son armée et aide ses alliés. De plus, chaque serveur garde son propre code de joueur.",
+  "news.body": "Les troupes qui attaquent se frayent un chemin à travers la base ennemie, les aériens utilisent les portails et le Raptor explose en l'air et retombe en morceaux. Et aussi : flèches visibles sur les zones inexplorées, Maj pour répéter les bâtiments et sélection des aériens par leur dessin.",
   "news.all": "Voir tout l'historique",
   "news.all.href": "docs/historico.fr.txt",
   "lang.eyebrow": "Langues",

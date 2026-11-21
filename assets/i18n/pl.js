@@ -219,7 +219,7 @@
   "mus.t16": "<strong>Powtórka rundy.</strong> Duża lupa nad starciem z obrażeniami każdego trafienia.",
   "mus.hint": "Przesuń palcem, aby poruszać się po osi czasu →",
   "news.title": "Nowości",
-  "news.body": "Bardziej agresywna i kooperacyjna SI: znajduje wrogą bazę, nęka gospodarkę rywala, broni Rządu całą armią i pomaga sojusznikom. Poza tym każdy serwer zapamiętuje własny kod gracza.",
+  "news.body": "Atakujące oddziały torują sobie drogę przez wrogą bazę, jednostki latające korzystają z portali, a Raptor wybucha w powietrzu i spada w kawałkach. Do tego: strzałki nad nieodkrytym terenem, Shift do powtarzania budynków i zaznaczanie jednostek latających po rysunku.",
   "news.all": "Zobacz pełną historię zmian",
   "news.all.href": "docs/historico.pl.txt",
   "join.eyebrow": "Społeczność",

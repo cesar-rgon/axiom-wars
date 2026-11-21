@@ -242,7 +242,7 @@
   "dl.c2": "Starte das Spiel: Die Serveradresse ist schon eingetragen. Gib deinen Namen ein und erstelle einen Raum oder tritt einem bei.",
   "nav.news": "Neuigkeiten",
   "news.title": "Neuigkeiten",
-  "news.body": "Eine aggressivere und kooperativere KI: Sie findet die feindliche Basis, bedrängt die gegnerische Wirtschaft, verteidigt die Regierung mit der ganzen Armee und hilft ihren Verbündeten. Außerdem speichert jeder Server seinen eigenen Spielercode.",
+  "news.body": "Angreifende Truppen kämpfen sich durch die feindliche Basis, Flugeinheiten nutzen Portale und der Raptor explodiert in der Luft und fällt in Stücken. Außerdem: Pfeile über unerkundetem Gebiet, Umschalttaste zum Wiederholen von Gebäuden und Auswahl von Flugeinheiten über ihr Bild.",
   "news.all": "Gesamten Verlauf ansehen",
   "news.all.href": "docs/historico.de.txt",
   "lang.eyebrow": "Sprachen",

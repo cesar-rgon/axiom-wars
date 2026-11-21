@@ -1,6 +1,14 @@
 HISTÓRICO DE MUDANÇAS DE AXIOM WARS
 (A versão é a data da última mudança no servidor ou no cliente.)
 
+v2026.11.21 alpha
+    Ataques que abrem caminho: com clique direito sobre um inimigo as tropas vão em linha reta e, se os edifícios inimigos bloquearem a passagem, abrem a brecha onde há menos para destruir; com A + casa seguem o caminho mais curto atacando tudo o que encontram. O movimento normal continua contornando
+    As tropas em marcha atiram na tropa inimiga que bloqueia o caminho e a contornam na mesma rodada, as voadoras também; uma tropa sozinha com ordem de ataque fora de alcance não fica mais parada
+    Portais: as tropas voadoras viajam por portais próprios e aliados (pagam como uma tropa grande) e aparecem no ar ao redor do portal de destino; o portal para onde suas tropas vão ganha um contorno da sua cor
+    Raptor: nova destruição, explode no ar e cai em pedaços no chão
+    Interface: a seta de uma ordem também aparece em áreas não exploradas; A + clique no minimapa dá a ordem sem mover a câmera; segurando Shift você continua colocando o mesmo edifício; as tropas em cima de um edifício ganham um contorno da sua cor; uma voadora é selecionada clicando no seu desenho e o chão ao redor seleciona a tropa terrestre; as barras do painel de vitória se enchem uma após a outra
+    Identidade: nos servidores com senha suas partidas voltam a aparecer na sua lista de partidas
+
 v2026.11.20 alpha
     IA mais agressiva e cooperativa: encontra a base inimiga pela simetria do mapa, hostiliza a economia rival desde as primeiras rodadas, defende o Governo com todo o exército, mantém um terço em reserva, ajuda o aliado sem precisar de uma marca e doa recursos quando ele está curto
     Identidade: cada servidor guarda o próprio código de jogador, então trocar de servidor não causa mais «falta o código do cliente»

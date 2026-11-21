@@ -1,6 +1,14 @@
 ÄNDERUNGSVERLAUF VON AXIOM WARS
 (Die Version ist das Datum der letzten Änderung am Server oder am Client.)
 
+v2026.11.21 alpha
+    Angriffe, die sich den Weg freikämpfen: Mit Rechtsklick auf einen Gegner ziehen die Truppen in gerader Linie und öffnen, wenn feindliche Gebäude den Weg versperren, die Lücke, bei der am wenigsten zerstört werden muss; mit A + Feld nehmen sie den kürzesten Weg und greifen alles an, was ihnen begegnet. Eine normale Bewegung umgeht Hindernisse weiterhin
+    Marschierende Truppen schießen auf die feindliche Truppe, die ihnen den Weg versperrt, und umgehen sie in derselben Runde, auch Flugeinheiten; eine einzelne Truppe mit Angriffsbefehl auf ein Ziel außer Reichweite bleibt nicht mehr stehen
+    Portale: Flugeinheiten reisen durch eigene und verbündete Portale (sie zahlen wie eine große Truppe) und erscheinen in der Luft rund um das Zielportal; das Portal, zu dem deine Truppen unterwegs sind, wird in deiner Farbe umrandet
+    Raptor: neue Zerstörung, er explodiert in der Luft und fällt in Stücken zu Boden
+    Oberfläche: Der Pfeil eines Befehls ist auch über unerkundetem Gebiet sichtbar; A + Klick auf die Minikarte erteilt den Befehl, ohne die Kamera zu bewegen; mit gedrückter Umschalttaste werden weiter gleiche Gebäude platziert; Truppen auf einem Gebäude erhalten einen Umriss in deiner Farbe; eine Flugeinheit wird durch Klick auf ihr Bild ausgewählt, der Boden darum wählt die Bodentruppe; die Balken im Siegesfenster füllen sich nacheinander
+    Identität: Auf Servern mit Passwort erscheinen deine Partien wieder in deiner Partienliste
+
 v2026.11.20 alpha
     Aggressivere und kooperativere KI: findet die feindliche Basis über die Symmetrie der Karte, bedrängt ab den ersten Runden die gegnerische Wirtschaft, verteidigt die Regierung mit der ganzen Armee, hält ein Drittel als Reserve zurück, hilft dem Verbündeten auch ohne Markierung und schenkt ihm Ressourcen, wenn er knapp ist
     Identität: Jeder Server speichert seinen eigenen Spielercode, sodass ein Serverwechsel nicht mehr zu „Der Client-Code fehlt“ führt

@@ -1,6 +1,14 @@
 AXIOM WARS DEĞİŞİKLİK GEÇMİŞİ
 (Sürüm, sunucuda veya istemcide yapılan son değişikliğin tarihidir.)
 
+v2026.11.21 alpha
+    Yol açan saldırılar: bir düşmana sağ tıklayınca birlikler düz bir çizgide ilerler ve düşman binaları yolu kapatırsa en az yıkım gereken yerden gedik açar; A + kare ile en kısa yoldan gider ve karşılaştıkları her şeye saldırır. Normal hareket engellerin etrafından dolaşmaya devam eder
+    Yürüyen birlikler yollarını kesen düşman birliğe ateş eder ve aynı turda etrafından dolaşır, hava birlikleri de; menzil dışındaki bir hedefe saldırı emri alan tek bir birlik artık yerinde durmaz
+    Portallar: hava birlikleri kendi ve müttefik portallarından geçer (büyük birlik gibi öder) ve hedef portalın çevresinde havada belirir; birliklerinin gittiği portal senin renginle çerçevelenir
+    Raptor: yeni yok olma animasyonu, havada patlar ve parçalar halinde yere düşer
+    Arayüz: bir emrin oku keşfedilmemiş alanlarda da görünür; mini haritada A + tık kamerayı oynatmadan emir verir; Shift basılı tutulunca aynı bina yerleştirilmeye devam eder; bir binanın üstündeki birlikler senin renginde bir çerçeve alır; hava birliği çizimine tıklanarak seçilir, çevresindeki zemin ise kara birliğini seçer; zafer panelindeki çubuklar birbiri ardına dolar
+    Kimlik: şifreli sunucularda maçların yeniden maç listende görünür
+
 v2026.11.20 alpha
     Daha saldırgan ve işbirlikçi yapay zeka: haritanın simetrisinden düşman üssünü bulur, ilk turlardan itibaren rakibin ekonomisini rahatsız eder, Hükümeti tüm orduyla savunur, ordunun üçte birini yedekte tutar, işaret olmadan müttefike yardım eder ve kaynağı azsa ona kaynak hediye eder
     Kimlik: her sunucu kendi oyuncu kodunu saklar, böylece sunucu değiştirmek artık «istemci kodu eksik» hatasına yol açmaz

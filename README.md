@@ -179,10 +179,19 @@ Open the game: the server address is already filled in. Type your name, then cre
 
 ## Change history
 
-The latest version is **v2026.11.20 alpha**.
+The latest version is **v2026.11.21 alpha**.
 
 <details>
 <summary>Show all versions</summary>
+
+### v2026.11.21 alpha
+
+- Attacks that break through: right-clicking an enemy sends troops in a straight line and, if enemy buildings block the way, they open the gap where the least has to be destroyed; with A + tile they take the shortest path, attacking everything they meet. A normal move still goes around
+- Marching troops shoot the enemy troop blocking their way and walk around it in the same round, aircraft too; a lone troop ordered to attack something out of range no longer stands still
+- Portals: aircraft travel through your own and allied portals (paying as a big troop) and appear in the air around the destination portal; the portal your troops are heading to is outlined in your colour
+- Raptor: new destruction, it blows up in the air and falls to the ground in pieces
+- Interface: an order's arrow is also visible over unexplored areas; A + click on the minimap gives the order without moving the camera; holding Shift keeps placing the same building; troops standing on a building get an outline in your colour; an aircraft is selected by clicking its picture, and the ground around it selects the ground troop; the victory panel's bars fill one after another
+- Identity: on password-protected servers your matches show up in your match list again
 
 ### v2026.11.20 alpha
 

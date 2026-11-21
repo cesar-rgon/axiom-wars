@@ -1,6 +1,14 @@
 HISTORIA ZMIAN AXIOM WARS
 (Wersja to data ostatniej zmiany serwera lub klienta.)
 
+v2026.11.21 alpha
+    Ataki, które torują drogę: prawy klik na wrogu wysyła oddziały w linii prostej, a jeśli wrogie budynki zagradzają drogę, otwierają wyłom tam, gdzie trzeba zniszczyć najmniej; z A + pole idą najkrótszą drogą, atakując wszystko po drodze. Zwykły ruch nadal omija przeszkody
+    Maszerujące oddziały strzelają do wrogiego oddziału, który zagradza im drogę, i omijają go w tej samej rundzie, także jednostki latające; samotny oddział z rozkazem ataku na cel poza zasięgiem nie stoi już w miejscu
+    Portale: jednostki latające podróżują przez własne i sojusznicze portale (płacą jak duży oddział) i pojawiają się w powietrzu wokół portalu docelowego; portal, do którego idą twoje oddziały, ma obrys w twoim kolorze
+    Raptor: nowe zniszczenie, wybucha w powietrzu i spada na ziemię w kawałkach
+    Interfejs: strzałka rozkazu jest widoczna także nad nieodkrytym terenem; A + klik na minimapie wydaje rozkaz bez ruszania kamery; z wciśniętym Shiftem stawiasz dalej ten sam budynek; oddziały stojące na budynku mają obrys w twoim kolorze; jednostkę latającą zaznacza się, klikając jej rysunek, a ziemia wokół zaznacza oddział naziemny; paski w oknie zwycięstwa napełniają się jeden po drugim
+    Tożsamość: na serwerach z hasłem twoje rozgrywki znów pojawiają się na twojej liście rozgrywek
+
 v2026.11.20 alpha
     Bardziej agresywna i kooperacyjna SI: znajduje wrogą bazę dzięki symetrii mapy, nęka gospodarkę rywala od pierwszych rund, broni Rządu całą armią, trzyma jedną trzecią w odwodzie, pomaga sojusznikowi bez znacznika i daje mu surowce, gdy ich brakuje
     Tożsamość: każdy serwer zapamiętuje własny kod gracza, więc zmiana serwera nie powoduje już komunikatu „brak kodu klienta”

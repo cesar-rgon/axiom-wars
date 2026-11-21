@@ -179,10 +179,19 @@ Abre el juego: la dirección del servidor ya viene rellena. Escribe tu nombre y 
 
 ## Histórico de cambios
 
-La última versión es **v2026.11.20 alpha**.
+La última versión es **v2026.11.21 alpha**.
 
 <details>
 <summary>Ver todas las versiones</summary>
+
+### v2026.11.21 alpha
+
+- Ataques que abren paso: con clic derecho sobre un enemigo las tropas van en línea recta y, si los edificios enemigos les cierran el paso, abren el hueco donde menos haya que romper; con A + casilla van por el camino más corto atacando todo lo que encuentran. El movimiento normal sigue rodeando
+- Las tropas en marcha disparan a la tropa enemiga que les cierra el paso y la rodean en la misma ronda, también las voladoras; una tropa sola con orden de ataque fuera de alcance ya no se queda quieta
+- Portales: las tropas voladoras viajan por portales propios y aliados (pagan como una tropa grande) y aparecen en el aire alrededor del portal de destino; el portal al que van tus tropas se remarca con tu color
+- Raptor: nueva destrucción, estalla en el aire y cae a pedazos al suelo
+- Interfaz: la flecha de una orden se ve también en zona sin explorar; A + clic en el minimapa da la orden sin mover la cámara; con Mayús pulsada se siguen colocando edificios iguales; las tropas encima de un edificio tienen un contorno de tu color; una voladora se selecciona pulsando su dibujo y el suelo de alrededor selecciona la tropa de tierra; las barras del panel de victoria se llenan una tras otra
+- Identidad: en los servidores con contraseña tus partidas vuelven a salir en tu lista de partidas
 
 ### v2026.11.20 alpha
 

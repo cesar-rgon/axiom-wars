@@ -1,6 +1,14 @@
 HISTORIQUE DES CHANGEMENTS D'AXIOM WARS
 (La version est la date de la dernière modification du serveur ou du client.)
 
+v2026.11.21 alpha
+    Attaques qui se frayent un chemin : un clic droit sur un ennemi envoie les troupes en ligne droite et, si des bâtiments ennemis barrent la route, elles ouvrent la brèche là où il y a le moins à détruire ; avec A + case, elles prennent le chemin le plus court en attaquant tout ce qu'elles rencontrent. Un déplacement normal contourne toujours
+    Les troupes en marche tirent sur la troupe ennemie qui leur barre la route et la contournent dans la même manche, les aériens aussi ; une troupe seule avec un ordre d'attaque hors de portée ne reste plus immobile
+    Portails : les unités aériennes voyagent par vos portails et ceux de vos alliés (elles paient comme une grande troupe) et apparaissent en l'air autour du portail de destination ; le portail vers lequel vont vos troupes est entouré de votre couleur
+    Raptor : nouvelle destruction, il explose en l'air et retombe au sol en morceaux
+    Interface : la flèche d'un ordre est aussi visible sur les zones inexplorées ; A + clic sur la minicarte donne l'ordre sans déplacer la caméra ; en maintenant Maj on continue de placer le même bâtiment ; les troupes sur un bâtiment ont un contour de votre couleur ; un aérien se sélectionne en cliquant sur son dessin et le sol autour sélectionne la troupe au sol ; les barres du panneau de victoire se remplissent l'une après l'autre
+    Identité : sur les serveurs protégés par mot de passe, vos parties réapparaissent dans votre liste de parties
+
 v2026.11.20 alpha
     IA plus agressive et plus coopérative : elle trouve la base ennemie grâce à la symétrie de la carte, harcèle l'économie adverse dès les premières rondes, défend le Gouvernement avec toute l'armée, garde un tiers en réserve, aide son allié sans avoir besoin d'une marque et lui offre des ressources s'il en manque
     Identité : chaque serveur garde son propre code de joueur, si bien que changer de serveur ne provoque plus « le code du client est manquant »
