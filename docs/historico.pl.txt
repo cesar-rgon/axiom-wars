@@ -1,6 +1,11 @@
 HISTORIA ZMIAN AXIOM WARS
 (Wersja to data ostatniej zmiany serwera lub klienta.)
 
+v2026.11.22 alpha
+    Samouczki z fokusem: we wszystkich 15 lekcjach wszystko jest przyciemnione poza tym, o co prosi krok, ze strzałką, widmową ręką i kłódkami pokazującymi, w której lekcji odblokowuje się każda część; żadne inne działanie nie jest możliwe (kliknięcia, wybór budynków, przyciski, Esc), a podpowiedzi wskazanego elementu są jasne
+    Samouczki są prywatne: nie pojawiają się na liście lobby i nie zostawiają zapisanych gier ani powtórek
+    Pewniejsze samouczki: oddziały z lekcji 4 i ranni z lekcji 12 zawsze się pojawiają, wieża z lekcji 9 zawsze pokazuje swoje miejsce, skrzynia z lekcji 14 otwiera się sama po pokonaniu strażników, a menu miga przy Utwórz lobby, przycisku Samouczek i niedokończonych lekcjach
+
 v2026.11.21 alpha
     Ataki, które torują drogę: prawy klik na wrogu wysyła oddziały w linii prostej, a jeśli wrogie budynki zagradzają drogę, otwierają wyłom tam, gdzie trzeba zniszczyć najmniej; z A + pole idą najkrótszą drogą, atakując wszystko po drodze. Zwykły ruch nadal omija przeszkody
     Maszerujące oddziały strzelają do wrogiego oddziału, który zagradza im drogę, i omijają go w tej samej rundzie, także jednostki latające; samotny oddział z rozkazem ataku na cel poza zasięgiem nie stoi już w miejscu

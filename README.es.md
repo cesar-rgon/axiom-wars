@@ -179,10 +179,16 @@ Abre el juego: la dirección del servidor ya viene rellena. Escribe tu nombre y 
 
 ## Histórico de cambios
 
-La última versión es **v2026.11.21 alpha**.
+La última versión es **v2026.11.22 alpha**.
 
 <details>
 <summary>Ver todas las versiones</summary>
+
+### v2026.11.22 alpha
+
+- Tutoriales con foco: en las 15 lecciones se oscurece todo salvo lo que pide el paso, con flecha, mano fantasma y candados que dicen en qué lección se desbloquea cada parte; no se puede hacer ninguna otra acción (clics, selección de edificios, botones, Esc) y los tooltips del elemento señalado salen claros
+- Los tutoriales son privados: no aparecen en la lista de lobbies ni dejan partidas guardadas ni repeticiones
+- Tutoriales más fiables: las tropas de la lección 4 y los heridos de la 12 siempre aparecen, la torre de la lección 9 siempre marca su sitio, el cofre de la lección 14 se abre solo al vencer a los guardianes, y en el menú destellan Crear lobby, el botón Tutorial y las lecciones sin completar
 
 ### v2026.11.21 alpha
 

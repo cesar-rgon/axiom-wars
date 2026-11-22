@@ -268,7 +268,7 @@
   "dl.c2": "Abre el juego: la dirección del servidor ya viene rellena. Escribe tu nombre y crea una sala o únete a una.",
   "nav.news": "Novedades",
   "news.title": "Novedades",
-  "news.body": "Las tropas que atacan abren paso a través de la base enemiga, las voladoras usan portales y el Raptor estalla en el aire y cae a pedazos. Además: flechas visibles en zona sin explorar, Mayús para repetir edificios y voladoras que se seleccionan por su dibujo.",
+  "news.body": "Tutoriales con foco y candados: todo se oscurece salvo lo que pide cada paso y no se puede hacer otra cosa. Además, los tutoriales son privados y ya no dejan partidas guardadas ni repeticiones.",
   "news.all": "Ver el histórico completo",
   "news.all.href": "docs/historico.es.txt",
   "lang.eyebrow": "Idiomas",

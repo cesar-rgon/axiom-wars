@@ -1,6 +1,11 @@
 ÄNDERUNGSVERLAUF VON AXIOM WARS
 (Die Version ist das Datum der letzten Änderung am Server oder am Client.)
 
+v2026.11.22 alpha
+    Geführte Tutorials: In allen 15 Lektionen wird alles außer dem, was der Schritt verlangt, abgedunkelt – mit Pfeil, Geisterhand und Schlössern, die zeigen, in welcher Lektion sich jeder Teil freischaltet; keine andere Aktion ist möglich (Klicks, Gebäudeauswahl, Schaltflächen, Esc) und die Tooltips des markierten Elements bleiben hell
+    Tutorials sind privat: Sie erscheinen nicht in der Lobbyliste und hinterlassen weder gespeicherte Spiele noch Wiederholungen
+    Zuverlässigere Tutorials: Die Truppen von Lektion 4 und die Verwundeten von Lektion 12 erscheinen immer, der Turm von Lektion 9 zeigt immer seinen Platz, die Truhe von Lektion 14 öffnet sich von selbst, wenn die Wächter fallen, und das Menü lässt „Lobby erstellen“, den Tutorial-Knopf und noch nicht abgeschlossene Lektionen aufblinken
+
 v2026.11.21 alpha
     Angriffe, die sich den Weg freikämpfen: Mit Rechtsklick auf einen Gegner ziehen die Truppen in gerader Linie und öffnen, wenn feindliche Gebäude den Weg versperren, die Lücke, bei der am wenigsten zerstört werden muss; mit A + Feld nehmen sie den kürzesten Weg und greifen alles an, was ihnen begegnet. Eine normale Bewegung umgeht Hindernisse weiterhin
     Marschierende Truppen schießen auf die feindliche Truppe, die ihnen den Weg versperrt, und umgehen sie in derselben Runde, auch Flugeinheiten; eine einzelne Truppe mit Angriffsbefehl auf ein Ziel außer Reichweite bleibt nicht mehr stehen

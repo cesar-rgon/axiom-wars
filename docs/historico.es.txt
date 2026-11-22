@@ -1,6 +1,11 @@
 HISTÓRICO DE CAMBIOS DE AXIOM WARS
 (La versión es la fecha de la última modificación del servidor o del cliente.)
 
+v2026.11.22 alpha
+    Tutoriales con foco: en las 15 lecciones se oscurece todo salvo lo que pide el paso, con flecha, mano fantasma y candados que dicen en qué lección se desbloquea cada parte; no se puede hacer ninguna otra acción (clics, selección de edificios, botones, Esc) y los tooltips del elemento señalado salen claros
+    Los tutoriales son privados: no aparecen en la lista de lobbies ni dejan partidas guardadas ni repeticiones
+    Tutoriales más fiables: las tropas de la lección 4 y los heridos de la 12 siempre aparecen, la torre de la lección 9 siempre marca su sitio, el cofre de la lección 14 se abre solo al vencer a los guardianes, y en el menú destellan Crear lobby, el botón Tutorial y las lecciones sin completar
+
 v2026.11.21 alpha
     Ataques que abren paso: con clic derecho sobre un enemigo las tropas van en línea recta y, si los edificios enemigos les cierran el paso, abren el hueco donde menos haya que romper; con A + casilla van por el camino más corto atacando todo lo que encuentran. El movimiento normal sigue rodeando
     Las tropas en marcha disparan a la tropa enemiga que les cierra el paso y la rodean en la misma ronda, también las voladoras; una tropa sola con orden de ataque fuera de alcance ya no se queda quieta

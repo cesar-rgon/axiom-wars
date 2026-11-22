@@ -219,7 +219,7 @@
   "mus.t16": "<strong>Replay da rodada.</strong> Uma lupa grande sobre um combate, com o dano de cada golpe.",
   "mus.hint": "Deslize para percorrer a linha do tempo →",
   "news.title": "Novidades",
-  "news.body": "As tropas que atacam abrem caminho pela base inimiga, as voadoras usam portais e o Raptor explode no ar e cai em pedaços. Além disso: setas visíveis em áreas não exploradas, Shift para repetir edifícios e voadoras selecionadas pelo desenho.",
+  "news.body": "Tutoriais com foco e cadeados: tudo escurece, exceto o que cada passo pede, e não é possível fazer mais nada. Além disso, os tutoriais são privados e não deixam mais partidas salvas nem replays.",
   "news.all": "Ver o histórico completo de mudanças",
   "join.eyebrow": "Comunidade",
   "join.title": "Jogue com a gente",

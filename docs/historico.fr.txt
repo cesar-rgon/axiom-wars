@@ -1,6 +1,11 @@
 HISTORIQUE DES CHANGEMENTS D'AXIOM WARS
 (La version est la date de la dernière modification du serveur ou du client.)
 
+v2026.11.22 alpha
+    Tutoriels guidés : dans les 15 leçons tout est assombri sauf ce que demande l'étape, avec une flèche, une main fantôme et des cadenas qui indiquent dans quelle leçon chaque partie se débloque ; aucune autre action n'est possible (clics, sélection de bâtiments, boutons, Échap) et les infobulles de l'élément indiqué restent claires
+    Les tutoriels sont privés : ils n'apparaissent pas dans la liste des salons et ne laissent ni parties sauvegardées ni replays
+    Tutoriels plus fiables : les troupes de la leçon 4 et les blessés de la 12 apparaissent toujours, la tour de la leçon 9 montre toujours son emplacement, le coffre de la leçon 14 s'ouvre tout seul quand les gardiens tombent, et le menu fait clignoter Créer un salon, le bouton Tutoriel et les leçons non terminées
+
 v2026.11.21 alpha
     Attaques qui se frayent un chemin : un clic droit sur un ennemi envoie les troupes en ligne droite et, si des bâtiments ennemis barrent la route, elles ouvrent la brèche là où il y a le moins à détruire ; avec A + case, elles prennent le chemin le plus court en attaquant tout ce qu'elles rencontrent. Un déplacement normal contourne toujours
     Les troupes en marche tirent sur la troupe ennemie qui leur barre la route et la contournent dans la même manche, les aériens aussi ; une troupe seule avec un ordre d'attaque hors de portée ne reste plus immobile

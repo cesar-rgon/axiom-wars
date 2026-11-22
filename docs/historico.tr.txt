@@ -1,6 +1,11 @@
 AXIOM WARS DEĞİŞİKLİK GEÇMİŞİ
 (Sürüm, sunucuda veya istemcide yapılan son değişikliğin tarihidir.)
 
+v2026.11.22 alpha
+    Odaklı eğitimler: 15 dersin hepsinde adımın istediği dışındaki her şey karartılır; ok, hayalet el ve her bölümün hangi derste açıldığını söyleyen kilitler vardır; başka hiçbir eylem yapılamaz (tıklamalar, bina seçimi, düğmeler, Esc) ve işaretlenen öğenin ipuçları açık renkte görünür
+    Eğitimler özeldir: lobi listesinde görünmez ve kayıtlı oyun ya da tekrar bırakmaz
+    Daha güvenilir eğitimler: 4. dersin birlikleri ve 12. dersin yaralıları her zaman çıkar, 9. dersin kulesi yerini her zaman gösterir, 14. dersin sandığı muhafızlar düşünce kendiliğinden açılır ve menüde Lobi oluştur, Eğitim düğmesi ve tamamlanmamış dersler yanıp söner
+
 v2026.11.21 alpha
     Yol açan saldırılar: bir düşmana sağ tıklayınca birlikler düz bir çizgide ilerler ve düşman binaları yolu kapatırsa en az yıkım gereken yerden gedik açar; A + kare ile en kısa yoldan gider ve karşılaştıkları her şeye saldırır. Normal hareket engellerin etrafından dolaşmaya devam eder
     Yürüyen birlikler yollarını kesen düşman birliğe ateş eder ve aynı turda etrafından dolaşır, hava birlikleri de; menzil dışındaki bir hedefe saldırı emri alan tek bir birlik artık yerinde durmaz

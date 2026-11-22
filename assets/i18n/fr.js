@@ -242,7 +242,7 @@
   "dl.c2": "Lancez le jeu : l'adresse du serveur est déjà remplie. Saisissez votre nom, puis créez un salon ou rejoignez-en un.",
   "nav.news": "Nouveautés",
   "news.title": "Nouveautés",
-  "news.body": "Les troupes qui attaquent se frayent un chemin à travers la base ennemie, les aériens utilisent les portails et le Raptor explose en l'air et retombe en morceaux. Et aussi : flèches visibles sur les zones inexplorées, Maj pour répéter les bâtiments et sélection des aériens par leur dessin.",
+  "news.body": "Tutoriels guidés avec cadenas : tout est assombri sauf ce que demande chaque étape et rien d'autre n'est possible. De plus, les tutoriels sont privés et ne laissent plus ni parties sauvegardées ni replays.",
   "news.all": "Voir tout l'historique",
   "news.all.href": "docs/historico.fr.txt",
   "lang.eyebrow": "Langues",

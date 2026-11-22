@@ -219,7 +219,7 @@
   "mus.t16": "<strong>Powtórka rundy.</strong> Duża lupa nad starciem z obrażeniami każdego trafienia.",
   "mus.hint": "Przesuń palcem, aby poruszać się po osi czasu →",
   "news.title": "Nowości",
-  "news.body": "Atakujące oddziały torują sobie drogę przez wrogą bazę, jednostki latające korzystają z portali, a Raptor wybucha w powietrzu i spada w kawałkach. Do tego: strzałki nad nieodkrytym terenem, Shift do powtarzania budynków i zaznaczanie jednostek latających po rysunku.",
+  "news.body": "Samouczki z fokusem i kłódkami: wszystko jest przyciemnione poza tym, o co prosi każdy krok, i nic innego nie można zrobić. Ponadto samouczki są prywatne i nie zostawiają już zapisanych gier ani powtórek.",
   "news.all": "Zobacz pełną historię zmian",
   "news.all.href": "docs/historico.pl.txt",
   "join.eyebrow": "Społeczność",

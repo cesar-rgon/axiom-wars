@@ -179,10 +179,16 @@ Open the game: the server address is already filled in. Type your name, then cre
 
 ## Change history
 
-The latest version is **v2026.11.21 alpha**.
+The latest version is **v2026.11.22 alpha**.
 
 <details>
 <summary>Show all versions</summary>
+
+### v2026.11.22 alpha
+
+- Focused tutorials: in all 15 lessons everything is dimmed except what the step asks for, with an arrow, a ghost hand and padlocks that tell you which lesson unlocks each part; no other action is possible (clicks, building selection, buttons, Esc) and the tooltips of the highlighted element show up bright
+- Tutorials are private: they do not appear in the lobby list and leave no saved games or replays
+- More reliable tutorials: the troops of lesson 4 and the wounded of lesson 12 always appear, the tower of lesson 9 always shows its spot, the chest of lesson 14 opens by itself when the guardians fall, and the menu flashes Create lobby, the Tutorial button and the lessons not yet completed
 
 ### v2026.11.21 alpha
 

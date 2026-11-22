@@ -219,7 +219,7 @@
   "mus.t16": "<strong>Raunt tekrarı.</strong> Bir çatışmanın üzerinde büyük bir büyüteç ve her vuruşun hasarı.",
   "mus.hint": "Zaman çizgisinde ilerlemek için kaydır →",
   "news.title": "Yenilikler",
-  "news.body": "Saldıran birlikler düşman üssünde yol açar, hava birlikleri portalları kullanır ve Raptor havada patlayıp parçalar halinde düşer. Ayrıca: keşfedilmemiş alanlarda görünen oklar, binaları tekrarlamak için Shift ve çizimine tıklanarak seçilen hava birlikleri.",
+  "news.body": "Odaklı ve kilitli eğitimler: her adımın istediği dışındaki her şey karartılır ve başka bir şey yapılamaz. Ayrıca eğitimler özeldir ve artık kayıtlı oyun ya da tekrar bırakmaz.",
   "news.all": "Tüm değişiklik geçmişini gör",
   "news.all.href": "docs/historico.tr.txt",
   "join.eyebrow": "Topluluk",
