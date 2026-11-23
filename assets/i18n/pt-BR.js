@@ -219,7 +219,7 @@
   "mus.t16": "<strong>Replay da rodada.</strong> Uma lupa grande sobre um combate, com o dano de cada golpe.",
   "mus.hint": "Deslize para percorrer a linha do tempo →",
   "news.title": "Novidades",
-  "news.body": "O Construtor agora constrói a partir da casa com o trajeto mais curto, sem contornar lagos, e o destaque das ordens não cobre mais o número e o X. Njeggen4you e Tweeto se juntam aos testadores.",
+  "news.body": "Custos das unidades reequilibrados para que todas rendam perto de 1,0, e a IA vigia o Aço e a Comida para não ficar sem eles nem perder tropas por deserção. O aviso de desempenho do navegador foi removido. Njeggen4you e Tweeto se juntam aos testadores.",
   "news.all": "Ver o histórico completo de mudanças",
   "join.eyebrow": "Comunidade",
   "join.title": "Jogue com a gente",

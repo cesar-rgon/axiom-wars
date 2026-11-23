@@ -219,7 +219,7 @@
   "mus.t16": "<strong>Powtórka rundy.</strong> Duża lupa nad starciem z obrażeniami każdego trafienia.",
   "mus.hint": "Przesuń palcem, aby poruszać się po osi czasu →",
   "news.title": "Nowości",
-  "news.body": "Konstruktor buduje teraz z pola z najkrótszą trasą, bez omijania jezior, a podświetlenie rozkazów nie zasłania już numeru ani krzyżyka. Njeggen4you i Tweeto dołączają do testerów.",
+  "news.body": "Koszty jednostek zbalansowano tak, by każda dawała zwrot bliski 1,0, a SI pilnuje Stali i Żywności, by ich nie zabrakło ani nie tracić wojsk przez dezercję. Usunięto komunikat o wydajności przeglądarki. Njeggen4you i Tweeto dołączają do testerów.",
   "news.all": "Zobacz pełną historię zmian",
   "news.all.href": "docs/historico.pl.txt",
   "join.eyebrow": "Społeczność",

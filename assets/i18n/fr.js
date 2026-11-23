@@ -242,7 +242,7 @@
   "dl.c2": "Lancez le jeu : l'adresse du serveur est déjà remplie. Saisissez votre nom, puis créez un salon ou rejoignez-en un.",
   "nav.news": "Nouveautés",
   "news.title": "Nouveautés",
-  "news.body": "Le Constructeur construit désormais depuis la case au trajet le plus court, sans contourner les lacs, et la surbrillance des ordres ne cache plus son numéro ni sa croix. Njeggen4you et Tweeto rejoignent les testeurs.",
+  "news.body": "Coûts des unités rééquilibrés pour que chacune rende près de 1,0, et l'IA surveille l'Acier et la Nourriture pour ne pas en manquer ni perdre de troupes par désertion. L'avis de performance du navigateur disparaît. Njeggen4you et Tweeto rejoignent les testeurs.",
   "news.all": "Voir tout l'historique",
   "news.all.href": "docs/historico.fr.txt",
   "lang.eyebrow": "Langues",

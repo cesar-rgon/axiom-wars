@@ -189,6 +189,10 @@ The latest version is **v2026.11.23 alpha**.
 - Constructor: picks the free tile next to the building with the truly shortest route, so it no longer takes a detour to avoid a lake
 - Orders: the highlight of an order under the cursor now sits below its number and its cancel X
 - Credits: Njeggen4you and Tweeto join the testers
+- Balance: Militar 135 Energy, Explorador 146+25, Meca 227+52, APC 158+38 and Raptor 475+114, so every unit's return sits close to 1.0
+- AI: watches Steel and buys it at the Bank with surplus resources before it hits 0, and builds more extractors and refineries
+- AI: gets ahead of hunger with more farms, distant pastures or water, and trades surplus for Food to avoid desertions
+- Web: the browser performance notice is removed from the hub
 
 ### v2026.11.22 alpha
 

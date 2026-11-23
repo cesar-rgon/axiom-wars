@@ -268,7 +268,7 @@
   "dl.c2": "Abre el juego: la dirección del servidor ya viene rellena. Escribe tu nombre y crea una sala o únete a una.",
   "nav.news": "Novedades",
   "news.title": "Novedades",
-  "news.body": "El Constructor ya construye desde la casilla con la ruta más corta, sin rodear lagos, y el resalte de las órdenes deja ver su número y su X. Njeggen4you y Tweeto se suman a los testeadores.",
+  "news.body": "Costes de las unidades reequilibrados para que todas rindan cerca de 1,0, y la IA vigila el Acero y la Comida para no quedarse sin ellos ni perder tropas por deserción. Se quita el aviso de rendimiento del navegador. Njeggen4you y Tweeto se suman a los testeadores.",
   "news.all": "Ver el histórico completo",
   "news.all.href": "docs/historico.es.txt",
   "lang.eyebrow": "Idiomas",

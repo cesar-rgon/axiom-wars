@@ -242,7 +242,7 @@
   "dl.c2": "Starte das Spiel: Die Serveradresse ist schon eingetragen. Gib deinen Namen ein und erstelle einen Raum oder tritt einem bei.",
   "nav.news": "Neuigkeiten",
   "news.title": "Neuigkeiten",
-  "news.body": "Der Konstrukteur baut jetzt vom Feld mit der kürzesten Route aus, ohne Seen zu umgehen, und die Befehlshervorhebung verdeckt Nummer und X nicht mehr. Njeggen4you und Tweeto gehören jetzt zu den Testern.",
+  "news.body": "Einheitenkosten neu abgestimmt, sodass jede Einheit nahe 1,0 liegt; die KI überwacht Stahl und Nahrung, um nicht leer zu laufen oder Truppen durch Desertion zu verlieren. Der Browser-Leistungshinweis entfällt. Njeggen4you und Tweeto sind neue Tester.",
   "news.all": "Gesamten Verlauf ansehen",
   "news.all.href": "docs/historico.de.txt",
   "lang.eyebrow": "Sprachen",

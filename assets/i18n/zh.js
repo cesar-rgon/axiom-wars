@@ -242,7 +242,7 @@
   "dl.c2": "打开游戏：服务器地址已经填好。输入你的名字，然后创建房间或加入一个房间。",
   "nav.news": "新内容",
   "news.title": "新内容",
-  "news.body": "建造者现在从路线最短的空格建造，不再绕湖泊，命令高亮也不再遮住编号和 X。Njeggen4you 和 Tweeto 加入测试员名单。",
+  "news.body": "重新平衡了单位成本，使每个单位的回报接近 1.0；AI 会监控钢铁和食物，避免耗尽或因逃兵损失部队。已移除浏览器性能提示。Njeggen4you 和 Tweeto 加入测试员名单。",
   "news.all": "查看完整更新历史",
   "news.all.href": "docs/historico.zh.txt",
   "lang.eyebrow": "语言",

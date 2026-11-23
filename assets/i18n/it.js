@@ -242,7 +242,7 @@
   "dl.c2": "Avvia il gioco: l'indirizzo del server è già compilato. Scrivi il tuo nome, poi crea una stanza o unisciti a una.",
   "nav.news": "Novità",
   "news.title": "Novità",
-  "news.body": "Il Costruttore ora costruisce dalla casella con il percorso più breve, senza aggirare i laghi, e l'evidenziazione degli ordini non copre più numero e X. Njeggen4you e Tweeto si uniscono ai tester.",
+  "news.body": "Costi delle unità riequilibrati affinché ognuna renda vicino a 1,0, e l'IA controlla Acciaio e Cibo per non restarne senza né perdere truppe per diserzione. L'avviso sulle prestazioni del browser è sparito. Njeggen4you e Tweeto si uniscono ai tester.",
   "news.all": "Vedi tutta la cronologia",
   "news.all.href": "docs/historico.it.txt",
   "lang.eyebrow": "Lingue",

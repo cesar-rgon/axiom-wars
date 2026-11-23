@@ -189,6 +189,10 @@ La última versión es **v2026.11.23 alpha**.
 - Constructor: elige la casilla libre junto al edificio con la ruta más corta de verdad, así que ya no da rodeos para evitar un lago
 - Órdenes: el resalte de una orden al pasar el ratón queda por debajo de su número y de la X para cancelarla
 - Créditos: Njeggen4you y Tweeto se suman a los testeadores
+- Balance: Militar 135 de Energía, Explorador 146+25, Meca 227+52, APC 158+38 y Raptor 475+114, para que el rendimiento de todas las unidades quede cerca de 1,0
+- IA: vigila el Acero y lo compra en el Banco con excedentes antes de que llegue a 0, y levanta más extractores y refinerías
+- IA: se adelanta al hambre con más granjas, pastos lejanos o agua, y cambia excedentes por Comida para evitar deserciones
+- Web: se quita el aviso de rendimiento del navegador en el hub
 
 ### v2026.11.22 alpha
 

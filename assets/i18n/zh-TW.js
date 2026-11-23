@@ -242,7 +242,7 @@
   "dl.c2": "開啟遊戲：伺服器位址已經填好。輸入你的名字，然後建立房間或加入一個房間。",
   "nav.news": "新內容",
   "news.title": "新內容",
-  "news.body": "建造者現在從路線最短的空格建造，不再繞湖泊，命令高亮也不再遮住編號和 X。Njeggen4you 和 Tweeto 加入測試員名單。",
+  "news.body": "重新平衡了單位成本，使每個單位的回報接近 1.0；AI 會監控鋼鐵和食物，避免耗盡或因逃兵損失部隊。已移除瀏覽器效能提示。Njeggen4you 和 Tweeto 加入測試員名單。",
   "news.all": "檢視完整更新歷史",
   "news.all.href": "docs/historico.zh-TW.txt",
   "lang.eyebrow": "語言",

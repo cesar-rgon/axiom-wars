@@ -219,7 +219,7 @@
   "mus.t16": "<strong>Raunt tekrarı.</strong> Bir çatışmanın üzerinde büyük bir büyüteç ve her vuruşun hasarı.",
   "mus.hint": "Zaman çizgisinde ilerlemek için kaydır →",
   "news.title": "Yenilikler",
-  "news.body": "İnşaatçı artık en kısa rotalı kareden inşa ediyor, gölleri dolaşmıyor; emir vurgusu da numarayı ve X'i örtmüyor. Njeggen4you ve Tweeto test edenlere katıldı.",
+  "news.body": "Birim maliyetleri, her birim 1,0'a yakın getiri verecek şekilde dengelendi; YZ, tükenmemek ve firar yüzünden birlik kaybetmemek için Çelik ve Yiyeceği izliyor. Tarayıcı performans uyarısı kaldırıldı. Njeggen4you ve Tweeto test ekibine katıldı.",
   "news.all": "Tüm değişiklik geçmişini gör",
   "news.all.href": "docs/historico.tr.txt",
   "join.eyebrow": "Topluluk",
