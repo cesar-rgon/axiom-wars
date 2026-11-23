@@ -1,6 +1,11 @@
 ÄNDERUNGSVERLAUF VON AXIOM WARS
 (Die Version ist das Datum der letzten Änderung am Server oder am Client.)
 
+v2026.11.23 alpha
+    Konstrukteur: wählt das freie Feld neben dem Gebäude mit der wirklich kürzesten Route und macht keinen Umweg mehr um einen See
+    Befehle: die Hervorhebung eines Befehls unter dem Mauszeiger liegt jetzt unter seiner Nummer und dem X zum Abbrechen
+    Credits: Njeggen4you und Tweeto gehören jetzt zu den Testern
+
 v2026.11.22 alpha
     Geführte Tutorials: In allen 15 Lektionen wird alles außer dem, was der Schritt verlangt, abgedunkelt – mit Pfeil, Geisterhand und Schlössern, die zeigen, in welcher Lektion sich jeder Teil freischaltet; keine andere Aktion ist möglich (Klicks, Gebäudeauswahl, Schaltflächen, Esc) und die Tooltips des markierten Elements bleiben hell
     Tutorials sind privat: Sie erscheinen nicht in der Lobbyliste und hinterlassen weder gespeicherte Spiele noch Wiederholungen

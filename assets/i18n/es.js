@@ -268,7 +268,7 @@
   "dl.c2": "Abre el juego: la dirección del servidor ya viene rellena. Escribe tu nombre y crea una sala o únete a una.",
   "nav.news": "Novedades",
   "news.title": "Novedades",
-  "news.body": "Tutoriales con foco y candados: todo se oscurece salvo lo que pide cada paso y no se puede hacer otra cosa. Además, los tutoriales son privados y ya no dejan partidas guardadas ni repeticiones.",
+  "news.body": "El Constructor ya construye desde la casilla con la ruta más corta, sin rodear lagos, y el resalte de las órdenes deja ver su número y su X. Njeggen4you y Tweeto se suman a los testeadores.",
   "news.all": "Ver el histórico completo",
   "news.all.href": "docs/historico.es.txt",
   "lang.eyebrow": "Idiomas",

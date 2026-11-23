@@ -219,7 +219,7 @@
   "mus.t16": "<strong>Replay da rodada.</strong> Uma lupa grande sobre um combate, com o dano de cada golpe.",
   "mus.hint": "Deslize para percorrer a linha do tempo →",
   "news.title": "Novidades",
-  "news.body": "Tutoriais com foco e cadeados: tudo escurece, exceto o que cada passo pede, e não é possível fazer mais nada. Além disso, os tutoriais são privados e não deixam mais partidas salvas nem replays.",
+  "news.body": "O Construtor agora constrói a partir da casa com o trajeto mais curto, sem contornar lagos, e o destaque das ordens não cobre mais o número e o X. Njeggen4you e Tweeto se juntam aos testadores.",
   "news.all": "Ver o histórico completo de mudanças",
   "join.eyebrow": "Comunidade",
   "join.title": "Jogue com a gente",

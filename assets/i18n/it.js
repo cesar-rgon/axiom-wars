@@ -242,7 +242,7 @@
   "dl.c2": "Avvia il gioco: l'indirizzo del server è già compilato. Scrivi il tuo nome, poi crea una stanza o unisciti a una.",
   "nav.news": "Novità",
   "news.title": "Novità",
-  "news.body": "Tutorial guidati con lucchetti: tutto viene oscurato tranne ciò che chiede ogni passo e non si può fare altro. Inoltre i tutorial sono privati e non lasciano più partite salvate né replay.",
+  "news.body": "Il Costruttore ora costruisce dalla casella con il percorso più breve, senza aggirare i laghi, e l'evidenziazione degli ordini non copre più numero e X. Njeggen4you e Tweeto si uniscono ai tester.",
   "news.all": "Vedi tutta la cronologia",
   "news.all.href": "docs/historico.it.txt",
   "lang.eyebrow": "Lingue",

@@ -1,6 +1,11 @@
 HISTÓRICO DE CAMBIOS DE AXIOM WARS
 (La versión es la fecha de la última modificación del servidor o del cliente.)
 
+v2026.11.23 alpha
+    Constructor: elige la casilla libre junto al edificio con la ruta más corta de verdad, así que ya no da rodeos para evitar un lago
+    Órdenes: el resalte de una orden al pasar el ratón queda por debajo de su número y de la X para cancelarla
+    Créditos: Njeggen4you y Tweeto se suman a los testeadores
+
 v2026.11.22 alpha
     Tutoriales con foco: en las 15 lecciones se oscurece todo salvo lo que pide el paso, con flecha, mano fantasma y candados que dicen en qué lección se desbloquea cada parte; no se puede hacer ninguna otra acción (clics, selección de edificios, botones, Esc) y los tooltips del elemento señalado salen claros
     Los tutoriales son privados: no aparecen en la lista de lobbies ni dejan partidas guardadas ni repeticiones

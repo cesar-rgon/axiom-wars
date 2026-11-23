@@ -179,10 +179,16 @@ Abre el juego: la dirección del servidor ya viene rellena. Escribe tu nombre y 
 
 ## Histórico de cambios
 
-La última versión es **v2026.11.22 alpha**.
+La última versión es **v2026.11.23 alpha**.
 
 <details>
 <summary>Ver todas las versiones</summary>
+
+### v2026.11.23 alpha
+
+- Constructor: elige la casilla libre junto al edificio con la ruta más corta de verdad, así que ya no da rodeos para evitar un lago
+- Órdenes: el resalte de una orden al pasar el ratón queda por debajo de su número y de la X para cancelarla
+- Créditos: Njeggen4you y Tweeto se suman a los testeadores
 
 ### v2026.11.22 alpha
 
@@ -809,7 +815,7 @@ La última versión es **v2026.11.22 alpha**.
 
 **Analistas colaboradores:** Gameover · Kattaros · Kiwi
 
-**Testeadores:** Calheb · Chara · Fr4nk50 · Gameover · Kattaros · Kiwi · Miky · Navajita · Nightlane · RaseC
+**Testeadores:** Calheb · Chara · Fr4nk50 · Gameover · Kattaros · Kiwi · Miky · Navajita · Nightlane · Njeggen4you · RaseC · Tweeto
 
 ## Sobre este repositorio
 

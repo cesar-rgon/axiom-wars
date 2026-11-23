@@ -1,6 +1,11 @@
 HISTORIA ZMIAN AXIOM WARS
 (Wersja to data ostatniej zmiany serwera lub klienta.)
 
+v2026.11.23 alpha
+    Konstruktor: wybiera wolne pole obok budynku z naprawdę najkrótszą trasą, więc nie nadkłada już drogi, żeby ominąć jezioro
+    Rozkazy: podświetlenie rozkazu pod kursorem jest teraz pod jego numerem i krzyżykiem anulowania
+    Autorzy: Njeggen4you i Tweeto dołączają do testerów
+
 v2026.11.22 alpha
     Samouczki z fokusem: we wszystkich 15 lekcjach wszystko jest przyciemnione poza tym, o co prosi krok, ze strzałką, widmową ręką i kłódkami pokazującymi, w której lekcji odblokowuje się każda część; żadne inne działanie nie jest możliwe (kliknięcia, wybór budynków, przyciski, Esc), a podpowiedzi wskazanego elementu są jasne
     Samouczki są prywatne: nie pojawiają się na liście lobby i nie zostawiają zapisanych gier ani powtórek

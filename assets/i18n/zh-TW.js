@@ -242,7 +242,7 @@
   "dl.c2": "開啟遊戲：伺服器位址已經填好。輸入你的名字，然後建立房間或加入一個房間。",
   "nav.news": "新內容",
   "news.title": "新內容",
-  "news.body": "帶聚焦和鎖的教學：除每一步要求的內容外一律變暗，無法進行其他操作。此外，教學是私密的，不再留下存檔或回放。",
+  "news.body": "建造者現在從路線最短的空格建造，不再繞湖泊，命令高亮也不再遮住編號和 X。Njeggen4you 和 Tweeto 加入測試員名單。",
   "news.all": "檢視完整更新歷史",
   "news.all.href": "docs/historico.zh-TW.txt",
   "lang.eyebrow": "語言",

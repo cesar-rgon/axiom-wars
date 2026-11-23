@@ -1,6 +1,11 @@
 AXIOM WARS CHANGE HISTORY
 (The version is the date of the latest change to the server or the client.)
 
+v2026.11.23 alpha
+    Constructor: picks the free tile next to the building with the truly shortest route, so it no longer takes a detour to avoid a lake
+    Orders: the highlight of an order under the cursor now sits below its number and its cancel X
+    Credits: Njeggen4you and Tweeto join the testers
+
 v2026.11.22 alpha
     Focused tutorials: in all 15 lessons everything is dimmed except what the step asks for, with an arrow, a ghost hand and padlocks that tell you which lesson unlocks each part; no other action is possible (clicks, building selection, buttons, Esc) and the tooltips of the highlighted element show up bright
     Tutorials are private: they do not appear in the lobby list and leave no saved games or replays

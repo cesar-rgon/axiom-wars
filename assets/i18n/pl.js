@@ -219,7 +219,7 @@
   "mus.t16": "<strong>Powtórka rundy.</strong> Duża lupa nad starciem z obrażeniami każdego trafienia.",
   "mus.hint": "Przesuń palcem, aby poruszać się po osi czasu →",
   "news.title": "Nowości",
-  "news.body": "Samouczki z fokusem i kłódkami: wszystko jest przyciemnione poza tym, o co prosi każdy krok, i nic innego nie można zrobić. Ponadto samouczki są prywatne i nie zostawiają już zapisanych gier ani powtórek.",
+  "news.body": "Konstruktor buduje teraz z pola z najkrótszą trasą, bez omijania jezior, a podświetlenie rozkazów nie zasłania już numeru ani krzyżyka. Njeggen4you i Tweeto dołączają do testerów.",
   "news.all": "Zobacz pełną historię zmian",
   "news.all.href": "docs/historico.pl.txt",
   "join.eyebrow": "Społeczność",

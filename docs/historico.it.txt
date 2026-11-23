@@ -1,6 +1,11 @@
 CRONOLOGIA DELLE MODIFICHE DI AXIOM WARS
 (La versione è la data dell'ultima modifica del server o del client.)
 
+v2026.11.23 alpha
+    Costruttore: sceglie la casella libera accanto all'edificio con il percorso davvero più breve, quindi non fa più giri per evitare un lago
+    Ordini: l'evidenziazione di un ordine sotto il cursore ora sta sotto il suo numero e la X per annullarlo
+    Crediti: Njeggen4you e Tweeto si uniscono ai tester
+
 v2026.11.22 alpha
     Tutorial guidati: in tutte le 15 lezioni tutto viene oscurato tranne ciò che chiede il passo, con freccia, mano fantasma e lucchetti che dicono in quale lezione si sblocca ogni parte; nessun'altra azione è possibile (clic, selezione degli edifici, pulsanti, Esc) e i tooltip dell'elemento indicato restano chiari
     I tutorial sono privati: non compaiono nell'elenco delle lobby e non lasciano partite salvate né replay

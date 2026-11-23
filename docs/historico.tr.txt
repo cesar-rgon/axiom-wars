@@ -1,6 +1,11 @@
 AXIOM WARS DEĞİŞİKLİK GEÇMİŞİ
 (Sürüm, sunucuda veya istemcide yapılan son değişikliğin tarihidir.)
 
+v2026.11.23 alpha
+    İnşaatçı: binanın yanındaki boş kareyi gerçekten en kısa rotaya göre seçer, artık bir gölü dolaşmak için dolambaçlı yola girmez
+    Emirler: imlecin altındaki emrin vurgusu artık numarasının ve iptal X'inin altında kalır
+    Emeği geçenler: Njeggen4you ve Tweeto test edenlere katıldı
+
 v2026.11.22 alpha
     Odaklı eğitimler: 15 dersin hepsinde adımın istediği dışındaki her şey karartılır; ok, hayalet el ve her bölümün hangi derste açıldığını söyleyen kilitler vardır; başka hiçbir eylem yapılamaz (tıklamalar, bina seçimi, düğmeler, Esc) ve işaretlenen öğenin ipuçları açık renkte görünür
     Eğitimler özeldir: lobi listesinde görünmez ve kayıtlı oyun ya da tekrar bırakmaz

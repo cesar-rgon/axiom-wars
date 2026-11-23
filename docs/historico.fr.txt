@@ -1,6 +1,11 @@
 HISTORIQUE DES CHANGEMENTS D'AXIOM WARS
 (La version est la date de la dernière modification du serveur ou du client.)
 
+v2026.11.23 alpha
+    Constructeur : choisit la case libre à côté du bâtiment avec le trajet réellement le plus court, il ne fait donc plus de détour pour éviter un lac
+    Ordres : la surbrillance d'un ordre sous le curseur passe désormais sous son numéro et sa croix d'annulation
+    Crédits : Njeggen4you et Tweeto rejoignent les testeurs
+
 v2026.11.22 alpha
     Tutoriels guidés : dans les 15 leçons tout est assombri sauf ce que demande l'étape, avec une flèche, une main fantôme et des cadenas qui indiquent dans quelle leçon chaque partie se débloque ; aucune autre action n'est possible (clics, sélection de bâtiments, boutons, Échap) et les infobulles de l'élément indiqué restent claires
     Les tutoriels sont privés : ils n'apparaissent pas dans la liste des salons et ne laissent ni parties sauvegardées ni replays

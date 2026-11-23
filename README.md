@@ -179,10 +179,16 @@ Open the game: the server address is already filled in. Type your name, then cre
 
 ## Change history
 
-The latest version is **v2026.11.22 alpha**.
+The latest version is **v2026.11.23 alpha**.
 
 <details>
 <summary>Show all versions</summary>
+
+### v2026.11.23 alpha
+
+- Constructor: picks the free tile next to the building with the truly shortest route, so it no longer takes a detour to avoid a lake
+- Orders: the highlight of an order under the cursor now sits below its number and its cancel X
+- Credits: Njeggen4you and Tweeto join the testers
 
 ### v2026.11.22 alpha
 
@@ -809,7 +815,7 @@ The latest version is **v2026.11.22 alpha**.
 
 **Contributing analysts:** Gameover · Kattaros · Kiwi
 
-**Testers:** Calheb · Chara · Fr4nk50 · Gameover · Kattaros · Kiwi · Miky · Navajita · Nightlane · RaseC
+**Testers:** Calheb · Chara · Fr4nk50 · Gameover · Kattaros · Kiwi · Miky · Navajita · Nightlane · Njeggen4you · RaseC · Tweeto
 
 ## About this repository
 
