@@ -268,7 +268,7 @@
   "dl.c2": "Abre el juego: la dirección del servidor ya viene rellena. Escribe tu nombre y crea una sala o únete a una.",
   "nav.news": "Novedades",
   "news.title": "Novedades",
-  "news.body": "Costes de las unidades reequilibrados para que todas rindan cerca de 1,0, y la IA vigila el Acero y la Comida para no quedarse sin ellos ni perder tropas por deserción. Se quita el aviso de rendimiento del navegador. Njeggen4you y Tweeto se suman a los testeadores.",
+  "news.body": "La IA se calcula ahora en los PCs de los jugadores («Usar mi PC para cálculo de IA», activado por defecto) y las rondas se resuelven mucho antes. En coop los aliados empiezan más separados; contornos y dueño (avatar y nick) siempre visibles, edificios translúcidos bajo cualquier tropa, colores de bando más distintos y recursos resaltados al colocar un extractor. Njeggen4you y Tweeto se suman a los testeadores.",
   "news.all": "Ver el histórico completo",
   "news.all.href": "docs/historico.es.txt",
   "lang.eyebrow": "Idiomas",

@@ -5,6 +5,25 @@ v2026.11.23 alpha
     Konstruktor: wybiera wolne pole obok budynku z naprawdę najkrótszą trasą, więc nie nadkłada już drogi, żeby ominąć jezioro
     Rozkazy: podświetlenie rozkazu pod kursorem jest teraz pod jego numerem i krzyżykiem anulowania
     Autorzy: Njeggen4you i Tweeto dołączają do testerów
+    Balans: Żołnierz 135 Energii, Zwiadowca 146+25, Meca 227+52, APC 158+38 i Raptor 475+114, aby zwrot z każdej jednostki był bliski 1,0
+    SI: pilnuje Stali i kupuje ją w Banku za nadwyżki, zanim spadnie do 0, oraz buduje więcej ekstraktorów i rafinerii
+    SI: wyprzedza głód dzięki większej liczbie farm, odległym pastwiskom lub wodzie i wymienia nadwyżki na Żywność, by uniknąć dezercji
+    Web: z hubu usunięto komunikat o wydajności przeglądarki
+    Rozproszona SI: twój komputer może obliczać SI w meczach, w których grasz (Ustawienia → «Użyj mojego komputera do obliczeń SI», domyślnie włączone); przy kilku graczach praca się dzieli, a tury rozstrzygają się znacznie szybciej
+    Mecze: panel graczy pokazuje, ile komputerów pomaga w obliczaniu SI
+    Koop: sojusznicy zaczynają dalej od siebie (ich kręgi energii nie nakładają się, gdy mapa na to pozwala)
+    Komunikaty: panel pokazuje tylko te z bieżącej tury (właśnie rozstrzygniętej); tura bez nowości nie pokazuje już starych
+    Budynki: wybór ekstraktora, farmy lub rafinerii podświetla zasoby, do których sięga energia twojej strony
+    Mapa: sylwetka twoich i sojuszniczych oddziałów jest rysowana nad mgłą, gdy zbliżają się do niezbadanego terenu
+    Oddziały: kolorowy obrys każdej strony jest zawsze widoczny, nie tylko nad budynkiem
+    Klawiatura: przy I i jednym bezczynnym oddziale mapa także się na nim centruje
+    Rozstrzygnięcie: panel graczy oznacza upadłego gracza jako ZNISZCZONY
+    Łączenie oddziałów: gdy połączenie przekroczy limit jednostek poziomu Rządu, teraz o tym informuje (wcześniej zawodziło bez słowa)
+    Mecze: głosowanie za oddaniem gracza SI jest wyłączone do czasu decyzji, co z nim zrobić
+    Kolory: łatwe do pomylenia kolory stron są teraz bardziej rozróżnialne (czerwony, pomarańczowy, żółty, brązowy, fioletowy i różowy)
+    Budynki: ich kontur w kolorze właściciela jest zawsze widoczny (1,5 px; oddziałów 2 px)
+    Zaznaczenie: panel zawsze pokazuje właściciela (awatar, «Gracz» i nazwę) pod obrazem oddziału lub budynku, bez przytrzymywania Shift
+    Budynki: stają się półprzezroczyste pod każdym oddziałem, sojuszniczym lub wrogim, oraz pod obrazem statku powietrznego, który je zasłania
 
 v2026.11.22 alpha
     Samouczki z fokusem: we wszystkich 15 lekcjach wszystko jest przyciemnione poza tym, o co prosi krok, ze strzałką, widmową ręką i kłódkami pokazującymi, w której lekcji odblokowuje się każda część; żadne inne działanie nie jest możliwe (kliknięcia, wybór budynków, przyciski, Esc), a podpowiedzi wskazanego elementu są jasne

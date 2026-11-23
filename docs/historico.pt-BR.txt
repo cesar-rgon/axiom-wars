@@ -5,6 +5,25 @@ v2026.11.23 alpha
     Construtor: escolhe a casa livre ao lado do edifício com o trajeto realmente mais curto, então não faz mais desvios para evitar um lago
     Ordens: o destaque de uma ordem sob o cursor agora fica abaixo do seu número e do X para cancelá-la
     Créditos: Njeggen4you e Tweeto se juntam aos testadores
+    Balanceamento: Militar 135 de Energia, Explorador 146+25, Meca 227+52, APC 158+38 e Raptor 475+114, para que o retorno de cada unidade fique perto de 1,0
+    IA: vigia o Aço e o compra no Banco com excedentes antes que chegue a 0, e constrói mais extratores e refinarias
+    IA: antecipa a fome com mais fazendas, pastos distantes ou água, e troca excedentes por Comida para evitar deserções
+    Web: o aviso de desempenho do navegador foi removido do hub
+    IA distribuída: seu PC pode calcular as IAs das partidas em que você joga (Configurações → «Usar meu PC para o cálculo das IAs», ativado por padrão); com vários jogadores o trabalho é dividido e as rodadas são resolvidas bem mais rápido
+    Partidas: o painel de jogadores mostra quantos PCs estão ajudando a calcular as IAs
+    Cooperativo: os aliados começam mais afastados (seus círculos de energia não se sobrepõem mais quando o mapa permite)
+    Mensagens: o painel mostra só as do turno atual (a rodada que acabou de ser resolvida); um turno sem novidades não mostra mais as antigas
+    Edifícios: ao escolher um extrator, uma fazenda ou uma refinaria, os recursos alcançados pela energia do seu lado ficam destacados
+    Mapa: a silhueta das suas tropas e das aliadas é desenhada sobre a névoa quando se aproximam de terreno inexplorado
+    Tropas: o contorno colorido de cada lado está sempre visível, não só sobre um edifício
+    Teclado: com I e uma única tropa ociosa, o mapa também é centralizado nela
+    Resolução: o painel de jogadores marca como DESTRUÍDA quem já caiu
+    Unir tropas: se a união passar do limite de unidades do seu nível de Governo, agora isso é avisado (antes falhava sem dizer nada)
+    Partidas: a votação para passar um jogador à IA está desativada até decidirmos o que fazer com ela
+    Cores: as cores de lado fáceis de confundir ficaram mais distantes (vermelho, laranja, amarelo, marrom, violeta e rosa)
+    Edifícios: o contorno, na cor do dono, está sempre visível (1,5 px; o das tropas, 2 px)
+    Seleção: o painel mostra sempre o dono (avatar, «Jogador» e nome) sob a imagem da tropa ou do edifício, sem segurar Shift
+    Edifícios: ficam translúcidos sob qualquer tropa, aliada ou inimiga, e sob a imagem de uma aeronave que os cobre
 
 v2026.11.22 alpha
     Tutoriais com foco: nas 15 lições tudo escurece, exceto o que o passo pede, com seta, mão fantasma e cadeados que dizem em que lição cada parte é liberada; nenhuma outra ação é possível (cliques, seleção de edifícios, botões, Esc) e os tooltips do elemento indicado ficam claros

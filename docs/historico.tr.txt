@@ -5,6 +5,25 @@ v2026.11.23 alpha
     İnşaatçı: binanın yanındaki boş kareyi gerçekten en kısa rotaya göre seçer, artık bir gölü dolaşmak için dolambaçlı yola girmez
     Emirler: imlecin altındaki emrin vurgusu artık numarasının ve iptal X'inin altında kalır
     Emeği geçenler: Njeggen4you ve Tweeto test edenlere katıldı
+    Denge: Asker 135 Enerji, Kâşif 146+25, Meka 227+52, ZMA 158+38 ve Raptor 475+114; böylece her birimin getirisi 1,0'a yakın olur
+    YZ: Çeliği izler ve 0'a düşmeden Banka'da fazla kaynaklarla satın alır, daha fazla çıkarıcı ve rafineri kurar
+    YZ: açlığı önceden önler: daha fazla çiftlik, uzak otlaklar veya su kullanır ve firarı önlemek için fazlaları Yiyecek ile takas eder
+    Web: hub'daki tarayıcı performans uyarısı kaldırıldı
+    Dağıtık YZ: bilgisayarın oynadığın maçlardaki YZ'leri hesaplayabilir (Ayarlar → «Bilgisayarımı YZ hesaplaması için kullan», varsayılan olarak açık); birden fazla oyuncu varsa iş paylaşılır ve turlar çok daha çabuk çözülür
+    Maçlar: oyuncu paneli YZ'lerin hesaplanmasına kaç bilgisayarın yardım ettiğini gösterir
+    Koop: müttefikler artık daha uzak başlıyor (harita izin verdiğinde enerji daireleri çakışmıyor)
+    Mesajlar: panel yalnızca şimdiki turun mesajlarını gösterir (az önce çözülen tur); yeni bir şey olmayan tur artık eskileri göstermez
+    Binalar: bir çıkarıcı, çiftlik veya rafineri seçilince tarafının enerjisinin ulaştığı kaynaklar vurgulanır
+    Harita: birliklerinin ve müttefiklerinin siluetleri, keşfedilmemiş araziye yaklaşınca sisin üzerine çizilir
+    Birlikler: her tarafın renkli çerçevesi artık hep görünür, yalnızca binanın üzerinde değil
+    Klavye: I tuşu ve tek boştaki birlikle harita ayrıca o birliğe ortalanır
+    Çözümleme: oyuncu paneli düşen oyuncuyu YOK EDİLDİ olarak işaretler
+    Birlik birleştirme: birleştirme Hükümet seviyenin birim sınırını aşarsa artık bunu bildiriyor (eskiden sessizce başarısız olurdu)
+    Maçlar: bir oyuncuyu YZ'ye devretme oylaması, ne yapılacağına karar verilene kadar kapalı
+    Renkler: karıştırılan taraf renkleri birbirinden uzaklaştırıldı (kırmızı, turuncu, sarı, kahverengi, mor ve pembe)
+    Binalar: sahibinin renkli çerçevesi artık hep görünür (1,5 px; birliklerinki 2 px)
+    Seçim: panel, birliğin veya binanın görüntüsünün altında sahibini (avatar, «Oyuncu» ve ad) Shift'e basmadan hep gösterir
+    Binalar: müttefik ya da düşman her birliğin altında ve onları kaplayan bir hava aracının görüntüsünün altında yarı saydam olur
 
 v2026.11.22 alpha
     Odaklı eğitimler: 15 dersin hepsinde adımın istediği dışındaki her şey karartılır; ok, hayalet el ve her bölümün hangi derste açıldığını söyleyen kilitler vardır; başka hiçbir eylem yapılamaz (tıklamalar, bina seçimi, düğmeler, Esc) ve işaretlenen öğenin ipuçları açık renkte görünür

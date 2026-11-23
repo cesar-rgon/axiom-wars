@@ -5,6 +5,25 @@ v2026.11.23 alpha
     Costruttore: sceglie la casella libera accanto all'edificio con il percorso davvero più breve, quindi non fa più giri per evitare un lago
     Ordini: l'evidenziazione di un ordine sotto il cursore ora sta sotto il suo numero e la X per annullarlo
     Crediti: Njeggen4you e Tweeto si uniscono ai tester
+    Bilanciamento: Militare 135 di Energia, Esploratore 146+25, Meca 227+52, APC 158+38 e Raptor 475+114, così il rendimento di ogni unità è vicino a 1,0
+    IA: controlla l'Acciaio e lo compra in Banca con le eccedenze prima che arrivi a 0, e costruisce più estrattori e raffinerie
+    IA: anticipa la fame con più fattorie, pascoli lontani o acqua, e scambia le eccedenze con Cibo per evitare diserzioni
+    Web: l'avviso sulle prestazioni del browser è rimosso dall'hub
+    IA distribuita: il tuo PC può calcolare le IA delle partite in cui giochi (Impostazioni → «Usa il mio PC per il calcolo delle IA», attivo per impostazione predefinita); con più giocatori il lavoro si divide e i turni si risolvono molto prima
+    Partite: il pannello dei giocatori mostra quanti PC stanno aiutando a calcolare le IA
+    Coop: gli alleati iniziano più distanti (i loro cerchi di energia non si sovrappongono più quando la mappa lo consente)
+    Messaggi: il pannello mostra solo quelli del turno attuale (il turno appena risolto); un turno senza novità non mostra più i vecchi
+    Edifici: scegliendo un estrattore, una fattoria o una raffineria si evidenziano le risorse raggiunte dall'energia del tuo schieramento
+    Mappa: la sagoma delle tue truppe e di quelle alleate viene disegnata sopra la nebbia quando si avvicinano a terreno inesplorato
+    Truppe: il contorno colorato di ogni schieramento è sempre visibile, non solo su un edificio
+    Tastiera: con I e una sola truppa inattiva, la mappa si centra anche su di essa
+    Risoluzione: il pannello dei giocatori segna come DISTRUTTA chi è caduto
+    Unione di truppe: se l'unione supera il limite di unità del tuo livello di Governo, ora lo segnala (prima falliva in silenzio)
+    Partite: la votazione per passare un giocatore all'IA è disattivata finché non si decide cosa farne
+    Colori: i colori degli schieramenti facili da confondere sono più distanti (rosso, arancione, giallo, marrone, viola e rosa)
+    Edifici: il loro contorno, del colore del proprietario, è sempre visibile (1,5 px; quello delle truppe, 2 px)
+    Selezione: il pannello mostra sempre il proprietario (avatar, «Giocatore» e nome) sotto l'immagine della truppa o dell'edificio, senza tenere premuto Maiusc
+    Edifici: diventano traslucidi sotto qualsiasi truppa, alleata o nemica, e sotto l'immagine di un velivolo che li copre
 
 v2026.11.22 alpha
     Tutorial guidati: in tutte le 15 lezioni tutto viene oscurato tranne ciò che chiede il passo, con freccia, mano fantasma e lucchetti che dicono in quale lezione si sblocca ogni parte; nessun'altra azione è possibile (clic, selezione degli edifici, pulsanti, Esc) e i tooltip dell'elemento indicato restano chiari

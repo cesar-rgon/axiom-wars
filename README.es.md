@@ -193,6 +193,21 @@ La última versión es **v2026.11.23 alpha**.
 - IA: vigila el Acero y lo compra en el Banco con excedentes antes de que llegue a 0, y levanta más extractores y refinerías
 - IA: se adelanta al hambre con más granjas, pastos lejanos o agua, y cambia excedentes por Comida para evitar deserciones
 - Web: se quita el aviso de rendimiento del navegador en el hub
+- IA repartida: tu PC puede calcular las IAs de las partidas en las que juegas (Configuración → «Usar mi PC para cálculo de IA», activado por defecto); con varios jugadores se reparten el trabajo y las rondas se resuelven mucho antes
+- Partidas: el panel de jugadores indica cuántos PCs están ayudando a calcular las IAs
+- Cooperativo: los aliados empiezan más separados (sus círculos de energía ya no se solapan cuando el mapa lo permite)
+- Mensajes: el panel sólo muestra los del turno actual (la ronda que acaba de resolverse); un turno sin novedades ya no enseña los viejos
+- Edificios: al elegir un extractor, una granja o una refinería se resaltan los recursos a los que llega la energía de tu bando
+- Mapa: la silueta de tus tropas y las de tus aliados se dibuja sobre la niebla cuando se acercan a terreno sin explorar
+- Tropas: el contorno del color de cada bando se ve siempre, no sólo sobre un edificio
+- Teclado: con I y una sola tropa libre, además de seleccionarla se centra el mapa en ella
+- Resolución: el panel de jugadores marca como DESTRUIDA a quien ya ha caído
+- Unir tropas: si la unión supera el máximo de unidades de tu nivel de Gobierno, ahora lo avisa (antes fallaba sin decir nada)
+- Partidas: se desactiva la votación para pasar a un jugador a la IA hasta decidir qué hacer con ella
+- Colores: se separan los tonos de bando que se confundían (rojo, naranja, amarillo, marrón, violeta y rosa)
+- Edificios: su contorno, del color de su dueño, se ve siempre (1,5 px; el de las tropas, 2 px)
+- Selección: el panel muestra siempre al dueño (avatar, «Jugador» y nick) bajo la imagen de la tropa o el edificio, sin pulsar Shift
+- Edificios: se ven translúcidos bajo cualquier tropa, aliada o enemiga, y bajo la textura de un aéreo que los cubre
 
 ### v2026.11.22 alpha
 

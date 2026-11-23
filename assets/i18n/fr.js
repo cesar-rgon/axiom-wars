@@ -242,7 +242,7 @@
   "dl.c2": "Lancez le jeu : l'adresse du serveur est déjà remplie. Saisissez votre nom, puis créez un salon ou rejoignez-en un.",
   "nav.news": "Nouveautés",
   "news.title": "Nouveautés",
-  "news.body": "Coûts des unités rééquilibrés pour que chacune rende près de 1,0, et l'IA surveille l'Acier et la Nourriture pour ne pas en manquer ni perdre de troupes par désertion. L'avis de performance du navigateur disparaît. Njeggen4you et Tweeto rejoignent les testeurs.",
+  "news.body": "Les IA sont désormais calculées sur les PC des joueurs («Utiliser mon PC pour le calcul des IA», activé par défaut) et les tours se résolvent bien plus vite. En coop les alliés commencent plus éloignés ; contours et propriétaire (avatar et nom) toujours visibles, bâtiments translucides sous n'importe quelle troupe, couleurs de camp plus distinctes et ressources mises en évidence en plaçant un extracteur. Njeggen4you et Tweeto rejoignent les testeurs.",
   "news.all": "Voir tout l'historique",
   "news.all.href": "docs/historico.fr.txt",
   "lang.eyebrow": "Langues",

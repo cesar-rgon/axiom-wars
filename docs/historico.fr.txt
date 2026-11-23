@@ -5,6 +5,25 @@ v2026.11.23 alpha
     Constructeur : choisit la case libre à côté du bâtiment avec le trajet réellement le plus court, il ne fait donc plus de détour pour éviter un lac
     Ordres : la surbrillance d'un ordre sous le curseur passe désormais sous son numéro et sa croix d'annulation
     Crédits : Njeggen4you et Tweeto rejoignent les testeurs
+    Équilibrage : Militaire 135 d'Énergie, Éclaireur 146+25, Méca 227+52, APC 158+38 et Raptor 475+114, pour que le rendement de chaque unité soit proche de 1,0
+    IA : surveille l'Acier et l'achète à la Banque avec ses excédents avant qu'il n'atteigne 0, et construit plus d'extracteurs et de raffineries
+    IA : anticipe la faim avec plus de fermes, des pâturages lointains ou de l'eau, et échange ses excédents contre de la Nourriture pour éviter les désertions
+    Web : l'avis de performance du navigateur est retiré du hub
+    IA répartie : ton PC peut calculer les IA des parties où tu joues (Configuration → «Utiliser mon PC pour le calcul des IA», activé par défaut) ; avec plusieurs joueurs le travail est partagé et les tours se résolvent bien plus vite
+    Parties : le panneau des joueurs indique combien de PC aident à calculer les IA
+    Coop : les alliés commencent plus éloignés (leurs cercles d'énergie ne se chevauchent plus quand la carte le permet)
+    Messages : le panneau n'affiche que ceux du tour actuel (le tour qui vient de se résoudre) ; un tour sans nouveauté ne montre plus les anciens
+    Bâtiments : choisir un extracteur, une ferme ou une raffinerie met en évidence les ressources atteintes par l'énergie de ton camp
+    Carte : la silhouette de tes troupes et de celles de tes alliés est dessinée sur le brouillard quand elles approchent d'un terrain inexploré
+    Troupes : le contour coloré de chaque camp est toujours visible, pas seulement sur un bâtiment
+    Clavier : avec I et une seule troupe inactive, la carte se centre aussi sur elle
+    Résolution : le panneau des joueurs marque DÉTRUITE un joueur tombé
+    Fusion de troupes : si la fusion dépasse la limite d'unités de ton niveau de Gouvernement, c'est maintenant signalé (avant, elle échouait sans rien dire)
+    Parties : le vote pour confier un joueur à l'IA est désactivé en attendant de décider quoi en faire
+    Couleurs : les teintes de camp faciles à confondre sont écartées (rouge, orange, jaune, marron, violet et rose)
+    Bâtiments : leur contour, à la couleur du propriétaire, est toujours visible (1,5 px ; celui des troupes, 2 px)
+    Sélection : le panneau montre toujours le propriétaire (avatar, «Joueur» et nom) sous l'image de la troupe ou du bâtiment, sans maintenir Maj
+    Bâtiments : ils deviennent translucides sous n'importe quelle troupe, alliée ou ennemie, et sous l'image d'un aéronef qui les recouvre
 
 v2026.11.22 alpha
     Tutoriels guidés : dans les 15 leçons tout est assombri sauf ce que demande l'étape, avec une flèche, une main fantôme et des cadenas qui indiquent dans quelle leçon chaque partie se débloque ; aucune autre action n'est possible (clics, sélection de bâtiments, boutons, Échap) et les infobulles de l'élément indiqué restent claires

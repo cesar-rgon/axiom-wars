@@ -5,6 +5,25 @@ v2026.11.23 alpha
     Konstrukteur: wählt das freie Feld neben dem Gebäude mit der wirklich kürzesten Route und macht keinen Umweg mehr um einen See
     Befehle: die Hervorhebung eines Befehls unter dem Mauszeiger liegt jetzt unter seiner Nummer und dem X zum Abbrechen
     Credits: Njeggen4you und Tweeto gehören jetzt zu den Testern
+    Balance: Militär 135 Energie, Späher 146+25, Meca 227+52, APC 158+38 und Raptor 475+114, damit der Ertrag jeder Einheit nahe 1,0 liegt
+    KI: überwacht Stahl und kauft ihn mit Überschüssen bei der Bank, bevor er 0 erreicht, und baut mehr Extraktoren und Raffinerien
+    KI: beugt Hunger vor mit mehr Farmen, entfernten Weiden oder Wasser und tauscht Überschüsse gegen Nahrung, um Desertionen zu vermeiden
+    Web: der Browser-Leistungshinweis im Hub entfällt
+    Verteilte KI: Dein PC kann die KIs der Partien berechnen, in denen du spielst (Einstellungen → «Meinen PC für KI-Berechnungen nutzen», standardmäßig an); bei mehreren Spielern wird die Arbeit aufgeteilt und Runden werden viel schneller ausgewertet
+    Partien: Das Spielerpanel zeigt, wie viele PCs bei der Berechnung der KIs helfen
+    Koop: Verbündete starten weiter voneinander entfernt (ihre Energiekreise überlappen sich nicht mehr, wenn die Karte es zulässt)
+    Meldungen: Das Panel zeigt nur die der aktuellen Runde (der gerade ausgewerteten); eine Runde ohne Neuigkeiten zeigt nicht mehr die alten
+    Gebäude: Beim Wählen eines Extraktors, einer Farm oder Raffinerie werden die Ressourcen hervorgehoben, die die Energie deiner Seite erreicht
+    Karte: Die Silhouette deiner und der verbündeten Truppen wird über dem Nebel gezeichnet, wenn sie sich unerforschtem Gelände nähern
+    Truppen: Die farbige Kontur jeder Seite ist immer sichtbar, nicht nur über einem Gebäude
+    Tastatur: Mit I und einer einzelnen untätigen Truppe wird auch die Karte auf sie zentriert
+    Auswertung: Das Spielerpanel markiert ausgeschiedene Spieler als ZERSTÖRT
+    Truppen vereinen: Überschreitet die Vereinigung das Einheitenlimit deiner Regierungsstufe, wird das jetzt gemeldet (früher scheiterte es stumm)
+    Partien: Die Abstimmung, einen Spieler an die KI zu übergeben, ist deaktiviert, bis entschieden ist, was damit geschieht
+    Farben: Die leicht zu verwechselnden Seitenfarben liegen jetzt weiter auseinander (Rot, Orange, Gelb, Braun, Violett und Rosa)
+    Gebäude: Ihre Kontur in der Farbe des Besitzers ist immer sichtbar (1,5 px; die der Truppen 2 px)
+    Auswahl: Das Panel zeigt immer den Besitzer (Avatar, «Spieler» und Name) unter dem Bild der Truppe oder des Gebäudes, ohne Shift zu halten
+    Gebäude: Sie werden unter jeder Truppe durchsichtig, ob verbündet oder feindlich, und unter dem Bild eines Fluggeräts, das sie verdeckt
 
 v2026.11.22 alpha
     Geführte Tutorials: In allen 15 Lektionen wird alles außer dem, was der Schritt verlangt, abgedunkelt – mit Pfeil, Geisterhand und Schlössern, die zeigen, in welcher Lektion sich jeder Teil freischaltet; keine andere Aktion ist möglich (Klicks, Gebäudeauswahl, Schaltflächen, Esc) und die Tooltips des markierten Elements bleiben hell

@@ -242,7 +242,7 @@
   "dl.c2": "Starte das Spiel: Die Serveradresse ist schon eingetragen. Gib deinen Namen ein und erstelle einen Raum oder tritt einem bei.",
   "nav.news": "Neuigkeiten",
   "news.title": "Neuigkeiten",
-  "news.body": "Einheitenkosten neu abgestimmt, sodass jede Einheit nahe 1,0 liegt; die KI überwacht Stahl und Nahrung, um nicht leer zu laufen oder Truppen durch Desertion zu verlieren. Der Browser-Leistungshinweis entfällt. Njeggen4you und Tweeto sind neue Tester.",
+  "news.body": "Die KIs werden jetzt auf den PCs der Spieler berechnet («Meinen PC für KI-Berechnungen nutzen», standardmäßig an) und Runden werden viel schneller ausgewertet. In Koop starten Verbündete weiter auseinander; Konturen und Besitzer (Avatar und Name) sind immer sichtbar, Gebäude werden unter jeder Truppe durchsichtig, Seitenfarben sind besser zu unterscheiden und beim Platzieren eines Extraktors werden die Ressourcen hervorgehoben. Njeggen4you und Tweeto stoßen zu den Testern.",
   "news.all": "Gesamten Verlauf ansehen",
   "news.all.href": "docs/historico.de.txt",
   "lang.eyebrow": "Sprachen",

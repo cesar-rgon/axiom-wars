@@ -242,7 +242,7 @@
   "dl.c2": "Avvia il gioco: l'indirizzo del server è già compilato. Scrivi il tuo nome, poi crea una stanza o unisciti a una.",
   "nav.news": "Novità",
   "news.title": "Novità",
-  "news.body": "Costi delle unità riequilibrati affinché ognuna renda vicino a 1,0, e l'IA controlla Acciaio e Cibo per non restarne senza né perdere truppe per diserzione. L'avviso sulle prestazioni del browser è sparito. Njeggen4you e Tweeto si uniscono ai tester.",
+  "news.body": "Le IA ora si calcolano sui PC dei giocatori («Usa il mio PC per il calcolo delle IA», attivo per impostazione predefinita) e i turni si risolvono molto prima. In coop gli alleati iniziano più distanti; contorni e proprietario (avatar e nome) sempre visibili, edifici traslucidi sotto qualsiasi truppa, colori degli schieramenti più distinti e risorse evidenziate quando si piazza un estrattore. Njeggen4you e Tweeto si uniscono ai tester.",
   "news.all": "Vedi tutta la cronologia",
   "news.all.href": "docs/historico.it.txt",
   "lang.eyebrow": "Lingue",
