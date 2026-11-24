@@ -5,6 +5,8 @@ v2026.11.24 alpha
     Binalar: kara birlikleri her binanın 1 karelik dış şeridinde (dört kenarında) yürür ve iç kısım, yani çatı, engeldir; çatıdaki bir hedef ya da konum bedava en yakın boş kareye geçer, Meca ve APC de yan yana duran iki bina arasından geçer
     Birlikler: bir binanın şeridinde durabilirler (hedefi bir binanın tabanındaysa Meca yerinde kalıyordu)
     Birlikler: ayakları bir binanın kuzey sırasına değen Meca veya APC binanın arkasına çizilir, böylece bina dokusunu kapatmaz
+    Eğitimler: artık 9 blok, her seviyede 3 (temel, orta ve ileri) ve her blok derslerini menüye dönmeden zincirler
+    Eğitimler: F2, Tab ve Boşluk, Sprint, APC ve Raptor, işbirlikli müttefikler, Droid ve Bilim İnsanı, portallar ve ekonomi konulu 7 yeni ders (16-22)
 
 v2026.11.23 alpha
     İnşaatçı: binanın yanındaki boş kareyi gerçekten en kısa rotaya göre seçer, artık bir gölü dolaşmak için dolambaçlı yola girmez

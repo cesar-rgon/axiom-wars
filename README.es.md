@@ -189,6 +189,8 @@ La última versión es **v2026.11.24 alpha**.
 - Edificios: las tropas de tierra caminan por la franja exterior de 1 casilla de cada edificio (por sus cuatro lados) y el interior, el techo, es obstáculo; un destino o una posición sobre el techo pasa gratis a la casilla libre más cercana, y el Meca y el APC cruzan entre dos edificios pegados
 - Tropas: pueden parar sobre la franja de un edificio (un Meca se quedaba quieto si su destino estaba en la base de un edificio)
 - Tropas: un Meca o un APC con los pies en la fila norte de un edificio se dibuja detrás de él, para que éste no le tape la textura
+- Tutoriales: ahora son 9 bloques, 3 por nivel (básico, intermedio y avanzado), y cada bloque enlaza sus lecciones sin volver al menú
+- Tutoriales: 7 lecciones nuevas (16-22) con F2, Tab y Espacio, Sprint, APC y Raptor, aliados cooperativos, Droide y Científico, portales y economía
 
 ### v2026.11.23 alpha
 

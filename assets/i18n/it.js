@@ -242,7 +242,7 @@
   "dl.c2": "Avvia il gioco: l'indirizzo del server è già compilato. Scrivi il tuo nome, poi crea una stanza o unisciti a una.",
   "nav.news": "Novità",
   "news.title": "Novità",
-  "news.body": "Le truppe di terra camminano ora sulla fascia esterna degli edifici (il tetto è un ostacolo), il Meca non resta più fermo davanti a loro e i suoi piedi sono disegnati dietro l'edificio. Le IA ora si calcolano sui PC dei giocatori («Usa il mio PC per il calcolo delle IA», attivo per impostazione predefinita) e i turni si risolvono molto prima. In coop gli alleati iniziano più distanti; contorni e proprietario (avatar e nome) sempre visibili, edifici traslucidi sotto qualsiasi truppa, colori degli schieramenti più distinti e risorse evidenziate quando si piazza un estrattore. Njeggen4you e Tweeto si uniscono ai tester.",
+  "news.body": "Le truppe di terra camminano ora sulla fascia esterna degli edifici (il tetto è un ostacolo), il Meca non resta più fermo davanti a loro e i suoi piedi sono disegnati dietro l'edificio. Le IA ora si calcolano sui PC dei giocatori («Usa il mio PC per il calcolo delle IA», attivo per impostazione predefinita) e i turni si risolvono molto prima. In coop gli alleati iniziano più distanti; contorni e proprietario (avatar e nome) sempre visibili, edifici traslucidi sotto qualsiasi truppa, colori degli schieramenti più distinti e risorse evidenziate quando si piazza un estrattore. Njeggen4you e Tweeto si uniscono ai tester. I tutorial diventano 9 blocchi (3 per livello) con 7 nuove lezioni.",
   "news.all": "Vedi tutta la cronologia",
   "news.all.href": "docs/historico.it.txt",
   "lang.eyebrow": "Lingue",

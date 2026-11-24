@@ -5,6 +5,8 @@ v2026.11.24 alpha
     Budynki: wojska lądowe chodzą po zewnętrznym pasie o szerokości 1 pola wokół każdego budynku (ze wszystkich czterech stron), a wnętrze, dach, jest przeszkodą; cel lub pozycja na dachu przenosi się za darmo na najbliższe wolne pole, a Meca i APC przechodzą między dwoma stykającymi się budynkami
     Wojska: mogą zatrzymać się na pasie budynku (Meca stał w miejscu, gdy jego cel znajdował się u podstawy budynku)
     Wojska: Meca lub APC ze stopami w północnym rzędzie budynku jest rysowany za nim, aby budynek nie zasłaniał jego tekstury
+    Samouczki: teraz to 9 bloków, po 3 na poziom (podstawowy, średni i zaawansowany), a każdy blok łączy swoje lekcje bez powrotu do menu
+    Samouczki: 7 nowych lekcji (16-22) o F2, Tab i Spacji, Sprincie, APC i Raptorze, sojusznikach w trybie współpracy, Droidzie i Naukowcu, portalach i ekonomii
 
 v2026.11.23 alpha
     Konstruktor: wybiera wolne pole obok budynku z naprawdę najkrótszą trasą, więc nie nadkłada już drogi, żeby ominąć jezioro

@@ -242,7 +242,7 @@
   "dl.c2": "Lancez le jeu : l'adresse du serveur est déjà remplie. Saisissez votre nom, puis créez un salon ou rejoignez-en un.",
   "nav.news": "Nouveautés",
   "news.title": "Nouveautés",
-  "news.body": "Les troupes terrestres marchent désormais sur la bande extérieure des bâtiments (le toit est un obstacle), le Meca ne reste plus bloqué devant eux et ses pieds sont dessinés derrière le bâtiment. Les IA sont désormais calculées sur les PC des joueurs («Utiliser mon PC pour le calcul des IA», activé par défaut) et les tours se résolvent bien plus vite. En coop les alliés commencent plus éloignés ; contours et propriétaire (avatar et nom) toujours visibles, bâtiments translucides sous n'importe quelle troupe, couleurs de camp plus distinctes et ressources mises en évidence en plaçant un extracteur. Njeggen4you et Tweeto rejoignent les testeurs.",
+  "news.body": "Les troupes terrestres marchent désormais sur la bande extérieure des bâtiments (le toit est un obstacle), le Meca ne reste plus bloqué devant eux et ses pieds sont dessinés derrière le bâtiment. Les IA sont désormais calculées sur les PC des joueurs («Utiliser mon PC pour le calcul des IA», activé par défaut) et les tours se résolvent bien plus vite. En coop les alliés commencent plus éloignés ; contours et propriétaire (avatar et nom) toujours visibles, bâtiments translucides sous n'importe quelle troupe, couleurs de camp plus distinctes et ressources mises en évidence en plaçant un extracteur. Njeggen4you et Tweeto rejoignent les testeurs. Les tutoriels passent à 9 blocs (3 par niveau) avec 7 nouvelles leçons.",
   "news.all": "Voir tout l'historique",
   "news.all.href": "docs/historico.fr.txt",
   "lang.eyebrow": "Langues",

@@ -5,6 +5,8 @@ v2026.11.24 alpha
     Edifícios: as tropas terrestres andam pela faixa externa de 1 casa de cada edifício (pelos quatro lados) e o interior, o telhado, é obstáculo; um destino ou posição sobre o telhado passa de graça para a casa livre mais próxima, e o Meca e o APC passam entre dois edifícios encostados
     Tropas: podem parar sobre a faixa de um edifício (um Meca ficava parado se o destino estivesse na base de um edifício)
     Tropas: um Meca ou um APC com os pés na fileira norte de um edifício é desenhado atrás dele, para que o edifício não cubra a sua textura
+    Tutoriais: agora são 9 blocos, 3 por nível (básico, intermediário e avançado), e cada bloco encadeia suas lições sem voltar ao menu
+    Tutoriais: 7 lições novas (16-22) sobre F2, Tab e Espaço, Sprint, APC e Raptor, aliados cooperativos, Droide e Cientista, portais e economia
 
 v2026.11.23 alpha
     Construtor: escolhe a casa livre ao lado do edifício com o trajeto realmente mais curto, então não faz mais desvios para evitar um lago

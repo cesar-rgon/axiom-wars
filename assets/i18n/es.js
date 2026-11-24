@@ -268,7 +268,7 @@
   "dl.c2": "Abre el juego: la dirección del servidor ya viene rellena. Escribe tu nombre y crea una sala o únete a una.",
   "nav.news": "Novedades",
   "news.title": "Novedades",
-  "news.body": "Las tropas de tierra caminan por la franja exterior de los edificios (el techo es obstáculo) y el Meca ya no se queda quieto ante ellos; sus pies se dibujan detrás del edificio. La IA se calcula ahora en los PCs de los jugadores («Usar mi PC para cálculo de IA», activado por defecto) y las rondas se resuelven mucho antes. En coop los aliados empiezan más separados; contornos y dueño (avatar y nick) siempre visibles, edificios translúcidos bajo cualquier tropa, colores de bando más distintos y recursos resaltados al colocar un extractor. Njeggen4you y Tweeto se suman a los testeadores.",
+  "news.body": "Las tropas de tierra caminan por la franja exterior de los edificios (el techo es obstáculo) y el Meca ya no se queda quieto ante ellos; sus pies se dibujan detrás del edificio. La IA se calcula ahora en los PCs de los jugadores («Usar mi PC para cálculo de IA», activado por defecto) y las rondas se resuelven mucho antes. En coop los aliados empiezan más separados; contornos y dueño (avatar y nick) siempre visibles, edificios translúcidos bajo cualquier tropa, colores de bando más distintos y recursos resaltados al colocar un extractor. Njeggen4you y Tweeto se suman a los testeadores. Los tutoriales pasan a 9 bloques (3 por nivel) con 7 lecciones nuevas.",
   "news.all": "Ver el histórico completo",
   "news.all.href": "docs/historico.es.txt",
   "lang.eyebrow": "Idiomas",

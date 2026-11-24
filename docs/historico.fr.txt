@@ -5,6 +5,8 @@ v2026.11.24 alpha
     Bâtiments : les troupes terrestres marchent sur la bande extérieure de 1 case de chaque bâtiment (sur ses quatre côtés) et l'intérieur, le toit, est un obstacle ; une destination ou une position sur le toit passe gratuitement à la case libre la plus proche, et le Meca et l'APC passent entre deux bâtiments accolés
     Troupes : elles peuvent s'arrêter sur la bande d'un bâtiment (un Meca restait immobile si sa destination était à la base d'un bâtiment)
     Troupes : un Meca ou un APC dont les pieds touchent la rangée nord d'un bâtiment est dessiné derrière lui, pour que le bâtiment ne cache pas sa texture
+    Tutoriels : désormais 9 blocs, 3 par niveau (basique, intermédiaire et avancé), et chaque bloc enchaîne ses leçons sans repasser par le menu
+    Tutoriels : 7 nouvelles leçons (16-22) sur F2, Tab et Espace, Sprint, APC et Raptor, alliés coopératifs, Droïde et Scientifique, portails et économie
 
 v2026.11.23 alpha
     Constructeur : choisit la case libre à côté du bâtiment avec le trajet réellement le plus court, il ne fait donc plus de détour pour éviter un lac
