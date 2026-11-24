@@ -191,6 +191,9 @@ The latest version is **v2026.11.24 alpha**.
 - Troops: a Meca or an APC with its feet on a building's north row is drawn behind it, so the building does not cover its picture
 - Tutorials: now 9 blocks, 3 per level (basic, intermediate and advanced), and each block chains its lessons without going back to the menu
 - Tutorials: 7 new lessons (16-22) covering F2, Tab and Space, Sprint, APC and Raptor, co-op allies, Droid and Scientist, portals and economy
+- AI: defends its Government when besieged (its defence orders are no longer lost in its search) and, with an enemy army nearby, trains more troops and builds a Ground Defense and a second Training Center
+- AI: enemy Explorers count as a threat and it sends no harassment raids while the enemy presses its base
+- AI: the troops it splits off to hunt, explore or use portals now receive their order (before, the order for the new troop always failed)
 
 ### v2026.11.23 alpha
 

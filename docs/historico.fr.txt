@@ -7,6 +7,9 @@ v2026.11.24 alpha
     Troupes : un Meca ou un APC dont les pieds touchent la rangée nord d'un bâtiment est dessiné derrière lui, pour que le bâtiment ne cache pas sa texture
     Tutoriels : désormais 9 blocs, 3 par niveau (basique, intermédiaire et avancé), et chaque bloc enchaîne ses leçons sans repasser par le menu
     Tutoriels : 7 nouvelles leçons (16-22) sur F2, Tab et Espace, Sprint, APC et Raptor, alliés coopératifs, Droïde et Scientifique, portails et économie
+    IA : défend son Gouvernement quand il est assiégé (ses ordres de défense ne se perdent plus dans sa recherche) et, avec une armée ennemie à proximité, entraîne plus de troupes et construit une défense au sol et un deuxième Centre d'entraînement
+    IA : les Éclaireurs ennemis comptent comme une menace et elle ne lance pas de harcèlement tant que l'ennemi presse sa base
+    IA : les troupes qu'elle divise pour chasser, explorer ou utiliser des portails reçoivent enfin leur ordre (avant, l'ordre de la nouvelle troupe échouait toujours)
 
 v2026.11.23 alpha
     Constructeur : choisit la case libre à côté du bâtiment avec le trajet réellement le plus court, il ne fait donc plus de détour pour éviter un lac

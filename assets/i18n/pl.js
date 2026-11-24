@@ -219,7 +219,7 @@
   "mus.t16": "<strong>Powtórka rundy.</strong> Duża lupa nad starciem z obrażeniami każdego trafienia.",
   "mus.hint": "Przesuń palcem, aby poruszać się po osi czasu →",
   "news.title": "Nowości",
-  "news.body": "Wojska lądowe chodzą teraz po zewnętrznym pasie budynków (dach jest przeszkodą), Meca nie utyka już przed nimi, a jego stopy są rysowane za budynkiem. SI jest teraz liczona na komputerach graczy («Użyj mojego komputera do obliczeń SI», domyślnie włączone), a tury rozstrzygają się znacznie szybciej. W koopie sojusznicy zaczynają dalej od siebie; kontury i właściciel (awatar i nazwa) są zawsze widoczne, budynki są półprzezroczyste pod każdym oddziałem, kolory stron łatwiej odróżnić, a przy stawianiu ekstraktora podświetlają się zasoby. Njeggen4you i Tweeto dołączają do testerów. Samouczki to teraz 9 bloków (po 3 na poziom) z 7 nowymi lekcjami.",
+  "news.body": "Wojska lądowe chodzą teraz po zewnętrznym pasie budynków (dach jest przeszkodą), Meca nie utyka już przed nimi, a jego stopy są rysowane za budynkiem. SI jest teraz liczona na komputerach graczy («Użyj mojego komputera do obliczeń SI», domyślnie włączone), a tury rozstrzygają się znacznie szybciej. W koopie sojusznicy zaczynają dalej od siebie; kontury i właściciel (awatar i nazwa) są zawsze widoczne, budynki są półprzezroczyste pod każdym oddziałem, kolory stron łatwiej odróżnić, a przy stawianiu ekstraktora podświetlają się zasoby. Njeggen4you i Tweeto dołączają do testerów. Samouczki to teraz 9 bloków (po 3 na poziom) z 7 nowymi lekcjami. SI lepiej broni Rządu przed szybkim atakiem.",
   "news.all": "Zobacz pełną historię zmian",
   "news.all.href": "docs/historico.pl.txt",
   "join.eyebrow": "Społeczność",

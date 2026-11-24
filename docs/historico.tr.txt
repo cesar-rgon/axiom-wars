@@ -7,6 +7,9 @@ v2026.11.24 alpha
     Birlikler: ayakları bir binanın kuzey sırasına değen Meca veya APC binanın arkasına çizilir, böylece bina dokusunu kapatmaz
     Eğitimler: artık 9 blok, her seviyede 3 (temel, orta ve ileri) ve her blok derslerini menüye dönmeden zincirler
     Eğitimler: F2, Tab ve Boşluk, Sprint, APC ve Raptor, işbirlikli müttefikler, Droid ve Bilim İnsanı, portallar ve ekonomi konulu 7 yeni ders (16-22)
+    YZ: kuşatıldığında Hükümetini savunur (savunma emirleri artık aramada kaybolmaz) ve yakında düşman ordusu varsa daha fazla birlik eğitir, bir Kara Savunması ve ikinci bir Eğitim Merkezi kurar
+    YZ: düşman Kaşifler tehdit sayılır ve düşman üssüne baskı yaparken taciz akını göndermez
+    YZ: avlanmak, keşfetmek veya portal kullanmak için böldüğü birlikler artık emrini alır (önceden yeni birliğe verilen emir hep başarısız oluyordu)
 
 v2026.11.23 alpha
     İnşaatçı: binanın yanındaki boş kareyi gerçekten en kısa rotaya göre seçer, artık bir gölü dolaşmak için dolambaçlı yola girmez

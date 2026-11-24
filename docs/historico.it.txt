@@ -7,6 +7,9 @@ v2026.11.24 alpha
     Truppe: un Meca o un APC con i piedi sulla riga nord di un edificio viene disegnato dietro di esso, così l'edificio non ne copre la texture
     Tutorial: ora sono 9 blocchi, 3 per livello (base, intermedio e avanzato), e ogni blocco concatena le sue lezioni senza tornare al menu
     Tutorial: 7 nuove lezioni (16-22) su F2, Tab e Spazio, Sprint, APC e Raptor, alleati cooperativi, Droide e Scienziato, portali ed economia
+    IA: difende il Governo quando è assediato (i suoi ordini di difesa non si perdono più nella ricerca) e, con un esercito nemico vicino, addestra più truppe e costruisce una difesa terrestre e un secondo Centro di addestramento
+    IA: gli Esploratori nemici contano come minaccia e non lancia incursioni di disturbo mentre il nemico preme sulla sua base
+    IA: le truppe che divide per cacciare, esplorare o usare i portali ora ricevono il loro ordine (prima l'ordine per la nuova truppa falliva sempre)
 
 v2026.11.23 alpha
     Costruttore: sceglie la casella libera accanto all'edificio con il percorso davvero più breve, quindi non fa più giri per evitare un lago

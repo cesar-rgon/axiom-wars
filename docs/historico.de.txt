@@ -7,6 +7,9 @@ v2026.11.24 alpha
     Truppen: Ein Meca oder APC mit den Füßen in der Nordreihe eines Gebäudes wird hinter diesem gezeichnet, damit das Gebäude sein Bild nicht verdeckt
     Tutorials: jetzt 9 Blöcke, 3 pro Stufe (Grundlagen, Fortgeschritten und Profi), und jeder Block verkettet seine Lektionen, ohne zum Menü zurückzukehren
     Tutorials: 7 neue Lektionen (16-22) zu F2, Tab und Leertaste, Sprint, APC und Raptor, Koop-Verbündeten, Droide und Wissenschaftler, Portalen und Wirtschaft
+    KI: verteidigt ihre Regierung bei einer Belagerung (ihre Verteidigungsbefehle gehen in ihrer Suche nicht mehr verloren) und bildet bei einem feindlichen Heer in der Nähe mehr Truppen aus und baut eine Bodenverteidigung und ein zweites Ausbildungszentrum
+    KI: feindliche Späher gelten als Bedrohung, und sie schickt keine Störangriffe, solange der Feind ihre Basis bedrängt
+    KI: Truppen, die sie zum Jagen, Erkunden oder für Portale abspaltet, erhalten jetzt ihren Befehl (vorher scheiterte der Befehl für die neue Truppe immer)
 
 v2026.11.23 alpha
     Konstrukteur: wählt das freie Feld neben dem Gebäude mit der wirklich kürzesten Route und macht keinen Umweg mehr um einen See

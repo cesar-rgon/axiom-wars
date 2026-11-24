@@ -7,6 +7,9 @@ v2026.11.24 alpha
     Tropas: um Meca ou um APC com os pés na fileira norte de um edifício é desenhado atrás dele, para que o edifício não cubra a sua textura
     Tutoriais: agora são 9 blocos, 3 por nível (básico, intermediário e avançado), e cada bloco encadeia suas lições sem voltar ao menu
     Tutoriais: 7 lições novas (16-22) sobre F2, Tab e Espaço, Sprint, APC e Raptor, aliados cooperativos, Droide e Cientista, portais e economia
+    IA: defende o Governo quando é cercado (suas ordens de defesa não se perdem mais na busca) e, com um exército inimigo por perto, treina mais tropas e constrói uma Defesa Terrestre e um segundo Centro de Treinamento
+    IA: os Exploradores inimigos contam como ameaça e ela não lança hostilizações enquanto o inimigo pressiona sua base
+    IA: as tropas que ela divide para caçar, explorar ou usar portais agora recebem a ordem (antes a ordem da nova tropa sempre falhava)
 
 v2026.11.23 alpha
     Construtor: escolhe a casa livre ao lado do edifício com o trajeto realmente mais curto, então não faz mais desvios para evitar um lago

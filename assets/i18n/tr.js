@@ -219,7 +219,7 @@
   "mus.t16": "<strong>Raunt tekrarı.</strong> Bir çatışmanın üzerinde büyük bir büyüteç ve her vuruşun hasarı.",
   "mus.hint": "Zaman çizgisinde ilerlemek için kaydır →",
   "news.title": "Yenilikler",
-  "news.body": "Kara birlikleri artık binaların dış şeridinde yürüyor (çatı engeldir), Meca onların önünde takılıp kalmıyor ve ayakları binanın arkasına çiziliyor. YZ'ler artık oyuncuların bilgisayarlarında hesaplanıyor («Bilgisayarımı YZ hesaplaması için kullan», varsayılan olarak açık) ve turlar çok daha çabuk çözülüyor. Koopta müttefikler daha uzak başlıyor; çerçeveler ve sahip (avatar ve ad) hep görünür, binalar her birliğin altında yarı saydam olur, taraf renkleri daha ayırt edilir ve çıkarıcı yerleştirirken kaynaklar vurgulanır. Njeggen4you ve Tweeto test ekibine katılıyor. Eğitimler artık 9 blok (seviye başına 3) ve 7 yeni ders içeriyor.",
+  "news.body": "Kara birlikleri artık binaların dış şeridinde yürüyor (çatı engeldir), Meca onların önünde takılıp kalmıyor ve ayakları binanın arkasına çiziliyor. YZ'ler artık oyuncuların bilgisayarlarında hesaplanıyor («Bilgisayarımı YZ hesaplaması için kullan», varsayılan olarak açık) ve turlar çok daha çabuk çözülüyor. Koopta müttefikler daha uzak başlıyor; çerçeveler ve sahip (avatar ve ad) hep görünür, binalar her birliğin altında yarı saydam olur, taraf renkleri daha ayırt edilir ve çıkarıcı yerleştirirken kaynaklar vurgulanır. Njeggen4you ve Tweeto test ekibine katılıyor. Eğitimler artık 9 blok (seviye başına 3) ve 7 yeni ders içeriyor. YZ, hızlı bir saldırıya karşı Hükümetini daha iyi savunur.",
   "news.all": "Tüm değişiklik geçmişini gör",
   "news.all.href": "docs/historico.tr.txt",
   "join.eyebrow": "Topluluk",

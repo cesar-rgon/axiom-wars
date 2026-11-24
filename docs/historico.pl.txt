@@ -7,6 +7,9 @@ v2026.11.24 alpha
     Wojska: Meca lub APC ze stopami w północnym rzędzie budynku jest rysowany za nim, aby budynek nie zasłaniał jego tekstury
     Samouczki: teraz to 9 bloków, po 3 na poziom (podstawowy, średni i zaawansowany), a każdy blok łączy swoje lekcje bez powrotu do menu
     Samouczki: 7 nowych lekcji (16-22) o F2, Tab i Spacji, Sprincie, APC i Raptorze, sojusznikach w trybie współpracy, Droidzie i Naukowcu, portalach i ekonomii
+    SI: broni Rządu, gdy jest oblężony (jej rozkazy obrony nie giną już w wyszukiwaniu) i gdy w pobliżu jest wroga armia, szkoli więcej wojsk oraz buduje Obronę Naziemną i drugie Centrum Szkolenia
+    SI: wrodzy Zwiadowcy liczą się jako zagrożenie, a ona nie wysyła nękających wypadów, dopóki wróg naciska na jej bazę
+    SI: oddziały, które dzieli, by polować, zwiadować lub korzystać z portali, teraz dostają swój rozkaz (wcześniej rozkaz dla nowego oddziału zawsze się nie udawał)
 
 v2026.11.23 alpha
     Konstruktor: wybiera wolne pole obok budynku z naprawdę najkrótszą trasą, więc nie nadkłada już drogi, żeby ominąć jezioro
