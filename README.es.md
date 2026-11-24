@@ -179,10 +179,16 @@ Abre el juego: la dirección del servidor ya viene rellena. Escribe tu nombre y 
 
 ## Histórico de cambios
 
-La última versión es **v2026.11.23 alpha**.
+La última versión es **v2026.11.24 alpha**.
 
 <details>
 <summary>Ver todas las versiones</summary>
+
+### v2026.11.24 alpha
+
+- Edificios: las tropas de tierra caminan por la franja exterior de 1 casilla de cada edificio (por sus cuatro lados) y el interior, el techo, es obstáculo; un destino o una posición sobre el techo pasa gratis a la casilla libre más cercana, y el Meca y el APC cruzan entre dos edificios pegados
+- Tropas: pueden parar sobre la franja de un edificio (un Meca se quedaba quieto si su destino estaba en la base de un edificio)
+- Tropas: un Meca o un APC con los pies en la fila norte de un edificio se dibuja detrás de él, para que éste no le tape la textura
 
 ### v2026.11.23 alpha
 

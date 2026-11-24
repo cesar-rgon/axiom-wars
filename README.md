@@ -179,10 +179,16 @@ Open the game: the server address is already filled in. Type your name, then cre
 
 ## Change history
 
-The latest version is **v2026.11.23 alpha**.
+The latest version is **v2026.11.24 alpha**.
 
 <details>
 <summary>Show all versions</summary>
+
+### v2026.11.24 alpha
+
+- Buildings: ground troops walk along the 1-tile outer strip of every building (all four sides) and the inside, the roof, is an obstacle; a destination or position on the roof moves for free to the nearest free tile, and the Meca and the APC pass between two touching buildings
+- Troops: they may stop on a building's strip (a Meca stood still when its destination was on a building's base)
+- Troops: a Meca or an APC with its feet on a building's north row is drawn behind it, so the building does not cover its picture
 
 ### v2026.11.23 alpha
 

@@ -219,7 +219,7 @@
   "mus.t16": "<strong>Replay da rodada.</strong> Uma lupa grande sobre um combate, com o dano de cada golpe.",
   "mus.hint": "Deslize para percorrer a linha do tempo →",
   "news.title": "Novidades",
-  "news.body": "As IAs agora são calculadas nos PCs dos jogadores («Usar meu PC para o cálculo das IAs», ativado por padrão) e as rodadas são resolvidas bem mais rápido. No coop os aliados começam mais afastados; contornos e dono (avatar e nome) sempre visíveis, edifícios translúcidos sob qualquer tropa, cores dos lados mais distintas e recursos destacados ao posicionar um extrator. Njeggen4you e Tweeto se juntam aos testadores.",
+  "news.body": "As tropas terrestres agora andam pela faixa externa dos edifícios (o telhado é obstáculo), o Meca não fica mais parado diante deles e seus pés são desenhados atrás do edifício. As IAs agora são calculadas nos PCs dos jogadores («Usar meu PC para o cálculo das IAs», ativado por padrão) e as rodadas são resolvidas bem mais rápido. No coop os aliados começam mais afastados; contornos e dono (avatar e nome) sempre visíveis, edifícios translúcidos sob qualquer tropa, cores dos lados mais distintas e recursos destacados ao posicionar um extrator. Njeggen4you e Tweeto se juntam aos testadores.",
   "news.all": "Ver o histórico completo de mudanças",
   "join.eyebrow": "Comunidade",
   "join.title": "Jogue com a gente",

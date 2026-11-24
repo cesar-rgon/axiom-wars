@@ -1,6 +1,11 @@
 HISTÓRICO DE MUDANÇAS DE AXIOM WARS
 (A versão é a data da última mudança no servidor ou no cliente.)
 
+v2026.11.24 alpha
+    Edifícios: as tropas terrestres andam pela faixa externa de 1 casa de cada edifício (pelos quatro lados) e o interior, o telhado, é obstáculo; um destino ou posição sobre o telhado passa de graça para a casa livre mais próxima, e o Meca e o APC passam entre dois edifícios encostados
+    Tropas: podem parar sobre a faixa de um edifício (um Meca ficava parado se o destino estivesse na base de um edifício)
+    Tropas: um Meca ou um APC com os pés na fileira norte de um edifício é desenhado atrás dele, para que o edifício não cubra a sua textura
+
 v2026.11.23 alpha
     Construtor: escolhe a casa livre ao lado do edifício com o trajeto realmente mais curto, então não faz mais desvios para evitar um lago
     Ordens: o destaque de uma ordem sob o cursor agora fica abaixo do seu número e do X para cancelá-la

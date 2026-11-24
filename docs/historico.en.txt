@@ -1,6 +1,11 @@
 AXIOM WARS CHANGE HISTORY
 (The version is the date of the latest change to the server or the client.)
 
+v2026.11.24 alpha
+    Buildings: ground troops walk along the 1-tile outer strip of every building (all four sides) and the inside, the roof, is an obstacle; a destination or position on the roof moves for free to the nearest free tile, and the Meca and the APC pass between two touching buildings
+    Troops: they may stop on a building's strip (a Meca stood still when its destination was on a building's base)
+    Troops: a Meca or an APC with its feet on a building's north row is drawn behind it, so the building does not cover its picture
+
 v2026.11.23 alpha
     Constructor: picks the free tile next to the building with the truly shortest route, so it no longer takes a detour to avoid a lake
     Orders: the highlight of an order under the cursor now sits below its number and its cancel X
