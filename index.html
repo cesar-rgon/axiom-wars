@@ -280,6 +280,24 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--ember); outline
 }
 .status::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--ember); box-shadow: 0 0 10px var(--ember); }
 
+/* Facciones (2026-11-28): cabecera destacada de cada facción y aviso de la Foránea */
+.faction-head { display: flex; align-items: center; gap: 22px; margin: 0 0 30px; padding-bottom: 18px; border-bottom: 2px solid transparent; border-image: linear-gradient(90deg, var(--fac, var(--plasma)), transparent 75%) 1; }
+.faction-head img { width: 104px; height: 104px; flex: none; object-fit: contain; filter: drop-shadow(0 6px 22px color-mix(in srgb, var(--fac, var(--plasma)) 45%, transparent)); }
+.faction-title { font: 700 clamp(2.2rem, 6vw, 3.6rem)/1.05 var(--font-display); margin: 0; color: #f2f6fc; letter-spacing: .02em; text-shadow: 0 0 28px color-mix(in srgb, var(--fac, var(--plasma)) 40%, transparent); }
+.faction-head .eyebrow { margin: 0 0 6px; color: var(--fac, var(--plasma)); }
+.faction-terranea { --fac: var(--plasma); }
+.faction-foranea { --fac: #6fe39a; }
+.faction-part + .faction-part { margin-top: 64px; }
+.faction-part > h2 { font-size: clamp(1.4rem, 3vw, 1.9rem); }
+.faction-dev { display: inline-flex; align-items: center; gap: 10px; margin-top: 10px; padding: 6px 14px; border: 1px solid #6fe39a; border-radius: 999px; font: 600 .85rem var(--font-mono); letter-spacing: .08em; text-transform: uppercase; color: #6fe39a; background: rgba(111,227,154,.08); }
+.faction-dev::before { content: ""; width: 9px; height: 9px; border-radius: 50%; background: #6fe39a; box-shadow: 0 0 10px #6fe39a; animation: devpulse 1.6s ease-in-out infinite; }
+@keyframes devpulse { 50% { opacity: .35; } }
+@media (prefers-reduced-motion: reduce) { .faction-dev::before { animation: none; } }
+.faction-banner { display: flex; align-items: center; justify-content: center; gap: 18px; margin: 22px auto 6px; width: min(1000px, 100%); box-sizing: border-box; padding: 20px 28px; border: 2px solid #6fe39a; border-radius: 8px; background: linear-gradient(180deg, rgba(111,227,154,.18), rgba(111,227,154,.06)); box-shadow: 0 0 26px rgba(111,227,154,.25); color: #e8fff0; font: 700 clamp(1.25rem, 3vw, 1.7rem) var(--font-display); letter-spacing: .02em; text-decoration: none; text-align: center; }
+.faction-banner img { width: 72px; height: 72px; object-fit: contain; flex: none; }
+.faction-banner:hover { background: linear-gradient(180deg, rgba(111,227,154,.28), rgba(111,227,154,.1)); }
+@media (max-width: 520px) { .faction-head { gap: 14px; } .faction-head img { width: 72px; height: 72px; } .faction-banner { padding: 14px 16px; gap: 12px; } .faction-banner img { width: 52px; height: 52px; } }
+
 /* Secciones */
 section { padding-block: 72px; border-top: 1px solid var(--line); }
 .eyebrow { font: 500 .78rem var(--font-mono); letter-spacing: .14em; text-transform: uppercase; color: var(--plasma); margin: 0 0 10px; }
@@ -465,7 +483,7 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
     <a class="brand" href="#top">Axiom <span>Wars</span></a>
     <nav class="topnav" aria-label="Sections" data-i18n-aria="nav.aria">
       <a href="#ronda" data-i18n="nav.play">How to play</a>
-      <a href="#faccion" data-i18n="nav.faction">Faction</a>
+      <a href="#faccion" data-i18n="nav.faction">Factions</a>
       <a href="#criaturas" data-i18n="nav.creatures">Creatures</a>
       <a href="#capturas" data-i18n="nav.shots">Screenshots</a>
       <a href="#museo" data-i18n="nav.museum">Museum</a>
@@ -533,6 +551,7 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
 
   <div class="live-zone" id="live-zone">
     <div class="wrap live-wrap">
+      <a class="faction-banner" href="#faccion-foranea"><img src="assets/img/factions/foranea.webp" alt="" aria-hidden="true" width="72" height="72"><span data-i18n="fora.banner">New faction in development: Foranea</span></a>
       <div class="event-banner" id="event-banner" role="status" hidden>
         <span class="event-text" data-i18n="event.text">Next streaming and online matches on {date}. Don't miss it!</span>
         <span id="event-tz" data-i18n="event.tz" hidden>in your time zone</span>
@@ -622,9 +641,13 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
     </div>
   </section>
 
-  <section id="faccion">
+  <section id="faccion" class="faction-terranea">
     <div class="wrap">
-      <p class="eyebrow" data-i18n="fac.eyebrow">Terran Faction</p>
+      <header class="faction-head">
+        <img src="assets/img/factions/terranea.webp" alt="" aria-hidden="true" width="104" height="104">
+        <div><p class="eyebrow" data-i18n="fac.label">Faction</p><h2 class="faction-title" data-i18n="fac.name">Terran</h2></div>
+      </header>
+      <div class="faction-part">
       <h2 data-i18n="fac.title">Nine units, from the mine to the sky</h2>
       <p class="section-intro" data-i18n="fac.intro">Civilian units keep the economy running; military units are recruited in buildings that require a higher-level Government. Values are provisional: balancing is still open.</p>
       <div class="units">
@@ -693,16 +716,25 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
         </article>
       </div>
       <p class="more-links"><a href="https://github.com/cesar-rgon/axiom-wars/blob/main/docs/units/README.md" target="_blank" rel="noopener" data-i18n="fac.sheets" data-i18n-href="fac.sheets.href">Full unit sheets</a></p>
-    </div>
-  </section>
+      </div>
 
-  <section id="balance-danos">
-    <div class="wrap">
+      <div class="faction-part" id="balance-danos">
       <p class="eyebrow" data-i18n="dmg.eyebrow">Balance</p>
       <h2 data-i18n="dmg.title">Damage balance</h2>
       <p class="section-intro" data-i18n="dmg.intro">Every weapon deals full damage only to the armor it was made for, and every troop takes maximum damage from three units and, once the Ground Tower is upgraded, from one tower as well, so none of them rules. Click a unit to see who it beats and who beats it, and pick a Government level to see only the attacks available at it.</p>
       <iframe id="dmg-frame" class="dmg-frame" src="docs/balance/damage-graph.html?embed&amp;theme=dark" data-i18n-src="dmg.src" title="Damage balance graph" data-i18n-title="dmg.frame" loading="lazy"></iframe>
       <p class="more-links"><a href="docs/balance/damage-graph.html" data-i18n="dmg.open" data-i18n-href="dmg.open.href">Open the graph on its own page</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="faccion-foranea" class="faction-foranea">
+    <div class="wrap">
+      <header class="faction-head">
+        <img src="assets/img/factions/foranea.webp" alt="" aria-hidden="true" width="104" height="104">
+        <div><p class="eyebrow" data-i18n="fac.label">Faction</p><h2 class="faction-title" data-i18n="fora.title">Foranea</h2>
+        <span class="faction-dev" data-i18n="fora.status">In development</span></div>
+      </header>
     </div>
   </section>
 
